@@ -1,0 +1,231 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Featured Applications | Canton Network</title>
+
+  <style>
+    :root {
+      --bg: #071017;
+      --panel: rgba(15, 28, 35, 0.92);
+      --panel-soft: rgba(10, 20, 27, 0.8);
+      --line: rgba(116, 227, 195, 0.24);
+      --text: #f7fbfc;
+      --muted: #c4d2d5;
+      --accent: #74e3c3;
+      --accent-strong: #f1ff9d;
+      --shadow: 0 24px 80px rgba(0, 0, 0, 0.35);
+    }
+
+    html,
+    body {
+      margin: 0;
+      min-height: 100%;
+      background:
+        radial-gradient(circle at top left, rgba(116, 227, 195, 0.14), transparent 30%),
+        linear-gradient(180deg, #061017 0%, #071017 100%);
+      color: var(--text);
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
+
+    body {
+      padding: 32px 18px 48px;
+      box-sizing: border-box;
+    }
+
+    .wrap {
+      max-width: 920px;
+      margin: 0 auto;
+    }
+
+    .panel {
+      padding: 48px;
+      border-radius: 28px;
+      background: var(--panel);
+      border: 1px solid var(--line);
+      box-shadow: var(--shadow);
+      backdrop-filter: blur(10px);
+    }
+
+    .eyebrow {
+      display: inline-block;
+      margin-bottom: 16px;
+      padding: 8px 12px;
+      border-radius: 999px;
+      background: rgba(116, 227, 195, 0.12);
+      color: var(--accent);
+      font-size: 13px;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      margin: 0 0 16px;
+      font-size: 42px;
+      line-height: 1.05;
+      letter-spacing: -0.03em;
+    }
+
+    h2 {
+      margin: 0 0 14px;
+      font-size: 28px;
+      line-height: 1.15;
+    }
+
+    p,
+    li {
+      color: var(--muted);
+      font-size: 18px;
+      line-height: 1.65;
+    }
+
+    p {
+      margin: 0 0 18px;
+    }
+
+    ul {
+      margin: 0 0 18px 22px;
+      padding: 0;
+    }
+
+    li {
+      margin: 8px 0;
+    }
+
+    a {
+      color: var(--accent-strong);
+    }
+
+    .actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 14px;
+      margin-top: 28px;
+    }
+
+    .button,
+    .button-secondary {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 48px;
+      padding: 0 18px;
+      border-radius: 14px;
+      font-weight: 800;
+      text-decoration: none;
+    }
+
+    .button {
+      background: var(--accent-strong);
+      color: #162118;
+    }
+
+    .button-secondary {
+      border: 1px solid rgba(241, 255, 157, 0.28);
+      color: var(--text);
+    }
+
+    .section,
+    .guidance,
+    .info {
+      margin-top: 28px;
+      padding: 24px;
+      border-radius: 18px;
+      background: var(--panel-soft);
+      border: 1px solid rgba(116, 227, 195, 0.16);
+    }
+
+    .guidance h2,
+    .section h2,
+    .info h2 {
+      margin-bottom: 14px;
+    }
+
+    @media (max-width: 640px) {
+      .panel {
+        padding: 28px 22px;
+        border-radius: 22px;
+      }
+
+      h1 {
+        font-size: 32px;
+      }
+
+      h2 {
+        font-size: 24px;
+      }
+
+      p,
+      li {
+        font-size: 16px;
+      }
+
+      .actions {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <section class="panel">
+      <div class="eyebrow">Featured Applications</div>
+      <h1>Apply for Featured App status on Canton Network.</h1>
+      <p>
+        Featured App status helps strong applications stand out in the ecosystem and gives the
+        Foundation and the network a clearer way to review readiness, scale, and ongoing compliance.
+      </p>
+      <p>
+        If you want your application to be considered, start with the request form below. After
+        that, review the Featured App guidance and the locking FAQ so your team knows the current
+        expectations.
+      </p>
+
+      <div class="actions">
+        <a class="button" href="https://canton.foundation/featured-app-request/" target="_blank" rel="noopener">
+          Submit Featured App Request
+        </a>
+        <a class="button-secondary" href="featured-app-locking-faq.html">Locking FAQ</a>
+        <a class="button-secondary" href="index.html">Back to Main Page</a>
+      </div>
+
+      <div class="section">
+        <h2>Why Featured Apps matter</h2>
+        <ul>
+          <li>They make strong applications easier for users, partners, and ecosystem participants to discover.</li>
+          <li>They help the Foundation prioritize apps that are operationally ready for growth and network participation.</li>
+          <li>They create clearer expectations around PartyID usage, scaling behavior, issuer classification, and compliance.</li>
+          <li>They help align application review with tokenomics, accountability, and production-readiness requirements.</li>
+        </ul>
+      </div>
+
+      <div class="guidance">
+        <h2>Featured App guidance</h2>
+        <ul>
+          <li>Please review the Featured App Marker Guidance.</li>
+          <li>Maximum of 2,500 new parties onboarded per week.</li>
+          <li>You will be added to the Slack channel <strong>#ext-temp-party-scaling</strong>.</li>
+          <li>UTXO management should target merging at 10 UTXOs, with less than or equal to 4 per party on average.</li>
+          <li>Airdrop drip campaigns must remain below 0.125 TPS per app.</li>
+          <li>High frequency billing should not exceed 1 transaction per customer every 12 hours.</li>
+          <li>Review the <a href="https://docs.google.com/document/d/1KJQ-T-HiO73nYMXTogGLVSu9lo9loMVgXNOosF74758/edit?tab=t.0#heading=h.6x3utttg2mly" target="_blank" rel="noopener">Featured App Coupon Guidance</a>.</li>
+          <li>Review the <a href="featured-app-locking-faq.html">Featured App Locking FAQ</a>.</li>
+        </ul>
+      </div>
+
+      <div class="info">
+        <h2>Builder resources</h2>
+        <p>
+          Need builder resources too? You can use the official
+          <a href="https://testnet-faucet.canton.foundation/" target="_blank" rel="noopener">Testnet Faucet</a>
+          and browse
+          <a href="https://dev-hub.canton.foundation/" target="_blank" rel="noopener">Developer Tooling</a>
+          to continue building on Canton Network.
+        </p>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

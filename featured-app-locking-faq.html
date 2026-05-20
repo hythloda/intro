@@ -1,0 +1,464 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Featured App Locking FAQ | Canton Network</title>
+
+  <style>
+    :root {
+      --bg: #071017;
+      --panel: rgba(15, 28, 35, 0.92);
+      --panel-soft: rgba(10, 20, 27, 0.8);
+      --line: rgba(116, 227, 195, 0.24);
+      --text: #f7fbfc;
+      --muted: #c4d2d5;
+      --accent: #74e3c3;
+      --accent-strong: #f1ff9d;
+      --shadow: 0 24px 80px rgba(0, 0, 0, 0.35);
+    }
+
+    html,
+    body {
+      margin: 0;
+      min-height: 100%;
+      background:
+        radial-gradient(circle at top left, rgba(116, 227, 195, 0.14), transparent 30%),
+        linear-gradient(180deg, #061017 0%, #071017 100%);
+      color: var(--text);
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
+
+    body {
+      padding: 32px 18px 48px;
+      box-sizing: border-box;
+    }
+
+    .wrap {
+      max-width: 980px;
+      margin: 0 auto;
+    }
+
+    .panel {
+      padding: 48px;
+      border-radius: 28px;
+      background: var(--panel);
+      border: 1px solid var(--line);
+      box-shadow: var(--shadow);
+      backdrop-filter: blur(10px);
+    }
+
+    .eyebrow {
+      display: inline-block;
+      margin-bottom: 16px;
+      padding: 8px 12px;
+      border-radius: 999px;
+      background: rgba(116, 227, 195, 0.12);
+      color: var(--accent);
+      font-size: 13px;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      margin: 0 0 16px;
+      font-size: 40px;
+      line-height: 1.05;
+      letter-spacing: -0.03em;
+    }
+
+    h2 {
+      margin: 30px 0 12px;
+      font-size: 28px;
+      line-height: 1.15;
+    }
+
+    p,
+    li {
+      color: var(--muted);
+      font-size: 17px;
+      line-height: 1.65;
+    }
+
+    p {
+      margin: 0 0 18px;
+    }
+
+    ul {
+      margin: 0 0 18px 22px;
+      padding: 0;
+    }
+
+    li {
+      margin: 8px 0;
+    }
+
+    a {
+      color: var(--accent-strong);
+    }
+
+    .actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 14px;
+      margin-top: 28px;
+    }
+
+    .button-secondary {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 48px;
+      padding: 0 18px;
+      border-radius: 14px;
+      font-weight: 800;
+      text-decoration: none;
+      border: 1px solid rgba(241, 255, 157, 0.28);
+      color: var(--text);
+    }
+
+    .notice,
+    .faq-item,
+    .summary-box {
+      margin-top: 24px;
+      padding: 22px;
+      border-radius: 18px;
+      background: var(--panel-soft);
+      border: 1px solid rgba(116, 227, 195, 0.16);
+    }
+
+    .faq-item h3 {
+      margin: 0 0 10px;
+      font-size: 22px;
+      color: var(--accent-strong);
+      line-height: 1.2;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 16px;
+    }
+
+    th,
+    td {
+      padding: 14px 12px;
+      border-top: 1px solid rgba(116, 227, 195, 0.16);
+      text-align: left;
+      vertical-align: top;
+      color: var(--muted);
+      font-size: 16px;
+      line-height: 1.55;
+    }
+
+    th {
+      color: var(--text);
+    }
+
+    @media (max-width: 640px) {
+      .panel {
+        padding: 28px 22px;
+        border-radius: 22px;
+      }
+
+      h1 {
+        font-size: 31px;
+      }
+
+      h2 {
+        font-size: 24px;
+      }
+
+      p,
+      li,
+      th,
+      td {
+        font-size: 16px;
+      }
+
+      .faq-item h3 {
+        font-size: 20px;
+      }
+
+      .actions {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <section class="panel">
+      <div class="eyebrow">Featured Applications</div>
+      <h1>Featured App Locking FAQ</h1>
+      <p>
+        This FAQ covers the locking requirements introduced by CIP 0116 for Featured App eligibility,
+        prioritization, ongoing compliance, and reinstatement.
+      </p>
+
+      <div class="actions">
+        <a class="button-secondary" href="featured-applications.html">Back to Featured Applications</a>
+        <a class="button-secondary" href="index.html">Back to Main Page</a>
+      </div>
+
+      <div class="notice">
+        <p><strong>Contact:</strong> Any questions not covered here should go to <a href="mailto:operations@canton.foundation">operations@canton.foundation</a>.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>1. What is CIP 0116?</h3>
+        <p>CIP 0116 introduces CC locking requirements for Featured App designation.</p>
+        <p>The purpose is to make Featured App approval and prioritization more objective by requiring applicants and existing Featured Apps to show committed capital for each Featured App PartyID.</p>
+        <p>To qualify for and maintain Featured App status, an app must remain in good standing with the Foundation and meet the required CC lock for each Featured App PartyID. If either requirement is not met, Featured App status may be removed.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>2. What are the locking requirements?</h3>
+        <table>
+          <thead>
+            <tr>
+              <th>Featured App Party Type</th>
+              <th>Required Locked CC</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Non issuer Featured App PartyID</td>
+              <td>5,000,000 CC per PartyID</td>
+            </tr>
+            <tr>
+              <td>Asset issuer Featured App PartyID</td>
+              <td>25,000,000 CC per PartyID</td>
+            </tr>
+          </tbody>
+        </table>
+        <p>Locking is required per PartyID. If an app has more than one Featured App PartyID, each PartyID must meet the applicable requirement.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>3. What is the difference between an issuer and a non issuer?</h3>
+        <p>A non issuer Featured App PartyID supports application activity but does not act as an asset issuer.</p>
+        <p>An asset issuer Featured App PartyID is associated with issuing or supporting asset activity. Issuer PartyIDs have a higher locking requirement.</p>
+        <p>Apps should accurately identify whether each PartyID is an issuer or non issuer. The Foundation and Accountability process may review network activity and metrics to confirm the correct classification.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>4. Can an app claim to be a non issuer to lock less CC?</h3>
+        <p>No. The classification must match the app’s actual activity. If the activity shows that a PartyID is functioning as an issuer, the issuer locking requirement applies.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>5. What does “locking” mean?</h3>
+        <p>The app must place the required amount of CC in a segregated, identifiable PartyID used for locking.</p>
+        <p>The app must notify the Foundation of the locking PartyID so it can be monitored. Only actively locked CC counts toward Featured App eligibility.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>6. Can the locking PartyID be the same PartyID used for normal app activity?</h3>
+        <p>No. The locking PartyID should be separate from normal app activity, rewards, and other holdings.</p>
+        <p>The locked CC should be easy to identify and monitor. Apps should not move funds in and out of the locking PartyID as part of normal operations.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>7. Can the locked CC come from borrowed funds or another source?</h3>
+        <p>Yes. The source of the CC is not an issue but the locking PartyID needs to be disclosed by the Featured Application.</p>
+        <p>The requirement is that the app has the required amount positioned in a dedicated locking PartyID and coordinates with the Foundation so the lock can be confirmed and monitored.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>8. What is the unlock period?</h3>
+        <p>The unlock period is 60 days.</p>
+        <p>Locked CC vests at 1/60 per day during the unlock period. This means funds cannot simply be removed all at once without affecting eligibility.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>9. What happens if the locked amount falls below the required threshold?</h3>
+        <p>Featured App status may be removed immediately if the locked amount falls below the required threshold. Locking requirements must be met continuously.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>10. What happens if an existing Featured App does not lock in time?</h3>
+        <p>Existing Featured Apps have 30 days from CIP 0116 approval to meet the applicable locking requirement.</p>
+        <p>If an existing Featured App does not meet the requirement within that window, it will lose Featured App status.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>11. What if an app was approved shortly before CIP 0116 was approved?</h3>
+        <p>Apps approved before or around the approval of CIP 0116 should receive the same 30 day compliance window from CIP approval.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>12. What happens to apps already in the approval queue?</h3>
+        <p>Apps already in the queue remain in the queue.</p>
+        <p>However, apps that show they have the required CC positioned and ready to lock may be prioritized for Tokenomics review.</p>
+        <ul>
+          <li>Submitting the application places the app in the general queue.</li>
+          <li>Demonstrating readiness to lock helps prioritize review.</li>
+          <li>If approved, the app must complete the required lock.</li>
+        </ul>
+      </div>
+
+      <div class="faq-item">
+        <h3>13. Does an app need to lock before submitting an application?</h3>
+        <p>No. An app can still submit an application and enter the general queue.</p>
+        <p>However, if the app wants to be prioritized for Tokenomics review, it should identify the relevant PartyID, position the required CC, and notify the Foundation.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>14. What does “ready to lock” mean?</h3>
+        <p>For a new applicant, “ready to lock” means the applicant has:</p>
+        <ul>
+          <li>Identified the Featured App PartyID</li>
+          <li>Identified the locking PartyID</li>
+          <li>Positioned the required CC</li>
+          <li>Notified the Foundation</li>
+          <li>Confirmed whether the PartyID is an issuer or non issuer</li>
+        </ul>
+        <p>If the application is not approved, the CC may be moved immediately.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>15. What happens if a new applicant is approved?</h3>
+        <p>If approved, the applicant must lock the required amount before the vote to feature the PartyID.</p>
+        <p>The on chain vote is expected to require proof that the app has locked sufficient CC.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>16. How will the approval queue be prioritized?</h3>
+        <p>Tokenomics review may prioritize apps that have demonstrated readiness to lock. This helps focus review time on applicants that are prepared to proceed if approved.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>17. What happens to paused Featured Apps?</h3>
+        <p>Paused apps must follow the reinstatement process.</p>
+        <ul>
+          <li>If the pause was valid because the app was out of compliance, the app is treated like a new applicant for reinstatement purposes.</li>
+          <li>That means the app should identify and position the required lock before being prioritized for reinstatement review.</li>
+          <li>If the pause was due to an error of fact or calculation, the app should be treated like an existing app in good standing.</li>
+        </ul>
+      </div>
+
+      <div class="faq-item">
+        <h3>18. Why would a paused app be treated like a new applicant?</h3>
+        <p>If an app was paused because it was out of compliance, requiring the app to meet the locking standard before reinstatement adds accountability. It also avoids giving paused apps better treatment than new applicants.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>19. What if a paused app believes it was paused by mistake?</h3>
+        <p>The app should use the appeal or reinstatement process and provide supporting evidence.</p>
+        <p>If Accountability determines that the pause resulted from a factual or calculation error, the app should not be treated as materially non compliant. In that case, the app may be treated like an existing Featured App in good standing and receive the normal 30 day locking window.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>20. What if a paused app was out of compliance but has fixed the issue?</h3>
+        <p>The app may seek reinstatement through the Accountability process.</p>
+        <p>If the pause was valid, the app should expect to meet the same readiness requirements as a new applicant, including identifying and positioning the applicable lock before reinstatement review is prioritized.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>21. Does locking guarantee approval or reinstatement?</h3>
+        <p>No. Locking does not guarantee approval or reinstatement.</p>
+        <p>Locking is an eligibility and prioritization requirement. The app must still meet all other Featured App requirements, including good standing with the Foundation and compliance with applicable Featured App guidance.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>22. Does locking replace other Featured App compliance requirements?</h3>
+        <p>No. Locking is an additional requirement.</p>
+        <p>Featured Apps must still comply with applicable guidance, including PartyID separation, issuer and non issuer requirements, marker and coupon guidance, and any other approved requirements.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>23. What happens if an app starts as a non issuer but later becomes an issuer?</h3>
+        <p>If app activity changes and the PartyID becomes an issuer PartyID, the higher issuer locking requirement applies.</p>
+        <p>Failure to meet the higher requirement may result in loss of Featured App status.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>24. How should apps notify the Foundation?</h3>
+        <p>Any questions not in this FAQ should go to: <a href="mailto:operations@canton.foundation">operations@canton.foundation</a>.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>25. Will the application form include locking information?</h3>
+        <p>Yes. The application process should collect the information needed to review locking readiness, including:</p>
+        <ul>
+          <li>Locking PartyID</li>
+          <li>Confirm Issuer or non issuer status</li>
+          <li>Confirm FA PartyID</li>
+        </ul>
+      </div>
+
+      <div class="faq-item">
+        <h3>26. Will there be a public dashboard for locking?</h3>
+        <p>A public dashboard is expected to be useful, but implementation details may depend on available ecosystem tooling.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>27. Who monitors compliance?</h3>
+        <p>The Foundation monitors locking PartyIDs and Featured App good standing.</p>
+        <p>Accountability may review compliance issues, appeals, and reinstatement requests.</p>
+        <p>Tokenomics may review and ratify policy details, prioritization rules, and reinstatement guidance.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>28. What happens if a Featured App loses status?</h3>
+        <p>If a Featured App loses status, it may need to reapply or seek reinstatement depending on the reason for removal.</p>
+        <p>If the app lost status because it failed to meet locking requirements or other guidance, it should expect to satisfy the current requirements before being reconsidered.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>29. Can locking thresholds change later?</h3>
+        <p>Yes. Tokenomics and Super Validators may propose updates to locking thresholds and lock durations.</p>
+        <p>Any updates must be publicly communicated, include an effective date, and provide reasonable notice before enforcement.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>30. What should new applicants do now?</h3>
+        <ul>
+          <li>Review CIP 0116</li>
+          <li>Determine whether each PartyID is an issuer or non issuer</li>
+          <li>Identify the required locking amount</li>
+          <li>Create or identify a segregated locking PartyID</li>
+          <li>Position the required CC if they want to be prioritized for review</li>
+          <li>Notify the Foundation at <a href="mailto:operations@canton.foundation">operations@canton.foundation</a> or respond to the form request</li>
+        </ul>
+      </div>
+
+      <div class="faq-item">
+        <h3>31. What should existing Featured Apps do now?</h3>
+        <ul>
+          <li>Confirm whether each Featured App PartyID is an issuer or non issuer</li>
+          <li>Identify the required lock amount for each PartyID</li>
+          <li>Prepare a segregated locking PartyID</li>
+          <li>Respond to the form requesting this information by the Foundation</li>
+          <li>Complete locking within the 30 day compliance window</li>
+        </ul>
+      </div>
+
+      <div class="faq-item">
+        <h3>32. What should paused apps do now?</h3>
+        <ul>
+          <li>Review the reason for the pause</li>
+          <li>Prepare any appeal or reinstatement materials</li>
+          <li>Determine whether they believe the pause was due to an error</li>
+          <li>If the pause was valid, prepare to meet the same locking readiness expectations as a new applicant</li>
+          <li>Contact the Foundation with the relevant PartyIDs, lock information, and compliance explanation</li>
+        </ul>
+      </div>
+
+      <div class="summary-box">
+        <h2>33. What is the simplest summary?</h2>
+        <ul>
+          <li>Existing Featured Apps have 30 days to lock.</li>
+          <li>New applicants can enter the queue, but lock readiness helps prioritize review.</li>
+          <li>Approved new applicants must lock before being featured.</li>
+          <li>Paused apps with valid compliance issues are treated like new applicants for reinstatement.</li>
+          <li>Paused apps that were paused due to an error should be treated like existing apps in good standing.</li>
+          <li>Locking must be maintained continuously to keep Featured App status.</li>
+        </ul>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
