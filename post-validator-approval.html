@@ -1,0 +1,404 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Post-Approval Validator Onboarding | Canton Network</title>
+
+  <style>
+    :root {
+      --bg: #060815;
+      --panel: rgba(16, 23, 42, 0.94);
+      --panel-soft: rgba(22, 32, 58, 0.88);
+      --text: #f7f8fc;
+      --muted: #c5ccdc;
+      --line: rgba(156, 182, 255, 0.2);
+      --accent: #78f0c5;
+      --accent-strong: #bafc68;
+      --shadow: 0 30px 80px rgba(0, 0, 0, 0.35);
+    }
+
+    html,
+    body {
+      margin: 0;
+      min-height: 100%;
+      background:
+        radial-gradient(circle at top left, rgba(120, 240, 197, 0.16), transparent 30%),
+        radial-gradient(circle at top right, rgba(186, 252, 104, 0.12), transparent 24%),
+        linear-gradient(180deg, #070b17 0%, #060815 100%);
+      color: var(--text);
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
+
+    body {
+      padding: 36px 18px 56px;
+      box-sizing: border-box;
+    }
+
+    .wrap {
+      max-width: 980px;
+      margin: 0 auto;
+    }
+
+    .panel {
+      padding: 48px;
+      border-radius: 28px;
+      background: var(--panel);
+      border: 1px solid var(--line);
+      box-shadow: var(--shadow);
+      backdrop-filter: blur(10px);
+    }
+
+    .eyebrow {
+      display: inline-block;
+      margin-bottom: 16px;
+      padding: 8px 12px;
+      border-radius: 999px;
+      background: rgba(120, 240, 197, 0.12);
+      color: var(--accent);
+      font-size: 13px;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      margin: 0 0 16px;
+      font-size: 42px;
+      line-height: 1.05;
+      letter-spacing: -0.03em;
+    }
+
+    h2 {
+      margin: 34px 0 12px;
+      font-size: 28px;
+      line-height: 1.15;
+    }
+
+    p,
+    li {
+      color: var(--muted);
+      font-size: 17px;
+      line-height: 1.65;
+    }
+
+    p {
+      margin: 0 0 20px;
+    }
+
+    ul,
+    ol {
+      margin: 0 0 20px 22px;
+      padding: 0;
+    }
+
+    li {
+      margin: 8px 0;
+    }
+
+    a {
+      color: var(--accent-strong);
+    }
+
+    hr {
+      border: none;
+      border-top: 1px solid var(--line);
+      margin: 30px 0;
+    }
+
+    .notice,
+    .section-box,
+    .script-box {
+      border-radius: 18px;
+      background: var(--panel-soft);
+      border: 1px solid rgba(120, 240, 197, 0.2);
+    }
+
+    .notice,
+    .section-box,
+    .script-box {
+      padding: 20px;
+    }
+
+    .notice {
+      margin: 24px 0;
+    }
+
+    .actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 14px;
+      margin-top: 28px;
+    }
+
+    .button,
+    .button-secondary {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 48px;
+      padding: 0 18px;
+      border-radius: 14px;
+      font-weight: 800;
+      text-decoration: none;
+    }
+
+    .button {
+      background: var(--accent-strong);
+      color: #132019;
+    }
+
+    .button-secondary {
+      border: 1px solid rgba(186, 252, 104, 0.3);
+      color: var(--text);
+    }
+
+    .details-list {
+      display: grid;
+      gap: 16px;
+      margin-top: 20px;
+    }
+
+    details {
+      border-radius: 16px;
+      background: rgba(10, 20, 27, 0.84);
+      border: 1px solid rgba(186, 252, 104, 0.14);
+      overflow: hidden;
+    }
+
+    summary {
+      cursor: pointer;
+      list-style: none;
+      padding: 18px 20px;
+      font-size: 18px;
+      font-weight: 700;
+      color: var(--text);
+    }
+
+    summary::-webkit-details-marker {
+      display: none;
+    }
+
+    .details-content {
+      padding: 0 20px 20px;
+    }
+
+    pre {
+      margin: 0;
+      padding: 18px;
+      overflow-x: auto;
+      border-radius: 14px;
+      background: #081019;
+      border: 1px solid rgba(156, 182, 255, 0.14);
+      color: #e8f4ff;
+      font-size: 14px;
+      line-height: 1.55;
+      white-space: pre;
+    }
+
+    code {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
+    }
+
+    @media (max-width: 700px) {
+      .panel {
+        padding: 28px 22px;
+        border-radius: 22px;
+      }
+
+      h1 {
+        font-size: 33px;
+      }
+
+      h2 {
+        font-size: 24px;
+      }
+
+      p,
+      li,
+      summary {
+        font-size: 16px;
+      }
+
+      .actions {
+        flex-direction: column;
+      }
+
+      pre {
+        font-size: 13px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <section class="panel">
+      <div class="eyebrow">Post-Approval</div>
+      <h1>Validator Onboarding Process after approval</h1>
+      <p>
+        This page covers what happens after validator approval, including DevNet practice,
+        MainNet onboarding, whitelisting, onboarding secrets, and how to stay connected with the
+        Global Synchronizer Foundation.
+      </p>
+
+      <div class="notice">
+        <strong>Note:</strong> If you are only interested in setting up a validator node, you can
+        set up a node on DevNet for practice and then jump to MainNet. If you plan to build, test,
+        or deploy an app, it is recommended that you run a node on DevNet, TestNet, and MainNet.
+      </div>
+
+      <div class="notice">
+        <strong>Note:</strong> DevNet is open to any whitelisted node. TestNet and MainNet require
+        an invitation through a Super Validator sponsor.
+      </div>
+
+      <div class="actions">
+        <a class="button" href="https://docs.canton.network/" target="_blank" rel="noopener">Open Docs</a>
+        <a class="button-secondary" href="validator.html">Back to Validator Page</a>
+        <a class="button-secondary" href="index.html">Back to Main Page</a>
+      </div>
+
+      <h2>Stay connected</h2>
+      <p>
+        Join the <strong>#validator-operations</strong> channel hosted by the Global Synchronizer
+        Foundation using Slack Connect.
+      </p>
+      <p>
+        Your Slack workspace may allow you to browse to this channel, or you can ask your SV
+        sponsor to send you an invitation.
+      </p>
+      <p>
+        To stay up to date with changes and announcements from the Global Synchronizer Foundation,
+        consider joining these email lists:
+      </p>
+      <ul>
+        <li><code>main</code></li>
+        <li><code>cip-announce</code></li>
+        <li><code>tokenomics-announce</code></li>
+        <li><code>validator-announce</code></li>
+      </ul>
+      <p>Create an account at <code>groups.io</code>, then go to <a href="https://lists.sync.global" target="_blank" rel="noopener">lists.sync.global</a> and sign up.</p>
+
+      <hr>
+
+      <h2>High-level steps</h2>
+      <ol>
+        <li>Ask the Super Validators to whitelist a fixed IP on DevNet for your validator node.</li>
+        <li>Spin up your node for DevNet.</li>
+        <li>Request a DevNet onboarding secret via API call.</li>
+        <li>Ask the Super Validators to whitelist your fixed MainNet IP for your validator node.</li>
+        <li>Spin up your node on MainNet.</li>
+        <li>Request a MainNet onboarding secret via Slack to your sponsoring SV.</li>
+      </ol>
+
+      <hr>
+
+      <h2>Detailed onboarding steps</h2>
+      <div class="section-box">
+        <ol>
+          <li>Whitelist your IP for DevNet. Share your IP with your Super Validator sponsor. The sponsor will submit a request to the other Super Validators, and adoption typically takes 2 to 7 days.</li>
+          <li>Spin up your DevNet node by following the setup documentation at <a href="https://docs.canton.network/" target="_blank" rel="noopener">docs.canton.network</a>.</li>
+          <li>Request a secret from your SV sponsor. Once 2/3 of the Super Validators have whitelisted your IP, you will be able to join DevNet and request an onboarding secret via API call.</li>
+          <li>Request approval to join MainNet by asking a Super Validator to sponsor you and by completing the validator request form at <a href="https://canton.foundation/apply-to-set-up-a-validator-node/" target="_blank" rel="noopener">canton.foundation/apply-to-set-up-a-validator-node</a>.</li>
+          <li>Your application will be reviewed by the Tokenomics Committee of the Global Synchronizer Foundation. Requests are accepted or rejected after one week, and accepted validators are announced on the <a href="https://lists.sync.global" target="_blank" rel="noopener">tokenomics-announce mailing list</a>.</li>
+          <li>Whitelist your IP for MainNet. Share your MainNet IP with your Super Validator sponsor. As with DevNet, adoption by the other Super Validators typically takes 2 to 7 days.</li>
+          <li>Spin up your MainNet node by following the MainNet setup documentation at <a href="https://docs.canton.network/" target="_blank" rel="noopener">docs.canton.network</a>.</li>
+          <li>Request a MainNet onboarding secret from your sponsoring SV through Slack. The same sponsor-based process applies for TestNet and MainNet.</li>
+        </ol>
+      </div>
+
+      <hr>
+
+      <h2>Whitelisting verification</h2>
+      <p>
+        After you submit your IP for whitelisting, adoption can take up to 7 days because 2/3 of
+        the Super Validators need to adopt the whitelist. The scripts below let you check how many
+        Super Validators are already reachable from your IP.
+      </p>
+
+      <div class="details-list">
+        <details>
+          <summary>DevNet verification script</summary>
+          <div class="details-content">
+            <pre><code>for url in \
+https://scan.sv-1.dev.global.canton.network.c7.digital \
+https://scan.sv-1.dev.global.canton.network.cumberland.io \
+https://scan.sv-2.dev.global.canton.network.cumberland.io \
+https://scan.sv.dev.global.canton.network.digitalasset.com \
+https://scan.sv-1.dev.global.canton.network.digitalasset.com \
+https://scan.sv-2.dev.global.canton.network.digitalasset.com \
+https://scan.sv-1.dev.global.canton.network.fivenorth.io \
+https://scan.sv-1.dev.global.canton.network.sync.global \
+https://scan.sv-1.dev.global.canton.network.lcv.mpch.io \
+https://scan.sv-1.dev.global.canton.network.mpch.io \
+https://scan.sv-1.dev.global.canton.network.orb1lp.mpch.io \
+https://scan.sv-1.dev.global.canton.network.proofgroup.xyz \
+https://scan.sv.dev.global.canton.network.sv-nodeops.com \
+https://scan.sv-1.dev.global.canton.network.tradeweb.com
+do
+  printf "%s: " "$url"
+  resp=$(curl -fsS --ipv4 --connect-timeout 10 --max-time 20 "$url/api/scan/version" 2&gt;/dev/null) \
+    || { echo "unreachable"; continue; }
+  echo "$resp" | jq -r '.version // "no version"'
+done</code></pre>
+          </div>
+        </details>
+
+        <details>
+          <summary>TestNet verification script</summary>
+          <div class="details-content">
+            <pre><code>for url in \
+https://scan.sv-1.test.global.canton.network.c7.digital \
+https://scan.sv-1.test.global.canton.network.cumberland.io \
+https://scan.sv-2.test.global.canton.network.cumberland.io \
+https://scan.sv.test.global.canton.network.digitalasset.com \
+https://scan.sv-1.test.global.canton.network.digitalasset.com \
+https://scan.sv-2.test.global.canton.network.digitalasset.com \
+https://scan.sv-1.test.global.canton.network.fivenorth.io \
+https://scan.sv-1.test.global.canton.network.sync.global \
+https://scan.sv-1.test.global.canton.network.lcv.mpch.io \
+https://scan.sv-1.test.global.canton.network.mpch.io \
+https://scan.sv-1.test.global.canton.network.orb1lp.mpch.io \
+https://scan.sv-1.test.global.canton.network.proofgroup.xyz \
+https://scan.sv.test.global.canton.network.sv-nodeops.com \
+https://scan.sv-1.test.global.canton.network.tradeweb.com
+do
+  printf "%s: " "$url"
+  resp=$(curl -fsS --ipv4 --connect-timeout 10 --max-time 20 "$url/api/scan/version" 2&gt;/dev/null) \
+  || { echo "unreachable"; continue; }
+  echo "$resp" | jq -r '.version // "no version"'
+done</code></pre>
+          </div>
+        </details>
+
+        <details>
+          <summary>MainNet verification script</summary>
+          <div class="details-content">
+            <pre><code>for url in \
+https://scan.sv-1.global.canton.network.c7.digital \
+https://scan.sv-1.global.canton.network.cumberland.io \
+https://scan.sv-2.global.canton.network.cumberland.io \
+https://scan.sv-1.global.canton.network.digitalasset.com \
+https://scan.sv-2.global.canton.network.digitalasset.com \
+https://scan.sv-1.global.canton.network.fivenorth.io \
+https://scan.sv-1.global.canton.network.sync.global \
+https://scan.sv-1.global.canton.network.lcv.mpch.io \
+https://scan.sv-1.global.canton.network.mpch.io \
+https://scan.sv-1.global.canton.network.orb1lp.mpch.io \
+https://scan.sv-1.global.canton.network.proofgroup.xyz \
+https://scan.sv.global.canton.network.sv-nodeops.com \
+https://scan.sv-1.global.canton.network.tradeweb.com
+do
+  printf "%s: " "$url"
+  resp=$(curl -fsS --ipv4 --connect-timeout 10 --max-time 20 \
+"$url/api/scan/version" 2&gt;/dev/null) \
+  || { echo unreachable; continue; }
+  echo "$resp" | jq -r '.version // "no version"'
+done</code></pre>
+          </div>
+        </details>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

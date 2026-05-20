@@ -1,0 +1,408 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Validator Onboarding | Canton Network</title>
+
+  <style>
+    :root {
+      --bg: #060815;
+      --panel: rgba(16, 23, 42, 0.94);
+      --panel-soft: rgba(22, 32, 58, 0.88);
+      --text: #f7f8fc;
+      --muted: #c5ccdc;
+      --line: rgba(156, 182, 255, 0.2);
+      --accent: #78f0c5;
+      --accent-strong: #bafc68;
+      --shadow: 0 30px 80px rgba(0, 0, 0, 0.35);
+    }
+
+    html,
+    body {
+      margin: 0;
+      min-height: 100%;
+      background:
+        radial-gradient(circle at top left, rgba(120, 240, 197, 0.16), transparent 30%),
+        radial-gradient(circle at top right, rgba(186, 252, 104, 0.12), transparent 24%),
+        linear-gradient(180deg, #070b17 0%, #060815 100%);
+      color: var(--text);
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
+
+    body {
+      padding: 36px 18px 56px;
+      box-sizing: border-box;
+    }
+
+    .wrap {
+      max-width: 980px;
+      margin: 0 auto;
+    }
+
+    .panel {
+      padding: 48px;
+      border-radius: 28px;
+      background: var(--panel);
+      border: 1px solid var(--line);
+      box-shadow: var(--shadow);
+      backdrop-filter: blur(10px);
+    }
+
+    .eyebrow {
+      display: inline-block;
+      margin-bottom: 16px;
+      padding: 8px 12px;
+      border-radius: 999px;
+      background: rgba(120, 240, 197, 0.12);
+      color: var(--accent);
+      font-size: 13px;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      margin: 0 0 16px;
+      font-size: 42px;
+      line-height: 1.05;
+      letter-spacing: -0.03em;
+    }
+
+    h2 {
+      margin: 34px 0 12px;
+      font-size: 28px;
+      line-height: 1.15;
+    }
+
+    h3 {
+      margin: 26px 0 10px;
+      font-size: 22px;
+      color: var(--accent-strong);
+    }
+
+    p,
+    li {
+      color: var(--muted);
+      font-size: 17px;
+      line-height: 1.65;
+    }
+
+    p {
+      margin: 0 0 20px;
+    }
+
+    ul,
+    ol {
+      margin: 0 0 20px 22px;
+      padding: 0;
+    }
+
+    li {
+      margin: 8px 0;
+    }
+
+    a {
+      color: var(--accent-strong);
+    }
+
+    hr {
+      border: none;
+      border-top: 1px solid var(--line);
+      margin: 30px 0;
+    }
+
+    .notice,
+    .summary-box {
+      border-radius: 18px;
+      background: var(--panel-soft);
+      border: 1px solid rgba(120, 240, 197, 0.2);
+    }
+
+    .notice {
+      margin: 24px 0;
+      padding: 20px;
+    }
+
+    .summary-box {
+      margin-top: 34px;
+      padding: 26px;
+    }
+
+    .info-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 18px;
+      margin: 20px 0;
+    }
+
+    .info-card {
+      padding: 20px;
+      border-radius: 18px;
+      background: var(--panel-soft);
+      border: 1px solid rgba(120, 240, 197, 0.2);
+    }
+
+    .info-label {
+      display: inline-block;
+      margin-bottom: 10px;
+      color: var(--accent);
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    .actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 14px;
+      margin-top: 28px;
+    }
+
+    .button,
+    .button-secondary {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 48px;
+      padding: 0 18px;
+      border-radius: 14px;
+      font-weight: 800;
+      text-decoration: none;
+    }
+
+    .button {
+      background: var(--accent-strong);
+      color: #132019;
+    }
+
+    .button-secondary {
+      border: 1px solid rgba(186, 252, 104, 0.3);
+      color: var(--text);
+    }
+
+    @media (max-width: 700px) {
+      .panel {
+        padding: 28px 22px;
+        border-radius: 22px;
+      }
+
+      h1 {
+        font-size: 33px;
+      }
+
+      h2 {
+        font-size: 24px;
+      }
+
+      h3 {
+        font-size: 20px;
+      }
+
+      p,
+      li {
+        font-size: 16px;
+      }
+
+      .info-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .actions {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <section class="panel">
+      <div class="eyebrow">Validators</div>
+      <h1>Canton Network Validator Onboarding</h1>
+      <p>
+        These guidelines outline the core steps for onboarding as a validator on the Canton Network,
+        including sponsorship, application, and approval. Once you are approved, continue to the
+        post-approval onboarding page for whitelisting, node setup, and onboarding secrets.
+      </p>
+
+      <div class="notice">
+        <strong>Important:</strong> Tokenomics Committee approval is required before proceeding to TestNet or MainNet.
+      </div>
+
+      <div class="actions">
+        <a class="button" href="https://canton.foundation/apply-to-set-up-a-validator-node/" target="_blank" rel="noopener">
+          Start Validator Application
+        </a>
+        <a class="button-secondary" href="post-validator-approval.html">
+          Post-Approval Steps
+        </a>
+        <a class="button-secondary" href="index.html">Back to Main Page</a>
+      </div>
+
+      <h2>Other ways to join</h2>
+      <p>
+        There are several ways to become a validator in the Canton Network. If you want the fastest
+        path to participation, you can use a white-label validator node operated by an approved
+        Canton Node-as-a-Service provider.
+      </p>
+      <p>
+        This option gives you network access without needing to deploy or maintain your own
+        infrastructure. You can review the full validator access options here:
+        <a href="https://canton.foundation/validators/" target="_blank" rel="noopener">
+          canton.foundation/validators
+        </a>
+      </p>
+      <ul>
+        <li>Join the network quickly with minimal setup.</li>
+        <li>Rely on expert operators who manage security, uptime, and compliance.</li>
+        <li>Maintain your own secure identity and permissions within the network.</li>
+        <li>Keep the flexibility to transition to operating your own validator in the future.</li>
+      </ul>
+      <p>
+        The Foundation also lists approved Node-as-a-Service providers and explains how to apply as
+        a validator operator or request recognition as a service provider.
+      </p>
+
+      <hr>
+
+      <h2>How Canton works</h2>
+      <p>
+        Canton is a network of networks. Instead of globally replicating all state to every node,
+        data is distributed only to the validators and parties that need to see it. That privacy-by-design
+        model is one of the biggest differences between Canton and public blockchains.
+      </p>
+
+      <div class="info-grid">
+        <div class="info-card">
+          <div class="info-label">Validators</div>
+          <p>Your validator stores contract data and executes smart contract code for the parties it hosts.</p>
+          <ul>
+            <li>Your validator only sees contracts where your parties are stakeholders.</li>
+            <li>Validators have state and are not meant to be interchangeable or ephemeral.</li>
+            <li>Each validator connects to one or more synchronizers.</li>
+          </ul>
+        </div>
+
+        <div class="info-card">
+          <div class="info-label">Global Synchronizer</div>
+          <p>The Global Synchronizer is the coordination and ordering layer operated by Super Validators.</p>
+          <ul>
+            <li>It time-orders cross-application transactions.</li>
+            <li>It forwards encrypted messages without understanding transaction contents.</li>
+            <li>It prevents conflicts while preserving privacy.</li>
+          </ul>
+        </div>
+      </div>
+
+      <p>
+        Compared with public blockchains, Canton uses selective data distribution, party-based identity,
+        and validator-hosted private data rather than
+        broad state replication across all nodes.
+      </p>
+
+      <h2>1. Sponsorship Requirement</h2>
+      <ul>
+        <li>To join the Canton Network as a validator, you must have a sponsor.</li>
+        <li>If you do not have one, you can request sponsorship from the Canton Foundation.</li>
+      </ul>
+
+      <hr>
+
+      <h2>2. Initial Application</h2>
+      <p>Start by completing the validator application form:</p>
+      <p>
+        <a href="https://canton.foundation/apply-to-set-up-a-validator-node/" target="_blank" rel="noopener">
+          Apply to set up a validator node
+        </a>
+      </p>
+
+      <hr>
+
+      <h2>3. Tokenomics Committee Approval</h2>
+      <ul>
+        <li>After submitting the application, you must be approved by the Tokenomics Committee.</li>
+        <li>This approval is required for both TestNet and MainNet.</li>
+        <li>If you only want DevNet access, you can skip Tokenomics Committee approval and submit the IP request directly here: <a href="https://forms.gle/WJPrNFwo3R2zCqBd8" target="_blank" rel="noopener">DevNet IP Request</a>.</li>
+        <li>The committee reviews applications weekly, every Wednesday.</li>
+        <li>
+          Results are published here:
+          <a href="https://lists.sync.global/g/tokenomics-announce" target="_blank" rel="noopener">
+            tokenomics-announce
+          </a>
+        </li>
+        <li>You cannot proceed to TestNet or MainNet without this approval.</li>
+      </ul>
+
+      <hr>
+
+      <h2>4. MainNet Validator Allocation Process</h2>
+      <ul>
+        <li>A weekly validator allocation process is used to manage MainNet access.</li>
+        <li>Priority is given to GTM-ready projects.</li>
+        <li>GTM-ready projects include those with functional builds on DevNet or TestNet and readiness for immediate MainNet activation.</li>
+        <li>Capacity is up to 35 validators per week.</li>
+        <li>Allocations are processed every Wednesday.</li>
+        <li>Announcements are published here: <a href="https://lists.sync.global/g/supervalidator-announce" target="_blank" rel="noopener">supervalidator-announce</a>.</li>
+        <li>
+          More details:
+          <a href="https://docs.google.com/document/d/1MbclKMMooG6q4SrWYiQ4HkkNXakQtSNa/edit" target="_blank" rel="noopener">
+            Validator Allocations Jan 2026
+          </a>
+        </li>
+        <li>
+          Entries can be verified here:
+          <a href="https://docs.google.com/spreadsheets/d/1CiasbkHNFTy24ml65X8ozYAnZU4E3aRd3p_JWr9P3nA/edit?gid=845279533#gid=845279533" target="_blank" rel="noopener">
+            Validator Allocation Spreadsheet
+          </a>
+        </li>
+      </ul>
+
+      <hr>
+
+      <h2>5. After approval</h2>
+      <ul>
+        <li>After approval, continue to the post-approval onboarding page for DevNet and MainNet operational steps.</li>
+        <li>That page covers IP whitelisting, node setup, sponsor coordination, onboarding secrets, and verification scripts.</li>
+        <li>Use the official docs for the technical setup steps once you reach that stage.</li>
+      </ul>
+
+      <hr>
+
+      <h2>Infrastructure and deployment expectations</h2>
+      <ul>
+        <li>After approval, provide a static egress IP address for whitelisting.</li>
+        <li>Prepare a container-based environment on a VM or Kubernetes cluster.</li>
+        <li>OIDC authentication is typically required, using a provider such as Auth0 or Keycloak.</li>
+        <li>Kubernetes is recommended for production deployments.</li>
+        <li>You can deploy in cloud or on-premise environments depending on your operating model.</li>
+      </ul>
+
+      <p>
+        The common path is to get stable on DevNet first, then request TestNet access, and finally
+        move to MainNet when the validator and application flows are production-ready.
+      </p>
+
+      <div class="summary-box">
+        <h2>Summary Flow</h2>
+        <ol>
+          <li>Secure a sponsor.</li>
+          <li>Submit the validator application form.</li>
+          <li>Wait for Tokenomics Committee approval through the Wednesday cycle.</li>
+          <li>Review MainNet allocation timing if you are targeting MainNet access.</li>
+          <li>Continue to post-approval onboarding for whitelisting and deployment steps.</li>
+        </ol>
+
+        <a class="button" href="https://canton.foundation/apply-to-set-up-a-validator-node/" target="_blank" rel="noopener">
+          Start Validator Application
+        </a>
+        <a class="button-secondary" href="post-validator-approval.html">View Post-Approval Onboarding</a>
+      </div>
+
+      <hr>
+
+      <p><strong>Next step after approval:</strong> open the <a href="post-validator-approval.html">Post-Approval Onboarding</a> page.</p>
+    </section>
+  </main>
+</body>
+</html>

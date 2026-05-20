@@ -1,0 +1,263 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Super Validators | Canton Network</title>
+
+  <style>
+    :root {
+      --bg: #060815;
+      --panel: rgba(16, 23, 42, 0.94);
+      --panel-soft: rgba(22, 32, 58, 0.88);
+      --text: #f7f8fc;
+      --muted: #c5ccdc;
+      --line: rgba(156, 182, 255, 0.2);
+      --accent: #78f0c5;
+      --accent-strong: #bafc68;
+      --shadow: 0 30px 80px rgba(0, 0, 0, 0.35);
+    }
+
+    html,
+    body {
+      margin: 0;
+      min-height: 100%;
+      background:
+        radial-gradient(circle at top left, rgba(120, 240, 197, 0.16), transparent 30%),
+        radial-gradient(circle at top right, rgba(186, 252, 104, 0.12), transparent 24%),
+        linear-gradient(180deg, #070b17 0%, #060815 100%);
+      color: var(--text);
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
+
+    body {
+      padding: 36px 18px 56px;
+      box-sizing: border-box;
+    }
+
+    .wrap {
+      max-width: 980px;
+      margin: 0 auto;
+    }
+
+    .panel {
+      padding: 48px;
+      border-radius: 28px;
+      background: var(--panel);
+      border: 1px solid var(--line);
+      box-shadow: var(--shadow);
+      backdrop-filter: blur(10px);
+    }
+
+    .eyebrow {
+      display: inline-block;
+      margin-bottom: 16px;
+      padding: 8px 12px;
+      border-radius: 999px;
+      background: rgba(120, 240, 197, 0.12);
+      color: var(--accent);
+      font-size: 13px;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      margin: 0 0 16px;
+      font-size: 42px;
+      line-height: 1.05;
+      letter-spacing: -0.03em;
+    }
+
+    h2 {
+      margin: 34px 0 12px;
+      font-size: 28px;
+      line-height: 1.15;
+    }
+
+    h3 {
+      margin: 26px 0 10px;
+      font-size: 22px;
+      color: var(--accent-strong);
+    }
+
+    p,
+    li {
+      color: var(--muted);
+      font-size: 17px;
+      line-height: 1.65;
+    }
+
+    p {
+      margin: 0 0 20px;
+    }
+
+    ul,
+    ol {
+      margin: 0 0 20px 22px;
+      padding: 0;
+    }
+
+    li {
+      margin: 8px 0;
+    }
+
+    a {
+      color: var(--accent-strong);
+    }
+
+    hr {
+      border: none;
+      border-top: 1px solid var(--line);
+      margin: 30px 0;
+    }
+
+    .notice,
+    .summary-box {
+      border-radius: 18px;
+      background: var(--panel-soft);
+      border: 1px solid rgba(120, 240, 197, 0.2);
+    }
+
+    .notice {
+      padding: 20px;
+    }
+
+    .notice {
+      margin: 24px 0;
+    }
+
+    .summary-box {
+      margin-top: 34px;
+      padding: 26px;
+    }
+
+    .actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 14px;
+      margin-top: 28px;
+    }
+
+    .button,
+    .button-secondary {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 48px;
+      padding: 0 18px;
+      border-radius: 14px;
+      font-weight: 800;
+      text-decoration: none;
+    }
+
+    .button {
+      background: var(--accent-strong);
+      color: #132019;
+    }
+
+    .button-secondary {
+      border: 1px solid rgba(186, 252, 104, 0.3);
+      color: var(--text);
+    }
+
+    @media (max-width: 700px) {
+      .panel {
+        padding: 28px 22px;
+        border-radius: 22px;
+      }
+
+      h1 {
+        font-size: 33px;
+      }
+
+      h2 {
+        font-size: 24px;
+      }
+
+      h3 {
+        font-size: 20px;
+      }
+
+      p,
+      li {
+        font-size: 16px;
+      }
+
+      .actions {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <section class="panel">
+      <div class="eyebrow">Super Validators</div>
+      <h1>Super Validators help govern and coordinate the Global Synchronizer.</h1>
+      <p>
+        Super Validators play a central role in how changes are proposed, reviewed, approved, and
+        adopted across the Canton Network. Participation requires a CIP, and CIP-0000 is the core
+        process document that defines how those proposals move from idea to adoption.
+      </p>
+
+      <div class="notice">
+        <strong>Important:</strong> Super Validator participation requires working through the
+        Canton Improvement Proposal process defined in CIP-0000.
+      </div>
+
+      <div class="actions">
+        <a class="button" href="https://github.com/canton-foundation/cips/blob/main/cip-0000/cip-0000.md" target="_blank" rel="noopener">
+          Review CIP-0000
+        </a>
+        <a class="button-secondary" href="index.html">Back to Main Page</a>
+      </div>
+
+      <h2>Why Super Validators are useful</h2>
+      <ul>
+        <li>They provide a structured governance path for changes that affect the Global Synchronizer, both onchain and offchain.</li>
+        <li>They help create trust through open discussion, shared review, and transparent decision-making rather than ad hoc coordination.</li>
+        <li>They vote on proposed CIPs, and approvals require a 2/3 majority in favor.</li>
+        <li>They help ratify changes onchain when adoption steps are required, which turns Approved proposals into Final ones.</li>
+        <li>They give the network a consistent operating model for protocol evolution, governance updates, tokenomics decisions, and process changes.</li>
+      </ul>
+
+      <hr>
+
+      <h2>How to think about CIP-0000</h2>
+      <p>
+        CIP-0000 is the starting point for understanding how proposals move through the Canton
+        governance process. It explains how ideas are discussed, refined, sponsored, voted on,
+        and adopted.
+      </p>
+      <ul>
+        <li>Read CIP-0000 if you want to understand the official proposal path.</li>
+        <li>Use it when preparing a governance, standards, tokenomics, process, or informational proposal.</li>
+        <li>Work with the community and CIP editors rather than trying to navigate the process alone.</li>
+      </ul>
+
+      <hr>
+
+      <h2>What to do next</h2>
+      <p>
+        If you are serious about the Super Validator path, the best next step is to read the full
+        CIP-0000 document and use it as the source of truth for process details.
+      </p>
+
+      <div class="summary-box">
+        <h2>Quick start</h2>
+        <ol>
+          <li>Read <a href="https://github.com/canton-foundation/cips/blob/main/cip-0000/cip-0000.md" target="_blank" rel="noopener">CIP-0000</a>.</li>
+          <li>Discuss your idea with the community on <a href="https://lists.sync.global/g/cip-discuss/topics" target="_blank" rel="noopener">cip-discuss</a>.</li>
+          <li>Prepare your proposal in the <a href="https://github.com/canton-foundation/cips" target="_blank" rel="noopener">cips repository</a>.</li>
+          <li>Work toward sponsor support and the formal process described in CIP-0000.</li>
+        </ol>
+
+        <a class="button" href="https://github.com/canton-foundation/cips/blob/main/cip-0000/cip-0000.md" target="_blank" rel="noopener">
+          Open CIP-0000
+        </a>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
