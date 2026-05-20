@@ -164,7 +164,28 @@ function renderContent(text) {
   flushList();
   flushCode();
 
-  return out.join("\n");
+  return postProcessHtml(out.join("\n"));
+}
+
+function postProcessHtml(html) {
+  return html.replace(
+    /<h3>3\. No Markers for the Cost of Submitting Markers<\/h3>\s*<p>Featured Apps may not include the cost of submitting markers when calculating allowable markers\. Markers cannot justify themselves\.<\/p>\s*<h3>Example<\/h3>\s*<p>If:<\/p>\s*<p>Then:<\/p>\s*<p>This prevents circular farming and self-reinforcing reward loops\.<\/p>\s*<ul>\s*<li>Total fees generated = \$10<\/li>\s*<li>\$3 of that is marker submission cost<\/li>\s*<li>Net eligible fees = \$7<\/li>\s*<li>Maximum allowable markers = 7<\/li>\s*<\/ul>/,
+    `<h3>3. No Markers for the Cost of Submitting Markers</h3>
+<p>Featured Apps may not include the cost of submitting markers when calculating allowable markers.</p>
+<p>Markers cannot justify themselves.</p>
+<h3>Example</h3>
+<p>If:</p>
+<ul>
+<li>Total fees generated = $10</li>
+<li>$3 of that is marker submission cost</li>
+</ul>
+<p>Then:</p>
+<ul>
+<li>Net eligible fees = $7</li>
+<li>Maximum allowable markers = 7</li>
+</ul>
+<p>This prevents circular farming and self-reinforcing reward loops.</p>`
+  );
 }
 
 function renderPage(bodyHtml) {
