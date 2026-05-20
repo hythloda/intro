@@ -168,7 +168,8 @@ function renderContent(text) {
 }
 
 function postProcessHtml(html) {
-  return html.replace(
+  return html
+    .replace(
     /<h3>3\. No Markers for the Cost of Submitting Markers<\/h3>\s*<p>Featured Apps may not include the cost of submitting markers when calculating allowable markers\. Markers cannot justify themselves\.<\/p>\s*<h3>Example<\/h3>\s*<p>If:<\/p>\s*<p>Then:<\/p>\s*<p>This prevents circular farming and self-reinforcing reward loops\.<\/p>\s*<ul>\s*<li>Total fees generated = \$10<\/li>\s*<li>\$3 of that is marker submission cost<\/li>\s*<li>Net eligible fees = \$7<\/li>\s*<li>Maximum allowable markers = 7<\/li>\s*<\/ul>/,
     `<h3>3. No Markers for the Cost of Submitting Markers</h3>
 <p>Featured Apps may not include the cost of submitting markers when calculating allowable markers.</p>
@@ -185,6 +186,24 @@ function postProcessHtml(html) {
 <li>Maximum allowable markers = 7</li>
 </ul>
 <p>This prevents circular farming and self-reinforcing reward loops.</p>`
+  )
+    .replace(
+    /<h3>6\. No Net-Paying Users for Activity<\/h3>\s*<p>Featured Apps may not use rewards to net pay users for activity\. Permitted:<\/p>\s*<p>Not permitted:<\/p>\s*<p>Markers must reflect organic demand, not purchased activity\.<\/p>\s*<ul>\s*<li>Offsetting legitimate user costs<\/li>\s*<li>Reducing fees<\/li>\s*<li>Supporting real usage<\/li>\s*<li>Paying users more than their costs<\/li>\s*<li>Buying artificial transaction volume<\/li>\s*<li>Creating circular activity designed primarily to farm rewards<\/li>\s*<\/ul>/,
+    `<h3>6. No Net-Paying Users for Activity</h3>
+<p>Featured Apps may not use rewards to net pay users for activity.</p>
+<p>Permitted:</p>
+<ul>
+<li>Offsetting legitimate user costs</li>
+<li>Reducing fees</li>
+<li>Supporting real usage</li>
+</ul>
+<p>Not permitted:</p>
+<ul>
+<li>Paying users more than their costs</li>
+<li>Buying artificial transaction volume</li>
+<li>Creating circular activity designed primarily to farm rewards</li>
+</ul>
+<p>Markers must reflect organic demand, not purchased activity.</p>`
   );
 }
 
