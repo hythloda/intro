@@ -1,0 +1,329 @@
+import fs from "node:fs/promises";
+import path from "node:path";
+
+const DOC_ID = "1xgPUiyfJLR-rfMHqO0xWf_-1O8gidS_UrzroNgVgZHQ";
+const DOC_URL = `https://docs.google.com/document/d/${DOC_ID}/edit`;
+const EXPORT_URL =
+  process.env.GOOGLE_DOC_EXPORT_URL ||
+  `https://docs.google.com/document/d/${DOC_ID}/export?format=html`;
+
+const outputPath = path.join(process.cwd(), "featured-app-locking-faq.html");
+
+const response = await fetch(EXPORT_URL, {
+  headers: {
+    "User-Agent": "canton-featured-app-locking-faq-sync/1.0",
+  },
+});
+
+if (!response.ok) {
+  throw new Error(`Failed to fetch Google Doc export: ${response.status} ${response.statusText}`);
+}
+
+const sourceHtml = normalize(await response.text());
+if (!sourceHtml.trim()) {
+  throw new Error("Google Doc export returned empty content");
+}
+
+const bodyHtml = extractBody(sourceHtml);
+const pageHtml = renderPage(bodyHtml);
+
+await fs.writeFile(outputPath, pageHtml, "utf8");
+
+function normalize(text) {
+  return text
+    .replace(/\r\n/g, "\n")
+    .replace(/\uFEFF/g, "")
+    .trim();
+}
+
+function extractBody(html) {
+  const match = html.match(/<body[^>]*>([\s\S]*?)<\/body>/i);
+  if (!match) {
+    throw new Error("Unable to find <body> in exported Google Doc");
+  }
+
+  return match[1]
+    .replace(/<script[\s\S]*?<\/script>/gi, "")
+    .replace(/<!--[\s\S]*?-->/g, "")
+    .replace(/href="https:\/\/www\.google\.com\/url\?([^"]+)"/g, (_, query) => {
+      const params = new URLSearchParams(query.replace(/&amp;/g, "&"));
+      const target = params.get("q");
+      return target ? `href="${escapeHtml(target)}"` : `href="https://www.google.com/url?${query}"`;
+    })
+    .trim();
+}
+
+function escapeHtml(text) {
+  return text
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;");
+}
+
+function renderPage(bodyHtml) {
+  return `<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Featured App Locking FAQ | Canton Network</title>
+
+  <style>
+    :root {
+      --bg: #071017;
+      --panel: rgba(15, 28, 35, 0.92);
+      --panel-soft: rgba(10, 20, 27, 0.8);
+      --line: rgba(116, 227, 195, 0.24);
+      --text: #f7fbfc;
+      --muted: #c4d2d5;
+      --accent: #74e3c3;
+      --accent-strong: #f1ff9d;
+      --shadow: 0 24px 80px rgba(0, 0, 0, 0.35);
+    }
+
+    html,
+    body {
+      margin: 0;
+      min-height: 100%;
+      background:
+        radial-gradient(circle at top left, rgba(116, 227, 195, 0.14), transparent 30%),
+        linear-gradient(180deg, #061017 0%, #071017 100%);
+      color: var(--text);
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
+
+    body {
+      padding: 32px 18px 48px;
+      box-sizing: border-box;
+    }
+
+    .wrap {
+      max-width: 980px;
+      margin: 0 auto;
+    }
+
+    .panel {
+      padding: 48px;
+      border-radius: 28px;
+      background: var(--panel);
+      border: 1px solid var(--line);
+      box-shadow: var(--shadow);
+      backdrop-filter: blur(10px);
+    }
+
+    .eyebrow {
+      display: inline-block;
+      margin-bottom: 16px;
+      padding: 8px 12px;
+      border-radius: 999px;
+      background: rgba(116, 227, 195, 0.12);
+      color: var(--accent);
+      font-size: 13px;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    .intro,
+    .references {
+      margin-top: 24px;
+      padding: 22px;
+      border-radius: 18px;
+      background: var(--panel-soft);
+      border: 1px solid rgba(116, 227, 195, 0.16);
+    }
+
+    .intro p,
+    .references p,
+    .references li,
+    .doc-content p,
+    .doc-content li,
+    .doc-content td,
+    .doc-content th {
+      color: var(--muted);
+      font-size: 17px;
+      line-height: 1.65;
+    }
+
+    .intro p,
+    .references p,
+    .doc-content p {
+      margin: 0 0 18px;
+    }
+
+    .doc-content p:last-child,
+    .references p:last-child,
+    .intro p:last-child {
+      margin-bottom: 0;
+    }
+
+    .doc-content ul,
+    .doc-content ol,
+    .references ul {
+      margin: 0 0 18px 22px;
+      padding: 0;
+    }
+
+    .doc-content li,
+    .references li {
+      margin: 8px 0;
+    }
+
+    a {
+      color: var(--accent-strong);
+    }
+
+    .actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 14px;
+      margin-top: 28px;
+    }
+
+    .button-secondary {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 48px;
+      padding: 0 18px;
+      border-radius: 14px;
+      font-weight: 800;
+      text-decoration: none;
+      border: 1px solid rgba(241, 255, 157, 0.28);
+      color: var(--text);
+    }
+
+    .doc-content {
+      margin-top: 28px;
+    }
+
+    .doc-content h1,
+    .doc-content h2,
+    .doc-content h3,
+    .doc-content h4,
+    .doc-content h5,
+    .doc-content h6 {
+      color: var(--text);
+      line-height: 1.2;
+    }
+
+    .doc-content h1 {
+      margin: 0 0 16px;
+      font-size: 40px;
+      letter-spacing: -0.03em;
+    }
+
+    .doc-content h2 {
+      margin: 30px 0 12px;
+      font-size: 28px;
+    }
+
+    .doc-content h3 {
+      margin: 26px 0 10px;
+      font-size: 22px;
+      color: var(--accent-strong);
+    }
+
+    .doc-content table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 18px 0;
+    }
+
+    .doc-content th,
+    .doc-content td {
+      padding: 14px 12px;
+      border-top: 1px solid rgba(116, 227, 195, 0.16);
+      text-align: left;
+      vertical-align: top;
+    }
+
+    .doc-content th {
+      color: var(--text);
+    }
+
+    .doc-content pre,
+    .doc-content code {
+      font-family: "SFMono-Regular", Menlo, Consolas, monospace;
+    }
+
+    .doc-content pre {
+      overflow-x: auto;
+      padding: 18px;
+      border-radius: 16px;
+      background: rgba(4, 10, 14, 0.9);
+      border: 1px solid rgba(116, 227, 195, 0.16);
+    }
+
+    .doc-content img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    @media (max-width: 640px) {
+      .panel {
+        padding: 28px 22px;
+        border-radius: 22px;
+      }
+
+      .doc-content h1 {
+        font-size: 31px;
+      }
+
+      .doc-content h2 {
+        font-size: 24px;
+      }
+
+      .doc-content h3 {
+        font-size: 20px;
+      }
+
+      .intro p,
+      .references p,
+      .references li,
+      .doc-content p,
+      .doc-content li,
+      .doc-content td,
+      .doc-content th {
+        font-size: 16px;
+      }
+
+      .actions {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <section class="panel">
+      <div class="eyebrow">Featured Applications</div>
+
+      <div class="intro">
+        <p>This page syncs daily from the source FAQ document so the locking guidance stays current.</p>
+      </div>
+
+      <div class="actions">
+        <a class="button-secondary" href="featured-applications.html">Back to Featured Applications</a>
+        <a class="button-secondary" href="index.html">Back to Main Page</a>
+      </div>
+
+      <div class="references">
+        <p><strong>References</strong></p>
+        <ul>
+          <li><a href="https://github.com/canton-foundation/cips/blob/main/cip-0116/cip-0116.md" target="_blank" rel="noopener">CIP-0116</a></li>
+          <li><a href="${DOC_URL}" target="_blank" rel="noopener">Source Google Doc</a></li>
+          <li>Questions not covered here can go to <a href="mailto:operations@canton.foundation">operations@canton.foundation</a>.</li>
+        </ul>
+      </div>
+
+      <div class="doc-content">
+${bodyHtml}
+      </div>
+    </section>
+  </main>
+</body>
+</html>
+`;
+}
