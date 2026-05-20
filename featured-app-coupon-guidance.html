@@ -61,43 +61,48 @@
       text-transform: uppercase;
     }
 
-    h1 {
-      margin: 0 0 16px;
-      font-size: 40px;
-      line-height: 1.05;
-      letter-spacing: -0.03em;
+    .intro,
+    .references {
+      margin-top: 24px;
+      padding: 22px;
+      border-radius: 18px;
+      background: var(--panel-soft);
+      border: 1px solid rgba(116, 227, 195, 0.16);
     }
 
-    h2 {
-      margin: 30px 0 12px;
-      font-size: 28px;
-      line-height: 1.15;
-    }
-
-    h3 {
-      margin: 26px 0 10px;
-      font-size: 22px;
-      line-height: 1.25;
-      color: var(--accent-strong);
-    }
-
-    p,
-    li {
+    .intro p,
+    .references p,
+    .references li,
+    .doc-content p,
+    .doc-content li,
+    .doc-content td,
+    .doc-content th {
       color: var(--muted);
       font-size: 17px;
       line-height: 1.65;
     }
 
-    p {
+    .intro p,
+    .references p,
+    .doc-content p {
       margin: 0 0 18px;
     }
 
-    ul {
+    .doc-content p:last-child,
+    .references p:last-child,
+    .intro p:last-child {
+      margin-bottom: 0;
+    }
+
+    .doc-content ul,
+    .doc-content ol,
+    .references ul {
       margin: 0 0 18px 22px;
       padding: 0;
     }
 
-    li {
+    .doc-content li,
+    .references li {
       margin: 8px 0;
     }
 
@@ -125,35 +130,71 @@
       color: var(--text);
     }
 
-    .notice {
-      margin-top: 24px;
-      padding: 22px;
-      border-radius: 18px;
-      background: var(--panel-soft);
+    .doc-content {
+      margin-top: 28px;
+    }
+
+    .doc-content h1,
+    .doc-content h2,
+    .doc-content h3,
+    .doc-content h4,
+    .doc-content h5,
+    .doc-content h6 {
+      color: var(--text);
+      line-height: 1.2;
+    }
+
+    .doc-content h1 {
+      margin: 0 0 16px;
+      font-size: 40px;
+      letter-spacing: -0.03em;
+    }
+
+    .doc-content h2 {
+      margin: 30px 0 12px;
+      font-size: 28px;
+    }
+
+    .doc-content h3 {
+      margin: 26px 0 10px;
+      font-size: 22px;
+      color: var(--accent-strong);
+    }
+
+    .doc-content table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 18px 0;
+    }
+
+    .doc-content th,
+    .doc-content td {
+      padding: 14px 12px;
+      border-top: 1px solid rgba(116, 227, 195, 0.16);
+      text-align: left;
+      vertical-align: top;
+    }
+
+    .doc-content th {
+      color: var(--text);
+    }
+
+    .doc-content pre,
+    .doc-content code {
+      font-family: "SFMono-Regular", Menlo, Consolas, monospace;
+    }
+
+    .doc-content pre {
+      overflow-x: auto;
+      padding: 18px;
+      border-radius: 16px;
+      background: rgba(4, 10, 14, 0.9);
       border: 1px solid rgba(116, 227, 195, 0.16);
     }
 
-    hr {
-      border: none;
-      border-top: 1px solid rgba(116, 227, 195, 0.16);
-      margin: 28px 0;
-    }
-
-    pre {
-      margin: 18px 0;
-      padding: 18px;
-      overflow-x: auto;
-      border-radius: 14px;
-      background: #081019;
-      border: 1px solid rgba(156, 182, 255, 0.14);
-      color: #e8f4ff;
-      font-size: 14px;
-      line-height: 1.55;
-      white-space: pre;
-    }
-
-    code {
-      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
+    .doc-content img {
+      max-width: 100%;
+      height: auto;
     }
 
     @media (max-width: 640px) {
@@ -162,20 +203,25 @@
         border-radius: 22px;
       }
 
-      h1 {
+      .doc-content h1 {
         font-size: 31px;
       }
 
-      h2 {
+      .doc-content h2 {
         font-size: 24px;
       }
 
-      h3 {
+      .doc-content h3 {
         font-size: 20px;
       }
 
-      p,
-      li {
+      .intro p,
+      .references p,
+      .references li,
+      .doc-content p,
+      .doc-content li,
+      .doc-content td,
+      .doc-content th {
         font-size: 16px;
       }
 
@@ -189,584 +235,26 @@
   <main class="wrap">
     <section class="panel">
       <div class="eyebrow">Featured Applications</div>
-      <h1>Featured App Coupon Guidance</h1>
-      <p>
-        This page is generated from the source Google Doc and refreshed by the repo sync script.
-      </p>
+
+      <div class="intro">
+        <p>This page syncs daily from the source guidance document so the coupon guidance stays current.</p>
+      </div>
 
       <div class="actions">
-        <a class="button-secondary" href="https://docs.google.com/document/d/1KJQ-T-HiO73nYMXTogGLVSu9lo9loMVgXNOosF74758/edit" target="_blank" rel="noopener">Open Source Doc</a>
         <a class="button-secondary" href="featured-applications.html">Back to Featured Applications</a>
         <a class="button-secondary" href="index.html">Back to Main Page</a>
       </div>
 
-      <div class="notice">
-        <p><strong>Sync status:</strong> Synced from the source Google Doc.</p>
+      <div class="references">
+        <p><strong>References</strong></p>
+        <ul>
+          <li><a href="https://docs.google.com/document/d/1KJQ-T-HiO73nYMXTogGLVSu9lo9loMVgXNOosF74758/edit" target="_blank" rel="noopener">Source Google Doc</a></li>
+        </ul>
       </div>
 
-<h1>Featured App Coupon Guidance</h1>
-<p><strong>AS OF 04.22.26</strong></p>
-<p>Featured App Reward Coupons exist to align Reward Weight with real economic contribution to the network.  They can be produced by either Featured CC Transfers or Featured App Markers; both approaches produce $1 of reward weight per use. They are not a mechanism to amplify rewards beyond underlying on-chain activity. Each marker represents $1 of reward weight.  Reward weight is not the same as the ultimate reward amount paid out.  It is expected that the ratio of reward paid to reward weight will vary both above and below 1:1, but this does not affect the amount of reward weight an app may create. Failure to adhere to this guidance may result in immediate pause of Featured App (FA) status, potentially without warning, while the Tokenomics Committee reviews usage. The revision made to this document on 04.20.26 will become effective on 04.27.26 at 21:00 UTC.</p>
-<hr>
-<h2>Core Rules</h2>
-<hr>
-<h3>1. No Redundant Markers on CC Transactions</h3>
-<p>Both markers and featured CC transfers generate coupons.  The number of coupons created must be in line with this guidance regardless of whether they are generated by markers or featured CC transfers. CC transactions already include a provider field that attributes activity appropriately. Adding markers to CC transactions would result in double counting of reward weight and distort Burn/Mint equilibrium. Note: If an app’s traffic costs average &lt;$1 per CC transfer, they can unfeature some of those transfers by removing the Featured App Contract ID from the Transfer Context.  Alternatively, applications may unfeature all of their transfers and use markers instead, or some mix of the two. Note: After <a href="https://github.com/canton-foundation/cips/blob/main/cip-0107/cip-0107.md" target="_blank" rel="noopener">CIP-0107</a> is deployed to mainnet, featured CC transactions will actually create markers on-chain rather than directly creating coupons, which will simplify the calculations present in this guidance.</p>
-<hr>
-<h3>2. Coupon-to-Fee Alignment (Default Rule)</h3>
-<p>Featured Apps may not generate more coupon reward weight, via either CC transfers or marker submissions, than the net on-chain fees they generate.  Apps may receive a free traffic allowance from the synchronizer; to account for this, while keeping calculations simple, each featured app is credited for 0.1 MB of traffic per round in addition to the traffic they purchase. Rule: 1 marker or featured CC transfer = $1 of reward weight Maximum markers = net qualifying on-chain fees (USD)</p>
-<h3>Example</h3>
-<p>If an FA generates:</p>
-<p>Qualifying fees exclude any fees associated with the markers themselves.</p>
-<ul>
-<li>$10 in qualifying fees → maximum 10 markers</li>
-</ul>
-<h2>Monitoring</h2>
-<p>The query under monitoring will be used to monitor and measure a Featured App’s Marker to Fee Ratio.</p>
-<h3>Precision Tolerance</h3>
-<p>Because of rounding, batching, and timing differences:</p>
-<p>This rule preserves Burn/Mint equilibrium and prevents marker inflation relative to actual economic burn.</p>
-<ul>
-<li>Variance within ±15% is acceptable by default.</li>
-<li>Variance greater than 15% requires explanation.</li>
-<li>Persistent or unexplained divergence may trigger review.</li>
-</ul>
-<hr>
-<h3>3. No Markers for the Cost of Submitting Markers</h3>
-<p>Featured Apps may not include the cost of submitting markers when calculating allowable markers.</p>
-<p>Markers cannot justify themselves.</p>
-<h3>Example</h3>
-<p>If:</p>
-<ul>
-<li>Total fees generated = $10</li>
-<li>$3 of that is marker submission cost</li>
-</ul>
-<p>Then:</p>
-<ul>
-<li>Net eligible fees = $7</li>
-<li>Maximum allowable markers = 7</li>
-</ul>
-<p>This prevents circular farming and self-reinforcing reward loops.</p>
-<hr>
-<h3>4. Markers Only for On-Chain Fee-Generating Activity</h3>
-<p>Markers may only be submitted for actions that directly result in on-chain traffic fees. Markers are not allowed for:</p>
-<p>If no on-chain fee is generated, no marker may be submitted.</p>
-<ul>
-<li>Reading ledger data</li>
-<li>Off-chain API calls</li>
-<li>UI interactions</li>
-<li>Off-chain matching</li>
-<li>Any activity that does not generate on-chain burn</li>
-</ul>
-<hr>
-<h3>5. Timeliness Requirement (Two-Round Rule)</h3>
-<p>Markers must be submitted within two reward rounds of the fees they correspond to. If an FA misses this window, the opportunity to earn rewards for that activity is forfeited. Submitting markers long after fees were generated:</p>
-<p>Markers are intended to reflect contemporaneous economic activity.</p>
-<ul>
-<li>Alters the FA reward distribution profile</li>
-<li>Distorts expectations for other participants</li>
-<li>Introduces instability into reward forecasting</li>
-</ul>
-<hr>
-<h3>6. No Net-Paying Users for Activity</h3>
-<p>Featured Apps may not use rewards to net pay users for activity.</p>
-<p>Permitted:</p>
-<ul>
-<li>Offsetting legitimate user costs</li>
-<li>Reducing fees</li>
-<li>Supporting real usage</li>
-</ul>
-<p>Not permitted:</p>
-<ul>
-<li>Paying users more than their costs</li>
-<li>Buying artificial transaction volume</li>
-<li>Creating circular activity designed primarily to farm rewards</li>
-</ul>
-<p>Markers must reflect organic demand, not purchased activity.</p>
-<hr>
-<h3>7. No Reward Recycling</h3>
-<p>Featured Apps may not earn rewards from distributing rewards to users. You may not:</p>
-<p>Rewards cannot generate new reward weight.</p>
-<ul>
-<li>Submit markers on transactions whose primary purpose is distributing previously earned rewards.</li>
-<li>Create recursive reward loops.</li>
-</ul>
-<hr>
-<h3>8. Asset Issuers</h3>
-<p>The default rule (1 marker per $1 of fees generated) assumes the Featured App directly incurs on-chain fees. However, asset issuers often do not directly submit the transactions that use their asset. As a result, their direct fee bucket may be $0, even when their asset is widely used on-chain. If held strictly to the default rule, asset issuers could be entitled to zero markers and zero rewards despite meaningful on-ledger usage.</p>
-<h3>Therefore</h3>
-<p>Asset issuers are permitted to submit markers for on-ledger activity involving their asset, even if they incur no direct fees for that activity. Asset Issuers may submit 1 marker per transaction submitted by 3rd parties/transaction originator/venue. Asset Issuers may only submit 1 marker even when the 3rd party batches many asset movements into a single transaction.</p>
-<h3>Conditions</h3>
-<ul>
-<li>The activity must generate on-chain fees (even if paid by another party).</li>
-<li>The asset must be genuinely used in the transaction.</li>
-<li>Markers must correspond to objective, verifiable on-chain events.</li>
-<li>All other rules (no farming, no reward recycling, no off-chain marking, timeliness requirement) still apply.</li>
-</ul>
-<h3>What this does not allow</h3>
-<ul>
-<li>Marking off-chain activity</li>
-<li>Creating artificial transactions to farm rewards</li>
-<li>Embedding usage fees solely to manufacture a fee bucket</li>
-</ul>
-<h3>Principle</h3>
-<p>For standard FAs → eligibility is based on fees generated. For asset issuers → eligibility is based on on-ledger asset usage. This exception ensures asset issuers are not structurally excluded from rewards simply because they do not directly bear submission costs, while still maintaining alignment with real economic activity.</p>
-<h2>Monitoring</h2>
-<p>The  query under monitoring will be used to monitor and measure a Featured App’s Marker to Transaction Ratio.</p>
-<h3>Forward Guidance</h3>
-<p>We recognize that with any new guidance there is the potential for misuse of the Featured App designation and markers to emerge. It is important to address this proactively but take sufficient time to provide thoughtful and  thorough guidance. To that end, there will likely be further fair use guidance on specific asset issuer use cases. Topic to be considered include but aren't limited to wrapping of already on Canton assets, wrap/unwrap loops, and transaction sharding.</p>
-<hr>
-<h3>9. <a href="https://github.com/canton-foundation/cips/blob/main/cip-0056/cip-0056.md" target="_blank" rel="noopener">CIP-0056</a> Compliance</h3>
-<p>In order to be eligible for FA Rewards, assets must be fully <a href="https://github.com/canton-foundation/cips/blob/main/cip-0056/cip-0056.md" target="_blank" rel="noopener">CIP-0056</a> compliant.</p>
-<h3>Compliance</h3>
-<p>Asset Issuers must demonstrate ability for users to hold assets in at least 2 wallets live in the ecosystem with <a href="https://github.com/canton-foundation/cips/blob/main/cip-0056/cip-0056.md" target="_blank" rel="noopener">CIP-0056</a> support.</p>
-<p>Asset Issuers must demonstrate ability for users to swap assets via at least one on-chain DVP facility.</p>
-<h3>10. Separate Party Concerns</h3>
-<p>Where a Featured App operates multiple materially distinct functions, those functions should be separated into distinct on-chain Parties. This requirement is mandatory for asset issuers.</p>
-<h3>General Rule</h3>
-<p>If an application performs more than one major role — for example:</p>
-<p>Each major function should operate under a separate PartyId. Reward weight, fee generation, and marker submission must be attributable to the correct Party corresponding to the economic role being performed. Asset Issuers – Mandatory Separation If an entity acts as an asset issuer, that PartyId may not also perform other major functions. Specifically, an Asset Issuer PartyId may not simultaneously operate as:</p>
-<p>The Asset Issuer must be isolated from other operational roles.</p>
-<ul>
-<li>Asset issuance</li>
-<li>Wallet services</li>
-<li>DEX functionality</li>
-<li>Custody</li>
-<li>Lending</li>
-<li>Payment processing</li>
-<li>A wallet</li>
-<li>A DEX</li>
-<li>A market maker</li>
-<li>A lending protocol</li>
-<li>A payment processor</li>
-<li>Any other fee-generating application function</li>
-</ul>
-<h3>Rationale</h3>
-<p>This requirement prevents:</p>
-<p>Asset Issuer treatment is already an exception to the default marker rule. That exception requires structural clarity to preserve integrity.</p>
-<ul>
-<li>Blending issuer-based marker privileges with fee-based privileges</li>
-<li>Cross-subsidization of reward weight</li>
-<li>Obscured economic attribution</li>
-<li>Difficulty in auditing burn-to-marker alignment</li>
-</ul>
-<hr>
-<h2>Enforcement</h2>
-<p>Failure to adhere to any of the above guidance may result in:</p>
-<p>The objective is to preserve:</p>
-<ul>
-<li>Immediate pause of Featured App status</li>
-<li>Pause without prior warning</li>
-<li>Review by the Tokenomics Committee</li>
-<li>Potential revocation of Featured App status</li>
-<li>Burn/Mint equilibrium</li>
-<li>Fair reward attribution</li>
-<li>Stability of reward distribution</li>
-<li>Long-term tokenomic integrity</li>
-</ul>
-<h2>Monitoring</h2>
-<p>The following query calculates overage for both app and asset style marker usage. It’s using BigQuery dialect SQL.</p>
-<pre><code>DECLARE bucket_origin_timestamp TIMESTAMP;
-DECLARE bucket_width INTERVAL;
-DECLARE featured_apps Array&lt;String&gt;;
-DECLARE provider_parties Array &lt;String&gt;;
-DECLARE beneficiary_parties ARRAY&lt;String&gt;;
-DECLARE validator_parties ARRAY&lt;String&gt;;
-DECLARE confirmer_parties ARRAY&lt;String&gt;;
-DECLARE fa_party String;
-
-
--- Featured apps listed just for convenience.
--- You can index it below to pull data for the different apps.
-SET featured_apps = [
- &quot;proofgroup-validator-1::122021b7624f77a1a095714acc74337bebb0f49cf0f8ea565d4f0b12e09bb5deb1e1&quot;,
- &quot;twmain-treasury-1::12200954e2b4596dfad67f92cd333602efa4ebcdc3860437884136817fa5c9f54a0e&quot;,
- &quot;auth0_007c683dbd71f9d177d5fdd09f3c::1220d3016091c253f526645cce3a0633837b685da083bac4459dad63e61d5c97b5fa&quot;,
- &quot;Bridge-Operator::1220c8448890a70e65f6906bd48d797ee6551f094e9e6a53e329fd5b2b549334f13f&quot;,
- &quot;pixelplex-mainnet-3::12209a8ec282ec94bc941172f3052221413031f27394685693e2d83e4bfab6423ac6&quot;,
- &quot;auth0_007c68b849ffb53dbcab06ecd2a1::1220bca0d4ed76bda5da0bcbbd8ea91f047d0b8f4bc332084a735c936196d24c0cf3&quot;,
- &quot;PropNotary-app::122050e459c7de23f3bca5b9f59218e68502b2412c5d8ea9fb38604be20b0265f374&quot;,
- &quot;unitedapp-cc::12203179cc5cae0452dbc233403a6a66f6d87988615d0e64defdd77abb133bdc40a9&quot;,
- &quot;the_tie_validator::1220d3016091c253f526645cce3a0633837b685da083bac4459dad63e61d5c97b5fa&quot;,
- &quot;party-8cc0af7a-8265-4c2f-984e-ef299c3c103f::1220b8301e18aa8a401d6e34e6c20f8b0243183c514373bca8f1b6b9270246341a9e&quot;,
- &quot;iBTC-validator-1::1220409a9fcc5ff6422e29ab978c22c004dde33202546b4bcbde24b25b85353366c2&quot;,
- &quot;canton-sign::122092e9dd81d0a52f38b110f6b2e6426713418cc4db363c5c9b2c8cb6e46922c671&quot;,
- &quot;Cygnet::1220e655341f4512555d89c14cf52c80a029b57e19d30d80721b4aae5b0a053ab397&quot;,
- &quot;modulo-mainnet-2::1220bbd47c5a10d5540c420e1f8f0f1fd513464ec6110dbd5123970dbe3b538805d3&quot;,
- &quot;Obligate-validator-1::1220663cfdc370c3fc447072f3731a838a2a7de757bc29ee0d34b326f317b70db4aa&quot;,
- &quot;temple-mainnet-1::1220f238bb79df3efbbac2ea964c3cd501003971a2cb59043e2dac50b06e85b8620f&quot;,
- &quot;modo::122014f09cb05cffc2f1c524601c4aa91d35908dc55cfe9e92849390137ccc7c0d41&quot;,
- &quot;LoopID::1220940ccaf484be99fc67387ce461bd358aa6c76e43224e959a4bd20fe30a0b11c6&quot;,
- &quot;cbtc-network::12205af3b949a04776fc48cdcc05a060f6bda2e470632935f375d1049a8546a3b262&quot;,
- &quot;TRIZEGroup-RIZEScore::12206ab3bf15b14410220357d6a6375eb1015f2e7fade1deb449463c2f2a25304889&quot;,
- &quot;flipside-validator-1::1220bf4169a874284cb202f33426a8cb0ef2cd6c506ece144d3b3bacae773bf479c0&quot;,
- &quot;MPCH-BRONdvn-1::122005b8d2f108b45b4d7872f0e982b13e14fa119a31a4f6ddf76f4a58bbbba49024&quot;,
- &quot;cantonloop-mainnet-1::12205fb70ce14897d06baec18a4b889f296c765a8325fd3d99cc084b1f980426ac12&quot;,
- &quot;ByBit-MainNetValidator-1::12202c9fc5180723f14e87c88d316355817dd565afc2a897706a789086c33cd6a095&quot;,
- &quot;noves-translate::1220dd5cc6e969cd7d7c11e339fbd07fab5f6fa1f999dc09339228d17299d9d68941&quot;,
- &quot;931f692d-21d7-4548-82b4-d0e1c6ec7736::1220921c9c5579f2648609d8b007793ffbe31efb311c79c53cbc68571827c1c5ebee&quot;,
- &quot;TextureCapital-validator-1::12206f711aa1c1017053f53a069279518584074c0b0348f522b020d1fcc311e01988&quot;,
- &quot;3b348904-a81e-403c-a48e-13fa14aa6e97::12204dcfad78c016ab59babba72d4ffe9bdca8aeaf6299a3f0da59523ee3f765b053&quot;,
- &quot;openvector-wallet-1::1220ab544a2d6cfd0b8c89af3e2b460f6999030ffb067e63dddd60ea265db3c7e3a5&quot;,
- &quot;auth0_007c689b657291598790daabbdca::1220d3016091c253f526645cce3a0633837b685da083bac4459dad63e61d5c97b5fa&quot;,
- &quot;CantonOps::12204a039322c01e9f714b56259c3e68b69058bf5dfe1debbe956c698f905ceba9d7&quot;,
- &quot;brikly-asterizm::122007725fa01ff8d201e87afc2a3c04b8dd67fd65660e9acb68a72ca54a59b5f610&quot;,
- &quot;binance-dp-1::12206a8a77e900f10dbaa57e4741f2d50d9318dd87e40f8dbf28f7ec4da657bb27b4&quot;,
- &quot;Thetamarkets::12201cf4d44f54d386b382ae3deabec790d477bbc7e1857b94b5a44f04c286840353&quot;,
- &quot;lithiumdigital-validator-1::1220e852a0cb4372f91dd2b7b93c71d4580600b0f2c045e6cbebd9f510e88c0ba29b&quot;,
- &quot;blackmantacapital-primary-1::1220c0d1b398955a314e9662027cb3ef337b0a9390ca3346314070631d72792cee36&quot;,
- &quot;FlowRyd-validator-1::1220953c2240437bdf86867bb8540bc060f8db4e94f4ef3d00be48c98c2728a79c8d&quot;,
- &quot;Cumberland-GasStation-1::1220987fe52357fc17dc0a3552a691d1e1e685152bbe467acff604503cf301780bcf&quot;,
- &quot;Fairmint-validator-1::122047f456985651be8ea317881a9af4f04521417ce1a449b75543541acf33aac4d2&quot;,
- &quot;acme-lending::1220a7daf7140e112f15a46f2daa52fe9c8651024ff8705bb23c494275dd02209596&quot;,
- &quot;auth0_007c68129abae6733ca8b889162e::122064aab814d8d02f957120e33a970a5aca7c14097eab85ab40a36ddff26c70c44b&quot;,
- &quot;cantonnodes-validator-1::12202aabb1637789bf00254a7893853860d8458c7c0235b06433611d6bf41e812b10&quot;,
- &quot;auth0_007c68c00c8f13d9cd1ff3a0f951::1220d1e3a653420a5d606c6b88b94e9e5f8361f5313f44d5bcbf2b8835ceb86a8aa7&quot;,
- &quot;openvector-mainnet-1::1220ab544a2d6cfd0b8c89af3e2b460f6999030ffb067e63dddd60ea265db3c7e3a5&quot;,
- &quot;3trade_validator_admin::122060327be2fbbda7498a867507bf4d1cd83cd079382fa8af1d4be5cad79248c102&quot;,
- &quot;M1-validator-1::12207b40944692e083593819697e1cd87a94026afca2564253d16ff8696b233a6637&quot;,
- &quot;cantrack::12208287f2b9baebe6499af23d60481a6b91a2edf587f0203e68b8706348cc8776cb&quot;,
- &quot;23d169c2-0909-4c70-81d1-1922de6febaa::12202ba1ca9f3578e7fa2fdd1517a40d553621dbdee4227d0a37022591abae821ef3&quot;,
- &quot;auth0_007c68d19a845c180f92912bcaca::12203eeb4af78c37754352c3e6235f684bd125069d49cf5827c44350fa8827320ed8&quot;,
- &quot;cantor8-digik-1::12204dcfad78c016ab59babba72d4ffe9bdca8aeaf6299a3f0da59523ee3f765b053&quot;,
- &quot;send-cantonwallet-1::1220f1b0d7a83c7eaaf6d712d95d5952ea2c801238af9c342e8d83c87dfc45c999dc&quot;,
- &quot;trakx-validator-1::1220f2acce9d7491505ee5fabb548e9975bbf0f8efaae98404d7399922fb48a03aeb&quot;,
- &quot;CoinMetrics-validator-1::1220b6cf34a2c8937dc72403e7a8b57c80049be8aff3e5e2d992063460bdc8636466&quot;,
- &quot;DStash::122016b8c36f538ee05279581ab01465feab275ebe208288c517c020b679f4ee5e9f&quot;,
- &quot;foundinalsunthy-mainnet-1::12201004202ad4f2ba69d160e148899596aa294db698917f3aaef063afcb0a412c83&quot;,
- &quot;4e667aab-9089-400b-9485-74d73732f068::1220dd489bd2242472a14015e9aebc12a48879a7e3aac60875506df30f7fce4e0f78&quot;,
- &quot;auth0_007c6643538f2eadd3e573dd05b9::12205bcc106efa0eaa7f18dc491e5c6f5fb9b0cc68dc110ae66f4ed6467475d7c78e&quot;,
- &quot;party-fda614d8-0b2e-4d64-9718-b4c497c56a8d::1220f67b4f1c8742d83ac7e12749d98195bf88ff120b2dab369291cf6a2ca27be9a9&quot;,
- &quot;c7trust::12202e2325b04b0f0ee30685088289293b3e7a28d8b26470b39435502912e2876cba&quot;,
- &quot;dfns1::122035d991d57991b9ef733ac4fb475de6257f17b20254a2f3f17c5b12322ed4174c&quot;,
- &quot;mexc-mainNet-01::12200e0228fa4b2652d5364068ed4e518bfb20e8be9ca062397bd068c8b2817fc5c7&quot;,
- &quot;ByBit-MainNetValidator-1::12202c9fc5180723f14e87c88d316355817dd565afc2a897706a789086c33cd6a095&quot;,
- &quot;validator_Hashnote::12202eacbd060e2e22ab198cb9f337ccfe049e16a90968576e15b8bab4317cf17259&quot;,
- &quot;ZodiaCustody-validator-1::122048dee6ac5d575890024dbf6847d1ca4026c96e8d4c6df07bb5b96a10ae180030&quot;,
- &quot;kraken-validator-01::12201a93a967d6aa33310fb8b15a5b92a69ff48b7f326f20a26622a56a0ccea4168a&quot;,
- &quot;TRIZEGroup-cantonMainnetValidator-1::12206ab3bf15b14410220357d6a6375eb1015f2e7fade1deb449463c2f2a25304889&quot;,
- &quot;f932f175-75f1-45e9-9dce-8b8c77f1328b::12204dcfad78c016ab59babba72d4ffe9bdca8aeaf6299a3f0da59523ee3f765b053&quot;,
- &quot;party-28dc4516-b5ca-44ff-86c7-2107e90a6807::1220b8301e18aa8a401d6e34e6c20f8b0243183c514373bca8f1b6b9270246341a9e&quot;,
- &quot;cypherock-mainnet-1::1220583c5b03a866fd8e5f09737cdb51818c7b4b52a8e8c9b0cc2f4d1b082e95b6d9&quot;,
- &quot;IntellectEU-validator-1::122085181345795b9e58122cef90b8df61ddfe128cdaf9abbcb77f8cef92950c1d05&quot;,
- &quot;google-oauth2_007c106967619021219072829::122033209fcbadac068ae0eb263e10da799e8314a7a0af338fdd8701d98d10efc1b5&quot;,
- &quot;CantonSwap::122096fe076cc065af0cb38f94caa60e8ddfecbe8f0cfe10655ae7aa06fab99c66b7&quot;,
- &quot;auth0_007c68f92e9e93fbd6f5a89b0a0c::12208d1aaf40a035e46b5076e41b84acc17a7cfb9c5b6d0848b2203cc2e5eceaee43&quot;,
- &quot;kucoin-node-01::1220a9f52878b918c523d04b7b77fde73b39ba9842292e88bf2e7ce3b86eb25a3978&quot;,
- &quot;Hashrupt-Verity::1220a92bde4d13d685e03c797e3a33891b64bfa7d93d80f2a0744fc21c9976492321&quot;,
- &quot;opus28-opusaccess-1::122085428bbc45cd9e8e457fa643d98f41bce1d7e5113248e637c611b9de1ddef684&quot;,
- &quot;feat-unhedged-app::12208567a714a12d1ba486a9fa702a0a438b5b3b895510eca791e3ef965a24be8832&quot;,
- &quot;send-safe::1220f1b0d7a83c7eaaf6d712d95d5952ea2c801238af9c342e8d83c87dfc45c999dc&quot;,
- &quot;ccbrowser::1220dd5cc6e969cd7d7c11e339fbd07fab5f6fa1f999dc09339228d17299d9d68941&quot;,
- &quot;opus28-opusaccess-1::122085428bbc45cd9e8e457fa643d98f41bce1d7e5113248e637c611b9de1ddef684&quot;,
- &quot;kairo-mainnet::12205162445638c3f71c9942b74360134b4ebc953b5bea2c25adc99bff130bffd060&quot;,
- &quot;auth0_007c691c4d28726455d23d1aa6dd::122046d30acaaa01b3a0aae069cbfb5983660360af866dd76b335570acacb2b31c3a&quot;,
- &quot;auth0_007c68dab25ebb6582a0cbe2861c::12206476325416d7a9bcab23a22f75d2dd015c2bdcca6173428930e14e7405e78e35&quot;,
- &quot;mandalo-mainnet-2::122012969f2b0e67f443e0563e34d1468a7353bc3f125a02ea0cc100d934e298f98b&quot;,
- &quot;nodefortress-finance-1::12203eeb4af78c37754352c3e6235f684bd125069d49cf5827c44350fa8827320ed8&quot;,
- &quot;Ubyx-validator-1::12204cfc7847273bd046b70b5c5549627294a024fb2ab86f58755ee6aebeed9cc1c4&quot;,
- &quot;PotamusEngagement-validator-1::1220558dc6c852c1f9b355ba0b7c1ad8b605d011895eb404e53ef8e913b8f06e94ce&quot;,
- &quot;cantory::1220a0a64bd45fee105f5c80474842a4337bb09323ca748d7ea6dacc07fc6237572c&quot;,
- &quot;auth0_007c6854438f220d2f07761f21a3::12208ea6ee6188e06ff3ba484219eb1e7e9308d8cd628865ad4277bca920c672b988&quot;,
- &quot;sunthycloud-mainnet-1::1220dc2c99151dbe0ca0ff322dbdcf0f511c181e9277799640287c37f26c7a993773&quot;,
- &quot;tenkai-main-1::122092e9dd81d0a52f38b110f6b2e6426713418cc4db363c5c9b2c8cb6e46922c671&quot;,
- &quot;silvana-orderbook::1220997446016f1e96be9215bab224eace372752853ef99175c332307489bccbb07b&quot;,
- &quot;Peertrust-app::1220a35b88ad9227d145ca396ac92136ee6c694b1e20c4f9ac5d1de2d39a1c3864a6&quot;,
- &quot;Bitgo-mainnetValidator-1::1220339ffe631ef7d0296d957d467186b6693e89b8fa654e9acfaa2b4f53437310ff&quot;,
- &quot;Supanova-validator-1::12205c9e7df3ce671bc5e285120cb6e4dfae5ee3029c04fa82f1cd828c5e7197d882&quot;,
- &quot;ValaWallet-validator-1::12201339973af7bb4049bfff4046da2bd22be98176cfc9011617840684bc2ef781d4&quot;,
- &quot;poolparty::1220f1b0d7a83c7eaaf6d712d95d5952ea2c801238af9c342e8d83c87dfc45c999dc&quot;,
- &quot;Cantex-validator-1::122038c015864f106cfed48bb9106b7c89982368d27956ffcdfda6c38328f0909b8c&quot;,
- &quot;desyn::1220ad880a4c22d92d1c10efff2c1800e1d12a2cfe02ba14380aa56b4438b7bff0dd&quot;,
- &quot;Hecto-Finance-1::12208ee00572aea3304ebb12e34320769ea4b421911c9b658a999e0e64ee8a070972&quot;,
- &quot;palladium-validator-1::1220f66f5b1cb78abf40583917b0ea3ce18f546ea5f119de06d0ea1e7d1a250e0f3b&quot;,
- &quot;roundbeat-mainnet-01::12208d7f582445ccc77de75088b2ad9b545e8e977f5d3e32662564409ce63a787981&quot;,
- &quot;dteamtech-validator-1::12206a390f4088321a251280cd20c44f2ae02d54b4d29a8327d3523e7b03a7e98464&quot;,
- &quot;HIFI-validator-1::1220c44096409d3244021ae82992ccae3a1208fa79cacf450760b6f2cd9dfee2daa6&quot;,
- &quot;8a72dd81-b8a4-425a-9061-31ed663d4450::1220d572036d26e3f8ef2fe127184d812a00e0b1b36e129acf990a82a06651e735a1&quot;,
- &quot;yuce::1220ad880a4c22d92d1c10efff2c1800e1d12a2cfe02ba14380aa56b4438b7bff0dd&quot;,
- &quot;handlpay-main-1::12207ac147ad3e95894e7a507da3f04a819e8996f0bdf31c084ab3b77e51746b03cf&quot;,
- &quot;tradefast-mainnet-1::1220674b79cae334aa788ffa394a6bd7d10e427d9f2abd418048e5be49ceb4256ca4&quot;,
- &quot;Republic-validator-1::1220cf5c0358766265d8b67b3269d0ab15eba018449585fa9810481842f6ceeffc44&quot;,
- &quot;daml-autopilot::122043f0b94e28125e4c65aa7e0f0ded912472731695f01cc83aa41ad3f03965a19b&quot;,
- &quot;onchain-transfer-agent::12204a039322c01e9f714b56259c3e68b69058bf5dfe1debbe956c698f905ceba9d7&quot;,
- &quot;haven-lp::122036a7877810c578708cb1e8e7db2a8eb586adf7f57d7ba7a78654304ac446bc7c&quot;,
- &quot;fulcrum-point::1220dd489bd2242472a14015e9aebc12a48879a7e3aac60875506df30f7fce4e0f78&quot;,
- &quot;Tokino-validator-1::1220c4e630e0281e7e1487863dd56078106433c35e4bc013f7d3fc8e22464bc78e28&quot;,
- &quot;auth0_007c6944217743c3f0b43f0a8285::122058647c52460fb30fadca42a66f992909c633577ab80a5b71bb9600cbca39c0f9&quot;,
- &quot;enzobtc::1220ad880a4c22d92d1c10efff2c1800e1d12a2cfe02ba14380aa56b4438b7bff0dd&quot;,
- &quot;ledger-ledgerops-2::12207a4859ad414f4f47c2d773ddf4ea88de8c3a1aab19abaa197e504acdbf679d3c&quot;,
- &quot;lseg-finance-1::1220a67824951a056e4b366bc1a663a7a4839aadb3f0cef02b591933bfc77a474170&quot;
-];
-
-
--- This assumes that for the same party is
--- - Provider on FeaturedAppRight
--- - Beneficiary
--- - Validator
--- This is not true for all apps. For more complex queries, modify these three variables
-
-
-SET fa_party = featured_apps[22];
-SET provider_parties = [fa_party];
-SET beneficiary_parties = [fa_party];
-SET validator_parties = [fa_party];
-SET confirmer_parties = [fa_party];
-
-
--- Replace the above to run the query for CBTC.
--- SET confirmer_parties = [
---  &quot;cbtc-network::12205af3b949a04776fc48cdcc05a060f6bda2e470632935f375d1049a8546a3b262&quot;
--- ];
--- SET provider_parties = [
---   &quot;cbtc-network::12205af3b949a04776fc48cdcc05a060f6bda2e470632935f375d1049a8546a3b262&quot;,
---   &quot;iBTC-validator-1::1220409a9fcc5ff6422e29ab978c22c004dde33202546b4bcbde24b25b85353366c2&quot;
--- ];
--- SET beneficiary_parties = [
---   &quot;cbtc-attestor-pool::1220409a9fcc5ff6422e29ab978c22c004dde33202546b4bcbde24b25b85353366c2&quot;,
---   &quot;cbtc-beneficiary::1220409a9fcc5ff6422e29ab978c22c004dde33202546b4bcbde24b25b85353366c2&quot;,
---   &quot;FinoaConsensusServices-validator-1::1220b8182fa42d0cf657bda7f124366a2c603d5df4aafd789a88549dc9a0e3191259&quot;,
---   &quot;dsrv-mainnetValidator-01::1220e2f4abe1c5ca7e07464037fe7fefc839b7b8fea24985d0d2a2790fa72e3c13ac&quot;,
---   &quot;nethermind-angkor-1::12201d94ec4ba973ab5c51e3b769a6aca54f061afc963619a4d6109044eaccafc7ba&quot;,
---   &quot;auth0_007c67dc7c4afbf5bc37f9805e31::12205bcc106efa0eaa7f18dc491e5c6f5fb9b0cc68dc110ae66f4ed6467475d7c78e&quot;
--- ];
--- SET validator_parties = [
---   &quot;iBTC-validator-1::1220409a9fcc5ff6422e29ab978c22c004dde33202546b4bcbde24b25b85353366c2&quot;,
---   &quot;FinoaConsensusServices-validator-1::1220b8182fa42d0cf657bda7f124366a2c603d5df4aafd789a88549dc9a0e3191259&quot;,
---   &quot;dsrv-mainnetValidator-01::1220e2f4abe1c5ca7e07464037fe7fefc839b7b8fea24985d0d2a2790fa72e3c13ac&quot;,
---   &quot;nethermind-angkor-1::12201d94ec4ba973ab5c51e3b769a6aca54f061afc963619a4d6109044eaccafc7ba&quot;
--- ];
-
-
--- Replace the above to run the query for USDCx.
--- SET confirmer_parties = [
---   &quot;decentralized-usdc-interchain-rep::12208115f1e168dd7e792320be9c4ca720c751a02a3053c7606e1c1cd3dad9bf60ef&quot;
--- ];
--- SET provider_parties = [
---   &quot;Bridge-Operator::1220c8448890a70e65f6906bd48d797ee6551f094e9e6a53e329fd5b2b549334f13f&quot;
--- ];
--- SET beneficiary_parties = [
---   &quot;Bridge-Operator::1220c8448890a70e65f6906bd48d797ee6551f094e9e6a53e329fd5b2b549334f13f&quot;
--- ];
--- SET validator_parties = [
---   &quot;digitalasset-bridge-1::1220c8448890a70e65f6906bd48d797ee6551f094e9e6a53e329fd5b2b549334f13f&quot;,
---   &quot;digitalasset-bridge-001::1220c8448890a70e65f6906bd48d797ee6551f094e9e6a53e329fd5b2b549334f13f&quot;,
---   &quot;digitalasset-bridge-2::1220028d1e2acfe5d1878a51323410710c331426d1ab40a99d3fb5bbe5671ed88bf6&quot;,
---   &quot;digitalasset-bridge-002::1220028d1e2acfe5d1878a51323410710c331426d1ab40a99d3fb5bbe5671ed88bf6&quot;,
---   &quot;circle-validator-1::12209d457bab21f1ce3d52f979cdf021c2990cb74cf01ef2dcf41bf87a79ddaf3ba8&quot;,
---   &quot;circle-validator-2::1220ed9c3e19a5e738d665b3428c83ee5bda6e7475cb62375d48c4552755cb9ab4b6&quot;,
---   &quot;circle-validator-3::12201ee3da1c10a0b6ca16692ebe08801476ae2a903435e1719435cbe466e72bbd26&quot;
--- ];
-
-
--- Change these to specify the window and granularity of the query.
-SET bucket_origin_timestamp = TIMESTAMP '2026-02-20 00:00:00.00';
-SET bucket_width = INTERVAL 24 HOUR;
-
-
--- This query relies on a set of four tables
--- 1. mainnet_da2_scan.scan_sv_1_scan_verdict_store
--- 2. mainnet_da2_scan.scan_sv_1_scan_verdict_transaction_view_store
--- 3. mainnet_da2_scan.scan_sv_1_update_history_creates
--- 4. mainnet_da2_scan.scan_sv_1_update_history_exercises
--- These tables are just document stores containing the corresponding elements from the public
--- Scan API. The fields accessed throughout are fairly evident on the Scan API.
--- The only non-API field used here is the rowId on verdicts, which is used to link the verdict
--- and view tables.
-
-
-with
--- We start pulling the data for the asset guidance: Successful transactions confirmed
--- by the confirmer-party and whether they were submitted by the own validator(s)
--- or third parties.
-
-
--- Start with pulling verdicts, which will allow us to measure successful transactions
--- and whether they were self-submitted or not.
- verdicts as (
-   select
-     TIMESTAMP_BUCKET(timestamp_micros(record_time), bucket_width, bucket_origin_timestamp) as bucket,
-     row_id as verdict_row_id,   -- Used to link views
-     update_id,                  -- Used to correlate with other tables
-     verdict_result,             -- Used to filter only successful transactions
-     submitting_participant_uid, -- Used to determine whether the transaction was self-submitted.
-   from `mainnet_da2_scan.scan_sv_1_scan_verdict_store`
- ),
--- Next we get our hands on views to figure out whether the provider party was a confirmer. This is
--- needed for the asset type measurements.
- views as (
-   select
-     verdict_row_id,
-     -- A bit of JSON mangling here to get the confirmers into a list of unique confirmers.
-     ( SELECT ARRAY_AGG(distinct flat_confirmers)
-       FROM (
-         SELECT ARRAY_CONCAT_AGG(ps) cs
-         FROM (
-           select JSON_VALUE_ARRAY(confirmer_groups, '$.parties') ps
-           FROM UNNEST(JSON_QUERY_ARRAY(confirming_parties)) as confirmer_groups
-         )
-       ), UNNEST(cs) as flat_confirmers
-     ) as confirmers
-   from `mainnet_da2_scan.scan_sv_1_scan_verdict_transaction_view_store`
- ),
- -- Now we annotate which transactions were confirmed by the confirmer party,
- -- and which transactions were submitted by the validator parties.
- -- This allows us to measure the asset guidance later.
- annotated_views as (
-   select *,
-   -- Was it confirmed by the provider party?
-   ( select COUNT(*)
-     from unnest(confirmers) as cs
-     where cs in unnest(confirmer_parties)
-   ) &gt; 0 as confirmer_confirmed
-   from views
- ),
- -- Now join views with verdicts
- annotated_verdicts as (
-   select
-     bucket,
-     update_id,
-     -- Was the transaction self-submitted?
-     submitting_participant_uid in unnest(validator_parties) as validator_submitted,
-     -- If any view was provider confirmed, then so was the verdict.
-     countif(confirmer_confirmed) &gt; 0 as confirmer_confirmed,
-   from verdicts
-   left join annotated_views using(verdict_row_id)
-   where bucket &gt;= bucket_origin_timestamp
-     and verdict_result = 1   -- Only count successful transactions
-   GROUP BY bucket, update_id, validator_submitted
- ),
- grouped_verdicts as (
-   select
-     bucket,
-     countif (confirmer_confirmed) as confirmer_confirmed,
-     countif (validator_submitted) as validator_submitted,
-     -- This last one is &quot;qualifying&quot; for assets
-     countif (confirmer_confirmed and not validator_submitted) as third_party_submitted
-   from annotated_verdicts
-   group by bucket
- ),
-
-
- -- Now look at burn. Burn can be read from templates of type `MemberTraffic`.
-   burn as (
-   select
-     update_id,
-     record_time,
-     TIMESTAMP_BUCKET(timestamp_micros(record_time), bucket_width, bucket_origin_timestamp) as bucket,
-     JSON_VALUE(create_arguments, '$.record.fields[0].value.party') as dso,
-     -- Note here that we filter out the &quot;PAR::&quot; prefix.
-     substring(JSON_VALUE(create_arguments, '$.record.fields[1].value.text'), 6) as member_id,
-     JSON_VALUE(create_arguments, '$.record.fields[2].value.text') as synchronizer_id,
-     JSON_VALUE(create_arguments, '$.record.fields[3].value.int64') as migration_id,
-     LAX_INT64(JSON_QUERY(create_arguments, '$.record.fields[4].value.int64')) as traffic,
-     LAX_INT64(JSON_QUERY(create_arguments, '$.record.fields[5].value.int64')) as num_purchases,
-     LAX_FLOAT64(JSON_QUERY(create_arguments, '$.record.fields[6].value.numeric')) as amulet_spent,
-     LAX_FLOAT64(JSON_QUERY(create_arguments, '$.record.fields[7].value.numeric')) as usd_spent
-   from `mainnet_da2_scan.scan_sv_1_update_history_creates`
-   where template_id_entity_name = 'MemberTraffic'
- ),
- -- We are interested in burn purchased for the target nodes.
- filtered_burn as (
-   select * from burn
-   where member_id in unnest(validator_parties)
-     -- `MemberTraffic` gets combined by the SVs. num_purchases = 1 means actual purchases.
-     and burn.num_purchases = 1
-     and bucket &gt;= bucket_origin_timestamp
- ),
- grouped_burn as (
-   select bucket, sum(traffic) as traffic, sum (amulet_spent) as amulet_spent, sum(usd_spent) as usd_spent
-   from filtered_burn
-   group by bucket
- ),
-
-
- -- Next we count markers.
- markers as (
-   select
-     update_id,
-     record_time,
-     TIMESTAMP_BUCKET(timestamp_micros(record_time), bucket_width, bucket_origin_timestamp) as bucket,
-     JSON_VALUE(create_arguments, '$.record.fields[0].value.party') as dso,
-     JSON_VALUE(create_arguments, '$.record.fields[1].value.party') as provider,
-     JSON_VALUE(create_arguments, '$.record.fields[2].value.party') as beneficiary,
-     LAX_FLOAT64(JSON_QUERY(create_arguments, '$.record.fields[3].value.numeric')) as weight,
-   from `mainnet_da2_scan.scan_sv_1_update_history_creates`
-   where template_id_entity_name = 'FeaturedAppActivityMarker'
- ),
--- We are interested in markers that are either set by the providers OR
--- for the beneficiaries.
--- The former covers an app distributing rewards to others.
--- The latter covers another app's automation writing markers.
- filtered_markers as (
-   select * from markers
-   where (provider in unnest(provider_parties) or beneficiary in unnest(beneficiary_parties))
-     and bucket &gt;= bucket_origin_timestamp
- ),
- grouped_markers as (
-   select bucket, sum(weight) as marker_weight
-   from filtered_markers
-   group by bucket
- ),
-
-
--- Lasly we look at CC transfers with the providers as total app weight (markers + CC transfers)
--- should not exceed burn.
-transfers AS (
- SELECT
-   TIMESTAMP_BUCKET(timestamp_micros(record_time), bucket_width, bucket_origin_timestamp) as bucket,
-   JSON_VALUE(argument, '$.record.fields[0].value.record.fields[1].value.party') AS provider
- FROM `mainnet_da2_scan.scan_sv_1_update_history_exercises`
- WHERE choice = 'AmuletRules_Transfer'
-),
-filtered_transfers AS (
- SELECT *
- FROM transfers
- WHERE bucket &gt;= bucket_origin_timestamp
-   AND provider IN UNNEST(provider_parties)
-),
-grouped_transfers AS (
- SELECT bucket, COUNT(*) as cc_transfers
- FROM filtered_transfers
- GROUP BY bucket
-)
-
-
--- Lastly, put it all together.
-SELECT
- bucket,
- -- Determine type heuristically by deciding which overage is lower.
- if (usd_spent &gt; third_party_submitted, &quot;App&quot;, &quot;Asset&quot;) as guidance_type,
- marker_weight + cc_transfers as total_app_weight,
- (marker_weight + cc_transfers) / GREATEST(usd_spent, third_party_submitted) as overage,
- * -- optional extra info
-FROM grouped_verdicts
- left join grouped_burn using (bucket)
- left join grouped_markers using (bucket)
- left join grouped_transfers using (bucket)
-ORDER BY grouped_verdicts.bucket desc
-
-
-
-</code></pre>
-<p>Methodology for Compliant Marker Setting This section represents a recommendation for how to automate the setting of markers to stay compliant with the guidelines presented.</p>
-<h3>1. Burn little and often.</h3>
-<h3>1. Adjust your traffic purchasing automation to burn CC around once every 10 minutes.</h3>
-<h3>2. The default topup parameter minTopupInterval: &quot;1m&quot; should ensure this for any app with significant activity.</h3>
-<h3>3. This allows you to set markers based on burn as opposed to traffic use as both occur within the same 20-30 minute window stipulated by rule 5.</h3>
-<h3>2. Set markers in batches after the fact.</h3>
-<h3>1. This maximizes efficiency of setting markers and and thus maximizes profitability when complying with rule 3 (no markers for setting markers)</h3>
-<h3>2. With BatchV2 coming late March, the efficiency will be at a level where the cost of setting markers can be ignored if this recommendation is followed.</h3>
-<h3>3. Set markers every round. Ie trigger batches every 5-10 minutes.</h3>
-<h3>4. Set markers to be compliant for a backwards looking window of 30 minutes.</h3>
-<h3>1. This ensures compliance with rule 5.</h3>
-<h3>2. The reference query above to calculate the allowed number of markers.</h3>
-<p>What the above means practically is every 5 minutes trigger marker automation. The automation performs these steps:</p>
-<h3>1. Run the above query for the preceding 30 minutes.</h3>
-<h3>2. Calculate the number of markers that would result in marker/burn ratio of 1.0 as defined by <code>overage</code> in the query.</h3>
-<h3>3. Set that exact number of markers though the Batch / BatchV2 marker creation contracts.</h3>
-<p>If this methodology is followed, apps will be and remain compliant with these guidelines no matter the type of activity performed*.</p>
-<p>*Note that if featured Canton Coin transfers dominate an app’s activity it is theoretically possible that overage &gt; 1.0 despite the automation and apps’ workflows never setting a single marker.</p>
+      <div class="doc-content">
+<h1 class="c23" id="h.6x3utttg2mly"><span class="c12 c30">Featured App Coupon Guidance</span></h1><p class="c7"><span class="c12">AS OF </span><span class="c12">04.22.26</span></p><p class="c7"><span class="c9 c6">Featured App Reward Coupons exist to align Reward Weight with real economic contribution to the network. &nbsp;They can be produced by either Featured CC Transfers or Featured App Markers; both approaches produce $1 of reward weight per use.<br>They are not a mechanism to amplify rewards beyond underlying on-chain activity.</span></p><p class="c7"><span>Each marker represents </span><span class="c12">$1 of reward weight</span><span>. &nbsp;Reward weight is </span><span class="c12">not</span><span class="c9 c6">&nbsp;the same as the ultimate reward amount paid out. &nbsp;It is expected that the ratio of reward paid to reward weight will vary both above and below 1:1, but this does not affect the amount of reward weight an app may create.</span></p><p class="c7"><span class="c9 c6">Failure to adhere to this guidance may result in immediate pause of Featured App (FA) status, potentially without warning, while the Tokenomics Committee reviews usage.</span></p><p class="c7"><span class="c9 c6">The revision made to this document on 04.20.26 will become effective on 04.27.26 at 21:00 UTC.</span></p><hr><p class="c5"><span class="c9 c6"></span></p><h1 class="c23" id="h.j3u24ycdulka"><span class="c6 c28 c12">Core Rules</span></h1><hr><p class="c5"><span class="c9 c6"></span></p><h2 class="c20" id="h.a4w88i8m8ex7"><span class="c6 c12 c13">1. No Redundant Markers on CC Transactions</span></h2><p class="c7"><span class="c9 c6">Both markers and featured CC transfers generate coupons. &nbsp;The number of coupons created must be in line with this guidance regardless of whether they are generated by markers or featured CC transfers.</span></p><p class="c7"><span>CC transactions already include a </span><span class="c35">provider</span><span class="c9 c6">&nbsp;field that attributes activity appropriately.<br> Adding markers to CC transactions would result in double counting of reward weight and distort Burn/Mint equilibrium.</span></p><p class="c7"><span class="c12">Note:</span><span class="c9 c6">&nbsp;If an app&rsquo;s traffic costs average &lt;$1 per CC transfer, they can unfeature some of those transfers by removing the Featured App Contract ID from the Transfer Context. &nbsp;Alternatively, applications may unfeature all of their transfers and use markers instead, or some mix of the two.</span></p><p class="c7"><span class="c12">Note:</span><span>&nbsp;After </span><span class="c1"><a class="c34" href="https://github.com/canton-foundation/cips/blob/main/cip-0107/cip-0107.md">CIP-0107</a></span><span class="c9 c6">&nbsp;is deployed to mainnet, featured CC transactions will actually create markers on-chain rather than directly creating coupons, which will simplify the calculations present in this guidance.</span></p><hr><p class="c5"><span class="c9 c6"></span></p><h2 class="c20" id="h.ncm6yy8kbfbf"><span class="c6 c13 c12">2. Coupon-to-Fee Alignment (Default Rule)</span></h2><p class="c7"><span>Featured Apps may not generate more coupon reward weight, via either CC transfers or marker submissions, than the </span><span class="c12">net on-chain fees</span><span class="c9 c6">&nbsp;they generate. &nbsp;Apps may receive a free traffic allowance from the synchronizer; to account for this, while keeping calculations simple, each featured app is credited for 0.1 MB of traffic per round in addition to the traffic they purchase.</span></p><p class="c7"><span class="c12">Rule:<br></span><span class="c9 c6">&nbsp;1 marker or featured CC transfer = $1 of reward weight<br> Maximum markers = net qualifying on-chain fees (USD)</span></p><h3 class="c18" id="h.6i6yo8mmhw62"><span class="c6 c21 c12">Example</span></h3><p class="c7"><span class="c9 c6">If an FA generates:</span></p><ul class="c11 lst-kix_z87ctgeja1hf-0 start"><li class="c7 c8 li-bullet-0"><span class="c9 c6">$10 in qualifying fees &rarr; maximum 10 markers</span></li></ul><p class="c7"><span class="c9 c6">Qualifying fees exclude any fees associated with the markers themselves.<br></span></p><h3 class="c18" id="h.cfeqqzijk59c"><span class="c6 c21 c12">Monitoring</span></h3><p class="c7"><span>The query under </span><span class="c1"><a class="c34" href="#id.g38nuh19vso3">monitoring</a></span><span class="c9 c6">&nbsp;will be used to monitor and measure a Featured App&rsquo;s Marker to Fee Ratio.</span></p><p class="c7 c15"><span class="c9 c6"></span></p><h3 class="c18" id="h.xby8zlkw759k"><span class="c6 c21 c12">Precision Tolerance</span></h3><p class="c7"><span class="c9 c6">Because of rounding, batching, and timing differences:</span></p><ul class="c11 lst-kix_748jqaginku-0 start"><li class="c7 c8 li-bullet-0"><span>Variance within </span><span class="c12">&plusmn;15%</span><span class="c9 c6">&nbsp;is acceptable by default.</span></li><li class="c7 c8 li-bullet-0"><span class="c9 c6">Variance greater than 15% requires explanation.</span></li><li class="c7 c8 li-bullet-0"><span class="c9 c6">Persistent or unexplained divergence may trigger review.</span></li></ul><p class="c7"><span class="c9 c6">This rule preserves Burn/Mint equilibrium and prevents marker inflation relative to actual economic burn.</span></p><hr><p class="c5"><span class="c9 c6"></span></p><h2 class="c20" id="h.y4o0ya4zsyjy"><span class="c12 c22">3. No Markers for the Cost of Submitting Markers</span></h2><p class="c7"><span>Featured Apps may </span><span class="c12">not</span><span class="c9 c6">&nbsp;include the cost of submitting markers when calculating allowable markers.</span></p><p class="c7"><span class="c9 c6">Markers cannot justify themselves.</span></p><h3 class="c18" id="h.n0g9yatybxfg"><span class="c6 c21 c12">Example</span></h3><p class="c7"><span class="c9 c6">If:</span></p><ul class="c11 lst-kix_utuxq7yn9mzu-0 start"><li class="c7 c8 li-bullet-0"><span class="c9 c6">Total fees generated = $10</span></li><li class="c7 c8 li-bullet-0"><span class="c9 c6">$3 of that is marker submission cost</span></li></ul><p class="c7"><span class="c9 c6">Then:</span></p><ul class="c11 lst-kix_bgcumb9iajt8-0 start"><li class="c7 c8 li-bullet-0"><span class="c9 c6">Net eligible fees = $7</span></li><li class="c7 c8 li-bullet-0"><span class="c9 c6">Maximum allowable markers = 7</span></li></ul><p class="c7"><span class="c9 c6">This prevents circular farming and self-reinforcing reward loops.</span></p><hr><p class="c5"><span class="c9 c6"></span></p><h2 class="c20" id="h.421i1ari6vkq"><span class="c6 c13 c12">4. Markers Only for On-Chain Fee-Generating Activity</span></h2><p class="c7"><span>Markers may only be submitted for actions that directly result in </span><span class="c12">on-chain traffic fees</span><span class="c9 c6">.</span></p><p class="c7"><span class="c9 c6">Markers are not allowed for:</span></p><ul class="c11 lst-kix_u7mgdgpwbfq6-0 start"><li class="c7 c8 li-bullet-0"><span class="c9 c6">Reading ledger data</span></li><li class="c7 c8 li-bullet-0"><span class="c9 c6">Off-chain API calls</span></li><li class="c7 c8 li-bullet-0"><span class="c9 c6">UI interactions</span></li><li class="c7 c8 li-bullet-0"><span class="c9 c6">Off-chain matching</span></li><li class="c7 c8 li-bullet-0"><span class="c9 c6">Any activity that does not generate on-chain burn</span></li></ul><p class="c7"><span class="c9 c6">If no on-chain fee is generated, no marker may be submitted.</span></p><hr><p class="c5"><span class="c9 c6"></span></p><h2 class="c20" id="h.zf1unqeoito"><span class="c6 c13 c12">5. Timeliness Requirement (Two-Round Rule)</span></h2><p class="c7"><span>Markers must be submitted within </span><span class="c12">two reward rounds</span><span class="c9 c6">&nbsp;of the fees they correspond to.</span></p><p class="c7"><span class="c9 c6">If an FA misses this window, the opportunity to earn rewards for that activity is forfeited.</span></p><p class="c7"><span class="c9 c6">Submitting markers long after fees were generated:</span></p><ul class="c11 lst-kix_mhtgk4wz9v9r-0 start"><li class="c7 c8 li-bullet-0"><span class="c9 c6">Alters the FA reward distribution profile</span></li><li class="c7 c8 li-bullet-0"><span class="c9 c6">Distorts expectations for other participants</span></li><li class="c7 c8 li-bullet-0"><span class="c9 c6">Introduces instability into reward forecasting</span></li></ul><p class="c7"><span class="c9 c6">Markers are intended to reflect contemporaneous economic activity.</span></p><hr><p class="c5"><span class="c9 c6"></span></p><h2 class="c20" id="h.5q0yjug70sv2"><span class="c6 c13 c12">6. No Net-Paying Users for Activity</span></h2><p class="c7"><span>Featured Apps may not use rewards to </span><span class="c12">net pay users for activity</span><span class="c9 c6">.</span></p><p class="c7"><span class="c9 c6">Permitted:</span></p><ul class="c11 lst-kix_4bvhxjlzxzu5-0 start"><li class="c7 c8 li-bullet-0"><span class="c9 c6">Offsetting legitimate user costs</span></li><li class="c7 c8 li-bullet-0"><span class="c9 c6">Reducing fees</span></li><li class="c7 c8 li-bullet-0"><span class="c9 c6">Supporting real usage</span></li></ul><p class="c7"><span class="c9 c6">Not permitted:</span></p><ul class="c11 lst-kix_75by7spk4851-0 start"><li class="c7 c8 li-bullet-0"><span class="c9 c6">Paying users more than their costs</span></li><li class="c7 c8 li-bullet-0"><span class="c9 c6">Buying artificial transaction volume</span></li><li class="c7 c8 li-bullet-0"><span class="c9 c6">Creating circular activity designed primarily to farm rewards</span></li></ul><p class="c7"><span class="c9 c6">Markers must reflect organic demand, not purchased activity.</span></p><hr><p class="c5"><span class="c9 c6"></span></p><h2 class="c20" id="h.vchuc2y9jh4d"><span class="c6 c13 c12">7. No Reward Recycling</span></h2><p class="c7"><span class="c9 c6">Featured Apps may not earn rewards from distributing rewards to users.</span></p><p class="c7"><span class="c9 c6">You may not:</span></p><ul class="c11 lst-kix_7m5lobgwod3p-0 start"><li class="c7 c8 li-bullet-0"><span class="c9 c6">Submit markers on transactions whose primary purpose is distributing previously earned rewards.</span></li><li class="c7 c8 li-bullet-0"><span class="c9 c6">Create recursive reward loops.</span></li></ul><p class="c7"><span class="c9 c6">Rewards cannot generate new reward weight.</span></p><hr><p class="c5"><span class="c9 c6"></span></p><h1 class="c23" id="h.dvcy0fjg3vio"><span class="c6 c28 c12">8. Asset Issuers</span></h1><p class="c7"><span class="c9 c6">The default rule (1 marker per $1 of fees generated) assumes the Featured App directly incurs on-chain fees.</span></p><p class="c7"><span>However, asset issuers often do not directly submit the transactions that use their asset. As a result, their direct fee bucket may be </span><span class="c12">$0</span><span class="c9 c6">, even when their asset is widely used on-chain.</span></p><p class="c7"><span class="c9 c6">If held strictly to the default rule, asset issuers could be entitled to zero markers and zero rewards despite meaningful on-ledger usage.</span></p><h3 class="c18" id="h.2tqli03sfckt"><span class="c6 c21 c12">Therefore:</span></h3><p class="c7"><span>Asset issuers are permitted to submit markers </span><span>for on-ledger activity involving their asset</span><span>, even if they incur no direct fees for that activity. </span><span class="c12">Asset Issuers may submit 1 marker per transaction submitted by </span><span class="c12">3rd parties</span><span class="c12">/transaction originator/venue. </span><span class="c9 c6">Asset Issuers may only submit 1 marker even when the 3rd party batches many asset movements into a single transaction.</span></p><h3 class="c18" id="h.g6rmptaeofn"><span class="c6 c21 c12">Conditions</span></h3><ul class="c11 lst-kix_mf9quifq660q-0 start"><li class="c7 c8 li-bullet-0"><span class="c9 c6">The activity must generate on-chain fees (even if paid by another party).</span></li><li class="c7 c8 li-bullet-0"><span class="c9 c6">The asset must be genuinely used in the transaction.</span></li><li class="c7 c8 li-bullet-0"><span class="c9 c6">Markers must correspond to objective, verifiable on-chain events.</span></li><li class="c7 c8 li-bullet-0"><span class="c9 c6">All other rules (no farming, no reward recycling, no off-chain marking, timeliness requirement) still apply.</span></li></ul><h3 class="c18" id="h.v0eeld9tw9xi"><span class="c6 c21 c12">What this does not allow</span></h3><ul class="c11 lst-kix_s17rnquscxuh-0 start"><li class="c7 c8 li-bullet-0"><span class="c9 c6">Marking off-chain activity</span></li><li class="c7 c8 li-bullet-0"><span class="c9 c6">Creating artificial transactions to farm rewards</span></li><li class="c7 c8 li-bullet-0"><span class="c9 c6">Embedding usage fees solely to manufacture a fee bucket</span></li></ul><h3 class="c18" id="h.j0vvndv2l9kw"><span class="c6 c21 c12">Principle</span></h3><p class="c7"><span>For standard FAs &rarr; eligibility is based on </span><span class="c12">fees generated</span><span>.<br>For asset issuers &rarr; eligibility is based on </span><span class="c12">on-ledger asset usage</span><span class="c9 c6">.</span></p><p class="c7"><span class="c9 c6">This exception ensures asset issuers are not structurally excluded from rewards simply because they do not directly bear submission costs, while still maintaining alignment with real economic activity.</span></p><h3 class="c18" id="h.wdraylu1ziwu"><span class="c6 c21 c12">Monitoring</span></h3><p class="c7"><span>The &nbsp;query under </span><span class="c1"><a class="c34" href="#id.g38nuh19vso3">monitoring</a></span><span>&nbsp;will be used to monitor and measure a Featured App&rsquo;s Marker to Transaction Ratio.</span></p><h3 class="c18" id="h.khechb9jfyux"><span class="c12 c37">Forward Guidance</span></h3><p class="c7"><span class="c9 c6">We recognize that with any new guidance there is the potential for misuse of the Featured App designation and markers to emerge. It is important to address this proactively but take sufficient time to provide thoughtful and &nbsp;thorough guidance. To that end, there will likely be further fair use guidance on specific asset issuer use cases. Topic to be considered include but aren&#39;t limited to wrapping of already on Canton assets, wrap/unwrap loops, and transaction sharding.</span></p><hr><p class="c5"><span class="c9 c6"></span></p><h1 class="c23" id="h.lglhxsbl2s0c"><span class="c6 c27">9. CIP-0056 Compliance</span></h1><p class="c5"><span class="c9 c6"></span></p><p class="c24"><span>In </span><span>order to</span><span class="c9 c6">&nbsp;be eligible for FA Rewards, assets must be fully CIP-0056 compliant.</span></p><h3 class="c18" id="h.aigdfra9it78"><span class="c6 c21 c12">Compliance</span></h3><p class="c24"><span>Asset Issuers must demonstrate ability for users to hold assets in at least 2 </span><span>wallets live</span><span class="c9 c6">&nbsp;in the ecosystem with CIP-0056 support. </span></p><p class="c5"><span class="c9 c6"></span></p><p class="c24"><span>Asset Issuers must demonstrate ability for users to swap assets via at least one on-chain DVP </span><span>facility</span><span>. </span></p><h1 class="c32" id="h.fc4vqzvc6a3x"><span class="c27 c6">10. Separate Party Concerns</span></h1><p class="c7"><span class="c9 c6">Where a Featured App operates multiple materially distinct functions, those functions should be separated into distinct on-chain Parties.</span></p><p class="c7"><span class="c9 c6">This requirement is mandatory for asset issuers.</span></p><h3 class="c18" id="h.w97tne2ngmwf"><span class="c6 c21 c12">General Rule</span></h3><p class="c7"><span class="c9 c6">If an application performs more than one major role &mdash; for example:</span></p><ul class="c11 lst-kix_4w35f1e0ue2u-0 start"><li class="c7 c8 li-bullet-0"><span class="c9 c6">Asset issuance</span></li><li class="c7 c8 li-bullet-0"><span class="c9 c6">Wallet services</span></li><li class="c7 c8 li-bullet-0"><span class="c9 c6">DEX functionality</span></li><li class="c7 c8 li-bullet-0"><span class="c9 c6">Custody</span></li><li class="c7 c8 li-bullet-0"><span class="c9 c6">Lending</span></li><li class="c7 c8 li-bullet-0"><span class="c9 c6">Payment processing</span></li></ul><p class="c7"><span class="c9 c6">Each major function should operate under a separate PartyId.</span></p><p class="c7"><span class="c9 c6">Reward weight, fee generation, and marker submission must be attributable to the correct Party corresponding to the economic role being performed.</span></p><h3 class="c18" id="h.3xfiszyn31rs"><span class="c6 c21 c12">Asset Issuers &ndash; Mandatory Separation</span></h3><p class="c7"><span class="c9 c6">If an entity acts as an asset issuer, that PartyId may not also perform other major functions.</span></p><p class="c7"><span class="c9 c6">Specifically, an Asset Issuer PartyId may not simultaneously operate as:</span></p><ul class="c11 lst-kix_s3m1xdhlvox7-0 start"><li class="c7 c8 li-bullet-0"><span class="c9 c6">A wallet</span></li><li class="c7 c8 li-bullet-0"><span class="c9 c6">A DEX</span></li><li class="c7 c8 li-bullet-0"><span class="c9 c6">A market maker</span></li><li class="c7 c8 li-bullet-0"><span class="c9 c6">A lending protocol</span></li><li class="c7 c8 li-bullet-0"><span class="c9 c6">A payment processor</span></li><li class="c7 c8 li-bullet-0"><span class="c9 c6">Any other fee-generating application function</span></li></ul><p class="c7"><span class="c9 c6">The Asset Issuer must be isolated from other operational roles.</span></p><h3 class="c18" id="h.o3qqlnxhsed4"><span class="c6 c12 c21">Rationale</span></h3><p class="c7"><span class="c9 c6">This requirement prevents:</span></p><ul class="c11 lst-kix_fd45ll6y3cgg-0 start"><li class="c7 c8 li-bullet-0"><span class="c9 c6">Blending issuer-based marker privileges with fee-based privileges</span></li><li class="c7 c8 li-bullet-0"><span class="c9 c6">Cross-subsidization of reward weight</span></li><li class="c7 c8 li-bullet-0"><span class="c9 c6">Obscured economic attribution</span></li><li class="c7 c8 li-bullet-0"><span class="c9 c6">Difficulty in auditing burn-to-marker alignment</span></li></ul><p class="c7"><span class="c9 c6">Asset Issuer treatment is already an exception to the default marker rule. That exception requires structural clarity to preserve integrity.</span></p><hr><p class="c5"><span class="c9 c6"></span></p><h1 class="c23" id="h.kp9dycz0j8vm"><span class="c6 c28 c12">Enforcement</span></h1><p class="c7"><span class="c9 c6">Failure to adhere to any of the above guidance may result in:</span></p><ul class="c11 lst-kix_zg4tc83v92rf-0 start"><li class="c7 c8 li-bullet-0"><span class="c9 c6">Immediate pause of Featured App status</span></li><li class="c7 c8 li-bullet-0"><span class="c9 c6">Pause without prior warning</span></li><li class="c7 c8 li-bullet-0"><span class="c9 c6">Review by the Tokenomics Committee</span></li><li class="c7 c8 li-bullet-0"><span class="c9 c6">Potential revocation of Featured App status</span></li></ul><p class="c7"><span class="c9 c6">The objective is to preserve:</span></p><ul class="c11 lst-kix_wad10md80vwk-0 start"><li class="c7 c8 li-bullet-0"><span class="c9 c6">Burn/Mint equilibrium</span></li><li class="c7 c8 li-bullet-0"><span class="c9 c6">Fair reward attribution</span></li><li class="c7 c8 li-bullet-0"><span class="c9 c6">Stability of reward distribution</span></li><li class="c7 c8 li-bullet-0"><span class="c6 c9">Long-term tokenomic integrity</span></li></ul><p class="c5"><span class="c9 c6"></span></p><h1 class="c23" id="h.xsnzw3lcy9jv"><span class="c30 c12">Monit</span><a id="id.g38nuh19vso3"></a><span class="c6 c28 c12">oring</span></h1><p class="c24"><span class="c9 c6">The following query calculates overage for both app and asset style marker usage. It&rsquo;s using BigQuery dialect SQL.</span></p><p class="c5"><span class="c9 c6"></span></p><p class="c5"><span class="c9 c6"></span></p><p class="c3"><span class="c31">&#60419;</span><span class="c14">DECLARE </span><span class="c4">bucket_origin_timestamp </span><span class="c14">TIMESTAMP</span><span class="c4 c6">;</span></p><p class="c3"><span class="c14">DECLARE </span><span class="c4">bucket_width </span><span class="c14">INTERVAL</span><span class="c4 c6">;</span></p><p class="c3"><span class="c14">DECLARE </span><span class="c4 c6">featured_apps Array&lt;String&gt;;</span></p><p class="c3"><span class="c14">DECLARE </span><span class="c4 c6">provider_parties Array &lt;String&gt;;</span></p><p class="c3"><span class="c14">DECLARE </span><span class="c4">beneficiary_parties </span><span class="c14">ARRAY</span><span class="c4 c6">&lt;String&gt;;</span></p><p class="c3"><span class="c14">DECLARE </span><span class="c4">validator_parties </span><span class="c14">ARRAY</span><span class="c4 c6">&lt;String&gt;;</span></p><p class="c3"><span class="c14">DECLARE </span><span class="c4">confirmer_parties </span><span class="c14">ARRAY</span><span class="c4 c6">&lt;String&gt;;</span></p><p class="c3"><span class="c14">DECLARE </span><span class="c4 c6">fa_party String;</span></p><p class="c3 c15"><span class="c4 c6"></span></p><p class="c3"><span class="c0">-- Featured apps listed just for convenience.</span></p><p class="c3"><span class="c0">-- You can index it below to pull data for the different apps.</span></p><p class="c3"><span class="c14">SET </span><span class="c4 c6">featured_apps = [</span></p><p class="c3"><span class="c4">&nbsp;</span><span class="c10">&quot;proofgroup-validator-1::122021b7624f77a1a095714acc74337bebb0f49cf0f8ea565d4f0b12e09bb5deb1e1&quot;</span><span class="c4 c6">,</span></p><p class="c3"><span class="c4">&nbsp;</span><span class="c10">&quot;twmain-treasury-1::12200954e2b4596dfad67f92cd333602efa4ebcdc3860437884136817fa5c9f54a0e&quot;</span><span class="c4 c6">,</span></p><p class="c3"><span class="c4">&nbsp;</span><span class="c10">&quot;auth0_007c683dbd71f9d177d5fdd09f3c::1220d3016091c253f526645cce3a0633837b685da083bac4459dad63e61d5c97b5fa&quot;</span><span class="c4 c6">,</span></p><p class="c3"><span class="c4">&nbsp;</span><span class="c10">&quot;Bridge-Operator::1220c8448890a70e65f6906bd48d797ee6551f094e9e6a53e329fd5b2b549334f13f&quot;</span><span class="c4 c6">,</span></p><p class="c3"><span class="c4">&nbsp;</span><span class="c10">&quot;pixelplex-mainnet-3::12209a8ec282ec94bc941172f3052221413031f27394685693e2d83e4bfab6423ac6&quot;</span><span class="c4 c6">,</span></p><p class="c3"><span class="c4">&nbsp;</span><span class="c10">&quot;auth0_007c68b849ffb53dbcab06ecd2a1::1220bca0d4ed76bda5da0bcbbd8ea91f047d0b8f4bc332084a735c936196d24c0cf3&quot;</span><span class="c4 c6">,</span></p><p class="c3"><span class="c4">&nbsp;</span><span class="c10">&quot;PropNotary-app::122050e459c7de23f3bca5b9f59218e68502b2412c5d8ea9fb38604be20b0265f374&quot;</span><span class="c4 c6">,</span></p><p class="c3"><span class="c4">&nbsp;</span><span class="c10">&quot;unitedapp-cc::12203179cc5cae0452dbc233403a6a66f6d87988615d0e64defdd77abb133bdc40a9&quot;</span><span class="c4 c6">,</span></p><p class="c3"><span class="c4">&nbsp;</span><span class="c10">&quot;the_tie_validator::1220d3016091c253f526645cce3a0633837b685da083bac4459dad63e61d5c97b5fa&quot;</span><span class="c4 c6">,</span></p><p class="c3"><span class="c4">&nbsp;</span><span class="c10">&quot;party-8cc0af7a-8265-4c2f-984e-ef299c3c103f::1220b8301e18aa8a401d6e34e6c20f8b0243183c514373bca8f1b6b9270246341a9e&quot;</span><span class="c4 c6">,</span></p><p class="c3"><span class="c4">&nbsp;</span><span class="c10">&quot;iBTC-validator-1::1220409a9fcc5ff6422e29ab978c22c004dde33202546b4bcbde24b25b85353366c2&quot;</span><span class="c4 c6">,</span></p><p class="c3"><span class="c4">&nbsp;</span><span class="c10">&quot;canton-sign::122092e9dd81d0a52f38b110f6b2e6426713418cc4db363c5c9b2c8cb6e46922c671&quot;</span><span class="c4 c6">,</span></p><p class="c3"><span class="c4">&nbsp;</span><span class="c10">&quot;Cygnet::1220e655341f4512555d89c14cf52c80a029b57e19d30d80721b4aae5b0a053ab397&quot;</span><span class="c4 c6">,</span></p><p class="c3"><span class="c4">&nbsp;</span><span class="c10">&quot;modulo-mainnet-2::1220bbd47c5a10d5540c420e1f8f0f1fd513464ec6110dbd5123970dbe3b538805d3&quot;</span><span class="c4 c6">,</span></p><p class="c3"><span class="c4">&nbsp;</span><span class="c10">&quot;Obligate-validator-1::1220663cfdc370c3fc447072f3731a838a2a7de757bc29ee0d34b326f317b70db4aa&quot;</span><span class="c4 c6">,</span></p><p class="c3"><span class="c4">&nbsp;</span><span class="c10">&quot;temple-mainnet-1::1220f238bb79df3efbbac2ea964c3cd501003971a2cb59043e2dac50b06e85b8620f&quot;</span><span class="c4 c6">,</span></p><p class="c3"><span class="c4">&nbsp;</span><span class="c10">&quot;modo::122014f09cb05cffc2f1c524601c4aa91d35908dc55cfe9e92849390137ccc7c0d41&quot;</span><span class="c4 c6">,</span></p><p class="c3"><span class="c4">&nbsp;</span><span class="c10">&quot;LoopID::1220940ccaf484be99fc67387ce461bd358aa6c76e43224e959a4bd20fe30a0b11c6&quot;</span><span class="c4 c6">,</span></p><p class="c3"><span class="c4">&nbsp;</span><span class="c10">&quot;cbtc-network::12205af3b949a04776fc48cdcc05a060f6bda2e470632935f375d1049a8546a3b262&quot;</span><span class="c4 c6">,</span></p><p class="c3"><span class="c4">&nbsp;</span><span class="c10">&quot;TRIZEGroup-RIZEScore::12206ab3bf15b14410220357d6a6375eb1015f2e7fade1deb449463c2f2a25304889&quot;</span><span class="c4 c6">,</span></p><p class="c3"><span class="c4">&nbsp;</span><span class="c10">&quot;flipside-validator-1::1220bf4169a874284cb202f33426a8cb0ef2cd6c506ece144d3b3bacae773bf479c0&quot;</span><span class="c4 c6">,</span></p><p class="c3"><span class="c4">&nbsp;</span><span class="c10">&quot;MPCH-BRONdvn-1::122005b8d2f108b45b4d7872f0e982b13e14fa119a31a4f6ddf76f4a58bbbba49024&quot;</span><span class="c4 c6">,</span></p><p class="c3"><span class="c4">&nbsp;</span><span class="c10">&quot;cantonloop-mainnet-1::12205fb70ce14897d06baec18a4b889f296c765a8325fd3d99cc084b1f980426ac12&quot;</span><span class="c4 c6">,</span></p><p class="c3"><span class="c4">&nbsp;</span><span class="c10">&quot;ByBit-MainNetValidator-1::12202c9fc5180723f14e87c88d316355817dd565afc2a897706a789086c33cd6a095&quot;</span><span class="c4 c6">,</span></p><p class="c3"><span class="c4">&nbsp;</span><span class="c10">&quot;noves-translate::1220dd5cc6e969cd7d7c11e339fbd07fab5f6fa1f999dc09339228d17299d9d68941&quot;</span><span class="c4 c6">,</span></p><p class="c3"><span class="c4">&nbsp;</span><span class="c10">&quot;931f692d-21d7-4548-82b4-d0e1c6ec7736::1220921c9c5579f2648609d8b007793ffbe31efb311c79c53cbc68571827c1c5ebee&quot;</span><span class="c4 c6">,</span></p><p class="c3"><span class="c4">&nbsp;</span><span class="c10">&quot;TextureCapital-validator-1::12206f711aa1c1017053f53a069279518584074c0b0348f522b020d1fcc311e01988&quot;</span><span class="c4 c6">,</span></p><p class="c3"><span class="c4">&nbsp;</span><span class="c10">&quot;3b348904-a81e-403c-a48e-13fa14aa6e97::12204dcfad78c016ab59babba72d4ffe9bdca8aeaf6299a3f0da59523ee3f765b053&quot;</span><span class="c4 c6">,</span></p><p class="c3"><span class="c4">&nbsp;</span><span class="c10">&quot;openvector-wallet-1::1220ab544a2d6cfd0b8c89af3e2b460f6999030ffb067e63dddd60ea265db3c7e3a5&quot;</span><span class="c4 c6">,</span></p><p class="c3"><span class="c4">&nbsp;</span><span class="c10">&quot;auth0_007c689b657291598790daabbdca::1220d3016091c253f526645cce3a0633837b685da083bac4459dad63e61d5c97b5fa&quot;</span><span class="c4 c6">,</span></p><p class="c3"><span class="c4">&nbsp;</span><span class="c10">&quot;CantonOps::12204a039322c01e9f714b56259c3e68b69058bf5dfe1debbe956c698f905ceba9d7&quot;</span><span class="c4 c6">,</span></p><p class="c3"><span class="c4">&nbsp;</span><span class="c10">&quot;brikly-asterizm::122007725fa01ff8d201e87afc2a3c04b8dd67fd65660e9acb68a72ca54a59b5f610&quot;</span><span class="c4 c6">,</span></p><p class="c3"><span class="c4">&nbsp;</span><span class="c10">&quot;binance-dp-1::12206a8a77e900f10dbaa57e4741f2d50d9318dd87e40f8dbf28f7ec4da657bb27b4&quot;</span><span class="c4 c6">,</span></p><p class="c3"><span class="c4">&nbsp;</span><span class="c10">&quot;Thetamarkets::12201cf4d44f54d386b382ae3deabec790d477bbc7e1857b94b5a44f04c286840353&quot;</span><span class="c4 c6">,</span></p><p class="c3"><span class="c4">&nbsp;</span><span class="c10">&quot;lithiumdigital-validator-1::1220e852a0cb4372f91dd2b7b93c71d4580600b0f2c045e6cbebd9f510e88c0ba29b&quot;</span><span class="c4 c6">,</span></p><p class="c3"><span class="c4">&nbsp;</span><span class="c10">&quot;blackmantacapital-primary-1::1220c0d1b398955a314e9662027cb3ef337b0a9390ca3346314070631d72792cee36&quot;</span><span class="c4 c6">,</span></p><p class="c3"><span class="c4">&nbsp;</span><span class="c10">&quot;FlowRyd-validator-1::1220953c2240437bdf86867bb8540bc060f8db4e94f4ef3d00be48c98c2728a79c8d&quot;</span><span class="c4 c6">,</span></p><p class="c3"><span class="c4">&nbsp;</span><span class="c10">&quot;Cumberland-GasStation-1::1220987fe52357fc17dc0a3552a691d1e1e685152bbe467acff604503cf301780bcf&quot;</span><span class="c4 c6">,</span></p><p class="c3"><span class="c4">&nbsp;</span><span class="c10">&quot;Fairmint-validator-1::122047f456985651be8ea317881a9af4f04521417ce1a449b75543541acf33aac4d2&quot;</span><span class="c4 c6">,</span></p><p class="c3"><span class="c4">&nbsp;</span><span class="c10">&quot;acme-lending::1220a7daf7140e112f15a46f2daa52fe9c8651024ff8705bb23c494275dd02209596&quot;</span><span class="c4 c6">,</span></p><p class="c3"><span class="c4">&nbsp;</span><span class="c10">&quot;auth0_007c68129abae6733ca8b889162e::122064aab814d8d02f957120e33a970a5aca7c14097eab85ab40a36ddff26c70c44b&quot;</span><span class="c4 c6">,</span></p><p class="c3"><span class="c4">&nbsp;</span><span class="c10">&quot;cantonnodes-validator-1::12202aabb1637789bf00254a7893853860d8458c7c0235b06433611d6bf41e812b10&quot;</span><span class="c4 c6">,</span></p><p class="c3"><span class="c4">&nbsp;</span><span class="c10">&quot;auth0_007c68c00c8f13d9cd1ff3a0f951::1220d1e3a653420a5d606c6b88b94e9e5f8361f5313f44d5bcbf2b8835ceb86a8aa7&quot;</span><span class="c4 c6">,</span></p><p class="c3"><span class="c4">&nbsp;</span><span class="c10">&quot;openvector-mainnet-1::1220ab544a2d6cfd0b8c89af3e2b460f6999030ffb067e63dddd60ea265db3c7e3a5&quot;</span><span class="c4 c6">,</span></p><p class="c3"><span class="c4">&nbsp;</span><span class="c10">&quot;3trade_validator_admin::122060327be2fbbda7498a867507bf4d1cd83cd079382fa8af1d4be5cad79248c102&quot;</span><span class="c4 c6">,</span></p><p class="c3"><span class="c4">&nbsp;</span><span class="c10">&quot;M1-validator-1::12207b40944692e083593819697e1cd87a94026afca2564253d16ff8696b233a6637&quot;</span><span class="c4 c6">,</span></p><p class="c3"><span class="c4">&nbsp;</span><span class="c10">&quot;cantrack::12208287f2b9baebe6499af23d60481a6b91a2edf587f0203e68b8706348cc8776cb&quot;</span><span class="c4 c6">,</span></p><p class="c3"><span class="c4">&nbsp;</span><span class="c10">&quot;23d169c2-0909-4c70-81d1-1922de6febaa::12202ba1ca9f3578e7fa2fdd1517a40d553621dbdee4227d0a37022591abae821ef3&quot;</span><span class="c4 c6">,</span></p><p class="c3"><span class="c4">&nbsp;</span><span class="c10">&quot;auth0_007c68d19a845c180f92912bcaca::12203eeb4af78c37754352c3e6235f684bd125069d49cf5827c44350fa8827320ed8&quot;</span><span class="c4 c6">,</span></p><p class="c3"><span class="c4">&nbsp;</span><span class="c10">&quot;cantor8-digik-1::12204dcfad78c016ab59babba72d4ffe9bdca8aeaf6299a3f0da59523ee3f765b053&quot;</span><span class="c4 c6">,</span></p><p class="c3"><span class="c4">&nbsp;</span><span class="c10">&quot;send-cantonwallet-1::1220f1b0d7a83c7eaaf6d712d95d5952ea2c801238af9c342e8d83c87dfc45c999dc&quot;</span><span class="c4 c6">,</span></p><p class="c3"><span class="c4">&nbsp;</span><span class="c10">&quot;trakx-validator-1::1220f2acce9d7491505ee5fabb548e9975bbf0f8efaae98404d7399922fb48a03aeb&quot;</span><span class="c4 c6">,</span></p><p class="c3"><span class="c4">&nbsp;</span><span class="c10">&quot;CoinMetrics-validator-1::1220b6cf34a2c8937dc72403e7a8b57c80049be8aff3e5e2d992063460bdc8636466&quot;</span><span class="c4 c6">,</span></p><p class="c3"><span class="c4">&nbsp;</span><span class="c10">&quot;DStash::122016b8c36f538ee05279581ab01465feab275ebe208288c517c020b679f4ee5e9f&quot;</span><span class="c4 c6">,</span></p><p class="c3"><span class="c4">&nbsp;</span><span class="c10">&quot;foundinalsunthy-mainnet-1::12201004202ad4f2ba69d160e148899596aa294db698917f3aaef063afcb0a412c83&quot;</span><span class="c4 c6">,</span></p><p class="c3"><span class="c4">&nbsp;</span><span class="c10">&quot;4e667aab-9089-400b-9485-74d73732f068::1220dd489bd2242472a14015e9aebc12a48879a7e3aac60875506df30f7fce4e0f78&quot;</span><span class="c4 c6">,</span></p><p class="c3"><span class="c4">&nbsp;</span><span class="c10">&quot;auth0_007c6643538f2eadd3e573dd05b9::12205bcc106efa0eaa7f18dc491e5c6f5fb9b0cc68dc110ae66f4ed6467475d7c78e&quot;</span><span class="c4 c6">,</span></p><p class="c3"><span class="c4">&nbsp;</span><span class="c10">&quot;party-fda614d8-0b2e-4d64-9718-b4c497c56a8d::1220f67b4f1c8742d83ac7e12749d98195bf88ff120b2dab369291cf6a2ca27be9a9&quot;</span><span class="c4 c6">,</span></p><p class="c3"><span class="c4">&nbsp;</span><span class="c10">&quot;c7trust::12202e2325b04b0f0ee30685088289293b3e7a28d8b26470b39435502912e2876cba&quot;</span><span class="c4 c6">,</span></p><p class="c3"><span class="c4">&nbsp;</span><span class="c10">&quot;dfns1::122035d991d57991b9ef733ac4fb475de6257f17b20254a2f3f17c5b12322ed4174c&quot;</span><span class="c4 c6">,</span></p><p class="c3"><span class="c4">&nbsp;</span><span class="c10">&quot;mexc-mainNet-01::12200e0228fa4b2652d5364068ed4e518bfb20e8be9ca062397bd068c8b2817fc5c7&quot;</span><span class="c4 c6">,</span></p><p class="c3"><span class="c4">&nbsp;</span><span class="c10">&quot;ByBit-MainNetValidator-1::12202c9fc5180723f14e87c88d316355817dd565afc2a897706a789086c33cd6a095&quot;</span><span class="c4 c6">,</span></p><p class="c3"><span class="c4">&nbsp;</span><span class="c10">&quot;validator_Hashnote::12202eacbd060e2e22ab198cb9f337ccfe049e16a90968576e15b8bab4317cf17259&quot;</span><span class="c4 c6">,</span></p><p class="c3"><span class="c4">&nbsp;</span><span class="c10">&quot;ZodiaCustody-validator-1::122048dee6ac5d575890024dbf6847d1ca4026c96e8d4c6df07bb5b96a10ae180030&quot;</span><span class="c4 c6">,</span></p><p class="c3"><span class="c4">&nbsp;</span><span class="c10">&quot;kraken-validator-01::12201a93a967d6aa33310fb8b15a5b92a69ff48b7f326f20a26622a56a0ccea4168a&quot;</span><span class="c4 c6">,</span></p><p class="c3"><span class="c4">&nbsp;</span><span class="c10">&quot;TRIZEGroup-cantonMainnetValidator-1::12206ab3bf15b14410220357d6a6375eb1015f2e7fade1deb449463c2f2a25304889&quot;</span><span class="c4 c6">,</span></p><p class="c3"><span class="c4">&nbsp;</span><span class="c10">&quot;f932f175-75f1-45e9-9dce-8b8c77f1328b::12204dcfad78c016ab59babba72d4ffe9bdca8aeaf6299a3f0da59523ee3f765b053&quot;</span><span class="c4 c6">,</span></p><p class="c3"><span class="c4">&nbsp;</span><span class="c10">&quot;party-28dc4516-b5ca-44ff-86c7-2107e90a6807::1220b8301e18aa8a401d6e34e6c20f8b0243183c514373bca8f1b6b9270246341a9e&quot;</span><span class="c4 c6">,</span></p><p class="c3"><span class="c4">&nbsp;</span><span class="c10">&quot;cypherock-mainnet-1::1220583c5b03a866fd8e5f09737cdb51818c7b4b52a8e8c9b0cc2f4d1b082e95b6d9&quot;</span><span class="c4 c6">,</span></p><p class="c3"><span class="c4">&nbsp;</span><span class="c10">&quot;IntellectEU-validator-1::122085181345795b9e58122cef90b8df61ddfe128cdaf9abbcb77f8cef92950c1d05&quot;</span><span class="c4 c6">,</span></p><p class="c3"><span class="c4">&nbsp;</span><span class="c10">&quot;google-oauth2_007c106967619021219072829::122033209fcbadac068ae0eb263e10da799e8314a7a0af338fdd8701d98d10efc1b5&quot;</span><span class="c4 c6">,</span></p><p class="c3"><span class="c4">&nbsp;</span><span class="c10">&quot;CantonSwap::122096fe076cc065af0cb38f94caa60e8ddfecbe8f0cfe10655ae7aa06fab99c66b7&quot;</span><span class="c4 c6">,</span></p><p class="c3"><span class="c4">&nbsp;</span><span class="c10">&quot;auth0_007c68f92e9e93fbd6f5a89b0a0c::12208d1aaf40a035e46b5076e41b84acc17a7cfb9c5b6d0848b2203cc2e5eceaee43&quot;</span><span class="c4 c6">,</span></p><p class="c3"><span class="c4">&nbsp;</span><span class="c10">&quot;kucoin-node-01::1220a9f52878b918c523d04b7b77fde73b39ba9842292e88bf2e7ce3b86eb25a3978&quot;</span><span class="c4 c6">,</span></p><p class="c3"><span class="c4">&nbsp;</span><span class="c10">&quot;Hashrupt-Verity::1220a92bde4d13d685e03c797e3a33891b64bfa7d93d80f2a0744fc21c9976492321&quot;</span><span class="c4 c6">,</span></p><p class="c3"><span class="c4">&nbsp;</span><span class="c10">&quot;opus28-opusaccess-1::122085428bbc45cd9e8e457fa643d98f41bce1d7e5113248e637c611b9de1ddef684&quot;</span><span class="c4 c6">,</span></p><p class="c3"><span class="c4">&nbsp;</span><span class="c10">&quot;feat-unhedged-app::12208567a714a12d1ba486a9fa702a0a438b5b3b895510eca791e3ef965a24be8832&quot;</span><span class="c4 c6">,</span></p><p class="c3"><span class="c4">&nbsp;</span><span class="c10">&quot;send-safe::1220f1b0d7a83c7eaaf6d712d95d5952ea2c801238af9c342e8d83c87dfc45c999dc&quot;</span><span class="c4 c6">,</span></p><p class="c3"><span class="c4">&nbsp;</span><span class="c10">&quot;ccbrowser::1220dd5cc6e969cd7d7c11e339fbd07fab5f6fa1f999dc09339228d17299d9d68941&quot;</span><span class="c4 c6">,</span></p><p class="c3"><span class="c4">&nbsp;</span><span class="c10">&quot;opus28-opusaccess-1::122085428bbc45cd9e8e457fa643d98f41bce1d7e5113248e637c611b9de1ddef684&quot;</span><span class="c4 c6">,</span></p><p class="c3"><span class="c4">&nbsp;</span><span class="c10">&quot;kairo-mainnet::12205162445638c3f71c9942b74360134b4ebc953b5bea2c25adc99bff130bffd060&quot;</span><span class="c4 c6">,</span></p><p class="c3"><span class="c4">&nbsp;</span><span class="c10">&quot;auth0_007c691c4d28726455d23d1aa6dd::122046d30acaaa01b3a0aae069cbfb5983660360af866dd76b335570acacb2b31c3a&quot;</span><span class="c4 c6">,</span></p><p class="c3"><span class="c4">&nbsp;</span><span class="c10">&quot;auth0_007c68dab25ebb6582a0cbe2861c::12206476325416d7a9bcab23a22f75d2dd015c2bdcca6173428930e14e7405e78e35&quot;</span><span class="c4 c6">,</span></p><p class="c3"><span class="c4">&nbsp;</span><span class="c10">&quot;mandalo-mainnet-2::122012969f2b0e67f443e0563e34d1468a7353bc3f125a02ea0cc100d934e298f98b&quot;</span><span class="c4 c6">,</span></p><p class="c3"><span class="c4">&nbsp;</span><span class="c10">&quot;nodefortress-finance-1::12203eeb4af78c37754352c3e6235f684bd125069d49cf5827c44350fa8827320ed8&quot;</span><span class="c4 c6">,</span></p><p class="c3"><span class="c4">&nbsp;</span><span class="c10">&quot;Ubyx-validator-1::12204cfc7847273bd046b70b5c5549627294a024fb2ab86f58755ee6aebeed9cc1c4&quot;</span><span class="c4 c6">,</span></p><p class="c3"><span class="c4">&nbsp;</span><span class="c10">&quot;PotamusEngagement-validator-1::1220558dc6c852c1f9b355ba0b7c1ad8b605d011895eb404e53ef8e913b8f06e94ce&quot;</span><span class="c4 c6">,</span></p><p class="c3"><span class="c4">&nbsp;</span><span class="c10">&quot;cantory::1220a0a64bd45fee105f5c80474842a4337bb09323ca748d7ea6dacc07fc6237572c&quot;</span><span class="c4 c6">,</span></p><p class="c3"><span class="c4">&nbsp;</span><span class="c10">&quot;auth0_007c6854438f220d2f07761f21a3::12208ea6ee6188e06ff3ba484219eb1e7e9308d8cd628865ad4277bca920c672b988&quot;</span><span class="c4 c6">,</span></p><p class="c3"><span class="c4">&nbsp;</span><span class="c10">&quot;sunthycloud-mainnet-1::1220dc2c99151dbe0ca0ff322dbdcf0f511c181e9277799640287c37f26c7a993773&quot;</span><span class="c4 c6">,</span></p><p class="c3"><span class="c4">&nbsp;</span><span class="c10">&quot;tenkai-main-1::122092e9dd81d0a52f38b110f6b2e6426713418cc4db363c5c9b2c8cb6e46922c671&quot;</span><span class="c4 c6">,</span></p><p class="c3"><span class="c4">&nbsp;</span><span class="c10">&quot;silvana-orderbook::1220997446016f1e96be9215bab224eace372752853ef99175c332307489bccbb07b&quot;</span><span class="c4 c6">,</span></p><p class="c3"><span class="c4">&nbsp;</span><span class="c10">&quot;Peertrust-app::1220a35b88ad9227d145ca396ac92136ee6c694b1e20c4f9ac5d1de2d39a1c3864a6&quot;</span><span class="c4 c6">,</span></p><p class="c3"><span class="c4">&nbsp;</span><span class="c10">&quot;Bitgo-mainnetValidator-1::1220339ffe631ef7d0296d957d467186b6693e89b8fa654e9acfaa2b4f53437310ff&quot;</span><span class="c4 c6">,</span></p><p class="c3"><span class="c4">&nbsp;</span><span class="c10">&quot;Supanova-validator-1::12205c9e7df3ce671bc5e285120cb6e4dfae5ee3029c04fa82f1cd828c5e7197d882&quot;</span><span class="c4 c6">,</span></p><p class="c3"><span class="c4">&nbsp;</span><span class="c10">&quot;ValaWallet-validator-1::12201339973af7bb4049bfff4046da2bd22be98176cfc9011617840684bc2ef781d4&quot;</span><span class="c4 c6">,</span></p><p class="c3"><span class="c4">&nbsp;</span><span class="c10">&quot;poolparty::1220f1b0d7a83c7eaaf6d712d95d5952ea2c801238af9c342e8d83c87dfc45c999dc&quot;</span><span class="c4 c6">,</span></p><p class="c3"><span class="c4">&nbsp;</span><span class="c10">&quot;Cantex-validator-1::122038c015864f106cfed48bb9106b7c89982368d27956ffcdfda6c38328f0909b8c&quot;</span><span class="c4 c6">,</span></p><p class="c3"><span class="c4">&nbsp;</span><span class="c10">&quot;desyn::1220ad880a4c22d92d1c10efff2c1800e1d12a2cfe02ba14380aa56b4438b7bff0dd&quot;</span><span class="c4 c6">,</span></p><p class="c3"><span class="c4">&nbsp;</span><span class="c10">&quot;Hecto-Finance-1::12208ee00572aea3304ebb12e34320769ea4b421911c9b658a999e0e64ee8a070972&quot;</span><span class="c4 c6">,</span></p><p class="c3"><span class="c4">&nbsp;</span><span class="c10">&quot;palladium-validator-1::1220f66f5b1cb78abf40583917b0ea3ce18f546ea5f119de06d0ea1e7d1a250e0f3b&quot;</span><span class="c4 c6">,</span></p><p class="c3"><span class="c4">&nbsp;</span><span class="c10">&quot;roundbeat-mainnet-01::12208d7f582445ccc77de75088b2ad9b545e8e977f5d3e32662564409ce63a787981&quot;</span><span class="c4 c6">,</span></p><p class="c3"><span class="c4">&nbsp;</span><span class="c10">&quot;dteamtech-validator-1::12206a390f4088321a251280cd20c44f2ae02d54b4d29a8327d3523e7b03a7e98464&quot;</span><span class="c4 c6">,</span></p><p class="c3"><span class="c4">&nbsp;</span><span class="c10">&quot;HIFI-validator-1::1220c44096409d3244021ae82992ccae3a1208fa79cacf450760b6f2cd9dfee2daa6&quot;</span><span class="c4 c6">,</span></p><p class="c3"><span class="c4">&nbsp;</span><span class="c10">&quot;8a72dd81-b8a4-425a-9061-31ed663d4450::1220d572036d26e3f8ef2fe127184d812a00e0b1b36e129acf990a82a06651e735a1&quot;</span><span class="c4 c6">,</span></p><p class="c3"><span class="c4">&nbsp;</span><span class="c10">&quot;yuce::1220ad880a4c22d92d1c10efff2c1800e1d12a2cfe02ba14380aa56b4438b7bff0dd&quot;</span><span class="c4 c6">,</span></p><p class="c3"><span class="c4">&nbsp;</span><span class="c10">&quot;handlpay-main-1::12207ac147ad3e95894e7a507da3f04a819e8996f0bdf31c084ab3b77e51746b03cf&quot;</span><span class="c4 c6">,</span></p><p class="c3"><span class="c4">&nbsp;</span><span class="c10">&quot;tradefast-mainnet-1::1220674b79cae334aa788ffa394a6bd7d10e427d9f2abd418048e5be49ceb4256ca4&quot;</span><span class="c4 c6">,</span></p><p class="c3"><span class="c4">&nbsp;</span><span class="c10">&quot;Republic-validator-1::1220cf5c0358766265d8b67b3269d0ab15eba018449585fa9810481842f6ceeffc44&quot;</span><span class="c4 c6">,</span></p><p class="c3"><span class="c4">&nbsp;</span><span class="c10">&quot;daml-autopilot::122043f0b94e28125e4c65aa7e0f0ded912472731695f01cc83aa41ad3f03965a19b&quot;</span><span class="c4 c6">,</span></p><p class="c3"><span class="c4">&nbsp;</span><span class="c10">&quot;onchain-transfer-agent::12204a039322c01e9f714b56259c3e68b69058bf5dfe1debbe956c698f905ceba9d7&quot;</span><span class="c4 c6">,</span></p><p class="c3"><span class="c4">&nbsp;</span><span class="c10">&quot;haven-lp::122036a7877810c578708cb1e8e7db2a8eb586adf7f57d7ba7a78654304ac446bc7c&quot;</span><span class="c4 c6">,</span></p><p class="c3"><span class="c4">&nbsp;</span><span class="c10">&quot;fulcrum-point::1220dd489bd2242472a14015e9aebc12a48879a7e3aac60875506df30f7fce4e0f78&quot;</span><span class="c4 c6">,</span></p><p class="c3"><span class="c4">&nbsp;</span><span class="c10">&quot;Tokino-validator-1::1220c4e630e0281e7e1487863dd56078106433c35e4bc013f7d3fc8e22464bc78e28&quot;</span><span class="c4 c6">,</span></p><p class="c3"><span class="c4">&nbsp;</span><span class="c10">&quot;auth0_007c6944217743c3f0b43f0a8285::122058647c52460fb30fadca42a66f992909c633577ab80a5b71bb9600cbca39c0f9&quot;</span><span class="c4 c6">,</span></p><p class="c3"><span class="c4">&nbsp;</span><span class="c10">&quot;enzobtc::1220ad880a4c22d92d1c10efff2c1800e1d12a2cfe02ba14380aa56b4438b7bff0dd&quot;</span><span class="c4 c6">,</span></p><p class="c3"><span class="c4">&nbsp;</span><span class="c10">&quot;ledger-ledgerops-2::12207a4859ad414f4f47c2d773ddf4ea88de8c3a1aab19abaa197e504acdbf679d3c&quot;</span><span class="c4 c6">,</span></p><p class="c3"><span class="c4">&nbsp;</span><span class="c10 c6">&quot;lseg-finance-1::1220a67824951a056e4b366bc1a663a7a4839aadb3f0cef02b591933bfc77a474170&quot;</span></p><p class="c3"><span class="c4 c6">];</span></p><p class="c3 c15"><span class="c4 c6"></span></p><p class="c3"><span class="c0">-- This assumes that for the same party is</span></p><p class="c3"><span class="c0">-- - Provider on FeaturedAppRight</span></p><p class="c3"><span class="c0">-- - Beneficiary</span></p><p class="c3"><span class="c0">-- - Validator</span></p><p class="c3"><span class="c0">-- This is not true for all apps. For more complex queries, modify these three variables</span></p><p class="c3 c15"><span class="c0"></span></p><p class="c3"><span class="c14">SET </span><span class="c4">fa_party = featured_apps[</span><span class="c25">22</span><span class="c4 c6">];</span></p><p class="c3"><span class="c14">SET </span><span class="c4 c6">provider_parties = [fa_party];</span></p><p class="c3"><span class="c14">SET </span><span class="c4 c6">beneficiary_parties = [fa_party];</span></p><p class="c3"><span class="c14">SET </span><span class="c4 c6">validator_parties = [fa_party];</span></p><p class="c3"><span class="c14">SET </span><span class="c4 c6">confirmer_parties = [fa_party];</span></p><p class="c3 c15"><span class="c4 c6"></span></p><p class="c3"><span class="c0">-- Replace the above to run the query for CBTC.</span></p><p class="c3"><span class="c0">-- SET confirmer_parties = [</span></p><p class="c3"><span class="c0">-- &nbsp;&quot;cbtc-network::12205af3b949a04776fc48cdcc05a060f6bda2e470632935f375d1049a8546a3b262&quot;</span></p><p class="c3"><span class="c0">-- ];</span></p><p class="c3"><span class="c0">-- SET provider_parties = [</span></p><p class="c3"><span class="c0">-- &nbsp; &quot;cbtc-network::12205af3b949a04776fc48cdcc05a060f6bda2e470632935f375d1049a8546a3b262&quot;,</span></p><p class="c3"><span class="c0">-- &nbsp; &quot;iBTC-validator-1::1220409a9fcc5ff6422e29ab978c22c004dde33202546b4bcbde24b25b85353366c2&quot;</span></p><p class="c3"><span class="c0">-- ];</span></p><p class="c3"><span class="c0">-- SET beneficiary_parties = [</span></p><p class="c3"><span class="c0">-- &nbsp; &quot;cbtc-attestor-pool::1220409a9fcc5ff6422e29ab978c22c004dde33202546b4bcbde24b25b85353366c2&quot;,</span></p><p class="c3"><span class="c0">-- &nbsp; &quot;cbtc-beneficiary::1220409a9fcc5ff6422e29ab978c22c004dde33202546b4bcbde24b25b85353366c2&quot;,</span></p><p class="c3"><span class="c0">-- &nbsp; &quot;FinoaConsensusServices-validator-1::1220b8182fa42d0cf657bda7f124366a2c603d5df4aafd789a88549dc9a0e3191259&quot;,</span></p><p class="c3"><span class="c0">-- &nbsp; &quot;dsrv-mainnetValidator-01::1220e2f4abe1c5ca7e07464037fe7fefc839b7b8fea24985d0d2a2790fa72e3c13ac&quot;,</span></p><p class="c3"><span class="c0">-- &nbsp; &quot;nethermind-angkor-1::12201d94ec4ba973ab5c51e3b769a6aca54f061afc963619a4d6109044eaccafc7ba&quot;,</span></p><p class="c3"><span class="c0">-- &nbsp; &quot;auth0_007c67dc7c4afbf5bc37f9805e31::12205bcc106efa0eaa7f18dc491e5c6f5fb9b0cc68dc110ae66f4ed6467475d7c78e&quot;</span></p><p class="c3"><span class="c0">-- ];</span></p><p class="c3"><span class="c0">-- SET validator_parties = [</span></p><p class="c3"><span class="c0">-- &nbsp; &quot;iBTC-validator-1::1220409a9fcc5ff6422e29ab978c22c004dde33202546b4bcbde24b25b85353366c2&quot;,</span></p><p class="c3"><span class="c0">-- &nbsp; &quot;FinoaConsensusServices-validator-1::1220b8182fa42d0cf657bda7f124366a2c603d5df4aafd789a88549dc9a0e3191259&quot;,</span></p><p class="c3"><span class="c0">-- &nbsp; &quot;dsrv-mainnetValidator-01::1220e2f4abe1c5ca7e07464037fe7fefc839b7b8fea24985d0d2a2790fa72e3c13ac&quot;,</span></p><p class="c3"><span class="c0">-- &nbsp; &quot;nethermind-angkor-1::12201d94ec4ba973ab5c51e3b769a6aca54f061afc963619a4d6109044eaccafc7ba&quot;</span></p><p class="c3"><span class="c0">-- ];</span></p><p class="c3 c15"><span class="c0"></span></p><p class="c3"><span class="c0">-- Replace the above to run the query for USDCx.</span></p><p class="c3"><span class="c0">-- SET confirmer_parties = [</span></p><p class="c3"><span class="c0">-- &nbsp; &quot;decentralized-usdc-interchain-rep::12208115f1e168dd7e792320be9c4ca720c751a02a3053c7606e1c1cd3dad9bf60ef&quot;</span></p><p class="c3"><span class="c0">-- ];</span></p><p class="c3"><span class="c0">-- SET provider_parties = [</span></p><p class="c3"><span class="c0">-- &nbsp; &quot;Bridge-Operator::1220c8448890a70e65f6906bd48d797ee6551f094e9e6a53e329fd5b2b549334f13f&quot;</span></p><p class="c3"><span class="c0">-- ];</span></p><p class="c3"><span class="c0">-- SET beneficiary_parties = [</span></p><p class="c3"><span class="c0">-- &nbsp; &quot;Bridge-Operator::1220c8448890a70e65f6906bd48d797ee6551f094e9e6a53e329fd5b2b549334f13f&quot;</span></p><p class="c3"><span class="c0">-- ];</span></p><p class="c3"><span class="c0">-- SET validator_parties = [</span></p><p class="c3"><span class="c0">-- &nbsp; &quot;digitalasset-bridge-1::1220c8448890a70e65f6906bd48d797ee6551f094e9e6a53e329fd5b2b549334f13f&quot;,</span></p><p class="c3"><span class="c0">-- &nbsp; &quot;digitalasset-bridge-001::1220c8448890a70e65f6906bd48d797ee6551f094e9e6a53e329fd5b2b549334f13f&quot;,</span></p><p class="c3"><span class="c0">-- &nbsp; &quot;digitalasset-bridge-2::1220028d1e2acfe5d1878a51323410710c331426d1ab40a99d3fb5bbe5671ed88bf6&quot;,</span></p><p class="c3"><span class="c0">-- &nbsp; &quot;digitalasset-bridge-002::1220028d1e2acfe5d1878a51323410710c331426d1ab40a99d3fb5bbe5671ed88bf6&quot;,</span></p><p class="c3"><span class="c0">-- &nbsp; &quot;circle-validator-1::12209d457bab21f1ce3d52f979cdf021c2990cb74cf01ef2dcf41bf87a79ddaf3ba8&quot;,</span></p><p class="c3"><span class="c0">-- &nbsp; &quot;circle-validator-2::1220ed9c3e19a5e738d665b3428c83ee5bda6e7475cb62375d48c4552755cb9ab4b6&quot;,</span></p><p class="c3"><span class="c0">-- &nbsp; &quot;circle-validator-3::12201ee3da1c10a0b6ca16692ebe08801476ae2a903435e1719435cbe466e72bbd26&quot;</span></p><p class="c3"><span class="c0">-- ];</span></p><p class="c3 c15"><span class="c0"></span></p><p class="c3"><span class="c0">-- Change these to specify the window and granularity of the query.</span></p><p class="c3"><span class="c14">SET </span><span class="c4">bucket_origin_timestamp = </span><span class="c14">TIMESTAMP </span><span class="c10">&#39;2026-02-20 00:00:00.00&#39;</span><span class="c4 c6">;</span></p><p class="c3"><span class="c14">SET </span><span class="c4">bucket_width = </span><span class="c14">INTERVAL </span><span class="c25">24 </span><span class="c14">HOUR</span><span class="c4 c6">;</span></p><p class="c3 c15"><span class="c4 c6"></span></p><p class="c3"><span class="c0">-- This query relies on a set of four tables</span></p><p class="c3"><span class="c0">-- 1. mainnet_da2_scan.scan_sv_1_scan_verdict_store</span></p><p class="c3"><span class="c0">-- 2. mainnet_da2_scan.scan_sv_1_scan_verdict_transaction_view_store</span></p><p class="c3"><span class="c0">-- 3. mainnet_da2_scan.scan_sv_1_update_history_creates</span></p><p class="c3"><span class="c0">-- 4. mainnet_da2_scan.scan_sv_1_update_history_exercises</span></p><p class="c3"><span class="c0">-- These tables are just document stores containing the corresponding elements from the public</span></p><p class="c3"><span class="c0">-- Scan API. The fields accessed throughout are fairly evident on the Scan API.</span></p><p class="c3"><span class="c0">-- The only non-API field used here is the rowId on verdicts, which is used to link the verdict</span></p><p class="c3"><span class="c0">-- and view tables.</span></p><p class="c3 c15"><span class="c0"></span></p><p class="c3"><span class="c4 c6">with</span></p><p class="c3"><span class="c0">-- We start pulling the data for the asset guidance: Successful transactions confirmed</span></p><p class="c3"><span class="c0">-- by the confirmer-party and whether they were submitted by the own validator(s)</span></p><p class="c3"><span class="c0">-- or third parties.</span></p><p class="c3 c15"><span class="c0"></span></p><p class="c3"><span class="c0">-- Start with pulling verdicts, which will allow us to measure successful transactions</span></p><p class="c3"><span class="c0">-- and whether they were self-submitted or not.</span></p><p class="c3"><span class="c2">&nbsp;</span><span class="c4 c6">verdicts as (</span></p><p class="c3"><span class="c4 c6">&nbsp; &nbsp;select</span></p><p class="c3"><span class="c4 c6">&nbsp; &nbsp; &nbsp;TIMESTAMP_BUCKET(timestamp_micros(record_time), bucket_width, bucket_origin_timestamp) as bucket,</span></p><p class="c3"><span class="c4">&nbsp; &nbsp; &nbsp;row_id as verdict_row_id, &nbsp; </span><span class="c0">-- Used to link views</span></p><p class="c3"><span class="c2">&nbsp; &nbsp; &nbsp;</span><span class="c4">update_id, &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="c0">-- Used to correlate with other tables</span></p><p class="c3"><span class="c2">&nbsp; &nbsp; &nbsp;</span><span class="c4">verdict_result, &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </span><span class="c0">-- Used to filter only successful transactions</span></p><p class="c3"><span class="c2">&nbsp; &nbsp; &nbsp;</span><span class="c4">submitting_participant_uid, </span><span class="c0">-- Used to determine whether the transaction was self-submitted.</span></p><p class="c3"><span class="c2">&nbsp; &nbsp;</span><span class="c4">from </span><span class="c10">`</span><span class="c4">mainnet_da2_scan.scan_sv_1_scan_verdict_store</span><span class="c10 c6">`</span></p><p class="c3"><span class="c10">&nbsp;</span><span class="c4 c6">),</span></p><p class="c3"><span class="c0">-- Next we get our hands on views to figure out whether the provider party was a confirmer. This is</span></p><p class="c3"><span class="c0">-- needed for the asset type measurements.</span></p><p class="c3"><span class="c2">&nbsp;</span><span class="c4 c6">views as (</span></p><p class="c3"><span class="c4 c6">&nbsp; &nbsp;select</span></p><p class="c3"><span class="c4 c6">&nbsp; &nbsp; &nbsp;verdict_row_id,</span></p><p class="c3"><span class="c4">&nbsp; &nbsp; &nbsp;</span><span class="c0">-- A bit of JSON mangling here to get the confirmers into a list of unique confirmers.</span></p><p class="c3"><span class="c2">&nbsp; &nbsp; &nbsp;</span><span class="c4">( </span><span class="c14">SELECT ARRAY_AGG</span><span class="c4 c6">(distinct flat_confirmers)</span></p><p class="c3"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp;</span><span class="c14">FROM </span><span class="c4 c6">(</span></p><p class="c3"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="c14">SELECT </span><span class="c4 c6">ARRAY_CONCAT_AGG(ps) cs</span></p><p class="c3"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="c14">FROM </span><span class="c4 c6">(</span></p><p class="c3"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;select JSON_VALUE_ARRAY(confirmer_groups, </span><span class="c10">&#39;$.parties&#39;</span><span class="c4 c6">) ps</span></p><p class="c3"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="c14">FROM UNNEST</span><span class="c4 c6">(JSON_QUERY_ARRAY(confirming_parties)) as confirmer_groups</span></p><p class="c3"><span class="c4 c6">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;)</span></p><p class="c3"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp;), </span><span class="c14">UNNEST</span><span class="c4 c6">(cs) as flat_confirmers</span></p><p class="c3"><span class="c4 c6">&nbsp; &nbsp; &nbsp;) as confirmers</span></p><p class="c3"><span class="c4">&nbsp; &nbsp;from </span><span class="c10">`</span><span class="c4">mainnet_da2_scan.scan_sv_1_scan_verdict_transaction_view_store</span><span class="c10 c6">`</span></p><p class="c3"><span class="c10">&nbsp;</span><span class="c4 c6">),</span></p><p class="c3"><span class="c4">&nbsp;</span><span class="c0">-- Now we annotate which transactions were confirmed by the confirmer party,</span></p><p class="c3"><span class="c0">&nbsp;-- and which transactions were submitted by the validator parties.</span></p><p class="c3"><span class="c0">&nbsp;-- This allows us to measure the asset guidance later.</span></p><p class="c3"><span class="c2">&nbsp;</span><span class="c4 c6">annotated_views as (</span></p><p class="c3"><span class="c4 c6">&nbsp; &nbsp;select *,</span></p><p class="c3"><span class="c4">&nbsp; &nbsp;</span><span class="c0">-- Was it confirmed by the provider party?</span></p><p class="c3"><span class="c2">&nbsp; &nbsp;</span><span class="c4">( select </span><span class="c14">COUNT</span><span class="c4 c6">(*)</span></p><p class="c3"><span class="c4 c6">&nbsp; &nbsp; &nbsp;from unnest(confirmers) as cs</span></p><p class="c3"><span class="c4 c6">&nbsp; &nbsp; &nbsp;where cs in unnest(confirmer_parties)</span></p><p class="c3"><span class="c4">&nbsp; &nbsp;) &gt; </span><span class="c25">0 </span><span class="c4 c6">as confirmer_confirmed</span></p><p class="c3"><span class="c4 c6">&nbsp; &nbsp;from views</span></p><p class="c3"><span class="c4 c6">&nbsp;),</span></p><p class="c3"><span class="c4">&nbsp;</span><span class="c0">-- Now join views with verdicts</span></p><p class="c3"><span class="c2">&nbsp;</span><span class="c4 c6">annotated_verdicts as (</span></p><p class="c3"><span class="c4 c6">&nbsp; &nbsp;select</span></p><p class="c3"><span class="c4 c6">&nbsp; &nbsp; &nbsp;bucket,</span></p><p class="c3"><span class="c4 c6">&nbsp; &nbsp; &nbsp;update_id,</span></p><p class="c3"><span class="c4">&nbsp; &nbsp; &nbsp;</span><span class="c0">-- Was the transaction self-submitted?</span></p><p class="c3"><span class="c2">&nbsp; &nbsp; &nbsp;</span><span class="c4 c6">submitting_participant_uid in unnest(validator_parties) as validator_submitted,</span></p><p class="c3"><span class="c4">&nbsp; &nbsp; &nbsp;</span><span class="c0">-- If any view was provider confirmed, then so was the verdict.</span></p><p class="c3"><span class="c2">&nbsp; &nbsp; &nbsp;</span><span class="c4">countif(confirmer_confirmed) &gt; </span><span class="c25">0 </span><span class="c4 c6">as confirmer_confirmed,</span></p><p class="c3"><span class="c4 c6">&nbsp; &nbsp;from verdicts</span></p><p class="c3"><span class="c4 c6">&nbsp; &nbsp;left join annotated_views using(verdict_row_id)</span></p><p class="c3"><span class="c4 c6">&nbsp; &nbsp;where bucket &gt;= bucket_origin_timestamp</span></p><p class="c3"><span class="c4">&nbsp; &nbsp; &nbsp;and verdict_result = </span><span class="c25">1 &nbsp; </span><span class="c0">-- Only count successful transactions</span></p><p class="c3"><span class="c2">&nbsp; &nbsp;</span><span class="c14">GROUP BY </span><span class="c4 c6">bucket, update_id, validator_submitted</span></p><p class="c3"><span class="c4 c6">&nbsp;),</span></p><p class="c3"><span class="c4 c6">&nbsp;grouped_verdicts as (</span></p><p class="c3"><span class="c4 c6">&nbsp; &nbsp;select</span></p><p class="c3"><span class="c4 c6">&nbsp; &nbsp; &nbsp;bucket,</span></p><p class="c3"><span class="c4 c6">&nbsp; &nbsp; &nbsp;countif (confirmer_confirmed) as confirmer_confirmed,</span></p><p class="c3"><span class="c4 c6">&nbsp; &nbsp; &nbsp;countif (validator_submitted) as validator_submitted,</span></p><p class="c3"><span class="c4">&nbsp; &nbsp; &nbsp;</span><span class="c0">-- This last one is &quot;qualifying&quot; for assets</span></p><p class="c3"><span class="c2">&nbsp; &nbsp; &nbsp;</span><span class="c4 c6">countif (confirmer_confirmed and not validator_submitted) as third_party_submitted</span></p><p class="c3"><span class="c4 c6">&nbsp; &nbsp;from annotated_verdicts</span></p><p class="c3"><span class="c4 c6">&nbsp; &nbsp;group by bucket</span></p><p class="c3"><span class="c4 c6">&nbsp;),</span></p><p class="c3 c15"><span class="c4 c6"></span></p><p class="c3"><span class="c4">&nbsp;</span><span class="c0">-- Now look at burn. Burn can be read from templates of type `MemberTraffic`.</span></p><p class="c3"><span class="c2">&nbsp; &nbsp;</span><span class="c4 c6">burn as (</span></p><p class="c3"><span class="c4 c6">&nbsp; &nbsp;select</span></p><p class="c3"><span class="c4 c6">&nbsp; &nbsp; &nbsp;update_id,</span></p><p class="c3"><span class="c4 c6">&nbsp; &nbsp; &nbsp;record_time,</span></p><p class="c3"><span class="c4 c6">&nbsp; &nbsp; &nbsp;TIMESTAMP_BUCKET(timestamp_micros(record_time), bucket_width, bucket_origin_timestamp) as bucket,</span></p><p class="c3"><span class="c4">&nbsp; &nbsp; &nbsp;</span><span class="c14">JSON_VALUE</span><span class="c4">(create_arguments, </span><span class="c10">&#39;$.record.fields[0].value.party&#39;</span><span class="c4 c6">) as dso,</span></p><p class="c3"><span class="c4">&nbsp; &nbsp; &nbsp;</span><span class="c0">-- Note here that we filter out the &quot;PAR::&quot; prefix.</span></p><p class="c3"><span class="c2">&nbsp; &nbsp; &nbsp;</span><span class="c4">substring(</span><span class="c14">JSON_VALUE</span><span class="c4">(create_arguments, </span><span class="c10">&#39;$.record.fields[1].value.text&#39;</span><span class="c4">), </span><span class="c25">6</span><span class="c4 c6">) as member_id,</span></p><p class="c3"><span class="c4">&nbsp; &nbsp; &nbsp;</span><span class="c14">JSON_VALUE</span><span class="c4">(create_arguments, </span><span class="c10">&#39;$.record.fields[2].value.text&#39;</span><span class="c4 c6">) as synchronizer_id,</span></p><p class="c3"><span class="c4">&nbsp; &nbsp; &nbsp;</span><span class="c14">JSON_VALUE</span><span class="c4">(create_arguments, </span><span class="c10">&#39;$.record.fields[3].value.int64&#39;</span><span class="c4 c6">) as migration_id,</span></p><p class="c3"><span class="c4">&nbsp; &nbsp; &nbsp;LAX_INT64(</span><span class="c14">JSON_QUERY</span><span class="c4">(create_arguments, </span><span class="c10">&#39;$.record.fields[4].value.int64&#39;</span><span class="c4 c6">)) as traffic,</span></p><p class="c3"><span class="c4">&nbsp; &nbsp; &nbsp;LAX_INT64(</span><span class="c14">JSON_QUERY</span><span class="c4">(create_arguments, </span><span class="c10">&#39;$.record.fields[5].value.int64&#39;</span><span class="c4 c6">)) as num_purchases,</span></p><p class="c3"><span class="c4">&nbsp; &nbsp; &nbsp;LAX_FLOAT64(</span><span class="c14">JSON_QUERY</span><span class="c4">(create_arguments, </span><span class="c10">&#39;$.record.fields[6].value.numeric&#39;</span><span class="c4 c6">)) as amulet_spent,</span></p><p class="c3"><span class="c4">&nbsp; &nbsp; &nbsp;LAX_FLOAT64(</span><span class="c14">JSON_QUERY</span><span class="c4">(create_arguments, </span><span class="c10">&#39;$.record.fields[7].value.numeric&#39;</span><span class="c4 c6">)) as usd_spent</span></p><p class="c3"><span class="c4">&nbsp; &nbsp;from </span><span class="c10">`</span><span class="c4">mainnet_da2_scan.scan_sv_1_update_history_creates</span><span class="c10 c6">`</span></p><p class="c3"><span class="c10">&nbsp; &nbsp;</span><span class="c4">where template_id_entity_name = </span><span class="c10 c6">&#39;MemberTraffic&#39;</span></p><p class="c3"><span class="c10">&nbsp;</span><span class="c4 c6">),</span></p><p class="c3"><span class="c4">&nbsp;</span><span class="c0">-- We are interested in burn purchased for the target nodes.</span></p><p class="c3"><span class="c2">&nbsp;</span><span class="c4 c6">filtered_burn as (</span></p><p class="c3"><span class="c4 c6">&nbsp; &nbsp;select * from burn</span></p><p class="c3"><span class="c4 c6">&nbsp; &nbsp;where member_id in unnest(validator_parties)</span></p><p class="c3"><span class="c4">&nbsp; &nbsp; &nbsp;</span><span class="c0">-- `MemberTraffic` gets combined by the SVs. num_purchases = 1 means actual purchases.</span></p><p class="c3"><span class="c2">&nbsp; &nbsp; &nbsp;</span><span class="c4">and burn.num_purchases = </span><span class="c25 c6">1</span></p><p class="c3"><span class="c25">&nbsp; &nbsp; &nbsp;</span><span class="c4 c6">and bucket &gt;= bucket_origin_timestamp</span></p><p class="c3"><span class="c4 c6">&nbsp;),</span></p><p class="c3"><span class="c4 c6">&nbsp;grouped_burn as (</span></p><p class="c3"><span class="c4 c6">&nbsp; &nbsp;select bucket, sum(traffic) as traffic, sum (amulet_spent) as amulet_spent, sum(usd_spent) as usd_spent</span></p><p class="c3"><span class="c4 c6">&nbsp; &nbsp;from filtered_burn</span></p><p class="c3"><span class="c4 c6">&nbsp; &nbsp;group by bucket</span></p><p class="c3"><span class="c4 c6">&nbsp;),</span></p><p class="c3 c15"><span class="c4 c6"></span></p><p class="c3"><span class="c4">&nbsp;</span><span class="c0">-- Next we count markers.</span></p><p class="c3"><span class="c2">&nbsp;</span><span class="c4 c6">markers as (</span></p><p class="c3"><span class="c4 c6">&nbsp; &nbsp;select</span></p><p class="c3"><span class="c4 c6">&nbsp; &nbsp; &nbsp;update_id,</span></p><p class="c3"><span class="c4 c6">&nbsp; &nbsp; &nbsp;record_time,</span></p><p class="c3"><span class="c4 c6">&nbsp; &nbsp; &nbsp;TIMESTAMP_BUCKET(timestamp_micros(record_time), bucket_width, bucket_origin_timestamp) as bucket,</span></p><p class="c3"><span class="c4">&nbsp; &nbsp; &nbsp;</span><span class="c14">JSON_VALUE</span><span class="c4">(create_arguments, </span><span class="c10">&#39;$.record.fields[0].value.party&#39;</span><span class="c4 c6">) as dso,</span></p><p class="c3"><span class="c4">&nbsp; &nbsp; &nbsp;</span><span class="c14">JSON_VALUE</span><span class="c4">(create_arguments, </span><span class="c10">&#39;$.record.fields[1].value.party&#39;</span><span class="c4 c6">) as provider,</span></p><p class="c3"><span class="c4">&nbsp; &nbsp; &nbsp;</span><span class="c14">JSON_VALUE</span><span class="c4">(create_arguments, </span><span class="c10">&#39;$.record.fields[2].value.party&#39;</span><span class="c4 c6">) as beneficiary,</span></p><p class="c3"><span class="c4">&nbsp; &nbsp; &nbsp;LAX_FLOAT64(</span><span class="c14">JSON_QUERY</span><span class="c4">(create_arguments, </span><span class="c10">&#39;$.record.fields[3].value.numeric&#39;</span><span class="c4 c6">)) as weight,</span></p><p class="c3"><span class="c4">&nbsp; &nbsp;from </span><span class="c10">`</span><span class="c4">mainnet_da2_scan.scan_sv_1_update_history_creates</span><span class="c10 c6">`</span></p><p class="c3"><span class="c10">&nbsp; &nbsp;</span><span class="c4">where template_id_entity_name = </span><span class="c10 c6">&#39;FeaturedAppActivityMarker&#39;</span></p><p class="c3"><span class="c10">&nbsp;</span><span class="c4 c6">),</span></p><p class="c3"><span class="c0">-- We are interested in markers that are either set by the providers OR</span></p><p class="c3"><span class="c0">-- for the beneficiaries.</span></p><p class="c3"><span class="c0">-- The former covers an app distributing rewards to others.</span></p><p class="c3"><span class="c0">-- The latter covers another app&#39;s automation writing markers.</span></p><p class="c3"><span class="c2">&nbsp;</span><span class="c4 c6">filtered_markers as (</span></p><p class="c3"><span class="c4 c6">&nbsp; &nbsp;select * from markers</span></p><p class="c3"><span class="c4 c6">&nbsp; &nbsp;where (provider in unnest(provider_parties) or beneficiary in unnest(beneficiary_parties))</span></p><p class="c3"><span class="c4 c6">&nbsp; &nbsp; &nbsp;and bucket &gt;= bucket_origin_timestamp</span></p><p class="c3"><span class="c4 c6">&nbsp;),</span></p><p class="c3"><span class="c4 c6">&nbsp;grouped_markers as (</span></p><p class="c3"><span class="c4 c6">&nbsp; &nbsp;select bucket, sum(weight) as marker_weight</span></p><p class="c3"><span class="c4 c6">&nbsp; &nbsp;from filtered_markers</span></p><p class="c3"><span class="c4 c6">&nbsp; &nbsp;group by bucket</span></p><p class="c3"><span class="c4 c6">&nbsp;),</span></p><p class="c3 c15"><span class="c4 c6"></span></p><p class="c3"><span class="c0">-- Lasly we look at CC transfers with the providers as total app weight (markers + CC transfers)</span></p><p class="c3"><span class="c0">-- should not exceed burn.</span></p><p class="c3"><span class="c4">transfers </span><span class="c14">AS </span><span class="c4 c6">(</span></p><p class="c3"><span class="c4">&nbsp;</span><span class="c14 c6">SELECT</span></p><p class="c3"><span class="c14">&nbsp; &nbsp;</span><span class="c4 c6">TIMESTAMP_BUCKET(timestamp_micros(record_time), bucket_width, bucket_origin_timestamp) as bucket,</span></p><p class="c3"><span class="c4">&nbsp; &nbsp;</span><span class="c14">JSON_VALUE</span><span class="c4">(argument, </span><span class="c10">&#39;$.record.fields[0].value.record.fields[1].value.party&#39;</span><span class="c4">) </span><span class="c14">AS </span><span class="c4 c6">provider</span></p><p class="c3"><span class="c4">&nbsp;</span><span class="c14">FROM </span><span class="c10">`</span><span class="c4">mainnet_da2_scan.scan_sv_1_update_history_exercises</span><span class="c10 c6">`</span></p><p class="c3"><span class="c10">&nbsp;</span><span class="c14">WHERE </span><span class="c4">choice = </span><span class="c10 c6">&#39;AmuletRules_Transfer&#39;</span></p><p class="c3"><span class="c4 c6">),</span></p><p class="c3"><span class="c4">filtered_transfers </span><span class="c14">AS </span><span class="c4 c6">(</span></p><p class="c3"><span class="c4">&nbsp;</span><span class="c14">SELECT </span><span class="c4 c6">*</span></p><p class="c3"><span class="c4">&nbsp;</span><span class="c14">FROM </span><span class="c4 c6">transfers</span></p><p class="c3"><span class="c4">&nbsp;</span><span class="c14">WHERE </span><span class="c4 c6">bucket &gt;= bucket_origin_timestamp</span></p><p class="c3"><span class="c4">&nbsp; &nbsp;</span><span class="c14">AND </span><span class="c4">provider </span><span class="c14">IN UNNEST</span><span class="c4 c6">(provider_parties)</span></p><p class="c3"><span class="c4 c6">),</span></p><p class="c3"><span class="c4">grouped_transfers </span><span class="c14">AS </span><span class="c4 c6">(</span></p><p class="c3"><span class="c4">&nbsp;</span><span class="c14">SELECT </span><span class="c4">bucket, </span><span class="c14">COUNT</span><span class="c4 c6">(*) as cc_transfers</span></p><p class="c3"><span class="c4">&nbsp;</span><span class="c14">FROM </span><span class="c4 c6">filtered_transfers</span></p><p class="c3"><span class="c4">&nbsp;</span><span class="c14">GROUP BY </span><span class="c4 c6">bucket</span></p><p class="c3"><span class="c4 c6">)</span></p><p class="c3 c15"><span class="c4 c6"></span></p><p class="c3"><span class="c0">-- Lastly, put it all together.</span></p><p class="c3"><span class="c14 c6">SELECT</span></p><p class="c3"><span class="c14">&nbsp;</span><span class="c4 c6">bucket,</span></p><p class="c3"><span class="c4">&nbsp;</span><span class="c0">-- Determine type heuristically by deciding which overage is lower.</span></p><p class="c3"><span class="c2">&nbsp;</span><span class="c4">if (usd_spent &gt; third_party_submitted, </span><span class="c10">&quot;App&quot;</span><span class="c4">, </span><span class="c10">&quot;Asset&quot;</span><span class="c4 c6">) as guidance_type,</span></p><p class="c3"><span class="c4 c6">&nbsp;marker_weight + cc_transfers as total_app_weight,</span></p><p class="c3"><span class="c4">&nbsp;(marker_weight + cc_transfers) / </span><span class="c14">GREATEST</span><span class="c4 c6">(usd_spent, third_party_submitted) as overage,</span></p><p class="c3"><span class="c4">&nbsp;* </span><span class="c0">-- optional extra info</span></p><p class="c3"><span class="c14">FROM </span><span class="c4 c6">grouped_verdicts</span></p><p class="c3"><span class="c4 c6">&nbsp;left join grouped_burn using (bucket)</span></p><p class="c3"><span class="c4 c6">&nbsp;left join grouped_markers using (bucket)</span></p><p class="c3"><span class="c4 c6">&nbsp;left join grouped_transfers using (bucket)</span></p><p class="c3"><span class="c14">ORDER BY </span><span class="c4 c6">grouped_verdicts.bucket desc</span></p><p class="c3 c15"><span class="c4 c6"></span></p><p class="c5"><span class="c6 c31 c33"></span></p><h1 class="c23" id="h.r27sz3t7ne9s"><span class="c31">&#60418;</span><a id="id.sgxtzy0wai6"></a><span class="c6 c28 c12">Methodology for Compliant Marker Setting</span></h1><p class="c24"><span class="c9 c6">This section represents a recommendation for how to automate the setting of markers to stay compliant with the guidelines presented.</span></p><p class="c5"><span class="c9 c6"></span></p><ol class="c11 lst-kix_lsaftuxr2h4q-0 start" start="1"><li class="c24 c8 li-bullet-0"><span class="c9 c6">Burn little and often.</span></li></ol><ol class="c11 lst-kix_lsaftuxr2h4q-1 start" start="1"><li class="c16 li-bullet-0"><span class="c9 c6">Adjust your traffic purchasing automation to burn CC around once every 10 minutes.</span></li><li class="c16 li-bullet-0"><span>The default topup parameter </span><span class="c36">minTopupInterval: &quot;1m&quot;</span><span class="c9 c6">&nbsp;should ensure this for any app with significant activity.</span></li><li class="c16 li-bullet-0"><span>This allows you to set markers based on </span><span class="c26">burn</span><span class="c9 c6">&nbsp;as opposed to traffic use as both occur within the same 20-30 minute window stipulated by rule 5.</span></li></ol><ol class="c11 lst-kix_lsaftuxr2h4q-0" start="2"><li class="c24 c8 li-bullet-0"><span>S</span><span class="c9 c6">et markers in batches after the fact.</span></li></ol><ol class="c11 lst-kix_lsaftuxr2h4q-1 start" start="1"><li class="c16 li-bullet-0"><span class="c9 c6">This maximizes efficiency of setting markers and and thus maximizes profitability when complying with rule 3 (no markers for setting markers)</span></li><li class="c16 li-bullet-0"><span>With BatchV2 coming late March, the efficiency will be at a level where the cost of setting markers can be ignored if this recommendation is followed.</span></li></ol><ol class="c11 lst-kix_lsaftuxr2h4q-0" start="3"><li class="c24 c8 li-bullet-0"><span class="c9 c6">Set markers every round. Ie trigger batches every 5-10 minutes.</span></li><li class="c24 c8 li-bullet-0"><span class="c9 c6">Set markers to be compliant for a backwards looking window of 30 minutes.</span></li></ol><ol class="c11 lst-kix_lsaftuxr2h4q-1 start" start="1"><li class="c16 li-bullet-0"><span class="c9 c6">This ensures compliance with rule 5.</span></li><li class="c16 li-bullet-0"><span class="c9 c6">The reference query above to calculate the allowed number of markers.</span></li></ol><p class="c5"><span class="c9 c6"></span></p><p class="c24"><span class="c9 c6">What the above means practically is every 5 minutes trigger marker automation. The automation performs these steps:</span></p><ol class="c11 lst-kix_krqv99gwgm3t-0 start" start="1"><li class="c24 c8 li-bullet-0"><span>Run the above query for the preceding 30 minutes.</span></li><li class="c24 c8 li-bullet-0"><span>Calculate the number of markers that would result in marker/burn ratio of 1.0 as defined by `overage` in the query.</span></li><li class="c24 c8 li-bullet-0"><span class="c9 c6">Set that exact number of markers though the Batch / BatchV2 marker creation contracts.</span></li></ol><p class="c5"><span class="c9 c6"></span></p><p class="c24"><span class="c9 c6">If this methodology is followed, apps will be and remain compliant with these guidelines no matter the type of activity performed*. </span></p><p class="c5"><span class="c9 c6"></span></p><p class="c24"><span>*Note that if featured Canton Coin transfers dominate an app&rsquo;s activity it is </span><span class="c26">theoretically</span><span>&nbsp;possible that overage &gt; 1.0 despite the automation and apps&rsquo; workflows never setting a single marker.</span></p>
+      </div>
     </section>
   </main>
 </body>
