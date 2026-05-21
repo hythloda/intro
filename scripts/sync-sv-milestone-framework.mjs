@@ -126,8 +126,7 @@ function renderPage(bodyHtml) {
       text-transform: uppercase;
     }
 
-    .intro,
-    .references {
+    .footer-note {
       margin-top: 24px;
       padding: 22px;
       border-radius: 18px;
@@ -135,9 +134,7 @@ function renderPage(bodyHtml) {
       border: 1px solid rgba(120, 240, 197, 0.2);
     }
 
-    .intro p,
-    .references p,
-    .references li,
+    .footer-note p,
     .doc-content p,
     .doc-content li,
     .doc-content td,
@@ -147,27 +144,23 @@ function renderPage(bodyHtml) {
       line-height: 1.65;
     }
 
-    .intro p,
-    .references p,
+    .footer-note p,
     .doc-content p {
       margin: 0 0 18px;
     }
 
     .doc-content p:last-child,
-    .references p:last-child,
-    .intro p:last-child {
+    .footer-note p:last-child {
       margin-bottom: 0;
     }
 
     .doc-content ul,
-    .doc-content ol,
-    .references ul {
+    .doc-content ol {
       margin: 0 0 18px 22px;
       padding: 0;
     }
 
-    .doc-content li,
-    .references li {
+    .doc-content li {
       margin: 8px 0;
     }
 
@@ -280,9 +273,7 @@ function renderPage(bodyHtml) {
         font-size: 20px;
       }
 
-      .intro p,
-      .references p,
-      .references li,
+      .footer-note p,
       .doc-content p,
       .doc-content li,
       .doc-content td,
@@ -301,24 +292,17 @@ function renderPage(bodyHtml) {
     <section class="panel">
       <div class="eyebrow">Super Validators</div>
 
-      <div class="intro">
-        <p>This page syncs daily from the source document so the Super Validator milestone framework stays current.</p>
-      </div>
-
       <div class="actions">
         <a class="button-secondary" href="super-validator.html">Back to Super Validators</a>
         <a class="button-secondary" href="index.html">Back to Main Page</a>
       </div>
 
-      <div class="references">
-        <p><strong>References</strong></p>
-        <ul>
-          <li><a href="${DOC_URL}" target="_blank" rel="noopener">Source Google Doc</a></li>
-        </ul>
-      </div>
-
       <div class="doc-content">
 ${bodyHtml}
+      </div>
+
+      <div class="footer-note">
+        <p>If there are any issues with this page, please make suggestions as comments in the <a href="${DOC_URL}" target="_blank" rel="noopener">source Google Doc</a>.</p>
       </div>
     </section>
   </main>
