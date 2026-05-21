@@ -1,0 +1,36 @@
+name: Sync SV Milestone Framework
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "11 6 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  sync-framework:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Sync SV milestone framework page
+        run: node scripts/sync-sv-milestone-framework.mjs
+
+      - name: Commit updated framework
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+          git add sv-milestone-framework.html
+          git commit -m "Sync SV milestone framework"
+          git push
