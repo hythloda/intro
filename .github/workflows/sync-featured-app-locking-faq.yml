@@ -1,7 +1,7 @@
 name: Sync Featured App Locking FAQ
 
 on:
-  workflow_dispatch:
+  workflow_dispatch: {}
   schedule:
     - cron: "43 5 * * *"
 

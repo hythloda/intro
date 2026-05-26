@@ -1,7 +1,7 @@
 name: Sync Featured App Coupon Guidance
 
 on:
-  workflow_dispatch:
+  workflow_dispatch: {}
   schedule:
     - cron: "23 5 * * *"
 
