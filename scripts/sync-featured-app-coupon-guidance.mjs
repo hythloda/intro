@@ -76,13 +76,13 @@ function renderPage(bodyHtml) {
 
   <style>
     :root {
-      --bg: #071017;
-      --panel: rgba(15, 28, 35, 0.92);
-      --panel-soft: rgba(10, 20, 27, 0.8);
-      --line: rgba(116, 227, 195, 0.24);
+      --bg: #110d3c;
+      --panel: rgba(19, 16, 58, 0.92);
+      --panel-soft: rgba(17, 14, 52, 0.82);
+      --line: rgba(135, 92, 255, 0.24);
       --text: #f7fbfc;
       --muted: #c4d2d5;
-      --accent: #74e3c3;
+      --accent: #d5a5e3;
       --accent-strong: #f1ff9d;
       --shadow: 0 24px 80px rgba(0, 0, 0, 0.35);
     }
@@ -92,9 +92,9 @@ function renderPage(bodyHtml) {
       margin: 0;
       min-height: 100%;
       background:
-        radial-gradient(circle at top left, rgba(116, 227, 195, 0.12), transparent 28%),
-        radial-gradient(circle at top right, rgba(135, 92, 255, 0.16), transparent 24%),
-        linear-gradient(180deg, #0d2224 0%, #112225 100%);
+        radial-gradient(circle at top left, rgba(135, 92, 255, 0.22), transparent 30%),
+        radial-gradient(circle at top right, rgba(213, 165, 227, 0.14), transparent 26%),
+        linear-gradient(180deg, #151043 0%, #171446 50%, #131130 100%);
       color: var(--text);
       font-family: "IBM Plex Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     }
@@ -123,7 +123,7 @@ function renderPage(bodyHtml) {
       margin-bottom: 16px;
       padding: 8px 12px;
       border-radius: 999px;
-      background: rgba(116, 227, 195, 0.12);
+      background: rgba(213, 165, 227, 0.14);
       color: var(--accent);
       font-size: 13px;
       font-weight: 700;
@@ -135,8 +135,8 @@ function renderPage(bodyHtml) {
       margin-top: 24px;
       padding: 24px 28px;
       border-radius: 24px;
-      background: rgba(15, 26, 31, 0.62);
-      border: 1px solid rgba(116, 227, 195, 0.1);
+      background: rgba(20, 17, 61, 0.64);
+      border: 1px solid rgba(135, 92, 255, 0.14);
     }
 
     .footer-note p,
@@ -197,8 +197,8 @@ function renderPage(bodyHtml) {
       margin-top: 30px;
       padding: 44px 48px;
       border-radius: 32px;
-      background: rgba(15, 26, 31, 0.82);
-      border: 1px solid rgba(116, 227, 195, 0.12);
+      background: rgba(19, 16, 58, 0.84);
+      border: 1px solid rgba(135, 92, 255, 0.18);
       box-shadow: 0 18px 54px rgba(0, 0, 0, 0.18);
     }
 
@@ -238,7 +238,7 @@ function renderPage(bodyHtml) {
     .doc-content th,
     .doc-content td {
       padding: 14px 12px;
-      border-top: 1px solid rgba(116, 227, 195, 0.16);
+      border-top: 1px solid rgba(135, 92, 255, 0.2);
       text-align: left;
       vertical-align: top;
     }
@@ -256,8 +256,8 @@ function renderPage(bodyHtml) {
       overflow-x: auto;
       padding: 18px;
       border-radius: 16px;
-      background: rgba(4, 10, 14, 0.9);
-      border: 1px solid rgba(116, 227, 195, 0.16);
+      background: rgba(10, 8, 33, 0.9);
+      border: 1px solid rgba(135, 92, 255, 0.2);
     }
 
     .doc-content img {

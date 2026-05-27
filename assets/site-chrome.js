@@ -222,7 +222,6 @@ function mountSiteChrome() {
 
       const desktopDetails = link.closest(".site-nav-details");
       if (desktopDetails) {
-        desktopDetails.open = true;
         desktopDetails.classList.add("has-active-child");
       }
 
@@ -240,6 +239,31 @@ function mountSiteChrome() {
 
   const toggle = document.querySelector("[data-site-nav-toggle]");
   const panel = document.querySelector("[data-site-mobile-panel]");
+  const desktopDetailsList = [...document.querySelectorAll(".site-nav-details")];
+
+  for (const details of desktopDetailsList) {
+    const summary = details.querySelector(".site-nav-summary");
+    if (!summary) {
+      continue;
+    }
+
+    summary.addEventListener("click", (event) => {
+      event.preventDefault();
+      const nextOpen = !details.open;
+      for (const item of desktopDetailsList) {
+        item.open = false;
+      }
+      details.open = nextOpen;
+    });
+  }
+
+  document.addEventListener("click", (event) => {
+    if (!event.target.closest(".site-nav-desktop")) {
+      for (const details of desktopDetailsList) {
+        details.open = false;
+      }
+    }
+  });
 
   if (toggle && panel) {
     const closePanel = () => {
