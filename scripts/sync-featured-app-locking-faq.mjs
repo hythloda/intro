@@ -83,7 +83,7 @@ function renderPage(bodyHtml) {
       --text: #f7fbfc;
       --muted: #c4d2d5;
       --accent: #d5a5e3;
-      --accent-strong: #f1ff9d;
+      --accent-strong: #f3ff97;
       --shadow: 0 24px 80px rgba(0, 0, 0, 0.35);
     }
 
