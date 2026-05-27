@@ -100,22 +100,22 @@ function renderPage(bodyHtml) {
     }
 
     body {
-      padding: 24px 18px 56px;
+      padding: 22px 18px 64px;
       box-sizing: border-box;
     }
 
     .wrap {
-      max-width: 1240px;
+      max-width: 1320px;
       margin: 0 auto;
     }
 
     .panel {
-      padding: 56px;
-      border-radius: 32px;
-      background: rgba(16, 28, 34, 0.82);
-      border: 1px solid rgba(120, 240, 197, 0.14);
-      box-shadow: 0 22px 64px rgba(0, 0, 0, 0.22);
-      backdrop-filter: blur(14px);
+      padding: 0;
+      border-radius: 0;
+      background: transparent;
+      border: 0;
+      box-shadow: none;
+      backdrop-filter: none;
     }
 
     .eyebrow {
@@ -132,11 +132,11 @@ function renderPage(bodyHtml) {
     }
 
     .footer-note {
-      margin-top: 30px;
-      padding: 22px;
-      border-radius: 18px;
-      background: rgba(11, 22, 27, 0.74);
-      border: 1px solid rgba(120, 240, 197, 0.12);
+      margin-top: 24px;
+      padding: 24px 28px;
+      border-radius: 24px;
+      background: rgba(15, 26, 31, 0.62);
+      border: 1px solid rgba(120, 240, 197, 0.1);
     }
 
     .footer-note p,
@@ -177,7 +177,7 @@ function renderPage(bodyHtml) {
       display: flex;
       flex-wrap: wrap;
       gap: 14px;
-      margin-top: 34px;
+      margin-top: 22px;
     }
 
     .button-secondary {
@@ -194,7 +194,12 @@ function renderPage(bodyHtml) {
     }
 
     .doc-content {
-      margin-top: 28px;
+      margin-top: 30px;
+      padding: 44px 48px;
+      border-radius: 32px;
+      background: rgba(15, 26, 31, 0.82);
+      border: 1px solid rgba(120, 240, 197, 0.12);
+      box-shadow: 0 18px 54px rgba(0, 0, 0, 0.18);
     }
 
     .doc-content h1,
@@ -262,8 +267,8 @@ function renderPage(bodyHtml) {
 
     @media (max-width: 700px) {
       .panel {
-        padding: 32px 24px;
-        border-radius: 24px;
+        padding: 0;
+        border-radius: 0;
       }
 
       .doc-content h1 {
@@ -288,6 +293,16 @@ function renderPage(bodyHtml) {
 
       .actions {
         flex-direction: column;
+      }
+
+      .doc-content {
+        padding: 28px 24px;
+        border-radius: 24px;
+      }
+
+      .footer-note {
+        padding: 20px 22px;
+        border-radius: 20px;
       }
     }
   </style>
