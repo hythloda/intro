@@ -92,29 +92,30 @@ function renderPage(bodyHtml) {
       margin: 0;
       min-height: 100%;
       background:
-        radial-gradient(circle at top left, rgba(116, 227, 195, 0.14), transparent 30%),
-        linear-gradient(180deg, #061017 0%, #071017 100%);
+        radial-gradient(circle at top left, rgba(116, 227, 195, 0.12), transparent 28%),
+        radial-gradient(circle at top right, rgba(135, 92, 255, 0.16), transparent 24%),
+        linear-gradient(180deg, #0d2224 0%, #112225 100%);
       color: var(--text);
       font-family: "IBM Plex Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     }
 
     body {
-      padding: 32px 18px 48px;
+      padding: 24px 18px 56px;
       box-sizing: border-box;
     }
 
     .wrap {
-      max-width: 980px;
+      max-width: 1240px;
       margin: 0 auto;
     }
 
     .panel {
-      padding: 48px;
-      border-radius: 28px;
-      background: var(--panel);
-      border: 1px solid var(--line);
-      box-shadow: var(--shadow);
-      backdrop-filter: blur(10px);
+      padding: 56px;
+      border-radius: 32px;
+      background: rgba(16, 28, 34, 0.82);
+      border: 1px solid rgba(116, 227, 195, 0.14);
+      box-shadow: 0 22px 64px rgba(0, 0, 0, 0.22);
+      backdrop-filter: blur(14px);
     }
 
     .eyebrow {
@@ -131,11 +132,11 @@ function renderPage(bodyHtml) {
     }
 
     .footer-note {
-      margin-top: 24px;
+      margin-top: 30px;
       padding: 22px;
       border-radius: 18px;
-      background: var(--panel-soft);
-      border: 1px solid rgba(116, 227, 195, 0.16);
+      background: rgba(11, 22, 27, 0.74);
+      border: 1px solid rgba(116, 227, 195, 0.12);
     }
 
     .footer-note p,
@@ -176,7 +177,7 @@ function renderPage(bodyHtml) {
       display: flex;
       flex-wrap: wrap;
       gap: 14px;
-      margin-top: 28px;
+      margin-top: 34px;
     }
 
     .button-secondary {
@@ -261,8 +262,8 @@ function renderPage(bodyHtml) {
 
     @media (max-width: 640px) {
       .panel {
-        padding: 28px 22px;
-        border-radius: 22px;
+        padding: 32px 24px;
+        border-radius: 24px;
       }
 
       .doc-content h1 {

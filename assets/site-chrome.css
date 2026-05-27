@@ -10,12 +10,13 @@
 
 .site-header {
   position: relative;
-  z-index: 30;
-  margin-bottom: 18px;
+  z-index: 200;
+  margin-bottom: 26px;
 }
 
 .site-header-shell {
-  overflow: hidden;
+  position: relative;
+  overflow: visible;
   border-radius: 28px;
   background:
     radial-gradient(circle at 55% 55%, rgba(140, 90, 255, 0.28), transparent 46%),
@@ -24,6 +25,8 @@
 }
 
 .site-header-bar {
+  position: relative;
+  z-index: 3;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -121,6 +124,7 @@
   position: absolute;
   top: calc(100% + 12px);
   left: 0;
+  z-index: 40;
   min-width: 250px;
   padding: 10px;
   border-radius: 18px;
@@ -214,6 +218,8 @@
 
 .site-mobile-panel {
   display: none;
+  position: relative;
+  z-index: 4;
 }
 
 .site-footer {
@@ -376,6 +382,7 @@
   .site-mobile-panel {
     display: none;
     padding: 0 24px 28px;
+    background: linear-gradient(180deg, rgba(14, 12, 93, 0.98) 0%, rgba(18, 10, 80, 0.98) 100%);
   }
 
   .site-mobile-panel.is-open {
@@ -486,7 +493,7 @@
   }
 
   .site-header {
-    margin-bottom: 16px;
+    margin-bottom: 20px;
   }
 
   .site-header-bar {
