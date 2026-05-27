@@ -76,12 +76,12 @@ function renderPage(bodyHtml) {
 
   <style>
     :root {
-      --bg: #110d3c;
-      --panel: rgba(19, 16, 58, 0.94);
-      --panel-soft: rgba(17, 14, 52, 0.84);
+      --bg: #06014a;
+      --panel: rgba(6, 4, 30, 0.94);
+      --panel-soft: rgba(11, 8, 40, 0.82);
       --text: #f7f8fc;
-      --muted: #c5ccdc;
-      --line: rgba(135, 92, 255, 0.24);
+      --muted: #d6d0e5;
+      --line: rgba(127, 91, 188, 0.24);
       --accent: #d5a5e3;
       --accent-strong: #f3ff97;
       --shadow: 0 30px 80px rgba(0, 0, 0, 0.35);
@@ -92,9 +92,9 @@ function renderPage(bodyHtml) {
       margin: 0;
       min-height: 100%;
       background:
-        radial-gradient(circle at top left, rgba(135, 92, 255, 0.22), transparent 30%),
-        radial-gradient(circle at top right, rgba(213, 165, 227, 0.14), transparent 26%),
-        linear-gradient(180deg, #151043 0%, #171446 50%, #131130 100%);
+        radial-gradient(circle at 78% 18%, rgba(129, 84, 120, 0.42), transparent 26%),
+        radial-gradient(circle at 18% 80%, rgba(63, 21, 172, 0.18), transparent 34%),
+        linear-gradient(180deg, #05014a 0%, #14045a 54%, #090221 100%);
       color: var(--text);
       font-family: "IBM Plex Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     }
@@ -135,8 +135,8 @@ function renderPage(bodyHtml) {
       margin-top: 24px;
       padding: 24px 28px;
       border-radius: 24px;
-      background: rgba(20, 17, 61, 0.64);
-      border: 1px solid rgba(135, 92, 255, 0.14);
+      background: rgba(12, 9, 44, 0.64);
+      border: 1px solid rgba(126, 92, 186, 0.16);
     }
 
     .footer-note p,
@@ -197,8 +197,8 @@ function renderPage(bodyHtml) {
       margin-top: 30px;
       padding: 44px 48px;
       border-radius: 32px;
-      background: rgba(19, 16, 58, 0.84);
-      border: 1px solid rgba(135, 92, 255, 0.18);
+      background: rgba(9, 6, 36, 0.84);
+      border: 1px solid rgba(126, 92, 186, 0.18);
       box-shadow: 0 18px 54px rgba(0, 0, 0, 0.18);
     }
 
@@ -257,7 +257,7 @@ function renderPage(bodyHtml) {
       padding: 18px;
       border-radius: 16px;
       background: rgba(10, 8, 33, 0.9);
-      border: 1px solid rgba(135, 92, 255, 0.2);
+      border: 1px solid rgba(126, 92, 186, 0.22);
     }
 
     .doc-content img {
