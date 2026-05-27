@@ -2,41 +2,91 @@ const headerHtml = `
   <header class="site-header" aria-label="Main site header">
     <div class="site-chrome-container">
       <div class="site-header-shell">
-        <a class="site-logo-link" href="index.html" aria-label="Canton Network intro home">
-          <img src="https://canton.foundation/wp-content/themes/canton/assets/images/logo.svg" alt="Canton Foundation">
-        </a>
+        <div class="site-header-bar">
+          <a class="site-logo-link" href="index.html" aria-label="Canton Network intro home">
+            <img src="https://canton.foundation/wp-content/themes/canton/assets/images/logo.svg" alt="Canton Foundation">
+          </a>
 
-        <button class="site-menu-toggle" type="button" data-site-nav-toggle aria-controls="siteNav" aria-expanded="false" aria-label="Toggle navigation">
-          Menu
-        </button>
+          <div class="site-header-desktop">
+            <nav class="site-nav-desktop" aria-label="Primary navigation">
+              <ul class="site-nav-list">
+                <li class="site-nav-item">
+                  <a class="site-nav-link" href="https://canton.foundation/join-the-foundation/" target="_blank" rel="noopener">Join The Foundation</a>
+                </li>
+                <li class="site-nav-item">
+                  <a class="site-nav-link" href="https://canton.foundation/about-the-foundation/" target="_blank" rel="noopener">About</a>
+                </li>
+                <li class="site-nav-item">
+                  <details class="site-nav-details">
+                    <summary class="site-nav-summary">Ecosystem</summary>
+                    <div class="site-submenu">
+                      <ul class="site-submenu-list">
+                        <li><a href="featured-applications.html">Featured Apps</a></li>
+                        <li><a href="validator.html">Validators</a></li>
+                        <li><a href="super-validator.html">Super Validators</a></li>
+                        <li><a href="https://members.canton.foundation/" target="_blank" rel="noopener">Members</a></li>
+                        <li><a href="https://canton.foundation/sv-network-status/" target="_blank" rel="noopener">SV Network Status</a></li>
+                      </ul>
+                    </div>
+                  </details>
+                </li>
+                <li class="site-nav-item">
+                  <details class="site-nav-details">
+                    <summary class="site-nav-summary">Resources</summary>
+                    <div class="site-submenu">
+                      <ul class="site-submenu-list">
+                        <li><a href="featured-app-coupon-guidance.html">Coupon Guidance</a></li>
+                        <li><a href="featured-app-locking-faq.html">Locking FAQ</a></li>
+                        <li><a href="sv-milestone-framework.html">SV Milestone Framework</a></li>
+                        <li><a href="https://github.com/canton-foundation/cips" target="_blank" rel="noopener">Canton CIPs</a></li>
+                        <li><a href="https://dev-hub.canton.foundation/" target="_blank" rel="noopener">Developer Tooling</a></li>
+                        <li><a href="https://testnet-faucet.canton.foundation/" target="_blank" rel="noopener">Testnet Faucet</a></li>
+                        <li><a href="https://docs.canton.network/" target="_blank" rel="noopener">Docs</a></li>
+                      </ul>
+                    </div>
+                  </details>
+                </li>
+                <li class="site-nav-item">
+                  <a class="site-nav-link" href="https://canton.foundation/contact-us/" target="_blank" rel="noopener">Contact</a>
+                </li>
+              </ul>
+            </nav>
 
-        <nav class="site-nav" id="siteNav" data-site-nav aria-label="Primary navigation">
-          <ul class="site-nav-list">
-            <li class="site-nav-item">
-              <a class="site-nav-link" href="https://canton.foundation/join-the-foundation/" target="_blank" rel="noopener">Join The Foundation</a>
-            </li>
-            <li class="site-nav-item">
-              <a class="site-nav-link" href="https://canton.foundation/about-the-foundation/" target="_blank" rel="noopener">About</a>
-            </li>
-            <li class="site-nav-item">
-              <details class="site-nav-details">
-                <summary class="site-nav-summary">Ecosystem</summary>
-                <div class="site-submenu">
-                  <ul class="site-submenu-list">
+            <a class="site-member-cta" href="https://canton.foundation/join-the-foundation/" target="_blank" rel="noopener">
+              Become A Member
+            </a>
+          </div>
+
+          <button class="site-menu-toggle" type="button" data-site-nav-toggle aria-controls="siteMobileNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="site-menu-toggle-lines" aria-hidden="true">
+              <span></span>
+              <span></span>
+              <span></span>
+            </span>
+          </button>
+        </div>
+
+        <div class="site-mobile-panel" id="siteMobileNav" data-site-mobile-panel>
+          <nav class="site-nav-mobile" aria-label="Mobile navigation">
+            <ul class="site-mobile-list">
+              <li><a class="site-mobile-link" href="https://canton.foundation/join-the-foundation/" target="_blank" rel="noopener">Join The Foundation</a></li>
+              <li><a class="site-mobile-link" href="https://canton.foundation/about-the-foundation/" target="_blank" rel="noopener">About</a></li>
+              <li>
+                <details class="site-mobile-details">
+                  <summary class="site-mobile-summary">Ecosystem</summary>
+                  <ul class="site-mobile-submenu">
                     <li><a href="featured-applications.html">Featured Apps</a></li>
                     <li><a href="validator.html">Validators</a></li>
                     <li><a href="super-validator.html">Super Validators</a></li>
                     <li><a href="https://members.canton.foundation/" target="_blank" rel="noopener">Members</a></li>
                     <li><a href="https://canton.foundation/sv-network-status/" target="_blank" rel="noopener">SV Network Status</a></li>
                   </ul>
-                </div>
-              </details>
-            </li>
-            <li class="site-nav-item">
-              <details class="site-nav-details">
-                <summary class="site-nav-summary">Resources</summary>
-                <div class="site-submenu">
-                  <ul class="site-submenu-list">
+                </details>
+              </li>
+              <li>
+                <details class="site-mobile-details">
+                  <summary class="site-mobile-summary">Resources</summary>
+                  <ul class="site-mobile-submenu">
                     <li><a href="featured-app-coupon-guidance.html">Coupon Guidance</a></li>
                     <li><a href="featured-app-locking-faq.html">Locking FAQ</a></li>
                     <li><a href="sv-milestone-framework.html">SV Milestone Framework</a></li>
@@ -45,14 +95,16 @@ const headerHtml = `
                     <li><a href="https://testnet-faucet.canton.foundation/" target="_blank" rel="noopener">Testnet Faucet</a></li>
                     <li><a href="https://docs.canton.network/" target="_blank" rel="noopener">Docs</a></li>
                   </ul>
-                </div>
-              </details>
-            </li>
-            <li class="site-nav-item">
-              <a class="site-nav-link" href="https://canton.foundation/contact-us/" target="_blank" rel="noopener">Contact</a>
-            </li>
-          </ul>
-        </nav>
+                </details>
+              </li>
+              <li><a class="site-mobile-link" href="https://canton.foundation/contact-us/" target="_blank" rel="noopener">Contact</a></li>
+            </ul>
+          </nav>
+
+          <a class="site-member-cta site-member-cta-mobile" href="https://canton.foundation/join-the-foundation/" target="_blank" rel="noopener">
+            Become A Member
+          </a>
+        </div>
       </div>
     </div>
   </header>
@@ -150,38 +202,64 @@ function mountSiteChrome() {
     node.innerHTML = footerHtml;
   }
 
-  const nav = document.querySelector("[data-site-nav]");
-  const toggle = document.querySelector("[data-site-nav-toggle]");
-
-  if (nav && toggle) {
-    toggle.addEventListener("click", () => {
-      const isOpen = nav.classList.toggle("is-open");
-      toggle.setAttribute("aria-expanded", String(isOpen));
-    });
-
-    window.addEventListener("resize", () => {
-      if (window.innerWidth > 980) {
-        nav.classList.remove("is-open");
-        toggle.setAttribute("aria-expanded", "false");
-      }
-    });
-  }
-
   const current = location.pathname.split("/").pop() || "index.html";
-  for (const link of document.querySelectorAll(".site-nav-link, .site-submenu-list a, .site-footer-list a")) {
+  const activeSelector = [
+    ".site-nav-link",
+    ".site-submenu-list a",
+    ".site-mobile-link",
+    ".site-mobile-submenu a",
+    ".site-footer-list a",
+  ].join(", ");
+
+  for (const link of document.querySelectorAll(activeSelector)) {
     const href = link.getAttribute("href");
     if (!href || href.startsWith("http") || href.startsWith("#")) {
       continue;
     }
+
     if (href === current || (current === "" && href === "index.html")) {
       link.classList.add("is-active");
-      const details = link.closest(".site-nav-details");
-      if (details) {
-        details.open = true;
+
+      const desktopDetails = link.closest(".site-nav-details");
+      if (desktopDetails) {
+        desktopDetails.open = true;
+        desktopDetails.classList.add("has-active-child");
       }
-      if (link.classList.contains("site-nav-link")) {
+
+      const mobileDetails = link.closest(".site-mobile-details");
+      if (mobileDetails) {
+        mobileDetails.open = true;
+        mobileDetails.classList.add("has-active-child");
+      }
+
+      if (link.matches(".site-nav-link, .site-mobile-link")) {
         link.setAttribute("aria-current", "page");
       }
+    }
+  }
+
+  const toggle = document.querySelector("[data-site-nav-toggle]");
+  const panel = document.querySelector("[data-site-mobile-panel]");
+
+  if (toggle && panel) {
+    const closePanel = () => {
+      panel.classList.remove("is-open");
+      toggle.setAttribute("aria-expanded", "false");
+    };
+
+    toggle.addEventListener("click", () => {
+      const isOpen = panel.classList.toggle("is-open");
+      toggle.setAttribute("aria-expanded", String(isOpen));
+    });
+
+    window.addEventListener("resize", () => {
+      if (window.innerWidth > 1040) {
+        closePanel();
+      }
+    });
+
+    for (const link of panel.querySelectorAll("a")) {
+      link.addEventListener("click", () => closePanel());
     }
   }
 }

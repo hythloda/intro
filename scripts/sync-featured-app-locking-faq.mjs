@@ -95,7 +95,7 @@ function renderPage(bodyHtml) {
         radial-gradient(circle at top left, rgba(116, 227, 195, 0.14), transparent 30%),
         linear-gradient(180deg, #061017 0%, #071017 100%);
       color: var(--text);
-      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-family: "IBM Plex Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     }
 
     body {
