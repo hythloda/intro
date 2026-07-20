@@ -215,27 +215,6 @@
       padding: 0 22px 22px;
     }
 
-    .group-meta {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 10px;
-      margin: 0 0 16px;
-    }
-
-    .group-chip {
-      display: inline-flex;
-      align-items: center;
-      min-height: 34px;
-      padding: 0 12px;
-      border-radius: 999px;
-      background: rgba(213, 165, 227, 0.12);
-      color: var(--accent);
-      font-size: 13px;
-      font-weight: 700;
-      letter-spacing: 0.04em;
-      text-transform: uppercase;
-    }
-
     .table-wrap {
       overflow-x: auto;
       border-radius: 22px;
@@ -312,71 +291,59 @@
       <div class="eyebrow">Validators</div>
       <h1>MainNet Allocation Queue and Request Process</h1>
       <p>
-        MainNet validator allocations now use a Monday.com intake and tracking flow. If you are
-        requesting MainNet access, submit the form below and use the weekly queue view as the
-        working snapshot for status and announcement readiness.
+        If you are requesting MainNet access, submit the allocation form below. This page provides
+        the public weekly release view for current and historical allocation groups.
       </p>
 
       <div class="actions">
         <a class="button" href="https://forms.monday.com/forms/50df5f10e9565795456e19d4be2e6d3c?r=use1" target="_blank" rel="noopener">
           Open MainNet Allocation Form
         </a>
-        <a class="button-secondary" href="https://canton-foundation.monday.com/boards/18421962353/views/269688084" target="_blank" rel="noopener">
-          Open Monday Board
-        </a>
         <a class="button-secondary" href="validator.html">Back to Validator Page</a>
       </div>
 
       <div class="notice">
-        <strong>Important:</strong> This Monday process is part of the MainNet allocation request flow.
-        You should still complete the validator application and Tokenomics approval process first.
+        <strong>Important:</strong> You should still complete the validator application and
+        Tokenomics approval process first. MainNet allocation updates are released weekly.
       </div>
 
       <div class="info-grid">
         <div class="info-card">
           <strong>1. Submit</strong>
-          <p>Use the Monday form to submit or update your MainNet allocation request.</p>
+          <p>Use the allocation form to submit or update your MainNet request.</p>
         </div>
         <div class="info-card">
-          <strong>2. Review</strong>
-          <p>The Governance - Validator Countdown board tracks weekly queue groups and status.</p>
+          <strong>2. Wait for Weekly Release</strong>
+          <p>Allocation groups are reviewed and released weekly.</p>
         </div>
         <div class="info-card">
-          <strong>3. Announce</strong>
-          <p>Approved allocations can move into the public announcement flow when marked ready.</p>
+          <strong>3. Check Your Group</strong>
+          <p>Use this page to review the latest public group and expand older weekly releases.</p>
         </div>
       </div>
 
-      <h2>What the Monday queue shows</h2>
+      <h2>What this page shows</h2>
       <ul>
         <li><strong>Company:</strong> the requesting validator or organization.</li>
         <li><strong>PartyID Hint:</strong> a hint or identifier associated with the request when supplied.</li>
         <li><strong>Reason:</strong> the app, product, or sponsor context for the request.</li>
-        <li><strong>Weekly Group:</strong> requests are organized by Monday batch so each week can be expanded separately.</li>
-        <li><strong>Approval and announcement readiness:</strong> these remain part of the live Monday workflow, but are not shown as visible table columns on this page.</li>
+        <li><strong>Weekly Release:</strong> requests are organized into weekly groups so the latest release and prior releases can be reviewed separately.</li>
       </ul>
 
       <hr>
 
-      <h2>Current board snapshot</h2>
+      <h2>Current weekly release</h2>
       <p>
-        The queue below is organized by weekly Monday group. The most recent visible group is open
-        by default, and older groups can be expanded for historical reference. The live board remains
-        the source of truth for day-to-day updates.
+        The queue below is organized by weekly release. The most recent visible group is open by
+        default, and older groups can be expanded for historical reference.
       </p>
 
       <div class="queue-groups">
         <details class="queue-group" open>
           <summary>
-            <span>07-20</span>
+            <span>Week Of 07-20</span>
           </summary>
           <div class="queue-group-content">
-            <div class="group-meta">
-              <span class="group-chip">17 visible requests</span>
-              <span class="group-chip">Latest weekly group</span>
-              <span class="group-chip">Visible statuses were approved</span>
-              <span class="group-chip">Visible entries could be named in announcement</span>
-            </div>
             <div class="table-wrap">
               <table>
                 <thead>
@@ -412,17 +379,11 @@
 
         <details class="queue-group">
           <summary>
-            <span>07-13</span>
+            <span>Week Of 07-13</span>
           </summary>
           <div class="queue-group-content">
-            <div class="group-meta">
-              <span class="group-chip">12 companies</span>
-              <span class="group-chip">Historical weekly group</span>
-            </div>
             <p>
-              The screenshot shows this as the next historical Monday group with 12 companies.
-              Keep the live Monday board as the working source if you need to review the row-by-row
-              details for earlier groups.
+              This is the next historical weekly release group shown in the screenshot.
             </p>
           </div>
         </details>
@@ -432,8 +393,8 @@
 
       <h2>How to use this page</h2>
       <ul>
-        <li>Use the Monday form when you are ready to request MainNet allocation.</li>
-        <li>Use the board to review the weekly grouping and current status.</li>
+        <li>Use the allocation form when you are ready to request MainNet access.</li>
+        <li>Check this page for weekly public release updates.</li>
         <li>Use <a href="https://lists.sync.global/g/supervalidator-announce" target="_blank" rel="noopener">supervalidator-announce</a> for public allocation announcements.</li>
         <li>Return to the validator onboarding page for the broader approval and sponsorship process.</li>
       </ul>
