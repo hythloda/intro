@@ -195,6 +195,23 @@
       font-weight: 700;
     }
 
+    .queue-summary-copy {
+      display: grid;
+      gap: 6px;
+    }
+
+    .queue-summary-title {
+      color: var(--text);
+    }
+
+    .queue-summary-meta {
+      color: var(--accent);
+      font-size: 13px;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
     .queue-group summary::-webkit-details-marker {
       display: none;
     }
@@ -213,6 +230,38 @@
 
     .queue-group-content {
       padding: 0 22px 22px;
+    }
+
+    .release-note {
+      margin: 0 0 16px;
+    }
+
+    .company-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin: 0 0 18px;
+    }
+
+    .company-tag {
+      display: inline-flex;
+      align-items: center;
+      min-height: 36px;
+      padding: 0 14px;
+      border-radius: 999px;
+      background: rgba(213, 165, 227, 0.12);
+      border: 1px solid rgba(126, 92, 186, 0.18);
+      color: var(--text);
+      font-size: 14px;
+      font-weight: 600;
+      line-height: 1.2;
+    }
+
+    .historical-note {
+      padding: 18px 20px;
+      border-radius: 16px;
+      background: rgba(255, 255, 255, 0.03);
+      border: 1px solid rgba(126, 92, 186, 0.18);
     }
 
     .table-wrap {
@@ -332,18 +381,42 @@
 
       <hr>
 
-      <h2>Current weekly release</h2>
+      <h2>Weekly release archive</h2>
       <p>
-        The queue below is organized by weekly release. The most recent visible group is open by
-        default, and older groups can be expanded for historical reference.
+        The queue below is organized by weekly release. If a company appears under a given week,
+        that is the weekly release it is listed in. The latest visible release is open by default,
+        and older releases can be expanded for historical reference.
       </p>
 
       <div class="queue-groups">
         <details class="queue-group" open>
           <summary>
-            <span>Week Of 07-20</span>
+            <span class="queue-summary-copy">
+              <span class="queue-summary-title">Week Of 07-20</span>
+              <span class="queue-summary-meta">17 companies listed</span>
+            </span>
           </summary>
           <div class="queue-group-content">
+            <p class="release-note">Companies listed below are included in the Week Of 07-20 release.</p>
+            <div class="company-tags">
+              <span class="company-tag">Babihub</span>
+              <span class="company-tag">Babihub</span>
+              <span class="company-tag">node101</span>
+              <span class="company-tag">Slay Money</span>
+              <span class="company-tag">Gold Token SA</span>
+              <span class="company-tag">Anoetic Labs LLC</span>
+              <span class="company-tag">Clashly.io</span>
+              <span class="company-tag">FintechIQ</span>
+              <span class="company-tag">FractiFi</span>
+              <span class="company-tag">Knidos Labs AG</span>
+              <span class="company-tag">Meridiant (Catalyst Labs LLC FZ)</span>
+              <span class="company-tag">NaundorfIT</span>
+              <span class="company-tag">otcDigital Inc.</span>
+              <span class="company-tag">Pirum Systems Limited</span>
+              <span class="company-tag">PT. Agrapana Agrikultur Perkasa</span>
+              <span class="company-tag">Sovereign GR Holdings LLC</span>
+              <span class="company-tag">Threnix</span>
+            </div>
             <div class="table-wrap">
               <table>
                 <thead>
@@ -379,12 +452,19 @@
 
         <details class="queue-group">
           <summary>
-            <span>Week Of 07-13</span>
+            <span class="queue-summary-copy">
+              <span class="queue-summary-title">Week Of 07-13</span>
+              <span class="queue-summary-meta">12 companies listed</span>
+            </span>
           </summary>
           <div class="queue-group-content">
-            <p>
-              This is the next historical weekly release group shown in the screenshot.
-            </p>
+            <p class="release-note">This section represents the prior weekly release group.</p>
+            <div class="historical-note">
+              <p>
+                12 companies were included in the Week Of 07-13 release. Historical groups are kept
+                here by week so visitors can tell when a node was listed in the public release cycle.
+              </p>
+            </div>
           </div>
         </details>
       </div>
