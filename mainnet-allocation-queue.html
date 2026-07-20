@@ -1,0 +1,372 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/site-chrome.css">
+  <script src="assets/site-chrome.js" defer></script>
+  <title>MainNet Allocation Queue | Canton Network</title>
+
+  <style>
+    :root {
+      --bg: #06014a;
+      --panel: rgba(6, 4, 30, 0.92);
+      --panel-soft: rgba(11, 8, 40, 0.82);
+      --text: #f7f8fc;
+      --muted: #d6d0e5;
+      --line: rgba(127, 91, 188, 0.24);
+      --accent: #d5a5e3;
+      --accent-strong: #f3ff97;
+      --shadow: 0 30px 80px rgba(0, 0, 0, 0.35);
+      --success: #0dcc7b;
+      --warning: #ffb347;
+    }
+
+    html,
+    body {
+      margin: 0;
+      min-height: 100%;
+      background:
+        radial-gradient(circle at 78% 18%, rgba(129, 84, 120, 0.42), transparent 26%),
+        radial-gradient(circle at 18% 80%, rgba(63, 21, 172, 0.18), transparent 34%),
+        linear-gradient(180deg, #05014a 0%, #14045a 54%, #090221 100%);
+      color: var(--text);
+      font-family: "IBM Plex Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
+
+    body {
+      padding: 36px 18px 56px;
+      box-sizing: border-box;
+    }
+
+    .wrap {
+      max-width: 1220px;
+      margin: 0 auto;
+    }
+
+    .panel {
+      padding: 48px;
+      border-radius: 28px;
+      background: var(--panel);
+      border: 1px solid var(--line);
+      box-shadow: var(--shadow);
+      backdrop-filter: blur(10px);
+    }
+
+    .eyebrow {
+      display: inline-block;
+      margin-bottom: 16px;
+      padding: 8px 12px;
+      border-radius: 999px;
+      background: rgba(213, 165, 227, 0.14);
+      color: var(--accent);
+      font-size: 13px;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      margin: 0 0 16px;
+      font-size: 42px;
+      line-height: 1.05;
+      letter-spacing: -0.03em;
+    }
+
+    h2 {
+      margin: 34px 0 12px;
+      font-size: 28px;
+      line-height: 1.15;
+    }
+
+    p,
+    li,
+    td,
+    th {
+      color: var(--muted);
+      font-size: 17px;
+      line-height: 1.65;
+    }
+
+    p {
+      margin: 0 0 20px;
+    }
+
+    ul {
+      margin: 0 0 20px 22px;
+      padding: 0;
+    }
+
+    li {
+      margin: 8px 0;
+    }
+
+    a {
+      color: var(--accent-strong);
+    }
+
+    .notice,
+    .summary-box {
+      margin: 24px 0;
+      padding: 22px;
+      border-radius: 18px;
+      background: var(--panel-soft);
+      border: 1px solid rgba(126, 92, 186, 0.2);
+    }
+
+    .actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 14px;
+      margin-top: 28px;
+    }
+
+    .button,
+    .button-secondary {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 48px;
+      padding: 0 18px;
+      border-radius: 14px;
+      font-weight: 800;
+      text-decoration: none;
+    }
+
+    .button {
+      background: var(--accent-strong);
+      color: #132019;
+    }
+
+    .button-secondary {
+      border: 1px solid rgba(126, 92, 186, 0.34);
+      color: var(--text);
+    }
+
+    .info-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 18px;
+      margin: 22px 0 30px;
+    }
+
+    .info-card {
+      padding: 20px;
+      border-radius: 18px;
+      background: var(--panel-soft);
+      border: 1px solid rgba(126, 92, 186, 0.2);
+    }
+
+    .info-card strong {
+      display: block;
+      margin-bottom: 10px;
+      color: var(--accent-strong);
+      font-size: 14px;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+    }
+
+    .table-wrap {
+      overflow-x: auto;
+      margin-top: 22px;
+      border-radius: 22px;
+      border: 1px solid rgba(126, 92, 186, 0.2);
+      background: rgba(9, 7, 34, 0.88);
+    }
+
+    table {
+      width: 100%;
+      min-width: 940px;
+      border-collapse: collapse;
+    }
+
+    th,
+    td {
+      padding: 14px 16px;
+      border-bottom: 1px solid rgba(126, 92, 186, 0.16);
+      text-align: left;
+      vertical-align: top;
+      font-size: 15px;
+    }
+
+    th {
+      color: var(--text);
+      background: rgba(255, 255, 255, 0.03);
+      font-size: 13px;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+    }
+
+    .mailing {
+      color: #fff1d4;
+      background: rgba(255, 179, 71, 0.18);
+    }
+
+    .status {
+      color: #f7fffb;
+      background: rgba(13, 204, 123, 0.18);
+      font-weight: 700;
+    }
+
+    .group-label {
+      display: inline-block;
+      margin-bottom: 14px;
+      color: var(--accent-strong);
+      font-size: 22px;
+      font-weight: 700;
+      letter-spacing: 0.04em;
+    }
+
+    hr {
+      border: none;
+      border-top: 1px solid var(--line);
+      margin: 30px 0;
+    }
+
+    @media (max-width: 900px) {
+      .info-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    @media (max-width: 700px) {
+      .panel {
+        padding: 28px 22px;
+        border-radius: 22px;
+      }
+
+      h1 {
+        font-size: 33px;
+      }
+
+      h2 {
+        font-size: 24px;
+      }
+
+      p,
+      li,
+      td,
+      th {
+        font-size: 15px;
+      }
+
+      .actions {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div data-site-header></div>
+  <main class="wrap">
+    <section class="panel">
+      <div class="eyebrow">Validators</div>
+      <h1>MainNet Allocation Queue and Request Process</h1>
+      <p>
+        MainNet validator allocations now use a Monday.com intake and tracking flow. If you are
+        requesting MainNet access, submit the form below and use the weekly queue view as the
+        working snapshot for status and announcement readiness.
+      </p>
+
+      <div class="actions">
+        <a class="button" href="https://forms.monday.com/forms/50df5f10e9565795456e19d4be2e6d3c?r=use1" target="_blank" rel="noopener">
+          Open MainNet Allocation Form
+        </a>
+        <a class="button-secondary" href="https://canton-foundation.monday.com/boards/18421962353/views/269688084" target="_blank" rel="noopener">
+          Open Monday Board
+        </a>
+        <a class="button-secondary" href="validator.html">Back to Validator Page</a>
+      </div>
+
+      <div class="notice">
+        <strong>Important:</strong> This Monday process is part of the MainNet allocation request flow.
+        You should still complete the validator application and Tokenomics approval process first.
+      </div>
+
+      <div class="info-grid">
+        <div class="info-card">
+          <strong>1. Submit</strong>
+          <p>Use the Monday form to submit or update your MainNet allocation request.</p>
+        </div>
+        <div class="info-card">
+          <strong>2. Review</strong>
+          <p>The Governance - Validator Countdown board tracks weekly queue groups and status.</p>
+        </div>
+        <div class="info-card">
+          <strong>3. Announce</strong>
+          <p>Approved allocations can move into the public announcement flow when marked ready.</p>
+        </div>
+      </div>
+
+      <h2>What the Monday queue shows</h2>
+      <ul>
+        <li><strong>Company:</strong> the requesting validator or organization.</li>
+        <li><strong>PartyID Hint:</strong> a hint or identifier associated with the request when supplied.</li>
+        <li><strong>Reason:</strong> the app, product, or sponsor context for the request.</li>
+        <li><strong>Public Mailing List:</strong> whether the request can be named in the public announcement.</li>
+        <li><strong>Monday:</strong> the weekly batch grouping for review and allocation handling.</li>
+        <li><strong>Status:</strong> the current queue outcome, such as approved.</li>
+      </ul>
+
+      <hr>
+
+      <h2>Current board snapshot</h2>
+      <p>
+        The table below reflects the visible July 20 weekly group from the Monday board screenshot
+        you provided. The live board remains the source of truth for day-to-day updates.
+      </p>
+
+      <div class="summary-box">
+        <div class="group-label">07-20</div>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>Company</th>
+                <th>PartyID Hint</th>
+                <th>Reason</th>
+                <th>Public Mailing List</th>
+                <th>Monday</th>
+                <th>Status</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td>Babihub</td><td></td><td>App/Product</td><td class="mailing">Yes, can be in announcement</td><td>07-20</td><td class="status">Approved</td></tr>
+              <tr><td>Babihub</td><td></td><td>App/Product</td><td class="mailing">Yes, can be in announcement</td><td>07-20</td><td class="status">Approved</td></tr>
+              <tr><td>node101</td><td></td><td>App/Product</td><td class="mailing">Yes, can be in announcement</td><td>07-20</td><td class="status">Approved</td></tr>
+              <tr><td>Slay Money</td><td></td><td>App/Product</td><td class="mailing">Yes, can be in announcement</td><td>07-20</td><td class="status">Approved</td></tr>
+              <tr><td>Gold Token SA</td><td></td><td>Saxon</td><td class="mailing">Yes, can be in announcement</td><td>07-20</td><td class="status">Approved</td></tr>
+              <tr><td>Anoetic Labs LLC</td><td></td><td>App/Product</td><td class="mailing">Yes, can be in announcement</td><td>07-20</td><td class="status">Approved</td></tr>
+              <tr><td>Clashly.io</td><td></td><td>App/Product</td><td class="mailing">Yes, can be in announcement</td><td>07-20</td><td class="status">Approved</td></tr>
+              <tr><td>FintechIQ</td><td></td><td>Digik</td><td class="mailing">Yes, can be in announcement</td><td>07-20</td><td class="status">Approved</td></tr>
+              <tr><td>FractiFi</td><td></td><td>App/Product</td><td class="mailing">Yes, can be in announcement</td><td>07-20</td><td class="status">Approved</td></tr>
+              <tr><td>Knidos Labs AG</td><td></td><td>App/Product</td><td class="mailing">Yes, can be in announcement</td><td>07-20</td><td class="status">Approved</td></tr>
+              <tr><td>Meridiant (Catalyst Labs LLC FZ)</td><td></td><td>App/Product</td><td class="mailing">Yes, can be in announcement</td><td>07-20</td><td class="status">Approved</td></tr>
+              <tr><td>NaundorfIT</td><td></td><td>App/Product</td><td class="mailing">Yes, can be in announcement</td><td>07-20</td><td class="status">Approved</td></tr>
+              <tr><td>otcDigital Inc.</td><td></td><td>App/Product</td><td class="mailing">Yes, can be in announcement</td><td>07-20</td><td class="status">Approved</td></tr>
+              <tr><td>Pirum Systems Limited</td><td></td><td>App/Product</td><td class="mailing">Yes, can be in announcement</td><td>07-20</td><td class="status">Approved</td></tr>
+              <tr><td>PT. Agrapana Agrikultur Perkasa</td><td></td><td>App/Product</td><td class="mailing">Yes, can be in announcement</td><td>07-20</td><td class="status">Approved</td></tr>
+              <tr><td>Sovereign GR Holdings LLC</td><td></td><td>App/Product</td><td class="mailing">Yes, can be in announcement</td><td>07-20</td><td class="status">Approved</td></tr>
+              <tr><td>Threnix</td><td></td><td>App/Product</td><td class="mailing">Yes, can be in announcement</td><td>07-20</td><td class="status">Approved</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <hr>
+
+      <h2>How to use this page</h2>
+      <ul>
+        <li>Use the Monday form when you are ready to request MainNet allocation.</li>
+        <li>Use the board to review the weekly grouping and current status.</li>
+        <li>Use <a href="https://lists.sync.global/g/supervalidator-announce" target="_blank" rel="noopener">supervalidator-announce</a> for public allocation announcements.</li>
+        <li>Return to the validator onboarding page for the broader approval and sponsorship process.</li>
+      </ul>
+    </section>
+  </main>
+  <div data-site-footer></div>
+</body>
+</html>
