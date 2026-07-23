@@ -205,6 +205,75 @@
       box-shadow: 0 0 0 3px rgba(243, 255, 151, 0.1);
     }
 
+    .toggle-panel {
+      margin-bottom: 22px;
+      padding: 18px;
+      border-radius: 18px;
+      background: rgba(3, 2, 20, 0.34);
+      border: 1px solid rgba(126, 92, 186, 0.2);
+    }
+
+    .toggle-heading {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      gap: 14px;
+      margin-bottom: 14px;
+    }
+
+    .toggle-heading h3 {
+      margin: 0;
+      color: var(--text);
+      font-size: 18px;
+      line-height: 1.2;
+    }
+
+    .toggle-heading p {
+      margin: 0;
+      color: rgba(255, 255, 255, 0.68);
+      font-size: 14px;
+      line-height: 1.4;
+    }
+
+    .toggle-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .toggle-button {
+      display: inline-flex;
+      align-items: center;
+      min-height: 38px;
+      padding: 0 12px;
+      border-radius: 999px;
+      border: 1px solid rgba(243, 255, 151, 0.38);
+      background: rgba(243, 255, 151, 0.14);
+      color: var(--accent-strong);
+      font-size: 13px;
+      font-weight: 800;
+      letter-spacing: 0.03em;
+      cursor: pointer;
+    }
+
+    .toggle-button[aria-pressed="false"] {
+      border-color: rgba(213, 165, 227, 0.2);
+      background: rgba(213, 165, 227, 0.06);
+      color: rgba(255, 255, 255, 0.46);
+      text-decoration: line-through;
+    }
+
+    .toggle-button:focus-visible {
+      outline: 2px solid var(--accent-strong);
+      outline-offset: 2px;
+    }
+
+    .toggle-button:disabled {
+      cursor: not-allowed;
+      opacity: 0.86;
+      text-decoration: none;
+    }
+
     .table-shell {
       display: grid;
       gap: 24px;
@@ -399,6 +468,10 @@
         grid-template-columns: 1fr;
       }
 
+      .toggle-heading {
+        display: grid;
+      }
+
       .button,
       .button-secondary {
         width: 100%;
@@ -443,11 +516,27 @@
             <input id="boardSearch" type="search" placeholder="Search applications, PartyIDs, notes">
           </div>
           <div class="field">
-            <label for="columnFilter">Column</label>
+            <label for="columnFilter">Search in</label>
             <select id="columnFilter">
               <option value="all">All columns</option>
             </select>
           </div>
+        </div>
+
+        <div class="toggle-panel" aria-label="Show or hide status tables">
+          <div class="toggle-heading">
+            <h3>Status tables</h3>
+            <p>Turn a status off to hide that table.</p>
+          </div>
+          <div class="toggle-grid" data-status-toggles></div>
+        </div>
+
+        <div class="toggle-panel" aria-label="Show or hide table columns">
+          <div class="toggle-heading">
+            <h3>Columns</h3>
+            <p>Turn columns off to simplify the tables.</p>
+          </div>
+          <div class="toggle-grid" data-column-toggles></div>
         </div>
 
         <div class="table-shell" data-table-shell>
@@ -482,6 +571,8 @@
 
       const searchInput = document.querySelector("#boardSearch");
       const columnFilter = document.querySelector("#columnFilter");
+      const statusToggles = document.querySelector("[data-status-toggles]");
+      const columnToggles = document.querySelector("[data-column-toggles]");
       const emptyState = document.querySelector("[data-empty-state]");
       const tableShell = document.querySelector("[data-table-shell]");
       const resultCount = document.querySelector("[data-result-count]");
@@ -491,6 +582,8 @@
         column: "all",
         sortKey: "name",
         sortDirection: "asc",
+        hiddenStatuses: new Set(),
+        hiddenColumns: new Set(),
       };
 
       function getCellValue(row, key) {
@@ -512,6 +605,103 @@
           option.value = column.id;
           option.textContent = column.title;
           columnFilter.appendChild(option);
+        }
+      }
+
+      function getVisibleColumns() {
+        return tableColumns.filter((column) => !state.hiddenColumns.has(column.id));
+      }
+
+      function statusForRow(row) {
+        return text(getCellValue(row, statusColumn?.id)) || "No Status";
+      }
+
+      function getAllStatuses() {
+        return [...new Set(rows.map(statusForRow))].sort(compareStatuses);
+      }
+
+      function getStatusSortNumber(status) {
+        const match = text(status).match(/^-?\d+(\.\d+)?/);
+        return match ? Number(match[0]) : null;
+      }
+
+      function compareStatuses(a, b) {
+        const aNumber = getStatusSortNumber(a);
+        const bNumber = getStatusSortNumber(b);
+
+        if (aNumber !== null && bNumber !== null && aNumber !== bNumber) {
+          return aNumber - bNumber;
+        }
+
+        if (aNumber !== null && bNumber === null) {
+          return -1;
+        }
+
+        if (aNumber === null && bNumber !== null) {
+          return 1;
+        }
+
+        return text(a).localeCompare(text(b), undefined, { numeric: true, sensitivity: "base" });
+      }
+
+      function createToggleButton(label, pressed, onClick) {
+        const button = document.createElement("button");
+        button.className = "toggle-button";
+        button.type = "button";
+        button.setAttribute("aria-pressed", String(pressed));
+        button.textContent = label;
+        button.addEventListener("click", onClick);
+        return button;
+      }
+
+      function renderStatusToggles() {
+        statusToggles.innerHTML = "";
+        for (const status of getAllStatuses()) {
+          const isShown = !state.hiddenStatuses.has(status);
+          const button = createToggleButton(status, isShown, () => {
+            if (state.hiddenStatuses.has(status)) {
+              state.hiddenStatuses.delete(status);
+            } else {
+              state.hiddenStatuses.add(status);
+            }
+            renderStatusToggles();
+            render();
+          });
+          statusToggles.appendChild(button);
+        }
+      }
+
+      function renderColumnToggles() {
+        columnToggles.innerHTML = "";
+        for (const column of tableColumns) {
+          const isLocked = column.id === "name";
+          const isShown = !state.hiddenColumns.has(column.id);
+          const button = createToggleButton(column.title, isShown, () => {
+            if (isLocked) {
+              return;
+            }
+
+            if (state.hiddenColumns.has(column.id)) {
+              state.hiddenColumns.delete(column.id);
+            } else {
+              state.hiddenColumns.add(column.id);
+            }
+
+            if (state.hiddenColumns.has(state.sortKey)) {
+              state.sortKey = "name";
+              state.sortDirection = "asc";
+            }
+
+            renderColumnToggles();
+            render();
+          });
+
+          if (isLocked) {
+            button.disabled = true;
+            button.title = "Application stays visible so each row remains identifiable.";
+          }
+
+          columnToggles.appendChild(button);
         }
       }
 
@@ -542,7 +732,7 @@
 
       function createHeaderRow() {
         const row = document.createElement("tr");
-        for (const column of tableColumns) {
+        for (const column of getVisibleColumns()) {
           const th = document.createElement("th");
           const button = document.createElement("button");
           button.className = "sort-button";
@@ -596,19 +786,25 @@
       function groupRowsByStatus(visibleRows) {
         const groups = new Map();
         for (const row of visibleRows) {
-          const status = text(getCellValue(row, statusColumn?.id)) || "No Status";
+          const status = statusForRow(row);
+          if (state.hiddenStatuses.has(status)) {
+            continue;
+          }
+
           if (!groups.has(status)) {
             groups.set(status, []);
           }
           groups.get(status).push(row);
         }
-        return groups;
+
+        return [...groups.entries()].sort(([a], [b]) => compareStatuses(a, b));
       }
 
       function render() {
         const visibleRows = rows.filter(rowMatches).sort(compareRows);
         tableShell.innerHTML = "";
         const statusGroups = groupRowsByStatus(visibleRows);
+        const visibleColumns = getVisibleColumns();
 
         for (const [status, groupRows] of statusGroups) {
           const section = document.createElement("section");
@@ -629,7 +825,7 @@
           scroll.className = "table-scroll";
 
           const table = document.createElement("table");
-          table.style.minWidth = `${tableColumns.length * 220}px`;
+          table.style.minWidth = `${visibleColumns.length * 220}px`;
           const thead = document.createElement("thead");
           thead.appendChild(createHeaderRow());
           table.appendChild(thead);
@@ -639,7 +835,7 @@
           for (const row of groupRows) {
             const tr = document.createElement("tr");
 
-            for (const column of tableColumns) {
+            for (const column of visibleColumns) {
               const td = document.createElement("td");
               const value = text(getCellValue(row, column.id)) || "-";
               appendCellContent(td, value, column);
@@ -654,9 +850,10 @@
           tableShell.appendChild(section);
         }
 
-        emptyState.hidden = visibleRows.length > 0;
-        tableShell.hidden = visibleRows.length === 0;
-        resultCount.textContent = `${visibleRows.length} ${visibleRows.length === 1 ? "row" : "rows"}`;
+        const shownRowCount = statusGroups.reduce((total, [, groupRows]) => total + groupRows.length, 0);
+        emptyState.hidden = shownRowCount > 0;
+        tableShell.hidden = shownRowCount === 0;
+        resultCount.textContent = `${shownRowCount} ${shownRowCount === 1 ? "row" : "rows"}`;
 
         for (const button of document.querySelectorAll("[data-sort]")) {
           const isActive = button.dataset.sort === state.sortKey;
@@ -668,6 +865,8 @@
       }
 
       fillColumnSelect();
+      renderStatusToggles();
+      renderColumnToggles();
 
       searchInput.addEventListener("input", () => {
         state.search = lowered(searchInput.value);
