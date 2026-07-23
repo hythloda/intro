@@ -440,13 +440,13 @@
         return row.values && row.values[key];
       }
 
-      function fillSelect(select, values, allLabel) {
-        select.innerHTML = `<option value="all">${allLabel}</option>`;
-        for (const value of values) {
+      function fillColumnSelect() {
+        columnFilter.innerHTML = `<option value="all">All columns</option>`;
+        for (const column of tableColumns) {
           const option = document.createElement("option");
-          option.value = value;
-          option.textContent = value;
-          select.appendChild(option);
+          option.value = column.id;
+          option.textContent = column.title;
+          columnFilter.appendChild(option);
         }
       }
 
@@ -535,14 +535,7 @@
       }
 
       renderHeader();
-      fillSelect(columnFilter, tableColumns.map((column) => column.title), "All columns");
-
-      for (const option of columnFilter.options) {
-        const column = tableColumns.find((item) => item.title === option.value);
-        if (column) {
-          option.value = column.id;
-        }
-      }
+      fillColumnSelect();
 
       searchInput.addEventListener("input", () => {
         state.search = lowered(searchInput.value);
