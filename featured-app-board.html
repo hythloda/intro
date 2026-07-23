@@ -14,12 +14,12 @@
   <style>
     :root {
       --bg: #06014a;
-      --panel: rgba(6, 4, 30, 0.92);
-      --panel-soft: rgba(11, 8, 40, 0.82);
-      --line: rgba(127, 91, 188, 0.28);
+      --panel: rgba(5, 3, 24, 0.96);
+      --panel-soft: rgba(5, 3, 22, 0.95);
+      --line: rgba(243, 255, 151, 0.2);
       --text: #f7fbfc;
-      --muted: #d6d0e5;
-      --accent: #d5a5e3;
+      --muted: #f0edf7;
+      --accent: #f3ff97;
       --accent-strong: #f3ff97;
       --shadow: 0 24px 80px rgba(0, 0, 0, 0.35);
     }
@@ -61,7 +61,7 @@
       margin-bottom: 16px;
       padding: 8px 12px;
       border-radius: 999px;
-      background: rgba(213, 165, 227, 0.14);
+      background: rgba(243, 255, 151, 0.12);
       color: var(--accent);
       font-size: 13px;
       font-weight: 700;
@@ -134,8 +134,15 @@
     }
 
     .button-secondary {
-      border: 1px solid rgba(126, 92, 186, 0.34);
+      border: 1px solid rgba(243, 255, 151, 0.34);
       color: var(--text);
+    }
+
+    .button-secondary:hover,
+    .button-secondary:focus-visible {
+      border-color: rgba(243, 255, 151, 0.72);
+      color: var(--accent-strong);
+      outline: none;
     }
 
     .board {
@@ -143,7 +150,7 @@
       padding: 24px;
       border-radius: 22px;
       background: var(--panel-soft);
-      border: 1px solid rgba(126, 92, 186, 0.2);
+      border: 1px solid rgba(243, 255, 151, 0.16);
     }
 
     .board-header {
@@ -179,7 +186,7 @@
     }
 
     .field label {
-      color: rgba(255, 255, 255, 0.72);
+      color: rgba(255, 255, 255, 0.9);
       font-size: 13px;
       font-weight: 800;
       letter-spacing: 0.08em;
@@ -193,8 +200,8 @@
       min-height: 48px;
       padding: 0 14px;
       border-radius: 14px;
-      border: 1px solid rgba(213, 165, 227, 0.28);
-      background: rgba(3, 2, 20, 0.62);
+      border: 1px solid rgba(243, 255, 151, 0.28);
+      background: rgba(3, 2, 20, 0.82);
       color: var(--text);
       font-size: 16px;
       outline: none;
@@ -210,8 +217,8 @@
       margin-bottom: 22px;
       padding: 18px;
       border-radius: 18px;
-      background: rgba(3, 2, 20, 0.34);
-      border: 1px solid rgba(126, 92, 186, 0.2);
+      background: rgba(3, 2, 20, 0.62);
+      border: 1px solid rgba(243, 255, 151, 0.16);
     }
 
     .toggle-heading {
@@ -231,7 +238,7 @@
 
     .toggle-heading p {
       margin: 0;
-      color: rgba(255, 255, 255, 0.68);
+      color: rgba(255, 255, 255, 0.82);
       font-size: 14px;
       line-height: 1.4;
     }
@@ -258,9 +265,9 @@
     }
 
     .toggle-button[aria-pressed="false"] {
-      border-color: rgba(213, 165, 227, 0.2);
-      background: rgba(213, 165, 227, 0.06);
-      color: rgba(255, 255, 255, 0.46);
+      border-color: rgba(255, 255, 255, 0.22);
+      background: rgba(255, 255, 255, 0.07);
+      color: rgba(255, 255, 255, 0.74);
       text-decoration: line-through;
     }
 
@@ -331,8 +338,8 @@
       overflow: auto;
       padding: 12px;
       border-radius: 18px;
-      border: 1px solid rgba(126, 92, 186, 0.28);
-      background: rgba(8, 6, 43, 0.98);
+      border: 1px solid rgba(243, 255, 151, 0.24);
+      background: rgba(5, 3, 28, 0.99);
       box-shadow: 0 22px 54px rgba(0, 0, 0, 0.34);
     }
 
@@ -342,7 +349,7 @@
       gap: 10px;
       padding: 10px 8px;
       border-radius: 12px;
-      color: var(--muted);
+      color: var(--text);
       font-size: 14px;
       line-height: 1.35;
       cursor: pointer;
@@ -365,8 +372,8 @@
       min-height: 46px;
       padding: 0 14px;
       border-radius: 14px;
-      border: 1px solid rgba(126, 92, 186, 0.34);
-      background: rgba(3, 2, 20, 0.42);
+      border: 1px solid rgba(243, 255, 151, 0.34);
+      background: rgba(3, 2, 20, 0.72);
       color: var(--text);
       font-size: 14px;
       font-weight: 800;
@@ -391,8 +398,8 @@
     .status-section {
       overflow: hidden;
       border-radius: 18px;
-      border: 1px solid rgba(126, 92, 186, 0.24);
-      background: rgba(3, 2, 20, 0.24);
+      border: 1px solid rgba(243, 255, 151, 0.18);
+      background: rgba(2, 1, 17, 0.66);
     }
 
     .status-heading {
@@ -402,8 +409,8 @@
       gap: 16px;
       margin: 0;
       padding: 18px 20px;
-      background: rgba(10, 7, 50, 0.94);
-      border-bottom: 1px solid rgba(126, 92, 186, 0.24);
+      background: rgba(5, 3, 28, 0.98);
+      border-bottom: 1px solid rgba(243, 255, 151, 0.2);
       color: var(--text);
       font-size: 22px;
       line-height: 1.2;
@@ -446,13 +453,13 @@
     table {
       table-layout: fixed;
       border-collapse: collapse;
-      background: rgba(3, 2, 20, 0.46);
+      background: rgba(2, 1, 15, 0.92);
     }
 
     th,
     td {
       padding: 16px;
-      border-bottom: 1px solid rgba(126, 92, 186, 0.2);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.14);
       text-align: left;
       vertical-align: top;
       width: 260px;
@@ -460,9 +467,10 @@
     }
 
     th {
-      background: rgba(10, 7, 50, 0.94);
-      color: rgba(255, 255, 255, 0.84);
-      font-size: 14px;
+      background: #080329;
+      color: #ffffff;
+      font-size: 15px;
+      line-height: 1.32;
       letter-spacing: 0.01em;
       text-transform: none;
       white-space: normal;
@@ -470,9 +478,9 @@
     }
 
     td {
-      color: var(--muted);
-      font-size: 16px;
-      line-height: 1.5;
+      color: #f4f2fb;
+      font-size: 17px;
+      line-height: 1.58;
       overflow: hidden;
     }
 
@@ -481,7 +489,7 @@
     }
 
     tbody tr:hover td {
-      background: rgba(255, 255, 255, 0.035);
+      background: rgba(243, 255, 151, 0.065);
     }
 
     .sort-button {
@@ -521,20 +529,21 @@
       align-items: center;
       padding: 6px 10px;
       border-radius: 999px;
-      background: rgba(213, 165, 227, 0.14);
-      color: var(--accent);
+      background: rgba(243, 255, 151, 0.16);
+      border: 1px solid rgba(243, 255, 151, 0.28);
+      color: var(--accent-strong);
       font-size: 13px;
       font-weight: 800;
       white-space: nowrap;
     }
 
     .cell-details {
-      color: var(--muted);
+      color: #f4f2fb;
     }
 
     .cell-details summary {
       cursor: pointer;
-      color: var(--muted);
+      color: #f4f2fb;
       list-style: none;
     }
 
@@ -556,7 +565,7 @@
     .cell-details-full {
       margin-top: 10px;
       padding-top: 10px;
-      border-top: 1px solid rgba(126, 92, 186, 0.22);
+      border-top: 1px solid rgba(243, 255, 151, 0.22);
       color: var(--text);
       white-space: pre-wrap;
       overflow-wrap: anywhere;
