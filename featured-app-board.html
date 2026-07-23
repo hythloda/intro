@@ -206,15 +206,47 @@
     }
 
     .table-shell {
-      overflow-x: auto;
+      display: grid;
+      gap: 24px;
+    }
+
+    .status-section {
+      overflow: hidden;
       border-radius: 18px;
       border: 1px solid rgba(126, 92, 186, 0.24);
+      background: rgba(3, 2, 20, 0.24);
+    }
+
+    .status-heading {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      margin: 0;
+      padding: 18px 20px;
+      background: rgba(10, 7, 50, 0.94);
+      border-bottom: 1px solid rgba(126, 92, 186, 0.24);
+      color: var(--text);
+      font-size: 22px;
+      line-height: 1.2;
+    }
+
+    .status-count {
+      flex-shrink: 0;
+      color: var(--accent-strong);
+      font-size: 13px;
+      font-weight: 800;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    .table-scroll {
+      overflow-x: auto;
     }
 
     table {
-      width: 100%;
+      table-layout: fixed;
       border-collapse: collapse;
-      min-width: 880px;
       background: rgba(3, 2, 20, 0.46);
     }
 
@@ -224,6 +256,8 @@
       border-bottom: 1px solid rgba(126, 92, 186, 0.2);
       text-align: left;
       vertical-align: top;
+      width: 220px;
+      max-width: 220px;
     }
 
     th {
@@ -239,6 +273,7 @@
       color: var(--muted);
       font-size: 16px;
       line-height: 1.5;
+      overflow: hidden;
     }
 
     tbody tr:last-child td {
@@ -288,6 +323,40 @@
       font-size: 13px;
       font-weight: 800;
       white-space: nowrap;
+    }
+
+    .cell-details {
+      color: var(--muted);
+    }
+
+    .cell-details summary {
+      cursor: pointer;
+      color: var(--muted);
+      list-style: none;
+    }
+
+    .cell-details summary::-webkit-details-marker {
+      display: none;
+    }
+
+    .cell-details summary::after {
+      content: " open";
+      color: var(--accent-strong);
+      font-size: 13px;
+      font-weight: 800;
+    }
+
+    .cell-details[open] summary::after {
+      content: " close";
+    }
+
+    .cell-details-full {
+      margin-top: 10px;
+      padding-top: 10px;
+      border-top: 1px solid rgba(126, 92, 186, 0.22);
+      color: var(--text);
+      white-space: pre-wrap;
+      overflow-wrap: anywhere;
     }
 
     .empty-state {
@@ -345,9 +414,8 @@
       <div class="eyebrow">Featured Applications</div>
       <h1>Featured App public board.</h1>
       <p>
-        This page is a public-facing tracker for Featured App requests that are ready to be shown
-        on the intro site. Use the controls below to search by application, PartyID hint, category,
-        stage, or notes, and click any column heading to sort.
+        The apps below have submitted a Featured App request on the Canton Network through the
+        <a href="https://canton.foundation/featured-app-request/" target="_blank" rel="noopener">Featured App request form</a>.
       </p>
 
       <div class="actions">
@@ -383,12 +451,6 @@
         </div>
 
         <div class="table-shell" data-table-shell>
-          <table>
-            <thead>
-              <tr data-board-head-row></tr>
-            </thead>
-            <tbody data-board-body></tbody>
-          </table>
         </div>
 
         <div class="empty-state" data-empty-state hidden>
@@ -404,7 +466,15 @@
       const boardData = window.FEATURED_APP_BOARD_DATA || {};
       const columns = Array.isArray(boardData.columns) ? boardData.columns : [];
       const rows = Array.isArray(boardData.rows) ? boardData.rows : [];
+      const text = (value) => String(value || "").trim();
+      const lowered = (value) => text(value).toLowerCase();
+      const statusColumn = columns.find((column) => lowered(column.title) === "status");
       const tableColumns = [
+        { id: "name", title: "Application", type: "item" },
+        ...columns.filter((column) => column.id !== statusColumn?.id),
+        { id: "updatedAt", title: "Updated", type: "date" },
+      ];
+      const searchableColumns = [
         { id: "name", title: "Application", type: "item" },
         ...columns,
         { id: "updatedAt", title: "Updated", type: "date" },
@@ -412,8 +482,6 @@
 
       const searchInput = document.querySelector("#boardSearch");
       const columnFilter = document.querySelector("#columnFilter");
-      const headRow = document.querySelector("[data-board-head-row]");
-      const body = document.querySelector("[data-board-body]");
       const emptyState = document.querySelector("[data-empty-state]");
       const tableShell = document.querySelector("[data-table-shell]");
       const resultCount = document.querySelector("[data-result-count]");
@@ -424,9 +492,6 @@
         sortKey: "name",
         sortDirection: "asc",
       };
-
-      const text = (value) => String(value || "").trim();
-      const lowered = (value) => text(value).toLowerCase();
 
       function getCellValue(row, key) {
         if (key === "name") {
@@ -442,7 +507,7 @@
 
       function fillColumnSelect() {
         columnFilter.innerHTML = `<option value="all">All columns</option>`;
-        for (const column of tableColumns) {
+        for (const column of searchableColumns) {
           const option = document.createElement("option");
           option.value = column.id;
           option.textContent = column.title;
@@ -451,10 +516,10 @@
       }
 
       function rowMatches(row) {
-        const searchableColumns = state.column === "all"
-          ? tableColumns
-          : tableColumns.filter((column) => column.id === state.column);
-        const haystack = searchableColumns
+        const activeSearchColumns = state.column === "all"
+          ? searchableColumns
+          : searchableColumns.filter((column) => column.id === state.column);
+        const haystack = activeSearchColumns
           .map((column) => lowered(getCellValue(row, column.id)))
           .join(" ");
 
@@ -475,8 +540,8 @@
         return state.sortDirection === "asc" ? result : -result;
       }
 
-      function renderHeader() {
-        headRow.innerHTML = "";
+      function createHeaderRow() {
+        const row = document.createElement("tr");
         for (const column of tableColumns) {
           const th = document.createElement("th");
           const button = document.createElement("button");
@@ -494,31 +559,99 @@
             render();
           });
           th.appendChild(button);
-          headRow.appendChild(th);
+          row.appendChild(th);
         }
+        return row;
+      }
+
+      function appendCellContent(td, value, column) {
+        if (column.type === "status") {
+          const status = document.createElement("span");
+          status.className = "status";
+          status.textContent = value;
+          td.appendChild(status);
+          return;
+        }
+
+        if (value.length <= 140) {
+          td.textContent = value;
+          return;
+        }
+
+        const details = document.createElement("details");
+        details.className = "cell-details";
+
+        const summary = document.createElement("summary");
+        summary.textContent = `${value.slice(0, 120).trim()}...`;
+
+        const full = document.createElement("div");
+        full.className = "cell-details-full";
+        full.textContent = value;
+
+        details.appendChild(summary);
+        details.appendChild(full);
+        td.appendChild(details);
+      }
+
+      function groupRowsByStatus(visibleRows) {
+        const groups = new Map();
+        for (const row of visibleRows) {
+          const status = text(getCellValue(row, statusColumn?.id)) || "No Status";
+          if (!groups.has(status)) {
+            groups.set(status, []);
+          }
+          groups.get(status).push(row);
+        }
+        return groups;
       }
 
       function render() {
         const visibleRows = rows.filter(rowMatches).sort(compareRows);
-        body.innerHTML = "";
+        tableShell.innerHTML = "";
+        const statusGroups = groupRowsByStatus(visibleRows);
 
-        for (const row of visibleRows) {
-          const tr = document.createElement("tr");
+        for (const [status, groupRows] of statusGroups) {
+          const section = document.createElement("section");
+          section.className = "status-section";
 
-          for (const column of tableColumns) {
-            const td = document.createElement("td");
-            const value = text(getCellValue(row, column.id)) || "-";
-            if (column.type === "status") {
-              const status = document.createElement("span");
-              status.className = "status";
-              status.textContent = value;
-              td.appendChild(status);
-            } else {
-              td.textContent = value;
+          const heading = document.createElement("h3");
+          heading.className = "status-heading";
+          const headingText = document.createElement("span");
+          headingText.textContent = status;
+          const count = document.createElement("span");
+          count.className = "status-count";
+          count.textContent = `${groupRows.length} ${groupRows.length === 1 ? "app" : "apps"}`;
+          heading.appendChild(headingText);
+          heading.appendChild(count);
+          section.appendChild(heading);
+
+          const scroll = document.createElement("div");
+          scroll.className = "table-scroll";
+
+          const table = document.createElement("table");
+          table.style.minWidth = `${tableColumns.length * 220}px`;
+          const thead = document.createElement("thead");
+          thead.appendChild(createHeaderRow());
+          table.appendChild(thead);
+
+          const tbody = document.createElement("tbody");
+
+          for (const row of groupRows) {
+            const tr = document.createElement("tr");
+
+            for (const column of tableColumns) {
+              const td = document.createElement("td");
+              const value = text(getCellValue(row, column.id)) || "-";
+              appendCellContent(td, value, column);
+              tr.appendChild(td);
             }
-            tr.appendChild(td);
+            tbody.appendChild(tr);
           }
-          body.appendChild(tr);
+
+          table.appendChild(tbody);
+          scroll.appendChild(table);
+          section.appendChild(scroll);
+          tableShell.appendChild(section);
         }
 
         emptyState.hidden = visibleRows.length > 0;
@@ -534,7 +667,6 @@
         }
       }
 
-      renderHeader();
       fillColumnSelect();
 
       searchInput.addEventListener("input", () => {
