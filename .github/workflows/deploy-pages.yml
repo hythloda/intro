@@ -10,6 +10,7 @@ on:
       - Sync Featured App Coupon Guidance
       - Sync Featured App Locking FAQ
       - Sync Featured App Board
+      - Sync Featured App PartyID Changes
       - Sync SV Milestone Framework
     types:
       - completed
