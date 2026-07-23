@@ -1,0 +1,563 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/site-chrome.css">
+  <script src="assets/site-chrome.js" defer></script>
+  <script src="assets/featured-app-board-data.js" defer></script>
+  <title>Featured App Board | Canton Network</title>
+
+  <style>
+    :root {
+      --bg: #06014a;
+      --panel: rgba(6, 4, 30, 0.92);
+      --panel-soft: rgba(11, 8, 40, 0.82);
+      --line: rgba(127, 91, 188, 0.28);
+      --text: #f7fbfc;
+      --muted: #d6d0e5;
+      --accent: #d5a5e3;
+      --accent-strong: #f3ff97;
+      --shadow: 0 24px 80px rgba(0, 0, 0, 0.35);
+    }
+
+    html,
+    body {
+      margin: 0;
+      min-height: 100%;
+      background:
+        radial-gradient(circle at 78% 18%, rgba(129, 84, 120, 0.42), transparent 26%),
+        radial-gradient(circle at 18% 80%, rgba(63, 21, 172, 0.18), transparent 34%),
+        linear-gradient(180deg, #05014a 0%, #14045a 54%, #090221 100%);
+      color: var(--text);
+      font-family: "IBM Plex Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
+
+    body {
+      padding: 32px 18px 48px;
+      box-sizing: border-box;
+    }
+
+    .wrap {
+      max-width: 1180px;
+      margin: 0 auto;
+    }
+
+    .panel {
+      padding: 48px;
+      border-radius: 28px;
+      background: var(--panel);
+      border: 1px solid var(--line);
+      box-shadow: var(--shadow);
+      backdrop-filter: blur(10px);
+    }
+
+    .eyebrow {
+      display: inline-block;
+      margin-bottom: 16px;
+      padding: 8px 12px;
+      border-radius: 999px;
+      background: rgba(213, 165, 227, 0.14);
+      color: var(--accent);
+      font-size: 13px;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      margin: 0 0 16px;
+      max-width: 780px;
+      font-size: 42px;
+      line-height: 1.05;
+      letter-spacing: -0.03em;
+    }
+
+    h2 {
+      margin: 0 0 14px;
+      font-size: 28px;
+      line-height: 1.15;
+    }
+
+    p,
+    li,
+    label,
+    input,
+    select,
+    button,
+    td {
+      font-family: inherit;
+    }
+
+    p,
+    li {
+      color: var(--muted);
+      font-size: 18px;
+      line-height: 1.65;
+    }
+
+    p {
+      margin: 0 0 18px;
+      max-width: 860px;
+    }
+
+    a {
+      color: var(--accent-strong);
+    }
+
+    .actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 14px;
+      margin-top: 28px;
+    }
+
+    .button,
+    .button-secondary {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 48px;
+      padding: 0 18px;
+      border-radius: 14px;
+      font-weight: 800;
+      text-decoration: none;
+    }
+
+    .button {
+      background: var(--accent-strong);
+      color: #162118;
+    }
+
+    .button-secondary {
+      border: 1px solid rgba(126, 92, 186, 0.34);
+      color: var(--text);
+    }
+
+    .board {
+      margin-top: 34px;
+      padding: 24px;
+      border-radius: 22px;
+      background: var(--panel-soft);
+      border: 1px solid rgba(126, 92, 186, 0.2);
+    }
+
+    .board-header {
+      display: flex;
+      align-items: flex-end;
+      justify-content: space-between;
+      gap: 18px;
+      margin-bottom: 22px;
+    }
+
+    .count-pill {
+      flex-shrink: 0;
+      padding: 8px 12px;
+      border-radius: 999px;
+      background: rgba(243, 255, 151, 0.12);
+      color: var(--accent-strong);
+      font-size: 13px;
+      font-weight: 800;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    .controls {
+      display: grid;
+      grid-template-columns: minmax(220px, 1fr) minmax(180px, 240px) minmax(180px, 240px);
+      gap: 14px;
+      margin-bottom: 22px;
+    }
+
+    .field {
+      display: grid;
+      gap: 8px;
+    }
+
+    .field label {
+      color: rgba(255, 255, 255, 0.72);
+      font-size: 13px;
+      font-weight: 800;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    .field input,
+    .field select {
+      width: 100%;
+      box-sizing: border-box;
+      min-height: 48px;
+      padding: 0 14px;
+      border-radius: 14px;
+      border: 1px solid rgba(213, 165, 227, 0.28);
+      background: rgba(3, 2, 20, 0.62);
+      color: var(--text);
+      font-size: 16px;
+      outline: none;
+    }
+
+    .field input:focus,
+    .field select:focus {
+      border-color: rgba(243, 255, 151, 0.72);
+      box-shadow: 0 0 0 3px rgba(243, 255, 151, 0.1);
+    }
+
+    .table-shell {
+      overflow-x: auto;
+      border-radius: 18px;
+      border: 1px solid rgba(126, 92, 186, 0.24);
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      min-width: 880px;
+      background: rgba(3, 2, 20, 0.46);
+    }
+
+    th,
+    td {
+      padding: 16px;
+      border-bottom: 1px solid rgba(126, 92, 186, 0.2);
+      text-align: left;
+      vertical-align: top;
+    }
+
+    th {
+      background: rgba(10, 7, 50, 0.94);
+      color: rgba(255, 255, 255, 0.84);
+      font-size: 13px;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      white-space: nowrap;
+    }
+
+    td {
+      color: var(--muted);
+      font-size: 16px;
+      line-height: 1.5;
+    }
+
+    tbody tr:last-child td {
+      border-bottom: 0;
+    }
+
+    tbody tr:hover td {
+      background: rgba(255, 255, 255, 0.035);
+    }
+
+    .sort-button {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 0;
+      border: 0;
+      background: transparent;
+      color: inherit;
+      font-size: inherit;
+      font-weight: 800;
+      letter-spacing: inherit;
+      text-transform: inherit;
+      cursor: pointer;
+    }
+
+    .sort-button::after {
+      content: "+";
+      color: rgba(243, 255, 151, 0.7);
+      font-size: 14px;
+    }
+
+    .sort-button[aria-sort="ascending"]::after {
+      content: "^";
+    }
+
+    .sort-button[aria-sort="descending"]::after {
+      content: "v";
+    }
+
+    .status {
+      display: inline-flex;
+      align-items: center;
+      padding: 6px 10px;
+      border-radius: 999px;
+      background: rgba(213, 165, 227, 0.14);
+      color: var(--accent);
+      font-size: 13px;
+      font-weight: 800;
+      white-space: nowrap;
+    }
+
+    .empty-state {
+      padding: 28px;
+      border-radius: 18px;
+      background: rgba(243, 255, 151, 0.08);
+      border: 1px solid rgba(243, 255, 151, 0.18);
+    }
+
+    .empty-state p {
+      margin: 0;
+    }
+
+    @media (max-width: 780px) {
+      .panel {
+        padding: 28px 22px;
+        border-radius: 22px;
+      }
+
+      h1 {
+        font-size: 32px;
+      }
+
+      h2 {
+        font-size: 24px;
+      }
+
+      p,
+      li {
+        font-size: 16px;
+      }
+
+      .actions,
+      .board-header {
+        flex-direction: column;
+        align-items: stretch;
+      }
+
+      .controls {
+        grid-template-columns: 1fr;
+      }
+
+      .button,
+      .button-secondary {
+        width: 100%;
+        box-sizing: border-box;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div data-site-header></div>
+  <main class="wrap">
+    <section class="panel">
+      <div class="eyebrow">Featured Applications</div>
+      <h1>Featured App public board.</h1>
+      <p>
+        This page is a public-facing tracker for Featured App requests that are ready to be shown
+        on the intro site. Use the controls below to search by application, PartyID hint, category,
+        stage, or notes, and click any column heading to sort.
+      </p>
+
+      <div class="actions">
+        <a class="button" href="https://canton.foundation/featured-app-request/" target="_blank" rel="noopener">
+          Submit Featured App Request
+        </a>
+        <a class="button-secondary" href="featured-applications.html">Back to Featured Applications</a>
+        <a class="button-secondary" href="index.html">Back to Main Page</a>
+      </div>
+
+      <div class="board">
+        <div class="board-header">
+          <div>
+            <h2>Featured App review tracker</h2>
+            <p>
+              Rows shown here should include only information approved for public visibility.
+            </p>
+          </div>
+          <div class="count-pill" data-result-count>0 rows</div>
+        </div>
+
+        <div class="controls" aria-label="Featured App board controls">
+          <div class="field">
+            <label for="boardSearch">Search</label>
+            <input id="boardSearch" type="search" placeholder="Search applications, PartyIDs, notes">
+          </div>
+          <div class="field">
+            <label for="stageFilter">Stage</label>
+            <select id="stageFilter">
+              <option value="all">All stages</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="categoryFilter">Category</label>
+            <select id="categoryFilter">
+              <option value="all">All categories</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="table-shell" data-table-shell>
+          <table>
+            <thead>
+              <tr>
+                <th><button class="sort-button" type="button" data-sort="application">Application</button></th>
+                <th><button class="sort-button" type="button" data-sort="partyIdHint">PartyID Hint</button></th>
+                <th><button class="sort-button" type="button" data-sort="category">Category</button></th>
+                <th><button class="sort-button" type="button" data-sort="stage">Stage</button></th>
+                <th><button class="sort-button" type="button" data-sort="updated">Updated</button></th>
+                <th><button class="sort-button" type="button" data-sort="notes">Notes</button></th>
+              </tr>
+            </thead>
+            <tbody data-board-body></tbody>
+          </table>
+        </div>
+
+        <div class="empty-state" data-empty-state hidden>
+          <p>No public rows match the current filters.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+  <div data-site-footer></div>
+
+  <script>
+    window.addEventListener("DOMContentLoaded", () => {
+      const rows = Array.isArray(window.FEATURED_APP_BOARD_DATA)
+        ? window.FEATURED_APP_BOARD_DATA
+        : [];
+
+      const searchInput = document.querySelector("#boardSearch");
+      const stageFilter = document.querySelector("#stageFilter");
+      const categoryFilter = document.querySelector("#categoryFilter");
+      const body = document.querySelector("[data-board-body]");
+      const emptyState = document.querySelector("[data-empty-state]");
+      const tableShell = document.querySelector("[data-table-shell]");
+      const resultCount = document.querySelector("[data-result-count]");
+      const sortButtons = [...document.querySelectorAll("[data-sort]")];
+
+      const state = {
+        search: "",
+        stage: "all",
+        category: "all",
+        sortKey: "application",
+        sortDirection: "asc",
+      };
+
+      const text = (value) => String(value || "").trim();
+      const lowered = (value) => text(value).toLowerCase();
+
+      function uniqueValues(key) {
+        return [...new Set(rows.map((row) => text(row[key])).filter(Boolean))]
+          .sort((a, b) => a.localeCompare(b));
+      }
+
+      function fillSelect(select, values, allLabel) {
+        select.innerHTML = `<option value="all">${allLabel}</option>`;
+        for (const value of values) {
+          const option = document.createElement("option");
+          option.value = value;
+          option.textContent = value;
+          select.appendChild(option);
+        }
+      }
+
+      function rowMatches(row) {
+        const haystack = [
+          row.application,
+          row.partyIdHint,
+          row.category,
+          row.stage,
+          row.updated,
+          row.notes,
+        ].map(lowered).join(" ");
+
+        return (!state.search || haystack.includes(state.search))
+          && (state.stage === "all" || text(row.stage) === state.stage)
+          && (state.category === "all" || text(row.category) === state.category);
+      }
+
+      function compareRows(a, b) {
+        const key = state.sortKey;
+        const first = text(a[key]);
+        const second = text(b[key]);
+        const firstDate = Date.parse(first);
+        const secondDate = Date.parse(second);
+        const bothDates = !Number.isNaN(firstDate) && !Number.isNaN(secondDate);
+        const result = bothDates
+          ? firstDate - secondDate
+          : first.localeCompare(second, undefined, { numeric: true, sensitivity: "base" });
+
+        return state.sortDirection === "asc" ? result : -result;
+      }
+
+      function render() {
+        const visibleRows = rows.filter(rowMatches).sort(compareRows);
+        body.innerHTML = "";
+
+        for (const row of visibleRows) {
+          const tr = document.createElement("tr");
+          const cells = [
+            text(row.application) || "Not published",
+            text(row.partyIdHint) || "-",
+            text(row.category) || "-",
+            text(row.stage) || "Not published",
+            text(row.updated) || "-",
+            text(row.notes) || "-",
+          ];
+
+          cells.forEach((value, index) => {
+            const td = document.createElement("td");
+            if (index === 3) {
+              const status = document.createElement("span");
+              status.className = "status";
+              status.textContent = value;
+              td.appendChild(status);
+            } else {
+              td.textContent = value;
+            }
+            tr.appendChild(td);
+          });
+          body.appendChild(tr);
+        }
+
+        emptyState.hidden = visibleRows.length > 0;
+        tableShell.hidden = visibleRows.length === 0;
+        resultCount.textContent = `${visibleRows.length} ${visibleRows.length === 1 ? "row" : "rows"}`;
+
+        for (const button of sortButtons) {
+          const isActive = button.dataset.sort === state.sortKey;
+          button.setAttribute(
+            "aria-sort",
+            isActive ? (state.sortDirection === "asc" ? "ascending" : "descending") : "none"
+          );
+        }
+      }
+
+      fillSelect(stageFilter, uniqueValues("stage"), "All stages");
+      fillSelect(categoryFilter, uniqueValues("category"), "All categories");
+
+      searchInput.addEventListener("input", () => {
+        state.search = lowered(searchInput.value);
+        render();
+      });
+
+      stageFilter.addEventListener("change", () => {
+        state.stage = stageFilter.value;
+        render();
+      });
+
+      categoryFilter.addEventListener("change", () => {
+        state.category = categoryFilter.value;
+        render();
+      });
+
+      for (const button of sortButtons) {
+        button.addEventListener("click", () => {
+          const nextKey = button.dataset.sort;
+          if (state.sortKey === nextKey) {
+            state.sortDirection = state.sortDirection === "asc" ? "desc" : "asc";
+          } else {
+            state.sortKey = nextKey;
+            state.sortDirection = "asc";
+          }
+          render();
+        });
+      }
+
+      render();
+    });
+  </script>
+</body>
+</html>

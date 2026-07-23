@@ -22,6 +22,7 @@ const headerHtml = `
                     <div class="site-submenu">
                       <ul class="site-submenu-list">
                         <li><a href="featured-applications.html">Featured Apps</a></li>
+                        <li><a href="featured-app-board.html">Featured App Board</a></li>
                         <li><a href="validator.html">Validators</a></li>
                         <li><a href="super-validator.html">Super Validators</a></li>
                         <li><a href="https://members.canton.foundation/" target="_blank" rel="noopener">Members</a></li>
@@ -76,6 +77,7 @@ const headerHtml = `
                   <summary class="site-mobile-summary">Ecosystem</summary>
                   <ul class="site-mobile-submenu">
                     <li><a href="featured-applications.html">Featured Apps</a></li>
+                    <li><a href="featured-app-board.html">Featured App Board</a></li>
                     <li><a href="validator.html">Validators</a></li>
                     <li><a href="super-validator.html">Super Validators</a></li>
                     <li><a href="https://members.canton.foundation/" target="_blank" rel="noopener">Members</a></li>
@@ -134,6 +136,7 @@ const footerHtml = `
             <h4 class="site-footer-title">Ecosystem</h4>
             <ul class="site-footer-list">
               <li><a href="featured-applications.html">Featured Apps</a></li>
+              <li><a href="featured-app-board.html">Featured App Board</a></li>
               <li><a href="validator.html">Validators</a></li>
               <li><a href="super-validator.html">Super Validators</a></li>
               <li><a href="https://members.canton.foundation/" target="_blank" rel="noopener">Members</a></li>
