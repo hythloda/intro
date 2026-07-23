@@ -167,7 +167,7 @@
 
     .controls {
       display: grid;
-      grid-template-columns: minmax(220px, 1fr) minmax(180px, 240px) minmax(180px, 240px);
+      grid-template-columns: minmax(220px, 1fr) minmax(180px, 240px);
       gap: 14px;
       margin-bottom: 22px;
     }
@@ -375,15 +375,9 @@
             <input id="boardSearch" type="search" placeholder="Search applications, PartyIDs, notes">
           </div>
           <div class="field">
-            <label for="stageFilter">Stage</label>
-            <select id="stageFilter">
-              <option value="all">All stages</option>
-            </select>
-          </div>
-          <div class="field">
-            <label for="categoryFilter">Category</label>
-            <select id="categoryFilter">
-              <option value="all">All categories</option>
+            <label for="columnFilter">Column</label>
+            <select id="columnFilter">
+              <option value="all">All columns</option>
             </select>
           </div>
         </div>
@@ -391,14 +385,7 @@
         <div class="table-shell" data-table-shell>
           <table>
             <thead>
-              <tr>
-                <th><button class="sort-button" type="button" data-sort="application">Application</button></th>
-                <th><button class="sort-button" type="button" data-sort="partyIdHint">PartyID Hint</button></th>
-                <th><button class="sort-button" type="button" data-sort="category">Category</button></th>
-                <th><button class="sort-button" type="button" data-sort="stage">Stage</button></th>
-                <th><button class="sort-button" type="button" data-sort="updated">Updated</button></th>
-                <th><button class="sort-button" type="button" data-sort="notes">Notes</button></th>
-              </tr>
+              <tr data-board-head-row></tr>
             </thead>
             <tbody data-board-body></tbody>
           </table>
@@ -414,33 +401,43 @@
 
   <script>
     window.addEventListener("DOMContentLoaded", () => {
-      const rows = Array.isArray(window.FEATURED_APP_BOARD_DATA)
-        ? window.FEATURED_APP_BOARD_DATA
-        : [];
+      const boardData = window.FEATURED_APP_BOARD_DATA || {};
+      const columns = Array.isArray(boardData.columns) ? boardData.columns : [];
+      const rows = Array.isArray(boardData.rows) ? boardData.rows : [];
+      const tableColumns = [
+        { id: "name", title: "Application", type: "item" },
+        ...columns,
+        { id: "updatedAt", title: "Updated", type: "date" },
+      ];
 
       const searchInput = document.querySelector("#boardSearch");
-      const stageFilter = document.querySelector("#stageFilter");
-      const categoryFilter = document.querySelector("#categoryFilter");
+      const columnFilter = document.querySelector("#columnFilter");
+      const headRow = document.querySelector("[data-board-head-row]");
       const body = document.querySelector("[data-board-body]");
       const emptyState = document.querySelector("[data-empty-state]");
       const tableShell = document.querySelector("[data-table-shell]");
       const resultCount = document.querySelector("[data-result-count]");
-      const sortButtons = [...document.querySelectorAll("[data-sort]")];
 
       const state = {
         search: "",
-        stage: "all",
-        category: "all",
-        sortKey: "application",
+        column: "all",
+        sortKey: "name",
         sortDirection: "asc",
       };
 
       const text = (value) => String(value || "").trim();
       const lowered = (value) => text(value).toLowerCase();
 
-      function uniqueValues(key) {
-        return [...new Set(rows.map((row) => text(row[key])).filter(Boolean))]
-          .sort((a, b) => a.localeCompare(b));
+      function getCellValue(row, key) {
+        if (key === "name") {
+          return row.name;
+        }
+
+        if (key === "updatedAt") {
+          return row.updatedAt;
+        }
+
+        return row.values && row.values[key];
       }
 
       function fillSelect(select, values, allLabel) {
@@ -454,24 +451,20 @@
       }
 
       function rowMatches(row) {
-        const haystack = [
-          row.application,
-          row.partyIdHint,
-          row.category,
-          row.stage,
-          row.updated,
-          row.notes,
-        ].map(lowered).join(" ");
+        const searchableColumns = state.column === "all"
+          ? tableColumns
+          : tableColumns.filter((column) => column.id === state.column);
+        const haystack = searchableColumns
+          .map((column) => lowered(getCellValue(row, column.id)))
+          .join(" ");
 
-        return (!state.search || haystack.includes(state.search))
-          && (state.stage === "all" || text(row.stage) === state.stage)
-          && (state.category === "all" || text(row.category) === state.category);
+        return !state.search || haystack.includes(state.search);
       }
 
       function compareRows(a, b) {
         const key = state.sortKey;
-        const first = text(a[key]);
-        const second = text(b[key]);
+        const first = text(getCellValue(a, key));
+        const second = text(getCellValue(b, key));
         const firstDate = Date.parse(first);
         const secondDate = Date.parse(second);
         const bothDates = !Number.isNaN(firstDate) && !Number.isNaN(secondDate);
@@ -482,24 +475,40 @@
         return state.sortDirection === "asc" ? result : -result;
       }
 
+      function renderHeader() {
+        headRow.innerHTML = "";
+        for (const column of tableColumns) {
+          const th = document.createElement("th");
+          const button = document.createElement("button");
+          button.className = "sort-button";
+          button.type = "button";
+          button.dataset.sort = column.id;
+          button.textContent = column.title;
+          button.addEventListener("click", () => {
+            if (state.sortKey === column.id) {
+              state.sortDirection = state.sortDirection === "asc" ? "desc" : "asc";
+            } else {
+              state.sortKey = column.id;
+              state.sortDirection = "asc";
+            }
+            render();
+          });
+          th.appendChild(button);
+          headRow.appendChild(th);
+        }
+      }
+
       function render() {
         const visibleRows = rows.filter(rowMatches).sort(compareRows);
         body.innerHTML = "";
 
         for (const row of visibleRows) {
           const tr = document.createElement("tr");
-          const cells = [
-            text(row.application) || "Not published",
-            text(row.partyIdHint) || "-",
-            text(row.category) || "-",
-            text(row.stage) || "Not published",
-            text(row.updated) || "-",
-            text(row.notes) || "-",
-          ];
 
-          cells.forEach((value, index) => {
+          for (const column of tableColumns) {
             const td = document.createElement("td");
-            if (index === 3) {
+            const value = text(getCellValue(row, column.id)) || "-";
+            if (column.type === "status") {
               const status = document.createElement("span");
               status.className = "status";
               status.textContent = value;
@@ -508,7 +517,7 @@
               td.textContent = value;
             }
             tr.appendChild(td);
-          });
+          }
           body.appendChild(tr);
         }
 
@@ -516,7 +525,7 @@
         tableShell.hidden = visibleRows.length === 0;
         resultCount.textContent = `${visibleRows.length} ${visibleRows.length === 1 ? "row" : "rows"}`;
 
-        for (const button of sortButtons) {
+        for (const button of document.querySelectorAll("[data-sort]")) {
           const isActive = button.dataset.sort === state.sortKey;
           button.setAttribute(
             "aria-sort",
@@ -525,36 +534,25 @@
         }
       }
 
-      fillSelect(stageFilter, uniqueValues("stage"), "All stages");
-      fillSelect(categoryFilter, uniqueValues("category"), "All categories");
+      renderHeader();
+      fillSelect(columnFilter, tableColumns.map((column) => column.title), "All columns");
+
+      for (const option of columnFilter.options) {
+        const column = tableColumns.find((item) => item.title === option.value);
+        if (column) {
+          option.value = column.id;
+        }
+      }
 
       searchInput.addEventListener("input", () => {
         state.search = lowered(searchInput.value);
         render();
       });
 
-      stageFilter.addEventListener("change", () => {
-        state.stage = stageFilter.value;
+      columnFilter.addEventListener("change", () => {
+        state.column = columnFilter.value;
         render();
       });
-
-      categoryFilter.addEventListener("change", () => {
-        state.category = categoryFilter.value;
-        render();
-      });
-
-      for (const button of sortButtons) {
-        button.addEventListener("click", () => {
-          const nextKey = button.dataset.sort;
-          if (state.sortKey === nextKey) {
-            state.sortDirection = state.sortDirection === "asc" ? "desc" : "asc";
-          } else {
-            state.sortKey = nextKey;
-            state.sortDirection = "asc";
-          }
-          render();
-        });
-      }
 
       render();
     });

@@ -9,6 +9,7 @@ on:
     workflows:
       - Sync Featured App Coupon Guidance
       - Sync Featured App Locking FAQ
+      - Sync Featured App Board
       - Sync SV Milestone Framework
     types:
       - completed
