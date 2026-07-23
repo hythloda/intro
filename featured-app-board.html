@@ -42,7 +42,8 @@
     }
 
     .wrap {
-      max-width: 1180px;
+      width: min(90vw, 1800px);
+      max-width: none;
       margin: 0 auto;
     }
 
@@ -454,17 +455,18 @@
       border-bottom: 1px solid rgba(126, 92, 186, 0.2);
       text-align: left;
       vertical-align: top;
-      width: 220px;
-      max-width: 220px;
+      width: 260px;
+      max-width: 260px;
     }
 
     th {
       background: rgba(10, 7, 50, 0.94);
       color: rgba(255, 255, 255, 0.84);
-      font-size: 13px;
-      letter-spacing: 0.08em;
-      text-transform: uppercase;
-      white-space: nowrap;
+      font-size: 14px;
+      letter-spacing: 0.01em;
+      text-transform: none;
+      white-space: normal;
+      overflow-wrap: anywhere;
     }
 
     td {
@@ -495,6 +497,9 @@
       letter-spacing: inherit;
       text-transform: inherit;
       cursor: pointer;
+      text-align: left;
+      line-height: 1.25;
+      white-space: normal;
     }
 
     .sort-button::after {
@@ -1042,7 +1047,7 @@
           scroll.className = "table-scroll";
 
           const table = document.createElement("table");
-          table.style.minWidth = `${visibleColumns.length * 220}px`;
+          table.style.minWidth = `${visibleColumns.length * 260}px`;
           const thead = document.createElement("thead");
           thead.appendChild(createHeaderRow());
           table.appendChild(thead);
