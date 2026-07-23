@@ -537,6 +537,18 @@
       white-space: nowrap;
     }
 
+    .status--asset-issuer {
+      background: rgba(86, 220, 255, 0.18);
+      border-color: rgba(86, 220, 255, 0.5);
+      color: #8de9ff;
+    }
+
+    .status--non-issuer {
+      background: rgba(243, 255, 151, 0.12);
+      border-color: rgba(243, 255, 151, 0.3);
+      color: var(--accent-strong);
+    }
+
     .cell-details {
       color: #f4f2fb;
     }
@@ -942,7 +954,7 @@
       function appendCellContent(td, value, column) {
         if (column.type === "status") {
           const status = document.createElement("span");
-          status.className = "status";
+          status.className = `status ${getStatusClass(value)}`.trim();
           status.textContent = value;
           td.appendChild(status);
           return;
@@ -966,6 +978,19 @@
         details.appendChild(summary);
         details.appendChild(full);
         td.appendChild(details);
+      }
+
+      function getStatusClass(value) {
+        const normalized = lowered(value).replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+        if (normalized === "asset-issuer") {
+          return "status--asset-issuer";
+        }
+
+        if (normalized === "non-issuer" || normalized === "issuer") {
+          return "status--non-issuer";
+        }
+
+        return "";
       }
 
       function groupRowsByStatus(visibleRows) {
