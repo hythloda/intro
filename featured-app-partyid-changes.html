@@ -225,7 +225,7 @@
       <h1>Recent Featured App PartyID changes.</h1>
       <p>
         This page shows the 20 most recent changes to Featured App PartyID and locking PartyID fields.
-        It updates daily from the Featured App request board.
+        It updates daily.
       </p>
 
       <div class="actions">
@@ -271,7 +271,7 @@
         labelNode.textContent = label;
         const valueNode = document.createElement("p");
         valueNode.className = "value-text";
-        valueNode.textContent = text(value) || "-";
+        valueNode.textContent = text(value) || "Empty / removed";
         box.appendChild(labelNode);
         box.appendChild(valueNode);
         parent.appendChild(box);
