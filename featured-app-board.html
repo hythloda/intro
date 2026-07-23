@@ -274,6 +274,114 @@
       text-decoration: none;
     }
 
+    .board-tools {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: flex-start;
+      gap: 14px;
+      margin-bottom: 22px;
+    }
+
+    .column-menu {
+      position: relative;
+      min-width: min(100%, 320px);
+    }
+
+    .column-menu summary {
+      display: inline-flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 18px;
+      width: 100%;
+      min-height: 46px;
+      box-sizing: border-box;
+      padding: 0 14px;
+      border-radius: 14px;
+      border: 1px solid rgba(243, 255, 151, 0.38);
+      background: rgba(243, 255, 151, 0.12);
+      color: var(--accent-strong);
+      font-size: 14px;
+      font-weight: 800;
+      cursor: pointer;
+      list-style: none;
+    }
+
+    .column-menu summary::-webkit-details-marker {
+      display: none;
+    }
+
+    .column-menu summary::after {
+      content: "v";
+      color: var(--accent-strong);
+      font-size: 13px;
+    }
+
+    .column-menu[open] summary::after {
+      content: "^";
+    }
+
+    .column-menu-panel {
+      position: absolute;
+      top: calc(100% + 8px);
+      left: 0;
+      z-index: 50;
+      width: min(640px, calc(100vw - 56px));
+      max-height: 360px;
+      overflow: auto;
+      padding: 12px;
+      border-radius: 18px;
+      border: 1px solid rgba(126, 92, 186, 0.28);
+      background: rgba(8, 6, 43, 0.98);
+      box-shadow: 0 22px 54px rgba(0, 0, 0, 0.34);
+    }
+
+    .column-option {
+      display: flex;
+      align-items: flex-start;
+      gap: 10px;
+      padding: 10px 8px;
+      border-radius: 12px;
+      color: var(--muted);
+      font-size: 14px;
+      line-height: 1.35;
+      cursor: pointer;
+    }
+
+    .column-option:hover {
+      background: rgba(255, 255, 255, 0.06);
+    }
+
+    .column-option input {
+      margin-top: 2px;
+      accent-color: #f3ff97;
+    }
+
+    .export-button,
+    .section-export-button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 46px;
+      padding: 0 14px;
+      border-radius: 14px;
+      border: 1px solid rgba(126, 92, 186, 0.34);
+      background: rgba(3, 2, 20, 0.42);
+      color: var(--text);
+      font-size: 14px;
+      font-weight: 800;
+      text-decoration: none;
+      cursor: pointer;
+    }
+
+    .export-button:hover,
+    .export-button:focus-visible,
+    .section-export-button:hover,
+    .section-export-button:focus-visible {
+      border-color: rgba(243, 255, 151, 0.6);
+      color: var(--accent-strong);
+      outline: none;
+    }
+
     .table-shell {
       display: grid;
       gap: 24px;
@@ -300,6 +408,20 @@
       line-height: 1.2;
     }
 
+    .status-heading-main {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      min-width: 0;
+    }
+
+    .status-heading-actions {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      flex-shrink: 0;
+    }
+
     .status-count {
       flex-shrink: 0;
       color: var(--accent-strong);
@@ -307,6 +429,13 @@
       font-weight: 800;
       letter-spacing: 0.08em;
       text-transform: uppercase;
+    }
+
+    .section-export-button {
+      min-height: 36px;
+      padding: 0 10px;
+      border-radius: 999px;
+      font-size: 12px;
     }
 
     .table-scroll {
@@ -472,6 +601,30 @@
         display: grid;
       }
 
+      .board-tools {
+        display: grid;
+      }
+
+      .column-menu,
+      .export-button {
+        width: 100%;
+      }
+
+      .column-menu-panel {
+        position: static;
+        width: auto;
+        margin-top: 8px;
+      }
+
+      .status-heading {
+        align-items: flex-start;
+      }
+
+      .status-heading-actions {
+        display: grid;
+        justify-items: end;
+      }
+
       .button,
       .button-secondary {
         width: 100%;
@@ -531,12 +684,14 @@
           <div class="toggle-grid" data-status-toggles></div>
         </div>
 
-        <div class="toggle-panel" aria-label="Show or hide table columns">
-          <div class="toggle-heading">
-            <h3>Columns</h3>
-            <p>Turn columns off to simplify the tables.</p>
-          </div>
-          <div class="toggle-grid" data-column-toggles></div>
+        <div class="board-tools">
+          <details class="column-menu" data-column-menu>
+            <summary data-column-menu-label>Columns</summary>
+            <div class="column-menu-panel" data-column-toggles></div>
+          </details>
+          <button class="export-button" type="button" data-export-visible>
+            Export visible rows to CSV
+          </button>
         </div>
 
         <div class="table-shell" data-table-shell>
@@ -572,7 +727,10 @@
       const searchInput = document.querySelector("#boardSearch");
       const columnFilter = document.querySelector("#columnFilter");
       const statusToggles = document.querySelector("[data-status-toggles]");
+      const columnMenu = document.querySelector("[data-column-menu]");
+      const columnMenuLabel = document.querySelector("[data-column-menu-label]");
       const columnToggles = document.querySelector("[data-column-toggles]");
+      const exportVisibleButton = document.querySelector("[data-export-visible]");
       const emptyState = document.querySelector("[data-empty-state]");
       const tableShell = document.querySelector("[data-table-shell]");
       const resultCount = document.querySelector("[data-result-count]");
@@ -654,6 +812,12 @@
         return button;
       }
 
+      function updateColumnMenuLabel() {
+        const hiddenCount = tableColumns.filter((column) => state.hiddenColumns.has(column.id)).length;
+        const visibleCount = tableColumns.length - hiddenCount;
+        columnMenuLabel.textContent = `Columns: ${visibleCount}/${tableColumns.length} shown`;
+      }
+
       function renderStatusToggles() {
         statusToggles.innerHTML = "";
         for (const status of getAllStatuses()) {
@@ -676,12 +840,19 @@
         for (const column of tableColumns) {
           const isLocked = column.id === "name";
           const isShown = !state.hiddenColumns.has(column.id);
-          const button = createToggleButton(column.title, isShown, () => {
+          const label = document.createElement("label");
+          label.className = "column-option";
+
+          const checkbox = document.createElement("input");
+          checkbox.type = "checkbox";
+          checkbox.checked = isShown;
+          checkbox.disabled = isLocked;
+          checkbox.addEventListener("change", () => {
             if (isLocked) {
               return;
             }
 
-            if (state.hiddenColumns.has(column.id)) {
+            if (checkbox.checked) {
               state.hiddenColumns.delete(column.id);
             } else {
               state.hiddenColumns.add(column.id);
@@ -692,17 +863,19 @@
               state.sortDirection = "asc";
             }
 
-            renderColumnToggles();
+            updateColumnMenuLabel();
             render();
           });
 
-          if (isLocked) {
-            button.disabled = true;
-            button.title = "Application stays visible so each row remains identifiable.";
-          }
+          const labelText = document.createElement("span");
+          labelText.textContent = isLocked ? `${column.title} (required)` : column.title;
 
-          columnToggles.appendChild(button);
+          label.appendChild(checkbox);
+          label.appendChild(labelText);
+          columnToggles.appendChild(label);
         }
+
+        updateColumnMenuLabel();
       }
 
       function rowMatches(row) {
@@ -800,10 +973,42 @@
         return [...groups.entries()].sort(([a], [b]) => compareStatuses(a, b));
       }
 
+      function getVisibleStatusGroups() {
+        return groupRowsByStatus(rows.filter(rowMatches).sort(compareRows));
+      }
+
+      function csvEscape(value) {
+        return `"${text(value).replace(/"/g, '""')}"`;
+      }
+
+      function exportRowsToCsv(filename, exportRows) {
+        const visibleColumns = getVisibleColumns();
+        const csvRows = [
+          visibleColumns.map((column) => csvEscape(column.title)).join(","),
+          ...exportRows.map((row) =>
+            visibleColumns.map((column) => csvEscape(getCellValue(row, column.id))).join(",")
+          ),
+        ];
+        const blob = new Blob([`${csvRows.join("\n")}\n`], { type: "text/csv;charset=utf-8" });
+        const url = URL.createObjectURL(blob);
+        const link = document.createElement("a");
+        link.href = url;
+        link.download = filename;
+        document.body.appendChild(link);
+        link.click();
+        link.remove();
+        URL.revokeObjectURL(url);
+      }
+
+      function slugify(value) {
+        return lowered(value)
+          .replace(/[^a-z0-9]+/g, "-")
+          .replace(/^-+|-+$/g, "") || "featured-apps";
+      }
+
       function render() {
-        const visibleRows = rows.filter(rowMatches).sort(compareRows);
         tableShell.innerHTML = "";
-        const statusGroups = groupRowsByStatus(visibleRows);
+        const statusGroups = getVisibleStatusGroups();
         const visibleColumns = getVisibleColumns();
 
         for (const [status, groupRows] of statusGroups) {
@@ -812,13 +1017,28 @@
 
           const heading = document.createElement("h3");
           heading.className = "status-heading";
+          const headingMain = document.createElement("span");
+          headingMain.className = "status-heading-main";
           const headingText = document.createElement("span");
           headingText.textContent = status;
+          headingMain.appendChild(headingText);
+
+          const headingActions = document.createElement("span");
+          headingActions.className = "status-heading-actions";
           const count = document.createElement("span");
           count.className = "status-count";
           count.textContent = `${groupRows.length} ${groupRows.length === 1 ? "app" : "apps"}`;
-          heading.appendChild(headingText);
-          heading.appendChild(count);
+          const exportButton = document.createElement("button");
+          exportButton.className = "section-export-button";
+          exportButton.type = "button";
+          exportButton.textContent = "Export CSV";
+          exportButton.addEventListener("click", () => {
+            exportRowsToCsv(`featured-apps-${slugify(status)}.csv`, groupRows);
+          });
+          headingActions.appendChild(count);
+          headingActions.appendChild(exportButton);
+          heading.appendChild(headingMain);
+          heading.appendChild(headingActions);
           section.appendChild(heading);
 
           const scroll = document.createElement("div");
@@ -867,6 +1087,17 @@
       fillColumnSelect();
       renderStatusToggles();
       renderColumnToggles();
+
+      exportVisibleButton.addEventListener("click", () => {
+        const exportRows = getVisibleStatusGroups().flatMap(([, groupRows]) => groupRows);
+        exportRowsToCsv("featured-apps-visible.csv", exportRows);
+      });
+
+      document.addEventListener("click", (event) => {
+        if (columnMenu.open && !event.target.closest("[data-column-menu]")) {
+          columnMenu.open = false;
+        }
+      });
 
       searchInput.addEventListener("input", () => {
         state.search = lowered(searchInput.value);
