@@ -1,5 +1,5 @@
 window.FEATURED_APP_PARTYID_CHANGES_DATA = {
-  "generatedAt": "2026-07-24T09:02:29.841Z",
+  "generatedAt": "2026-07-25T08:28:21.328Z",
   "columns": [
     {
       "id": "long_text_mm4kq322",
@@ -13,6 +13,24 @@ window.FEATURED_APP_PARTYID_CHANGES_DATA = {
     }
   ],
   "changes": [
+    {
+      "id": "9548f1ff-37ff-4979-b7ff-ceb5afac73bb",
+      "changedAt": "2026-07-24T18:43:34.196Z",
+      "itemName": "Cantory",
+      "itemId": "12467824759",
+      "field": "Locking PartyIDs",
+      "previousValue": "cantory-lock::1220a0a64bd45fee105f5c80474842a4337bb09323ca748d7ea6dacc07fc6237572c",
+      "newValue": "23d169c2-0909-4c70-81d1-1922de6febaa::1220a9b64406dd45c977469aaeaa78990f414649b552a5433a87fbc08d402d1b8fa6"
+    },
+    {
+      "id": "e92c8a33-b6d5-4521-9c4d-cd97911a6e77",
+      "changedAt": "2026-07-24T18:43:02.673Z",
+      "itemName": "Walley",
+      "itemId": "12467856969",
+      "field": "Locking PartyIDs",
+      "previousValue": "jonxwang::1220a0a64bd45fee105f5c80474842a4337bb09323ca748d7ea6dacc07fc6237572c",
+      "newValue": "23d169c2-0909-4c70-81d1-1922de6febaa::1220ac077a3e9c42b3636f06790d722ea772449a94438c19b1c787f9be1e8c0eca83"
+    },
     {
       "id": "9ac990dc-60d8-4b0c-aa53-87b80893fec5",
       "changedAt": "2026-07-23T15:48:12.450Z",
@@ -174,24 +192,6 @@ window.FEATURED_APP_PARTYID_CHANGES_DATA = {
       "field": "Locking PartyIDs",
       "previousValue": "LockingParty::122078651b99447bf3bf18b0586e767f097d003212e9f703c2dc5aced2a8737d73ab",
       "newValue": "23d169c2-0909-4c70-81d1-1922de6febaa::1220c253c4aab64a32d643638d7bc92515a2233a3ffdbe17941773985938202da6e8"
-    },
-    {
-      "id": "5cb652c2-d69d-429b-abc3-cc39a987c31a",
-      "changedAt": "2026-07-13T16:56:22.126Z",
-      "itemName": "Slay Money prediction Market",
-      "itemId": "12499135359",
-      "field": "Locking PartyIDs",
-      "previousValue": "23d169c2-0909-4c70-81d1-1922de6febaa::122028b68bcef20a4eac29346705ed23b7b2f912346ffb1254524b67da187853fa46",
-      "newValue": "23d169c2-0909-4c70-81d1-1922de6febaa::1220f14444477d71dcb153f542ff6b9a424cc55eef4af36e50464318d8c6c4935295"
-    },
-    {
-      "id": "f37fd168-5d57-4ee9-8723-b3de8661d88c",
-      "changedAt": "2026-07-13T12:02:35.639Z",
-      "itemName": "The Hub",
-      "itemId": "12467838019",
-      "field": "Party ID for the Featured Application:",
-      "previousValue": "thehub-validator-1::122037a86681fb309494f594f8fc20fbe4bfe4de10fb0dc3788dcfaf10c4876b47da",
-      "newValue": "thehub-validator-2::12209cbda0246f31fda21844936d3ed71d39d1e253827ba5918543cdbb07b4c24353"
     }
   ]
 };
