@@ -1,5 +1,5 @@
 window.FEATURED_APP_BOARD_DATA = {
-  "generatedAt": "2026-07-24T08:45:16.780Z",
+  "generatedAt": "2026-07-25T08:26:17.724Z",
   "columns": [
     {
       "id": "text_mm4k2vch",
@@ -1868,7 +1868,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467790154",
       "name": "Ov Defi",
-      "updatedAt": "2026-07-23T13:35:32Z",
+      "updatedAt": "2026-07-24T11:01:39Z",
       "values": {
         "text_mm4k2vch": "OneNov",
         "color_mm4kmej3": "1-Needs Review",
@@ -2226,7 +2226,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467789257",
       "name": "Saxon Automate / Canton Keeper",
-      "updatedAt": "2026-07-23T13:35:34Z",
+      "updatedAt": "2026-07-24T11:01:40Z",
       "values": {
         "text_mm4k2vch": "Saxon",
         "color_mm4kmej3": "1-Needs Review",
@@ -3622,7 +3622,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467789103",
       "name": "Jubilee Treasury",
-      "updatedAt": "2026-07-23T13:35:27Z",
+      "updatedAt": "2026-07-24T11:01:42Z",
       "values": {
         "text_mm4k2vch": "Jubilee Treasury",
         "color_mm4kmej3": "6-Withdrawn",
@@ -3764,7 +3764,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467790155",
       "name": "Mperps",
-      "updatedAt": "2026-07-23T13:35:33Z",
+      "updatedAt": "2026-07-24T11:01:43Z",
       "values": {
         "text_mm4k2vch": "Lemongrass IT Services LLC-Fz",
         "color_mm4kmej3": "1-Needs Review",
@@ -4185,13 +4185,13 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467824759",
       "name": "Cantory",
-      "updatedAt": "2026-07-23T13:35:28Z",
+      "updatedAt": "2026-07-24T18:43:33Z",
       "values": {
         "text_mm4k2vch": "K2F Labs",
         "color_mm4kmej3": "2-Approved",
         "long_text_mm4kq322": "cantory::1220a0a64bd45fee105f5c80474842a4337bb09323ca748d7ea6dacc07fc6237572c",
         "color_mm4kpp3q": "Non-Issuer",
-        "long_text_mm4khjn6": "cantory-lock::1220a0a64bd45fee105f5c80474842a4337bb09323ca748d7ea6dacc07fc6237572c",
+        "long_text_mm4khjn6": "23d169c2-0909-4c70-81d1-1922de6febaa::1220a9b64406dd45c977469aaeaa78990f414649b552a5433a87fbc08d402d1b8fa6",
         "numeric_mm4k6919": "5.0",
         "long_text_mm4km2s7": "K2F Labs operates validator infrastructure on the Canton Network and develops applications that enable enterprises to leverage blockchain technology for real-world financial use cases.",
         "link_mm4kd0hk": "https://drive.google.com/drive/folders/154keXm4F3DdFp0x7u91CZWDV8uvc_NuE?usp=sharing",
@@ -4859,13 +4859,13 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467856969",
       "name": "Walley",
-      "updatedAt": "2026-07-23T13:35:24Z",
+      "updatedAt": "2026-07-24T18:43:02Z",
       "values": {
         "text_mm4k2vch": "K2F Labs",
         "color_mm4kmej3": "2-Approved",
         "long_text_mm4kq322": "walley::1220a0a64bd45fee105f5c80474842a4337bb09323ca748d7ea6dacc07fc6237572c",
         "color_mm4kpp3q": "Non-Issuer",
-        "long_text_mm4khjn6": "jonxwang::1220a0a64bd45fee105f5c80474842a4337bb09323ca748d7ea6dacc07fc6237572c",
+        "long_text_mm4khjn6": "23d169c2-0909-4c70-81d1-1922de6febaa::1220ac077a3e9c42b3636f06790d722ea772449a94438c19b1c787f9be1e8c0eca83",
         "numeric_mm4k6919": "5.0",
         "long_text_mm4km2s7": "K2F Labs is a research‑driven technology firm founded by engineers and traders from Google, D. E. Shaw, and DRW. We build secure, high‑performance infrastructure across emerging financial networks.",
         "link_mm4kmq24": "https://walley.cc/",
@@ -4913,7 +4913,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467806176",
       "name": "Rapid Chain",
-      "updatedAt": "2026-07-23T13:35:24Z",
+      "updatedAt": "2026-07-24T11:01:45Z",
       "values": {
         "text_mm4k2vch": "Rapid Blockchain Technologies Ltd.",
         "color_mm4kmej3": "5-Revoked",
@@ -5986,7 +5986,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467856988",
       "name": "MEME token and Coinflip",
-      "updatedAt": "2026-07-23T13:35:27Z",
+      "updatedAt": "2026-07-24T11:01:47Z",
       "values": {
         "text_mm4k2vch": "Archerswap",
         "color_mm4kmej3": "1-Needs Review",
@@ -6518,7 +6518,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467790006",
       "name": "CC Ledger",
-      "updatedAt": "2026-07-23T13:35:33Z",
+      "updatedAt": "2026-07-24T11:01:48Z",
       "values": {
         "text_mm4k2vch": "Blueprint Infrastructure, LLC",
         "color_mm4kmej3": "1-Needs Review",
@@ -7125,7 +7125,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467847770",
       "name": "VAULT",
-      "updatedAt": "2026-07-23T13:35:28Z",
+      "updatedAt": "2026-07-24T11:01:50Z",
       "values": {
         "text_mm4k2vch": "HighTower",
         "color_mm4kmej3": "1-Needs Review",
@@ -7215,7 +7215,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467847773",
       "name": "CC Space",
-      "updatedAt": "2026-07-23T13:35:29Z",
+      "updatedAt": "2026-07-24T11:01:51Z",
       "values": {
         "text_mm4k2vch": "ITRocket LLC",
         "color_mm4kmej3": "1-Needs Review",
@@ -7300,7 +7300,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467847778",
       "name": "Ov Defi",
-      "updatedAt": "2026-07-23T13:35:32Z",
+      "updatedAt": "2026-07-24T11:01:53Z",
       "values": {
         "text_mm4k2vch": "OneNov",
         "color_mm4kmej3": "1-Needs Review",
@@ -7644,7 +7644,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467825386",
       "name": "Agora: Survey & Vote",
-      "updatedAt": "2026-07-23T13:35:25Z",
+      "updatedAt": "2026-07-24T11:01:54Z",
       "values": {
         "text_mm4k2vch": "Agora: Survey & Vote",
         "color_mm4kmej3": "1-Needs Review",
@@ -8292,7 +8292,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467790000",
       "name": "BENJI",
-      "updatedAt": "2026-07-23T13:35:30Z",
+      "updatedAt": "2026-07-24T11:01:56Z",
       "values": {
         "text_mm4k2vch": "Franklin Templeton",
         "color_mm4kmej3": "3-CIP-0116-paused",
@@ -8378,7 +8378,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467834325",
       "name": "ChainSafe x402 Global Facilitator",
-      "updatedAt": "2026-07-23T13:35:26Z",
+      "updatedAt": "2026-07-24T11:01:57Z",
       "values": {
         "text_mm4k2vch": "ChainSafe",
         "color_mm4kmej3": "1-Needs Review",
@@ -8407,7 +8407,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467834326",
       "name": "Squads Non-Custodial Wallet",
-      "updatedAt": "2026-07-23T13:35:27Z",
+      "updatedAt": "2026-07-24T11:01:58Z",
       "values": {
         "text_mm4k2vch": "SQUADS",
         "color_mm4kmej3": "1-Needs Review",
@@ -8463,7 +8463,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467824052",
       "name": "Canquest",
-      "updatedAt": "2026-07-23T13:35:25Z",
+      "updatedAt": "2026-07-24T11:02:00Z",
       "values": {
         "text_mm4k2vch": "Naxweb",
         "color_mm4kmej3": "1-Needs Review",
@@ -8495,7 +8495,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467824053",
       "name": "Deploi Credit Market",
-      "updatedAt": "2026-07-23T13:35:25Z",
+      "updatedAt": "2026-07-24T11:02:03Z",
       "values": {
         "text_mm4k2vch": "Deploi",
         "color_mm4kmej3": "1-Needs Review",
@@ -8557,7 +8557,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467824055",
       "name": "AUROX on Canton for featured app",
-      "updatedAt": "2026-07-23T13:35:25Z",
+      "updatedAt": "2026-07-24T11:02:05Z",
       "values": {
         "text_mm4k2vch": "International Institute of Blockchain Advanced Technology",
         "color_mm4kmej3": "1-Needs Review",
@@ -8614,7 +8614,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467832618",
       "name": "ScopeX Rate Lock",
-      "updatedAt": "2026-07-23T13:35:24Z",
+      "updatedAt": "2026-07-24T11:02:07Z",
       "values": {
         "text_mm4k2vch": "ScopeX Money",
         "color_mm4kmej3": "1-Needs Review",
@@ -8759,7 +8759,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467854321",
       "name": "Privket.com",
-      "updatedAt": "2026-07-23T13:35:24Z",
+      "updatedAt": "2026-07-24T11:02:08Z",
       "values": {
         "text_mm4k2vch": "Privket",
         "color_mm4kmej3": "6-Withdrawn",
@@ -8812,10 +8812,10 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467838019",
       "name": "The Hub",
-      "updatedAt": "2026-07-23T13:35:31Z",
+      "updatedAt": "2026-07-24T17:38:16Z",
       "values": {
         "text_mm4k2vch": "The Hub",
-        "color_mm4kmej3": "0-Locked+Needs Review",
+        "color_mm4kmej3": "4-No",
         "long_text_mm4kq322": "thehub-validator-2::12209cbda0246f31fda21844936d3ed71d39d1e253827ba5918543cdbb07b4c24353",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "23d169c2-0909-4c70-81d1-1922de6febaa::1220ca49b703a773cfe71859698d6302c4e289d8a5888868438c71de0b33bf951a72",
@@ -9198,7 +9198,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467783449",
       "name": "Mperps",
-      "updatedAt": "2026-07-23T13:35:26Z",
+      "updatedAt": "2026-07-24T11:02:11Z",
       "values": {
         "text_mm4k2vch": "Lemongrass IT Services LLC-Fz",
         "color_mm4kmej3": "1-Needs Review",
@@ -9226,7 +9226,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467783450",
       "name": "Canquest",
-      "updatedAt": "2026-07-23T13:35:26Z",
+      "updatedAt": "2026-07-24T11:02:12Z",
       "values": {
         "text_mm4k2vch": "Canquest",
         "color_mm4kmej3": "1-Needs Review",
@@ -9284,7 +9284,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12471377959",
       "name": "OpenBaskets - BlockxAI Limited",
-      "updatedAt": "2026-07-23T13:35:27Z",
+      "updatedAt": "2026-07-24T11:02:13Z",
       "values": {
         "text_mm4k2vch": "BlockxAI Limited",
         "color_mm4kmej3": "1-Needs Review",
@@ -9311,7 +9311,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12568365683",
       "name": "Synfin - Cayvox Labs",
-      "updatedAt": "2026-07-23T13:35:27Z",
+      "updatedAt": "2026-07-24T11:02:15Z",
       "values": {
         "text_mm4k2vch": "Cayvox Labs",
         "color_mm4kmej3": "1-Needs Review",
@@ -9395,7 +9395,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12609616425",
       "name": "Arkhia x402 Facilitator-as-a-Service (FaaS) - Arkhia Pte Ltd",
-      "updatedAt": "2026-07-23T14:00:39Z",
+      "updatedAt": "2026-07-24T11:02:16Z",
       "values": {
         "text_mm4k2vch": "Arkhia Pte Ltd",
         "color_mm4kmej3": "1-Needs Review",
@@ -9422,6 +9422,35 @@ window.FEATURED_APP_BOARD_DATA = {
         "long_text_mm4khbeg": "https://docs.arkhia.io/docs/tutorials/x402-payment",
         "long_text_mm4kp5en": "https://www.arkhia.io/x402-facilitator-as-a-service/",
         "long_text_mm4kxsgy": "Arkhia FaaS adds distinct structural value to the Canton Network in four key areas: Infrastructure Layer vs. Single App Focus: Other featured apps function primarily as a consumer-facing payment app for AI compute/inference. Arkhia FaaS provides white-label, multi-tenant B2B infrastructure that allows any enterprise merchant or payment provider to instantly monetize agentic traffic without managing node infrastructure or custom token setups. Eliminating Single Points of Failure (SPOF): Relying on a single public facilitator creates operational fragility for Canton's x402 ecosystem. Arkhia delivers multi-region Google Cloud Kubernetes (GKE) deployments backed by a published 99.99% uptime SLA, giving institutional builders the uptime guarantees required for production workloads. Institutional Compliance & Governance (KYA / KYT): Enterprise adoption requires strict regulatory and risk controls that standard open-source relayers do not offer. Arkhia natively enforces Know-Your-Agent (KYA) vetting, KYT transaction monitoring, secure key vaults, and team RBAC—making x402 safe for enterprise and regulated entity integration. Super-Linear Ecosystem Volume: Rather than competing for end-users, Arkhia acts as an ecosystem multiplier. By onboarding large payment gateways and enterprise platforms, Arkhia routes aggregate B2B volume through Canton, driving substantial, recurring demand for Canton Coin and Activity Market rewards."
+      }
+    },
+    {
+      "id": "12626943292",
+      "name": "Yellow Card - Yellow Card Financial Inc.",
+      "updatedAt": "2026-07-25T04:03:50Z",
+      "values": {
+        "text_mm4k2vch": "Yellow Card Financial Inc.",
+        "color_mm4kmej3": "1-Needs Review",
+        "color_mm4kpp3q": "Non-Issuer",
+        "long_text_mm4khjn6": "YellowCard-Validator-1::1220393b39a08729c8cd220fdf39fdd7af8d55fbfe54b06351b7f8d69e55dcbbbbfa",
+        "long_text_mm4km2s7": "Yellow Card is the leading emerging market stablecoin and cross-border payment infrastructure provider with operations across 25+ African & LatAm countries. The platform enables enterprise and B2B2C users to seamlessly transact between fiat currencies, stablecoins, and other digital assets.",
+        "link_mm4kd0hk": "https://yellowcard.io/press",
+        "link_mm4kmq24": "https://portal.yellowcard.io",
+        "long_text_mm4k2537": "Yellow Card provides seamless on/off ramping and cross-border payment infrastructure. By bridging emerging market local currencies (e.g., NGN, KES, ZAR) and major global fiats (USD, EUR, GBP) with Canton-native stablecoins, the application enables institutions to execute atomic FX swaps, settle cross-border payments instantly, and eliminate counterparty risk across high-growth corridors.",
+        "long_text_mm5hgry2": "Yes, we support other chains for on/off ramping & payments",
+        "long_text_mm4k4y1h": "Multinational enterprises, payment service providers (PSPs), regional banks, global liquidity providers, and institutional treasuries. We support B2B and B2B2C flows.",
+        "long_text_mm4k15bg": "On/off-ramp conversions between emerging market currencies (NGN, KES, ZAR) and Canton-native stablecoins as well as instant cross-border payment settlements across our corridors. There are also plans regarding emering market fiat tokenization with settlement pools.",
+        "long_text_mm4kh3fw": "The application interacts directly with the Canton ledger via Daml smart contracts to execute stablecoin transfers using the CIP-56 token standard and facilitate cross-domain bridging operations.",
+        "long_text_mm4kfg50": "Yellow Card uses Activity Markers via CIP-47",
+        "long_text_mm4kxcm2": "For B2B: ~100. For B2B2C: ~3000.",
+        "long_text_mm4kvyjq": "Bulk tranasctions (on/off ramps, setlements, etc) as well as high-activity B2B2C corridors.",
+        "long_text_mm4k1cm0": "Superlinear - Customers tend to scale TX count overtime",
+        "long_text_mm4kd4h2": "We are technically already live but planning to push initial volumes in early Q3 2026.",
+        "long_text_mm4kfkwn": "We have existing customers that we will enable Canton settlement for for in early Q3.",
+        "long_text_mm4k6q73": "We would be signficantly less incentivized to push Canton as the default settlement chain for our customers.",
+        "long_text_mm4kwxt1": "Yes, we are a regulated virtual asset service provider and have robust compliance, risk, and security frameworks. All transactions go through AML, KYT, sanction screening, travel rule screening, and more.",
+        "long_text_mm4kp5en": "https://yellowcard.io/press",
+        "long_text_mm4kxsgy": "With the support of the foundation, we aim to ensure banks, telcos, and other institutions across emerging markets are building and settling on Canton."
       }
     }
   ]
