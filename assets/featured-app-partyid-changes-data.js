@@ -1,5 +1,5 @@
 window.FEATURED_APP_PARTYID_CHANGES_DATA = {
-  "generatedAt": "2026-07-27T10:14:48.377Z",
+  "generatedAt": "2026-07-28T09:15:04.209Z",
   "columns": [
     {
       "id": "long_text_mm4kq322",
@@ -13,6 +13,15 @@ window.FEATURED_APP_PARTYID_CHANGES_DATA = {
     }
   ],
   "changes": [
+    {
+      "id": "56943006-1e09-427a-81f5-c7d9e59e4f5d",
+      "changedAt": "2026-07-27T19:13:59.432Z",
+      "itemName": "T-RIZE",
+      "itemId": "12467789137",
+      "field": "Party ID for the Featured Application:",
+      "previousValue": "TRIZEGroup-cantonMainnetValidator-1::12206ab3bf15b14410220357d6a6375eb1015f2e7fade1deb449463c2f2a25304889",
+      "newValue": "t-rize-registrar::1220175c60c87ed5e1c9c1c619da159bde8e1c2e407a4d334e755c167488d3964946"
+    },
     {
       "id": "9548f1ff-37ff-4979-b7ff-ceb5afac73bb",
       "changedAt": "2026-07-24T18:43:34.196Z",
@@ -183,15 +192,6 @@ window.FEATURED_APP_PARTYID_CHANGES_DATA = {
       "field": "Locking PartyIDs",
       "previousValue": "12208::12208faed7b6894786c3b6b7f19bbafbef9a16755563d14949f144bf21bc98a74f08",
       "newValue": ""
-    },
-    {
-      "id": "9950e04d-0555-4276-80dd-abdb8c6d7997",
-      "changedAt": "2026-07-14T18:56:44.270Z",
-      "itemName": "Parthenon",
-      "itemId": "12467810726",
-      "field": "Locking PartyIDs",
-      "previousValue": "LockingParty::122078651b99447bf3bf18b0586e767f097d003212e9f703c2dc5aced2a8737d73ab",
-      "newValue": "23d169c2-0909-4c70-81d1-1922de6febaa::1220c253c4aab64a32d643638d7bc92515a2233a3ffdbe17941773985938202da6e8"
     }
   ]
 };
