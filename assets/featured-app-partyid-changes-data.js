@@ -1,5 +1,5 @@
 window.FEATURED_APP_PARTYID_CHANGES_DATA = {
-  "generatedAt": "2026-08-02T08:42:34.839Z",
+  "generatedAt": "2026-08-03T10:11:28.861Z",
   "columns": [
     {
       "id": "long_text_mm4kq322",
@@ -13,6 +13,15 @@ window.FEATURED_APP_PARTYID_CHANGES_DATA = {
     }
   ],
   "changes": [
+    {
+      "id": "0ccb4f04-1460-41e1-827c-a43795916c66",
+      "changedAt": "2026-08-02T12:45:02.831Z",
+      "itemName": "Yiksi",
+      "itemId": "12467837922",
+      "field": "Locking PartyIDs",
+      "previousValue": "Yiksi",
+      "newValue": "23d169c2-0909-4c70-81d1-1922de6febaa::12204c36a1823aad4d17569adf663c599baf380d0528a4710023a0b7654d76d42358"
+    },
     {
       "id": "56943006-1e09-427a-81f5-c7d9e59e4f5d",
       "changedAt": "2026-07-27T19:13:59.432Z",
@@ -183,15 +192,6 @@ window.FEATURED_APP_PARTYID_CHANGES_DATA = {
       "field": "Locking PartyIDs",
       "previousValue": "12208::122083335a5c1c4026b7d496b39d7e1750732c1f70c1833c71bc181a0e85a3af1ac8",
       "newValue": "12208::12208faed7b6894786c3b6b7f19bbafbef9a16755563d14949f144bf21bc98a74f08"
-    },
-    {
-      "id": "2ad7c92b-659c-4341-ae18-2bf3c9b85d59",
-      "changedAt": "2026-07-15T15:47:04.512Z",
-      "itemName": "CBTC",
-      "itemId": "12467832779",
-      "field": "Locking PartyIDs",
-      "previousValue": "12208::12208faed7b6894786c3b6b7f19bbafbef9a16755563d14949f144bf21bc98a74f08",
-      "newValue": ""
     }
   ]
 };
