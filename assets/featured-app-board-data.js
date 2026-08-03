@@ -1,5 +1,5 @@
 window.FEATURED_APP_BOARD_DATA = {
-  "generatedAt": "2026-08-02T08:38:40.036Z",
+  "generatedAt": "2026-08-03T10:08:14.383Z",
   "columns": [
     {
       "id": "text_mm4k2vch",
@@ -2226,14 +2226,14 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467789257",
       "name": "Saxon Automate / Canton Keeper",
-      "updatedAt": "2026-08-02T04:00:15Z",
+      "updatedAt": "2026-08-02T23:00:15Z",
       "values": {
         "text_mm4k2vch": "Saxon",
         "color_mm4kmej3": "1-Needs Review",
         "long_text_mm4kq322": "saxon-various-1::12204c9e793fdcdd329d9a8bd307562e3493139d9fee257b1928be514d1d4950e5b6",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "saxon-various-1::12204c9e793fdcdd329d9a8bd307562e3493139d9fee257b1928be514d1d4950e5b6",
-        "numeric_mm4k6919": "0.3",
+        "numeric_mm4k6919": "0.1",
         "long_text_mm4km2s7": "Saxon Nodes operates NAAS (Node-as-a-Service) Canton validator infrastructure. We run validator nodes for multiple clients hosting Daml applications including Canton Swap, Cantara, and Digital Asset utility packages. We are building tooling to improve the operational efficiency and reward generation for all Canton validators",
         "link_mm4kmq24": "https://saxon-xyz.github.io/canton-keeper-docs/",
         "link_mm4krmse": "https://saxon-xyz.github.io/canton-keeper-docs/",
@@ -7899,13 +7899,13 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467837922",
       "name": "Yiksi",
-      "updatedAt": "2026-07-23T13:35:33Z",
+      "updatedAt": "2026-08-02T12:45:02Z",
       "values": {
         "text_mm4k2vch": "Yiksi",
         "color_mm4kmej3": "2-Approved",
         "long_text_mm4kq322": "cache-cantor8-1::12207a2fd494b597697ded5a78228b5b9204408cea50ec26b327ae95deaee5cf1812",
         "color_mm4kpp3q": "Non-Issuer",
-        "long_text_mm4khjn6": "Yiksi",
+        "long_text_mm4khjn6": "23d169c2-0909-4c70-81d1-1922de6febaa::12204c36a1823aad4d17569adf663c599baf380d0528a4710023a0b7654d76d42358",
         "numeric_mm4k6919": "5.0",
         "long_text_mm4km2s7": "Yiksi is a regulated crypto-fiat exchange that lets users trade major digital assets like Bitcoin, Ethereum, and USDT against fiat currencies, primarily serving the Horn of Africa region - all users are KYCed and verified. Yiksi and it's partner Taran have processed more 300 million usd in volume last month",
         "long_text_mm4k2537": "Yiksi and Taran will partner with C8 Registry to bring EVC payments and M-Pesa onchain and facilitate atomic settlement between the two otherwise disconnected databases. Additional support for Canton based assets will also be given. Users will be able to exchange mobile digital money for canton based assets and some Canton based assets will be listed on Yiksi exchange for example CC.",
