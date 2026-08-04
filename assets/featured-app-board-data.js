@@ -1,5 +1,5 @@
 window.FEATURED_APP_BOARD_DATA = {
-  "generatedAt": "2026-08-03T10:08:14.383Z",
+  "generatedAt": "2026-08-04T09:11:57.829Z",
   "columns": [
     {
       "id": "text_mm4k2vch",
@@ -1868,7 +1868,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467790154",
       "name": "Ov Defi",
-      "updatedAt": "2026-08-02T04:00:13Z",
+      "updatedAt": "2026-08-04T05:01:56Z",
       "values": {
         "text_mm4k2vch": "OneNov",
         "color_mm4kmej3": "1-Needs Review",
@@ -2226,7 +2226,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467789257",
       "name": "Saxon Automate / Canton Keeper",
-      "updatedAt": "2026-08-02T23:00:15Z",
+      "updatedAt": "2026-08-04T05:01:57Z",
       "values": {
         "text_mm4k2vch": "Saxon",
         "color_mm4kmej3": "1-Needs Review",
@@ -3622,7 +3622,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467789103",
       "name": "Jubilee Treasury",
-      "updatedAt": "2026-08-02T04:00:16Z",
+      "updatedAt": "2026-08-04T05:02:00Z",
       "values": {
         "text_mm4k2vch": "Jubilee Treasury",
         "color_mm4kmej3": "6-Withdrawn",
@@ -3764,7 +3764,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467790155",
       "name": "Mperps",
-      "updatedAt": "2026-08-02T04:00:18Z",
+      "updatedAt": "2026-08-04T05:02:02Z",
       "values": {
         "text_mm4k2vch": "Lemongrass IT Services LLC-Fz",
         "color_mm4kmej3": "1-Needs Review",
@@ -4913,7 +4913,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467806176",
       "name": "Rapid Chain",
-      "updatedAt": "2026-08-02T04:00:20Z",
+      "updatedAt": "2026-08-04T05:02:03Z",
       "values": {
         "text_mm4k2vch": "Rapid Blockchain Technologies Ltd.",
         "color_mm4kmej3": "5-Revoked",
@@ -5986,7 +5986,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467856988",
       "name": "MEME token and Coinflip",
-      "updatedAt": "2026-08-02T04:00:22Z",
+      "updatedAt": "2026-08-04T05:02:05Z",
       "values": {
         "text_mm4k2vch": "Archerswap",
         "color_mm4kmej3": "1-Needs Review",
@@ -6518,7 +6518,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467790006",
       "name": "CC Ledger",
-      "updatedAt": "2026-08-02T04:00:24Z",
+      "updatedAt": "2026-08-04T05:02:07Z",
       "values": {
         "text_mm4k2vch": "Blueprint Infrastructure, LLC",
         "color_mm4kmej3": "1-Needs Review",
@@ -7125,7 +7125,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467847770",
       "name": "VAULT",
-      "updatedAt": "2026-08-02T04:00:25Z",
+      "updatedAt": "2026-08-04T05:02:19Z",
       "values": {
         "text_mm4k2vch": "HighTower",
         "color_mm4kmej3": "1-Needs Review",
@@ -7215,7 +7215,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467847773",
       "name": "CC Space",
-      "updatedAt": "2026-08-02T04:00:27Z",
+      "updatedAt": "2026-08-04T05:02:21Z",
       "values": {
         "text_mm4k2vch": "ITRocket LLC",
         "color_mm4kmej3": "1-Needs Review",
@@ -7300,7 +7300,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467847778",
       "name": "Ov Defi",
-      "updatedAt": "2026-08-02T04:00:30Z",
+      "updatedAt": "2026-08-04T05:02:22Z",
       "values": {
         "text_mm4k2vch": "OneNov",
         "color_mm4kmej3": "1-Needs Review",
@@ -7644,7 +7644,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467825386",
       "name": "Agora: Survey & Vote",
-      "updatedAt": "2026-08-02T04:00:32Z",
+      "updatedAt": "2026-08-04T05:02:24Z",
       "values": {
         "text_mm4k2vch": "Agora: Survey & Vote",
         "color_mm4kmej3": "1-Needs Review",
@@ -8292,7 +8292,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467790000",
       "name": "BENJI",
-      "updatedAt": "2026-08-02T04:00:33Z",
+      "updatedAt": "2026-08-03T11:00:36Z",
       "values": {
         "text_mm4k2vch": "Franklin Templeton",
         "color_mm4kmej3": "3-CIP-0116-paused",
@@ -8378,7 +8378,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467834325",
       "name": "ChainSafe x402 Global Facilitator",
-      "updatedAt": "2026-08-02T04:00:36Z",
+      "updatedAt": "2026-08-03T11:00:38Z",
       "values": {
         "text_mm4k2vch": "ChainSafe",
         "color_mm4kmej3": "1-Needs Review",
@@ -8407,7 +8407,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467834326",
       "name": "Squads Non-Custodial Wallet",
-      "updatedAt": "2026-08-02T04:00:38Z",
+      "updatedAt": "2026-08-03T11:00:39Z",
       "values": {
         "text_mm4k2vch": "SQUADS",
         "color_mm4kmej3": "1-Needs Review",
@@ -8463,7 +8463,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467824052",
       "name": "Canquest",
-      "updatedAt": "2026-08-02T04:00:40Z",
+      "updatedAt": "2026-08-03T11:00:41Z",
       "values": {
         "text_mm4k2vch": "Naxweb",
         "color_mm4kmej3": "1-Needs Review",
@@ -8495,7 +8495,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467824053",
       "name": "Deploi Credit Market",
-      "updatedAt": "2026-08-02T04:00:45Z",
+      "updatedAt": "2026-08-03T11:00:45Z",
       "values": {
         "text_mm4k2vch": "Deploi",
         "color_mm4kmej3": "1-Needs Review",
@@ -8557,7 +8557,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467824055",
       "name": "AUROX on Canton for featured app",
-      "updatedAt": "2026-08-02T04:00:46Z",
+      "updatedAt": "2026-08-03T11:00:46Z",
       "values": {
         "text_mm4k2vch": "International Institute of Blockchain Advanced Technology",
         "color_mm4kmej3": "1-Needs Review",
@@ -8614,7 +8614,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467832618",
       "name": "ScopeX Rate Lock",
-      "updatedAt": "2026-08-02T04:00:48Z",
+      "updatedAt": "2026-08-03T11:00:47Z",
       "values": {
         "text_mm4k2vch": "ScopeX Money",
         "color_mm4kmej3": "1-Needs Review",
@@ -8759,7 +8759,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467854321",
       "name": "Privket.com",
-      "updatedAt": "2026-08-02T04:00:49Z",
+      "updatedAt": "2026-08-03T11:00:49Z",
       "values": {
         "text_mm4k2vch": "Privket",
         "color_mm4kmej3": "6-Withdrawn",
@@ -9198,7 +9198,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467783449",
       "name": "Mperps",
-      "updatedAt": "2026-08-02T04:00:51Z",
+      "updatedAt": "2026-08-03T11:00:51Z",
       "values": {
         "text_mm4k2vch": "Lemongrass IT Services LLC-Fz",
         "color_mm4kmej3": "1-Needs Review",
@@ -9226,7 +9226,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467783450",
       "name": "Canquest",
-      "updatedAt": "2026-08-02T04:00:53Z",
+      "updatedAt": "2026-08-03T11:00:52Z",
       "values": {
         "text_mm4k2vch": "Canquest",
         "color_mm4kmej3": "1-Needs Review",
@@ -9284,7 +9284,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12471377959",
       "name": "OpenBaskets - BlockxAI Limited",
-      "updatedAt": "2026-08-02T04:00:54Z",
+      "updatedAt": "2026-08-03T11:00:54Z",
       "values": {
         "text_mm4k2vch": "BlockxAI Limited",
         "color_mm4kmej3": "1-Needs Review",
@@ -9311,7 +9311,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12568365683",
       "name": "Synfin - Cayvox Labs",
-      "updatedAt": "2026-08-02T04:00:56Z",
+      "updatedAt": "2026-08-03T11:00:55Z",
       "values": {
         "text_mm4k2vch": "Cayvox Labs",
         "color_mm4kmej3": "1-Needs Review",
@@ -9395,7 +9395,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12609616425",
       "name": "Arkhia x402 Facilitator-as-a-Service (FaaS) - Arkhia Pte Ltd",
-      "updatedAt": "2026-08-02T04:00:59Z",
+      "updatedAt": "2026-08-03T11:00:56Z",
       "values": {
         "text_mm4k2vch": "Arkhia Pte Ltd",
         "color_mm4kmej3": "1-Needs Review",
@@ -9427,7 +9427,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12626943292",
       "name": "Yellow Card - Yellow Card Financial Inc.",
-      "updatedAt": "2026-08-02T04:01:00Z",
+      "updatedAt": "2026-08-03T11:00:58Z",
       "values": {
         "text_mm4k2vch": "Yellow Card Financial Inc.",
         "color_mm4kmej3": "1-Needs Review",
@@ -9452,6 +9452,38 @@ window.FEATURED_APP_BOARD_DATA = {
         "long_text_mm4kwxt1": "Yes, we are a regulated virtual asset service provider and have robust compliance, risk, and security frameworks. All transactions go through AML, KYT, sanction screening, travel rule screening, and more.",
         "long_text_mm4kp5en": "https://yellowcard.io/press",
         "long_text_mm4kxsgy": "With the support of the foundation, we aim to ensure banks, telcos, and other institutions across emerging markets are building and settling on Canton."
+      }
+    },
+    {
+      "id": "12709198693",
+      "name": "Rocky Wallet - Dune Labs",
+      "updatedAt": "2026-08-04T04:03:38Z",
+      "values": {
+        "text_mm4k2vch": "Dune Labs",
+        "color_mm4kmej3": "1-Needs Review",
+        "color_mm4kpp3q": "Non-Issuer",
+        "long_text_mm4khjn6": "23d169c2-0909-4c70-81d1-1922de6febaa::12200a265be75cf1f7c03fbcc0d28e221e94946e627115c489b751ae3ef700c4859d",
+        "long_text_mm4km2s7": "Dune Labs is a global investment fund and incubator focused on blockchain infrastructure and open financial systems. We provide long-term capital, strategic guidance, and ecosystem resources to exceptional founders, with a focus on infrastructure, liquidity & market structure, DeFi, emerging networks, and AI × Crypto. We believe the Canton Network represents critical foundational infrastructure for institutional blockchain adoption. Its emphasis on privacy, interoperability, and regulated digital assets closely aligns with our long-term investment thesis. As part of our commitment to the Canton ecosystem, Dune Labs is developing Rocky Wallet — a native Canton wallet designed to serve as a practical gateway for users to hold, transfer, and interact with Canton assets. Beyond pure capital deployment, we actively build products that strengthen user experience and on-chain utility on the networks we support. Rocky Wallet currently offers core self-custodial wallet functions on Canton, and has a clear product roadmap that includes: • Social features such as WeChat-style red packet (hongbao) transfers • Multi-signature support for institutional and collaborative use cases • Support for MCP and other modern Web3 wallet standards • Instant messaging capabilities integrated with wallet functions • Native mobile application development Dune Labs brings a global network of founders, institutional investors, exchanges, market makers, and strategic partners. We aim to connect high-quality projects, long-term capital, and real users to Canton, accelerating institutional adoption and ecosystem growth. Our goal is to be a long-term capital partner and infrastructure contributor to the Canton Network, supporting its development through both investment and hands-on product building such as Rocky Wallet.",
+        "link_mm4kd0hk": "https://drive.google.com/drive/folders/1NMPHPodxwDYTpFgvy7E2iS22hEduA_xr?usp=drive_link",
+        "link_mm4kmq24": "https://extension.rocky.exchange/",
+        "link_mm4krmse": "https://github.com/thedunelabs/Rocky-Wallet",
+        "link_mm4kqtfa": "https://drive.google.com/file/d/1sxDA40f6YqnzKwDtuuIbu84eVpJL0NwT/view?usp=sharing",
+        "long_text_mm4k2537": "Rocky Wallet is a Canton-native self-custodial wallet designed as the primary user gateway for holding, sending, receiving, and interacting with assets on the Canton Network. It currently supports core assets including Canton Coin (CC), USDA, USDC, Hecto, cUSD, cBTC, cETH, and USDCx. The wallet provides essential functions: secure key management, address generation, balance viewing, transfers, and transaction history, all built to leverage Canton’s privacy, interoperability, and institutional-grade settlement capabilities. Looking ahead, Rocky Wallet will expand into a fuller social and mobile Web3 experience, including: • Social incentives and bounty mechanisms • Multi-signature support for institutional, team, and shared custody use cases • Support for MCP and other modern Web3 wallet standards • Instant messaging capabilities integrated with wallet functions • Native mobile application development to reach a broader user base These features aim to make Canton assets more usable in everyday social, collaborative, and mobile contexts while remaining fully native to the Canton ledger and privacy model.",
+        "long_text_mm5hgry2": "While other wallets exist on Canton (such as Loop), Rocky Wallet is differentiated by its dual focus on core self-custodial functionality and a clear roadmap toward social and collaborative features native to Canton, including: Social incentives and red-packet style transfers Multi-signature support for institutional and team use cases Instant messaging integrated with wallet functions Native mobile application development Support for MCP and modern Web3 wallet standards In addition, Rocky Wallet is developed by Dune Labs, which combines long-term capital, ecosystem resources, and active Validator participation. This positions the wallet not only as a standalone product, but as infrastructure that can tightly integrate with other Canton applications (including Rocky Exchange) and better serve both retail and institutional users under Canton’s privacy model.",
+        "long_text_mm4k4y1h": "Rocky Wallet is designed for a broad set of Canton Network participants: • Everyday Canton users and CC holders who need a simple, reliable way to hold and transfer supported assets (CC, USDA, USDC, Hecto, cUSD, cBTC, cETH, USDCx). • Users of other Canton applications (such as Rocky Exchange, Hecto, and complementary DeFi or RWA products) who require a seamless wallet experience for deposits, withdrawals, and settlement. • Early institutional and professional users who value Canton’s privacy model and need multi-sig and controlled access features as they become available. • Future social and community users who will engage with social incentives, bounties, instant messaging, and group-oriented features once those modules launch. • Mobile-first users who prefer native mobile applications for daily asset management and social interactions on Canton. Initial users are expected to come from the existing Rocky / Dune Labs network, Canton ecosystem participants, Validator and Super Validator communities, and early adopters of Canton-native applications.",
+        "long_text_mm4k15bg": "Rocky Wallet expects application rewards to come primarily from genuine on-ledger activity generated by its users: • Asset transfers (send/receive of CC, USDA, USDC, Hecto, cUSD, cBTC, cETH, USDCx and future supported assets). • Future social incentive and bounty settlements that create verifiable on-ledger events. • Multi-signature and collaborative operations once launched. • Potential cross-application interactions (e.g., deposits/withdrawals to other Canton apps) that originate from or settle through the wallet. • Instant messaging related on-ledger actions and mobile-originated transactions as those features go live. Rewards will be tied to real, non-artificial activity. Passive holding alone will not generate markers; only verifiable transfer, social incentive, bounty, and interaction events that consume network resources and demonstrate genuine usage will be eligible.",
+        "long_text_mm4kh3fw": "Rocky Wallet interacts with the Canton Ledger through the official Ledger API (gRPC). The wallet client (browser extension / application) submits Daml commands for transfers, multi-party authorizations (for future multi-sig), and related operations to a connected Participant Node. Key flows: • Balance and history queries read from the Active Contract Set and transaction streams. • Transfers and future social/multi-sig operations are submitted as Daml commands that create or exercise contracts on the ledger, respecting Canton’s party-based privacy model so that only relevant parties see the transaction details. • The wallet listens to transaction streams to keep local state (balances, pending transfers, history) synchronized with the ledger. This design keeps final settlement, privacy, and security anchored on the Canton Ledger while providing users with a responsive, familiar wallet experience.",
+        "long_text_mm4kfg50": "Yes. Rocky Wallet will use both Canton Coin and Activity Markers / traffic-based rewards. Canton Coin is the native asset for fees, holdings, and potential rewards. For Featured App rewards, the wallet plans to integrate with Canton’s current reward mechanism (traffic-based rewards under CIP-0104, or FeaturedAppActivityMarker where still applicable) into its Daml transfer, social incentive, and bounty flows. Eligible real activity events can generate weighted rewards based on verified notional or activity metrics, allocated according to governance parameters. Markers or traffic-based rewards will be created only alongside genuine ledger events (transfers, social incentives, bounties, multi-sig executions), ensuring rewards are tied to real network usage rather than passive holding or synthetic volume.",
+        "long_text_mm4kxcm2": "For active wallet users we expect on average: • Launch phase: 1–3 transfer-related activities per day • Early growth (with social incentives and messaging): 2–5 activities per day • Scale phase: 2–6 activities per day for active users Many users will be lower-frequency holders who transfer infrequently. The above figures refer to active users who regularly send, receive, or use social incentive, bounty, multi-sig, or messaging features. These activities do not map 1:1 to ledger transactions because some operations can be batched or combined where the protocol allows.",
+        "long_text_mm4kvyjq": "A user may generate multiple transactions within a single 10-minute reward round when they perform several transfers, receive multiple incoming payments, or (once launched) participate in multiple social incentive or bounty actions, or multi-sig operations in a short period. This is expected and normal for active users, especially those coordinating with groups or using the wallet in daily social/financial flows. To keep rewards tied to genuine activity, the wallet will apply basic safeguards such as minimum notional thresholds where appropriate, rate limits on marker or reward creation, and exclusion of obvious self-dealing or zero-value spam. Access controls and future KYC/KYB options for higher-tier features will further reduce abuse potential.",
+        "long_text_mm4k1cm0": "Sub-linear. Wallet usage is dominated by occasional transfers and social interactions rather than high-frequency trading. As the user base grows, many users will remain low-frequency holders. Efficient Daml contract design, potential batching of related operations, and the natural distribution of activity (most users transfer infrequently) mean ledger transaction growth should lag behind raw user growth. Introduction of social and multi-sig features will increase average activity per active user, but overall scaling is still expected to remain sub-linear relative to total registered users.",
+        "long_text_mm4kd4h2": "Target: 10 August 2026. Core wallet functionality (hold, send, receive for supported Canton assets) is planned to go live on MainNet on this date.",
+        "long_text_mm4kfkwn": "First customers will be early Canton ecosystem participants, existing users of Rocky-related products, Dune Labs network contacts, Validator/Super Validator community members, and early adopters of Canton-native applications who need a reliable wallet for CC and supported assets. Expected go-live for the initial public release of Rocky Wallet is 10 August 2026, aligned with the MainNet launch target.",
+        "long_text_mm4k6q73": "Not having Featured Application (FA) status would not materially change Rocky Wallet’s core development or launch plans. The wallet’s primary value is as essential Canton infrastructure for custody and transfer of native assets, with a clear roadmap toward social incentives, bounties, multi-sig, instant messaging, and mobile applications. It is designed to be useful and sustainable regardless of Featured App rewards. If FA status is not granted, protocol-level CC rewards via traffic-based mechanisms would simply become a secondary growth incentive rather than a core dependency. We would continue to prioritize user experience, security, multi-sig, social features, and integrations with other Canton applications. Launch timeline and feature roadmap would remain the same.",
+        "long_text_mm4kwxt1": "Yes. Rocky Wallet will implement several practical controls: • Minimum value / dust filters to reduce zero-value or spam transfers where appropriate. • Rate limiting and basic behavioral checks on transfer frequency to discourage automated abuse. • Clear separation between genuine user-initiated transfers and any system-generated events. • Future multi-sig and higher-privilege features will support additional authorization controls. • As social incentive and bounty features launch, eligibility rules and anti-abuse parameters will be applied so that reward creation remains tied to real economic activity. Because the wallet is primarily a custody, transfer, and social tool rather than a high-frequency trading venue, the risk surface for wash trading or artificial volume is inherently lower than for a DEX, but the above measures will still be applied.",
+        "long_text_mm4khbeg": "https://github.com/thedunelabs/Rocky-Wallet",
+        "long_text_mm4kp5en": "https://drive.google.com/drive/folders/1NMPHPodxwDYTpFgvy7E2iS22hEduA_xr?usp=drive_link",
+        "long_text_mm4kxsgy": "Rocky Wallet is being developed by Dune Labs as a core piece of Canton user infrastructure. Dune Labs is a thesis-driven global investment fund and incubator focused on blockchain infrastructure and open financial systems, and is committed to long-term ecosystem participation through both capital and product building. The wallet starts with essential custody and transfer capabilities for key Canton assets (CC, USDA, USDC, Hecto, cUSD, cBTC, cETH, USDCx) and has a clear roadmap toward: • Social incentives and bounty mechanisms • Multi-signature support • MCP and broader Web3 wallet standards • Instant messaging integrated with wallet functions • Native mobile application development This positions Rocky Wallet as both a practical daily tool for users and a natural on-ramp for future Canton applications, with a strong emphasis on social usability, incentives, and mobile accessibility. We view Featured App status as a valuable accelerator for genuine usage incentives, but not a prerequisite for the product’s existence or usefulness. Our goal is to be a reliable, privacy-aware, long-term wallet and social infrastructure partner for the Canton ecosystem."
       }
     }
   ]
