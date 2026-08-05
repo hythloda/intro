@@ -1,5 +1,5 @@
 window.FEATURED_APP_PARTYID_CHANGES_DATA = {
-  "generatedAt": "2026-08-04T09:19:02.142Z",
+  "generatedAt": "2026-08-05T09:17:41.813Z",
   "columns": [
     {
       "id": "long_text_mm4kq322",
@@ -13,6 +13,33 @@ window.FEATURED_APP_PARTYID_CHANGES_DATA = {
     }
   ],
   "changes": [
+    {
+      "id": "9ba7a979-145a-4a56-bd1b-96c348876c5b",
+      "changedAt": "2026-08-04T20:22:36.504Z",
+      "itemName": "Rocky Wallet - Dune Labs",
+      "itemId": "12709198693",
+      "field": "Party ID for the Featured Application:",
+      "previousValue": "",
+      "newValue": "dunelabs-validator-1::12203251ed85a1811755a4c7d1c0af8e50bf95bd72ae7fadd047e266d085a573e476"
+    },
+    {
+      "id": "8c6228b1-5974-4bec-b326-5cfb0dbcfbee",
+      "changedAt": "2026-08-04T15:52:27.098Z",
+      "itemName": "FairShares",
+      "itemId": "12467834273",
+      "field": "Locking PartyIDs",
+      "previousValue": "",
+      "newValue": "Was locked - removed Aug 4th"
+    },
+    {
+      "id": "20ef0d94-80c2-4729-8c3e-6b4710f4e7f7",
+      "changedAt": "2026-08-04T15:52:05.921Z",
+      "itemName": "FairShares",
+      "itemId": "12467834273",
+      "field": "Locking PartyIDs",
+      "previousValue": "23d169c2-0909-4c70-81d1-1922de6febaa::1220e88fd2c4184da237c4d2a89f31b2f6ae2ee88c073c3824c96b812cca51ab12a1",
+      "newValue": ""
+    },
     {
       "id": "0ccb4f04-1460-41e1-827c-a43795916c66",
       "changedAt": "2026-08-02T12:45:02.831Z",
@@ -165,33 +192,6 @@ window.FEATURED_APP_PARTYID_CHANGES_DATA = {
       "field": "Locking PartyIDs",
       "previousValue": "23d169c2-0909-4c70-81d1-1922de6febaa::12203f7f44f693ff10e4b9000fb25fb4e9a347dda71c5ef7e20e8819fd377012a8b1",
       "newValue": ""
-    },
-    {
-      "id": "580e4bfd-bf6b-4a80-a393-73716e21c3d5",
-      "changedAt": "2026-07-15T15:47:38.562Z",
-      "itemName": "Custodial Wrapped Assets",
-      "itemId": "12467790002",
-      "field": "Locking PartyIDs",
-      "previousValue": "23d169c2-0909-4c70-81d1-1922de6febaa::122056b88d963eeb73a25493d83cc0d3121069241f9775ff21686f90028f3b7496e5",
-      "newValue": ""
-    },
-    {
-      "id": "08e488d6-3c95-4099-8b2f-b2f95bcacc28",
-      "changedAt": "2026-07-15T15:47:10.872Z",
-      "itemName": "CBTC",
-      "itemId": "12467832779",
-      "field": "Locking PartyIDs",
-      "previousValue": "",
-      "newValue": "12208::122083335a5c1c4026b7d496b39d7e1750732c1f70c1833c71bc181a0e85a3af1ac8"
-    },
-    {
-      "id": "5be1a853-4fac-4c32-b5ac-df513fd8f3ae",
-      "changedAt": "2026-07-15T15:47:08.128Z",
-      "itemName": "iBTC Bitcoin Bridge",
-      "itemId": "12467824061",
-      "field": "Locking PartyIDs",
-      "previousValue": "12208::122083335a5c1c4026b7d496b39d7e1750732c1f70c1833c71bc181a0e85a3af1ac8",
-      "newValue": "12208::12208faed7b6894786c3b6b7f19bbafbef9a16755563d14949f144bf21bc98a74f08"
     }
   ]
 };
