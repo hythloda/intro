@@ -1,5 +1,5 @@
 window.FEATURED_APP_BOARD_DATA = {
-  "generatedAt": "2026-08-04T09:11:57.829Z",
+  "generatedAt": "2026-08-05T09:08:54.352Z",
   "columns": [
     {
       "id": "text_mm4k2vch",
@@ -2226,14 +2226,14 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467789257",
       "name": "Saxon Automate / Canton Keeper",
-      "updatedAt": "2026-08-04T05:01:57Z",
+      "updatedAt": "2026-08-04T14:00:14Z",
       "values": {
         "text_mm4k2vch": "Saxon",
         "color_mm4kmej3": "1-Needs Review",
         "long_text_mm4kq322": "saxon-various-1::12204c9e793fdcdd329d9a8bd307562e3493139d9fee257b1928be514d1d4950e5b6",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "saxon-various-1::12204c9e793fdcdd329d9a8bd307562e3493139d9fee257b1928be514d1d4950e5b6",
-        "numeric_mm4k6919": "0.1",
+        "numeric_mm4k6919": "0.3",
         "long_text_mm4km2s7": "Saxon Nodes operates NAAS (Node-as-a-Service) Canton validator infrastructure. We run validator nodes for multiple clients hosting Daml applications including Canton Swap, Cantara, and Digital Asset utility packages. We are building tooling to improve the operational efficiency and reward generation for all Canton validators",
         "link_mm4kmq24": "https://saxon-xyz.github.io/canton-keeper-docs/",
         "link_mm4krmse": "https://saxon-xyz.github.io/canton-keeper-docs/",
@@ -8292,7 +8292,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467790000",
       "name": "BENJI",
-      "updatedAt": "2026-08-03T11:00:36Z",
+      "updatedAt": "2026-08-04T11:00:23Z",
       "values": {
         "text_mm4k2vch": "Franklin Templeton",
         "color_mm4kmej3": "3-CIP-0116-paused",
@@ -8378,7 +8378,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467834325",
       "name": "ChainSafe x402 Global Facilitator",
-      "updatedAt": "2026-08-03T11:00:38Z",
+      "updatedAt": "2026-08-04T11:00:24Z",
       "values": {
         "text_mm4k2vch": "ChainSafe",
         "color_mm4kmej3": "1-Needs Review",
@@ -8407,7 +8407,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467834326",
       "name": "Squads Non-Custodial Wallet",
-      "updatedAt": "2026-08-03T11:00:39Z",
+      "updatedAt": "2026-08-04T11:00:26Z",
       "values": {
         "text_mm4k2vch": "SQUADS",
         "color_mm4kmej3": "1-Needs Review",
@@ -8463,7 +8463,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467824052",
       "name": "Canquest",
-      "updatedAt": "2026-08-03T11:00:41Z",
+      "updatedAt": "2026-08-04T11:00:27Z",
       "values": {
         "text_mm4k2vch": "Naxweb",
         "color_mm4kmej3": "1-Needs Review",
@@ -8495,7 +8495,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467824053",
       "name": "Deploi Credit Market",
-      "updatedAt": "2026-08-03T11:00:45Z",
+      "updatedAt": "2026-08-04T11:00:34Z",
       "values": {
         "text_mm4k2vch": "Deploi",
         "color_mm4kmej3": "1-Needs Review",
@@ -8557,7 +8557,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467824055",
       "name": "AUROX on Canton for featured app",
-      "updatedAt": "2026-08-03T11:00:46Z",
+      "updatedAt": "2026-08-04T11:00:36Z",
       "values": {
         "text_mm4k2vch": "International Institute of Blockchain Advanced Technology",
         "color_mm4kmej3": "1-Needs Review",
@@ -8614,7 +8614,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467832618",
       "name": "ScopeX Rate Lock",
-      "updatedAt": "2026-08-03T11:00:47Z",
+      "updatedAt": "2026-08-04T11:00:38Z",
       "values": {
         "text_mm4k2vch": "ScopeX Money",
         "color_mm4kmej3": "1-Needs Review",
@@ -8759,7 +8759,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467854321",
       "name": "Privket.com",
-      "updatedAt": "2026-08-03T11:00:49Z",
+      "updatedAt": "2026-08-04T11:00:40Z",
       "values": {
         "text_mm4k2vch": "Privket",
         "color_mm4kmej3": "6-Withdrawn",
@@ -9138,13 +9138,13 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467834273",
       "name": "FairShares",
-      "updatedAt": "2026-07-23T13:35:31Z",
+      "updatedAt": "2026-08-04T15:52:26Z",
       "values": {
         "text_mm4k2vch": "FairShares",
-        "color_mm4kmej3": "0-Locked+Needs Review",
+        "color_mm4kmej3": "1-Needs Review",
         "long_text_mm4kq322": "fairshares-app::1220b10c7ba1ec70b445c4c71b13ee0b251181a796bbfb0d5525a4226ddd324d29dd",
         "color_mm4kpp3q": "Non-Issuer",
-        "long_text_mm4khjn6": "23d169c2-0909-4c70-81d1-1922de6febaa::1220e88fd2c4184da237c4d2a89f31b2f6ae2ee88c073c3824c96b812cca51ab12a1",
+        "long_text_mm4khjn6": "Was locked - removed Aug 4th",
         "numeric_mm4k6919": "5.0",
         "long_text_mm4km2s7": "FairShares is an established real-world-asset (RWA) team that brings a live, shipped product and a proven on-chain track record to its Canton trading-card application. Investment backing: FairShares is backed by a strong roster of crypto-native investors, including DWF Ventures, Side Door Ventures, Sharding Capital, NxGen, and Saxon, among others. This institutional support reflects confidence in the team's execution and gives FairShares the runway and resources to build, launch, and scale on Canton. Track record on BNB Chain: FairShares first built and launched on BNB Chain, where it became the #1 RWA project on BNB Chain's ranking. Ahead of launch it assembled a 1M verified waitlist (wallet- and X-verified users). This demonstrates the team's ability to ship product, rank at the top of a competitive RWA ecosystem, and acquire a large, real user base — the same distribution engine we now bring to Canton. Together, a working product, a top RWA ranking, a sizable verified community, and committed investors position FairShares to bring meaningful, genuine activity to the Canton Network from day one.",
         "link_mm4kmq24": "https://fairshares.netlify.app/",
@@ -9198,7 +9198,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467783449",
       "name": "Mperps",
-      "updatedAt": "2026-08-03T11:00:51Z",
+      "updatedAt": "2026-08-04T11:00:42Z",
       "values": {
         "text_mm4k2vch": "Lemongrass IT Services LLC-Fz",
         "color_mm4kmej3": "1-Needs Review",
@@ -9226,7 +9226,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467783450",
       "name": "Canquest",
-      "updatedAt": "2026-08-03T11:00:52Z",
+      "updatedAt": "2026-08-04T11:00:44Z",
       "values": {
         "text_mm4k2vch": "Canquest",
         "color_mm4kmej3": "1-Needs Review",
@@ -9284,7 +9284,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12471377959",
       "name": "OpenBaskets - BlockxAI Limited",
-      "updatedAt": "2026-08-03T11:00:54Z",
+      "updatedAt": "2026-08-04T11:00:46Z",
       "values": {
         "text_mm4k2vch": "BlockxAI Limited",
         "color_mm4kmej3": "1-Needs Review",
@@ -9311,7 +9311,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12568365683",
       "name": "Synfin - Cayvox Labs",
-      "updatedAt": "2026-08-03T11:00:55Z",
+      "updatedAt": "2026-08-04T11:00:47Z",
       "values": {
         "text_mm4k2vch": "Cayvox Labs",
         "color_mm4kmej3": "1-Needs Review",
@@ -9395,7 +9395,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12609616425",
       "name": "Arkhia x402 Facilitator-as-a-Service (FaaS) - Arkhia Pte Ltd",
-      "updatedAt": "2026-08-03T11:00:56Z",
+      "updatedAt": "2026-08-04T11:00:49Z",
       "values": {
         "text_mm4k2vch": "Arkhia Pte Ltd",
         "color_mm4kmej3": "1-Needs Review",
@@ -9427,7 +9427,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12626943292",
       "name": "Yellow Card - Yellow Card Financial Inc.",
-      "updatedAt": "2026-08-03T11:00:58Z",
+      "updatedAt": "2026-08-04T11:00:50Z",
       "values": {
         "text_mm4k2vch": "Yellow Card Financial Inc.",
         "color_mm4kmej3": "1-Needs Review",
@@ -9457,12 +9457,14 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12709198693",
       "name": "Rocky Wallet - Dune Labs",
-      "updatedAt": "2026-08-04T04:03:38Z",
+      "updatedAt": "2026-08-04T20:22:36Z",
       "values": {
         "text_mm4k2vch": "Dune Labs",
         "color_mm4kmej3": "1-Needs Review",
+        "long_text_mm4kq322": "dunelabs-validator-1::12203251ed85a1811755a4c7d1c0af8e50bf95bd72ae7fadd047e266d085a573e476",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "23d169c2-0909-4c70-81d1-1922de6febaa::12200a265be75cf1f7c03fbcc0d28e221e94946e627115c489b751ae3ef700c4859d",
+        "numeric_mm4k6919": "5.0",
         "long_text_mm4km2s7": "Dune Labs is a global investment fund and incubator focused on blockchain infrastructure and open financial systems. We provide long-term capital, strategic guidance, and ecosystem resources to exceptional founders, with a focus on infrastructure, liquidity & market structure, DeFi, emerging networks, and AI × Crypto. We believe the Canton Network represents critical foundational infrastructure for institutional blockchain adoption. Its emphasis on privacy, interoperability, and regulated digital assets closely aligns with our long-term investment thesis. As part of our commitment to the Canton ecosystem, Dune Labs is developing Rocky Wallet — a native Canton wallet designed to serve as a practical gateway for users to hold, transfer, and interact with Canton assets. Beyond pure capital deployment, we actively build products that strengthen user experience and on-chain utility on the networks we support. Rocky Wallet currently offers core self-custodial wallet functions on Canton, and has a clear product roadmap that includes: • Social features such as WeChat-style red packet (hongbao) transfers • Multi-signature support for institutional and collaborative use cases • Support for MCP and other modern Web3 wallet standards • Instant messaging capabilities integrated with wallet functions • Native mobile application development Dune Labs brings a global network of founders, institutional investors, exchanges, market makers, and strategic partners. We aim to connect high-quality projects, long-term capital, and real users to Canton, accelerating institutional adoption and ecosystem growth. Our goal is to be a long-term capital partner and infrastructure contributor to the Canton Network, supporting its development through both investment and hands-on product building such as Rocky Wallet.",
         "link_mm4kd0hk": "https://drive.google.com/drive/folders/1NMPHPodxwDYTpFgvy7E2iS22hEduA_xr?usp=drive_link",
         "link_mm4kmq24": "https://extension.rocky.exchange/",
