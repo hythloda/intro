@@ -1,5 +1,5 @@
 window.FEATURED_APP_BOARD_DATA = {
-  "generatedAt": "2026-08-05T09:08:54.352Z",
+  "generatedAt": "2026-08-06T09:08:44.891Z",
   "columns": [
     {
       "id": "text_mm4k2vch",
@@ -1868,7 +1868,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467790154",
       "name": "Ov Defi",
-      "updatedAt": "2026-08-04T05:01:56Z",
+      "updatedAt": "2026-08-05T11:00:09Z",
       "values": {
         "text_mm4k2vch": "OneNov",
         "color_mm4kmej3": "1-Needs Review",
@@ -2153,10 +2153,10 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467838290",
       "name": "arCCade validator",
-      "updatedAt": "2026-07-23T13:35:28Z",
+      "updatedAt": "2026-08-05T19:17:05Z",
       "values": {
         "text_mm4k2vch": "Arccade",
-        "color_mm4kmej3": "0-Locked+Needs Review",
+        "color_mm4kmej3": "6-Withdrawn",
         "long_text_mm4kq322": "arccade-bridge-lock::1220d95addc987e45a57bb14179d834de16a282f473041c25bc1766aa65b3b33de5b",
         "color_mm4kpp3q": "Non-Issuer",
         "numeric_mm4k6919": "5.0",
@@ -2226,14 +2226,14 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467789257",
       "name": "Saxon Automate / Canton Keeper",
-      "updatedAt": "2026-08-04T14:00:14Z",
+      "updatedAt": "2026-08-05T11:00:11Z",
       "values": {
         "text_mm4k2vch": "Saxon",
         "color_mm4kmej3": "1-Needs Review",
         "long_text_mm4kq322": "saxon-various-1::12204c9e793fdcdd329d9a8bd307562e3493139d9fee257b1928be514d1d4950e5b6",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "saxon-various-1::12204c9e793fdcdd329d9a8bd307562e3493139d9fee257b1928be514d1d4950e5b6",
-        "numeric_mm4k6919": "0.3",
+        "numeric_mm4k6919": "0.1",
         "long_text_mm4km2s7": "Saxon Nodes operates NAAS (Node-as-a-Service) Canton validator infrastructure. We run validator nodes for multiple clients hosting Daml applications including Canton Swap, Cantara, and Digital Asset utility packages. We are building tooling to improve the operational efficiency and reward generation for all Canton validators",
         "link_mm4kmq24": "https://saxon-xyz.github.io/canton-keeper-docs/",
         "link_mm4krmse": "https://saxon-xyz.github.io/canton-keeper-docs/",
@@ -3087,7 +3087,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467838259",
       "name": "Wintip",
-      "updatedAt": "2026-07-28T11:53:02Z",
+      "updatedAt": "2026-08-05T14:08:49Z",
       "values": {
         "text_mm4k2vch": "Winsnip",
         "color_mm4kmej3": "0-Locked+Needs Review",
@@ -3537,10 +3537,10 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467838256",
       "name": "Centra",
-      "updatedAt": "2026-07-23T13:35:25Z",
+      "updatedAt": "2026-08-05T19:17:52Z",
       "values": {
         "text_mm4k2vch": "Centra Ltd.",
-        "color_mm4kmej3": "1-Needs Review",
+        "color_mm4kmej3": "0-Locked+Needs Review",
         "long_text_mm4kq322": "centra-platform-1::1220e67a994ff67c9ca862d3fdd3c81cd8ad389675ade934945460cc5f7f6fe6fe67",
         "color_mm4kpp3q": "Non-Issuer",
         "numeric_mm4k6919": "5.0",
@@ -3622,7 +3622,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467789103",
       "name": "Jubilee Treasury",
-      "updatedAt": "2026-08-04T05:02:00Z",
+      "updatedAt": "2026-08-05T11:00:12Z",
       "values": {
         "text_mm4k2vch": "Jubilee Treasury",
         "color_mm4kmej3": "6-Withdrawn",
@@ -3679,10 +3679,10 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467815978",
       "name": "arCCade swap",
-      "updatedAt": "2026-07-23T13:35:34Z",
+      "updatedAt": "2026-08-05T19:17:16Z",
       "values": {
         "text_mm4k2vch": "Arccade",
-        "color_mm4kmej3": "0-Locked+Needs Review",
+        "color_mm4kmej3": "2-Approved",
         "long_text_mm4kq322": "arccade-swap-lock::1220b9f238325e14ffb47255dd3f96d45f2caac70f17cd60011020b0020d34c3176d",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "23d169c2-0909-4c70-81d1-1922de6febaa::1220e5490780796d2d958148c6d13aa7a4546278bfa22d4d96b3bff13cbb6b15c568",
@@ -3709,10 +3709,10 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467837732",
       "name": "arCCade validator copy",
-      "updatedAt": "2026-07-23T13:35:32Z",
+      "updatedAt": "2026-08-05T19:17:18Z",
       "values": {
         "text_mm4k2vch": "Arccade",
-        "color_mm4kmej3": "0-Locked+Needs Review",
+        "color_mm4kmej3": "2-Approved",
         "long_text_mm4kq322": "arccade-validator-lock::1220dc99e772221ed3b3b40ffb27135528ebabb9893c6ef28cb71fc171337b72ba6b",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "23d169c2-0909-4c70-81d1-1922de6febaa::1220999192018ecb304d44b7e2efd9bebdf8030fa923e3d55a5366a91955644c8275",
@@ -3764,7 +3764,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467790155",
       "name": "Mperps",
-      "updatedAt": "2026-08-04T05:02:02Z",
+      "updatedAt": "2026-08-05T11:00:15Z",
       "values": {
         "text_mm4k2vch": "Lemongrass IT Services LLC-Fz",
         "color_mm4kmej3": "1-Needs Review",
@@ -4913,7 +4913,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467806176",
       "name": "Rapid Chain",
-      "updatedAt": "2026-08-04T05:02:03Z",
+      "updatedAt": "2026-08-05T11:00:17Z",
       "values": {
         "text_mm4k2vch": "Rapid Blockchain Technologies Ltd.",
         "color_mm4kmej3": "5-Revoked",
@@ -5906,7 +5906,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467810726",
       "name": "Parthenon",
-      "updatedAt": "2026-07-23T13:35:29Z",
+      "updatedAt": "2026-08-05T14:07:52Z",
       "values": {
         "text_mm4k2vch": "Finkfi Inc",
         "color_mm4kmej3": "0-Locked+Needs Review",
@@ -5986,7 +5986,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467856988",
       "name": "MEME token and Coinflip",
-      "updatedAt": "2026-08-04T05:02:05Z",
+      "updatedAt": "2026-08-05T11:00:19Z",
       "values": {
         "text_mm4k2vch": "Archerswap",
         "color_mm4kmej3": "1-Needs Review",
@@ -6518,7 +6518,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467790006",
       "name": "CC Ledger",
-      "updatedAt": "2026-08-04T05:02:07Z",
+      "updatedAt": "2026-08-05T11:00:23Z",
       "values": {
         "text_mm4k2vch": "Blueprint Infrastructure, LLC",
         "color_mm4kmej3": "1-Needs Review",
@@ -7125,7 +7125,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467847770",
       "name": "VAULT",
-      "updatedAt": "2026-08-04T05:02:19Z",
+      "updatedAt": "2026-08-05T11:00:25Z",
       "values": {
         "text_mm4k2vch": "HighTower",
         "color_mm4kmej3": "1-Needs Review",
@@ -7215,7 +7215,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467847773",
       "name": "CC Space",
-      "updatedAt": "2026-08-04T05:02:21Z",
+      "updatedAt": "2026-08-05T11:00:28Z",
       "values": {
         "text_mm4k2vch": "ITRocket LLC",
         "color_mm4kmej3": "1-Needs Review",
@@ -7300,7 +7300,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467847778",
       "name": "Ov Defi",
-      "updatedAt": "2026-08-04T05:02:22Z",
+      "updatedAt": "2026-08-05T11:00:31Z",
       "values": {
         "text_mm4k2vch": "OneNov",
         "color_mm4kmej3": "1-Needs Review",
@@ -7644,7 +7644,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467825386",
       "name": "Agora: Survey & Vote",
-      "updatedAt": "2026-08-04T05:02:24Z",
+      "updatedAt": "2026-08-05T11:00:32Z",
       "values": {
         "text_mm4k2vch": "Agora: Survey & Vote",
         "color_mm4kmej3": "1-Needs Review",
@@ -8292,7 +8292,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467790000",
       "name": "BENJI",
-      "updatedAt": "2026-08-04T11:00:23Z",
+      "updatedAt": "2026-08-05T11:00:34Z",
       "values": {
         "text_mm4k2vch": "Franklin Templeton",
         "color_mm4kmej3": "3-CIP-0116-paused",
@@ -8378,7 +8378,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467834325",
       "name": "ChainSafe x402 Global Facilitator",
-      "updatedAt": "2026-08-04T11:00:24Z",
+      "updatedAt": "2026-08-05T11:00:37Z",
       "values": {
         "text_mm4k2vch": "ChainSafe",
         "color_mm4kmej3": "1-Needs Review",
@@ -8407,7 +8407,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467834326",
       "name": "Squads Non-Custodial Wallet",
-      "updatedAt": "2026-08-04T11:00:26Z",
+      "updatedAt": "2026-08-05T11:00:38Z",
       "values": {
         "text_mm4k2vch": "SQUADS",
         "color_mm4kmej3": "1-Needs Review",
@@ -8463,7 +8463,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467824052",
       "name": "Canquest",
-      "updatedAt": "2026-08-04T11:00:27Z",
+      "updatedAt": "2026-08-05T11:00:40Z",
       "values": {
         "text_mm4k2vch": "Naxweb",
         "color_mm4kmej3": "1-Needs Review",
@@ -8495,7 +8495,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467824053",
       "name": "Deploi Credit Market",
-      "updatedAt": "2026-08-04T11:00:34Z",
+      "updatedAt": "2026-08-05T11:00:43Z",
       "values": {
         "text_mm4k2vch": "Deploi",
         "color_mm4kmej3": "1-Needs Review",
@@ -8557,7 +8557,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467824055",
       "name": "AUROX on Canton for featured app",
-      "updatedAt": "2026-08-04T11:00:36Z",
+      "updatedAt": "2026-08-05T11:00:45Z",
       "values": {
         "text_mm4k2vch": "International Institute of Blockchain Advanced Technology",
         "color_mm4kmej3": "1-Needs Review",
@@ -8588,10 +8588,10 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467832617",
       "name": "Cove Wallet API",
-      "updatedAt": "2026-07-23T13:35:25Z",
+      "updatedAt": "2026-08-05T15:56:03Z",
       "values": {
         "text_mm4k2vch": "Qasara Labs Private Limited",
-        "color_mm4kmej3": "1-Needs Review",
+        "color_mm4kmej3": "6-Withdrawn",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "TBC",
         "numeric_mm4k6919": "0.0",
@@ -8614,7 +8614,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467832618",
       "name": "ScopeX Rate Lock",
-      "updatedAt": "2026-08-04T11:00:38Z",
+      "updatedAt": "2026-08-05T11:00:46Z",
       "values": {
         "text_mm4k2vch": "ScopeX Money",
         "color_mm4kmej3": "1-Needs Review",
@@ -8699,10 +8699,10 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467854318",
       "name": "Canpay",
-      "updatedAt": "2026-07-23T13:35:24Z",
+      "updatedAt": "2026-08-05T19:17:37Z",
       "values": {
         "text_mm4k2vch": "Foundinals Lab",
-        "color_mm4kmej3": "0-Locked+Needs Review",
+        "color_mm4kmej3": "1-Needs Review",
         "long_text_mm4kq322": "foundinalsunthy-mainnet-1::12201004202ad4f2ba69d160e148899596aa294db698917f3aaef063afcb0a412c83",
         "color_mm4kpp3q": "Asset Issuer",
         "long_text_mm4khjn6": "To be submitted before June 19th if issuer pary ID approved",
@@ -8759,7 +8759,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467854321",
       "name": "Privket.com",
-      "updatedAt": "2026-08-04T11:00:40Z",
+      "updatedAt": "2026-08-05T11:00:48Z",
       "values": {
         "text_mm4k2vch": "Privket",
         "color_mm4kmej3": "6-Withdrawn",
@@ -9138,7 +9138,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467834273",
       "name": "FairShares",
-      "updatedAt": "2026-08-04T15:52:26Z",
+      "updatedAt": "2026-08-05T19:18:37Z",
       "values": {
         "text_mm4k2vch": "FairShares",
         "color_mm4kmej3": "1-Needs Review",
@@ -9198,7 +9198,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467783449",
       "name": "Mperps",
-      "updatedAt": "2026-08-04T11:00:42Z",
+      "updatedAt": "2026-08-05T11:00:50Z",
       "values": {
         "text_mm4k2vch": "Lemongrass IT Services LLC-Fz",
         "color_mm4kmej3": "1-Needs Review",
@@ -9226,7 +9226,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467783450",
       "name": "Canquest",
-      "updatedAt": "2026-08-04T11:00:44Z",
+      "updatedAt": "2026-08-05T11:00:52Z",
       "values": {
         "text_mm4k2vch": "Canquest",
         "color_mm4kmej3": "1-Needs Review",
@@ -9284,7 +9284,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12471377959",
       "name": "OpenBaskets - BlockxAI Limited",
-      "updatedAt": "2026-08-04T11:00:46Z",
+      "updatedAt": "2026-08-05T11:00:53Z",
       "values": {
         "text_mm4k2vch": "BlockxAI Limited",
         "color_mm4kmej3": "1-Needs Review",
@@ -9311,7 +9311,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12568365683",
       "name": "Synfin - Cayvox Labs",
-      "updatedAt": "2026-08-04T11:00:47Z",
+      "updatedAt": "2026-08-05T11:00:55Z",
       "values": {
         "text_mm4k2vch": "Cayvox Labs",
         "color_mm4kmej3": "1-Needs Review",
@@ -9395,7 +9395,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12609616425",
       "name": "Arkhia x402 Facilitator-as-a-Service (FaaS) - Arkhia Pte Ltd",
-      "updatedAt": "2026-08-04T11:00:49Z",
+      "updatedAt": "2026-08-05T11:00:56Z",
       "values": {
         "text_mm4k2vch": "Arkhia Pte Ltd",
         "color_mm4kmej3": "1-Needs Review",
@@ -9427,7 +9427,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12626943292",
       "name": "Yellow Card - Yellow Card Financial Inc.",
-      "updatedAt": "2026-08-04T11:00:50Z",
+      "updatedAt": "2026-08-05T11:00:58Z",
       "values": {
         "text_mm4k2vch": "Yellow Card Financial Inc.",
         "color_mm4kmej3": "1-Needs Review",
@@ -9457,10 +9457,10 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12709198693",
       "name": "Rocky Wallet - Dune Labs",
-      "updatedAt": "2026-08-04T20:22:36Z",
+      "updatedAt": "2026-08-05T19:18:04Z",
       "values": {
         "text_mm4k2vch": "Dune Labs",
-        "color_mm4kmej3": "1-Needs Review",
+        "color_mm4kmej3": "0-Locked+Needs Review",
         "long_text_mm4kq322": "dunelabs-validator-1::12203251ed85a1811755a4c7d1c0af8e50bf95bd72ae7fadd047e266d085a573e476",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "23d169c2-0909-4c70-81d1-1922de6febaa::12200a265be75cf1f7c03fbcc0d28e221e94946e627115c489b751ae3ef700c4859d",
@@ -9486,6 +9486,32 @@ window.FEATURED_APP_BOARD_DATA = {
         "long_text_mm4khbeg": "https://github.com/thedunelabs/Rocky-Wallet",
         "long_text_mm4kp5en": "https://drive.google.com/drive/folders/1NMPHPodxwDYTpFgvy7E2iS22hEduA_xr?usp=drive_link",
         "long_text_mm4kxsgy": "Rocky Wallet is being developed by Dune Labs as a core piece of Canton user infrastructure. Dune Labs is a thesis-driven global investment fund and incubator focused on blockchain infrastructure and open financial systems, and is committed to long-term ecosystem participation through both capital and product building. The wallet starts with essential custody and transfer capabilities for key Canton assets (CC, USDA, USDC, Hecto, cUSD, cBTC, cETH, USDCx) and has a clear roadmap toward: • Social incentives and bounty mechanisms • Multi-signature support • MCP and broader Web3 wallet standards • Instant messaging integrated with wallet functions • Native mobile application development This positions Rocky Wallet as both a practical daily tool for users and a natural on-ramp for future Canton applications, with a strong emphasis on social usability, incentives, and mobile accessibility. We view Featured App status as a valuable accelerator for genuine usage incentives, but not a prerequisite for the product’s existence or usefulness. Our goal is to be a reliable, privacy-aware, long-term wallet and social infrastructure partner for the Canton ecosystem."
+      }
+    },
+    {
+      "id": "12731951755",
+      "name": "Cove Wallet API - Qasara Labs Private Limited",
+      "updatedAt": "2026-08-06T04:03:38Z",
+      "values": {
+        "text_mm4k2vch": "Qasara Labs Private Limited",
+        "color_mm4kmej3": "1-Needs Review",
+        "color_mm4kpp3q": "Non-Issuer",
+        "long_text_mm4khjn6": "cove-pdyctwhntx::1220694ba083b3767511d89166b5421573deb96b62bad3452f9dba9335c24672e8ed",
+        "long_text_mm4km2s7": "Qasara Labs builds the institutional access layer for DeFi on the Canton Network. We serve programmatic users that existing consumer-focused Canton apps do not address: market makers, OTC desks, fintech platforms, custodians, and exchanges. Qasara operates its own Canton MainNet validator and contributes open-source infrastructure to the ecosystem, including an event-stream service proposed to the Development Fund.",
+        "link_mm4kmq24": "https://qasara.ai/cove",
+        "long_text_mm4k2537": "Cove Wallet API is a non-custodial REST gateway that lets developers, trading bots, exchanges, and fintech platforms transact on the Canton Network without running their own validator. It uses a prepare-sign-broadcast pattern: Cove prepares transactions, the client signs externally with their own private keys, and Cove broadcasts the signed transaction to Canton. Cove never holds private keys. On top of this it ships the full regulated-asset lifecycle: issuance (exactly-once minting), delivery (non-custodial, against on-ledger pre-authorisation), and redemption (issuer burn). It also provides real-time event streams (WebSocket and Server-Sent Events) for settlement and reconciliation.",
+        "long_text_mm5hgry2": "No. The Cove Wallet API is Canton-native and has never been deployed on another blockchain. It is built directly on Canton's Ledger API.",
+        "long_text_mm4k4y1h": "- Trading firms and market makers integrating Canton-native DeFi venues into their execution stacks. - OTC desks and custodians automating settlement and reconciliation flows for tokenized assets. - Fintech platforms and exchanges adding Canton support to existing custody or trading products without operating Canton infrastructure themselves. - Independent developers and quant teams building bots, analytics tools, and integrations on top of a stable REST/streaming surface. - Tokenized-asset issuers that need a programmatic interface for issuance, delivery, and redemption.",
+        "long_text_mm4k15bg": "Cove earns from user-initiated, on-ledger activity submitted through the API and routed through our proxy, so that our application party is a confirmer on the resulting transaction. Reward-earning activities: 1. CC and CIP-0056 token transfers initiated through the API: peer-to-peer transfers, settlement legs, custodial top-ups, batched transfers. 2. Transfer legs of tokenized-asset lifecycle flows: the delivery of a newly issued asset to its holder, holding moves, and the transfer leg of a redemption. 3. The transfer and allocation legs of DeFi flows routed through the API: the allocation that funds a swap or a liquidity operation, and the settlement transfers that return value to the user, as Canton-native connectors come online. 4. DvP atomic settlement, through the allocation and allocation-withdraw choices. We do not claim rewards on: - Reads, or any zero-fee activity. - Internal bookkeeping and operational transactions (party allocation, telemetry, reconciliation, internal fee collection). These are submitted by operational parties that are not the featured-app provider. - The mint itself. Issuance exercises the registry's own BurnMint choices, which the proxy does not wrap, so we earn on the delivery transfer that follows a mint and not on the mint. Our party earns only where it is genuinely a confirmer, which is the token-standard transfer and allocation choices the proxy wraps.",
+        "long_text_mm4kh3fw": "The Cove Wallet API is a thin layer over the standard Canton Ledger API: 1. Party allocation: clients allocate Canton parties and hold their own private keys. Cove never sees them, and stores only public-key fingerprints and party metadata. External parties sign their own topology at creation. 2. Read: Cove exposes contract queries, balance lookups, and event streams (active-contracts snapshot plus transaction subscription) over REST and WebSocket/SSE. 3. Prepare: for any state-changing operation, the client requests a prepared transaction. Cove constructs the command, fetches the required disclosed contracts, computes the transaction hash, and returns the unsigned bundle. For reward-eligible flows the command is the WalletUserProxy exercise described above. 4. Sign (client-side): the client signs the prepared hash with its own key. Cove never holds private keys. 5. Broadcast: the client submits the signed transaction to Cove, and Cove submits it to the Ledger API under a durable command id. That way a retry after a lost response is an idempotent resubmission rather than a second execution. 6. Ingest: a separate ingester subscribes to the participant's transaction stream and publishes normalised events that fan out to client WebSocket/SSE connections. Live today, and differentiating: - Regulated-asset issuance with exactly-once minting. An idempotent, crash-safe mint pipeline keyed to a business reference, so a repeated or resumed call cannot double-mint and break an issuer's 1:1 collateral invariant. Running against a DA Utility Registry instrument. - Non-custodial delivery via on-ledger TransferPreapproval. Atomic settlement to a receiver that pre-authorised once, with no per-transfer co-signing. - Issuer burn and redemption, via the BurnMint path. - Non-custodial by construction. Client-side signing, replay protection via Canton command-deduplication, per-key authentication, rate tiers, IP allowlists, and party-scoped tenant isolation so one customer's key c...",
+        "long_text_mm4kfg50": "Both. The same WalletUserProxy placement earns under both reward models, so the Increment 4 cutover needs no change to our integration, and rewards are denominated in Canton Coin either way. Today on MainNet the proxy exercise records a FeaturedAppActivityMarker inline (via the FeaturedAppRight), which SV automation converts into an AppRewardCoupon. Under CIP-0104 Increment 4 the same placement earns directly from traffic attribution and the marker becomes redundant. We have verified both paths on DevNet. The marker is recorded in the same transaction that moves value, so there is exactly one per committed user transaction and none for reads, batches, or failed transactions.",
+        "long_text_mm4kxcm2": "The user base has a long tail. Typical daily transactions per user by segment: - Custodian / OTC desk: 5-50 - Tokenized-asset issuer: 1-20 - Fintech platform: 10-100 - Trading bot / market maker: 100-500+ - Independent developer: 1-10",
+        "long_text_mm4kvyjq": "Transactions per round are driven by the user's own business activity, within the per-key tier rate limit; the API never manufactures or multiplies transactions. A user legitimately submits several per round when: - Running a market-making strategy that re-quotes on price ticks. - Settling a batch of OTC trades or scheduled transfers in one processing window. - Performing a multi-leg DeFi flow (allocate, then swap, then forward) that becomes several ledger commands. - Reacting to inbound activity (CIP-0056 acceptance, fee disbursement, internal book transfers triggered by deposits). - Fanning a single market signal into per-account orders. Each is a distinct business event, and every transaction costs the submitter Canton Coin traffic, so the count reflects genuine activity rather than manufactured volume. We map one business event to one settled ledger transaction (institutional users need per-event settlement guarantees) rather than batching, and each reward-eligible transaction records exactly one marker on commit.",
+        "long_text_mm4k1cm0": "Linear. Each customer's transaction volume is bounded by their own business activity, meaning order flow, settlement schedule and asset-lifecycle operations, not by anything Qasara controls. A market maker generates transactions in proportion to the markets they quote; an OTC desk in proportion to the trades they book; an issuer in proportion to the assets they administer. Each customer's rate comes from their own workflow and settles down once their integration is complete. Doubling the customer count roughly doubles transaction volume.",
+        "long_text_mm4kd4h2": "Already live on MainNet.",
+        "long_text_mm4kfkwn": "- A payment service integrating for tokenized-asset settlement. - A DeFi venue integrating for programmatic trade connectivity and settlement.",
+        "long_text_mm4k6q73": "Significant but not existential. We still launch and serve institutional users regardless, since our economics also rest on commercial revenue and validator hosting rewards. But we need FA status to grow on Canton at the pace we are planning. Application rewards fund the discounted integration, meaning fees, support and custom DAML work, that brings institutional customers onto the network. Without it, that onboarding is materially slower.",
+        "long_text_mm4kwxt1": "Yes. Four controls: 1. Client-side signing required. Cove never holds private keys. Every state-changing transaction must be signed by the client's external key against the Cove-prepared hash, with replay protection via Canton's command-deduplication. Authenticated API keys with per-tier rate limits gate access at the edge. 2. Party-scoped tenant isolation. An API key may only act for parties its own account owns, enforced at every acting-as endpoint. One customer cannot transact as, or read the transfer history of, another. 3. Reward scoping. The proxy is applied only to bona-fide user-driven workflows. Internal bookkeeping and operational transactions are submitted by separate parties that are not the featured-app provider, so they cannot generate rewards even accidentally. 4. Economic alignment. Every transaction consumes Canton Coin traffic, paid by the submitting participant. Self-dealing or zero-value looping therefore costs CC with no offsetting gain."
       }
     }
   ]
