@@ -30,6 +30,7 @@ jobs:
           GROUPS_IO: ${{ secrets.GROUPS_IO }}
           GROUPSIO: ${{ secrets.GROUPSIO }}
           COMMITTEE_EMAIL_TO_COMPANY_JSON: ${{ secrets.COMMITTEE_EMAIL_TO_COMPANY_JSON }}
+          COMMITTEE_GROUP_IDS_JSON: ${{ secrets.COMMITTEE_GROUP_IDS_JSON }}
         run: node scripts/sync-committee-companies.mjs
 
       - name: Commit updated committee companies

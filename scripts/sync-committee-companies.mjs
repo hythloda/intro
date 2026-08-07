@@ -8,7 +8,6 @@ const repoRoot = path.resolve(__dirname, "..");
 const OUTPUT_PATH = path.join(repoRoot, "assets", "committee-companies-data.js");
 const DOMAIN_MAP_PATH = path.join(repoRoot, "data", "member-domain-map.json");
 const GROUPS_IO_BASE_URL = (process.env.GROUPS_IO_BASE_URL || "https://lists.sync.global/api/v1").replace(/\/$/, "");
-const GROUPS_IO_DIRECTORY_BASE_URL = (process.env.GROUPS_IO_DIRECTORY_BASE_URL || "https://groups.io/api/v1").replace(/\/$/, "");
 const GROUPS_IO_PARENT_GROUP = process.env.GROUPS_IO_PARENT_GROUP || "globalSyncForum";
 
 const API_KEY = process.env.GROUPS_IO_API_KEY
@@ -168,6 +167,9 @@ function getGroupNameCandidates(groupName) {
   const candidates = [
     groupName,
     `${GROUPS_IO_PARENT_GROUP}+${groupName}`,
+    `${GROUPS_IO_PARENT_GROUP}/${groupName}`,
+    `${GROUPS_IO_PARENT_GROUP}.${groupName}`,
+    `${GROUPS_IO_PARENT_GROUP}-${groupName}`,
     `${groupName}@lists.sync.global`
   ];
 
@@ -242,11 +244,12 @@ async function fetchGroupMembersForName(groupName) {
 }
 
 async function fetchSubscribedGroups() {
-  const groups = [];
+  const subgroups = [];
   let pageToken = "";
 
   do {
-    const url = new URL(`${GROUPS_IO_DIRECTORY_BASE_URL}/groups`);
+    const url = new URL(`${GROUPS_IO_BASE_URL}/getsubgroups`);
+    url.searchParams.set("group_name", GROUPS_IO_PARENT_GROUP);
     url.searchParams.set("limit", "100");
 
     if (pageToken) {
@@ -254,14 +257,14 @@ async function fetchSubscribedGroups() {
     }
 
     const payload = await fetchJson(url);
-    groups.push(...getListFromPayload(payload));
+    subgroups.push(...getListFromPayload(payload));
 
     pageToken = payload.has_more && payload.next_page_token
       ? String(payload.next_page_token)
       : "";
   } while (pageToken);
 
-  return groups;
+  return subgroups;
 }
 
 function valueLooksLikeGroup(value, groupName) {
@@ -309,13 +312,26 @@ async function fetchGroupMembers(groupName, getSubscribedGroups) {
     }
   }
 
-  const subscribedGroups = await getSubscribedGroups();
+  let subscribedGroups = [];
+  try {
+    subscribedGroups = await getSubscribedGroups();
+  } catch (error) {
+    throw new Error(`${errors.join("; ")}; subgroup lookup failed: ${error.message}. If Groups.io requires IDs for this enterprise, set COMMITTEE_GROUP_IDS_JSON as a repository secret.`);
+  }
+
   const groupId = resolveGroupId(subscribedGroups, groupName);
   if (groupId) {
     return await fetchGroupMembersForQuery({ group_id: String(groupId) });
   }
 
-  throw new Error(errors.join("; "));
+  throw new Error(`${errors.join("; ")}; no matching subgroup ID was found. If Groups.io requires IDs for this enterprise, set COMMITTEE_GROUP_IDS_JSON as a repository secret.`);
+}
+
+function getConfiguredGroupId(committee, groupIds) {
+  return groupIds[committee.key]
+    || groupIds[committee.group]
+    || groupIds[committee.label]
+    || "";
 }
 
 function assertNoEmails(output) {
@@ -330,6 +346,7 @@ async function main() {
 
   const domainMap = await readJson(DOMAIN_MAP_PATH);
   const emailOverrides = readJsonEnv("COMMITTEE_EMAIL_TO_COMPANY_JSON");
+  const groupIds = readJsonEnv("COMMITTEE_GROUP_IDS_JSON");
   const committees = {};
   const groupCache = new Map();
   let subscribedGroupsPromise = null;
@@ -343,7 +360,12 @@ async function main() {
 
   for (const committee of COMMITTEES) {
     if (!groupCache.has(committee.group)) {
-      groupCache.set(committee.group, await fetchGroupMembers(committee.group, getSubscribedGroups));
+      const configuredGroupId = getConfiguredGroupId(committee, groupIds);
+      const members = configuredGroupId
+        ? await fetchGroupMembersForQuery({ group_id: String(configuredGroupId) })
+        : await fetchGroupMembers(committee.group, getSubscribedGroups);
+
+      groupCache.set(committee.group, members);
     }
 
     const members = groupCache.get(committee.group);
