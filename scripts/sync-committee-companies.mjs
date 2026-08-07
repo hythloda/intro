@@ -8,6 +8,7 @@ const repoRoot = path.resolve(__dirname, "..");
 const OUTPUT_PATH = path.join(repoRoot, "assets", "committee-companies-data.js");
 const DOMAIN_MAP_PATH = path.join(repoRoot, "data", "member-domain-map.json");
 const GROUPS_IO_BASE_URL = (process.env.GROUPS_IO_BASE_URL || "https://lists.sync.global/api/v1").replace(/\/$/, "");
+const GROUPS_IO_DIRECTORY_BASE_URL = (process.env.GROUPS_IO_DIRECTORY_BASE_URL || "https://groups.io/api/v1").replace(/\/$/, "");
 const GROUPS_IO_PARENT_GROUP = process.env.GROUPS_IO_PARENT_GROUP || "globalSyncForum";
 
 const API_KEY = process.env.GROUPS_IO_API_KEY
@@ -166,7 +167,8 @@ function getListFromPayload(payload) {
 function getGroupNameCandidates(groupName) {
   const candidates = [
     groupName,
-    `${GROUPS_IO_PARENT_GROUP}+${groupName}`
+    `${GROUPS_IO_PARENT_GROUP}+${groupName}`,
+    `${groupName}@lists.sync.global`
   ];
 
   const lowerGroupName = groupName.toLowerCase();
@@ -244,7 +246,7 @@ async function fetchSubscribedGroups() {
   let pageToken = "";
 
   do {
-    const url = new URL(`${GROUPS_IO_BASE_URL}/groups`);
+    const url = new URL(`${GROUPS_IO_DIRECTORY_BASE_URL}/groups`);
     url.searchParams.set("limit", "100");
 
     if (pageToken) {
