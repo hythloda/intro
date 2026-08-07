@@ -8,6 +8,7 @@ const repoRoot = path.resolve(__dirname, "..");
 const OUTPUT_PATH = path.join(repoRoot, "assets", "committee-companies-data.js");
 const DOMAIN_MAP_PATH = path.join(repoRoot, "data", "member-domain-map.json");
 const GROUPS_IO_BASE_URL = (process.env.GROUPS_IO_BASE_URL || "https://lists.sync.global/api/v1").replace(/\/$/, "");
+const GROUPS_IO_PARENT_GROUP = process.env.GROUPS_IO_PARENT_GROUP || "globalSyncForum";
 
 const API_KEY = process.env.GROUPS_IO_API_KEY
   || process.env.GROUPS_IO_TOKEN
@@ -150,7 +151,22 @@ function getMembersFromPayload(payload) {
   return [];
 }
 
-async function fetchGroupMembers(groupName) {
+function getGroupNameCandidates(groupName) {
+  const candidates = [
+    groupName,
+    `${GROUPS_IO_PARENT_GROUP}+${groupName}`
+  ];
+
+  const lowerGroupName = groupName.toLowerCase();
+  const lowerSubgroupCandidate = `${GROUPS_IO_PARENT_GROUP}+${lowerGroupName}`;
+  if (!candidates.includes(lowerSubgroupCandidate)) {
+    candidates.push(lowerSubgroupCandidate);
+  }
+
+  return candidates;
+}
+
+async function fetchGroupMembersForName(groupName) {
   const members = [];
   let pageToken = "";
 
@@ -174,8 +190,18 @@ async function fetchGroupMembers(groupName) {
     });
 
     if (!response.ok) {
-      const body = await response.text();
-      throw new Error(`Groups.io request failed for ${groupName}: HTTP ${response.status} ${body.slice(0, 300)}`);
+      let errorType = "";
+      try {
+        const errorPayload = JSON.parse(await response.text());
+        errorType = errorPayload.type || "";
+      } catch {
+        errorType = "unknown_error";
+      }
+
+      const error = new Error(`Groups.io request failed for ${groupName}: HTTP ${response.status} ${errorType}`);
+      error.type = errorType;
+      error.status = response.status;
+      throw error;
     }
 
     const payload = await response.json();
@@ -187,6 +213,26 @@ async function fetchGroupMembers(groupName) {
   } while (pageToken);
 
   return members;
+}
+
+async function fetchGroupMembers(groupName) {
+  const errors = [];
+
+  for (const candidate of getGroupNameCandidates(groupName)) {
+    try {
+      return {
+        sourceGroup: candidate,
+        members: await fetchGroupMembersForName(candidate)
+      };
+    } catch (error) {
+      errors.push(error.message);
+      if (error.type !== "group_not_found") {
+        throw error;
+      }
+    }
+  }
+
+  throw new Error(errors.join("; "));
 }
 
 function assertNoEmails(output) {
@@ -209,7 +255,7 @@ async function main() {
       groupCache.set(committee.group, await fetchGroupMembers(committee.group));
     }
 
-    const members = groupCache.get(committee.group);
+    const { sourceGroup, members } = groupCache.get(committee.group);
     const companies = new Set();
     let matchedCount = 0;
 
@@ -223,7 +269,7 @@ async function main() {
 
     committees[committee.key] = {
       label: committee.label,
-      group: committee.group,
+      group: sourceGroup,
       companies: sortCompanies(companies)
     };
 
