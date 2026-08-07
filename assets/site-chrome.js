@@ -26,7 +26,7 @@ const headerHtml = `
                         <li><a href="featured-app-partyid-changes.html">FA PartyID Changes</a></li>
                         <li><a href="validator.html">Validators</a></li>
                         <li><a href="super-validator.html">Super Validators</a></li>
-                        <li><a href="https://members.canton.foundation/" target="_blank" rel="noopener">Members</a></li>
+                        <li><a href="member.html">Members</a></li>
                         <li><a href="https://canton.foundation/sv-network-status/" target="_blank" rel="noopener">SV Network Status</a></li>
                       </ul>
                     </div>
@@ -82,7 +82,7 @@ const headerHtml = `
                     <li><a href="featured-app-partyid-changes.html">FA PartyID Changes</a></li>
                     <li><a href="validator.html">Validators</a></li>
                     <li><a href="super-validator.html">Super Validators</a></li>
-                    <li><a href="https://members.canton.foundation/" target="_blank" rel="noopener">Members</a></li>
+                    <li><a href="member.html">Members</a></li>
                     <li><a href="https://canton.foundation/sv-network-status/" target="_blank" rel="noopener">SV Network Status</a></li>
                   </ul>
                 </details>
@@ -142,7 +142,7 @@ const footerHtml = `
               <li><a href="featured-app-partyid-changes.html">FA PartyID Changes</a></li>
               <li><a href="validator.html">Validators</a></li>
               <li><a href="super-validator.html">Super Validators</a></li>
-              <li><a href="https://members.canton.foundation/" target="_blank" rel="noopener">Members</a></li>
+              <li><a href="member.html">Members</a></li>
             </ul>
           </div>
 
