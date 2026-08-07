@@ -159,6 +159,50 @@ a {
   line-height: 1.55;
 }
 
+.roster-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+  margin-top: 18px;
+}
+
+.roster-column {
+  padding: 20px;
+  border-radius: 18px;
+  background: rgba(7, 5, 32, 0.88);
+  border: 1px solid rgba(126, 92, 186, 0.2);
+}
+
+.roster-list {
+  display: grid;
+  gap: 12px;
+}
+
+.roster-list li {
+  margin: 0;
+  padding-bottom: 12px;
+  border-bottom: 1px solid rgba(126, 92, 186, 0.18);
+}
+
+.roster-list li:last-child {
+  padding-bottom: 0;
+  border-bottom: 0;
+}
+
+.rep-name {
+  display: block;
+  color: var(--text);
+  font-weight: 800;
+}
+
+.rep-role,
+.rep-org {
+  display: block;
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 1.45;
+}
+
 .pdf-frame {
   width: 100%;
   height: 720px;
@@ -193,6 +237,10 @@ a {
 
   .actions {
     display: grid;
+  }
+
+  .roster-grid {
+    grid-template-columns: 1fr;
   }
 
   .pdf-frame {
