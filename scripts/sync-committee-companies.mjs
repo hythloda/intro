@@ -151,6 +151,18 @@ function getMembersFromPayload(payload) {
   return [];
 }
 
+function getListFromPayload(payload) {
+  if (Array.isArray(payload?.data)) {
+    return payload.data;
+  }
+
+  if (Array.isArray(payload?.groups)) {
+    return payload.groups;
+  }
+
+  return [];
+}
+
 function getGroupNameCandidates(groupName) {
   const candidates = [
     groupName,
@@ -166,13 +178,43 @@ function getGroupNameCandidates(groupName) {
   return candidates;
 }
 
-async function fetchGroupMembersForName(groupName) {
+async function fetchJson(url) {
+  const response = await fetch(url, {
+    headers: {
+      Authorization: `Bearer ${API_KEY}`,
+      Accept: "application/json"
+    }
+  });
+
+  if (!response.ok) {
+    let errorType = "";
+    try {
+      const errorPayload = JSON.parse(await response.text());
+      errorType = errorPayload.type || "";
+    } catch {
+      errorType = "unknown_error";
+    }
+
+    const error = new Error(`Groups.io request failed: HTTP ${response.status} ${errorType}`);
+    error.type = errorType;
+    error.status = response.status;
+    throw error;
+  }
+
+  return response.json();
+}
+
+async function fetchGroupMembersForQuery(query) {
   const members = [];
   let pageToken = "";
 
   do {
     const url = new URL(`${GROUPS_IO_BASE_URL}/getmembers`);
-    url.searchParams.set("group_name", groupName);
+
+    for (const [key, value] of Object.entries(query)) {
+      url.searchParams.set(key, value);
+    }
+
     url.searchParams.set("type", "members");
     url.searchParams.set("limit", "100");
     url.searchParams.set("sort_field", "email");
@@ -182,29 +224,7 @@ async function fetchGroupMembersForName(groupName) {
       url.searchParams.set("page_token", pageToken);
     }
 
-    const response = await fetch(url, {
-      headers: {
-        Authorization: `Bearer ${API_KEY}`,
-        Accept: "application/json"
-      }
-    });
-
-    if (!response.ok) {
-      let errorType = "";
-      try {
-        const errorPayload = JSON.parse(await response.text());
-        errorType = errorPayload.type || "";
-      } catch {
-        errorType = "unknown_error";
-      }
-
-      const error = new Error(`Groups.io request failed for ${groupName}: HTTP ${response.status} ${errorType}`);
-      error.type = errorType;
-      error.status = response.status;
-      throw error;
-    }
-
-    const payload = await response.json();
+    const payload = await fetchJson(url);
     members.push(...getMembersFromPayload(payload));
 
     pageToken = payload.has_more && payload.next_page_token
@@ -215,21 +235,82 @@ async function fetchGroupMembersForName(groupName) {
   return members;
 }
 
-async function fetchGroupMembers(groupName) {
+async function fetchGroupMembersForName(groupName) {
+  return fetchGroupMembersForQuery({ group_name: groupName });
+}
+
+async function fetchSubscribedGroups() {
+  const groups = [];
+  let pageToken = "";
+
+  do {
+    const url = new URL(`${GROUPS_IO_BASE_URL}/groups`);
+    url.searchParams.set("limit", "100");
+
+    if (pageToken) {
+      url.searchParams.set("page_token", pageToken);
+    }
+
+    const payload = await fetchJson(url);
+    groups.push(...getListFromPayload(payload));
+
+    pageToken = payload.has_more && payload.next_page_token
+      ? String(payload.next_page_token)
+      : "";
+  } while (pageToken);
+
+  return groups;
+}
+
+function valueLooksLikeGroup(value, groupName) {
+  const normalizedValue = normalizeDomain(value).replace(/^https?:\/\//, "");
+  const groupLower = groupName.toLowerCase();
+  const candidates = getGroupNameCandidates(groupName).map((candidate) => candidate.toLowerCase());
+
+  return candidates.some((candidate) => normalizedValue === candidate)
+    || normalizedValue === `${groupLower}@lists.sync.global`
+    || normalizedValue.includes(`/g/${groupLower}`)
+    || normalizedValue.endsWith(`+${groupLower}`)
+    || normalizedValue.endsWith(`/${groupLower}`);
+}
+
+function resolveGroupId(groups, groupName) {
+  const match = groups.find((group) => {
+    const values = [
+      group.id,
+      group.group_id,
+      group.name,
+      group.group_name,
+      group.nice_group_name,
+      group.email,
+      group.url,
+      group.website
+    ];
+
+    return values.some((value) => valueLooksLikeGroup(value, groupName));
+  });
+
+  return match?.id || match?.group_id || "";
+}
+
+async function fetchGroupMembers(groupName, getSubscribedGroups) {
   const errors = [];
 
   for (const candidate of getGroupNameCandidates(groupName)) {
     try {
-      return {
-        sourceGroup: candidate,
-        members: await fetchGroupMembersForName(candidate)
-      };
+      return await fetchGroupMembersForName(candidate);
     } catch (error) {
       errors.push(error.message);
       if (error.type !== "group_not_found") {
         throw error;
       }
     }
+  }
+
+  const subscribedGroups = await getSubscribedGroups();
+  const groupId = resolveGroupId(subscribedGroups, groupName);
+  if (groupId) {
+    return await fetchGroupMembersForQuery({ group_id: String(groupId) });
   }
 
   throw new Error(errors.join("; "));
@@ -249,13 +330,21 @@ async function main() {
   const emailOverrides = readJsonEnv("COMMITTEE_EMAIL_TO_COMPANY_JSON");
   const committees = {};
   const groupCache = new Map();
+  let subscribedGroupsPromise = null;
+  const getSubscribedGroups = () => {
+    if (!subscribedGroupsPromise) {
+      subscribedGroupsPromise = fetchSubscribedGroups();
+    }
+
+    return subscribedGroupsPromise;
+  };
 
   for (const committee of COMMITTEES) {
     if (!groupCache.has(committee.group)) {
-      groupCache.set(committee.group, await fetchGroupMembers(committee.group));
+      groupCache.set(committee.group, await fetchGroupMembers(committee.group, getSubscribedGroups));
     }
 
-    const { sourceGroup, members } = groupCache.get(committee.group);
+    const members = groupCache.get(committee.group);
     const companies = new Set();
     let matchedCount = 0;
 
@@ -269,7 +358,6 @@ async function main() {
 
     committees[committee.key] = {
       label: committee.label,
-      group: sourceGroup,
       companies: sortCompanies(companies)
     };
 
