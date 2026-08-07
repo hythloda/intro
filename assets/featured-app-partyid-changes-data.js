@@ -1,5 +1,5 @@
 window.FEATURED_APP_PARTYID_CHANGES_DATA = {
-  "generatedAt": "2026-08-06T09:19:47.145Z",
+  "generatedAt": "2026-08-07T07:50:41.197Z",
   "columns": [
     {
       "id": "long_text_mm4kq322",
@@ -13,6 +13,15 @@ window.FEATURED_APP_PARTYID_CHANGES_DATA = {
     }
   ],
   "changes": [
+    {
+      "id": "409a14e1-8f5f-4a92-bd59-2e7b1606edb0",
+      "changedAt": "2026-08-06T12:42:37.555Z",
+      "itemName": "SyncVotes",
+      "itemId": "12467783443",
+      "field": "Locking PartyIDs",
+      "previousValue": "",
+      "newValue": "23d169c2-0909-4c70-81d1-1922de6febaa::12207afc6e98a8ecf74866bfabba5ef7c6f45bbbf45bb9a5976c1d9ca53055fb0284"
+    },
     {
       "id": "9ba7a979-145a-4a56-bd1b-96c348876c5b",
       "changedAt": "2026-08-04T20:22:36.504Z",
@@ -183,15 +192,6 @@ window.FEATURED_APP_PARTYID_CHANGES_DATA = {
       "field": "Locking PartyIDs",
       "previousValue": "",
       "newValue": "23d169c2-0909-4c70-81d1-1922de6febaa::12203f7f44f693ff10e4b9000fb25fb4e9a347dda71c5ef7e20e8819fd377012a8b1"
-    },
-    {
-      "id": "08f1379d-e539-4dde-af0b-c5454b792976",
-      "changedAt": "2026-07-15T15:47:40.640Z",
-      "itemName": "ClearLoop Settlement",
-      "itemId": "12467815974",
-      "field": "Locking PartyIDs",
-      "previousValue": "23d169c2-0909-4c70-81d1-1922de6febaa::12203f7f44f693ff10e4b9000fb25fb4e9a347dda71c5ef7e20e8819fd377012a8b1",
-      "newValue": ""
     }
   ]
 };
