@@ -243,6 +243,28 @@ async function fetchGroupMembersForName(groupName) {
   return fetchGroupMembersForQuery({ group_name: groupName });
 }
 
+async function fetchPublicGroupId(groupName) {
+  const url = new URL(`/g/${encodeURIComponent(groupName)}`, "https://lists.sync.global");
+  const response = await fetch(url, {
+    headers: {
+      Accept: "text/html"
+    }
+  });
+
+  if (!response.ok) {
+    return "";
+  }
+
+  const html = await response.text();
+  const inputMatch = html.match(/name=["']group_id["']\s+value=["'](\d+)["']/i);
+  if (inputMatch) {
+    return inputMatch[1];
+  }
+
+  const queryMatch = html.match(/[?&]group_id=(\d+)/i);
+  return queryMatch?.[1] || "";
+}
+
 async function fetchSubscribedGroups() {
   const subgroups = [];
   let pageToken = "";
@@ -310,6 +332,11 @@ async function fetchGroupMembers(groupName, getSubscribedGroups) {
         throw error;
       }
     }
+  }
+
+  const publicGroupId = await fetchPublicGroupId(groupName);
+  if (publicGroupId) {
+    return await fetchGroupMembersForQuery({ group_id: publicGroupId });
   }
 
   let subscribedGroups = [];
