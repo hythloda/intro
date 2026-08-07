@@ -45,7 +45,7 @@ jobs:
             exit 0
           fi
 
-          git add assets/committee-companies-data.js
+          git add assets/committee-companies-data.js committee-collateral.html committee-fa-accountability.html committee-marketing.html committee-sv-accountability.html committee-technology-operations.html committee-tokenomics.html
           git commit -m "Sync committee companies"
 
           git pull --rebase origin main

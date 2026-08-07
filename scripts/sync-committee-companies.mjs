@@ -7,6 +7,14 @@ const repoRoot = path.resolve(__dirname, "..");
 
 const OUTPUT_PATH = path.join(repoRoot, "assets", "committee-companies-data.js");
 const DOMAIN_MAP_PATH = path.join(repoRoot, "data", "member-domain-map.json");
+const COMMITTEE_PAGE_PATHS = [
+  "committee-collateral.html",
+  "committee-fa-accountability.html",
+  "committee-marketing.html",
+  "committee-sv-accountability.html",
+  "committee-technology-operations.html",
+  "committee-tokenomics.html"
+].map((fileName) => path.join(repoRoot, fileName));
 const GROUPS_IO_BASE_URL = (process.env.GROUPS_IO_BASE_URL || "https://lists.sync.global/api/v1").replace(/\/$/, "");
 const GROUPS_IO_PARENT_GROUP = process.env.GROUPS_IO_PARENT_GROUP || "globalSyncForum";
 
@@ -368,6 +376,20 @@ function assertNoEmails(output) {
   }
 }
 
+async function updateCommitteePageCacheBusters(version) {
+  await Promise.all(COMMITTEE_PAGE_PATHS.map(async (pagePath) => {
+    const html = await fs.readFile(pagePath, "utf8");
+    const updated = html.replace(
+      /assets\/committee-companies-data\.js(?:\?v=[^"']*)?/g,
+      `assets/committee-companies-data.js?v=${version}`
+    );
+
+    if (updated !== html) {
+      await fs.writeFile(pagePath, updated, "utf8");
+    }
+  }));
+}
+
 async function main() {
   requireApiKey();
 
@@ -425,10 +447,12 @@ async function main() {
     generatedAt: new Date().toISOString(),
     committees
   };
+  const version = data.generatedAt.replace(/[^0-9]/g, "");
 
   const output = `window.COMMITTEE_COMPANIES_DATA = ${JSON.stringify(data, null, 2)};\n`;
   assertNoEmails(output);
   await fs.writeFile(OUTPUT_PATH, output, "utf8");
+  await updateCommitteePageCacheBusters(version);
 }
 
 main().catch((error) => {
