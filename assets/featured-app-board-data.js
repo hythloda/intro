@@ -1,5 +1,5 @@
 window.FEATURED_APP_BOARD_DATA = {
-  "generatedAt": "2026-08-06T09:08:44.891Z",
+  "generatedAt": "2026-08-07T07:44:56.703Z",
   "columns": [
     {
       "id": "text_mm4k2vch",
@@ -1868,7 +1868,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467790154",
       "name": "Ov Defi",
-      "updatedAt": "2026-08-05T11:00:09Z",
+      "updatedAt": "2026-08-07T04:00:10Z",
       "values": {
         "text_mm4k2vch": "OneNov",
         "color_mm4kmej3": "1-Needs Review",
@@ -2226,7 +2226,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467789257",
       "name": "Saxon Automate / Canton Keeper",
-      "updatedAt": "2026-08-05T11:00:11Z",
+      "updatedAt": "2026-08-07T04:00:12Z",
       "values": {
         "text_mm4k2vch": "Saxon",
         "color_mm4kmej3": "1-Needs Review",
@@ -3172,12 +3172,14 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467783443",
       "name": "SyncVotes",
-      "updatedAt": "2026-07-23T13:35:29Z",
+      "updatedAt": "2026-08-06T15:07:43Z",
       "values": {
         "text_mm4k2vch": "WEB34EVER",
         "color_mm4kmej3": "1-Needs Review",
         "long_text_mm4kq322": "syncvotes-app-provider::122050f896a953422a6745ce77a4a1537e4b869f939f0eb8cb8cfdb189e2acaa7218",
         "color_mm4kpp3q": "Non-Issuer",
+        "long_text_mm4khjn6": "23d169c2-0909-4c70-81d1-1922de6febaa::12207afc6e98a8ecf74866bfabba5ef7c6f45bbbf45bb9a5976c1d9ca53055fb0284",
+        "numeric_mm4k6919": "5.0",
         "long_text_mm4km2s7": "Web3 Validator — blockchain infrastructure operator since 2018. MainNet validators on Solana, Starknet, Avalanche, Mina Protocol, Canton Network, and Cosmos SDK chains. 70+ testnet participations. Canton MainNet participant node operator. Active in on-chain governance management and decentralized application development. Technical operations and support for decentralized governance systems including https://daodao.zone",
         "link_mm4kd0hk": "https://syncvotes.com/brand",
         "link_mm4kmq24": "https://syncvotes.com",
@@ -3232,10 +3234,10 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467837724",
       "name": "Modulo Issuer",
-      "updatedAt": "2026-07-23T13:35:29Z",
+      "updatedAt": "2026-08-06T18:11:34Z",
       "values": {
         "text_mm4k2vch": "Modulo Labs, Inc.",
-        "color_mm4kmej3": "2-Approved",
+        "color_mm4kmej3": "5-Revoked",
         "long_text_mm4kq322": "Modulo-Issuer::1220bbd47c5a10d5540c420e1f8f0f1fd513464ec6110dbd5123970dbe3b538805d3",
         "color_mm4kpp3q": "Asset Issuer",
         "long_text_mm4khjn6": "23d169c2-0909-4c70-81d1-1922de6febaa::12208ed5d822bd47a2e912ca9154ca2871ebb375cb99777bab0ae85d20060a44c811",
@@ -3622,7 +3624,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467789103",
       "name": "Jubilee Treasury",
-      "updatedAt": "2026-08-05T11:00:12Z",
+      "updatedAt": "2026-08-07T04:00:13Z",
       "values": {
         "text_mm4k2vch": "Jubilee Treasury",
         "color_mm4kmej3": "6-Withdrawn",
@@ -3764,7 +3766,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467790155",
       "name": "Mperps",
-      "updatedAt": "2026-08-05T11:00:15Z",
+      "updatedAt": "2026-08-07T04:00:15Z",
       "values": {
         "text_mm4k2vch": "Lemongrass IT Services LLC-Fz",
         "color_mm4kmej3": "1-Needs Review",
@@ -4913,7 +4915,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467806176",
       "name": "Rapid Chain",
-      "updatedAt": "2026-08-05T11:00:17Z",
+      "updatedAt": "2026-08-07T04:00:17Z",
       "values": {
         "text_mm4k2vch": "Rapid Blockchain Technologies Ltd.",
         "color_mm4kmej3": "5-Revoked",
@@ -5986,7 +5988,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467856988",
       "name": "MEME token and Coinflip",
-      "updatedAt": "2026-08-05T11:00:19Z",
+      "updatedAt": "2026-08-07T04:00:18Z",
       "values": {
         "text_mm4k2vch": "Archerswap",
         "color_mm4kmej3": "1-Needs Review",
@@ -6518,7 +6520,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467790006",
       "name": "CC Ledger",
-      "updatedAt": "2026-08-05T11:00:23Z",
+      "updatedAt": "2026-08-07T04:00:20Z",
       "values": {
         "text_mm4k2vch": "Blueprint Infrastructure, LLC",
         "color_mm4kmej3": "1-Needs Review",
@@ -7125,7 +7127,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467847770",
       "name": "VAULT",
-      "updatedAt": "2026-08-05T11:00:25Z",
+      "updatedAt": "2026-08-07T04:00:21Z",
       "values": {
         "text_mm4k2vch": "HighTower",
         "color_mm4kmej3": "1-Needs Review",
@@ -7215,7 +7217,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467847773",
       "name": "CC Space",
-      "updatedAt": "2026-08-05T11:00:28Z",
+      "updatedAt": "2026-08-07T04:00:23Z",
       "values": {
         "text_mm4k2vch": "ITRocket LLC",
         "color_mm4kmej3": "1-Needs Review",
@@ -7300,7 +7302,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467847778",
       "name": "Ov Defi",
-      "updatedAt": "2026-08-05T11:00:31Z",
+      "updatedAt": "2026-08-07T04:00:24Z",
       "values": {
         "text_mm4k2vch": "OneNov",
         "color_mm4kmej3": "1-Needs Review",
@@ -7644,7 +7646,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467825386",
       "name": "Agora: Survey & Vote",
-      "updatedAt": "2026-08-05T11:00:32Z",
+      "updatedAt": "2026-08-07T04:00:28Z",
       "values": {
         "text_mm4k2vch": "Agora: Survey & Vote",
         "color_mm4kmej3": "1-Needs Review",
@@ -8292,7 +8294,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467790000",
       "name": "BENJI",
-      "updatedAt": "2026-08-05T11:00:34Z",
+      "updatedAt": "2026-08-07T04:00:31Z",
       "values": {
         "text_mm4k2vch": "Franklin Templeton",
         "color_mm4kmej3": "3-CIP-0116-paused",
@@ -8378,7 +8380,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467834325",
       "name": "ChainSafe x402 Global Facilitator",
-      "updatedAt": "2026-08-05T11:00:37Z",
+      "updatedAt": "2026-08-07T04:00:32Z",
       "values": {
         "text_mm4k2vch": "ChainSafe",
         "color_mm4kmej3": "1-Needs Review",
@@ -8407,7 +8409,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467834326",
       "name": "Squads Non-Custodial Wallet",
-      "updatedAt": "2026-08-05T11:00:38Z",
+      "updatedAt": "2026-08-07T04:00:34Z",
       "values": {
         "text_mm4k2vch": "SQUADS",
         "color_mm4kmej3": "1-Needs Review",
@@ -8463,7 +8465,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467824052",
       "name": "Canquest",
-      "updatedAt": "2026-08-05T11:00:40Z",
+      "updatedAt": "2026-08-07T04:00:35Z",
       "values": {
         "text_mm4k2vch": "Naxweb",
         "color_mm4kmej3": "1-Needs Review",
@@ -8495,7 +8497,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467824053",
       "name": "Deploi Credit Market",
-      "updatedAt": "2026-08-05T11:00:43Z",
+      "updatedAt": "2026-08-07T04:00:56Z",
       "values": {
         "text_mm4k2vch": "Deploi",
         "color_mm4kmej3": "1-Needs Review",
@@ -8557,7 +8559,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467824055",
       "name": "AUROX on Canton for featured app",
-      "updatedAt": "2026-08-05T11:00:45Z",
+      "updatedAt": "2026-08-07T04:01:14Z",
       "values": {
         "text_mm4k2vch": "International Institute of Blockchain Advanced Technology",
         "color_mm4kmej3": "1-Needs Review",
@@ -8614,7 +8616,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467832618",
       "name": "ScopeX Rate Lock",
-      "updatedAt": "2026-08-05T11:00:46Z",
+      "updatedAt": "2026-08-07T04:01:16Z",
       "values": {
         "text_mm4k2vch": "ScopeX Money",
         "color_mm4kmej3": "1-Needs Review",
@@ -8759,7 +8761,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467854321",
       "name": "Privket.com",
-      "updatedAt": "2026-08-05T11:00:48Z",
+      "updatedAt": "2026-08-07T04:01:17Z",
       "values": {
         "text_mm4k2vch": "Privket",
         "color_mm4kmej3": "6-Withdrawn",
@@ -9083,7 +9085,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467834271",
       "name": "InfoDive Labs Prediction Market",
-      "updatedAt": "2026-07-23T13:35:28Z",
+      "updatedAt": "2026-08-06T16:46:45Z",
       "values": {
         "text_mm4k2vch": "InfoDive Labs",
         "color_mm4kmej3": "0-Locked+Needs Review",
@@ -9198,7 +9200,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467783449",
       "name": "Mperps",
-      "updatedAt": "2026-08-05T11:00:50Z",
+      "updatedAt": "2026-08-07T04:01:19Z",
       "values": {
         "text_mm4k2vch": "Lemongrass IT Services LLC-Fz",
         "color_mm4kmej3": "1-Needs Review",
@@ -9226,7 +9228,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467783450",
       "name": "Canquest",
-      "updatedAt": "2026-08-05T11:00:52Z",
+      "updatedAt": "2026-08-07T04:01:21Z",
       "values": {
         "text_mm4k2vch": "Canquest",
         "color_mm4kmej3": "1-Needs Review",
@@ -9284,7 +9286,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12471377959",
       "name": "OpenBaskets - BlockxAI Limited",
-      "updatedAt": "2026-08-05T11:00:53Z",
+      "updatedAt": "2026-08-07T04:01:24Z",
       "values": {
         "text_mm4k2vch": "BlockxAI Limited",
         "color_mm4kmej3": "1-Needs Review",
@@ -9311,7 +9313,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12568365683",
       "name": "Synfin - Cayvox Labs",
-      "updatedAt": "2026-08-05T11:00:55Z",
+      "updatedAt": "2026-08-07T04:01:26Z",
       "values": {
         "text_mm4k2vch": "Cayvox Labs",
         "color_mm4kmej3": "1-Needs Review",
@@ -9395,7 +9397,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12609616425",
       "name": "Arkhia x402 Facilitator-as-a-Service (FaaS) - Arkhia Pte Ltd",
-      "updatedAt": "2026-08-05T11:00:56Z",
+      "updatedAt": "2026-08-07T04:01:27Z",
       "values": {
         "text_mm4k2vch": "Arkhia Pte Ltd",
         "color_mm4kmej3": "1-Needs Review",
@@ -9427,7 +9429,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12626943292",
       "name": "Yellow Card - Yellow Card Financial Inc.",
-      "updatedAt": "2026-08-05T11:00:58Z",
+      "updatedAt": "2026-08-07T04:01:29Z",
       "values": {
         "text_mm4k2vch": "Yellow Card Financial Inc.",
         "color_mm4kmej3": "1-Needs Review",
@@ -9491,12 +9493,13 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12731951755",
       "name": "Cove Wallet API - Qasara Labs Private Limited",
-      "updatedAt": "2026-08-06T04:03:38Z",
+      "updatedAt": "2026-08-07T04:01:31Z",
       "values": {
         "text_mm4k2vch": "Qasara Labs Private Limited",
         "color_mm4kmej3": "1-Needs Review",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "cove-pdyctwhntx::1220694ba083b3767511d89166b5421573deb96b62bad3452f9dba9335c24672e8ed",
+        "numeric_mm4k6919": "0.0",
         "long_text_mm4km2s7": "Qasara Labs builds the institutional access layer for DeFi on the Canton Network. We serve programmatic users that existing consumer-focused Canton apps do not address: market makers, OTC desks, fintech platforms, custodians, and exchanges. Qasara operates its own Canton MainNet validator and contributes open-source infrastructure to the ecosystem, including an event-stream service proposed to the Development Fund.",
         "link_mm4kmq24": "https://qasara.ai/cove",
         "long_text_mm4k2537": "Cove Wallet API is a non-custodial REST gateway that lets developers, trading bots, exchanges, and fintech platforms transact on the Canton Network without running their own validator. It uses a prepare-sign-broadcast pattern: Cove prepares transactions, the client signs externally with their own private keys, and Cove broadcasts the signed transaction to Canton. Cove never holds private keys. On top of this it ships the full regulated-asset lifecycle: issuance (exactly-once minting), delivery (non-custodial, against on-ledger pre-authorisation), and redemption (issuer burn). It also provides real-time event streams (WebSocket and Server-Sent Events) for settlement and reconciliation.",
@@ -9512,6 +9515,90 @@ window.FEATURED_APP_BOARD_DATA = {
         "long_text_mm4kfkwn": "- A payment service integrating for tokenized-asset settlement. - A DeFi venue integrating for programmatic trade connectivity and settlement.",
         "long_text_mm4k6q73": "Significant but not existential. We still launch and serve institutional users regardless, since our economics also rest on commercial revenue and validator hosting rewards. But we need FA status to grow on Canton at the pace we are planning. Application rewards fund the discounted integration, meaning fees, support and custom DAML work, that brings institutional customers onto the network. Without it, that onboarding is materially slower.",
         "long_text_mm4kwxt1": "Yes. Four controls: 1. Client-side signing required. Cove never holds private keys. Every state-changing transaction must be signed by the client's external key against the Cove-prepared hash, with replay protection via Canton's command-deduplication. Authenticated API keys with per-tier rate limits gate access at the edge. 2. Party-scoped tenant isolation. An API key may only act for parties its own account owns, enforced at every acting-as endpoint. One customer cannot transact as, or read the transfer history of, another. 3. Reward scoping. The proxy is applied only to bona-fide user-driven workflows. Internal bookkeeping and operational transactions are submitted by separate parties that are not the featured-app provider, so they cannot generate rewards even accidentally. 4. Economic alignment. Every transaction consumes Canton Coin traffic, paid by the submitting participant. Self-dealing or zero-value looping therefore costs CC with no offsetting gain."
+      }
+    },
+    {
+      "id": "12743035486",
+      "name": "eesee - eesee Ltd. (BVI-registered). Application operations supported by CoreOps Digital Corporation (operator of Canсore), an affiliated entity contributing the atomic-swap/bridging primitive.",
+      "updatedAt": "2026-08-07T05:00:47Z",
+      "values": {
+        "text_mm4k2vch": "eesee Ltd. (BVI-registered). Application operations supported by CoreOps Digital Corporation (operator of Canсore), an affiliated entity contributing the atomic-swap/bridging primitive.",
+        "color_mm4kmej3": "1-Needs Review",
+        "color_mm4kpp3q": "Non-Issuer",
+        "long_text_mm4khjn6": "5,000,000 $CC locked and active via Canton Strategic / Cashen locking arrangement. Locking party: 23d169c2-0909-4c70-81d1-1922de6febaa::12200255cb9526b82c134e1bfb2136f841c32af8a2df39e2e52a2c9f03da7a4afac1 Verifiable on-chain: https://ccview.io/party/23d169c2-0909-4c70-81d1-1922de6febaa::12200255cb9526b82c134e1bfb2136f841c32af8a2df39e2e52a2c9f03da7a4afac1/ FeaturedAppRight is held on the eesee app-provider party: eesee-mainnet-1::1220fb2e89aab677556481b303aad5d3aa049edcf961db626f12f2c9e040b5463df4",
+        "numeric_mm4k6919": "10.0",
+        "long_text_mm4km2s7": "eesee is the team behind the eesee.io launchpad, which has processed $10.9M+ across 91 project launches with 45K KYC'd users, backed by Animoca Brands, SevenX Ventures and dao5. We are bringing the full eesee stack onto Canton as the consumer and institutional super app for the ecosystem- a single interface through which users access asset launches, atomic swaps and bridging, yield vaults, and neobank-style payments on Canton. Critically, eesee is workflow infrastructure, not an asset issuer: assets launched through the platform are issued by their originating projects, while eesee operates the distribution, vesting, claim, and settlement rails around them. The team combines the eesee launchpad group and the Cancore engineering group, a Canton-native dapp already live on the network.",
+        "link_mm4kmq24": "https://eesee.space/",
+        "long_text_mm4k2537": "eesee is the super app for the Canton ecosystem: one interface where projects launch and distribute assets, and users swap, bridge, earn yield, and spend — bringing retail, crypto-native, and institutional users onto Canton through four integrated primitives (Launchpad distribution rails, Cancore atomic swaps & bridging, Vaults, and the Handle Pay neobank).",
+        "long_text_mm5hgry2": "Yes. eesee has operated as a live launchpad product prior to Canton, having processed $10.9M+ across 91 project token launches for 45K+ KYC'd users, with staking, tiered allocation, FCFS and oversubscription rounds, and claim/refund mechanics in production. This gives us a battle-tested distribution model — allocation logic, vesting, claims, and refund flows — that we are now bringing natively onto Canton. The Canton implementation is a native Daml rebuild of this model, not a port: issuance is held by each project's own party under the Canton Network Token Standard, while the eesee party operates the distribution, vesting, and claim workflows as confirmer. These Canton-native contracts were independently audited by CertiK (completed 1 July 2026, all findings resolved). Cancore, a swap/bridge dapp integrated into the eesee super app, is already live on Canton.",
+        "long_text_mm4k4y1h": "Three cohorts: (1) Issuers — RWA originators, token teams, and asset managers who use the Launchpad's distribution infrastructure to bring the assets they issue onto Canton. Each project remains the issuer of record of its own asset; eesee provides the allocation, vesting, claim, and distribution workflows around it. (2) Active on-chain users — traders, LPs, and bridgers using the Cancore stack for atomic swaps and cross-chain settlement, and depositors using Vaults for yield. (3) Mainstream/neobank users — individuals and treasuries spending, holding, and earning on tokenized assets through a simplified banking interface. Expected mix skews toward high-frequency Cancore and Launchpad-claim users for transaction volume, and institutional issuers for asset value.",
+        "long_text_mm4k15bg": "Launchpad: allocation distribution, vesting releases, and claim transactions executed on behalf of third-party issuers. Vaults: deposits, withdrawals, harvests/compounds, rebalances. Neobank: user-initiated transfers and payments. Each is an economically meaningful, user-initiated action that generates genuine ledger traffic. As Cancore's swap/bridge flows are integrated into eesee-operated contracts, that settlement traffic is expected to become reward-bearing for the eesee party over time.",
+        "long_text_mm4kh3fw": "eesee submits transactions to the Global Synchronizer via its validator/participant node(s). The eesee app-provider party holds a FeaturedAppRight and appears as workflow operator and confirmer on the core contracts for each primitive: Launchpad distribution/vesting/claim contracts, Cancore swap and bridge settlement contracts, vault contracts, and neobank account/transfer contracts. All assets follow the Canton Network Token Standard (CIP-0056 / CIP-0112), with the issuer/registrar role for every asset held by the originating project's own party — never by the eesee FA party. Workflows are designed to minimize view/envelope count per CIP-0104 guidance to keep traffic cost efficient relative to delivered user value.",
+        "long_text_mm4kfg50": "Under the current CIP-0104 regime, rewards are traffic-based — earned from actual burn on confirmation requests where the eesee party is a confirmer — rather than from FeaturedAppActivityMarkers, which CIP-0104 deprecated. We do not rely on activity markers. Where users transact in Canton Coin directly (e.g., CC transfers within the neobank), that activity contributes traffic in the standard way.",
+        "long_text_mm4kxcm2": "Launchpad participant (claims/vesting): ~2–5/day during an active launch or vesting window, near-zero otherwise. Cancore active trader/bridger: ~5–30/day. Vault depositor: ~0.2–2/day (deposits + periodic harvest/withdraw). Neobank user: ~1–5/day.",
+        "long_text_mm4kvyjq": "During active trading (multiple Cancore swaps), bridging across chains, launch participation (allocation plus multiple claims/vesting releases), and batched vault actions (deposit + rebalance + harvest). High-engagement users — active traders and bridgers — routinely exceed one transaction per round.",
+        "long_text_mm4k1cm0": "Transaction count scales faster than user count because (a) network effects within the super app mean a single user touches multiple primitives, and (b) Cancore swap/bridge activity and Vault rebalancing rise with both user count and asset volume, so per-user transaction frequency itself increases as liquidity deepens.",
+        "long_text_mm4kd4h2": "August 20",
+        "long_text_mm4kfkwn": "Atomic Swap & Bridging Cancore white-glove solution - live (currently $100K+ daily volume) Launchpad first third-party token distribution — 7 September 2026 Handle Pay (Neobank) — 1st Nov 2026 Vaults — Q4 2026",
+        "long_text_mm4k6q73": "We are committed to building on Canton regardless. Without FA status, however, the reward economics that let us subsidize issuer onboarding, neobank activity, and Cancore swap fees weaken materially, so the pace of migrating our launchpad pipeline and Cancore volume onto Canton would be significantly slower.",
+        "long_text_mm4kwxt1": "Yes, (1) Per-primitive economic minimums and fees so each transaction carries real cost/value, deterring wash/spam activity. (2) KYC/onboarding gating on issuers (Launchpad) and neobank users. (3) Cancore swaps and bridges settle real asset movement (DvP/atomic), so there is no reward in transacting against oneself with no economic substance. (4) Rate limits and anomaly monitoring on claim and transfer endpoints, with the ability to suspend accounts exhibiting reward-farming patterns.",
+        "long_text_mm4khbeg": "Core contracts are closed-source, completed CertiK audit and BlockApex Initial Security Review; all reports and selected modules will be made available to the Committee on request.",
+        "long_text_mm4kp5en": "figma.com/design/7TX2ZaRoNELcWCSOHEIq1V/Eesee-BRANDBOOK-2026?node-id=0-1&t=xdj657nwIVz2h6r5-1",
+        "long_text_mm4kxsgy": "eesee brings a proven distribution platform ($10.9M+ across 91 project launches, 45K KYC'd users, backed by Animoca Brands, SevenX and dao5) and an already-live Canton dapp (Cancore) onto the network as a unified super app. Our model directly serves Canton's core thesis: we are the neutral rails that make it easy for third-party issuers — RWA originators, token teams, asset managers — to bring assets onto Canton and for users to transact in them. Every reward-bearing transaction we generate reflects a real launch claim, a real DvP settlement, a real vault action, or a real payment, in line with the intent of CIP-0104's traffic-based model. The 5,000,000 $CC Non-Issuer locking requirement is locked and active via Cashen arrangement, and we will keep the Committee informed of audit progress and go-live milestones."
+      }
+    },
+    {
+      "id": "12742983771",
+      "name": "Supanova DEX - Supanova",
+      "updatedAt": "2026-08-07T04:03:42Z",
+      "values": {
+        "text_mm4k2vch": "Supanova",
+        "color_mm4kmej3": "1-Needs Review",
+        "color_mm4kpp3q": "Non-Issuer",
+        "long_text_mm4khjn6": "Will setup with Cashen once FA status is granted to the partyID.",
+        "long_text_mm4km2s7": "Supanova is a wallet provider on the Canton Network and is looking to adding additional products to its offering.",
+        "link_mm4kmq24": "https://supanova.app",
+        "long_text_mm4k2537": "The Supanova DEX is a RFQ based DvP DEX which serves as an aggregator between different venues. A user submits the swap and various market makers and solvers can process the order across various venues on Canton, allowing to unified liquidity across the ecosystem and the best rates for users trading on Canton.",
+        "long_text_mm5hgry2": "No",
+        "long_text_mm4k4y1h": "Market Makers who serve as solvers of orders and users trading who are looking for the best rates.",
+        "long_text_mm4k15bg": "Application rewards will be earned from trading activity.",
+        "long_text_mm4kh3fw": "DvP swaps",
+        "long_text_mm4kfg50": "Canton Coin will be earned when users are performing swaps.",
+        "long_text_mm4kxcm2": "Some users will trade very frequently (10-20 times a Day) and some will only buy and hold so less than once a day.",
+        "long_text_mm4kvyjq": "When coins have high volatility users may trade multiple times per round.",
+        "long_text_mm4k1cm0": "Linearly",
+        "long_text_mm4kd4h2": "Mid of August",
+        "long_text_mm4kfkwn": "Traders who are looking for the best prices on executing trades.",
+        "long_text_mm4k6q73": "The DEX will be launched even without being featured.",
+        "long_text_mm4kwxt1": "Users pay gas for their swaps and there are no rewards for traders in CC."
+      }
+    },
+    {
+      "id": "12742964838",
+      "name": "The Hub - The Hub",
+      "updatedAt": "2026-08-07T05:00:48Z",
+      "values": {
+        "text_mm4k2vch": "The Hub",
+        "color_mm4kmej3": "1-Needs Review",
+        "color_mm4kpp3q": "Non-Issuer",
+        "long_text_mm4khjn6": "23d169c2-0909-4c70-81d1-1922de6febaa::1220ca49b703a773cfe71859698d6302c4e289d8a5888868438c71de0b33bf951a72",
+        "numeric_mm4k6919": "5.0",
+        "long_text_mm4km2s7": "The Hub is a Canton-native SocialFi application. Its core product is a creator ticket market: users follow creators, join their communities, and buy and sell creator tickets on on-chain bonding-curve markets, alongside live rooms, messaging, and a social feed. Our focus is long-term, organic growth on Canton through genuine usage.",
+        "link_mm4kmq24": "https://thehubcc.io",
+        "long_text_mm4k2537": "The Hub is a social application whose core product is a creator ticket market. Creators launch a personal ticket priced on an on-chain bonding curve; users buy and sell those tickets to join a creator's community and unlock rooms, live audio and video, and a social feed. All market logic runs as the application's own Daml smart contracts on Canton and is denominated in Canton Coin.",
+        "long_text_mm5hgry2": "No Please explain: The Hub is a new, Canton-native application built specifically for Canton with its own Daml contracts. It has not been deployed on another blockchain or production environment",
+        "long_text_mm4k4y1h": "Creators (community builders and influencers) and their audiences, who want real ownership and access, plus general social users. Onboarding is invite-gated through a waitlist with verified X (Twitter) identity.Our current waitlist has 56,738 applications. We haven't conducted any promotional activities so far.",
+        "long_text_mm4k15bg": "Creator ticket buy and sell, each a single on-chain CC transfer. The creator's share accrues in the pool and is settled by a separate, creator-initiated claim that is reward-excluded (sent without provider attribution). Deposit and withdraw are account plumbing and are not reward-earning activities.",
+        "long_text_mm4kh3fw": "The Hub's market and settlement logic runs as Daml smart contracts on Canton: per-creator bonding-curve pools (external parties), ticket mint and trade, and fee settlement. Social actions (feed, messaging, rooms, live media) are off-chain.",
+        "long_text_mm4kfg50": "Canton Coin. We do not use Activity Markers.",
+        "long_text_mm4kxcm2": "Per-user activity is proportional to genuine trading and community interest, so it varies with how active a creator's market is. For network and transaction safety we apply configurable limits (currently up to 20 ticket buys and 50 trades per account per day); these are safety caps, not the expected volume.",
+        "long_text_mm4kvyjq": "Only from genuine separate trades; each buy or sell is one on-chain transfer. There is no mechanism that produces multiple rewarded transfers from a single user action.",
+        "long_text_mm4k1cm0": "Roughly linearly with the number of active users and their genuine trading, bounded by per-account daily caps.",
+        "long_text_mm4kd4h2": "The Hub is already live on MainNet. We can grant access to any validators who would like it and to recommended users, so the application is ready to be reviewed and tested immediately.",
+        "long_text_mm4kfkwn": "Our first customers are the influencers we have agreements with from our waitlist, together with our waitlist users. The application is already live and testable with the provided accounts. 30.08.2026",
+        "long_text_mm4k6q73": "We would continue operating, but on-chain traffic cost would not be offset by usage-based rewards. On small early trades, traffic can exceed the app fee, so we currently subsidize activity. FA status aligns rewards with real, confirmed usage and supports sustainable growth on Canton.",
+        "long_text_mm4kwxt1": "Yes If yes, describe: Invite-gated waitlist with verified X (OAuth) identity, a minimum follower threshold, and disposable-email blocking; one identity per account. Per-account rate limits and daily caps (20 buys / 50 trades). Creator self-buy lockup (cannot buy own first 5 tickets) and sell lockup (cannot sell until 5 are sold). Live streaming gated until at least 2 tickets are sold, enforced server-side. Stale-nonce protection so only settled transfers mint a ticket. Device fingerprint and IP binding, with requests from the same IP closely monitored. Our platform automatically blocks certain transaction anomalies at the edge (firewall and rate limiting). We also run HubSoldier, a 24/7 security agent that we offer to the wider network, which continuously watches the application and flags anomalies for action. Our sole objective is organic growth.",
+        "long_text_mm4kxsgy": "Additional Notes for the Committee (optional): Attached materials: an Executive Summary, a technical submission (ready test accounts, step-by-step flows, and real MainNet transaction update_ids), and a reviewer Q&A covering the reward model and integrity controls. We are happy to provide repository access and a live, transfer-by-transfer walkthrough on request."
       }
     }
   ]
