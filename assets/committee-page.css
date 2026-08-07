@@ -166,6 +166,10 @@ a {
   margin-top: 18px;
 }
 
+.roster-grid--wide {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
 .roster-column {
   padding: 20px;
   border-radius: 18px;
