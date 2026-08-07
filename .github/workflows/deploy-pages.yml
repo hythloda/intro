@@ -12,6 +12,7 @@ on:
       - Sync Featured App Board
       - Sync Featured App PartyID Changes
       - Sync SV Milestone Framework
+      - Sync Committee Companies
     types:
       - completed
 

@@ -1,0 +1,58 @@
+name: Sync Committee Companies
+
+on:
+  workflow_dispatch: {}
+  schedule:
+    - cron: "43 6 * * *"
+
+permissions:
+  contents: write
+  actions: write
+
+jobs:
+  sync-committee-companies:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Sync committee companies
+        env:
+          GROUPS_IO_API_KEY: ${{ secrets.GROUPS_IO_API_KEY }}
+          GROUPS_IO_TOKEN: ${{ secrets.GROUPS_IO_TOKEN }}
+          GROUPS_IO: ${{ secrets.GROUPS_IO }}
+          GROUPSIO: ${{ secrets.GROUPSIO }}
+          COMMITTEE_EMAIL_TO_COMPANY_JSON: ${{ secrets.COMMITTEE_EMAIL_TO_COMPANY_JSON }}
+        run: node scripts/sync-committee-companies.mjs
+
+      - name: Commit updated committee companies
+        id: commit_changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          if git diff --quiet; then
+            echo "No changes to commit."
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          git add assets/committee-companies-data.js
+          git commit -m "Sync committee companies"
+
+          git pull --rebase origin main
+          git push origin main
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+
+      - name: Trigger Pages deploy
+        if: steps.commit_changes.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run deploy-pages.yml --repo "${{ github.repository }}" --ref main

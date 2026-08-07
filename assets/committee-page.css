@@ -227,6 +227,38 @@ a {
   line-height: 1.45;
 }
 
+.company-summary {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: space-between;
+  margin-bottom: 16px;
+  color: var(--accent-strong);
+  font-size: 14px;
+  font-weight: 800;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.company-list {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.company-list li,
+.company-empty {
+  margin: 0;
+  padding: 12px 14px;
+  border-radius: 14px;
+  background: rgba(3, 2, 20, 0.48);
+  border: 1px solid rgba(126, 92, 186, 0.18);
+  color: var(--text);
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 1.35;
+}
+
 .pdf-frame {
   width: 100%;
   height: 720px;
@@ -264,6 +296,10 @@ a {
   }
 
   .roster-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .company-list {
     grid-template-columns: 1fr;
   }
 
