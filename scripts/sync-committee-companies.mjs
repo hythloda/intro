@@ -386,25 +386,31 @@ async function main() {
   };
 
   for (const committee of COMMITTEES) {
-    if (!groupCache.has(committee.group)) {
-      const configuredGroupId = getConfiguredGroupId(committee, groupIds);
-      const members = configuredGroupId
-        ? await fetchGroupMembersForQuery({ group_id: String(configuredGroupId) })
-        : await fetchGroupMembers(committee.group, getSubscribedGroups);
-
-      groupCache.set(committee.group, members);
-    }
-
-    const members = groupCache.get(committee.group);
+    let members = [];
     const companies = new Set();
     let matchedCount = 0;
 
-    for (const member of members) {
-      const company = lookupCompany(extractEmail(member), domainMap, emailOverrides);
-      if (company) {
-        companies.add(company);
-        matchedCount += 1;
+    try {
+      if (!groupCache.has(committee.group)) {
+        const configuredGroupId = getConfiguredGroupId(committee, groupIds);
+        const fetchedMembers = configuredGroupId
+          ? await fetchGroupMembersForQuery({ group_id: String(configuredGroupId) })
+          : await fetchGroupMembers(committee.group, getSubscribedGroups);
+
+        groupCache.set(committee.group, fetchedMembers);
       }
+
+      members = groupCache.get(committee.group);
+
+      for (const member of members) {
+        const company = lookupCompany(extractEmail(member), domainMap, emailOverrides);
+        if (company) {
+          companies.add(company);
+          matchedCount += 1;
+        }
+      }
+    } catch (error) {
+      console.warn(`${committee.label}: unable to sync this list (${error.type || "sync_error"}).`);
     }
 
     committees[committee.key] = {
