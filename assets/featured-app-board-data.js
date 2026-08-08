@@ -1,5 +1,5 @@
 window.FEATURED_APP_BOARD_DATA = {
-  "generatedAt": "2026-08-07T07:44:56.703Z",
+  "generatedAt": "2026-08-08T07:18:11.801Z",
   "columns": [
     {
       "id": "text_mm4k2vch",
@@ -3172,10 +3172,10 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467783443",
       "name": "SyncVotes",
-      "updatedAt": "2026-08-06T15:07:43Z",
+      "updatedAt": "2026-08-07T17:21:24Z",
       "values": {
         "text_mm4k2vch": "WEB34EVER",
-        "color_mm4kmej3": "1-Needs Review",
+        "color_mm4kmej3": "0-Locked+Needs Review",
         "long_text_mm4kq322": "syncvotes-app-provider::122050f896a953422a6745ce77a4a1537e4b869f939f0eb8cb8cfdb189e2acaa7218",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "23d169c2-0909-4c70-81d1-1922de6febaa::12207afc6e98a8ecf74866bfabba5ef7c6f45bbbf45bb9a5976c1d9ca53055fb0284",
@@ -8729,10 +8729,11 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467854319",
       "name": "Sanctum",
-      "updatedAt": "2026-07-23T13:35:29Z",
+      "updatedAt": "2026-08-07T16:13:36Z",
       "values": {
         "text_mm4k2vch": "Angelhack Private Limted",
         "color_mm4kmej3": "2-Approved",
+        "long_text_mm4kq322": "sanctum-mainnet::12205162445638c3f71c9942b74360134b4ebc953b5bea2c25adc99bff130bffd060",
         "color_mm4kpp3q": "Asset Issuer",
         "long_text_mm4khjn6": "We will confirm a dedicated Locking PartyID in the near future as we are currently in discussions to secure $CC for FA locking requirement.",
         "numeric_mm4k6919": "25.0",
@@ -9140,10 +9141,10 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467834273",
       "name": "FairShares",
-      "updatedAt": "2026-08-05T19:18:37Z",
+      "updatedAt": "2026-08-07T17:21:13Z",
       "values": {
         "text_mm4k2vch": "FairShares",
-        "color_mm4kmej3": "1-Needs Review",
+        "color_mm4kmej3": "0-Locked+Needs Review",
         "long_text_mm4kq322": "fairshares-app::1220b10c7ba1ec70b445c4c71b13ee0b251181a796bbfb0d5525a4226ddd324d29dd",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "Was locked - removed Aug 4th",
@@ -9520,10 +9521,10 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12743035486",
       "name": "eesee - eesee Ltd. (BVI-registered). Application operations supported by CoreOps Digital Corporation (operator of Canсore), an affiliated entity contributing the atomic-swap/bridging primitive.",
-      "updatedAt": "2026-08-07T05:00:47Z",
+      "updatedAt": "2026-08-07T17:20:21Z",
       "values": {
         "text_mm4k2vch": "eesee Ltd. (BVI-registered). Application operations supported by CoreOps Digital Corporation (operator of Canсore), an affiliated entity contributing the atomic-swap/bridging primitive.",
-        "color_mm4kmej3": "1-Needs Review",
+        "color_mm4kmej3": "6-Withdrawn",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "5,000,000 $CC locked and active via Canton Strategic / Cashen locking arrangement. Locking party: 23d169c2-0909-4c70-81d1-1922de6febaa::12200255cb9526b82c134e1bfb2136f841c32af8a2df39e2e52a2c9f03da7a4afac1 Verifiable on-chain: https://ccview.io/party/23d169c2-0909-4c70-81d1-1922de6febaa::12200255cb9526b82c134e1bfb2136f841c32af8a2df39e2e52a2c9f03da7a4afac1/ FeaturedAppRight is held on the eesee app-provider party: eesee-mainnet-1::1220fb2e89aab677556481b303aad5d3aa049edcf961db626f12f2c9e040b5463df4",
         "numeric_mm4k6919": "10.0",
@@ -9576,10 +9577,10 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12742964838",
       "name": "The Hub - The Hub",
-      "updatedAt": "2026-08-07T05:00:48Z",
+      "updatedAt": "2026-08-07T17:21:05Z",
       "values": {
         "text_mm4k2vch": "The Hub",
-        "color_mm4kmej3": "1-Needs Review",
+        "color_mm4kmej3": "0-Locked+Needs Review",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "23d169c2-0909-4c70-81d1-1922de6febaa::1220ca49b703a773cfe71859698d6302c4e289d8a5888868438c71de0b33bf951a72",
         "numeric_mm4k6919": "5.0",
@@ -9599,6 +9600,35 @@ window.FEATURED_APP_BOARD_DATA = {
         "long_text_mm4k6q73": "We would continue operating, but on-chain traffic cost would not be offset by usage-based rewards. On small early trades, traffic can exceed the app fee, so we currently subsidize activity. FA status aligns rewards with real, confirmed usage and supports sustainable growth on Canton.",
         "long_text_mm4kwxt1": "Yes If yes, describe: Invite-gated waitlist with verified X (OAuth) identity, a minimum follower threshold, and disposable-email blocking; one identity per account. Per-account rate limits and daily caps (20 buys / 50 trades). Creator self-buy lockup (cannot buy own first 5 tickets) and sell lockup (cannot sell until 5 are sold). Live streaming gated until at least 2 tickets are sold, enforced server-side. Stale-nonce protection so only settled transfers mint a ticket. Device fingerprint and IP binding, with requests from the same IP closely monitored. Our platform automatically blocks certain transaction anomalies at the edge (firewall and rate limiting). We also run HubSoldier, a 24/7 security agent that we offer to the wider network, which continuously watches the application and flags anomalies for action. Our sole objective is organic growth.",
         "long_text_mm4kxsgy": "Additional Notes for the Committee (optional): Attached materials: an Executive Summary, a technical submission (ready test accounts, step-by-step flows, and real MainNet transaction update_ids), and a reviewer Q&A covering the reward model and integrity controls. We are happy to provide repository access and a live, transfer-by-transfer walkthrough on request."
+      }
+    },
+    {
+      "id": "12751665725",
+      "name": "eesee - eesee Ltd. (BVI-registered)",
+      "updatedAt": "2026-08-08T04:03:36Z",
+      "values": {
+        "text_mm4k2vch": "eesee Ltd. (BVI-registered)",
+        "color_mm4kmej3": "1-Needs Review",
+        "color_mm4kpp3q": "Non-Issuer",
+        "long_text_mm4khjn6": "5,000,000 $CC locked and active via Canton Strategic / Cashen locking arrangement. Locking party: 23d169c2-0909-4c70-81d1-1922de6febaa::12200255cb9526b82c134e1bfb2136f841c32af8a2df39e2e52a2c9f03da7a4afac1 Verifiable on-chain: https://ccview.io/party/23d169c2-0909-4c70-81d1-1922de6febaa::12200255cb9526b82c134e1bfb2136f841c32af8a2df39e2e52a2c9f03da7a4afac1/ FeaturedAppRight is held on the eesee app-provider party: eesee-mainnet-1::1220fb2e89aab677556481b303aad5d3aa049edcf961db626f12f2c9e040b5463df4",
+        "long_text_mm4km2s7": "eesee is the team behind the eesee.io launchpad, which has processed $10.9M+ across 91 project launches with 45K KYC'd users, backed by Animoca Brands, SevenX Ventures and dao5. We are bringing the full eesee stack onto Canton as the consumer and institutional super app for the ecosystem- a single interface through which users access asset launches, atomic swaps and bridging, yield vaults on Canton. Critically, eesee is workflow infrastructure, not an asset issuer: assets launched through the platform are issued by their originating projects, while eesee operates the distribution, vesting, claim, and settlement rails around them.",
+        "link_mm4kmq24": "https://eesee.space/",
+        "long_text_mm4k2537": "eesee is the distribution and asset-lifecycle layer for the Canton ecosystem: one interface where projects launch and distribute assets and users swap and earn yield, bringing retail, crypto-native, and institutional users onto Canton through three integrated primitives: Launchpad distribution rails, atomic swaps (powered by Cancore's white-glove stack), and Vaults.",
+        "long_text_mm5hgry2": "Yes. eesee has operated as a live launchpad product prior to Canton, having processed $10.9M+ across 91 project token launches for 45K+ KYC'd users, with staking, tiered allocation, FCFS and oversubscription rounds, and claim/refund mechanics in production. This gives us a battle-tested distribution model - allocation logic, vesting, claims, and refund flows - that we are now bringing natively onto Canton. The Canton implementation is a native Daml rebuild of this model, not a port: issuance is held by each project's own party under the Canton Network Token Standard, while the eesee party operates the distribution, vesting, and claim workflows as confirmer. These Canton-native contracts were independently audited by CertiK (completed 1 July 2026, all findings resolved). Atomic swap functionality is delivered through the white-glove version of Cancore’s atomic swap stack, a third-party Canton-native settlement provider.",
+        "long_text_mm4k4y1h": "Two cohorts: (1) Issuers, meaning RWA originators, token teams, and asset managers who use the Launchpad's distribution infrastructure to bring the assets they issue onto Canton. Each project remains the issuer of record of its own asset; eesee provides the allocation, vesting, claim, and distribution workflows around it. (2) Active on-chain users, meaning traders and swappers transacting through eesee's atomic swap interface, and depositors using Vaults for yield. Expected mix skews toward high-frequency swap and Launchpad-claim users for transaction volume, and institutional issuers for asset value.",
+        "long_text_mm4k15bg": "Launchpad: allocation distribution, vesting releases, and claim transactions executed on behalf of third-party issuers. Atomic Swaps: user-initiated DvP swap settlements executed through eesee-operated workflow contracts on the Cancore stack. Vaults: deposits, withdrawals, harvests/compounds, rebalances. Each is an economically meaningful, user-initiated action that generates genuine ledger traffic.",
+        "long_text_mm4kh3fw": "eesee submits transactions to the Global Synchronizer via its validator/participant node(s). The eesee app-provider party holds a FeaturedAppRight and appears as workflow operator and confirmer on the core contracts for each primitive: Launchpad distribution/vesting/claim contracts, eesee-operated swap workflow contracts (settled via Cancore's white-glove stack), and vault contracts. All assets follow the Canton Network Token Standard (CIP-0056 / CIP-0112), with the issuer/registrar role for every asset held by the originating project's own party, never by the eesee FA party. Workflows are designed to minimize view/envelope count per CIP-0104 guidance to keep traffic cost efficient relative to delivered user value.",
+        "long_text_mm4kfg50": "Under the CIP-0104 regime, rewards are traffic-based, earned from actual burn on confirmation requests where the eesee party is a confirmer, rather than from FeaturedAppActivityMarkers, which CIP-0104 deprecated. We do not rely on activity markers. Where users transact in Canton Coin directly (e.g., CC legs of swaps), that activity contributes traffic in the standard way.",
+        "long_text_mm4kxcm2": "Launchpad participant (claims/vesting): ~5-10/day during an active launch or vesting window, near-zero otherwise. Active swapper: ~10-50/day. Vault depositor: ~1-4/day (deposits plus periodic harvest/withdraw).",
+        "long_text_mm4kvyjq": "During active trading (multiple atomic swaps per session), launch participation (allocation plus multiple claims and vesting releases), and batched vault actions (deposit, rebalance, harvest). High-engagement users, particularly active swappers, routinely exceed one transaction per round.",
+        "long_text_mm4k1cm0": "Super-linear. Transaction count scales faster than user count because (a) network effects within the platform mean a single user touches multiple primitives, and (b) swap activity and Vault rebalancing rise with both user count and asset volume, so per-user transaction frequency itself increases as liquidity deepens.",
+        "long_text_mm4kd4h2": "August 20",
+        "long_text_mm4kfkwn": "Atomic Swaps (Cancore white-glove stack): live Launchpad first third-party token distribution: 7 September 2026 Vaults: Q4 2026",
+        "long_text_mm4k6q73": "We are committed to building on Canton regardless, and we have already put capital behind that commitment: the full 5,000,000 $CC required under CIP-0116 is secured and locked, and we bear the full carrying cost of the locked position out of pocket. However, since CIP-0078 set transfer and lock fees to zero, app rewards on Canton accrue only to Featured Apps. Without FA status, the reward economics that let us subsidize issuer onboarding and swap fees weaken materially, so the pace of migrating our launchpad pipeline and swap volume onto Canton would be significantly slower.",
+        "long_text_mm4kwxt1": "1) Per-primitive economic minimums and fees so each transaction carries real cost/value, deterring wash and spam activity. (2) KYC/onboarding gating on issuers (Launchpad) and platform users. (3) Swaps settle real asset movement (DvP/atomic) via the Cancore stack, so there is no reward in transacting against oneself with no economic substance. (4) Rate limits and anomaly monitoring on claim and swap endpoints, with the ability to suspend accounts exhibiting reward-farming patterns.",
+        "long_text_mm4khbeg": "Core contracts are closed-source, completed CertiK audit and BlockApex Initial Security Review; all reports and selected modules will be made available to the Committee on request.",
+        "long_text_mm4kp5en": "figma.com/design/7TX2ZaRoNELcWCSOHEIq1V/Eesee-BRANDBOOK-2026?node-id=0-1&t=xdj657nwIVz2h6r5-1",
+        "long_text_mm4kxsgy": "eesee brings a proven distribution platform ($10.9M+ across 91 project launches, 45K KYC'd users, $3M raised in a round led by dao5, with backing from Animoca Brands and SevenX) onto Canton, with atomic swap functionality delivered from day one via Cancore's already-live, CertiK- and Hacken-audited Canton-native white-glove stack. Our model directly serves Canton's core thesis: we are the neutral rails that make it easy for third-party issuers, whether RWA originators, token teams, or asset managers, to bring assets onto Canton and for users to transact in them. Every reward-bearing transaction we generate reflects a real launch claim, a real DvP settlement, or a real vault action, in line with the intent of CIP-0104's traffic-based model. The 5,000,000 $CC Non-Issuer locking requirement (CIP-0116) is locked and active via the Canton Strategic / Cashen arrangement, with the full carrying cost of the locked position borne out of pocket, and we will keep the Committee informed of audit progress and go-live milestones."
       }
     }
   ]
