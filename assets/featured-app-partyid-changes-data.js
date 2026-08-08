@@ -1,5 +1,5 @@
 window.FEATURED_APP_PARTYID_CHANGES_DATA = {
-  "generatedAt": "2026-08-07T07:50:41.197Z",
+  "generatedAt": "2026-08-08T07:27:52.600Z",
   "columns": [
     {
       "id": "long_text_mm4kq322",
@@ -13,6 +13,15 @@ window.FEATURED_APP_PARTYID_CHANGES_DATA = {
     }
   ],
   "changes": [
+    {
+      "id": "09c59ea6-e0b2-44a8-aebb-73ca3ae176a7",
+      "changedAt": "2026-08-07T16:13:36.232Z",
+      "itemName": "Sanctum",
+      "itemId": "12467854319",
+      "field": "Party ID for the Featured Application:",
+      "previousValue": "",
+      "newValue": "sanctum-mainnet::12205162445638c3f71c9942b74360134b4ebc953b5bea2c25adc99bff130bffd060"
+    },
     {
       "id": "409a14e1-8f5f-4a92-bd59-2e7b1606edb0",
       "changedAt": "2026-08-06T12:42:37.555Z",
@@ -183,15 +192,6 @@ window.FEATURED_APP_PARTYID_CHANGES_DATA = {
       "field": "Locking PartyIDs",
       "previousValue": "",
       "newValue": "23d169c2-0909-4c70-81d1-1922de6febaa::122056b88d963eeb73a25493d83cc0d3121069241f9775ff21686f90028f3b7496e5"
-    },
-    {
-      "id": "17993a58-fd48-4e09-b357-e7b83659af76",
-      "changedAt": "2026-07-15T15:47:45.385Z",
-      "itemName": "Custodial Wrapped Assets",
-      "itemId": "12467790002",
-      "field": "Locking PartyIDs",
-      "previousValue": "",
-      "newValue": "23d169c2-0909-4c70-81d1-1922de6febaa::12203f7f44f693ff10e4b9000fb25fb4e9a347dda71c5ef7e20e8819fd377012a8b1"
     }
   ]
 };
