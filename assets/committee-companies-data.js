@@ -1,5 +1,5 @@
 window.COMMITTEE_COMPANIES_DATA = {
-  "generatedAt": "2026-08-08T07:33:13.386Z",
+  "generatedAt": "2026-08-09T07:39:05.291Z",
   "committees": {
     "faAccountability": {
       "label": "Featured Application Accountability Committee",
@@ -103,12 +103,9 @@ window.COMMITTEE_COMPANIES_DATA = {
     },
     "tokenomics": {
       "label": "Tokenomics Committee",
-      "companies": []
-    },
-    "techOps": {
-      "label": "Technology and Operations Committee",
       "companies": [
         "4M Group LLC",
+        "5 North",
         "7RIDGE",
         "AngelHack Pte Ltd",
         "Avro Digital Inc",
@@ -120,9 +117,10 @@ window.COMMITTEE_COMPANIES_DATA = {
         "Cashen Labs, Inc.",
         "CaviarNine Limited",
         "Chainlink Labs",
+        "Chata Technologies Inc",
+        "Copper Markets (Switzerland) AG",
         "Cosimo Capital LLC",
-        "Cryptio LTD",
-        "Dedge Security S.L.",
+        "Cumberland SV LLC",
         "Depository Trust and Clearing Corporation (DTCC)",
         "Digital Asset (Switzerland) GmbH",
         "Enzyme Foundation",
@@ -131,12 +129,10 @@ window.COMMITTEE_COMPANIES_DATA = {
         "Fairmint Inc",
         "Figment Inc",
         "Finoa Consensus Services GmbH",
-        "FP Complete Corporation",
         "Gevulot Oy",
         "Goldman Sachs & Co. LLC",
         "Guffey, Inc.",
         "Halborn Inc.",
-        "HSBC",
         "IntellectEU",
         "Kaiko",
         "Kaleido",
@@ -144,32 +140,59 @@ window.COMMITTEE_COMPANIES_DATA = {
         "KPMG LLP",
         "KRO Brokers, SPC",
         "Launchnodes",
+        "Liberty City Ventures",
         "Lithium Digital Limited",
         "Lloyds Bank Plc",
         "Moody's",
-        "MPCH",
         "Noves Inc",
         "OnRails Ltd",
         "Ownera",
+        "PixelPlex",
         "Proof Group",
         "RedStone",
         "Sats Labs Inc.",
         "SBI Digital Asset Holdings",
         "Send, Inc.",
         "T-RIZE Group",
-        "The International Securities Lending Association",
         "The Tie Inc",
         "Titan Labs Limited",
-        "Tradeweb Markets LLC",
         "TRM Labs",
+        "Ubyx Inc",
         "USIG Digital, Inc.",
+        "Visa Inc.",
         "Zeppelin Group Ltd",
         "Zodia Custody"
       ]
     },
+    "techOps": {
+      "label": "Technology and Operations Committee",
+      "companies": []
+    },
     "collateral": {
       "label": "Collateral Subcommittee",
-      "companies": []
+      "companies": [
+        "7RIDGE",
+        "BNY",
+        "Broadridge Financial Solutions",
+        "Cumberland SV LLC",
+        "Depository Trust and Clearing Corporation (DTCC)",
+        "Digital Asset (Switzerland) GmbH",
+        "Euroclear",
+        "IntellectEU",
+        "International Swaps and Derivatives Association",
+        "Kaiko",
+        "KPMG LLP",
+        "KRO Brokers, SPC",
+        "LiquidityTech Limited",
+        "Lloyds Bank Plc",
+        "SBI Digital Asset Holdings",
+        "T-RIZE Group",
+        "The International Securities Lending Association",
+        "Tradeweb Markets LLC",
+        "Transcend Street Solutions Inc.",
+        "USIG Digital, Inc.",
+        "Zeppelin Group Ltd"
+      ]
     }
   }
 };
