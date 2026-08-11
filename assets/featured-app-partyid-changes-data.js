@@ -1,5 +1,5 @@
 window.FEATURED_APP_PARTYID_CHANGES_DATA = {
-  "generatedAt": "2026-08-10T08:12:16.307Z",
+  "generatedAt": "2026-08-11T07:44:25.902Z",
   "columns": [
     {
       "id": "long_text_mm4kq322",
@@ -13,6 +13,15 @@ window.FEATURED_APP_PARTYID_CHANGES_DATA = {
     }
   ],
   "changes": [
+    {
+      "id": "37d0691a-708e-4110-a6e4-6840305fca97",
+      "changedAt": "2026-08-10T11:48:36.918Z",
+      "itemName": "eesee - eesee Ltd. (BVI-registered)",
+      "itemId": "12751665725",
+      "field": "Locking PartyIDs",
+      "previousValue": "5,000,000 $CC locked and active via Canton Strategic / Cashen locking arrangement. Locking party: 23d169c2-0909-4c70-81d1-1922de6febaa::12200255cb9526b82c134e1bfb2136f841c32af8a2df39e2e52a2c9f03da7a4afac1 Verifiable on-chain: https://ccview.io/party/23d169c2-0909-4c70-81d1-1922de6febaa::12200255cb9526b82c134e1bfb2136f841c32af8a2df39e2e52a2c9f03da7a4afac1/ FeaturedAppRight is held on the eesee app-provider party: eesee-mainnet-1::1220fb2e89aab677556481b303aad5d3aa049edcf961db626f12f2c9e040b5463df4",
+      "newValue": "23d169c2-0909-4c70-81d1-1922de6febaa::12200255cb9526b82c134e1bfb2136f841c32af8a2df39e2e52a2c9f03da7a4afac1"
+    },
     {
       "id": "09c59ea6-e0b2-44a8-aebb-73ca3ae176a7",
       "changedAt": "2026-08-07T16:13:36.232Z",
@@ -183,15 +192,6 @@ window.FEATURED_APP_PARTYID_CHANGES_DATA = {
       "field": "Party ID for the Featured Application:",
       "previousValue": "",
       "newValue": "Ekiden-app-1::12209dbe4e2f483b6be8913b2f72690cd3486c7667b24d71c52e34816de78ac9482f"
-    },
-    {
-      "id": "b3fc7117-1b4e-44b2-b2f8-c25ab40a1a01",
-      "changedAt": "2026-07-15T15:47:48.163Z",
-      "itemName": "ClearLoop Settlement",
-      "itemId": "12467815974",
-      "field": "Locking PartyIDs",
-      "previousValue": "",
-      "newValue": "23d169c2-0909-4c70-81d1-1922de6febaa::122056b88d963eeb73a25493d83cc0d3121069241f9775ff21686f90028f3b7496e5"
     }
   ]
 };
