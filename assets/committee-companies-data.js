@@ -1,5 +1,5 @@
 window.COMMITTEE_COMPANIES_DATA = {
-  "generatedAt": "2026-08-10T08:15:39.623Z",
+  "generatedAt": "2026-08-11T07:51:04.156Z",
   "committees": {
     "faAccountability": {
       "label": "Featured Application Accountability Committee",
@@ -38,6 +38,7 @@ window.COMMITTEE_COMPANIES_DATA = {
         "OnRails Ltd",
         "PixelPlex",
         "RedStone",
+        "Sats Labs Inc.",
         "SBI Digital Asset Holdings",
         "Send, Inc.",
         "T-RIZE Group",
@@ -86,6 +87,7 @@ window.COMMITTEE_COMPANIES_DATA = {
         "OnRails Ltd",
         "PixelPlex",
         "RedStone",
+        "Sats Labs Inc.",
         "SBI Digital Asset Holdings",
         "Send, Inc.",
         "T-RIZE Group",
