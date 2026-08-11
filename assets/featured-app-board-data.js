@@ -1,5 +1,5 @@
 window.FEATURED_APP_BOARD_DATA = {
-  "generatedAt": "2026-08-10T08:07:24.351Z",
+  "generatedAt": "2026-08-11T07:40:12.851Z",
   "columns": [
     {
       "id": "text_mm4k2vch",
@@ -1868,7 +1868,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467790154",
       "name": "Ov Defi",
-      "updatedAt": "2026-08-09T06:00:20Z",
+      "updatedAt": "2026-08-10T11:00:12Z",
       "values": {
         "text_mm4k2vch": "OneNov",
         "color_mm4kmej3": "1-Needs Review",
@@ -2226,7 +2226,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467789257",
       "name": "Saxon Automate / Canton Keeper",
-      "updatedAt": "2026-08-09T06:00:22Z",
+      "updatedAt": "2026-08-10T11:00:15Z",
       "values": {
         "text_mm4k2vch": "Saxon",
         "color_mm4kmej3": "1-Needs Review",
@@ -3624,7 +3624,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467789103",
       "name": "Jubilee Treasury",
-      "updatedAt": "2026-08-09T06:00:24Z",
+      "updatedAt": "2026-08-10T11:00:18Z",
       "values": {
         "text_mm4k2vch": "Jubilee Treasury",
         "color_mm4kmej3": "6-Withdrawn",
@@ -3766,7 +3766,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467790155",
       "name": "Mperps",
-      "updatedAt": "2026-08-09T06:00:25Z",
+      "updatedAt": "2026-08-10T11:00:20Z",
       "values": {
         "text_mm4k2vch": "Lemongrass IT Services LLC-Fz",
         "color_mm4kmej3": "1-Needs Review",
@@ -4915,7 +4915,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467806176",
       "name": "Rapid Chain",
-      "updatedAt": "2026-08-09T06:00:27Z",
+      "updatedAt": "2026-08-10T11:00:22Z",
       "values": {
         "text_mm4k2vch": "Rapid Blockchain Technologies Ltd.",
         "color_mm4kmej3": "5-Revoked",
@@ -5988,7 +5988,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467856988",
       "name": "MEME token and Coinflip",
-      "updatedAt": "2026-08-09T06:00:28Z",
+      "updatedAt": "2026-08-10T11:00:24Z",
       "values": {
         "text_mm4k2vch": "Archerswap",
         "color_mm4kmej3": "1-Needs Review",
@@ -6520,7 +6520,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467790006",
       "name": "CC Ledger",
-      "updatedAt": "2026-08-09T06:00:30Z",
+      "updatedAt": "2026-08-10T11:00:28Z",
       "values": {
         "text_mm4k2vch": "Blueprint Infrastructure, LLC",
         "color_mm4kmej3": "1-Needs Review",
@@ -6901,7 +6901,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467783405",
       "name": "Nomexis",
-      "updatedAt": "2026-07-23T13:35:25Z",
+      "updatedAt": "2026-08-10T15:47:50Z",
       "values": {
         "text_mm4k2vch": "Bluechip Institute Limited",
         "color_mm4kmej3": "0-Locked+Needs Review",
@@ -7127,7 +7127,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467847770",
       "name": "VAULT",
-      "updatedAt": "2026-08-09T06:00:32Z",
+      "updatedAt": "2026-08-10T11:00:30Z",
       "values": {
         "text_mm4k2vch": "HighTower",
         "color_mm4kmej3": "1-Needs Review",
@@ -7217,7 +7217,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467847773",
       "name": "CC Space",
-      "updatedAt": "2026-08-09T06:00:34Z",
+      "updatedAt": "2026-08-10T11:00:35Z",
       "values": {
         "text_mm4k2vch": "ITRocket LLC",
         "color_mm4kmej3": "1-Needs Review",
@@ -7302,7 +7302,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467847778",
       "name": "Ov Defi",
-      "updatedAt": "2026-08-09T06:00:36Z",
+      "updatedAt": "2026-08-10T11:00:37Z",
       "values": {
         "text_mm4k2vch": "OneNov",
         "color_mm4kmej3": "1-Needs Review",
@@ -7646,7 +7646,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467825386",
       "name": "Agora: Survey & Vote",
-      "updatedAt": "2026-08-09T06:00:38Z",
+      "updatedAt": "2026-08-10T11:00:38Z",
       "values": {
         "text_mm4k2vch": "Agora: Survey & Vote",
         "color_mm4kmej3": "1-Needs Review",
@@ -8294,7 +8294,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467790000",
       "name": "BENJI",
-      "updatedAt": "2026-08-09T06:00:40Z",
+      "updatedAt": "2026-08-10T11:00:40Z",
       "values": {
         "text_mm4k2vch": "Franklin Templeton",
         "color_mm4kmej3": "3-CIP-0116-paused",
@@ -8380,7 +8380,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467834325",
       "name": "ChainSafe x402 Global Facilitator",
-      "updatedAt": "2026-08-09T06:00:42Z",
+      "updatedAt": "2026-08-10T11:00:42Z",
       "values": {
         "text_mm4k2vch": "ChainSafe",
         "color_mm4kmej3": "1-Needs Review",
@@ -8409,7 +8409,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467834326",
       "name": "Squads Non-Custodial Wallet",
-      "updatedAt": "2026-08-09T06:00:44Z",
+      "updatedAt": "2026-08-10T11:00:44Z",
       "values": {
         "text_mm4k2vch": "SQUADS",
         "color_mm4kmej3": "1-Needs Review",
@@ -8465,7 +8465,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467824052",
       "name": "Canquest",
-      "updatedAt": "2026-08-09T06:00:45Z",
+      "updatedAt": "2026-08-10T11:00:46Z",
       "values": {
         "text_mm4k2vch": "Naxweb",
         "color_mm4kmej3": "1-Needs Review",
@@ -8497,7 +8497,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467824053",
       "name": "Deploi Credit Market",
-      "updatedAt": "2026-08-09T06:00:51Z",
+      "updatedAt": "2026-08-10T11:00:53Z",
       "values": {
         "text_mm4k2vch": "Deploi",
         "color_mm4kmej3": "1-Needs Review",
@@ -8559,7 +8559,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467824055",
       "name": "AUROX on Canton for featured app",
-      "updatedAt": "2026-08-09T06:00:53Z",
+      "updatedAt": "2026-08-10T11:00:54Z",
       "values": {
         "text_mm4k2vch": "International Institute of Blockchain Advanced Technology",
         "color_mm4kmej3": "1-Needs Review",
@@ -8616,7 +8616,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467832618",
       "name": "ScopeX Rate Lock",
-      "updatedAt": "2026-08-09T06:00:55Z",
+      "updatedAt": "2026-08-10T11:00:56Z",
       "values": {
         "text_mm4k2vch": "ScopeX Money",
         "color_mm4kmej3": "1-Needs Review",
@@ -8762,7 +8762,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467854321",
       "name": "Privket.com",
-      "updatedAt": "2026-08-09T06:00:57Z",
+      "updatedAt": "2026-08-10T11:00:58Z",
       "values": {
         "text_mm4k2vch": "Privket",
         "color_mm4kmej3": "6-Withdrawn",
@@ -9086,7 +9086,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467834271",
       "name": "InfoDive Labs Prediction Market",
-      "updatedAt": "2026-08-06T16:46:45Z",
+      "updatedAt": "2026-08-10T11:38:59Z",
       "values": {
         "text_mm4k2vch": "InfoDive Labs",
         "color_mm4kmej3": "0-Locked+Needs Review",
@@ -9169,7 +9169,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467834274",
       "name": "Ibex",
-      "updatedAt": "2026-07-23T13:35:26Z",
+      "updatedAt": "2026-08-10T15:44:04Z",
       "values": {
         "text_mm4k2vch": "Ibex Ventures Limited",
         "color_mm4kmej3": "0-Locked+Needs Review",
@@ -9201,7 +9201,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467783449",
       "name": "Mperps",
-      "updatedAt": "2026-08-09T06:00:58Z",
+      "updatedAt": "2026-08-10T11:01:00Z",
       "values": {
         "text_mm4k2vch": "Lemongrass IT Services LLC-Fz",
         "color_mm4kmej3": "1-Needs Review",
@@ -9229,7 +9229,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467783450",
       "name": "Canquest",
-      "updatedAt": "2026-08-09T06:16:50Z",
+      "updatedAt": "2026-08-10T11:01:02Z",
       "values": {
         "text_mm4k2vch": "Canquest",
         "color_mm4kmej3": "1-Needs Review",
@@ -9287,7 +9287,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12471377959",
       "name": "OpenBaskets - BlockxAI Limited",
-      "updatedAt": "2026-08-09T06:16:51Z",
+      "updatedAt": "2026-08-10T11:01:04Z",
       "values": {
         "text_mm4k2vch": "BlockxAI Limited",
         "color_mm4kmej3": "1-Needs Review",
@@ -9314,7 +9314,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12568365683",
       "name": "Synfin - Cayvox Labs",
-      "updatedAt": "2026-08-09T06:16:53Z",
+      "updatedAt": "2026-08-10T11:01:06Z",
       "values": {
         "text_mm4k2vch": "Cayvox Labs",
         "color_mm4kmej3": "1-Needs Review",
@@ -9398,7 +9398,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12609616425",
       "name": "Arkhia x402 Facilitator-as-a-Service (FaaS) - Arkhia Pte Ltd",
-      "updatedAt": "2026-08-09T14:05:08Z",
+      "updatedAt": "2026-08-10T11:01:08Z",
       "values": {
         "text_mm4k2vch": "Arkhia Pte Ltd",
         "color_mm4kmej3": "1-Needs Review",
@@ -9430,7 +9430,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12626943292",
       "name": "Yellow Card - Yellow Card Financial Inc.",
-      "updatedAt": "2026-08-09T14:05:10Z",
+      "updatedAt": "2026-08-10T11:01:10Z",
       "values": {
         "text_mm4k2vch": "Yellow Card Financial Inc.",
         "color_mm4kmej3": "1-Needs Review",
@@ -9494,7 +9494,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12731951755",
       "name": "Cove Wallet API - Qasara Labs Private Limited",
-      "updatedAt": "2026-08-09T14:05:11Z",
+      "updatedAt": "2026-08-10T11:01:11Z",
       "values": {
         "text_mm4k2vch": "Qasara Labs Private Limited",
         "color_mm4kmej3": "1-Needs Review",
@@ -9577,7 +9577,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12742964838",
       "name": "The Hub - The Hub",
-      "updatedAt": "2026-08-07T17:21:05Z",
+      "updatedAt": "2026-08-10T11:47:57Z",
       "values": {
         "text_mm4k2vch": "The Hub",
         "color_mm4kmej3": "0-Locked+Needs Review",
@@ -9605,12 +9605,12 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12751665725",
       "name": "eesee - eesee Ltd. (BVI-registered)",
-      "updatedAt": "2026-08-08T12:01:14Z",
+      "updatedAt": "2026-08-10T11:48:54Z",
       "values": {
         "text_mm4k2vch": "eesee Ltd. (BVI-registered)",
-        "color_mm4kmej3": "1-Needs Review",
+        "color_mm4kmej3": "0-Locked+Needs Review",
         "color_mm4kpp3q": "Non-Issuer",
-        "long_text_mm4khjn6": "5,000,000 $CC locked and active via Canton Strategic / Cashen locking arrangement. Locking party: 23d169c2-0909-4c70-81d1-1922de6febaa::12200255cb9526b82c134e1bfb2136f841c32af8a2df39e2e52a2c9f03da7a4afac1 Verifiable on-chain: https://ccview.io/party/23d169c2-0909-4c70-81d1-1922de6febaa::12200255cb9526b82c134e1bfb2136f841c32af8a2df39e2e52a2c9f03da7a4afac1/ FeaturedAppRight is held on the eesee app-provider party: eesee-mainnet-1::1220fb2e89aab677556481b303aad5d3aa049edcf961db626f12f2c9e040b5463df4",
+        "long_text_mm4khjn6": "23d169c2-0909-4c70-81d1-1922de6febaa::12200255cb9526b82c134e1bfb2136f841c32af8a2df39e2e52a2c9f03da7a4afac1",
         "numeric_mm4k6919": "10.0",
         "long_text_mm4km2s7": "eesee is the team behind the eesee.io launchpad, which has processed $10.9M+ across 91 project launches with 45K KYC'd users, backed by Animoca Brands, SevenX Ventures and dao5. We are bringing the full eesee stack onto Canton as the consumer and institutional super app for the ecosystem- a single interface through which users access asset launches, atomic swaps and bridging, yield vaults on Canton. Critically, eesee is workflow infrastructure, not an asset issuer: assets launched through the platform are issued by their originating projects, while eesee operates the distribution, vesting, claim, and settlement rails around them.",
         "link_mm4kmq24": "https://eesee.space/",
@@ -9630,6 +9630,97 @@ window.FEATURED_APP_BOARD_DATA = {
         "long_text_mm4khbeg": "Core contracts are closed-source, completed CertiK audit and BlockApex Initial Security Review; all reports and selected modules will be made available to the Committee on request.",
         "long_text_mm4kp5en": "figma.com/design/7TX2ZaRoNELcWCSOHEIq1V/Eesee-BRANDBOOK-2026?node-id=0-1&t=xdj657nwIVz2h6r5-1",
         "long_text_mm4kxsgy": "eesee brings a proven distribution platform ($10.9M+ across 91 project launches, 45K KYC'd users, $3M raised in a round led by dao5, with backing from Animoca Brands and SevenX) onto Canton, with atomic swap functionality delivered from day one via Cancore's already-live, CertiK- and Hacken-audited Canton-native white-glove stack. Our model directly serves Canton's core thesis: we are the neutral rails that make it easy for third-party issuers, whether RWA originators, token teams, or asset managers, to bring assets onto Canton and for users to transact in them. Every reward-bearing transaction we generate reflects a real launch claim, a real DvP settlement, or a real vault action, in line with the intent of CIP-0104's traffic-based model. The 5,000,000 $CC Non-Issuer locking requirement (CIP-0116) is locked and active via the Canton Strategic / Cashen arrangement, with the full carrying cost of the locked position borne out of pocket, and we will keep the Committee informed of audit progress and go-live milestones."
+      }
+    },
+    {
+      "id": "12769413819",
+      "name": "Canquest - PT JARINGAN SIMPUL TEKNOLOGI",
+      "updatedAt": "2026-08-11T04:03:45Z",
+      "values": {
+        "text_mm4k2vch": "PT JARINGAN SIMPUL TEKNOLOGI",
+        "color_mm4kmej3": "1-Needs Review",
+        "color_mm4kpp3q": "Non-Issuer",
+        "long_text_mm4khjn6": "canquest-validator-1::12209fe74271728c49a1922362aa0c8d2bff7f7546b81963b7d5b65361fd8e5442fb",
+        "long_text_mm4km2s7": "Blockchain-Based Application Development Activities",
+        "link_mm4kd0hk": "https://www.canquest.cc/brand-kit",
+        "link_mm4kmq24": "https://www.canquest.cc/",
+        "link_mm4kqtfa": "https://drive.google.com/drive/folders/12a83nZPvHuOtcWm2EG2SkPPWpR8nQQY8?usp=sharing",
+        "long_text_mm4k2537": "CanQuest connects Canton ecosystem projects with verified early users. Users complete quests from partner projects to earn early access codes (testnet, app, community) or claim on-chain rewards (CC/USDCx), transfer P2P, swap, and climb the leaderboard of verified users.",
+        "long_text_mm5hgry2": "No. Canquest is built exclusively for Canton/DAML and has never been deployed on any other blockchain or production environment.",
+        "long_text_mm4k4y1h": "Canquest is a Canton partner project aiming to acquire verified early users through campaign questionnaires, while also targeting crypto users seeking early access to Canton partner projects and on-chain rewards.",
+        "long_text_mm4k15bg": "Every time a user claims a partner campaign or settles a peer-to-peer CC/USDCx transfer, CanQuest earns an app reward. On a claim, the user pays a CC claim fee to unlock a partner access code, waitlist spot, invite code, or token reward, and that settlement fires FeaturedAppRight_CreateActivityMarker with CanQuest as the beneficiary. The same happens for P2P sends, where a platform fee is taken during the transfer. Each settlement adds one ActivityMarker to the CanQuest party in Canton Coin's Activity Markets, which is what earns us the app reward.",
+        "long_text_mm4kh3fw": "Our backend talks directly to the Canton participant node over the Ledger API. We submit DAML choices like ClaimSlot, Settle, ExecuteTransfer, and RevealCode via submitAndWait, pull active contracts and token holdings to show accurate wallet balances, and listen to ledger updates in real time through the /v2/updates stream. Every CC lock, campaign claim, and peer-to-peer transfer is recorded permanently on the ledger as a DAML contract (CampaignEligibility, QuestClaimReceipt, PlatformTransfer), and we sync each ledger update ID back to our own database so users get a verifiable link on CantonScan.",
+        "long_text_mm4kfg50": "CanQuest earns app rewards through Activity Markers. We integrate them in two ways: at the contract level, our DAML templates (QuestClaimReceipt.Settle and PlatformTransfer.ExecuteTransfer) each exercise the FeaturedAppRight_CreateActivityMarker choice with CanQuest as the sole beneficiary (weight 1.0) whenever a settlement happens; and in the backend, our FeaturedAppActivityService resolves the CANTON_APP_PROVIDER_PARTY_ID and the FeaturedAppActivityMarker template ID, creating one marker contract per qualifying user interaction (quest settled, CC transferred, wallet created). These markers are then aggregated by Canton's Super Validators per round to compute our app rewards.",
+        "long_text_mm4kxcm2": "Overall, we project roughly 8 to 15 on-chain transactions per active user daily, driven by a stack of daily quests that require real ledger settlement. Before joining a partner campaign, users must lock up a specified amount of CC via AmuletRules (recorded under the CampaignEligibility contract) to unlock access, making this lock-up a required transaction for entry. Once eligible, a typical user completes one campaign claim per day through QuestClaimReceipt.Settle, executes 5 to 10 actual CC/USDCx transfers to fulfill tasks like send_transaction, send_any_daily, send_to_user_daily, and receive_internal_daily (configurable counts resetting every 24 hours), performs 1 to 3 swaps for the daily_swap quest, and occasionally locks up additional CC across 3-day, 7-day, or 15-day tiers.",
+        "long_text_mm4kvyjq": "Users generate multiple transactions within a round when they work through daily activity-based quest tasks — for example, send_transaction, send_token, daily_swap, send_to_user_daily, or receive_internal_daily tasks that count real sends, P2P transfers, or swaps inside a 24-hour window. A user completing several of those tasks in one day will make multiple on-chain transfer settlements, each creating its own ActivityMarker. lock_cc tasks and referral rewards can also stack within the same round alongside daily tasks, pushing the per-user transaction count even higher.",
+        "long_text_mm4k1cm0": "We project super-linear transaction growth relative to our user base size: each active user generates 8 to 15 on-chain settlements per day through stacked daily activity quests, and because users send CC/USDCx to one another to complete send_to_user_daily and receive_internal_daily tasks, every new joiner increases the number of valid sender-receiver pairs across the entire network—causing P2P growth to outpace user growth. Our referral system (points per invite) further amplifies this network effect, as invited users bring in highly engaged new players who each carry a full daily transaction load. At the same time, onboarding more partner projects onto CanQuest unlocks additional eligible campaigns, driving more CC lock-ups and higher claim volume per user—meaning overall transaction growth scales from both a expanding user count and elevated per-user activity",
+        "long_text_mm4kd4h2": "Early September",
+        "long_text_mm4kfkwn": "Our first customers are Canton ecosystem projects looking to onboard early users ahead of their public launch—teams wanting to distribute access codes, waitlist spots, invite codes, and token rewards (CC/USDCx) to a verified community through quest campaigns.",
+        "long_text_mm4k6q73": "FA status is completely optional in our architecture—the FAR Leg 3 in both of our DAML choices (QuestClaimReceipt.Settle and PlatformTransfer.ExecuteTransfer) is designed as an opt-in mechanism via the featuredAppRightCid parameter. Without FA status, we simply set that parameter to None, and the dApp continues to function exactly as intended: users can still register wallets, lock CC, join partner campaigns, claim rewards, and execute P2P CC/USDCx transfers—it just means CanQuest won't generate ActivityMarket app rewards. In that scenario, our operational plan pivots to rely on our existing platform fees (the CC claim fee on every campaign claim, and the CC platform fee on every P2P transfer) as our primary revenue model rather than app reward subsidies, keeping both the core product and user experience entirely unchanged while losing only that external revenue stream.",
+        "long_text_mm4kwxt1": "Yes. CanQuest enforces multiple layers of anti-sybil and anti-farming controls across the entire product: registration is restricted strictly to major webmail providers (Gmail, Yahoo, Outlook, iCloud, Proton) backed by a disposable-domain blacklist as a safety net; wallet creation requires a verified email OTP alongside an invite code tied to a global daily allocation cap (resetting at 00:00 UTC); alias-farming detection normalizes every email to its canonical form to flag multi-alias invitations with zero false positives for real users; DAML on-chain eligibility contracts (ClaimSlot/DrawWinner) ensure claims require a real CC lock executed after campaign creation, complete with a mandatory claim fee prior to settlement; and global per-IP throttling guards every endpoint to curb abuse—collectively preventing sybil attacks, duplicate claims, referral gaming, and wash trading for rewards.",
+        "long_text_mm4khbeg": "-",
+        "long_text_mm4kp5en": "https://www.canquest.cc/brand-kit",
+        "long_text_mm4kxsgy": "CanQuest is built natively for Canton, not ported from EVM. Every user interaction—from wallet onboarding and CC locks to partner campaign claims, P2P transfers, and swaps—is a DAML choice recorded permanently on-chain with verifiable update IDs on CantonScan. The platform helps Canton projects acquire verified early adopters through quest campaigns that distribute access codes, waitlist spots, invite codes, and token rewards. Stacked daily activity quests drive consistent, organic transaction volume, while our anti-sybil controls ensure this reflects real users rather than bot farmers."
+      }
+    },
+    {
+      "id": "12769391755",
+      "name": "Helvex - Helvex (Dream Capital LLC)",
+      "updatedAt": "2026-08-11T04:03:51Z",
+      "values": {
+        "text_mm4k2vch": "Helvex (Dream Capital LLC)",
+        "color_mm4kmej3": "1-Needs Review",
+        "color_mm4kpp3q": "Non-Issuer",
+        "long_text_mm4khjn6": "Cashen",
+        "long_text_mm4km2s7": "Canton-native DeFi infrastructure focused on settlement and liquidity. We have built intent-based swap and settlement primitives that pair off-ledger solver competition with atomic on-ledger delivery-versus-payment.",
+        "link_mm4kmq24": "https://helvex.cc",
+        "link_mm4kqtfa": "https://drive.google.com/file/d/16cxuCvTLt_vNZlmY-KNvL9hpOKQMFCyo/view?usp=sharing",
+        "long_text_mm4k2537": "Helvex is an intent-based RFQ swap on Canton. A user expresses a swap intent (for example USDCx to CC, or cBTC to USDCx). Independent solvers compete off-ledger to provide best execution. The winning fill settles atomically on-ledger as a two-leg delivery-versus-payment between CIP-56 tokens.",
+        "long_text_mm5hgry2": "No. Helvex itself has not been previously deployed on another blockchain or in another production environment - it is purpose-built for Canton, using Canton-native primitives (CIP-0056 allocation-based DvP settlement, sub-transaction privacy, and Canton token interfaces) that do not exist on other chains. The broader architecture — intent/RFQ-based swaps with off-ledger matching and atomic on-ledger settlement — is a proven design pattern on other networks (e.g. CoW Protocol, 1inch Fusion, UniswapX). Helvex adapts that well-understood approach to Canton (v1: firm-quote RFQ with atomic DvP) rather than inventing an experimental swap mechanism, which reduces execution-model risk while the Canton-specific settlement, privacy, and compliance layers are new.",
+        "long_text_mm4k4y1h": "KYC’d retail and institutional users on Canton who want to swap between curated CIP-0056 tokens (CC, CBTC, and USDCx); CC holders needing on-network liquidity; and professional market makers/liquidity providers who trade via API and can act as solvers filling intents. Access is permissioned (KYC + allowlist); programmatic access is via API keys.",
+        "long_text_mm4k15bg": "On-ledger atomic CIP-0056 allocation-based DvP settlement when a solver's fill is accepted (e.g. USDCx↔CC, cBTC↔USDCx), on which Helvex's app-provider party is a confirmer holding a FeaturedAppRight. Today: CC-leg swaps earn via Amulet's built-in featured-transfer support (no marker); non-CC settlements emit a FeaturedAppActivityMarker (CIP-0047) that SVs convert to an AppRewardCoupon. Off-ledger RFQ matching and solver selection earn nothing. Under CIP-0104, markers stop and the same settlement earns CC from confirmed-view traffic (config change). CIP-0056 today, migrating to CIP-0112 later - product model unchanged.",
+        "long_text_mm4kh3fw": "Canton JSON Ledger API v2 (JWT auth). State: active-contract discovery, ledger-end tracking, and Token Standard / Splice Registry HTTP calls for allocation/transfer factories and disclosed contracts. Commands: lock, settle and withdraw are submitted from the Helvex backend via POST /v2/commands/submit-and-wait-for-transaction (LEDGER_EFFECTS shape where exercise-node detail is needed; not the deprecated tree endpoint). Lock acts as maker+protocol; settlement as maker+solver+protocol; withdrawals as protocol - Helvex can act as these because its validator hosts them and holds their keys today. User authority is a user-signed (Ed25519) intent verified off-ledger; withdrawals are destination-locked to the user's own Loop wallet. Helvex runs a dedicated MainNet validator hosting the provider party and each user's trading party, so settlement traffic accrues there. Migration to user-held keys (external party + interactive submission) is the Phase-2 self-custody design, not current behaviour.",
+        "long_text_mm4kfg50": "Activity Markers today, transitioning to Canton Coin under CIP-0104; both require Helvex's app-provider party to hold a Splice FeaturedAppRight. Today: CC-leg swaps use Amulet's built-in featured-transfer support (CC leg is an AmuletAllocation; no marker); non-CC settlements (e.g. cBTC↔USDCx) exercise FeaturedAppRight_CreateActivityMarker in the same DvP transaction, which SV automation converts to an AppRewardCoupon. When CIP-0104 activates, markers stop and the same activity earns CC automatically from traffic on confirmed views - a config change. CIP-0056 today, migrating to CIP-0112 as we adopt it. No markers/rewards for off-ledger matching, quote discovery, reconciliation, sweeps or admin ops.",
+        "long_text_mm4kxcm2": "Per-user expected daily transactions. ~6 on-ledger transactions per completed swap (sell-leg allocation lock + intent; then lock release, both settlement-leg allocations, and the atomic DvP; +1 optional app-fee leg). Rate limits are at the order level (e.g. 2 swap orders/min per account/API key), so one order still yields ~6 tx in seconds. User type Swaps/day On-ledger txns/day Casual holder 0–1 ~0–6 Active trader 2–5 ~12–30 Market maker / API bot 5–20 ~30–120 (Loop funding may add a small amount.) tx-per-swap may fall as we adopt CIP-0112, but per-user volume is unchanged.",
+        "long_text_mm4kvyjq": "Canton opens a new round ~every 10 minutes (SV-configurable; rounds overlap). One completed swap already generates ~6 transactions within seconds. A user generates more by (1) doing more than one swap in the window, or (2) funding activity (Loop deposit, destination-locked withdrawal, internal transfer). Rate/notional caps are at the order level (e.g. 2 orders/min), not per raw transaction. One solver per swap, one atomic DvP; split execution is future. All maps to genuine user activity, not inflation.",
+        "long_text_mm4k1cm0": "Linearly with active users. Swaps settle independently (no shared per-round global contract), so on-ledger transactions grow as (active users × swaps/user) × ~6 tx/swap. New-user onboarding adds a small one-time, also linear. Not super-linear or materially sub-linear (per-obligation, no batching). tx-per-swap may fall as we adopt CIP-0112, but aggregate scaling stays linear.",
+        "long_text_mm4kd4h2": "Already live on Mainnet",
+        "long_text_mm4kfkwn": "Retail and crypto traders, institutions, market makers, and existing CC holders in our community; market-maker/solver partners onboarded first",
+        "long_text_mm4k6q73": "Materially slower, not fatal. Settlement still works, but without FA the reward economics that fund solver incentives and tight spreads must be self-subsidised rather than flowing as Canton-native CC - forcing reduced solver rebates and wider spreads, which slows market-maker onboarding and weakens the execution quality institutions need. FA status makes the solver network self-sustaining rather than sponsor-funded.",
+        "long_text_mm4kwxt1": "Yes. Permissioned participation: every maker/solver is KYC'd and on an on-ledger allowlist the settlement choice verifies; frozen parties rejected; intents user-signed and party-bound. No self-fill + surveillance: Daml SettleWith rejects solver == maker; automated detection of matched-size/timing, reciprocal and circular flows across related parties, with suspension. Single-solver, no sharding: one solver, one atomic DvP; no order splitting (split is future, with a provable-improvement guard). Rewards only on genuine settlements - never off-ledger matching, quote discovery, reconciliation, sweeps or admin. Token/pair allowlist: operator-approved CIP-0056 instruments only. Rate/volume caps: $10–$1,000 per trade (fail-closed if price unavailable), per-API-key and per-IP limits, per-KYC-tier daily limits. Idempotency + atomic claims; Canton command dedup; HMAC + replay-nonce. Audit: ledger as source of truth, reconciliation vs ledger, on-ledger freeze; reward-weight-to-net-fee ratio monitored vs Coupon Guidance.",
+        "long_text_mm4khbeg": "NA",
+        "long_text_mm4kxsgy": "• Designed to the Coupon Guidance. Off-ledger components (RFQ matching, solver competition, routing, quote discovery, UI) generate no rewards by design. We earn only on the on-ledger settlement that burns traffic, where Helvex is a confirmer. The reward-weight-to-net-fee ratio is monitored against the stated tolerance. • Genuine confirmer. The Helvex operator/protocol party is a signatory and confirmer on every settlement (one of the actAs parties on each DvP), so reward attribution reflects real participation via its FeaturedAppRight and confirmer role. • Composability. As a Non-Issuer settling third-party CIP-56 assets, Helvex increases the on-chain DvP utility of other issuers' tokens on Canton. We operate our own MainNet validator and intend to bring professional market makers onto Canton as solvers."
+      }
+    },
+    {
+      "id": "12769391179",
+      "name": "Cessio - NODEJUMPER",
+      "updatedAt": "2026-08-11T04:03:55Z",
+      "values": {
+        "text_mm4k2vch": "NODEJUMPER",
+        "color_mm4kmej3": "1-Needs Review",
+        "color_mm4kpp3q": "Non-Issuer",
+        "long_text_mm4khjn6": "Will setup with Cashen once FA status is granted to the partyID.",
+        "long_text_mm4km2s7": "NODEJUMPER is a validator operator and software engineering team with years of production node infrastructure behind it — we build the tooling around it rather than only consuming it. On Canton we operate validator infrastructure and build for the ecosystem: a Rust SDK for Canton and other open-source tooling for the community.",
+        "link_mm4kd0hk": "https://github.com/cessio-cc/brand-kit",
+        "link_mm4kmq24": "https://cessio.cc",
+        "link_mm4kqtfa": "https://www.youtube.com/watch?v=mBAIRtdAgls",
+        "long_text_mm4k2537": "Cessio is a private trading desk for large trades on Canton. You ask a few market makers for one firm price on the whole amount, take the best quote, and the swap settles in a single transaction — both sides move together, or nothing moves. The makers who lost never learn your price, your size, or that you traded at all. Your keys stay in your browser; we never hold your assets. Works with cBTC, cETH, Canton Coin and any other Canton token-standard asset.",
+        "long_text_mm5hgry2": "Cessio has only ever run on Canton. The design depends on two Canton-specific properties that have no equivalent elsewhere: sub-transaction privacy (trade data is delivered only to the nodes of its stakeholders, rather than published and access-controlled), and composable atomic DvP across independently issued registries in one transaction. On a public chain the same product degenerates into a promise not to look at the order flow. It was built for Canton, on Canton.",
+        "long_text_mm4k4y1h": "Takers. Anyone with a large amount of any token to swap, who would rather not move the price in public — funds, treasuries and node operators rebalancing what they hold (Canton Coin into bridged Bitcoin, say, or back out). Any asset can trade here, including ones issued long after us. Makers. Trading firms and exchange teams who hold inventory and price risk for a living, and want large orders they cannot serve well from a public pool. People, agents and bots alike. The desk is a web app for people and a full API for everything else — nothing here is click-only. Agents connect through a published connector, so an AI agent can quote or trade with no custom work; our own quoting bot uses exactly the API we hand to outside makers, and an agent has already run a trade end to end on our test network. Later. Institutional capital, as more assets arrive on Canton. That is the market that makes this large, and the wrong one to start with.",
+        "long_text_mm4k15bg": "Rewards come from real trade actions: a maker posting a quote, a taker accepting it, and the settlement that follows. The desk may charge a fee to the winning maker, and may charge either side in Canton Coin for executing their ledger transactions.",
+        "long_text_mm4kh3fw": "Everything happens on the ledger, through smart contracts: a maker’s quote is a signed proposal contract, accepting it consumes that proposal and settles both assets plus our fee in one transaction. We run all of this on Digital Asset’s utility-settlement-app-v1 package rather than settlement code of our own, and users sign every action themselves — we prepare a transaction, the user’s browser signs it, we submit it.",
+        "long_text_mm4kfg50": "Canton Coin for executing ledger transactions. We do not use Activity Markers.",
+        "long_text_mm4kxcm2": "It depends almost entirely on how many users are trading — this is a block desk, not a high-frequency venue: few transactions per user, high value in each one. One completed trade is 6–9 ledger transactions: a quote from each invited maker (typically 2–5), the taker’s acceptance, an allocation from each side, and the settlement.",
+        "long_text_mm4kvyjq": "Routinely. A single trade is already several transactions — quote, acceptance, both allocations, settlement — and they land within seconds of each other, so a whole trade usually fits inside one round. On top of that a taker may buy or sell more than once in the same round, and a maker quotes every request it is invited to, so it can post several quotes in a round while settling another trade. What never happens is background traffic: nothing is polled, and there are no keep-alive writes.",
+        "long_text_mm4k1cm0": "Linearly. Each new taker simply adds their own trades, and every trade costs the same handful of transactions, so volume tracks trade count directly. The one multiplier is how many makers a taker invites, since each invitation is one more quote: growing the maker network raises the transactions per trade, not just the number of trades.",
+        "long_text_mm4kd4h2": "August 18, 2026",
+        "long_text_mm4kfkwn": "We are going after DEXes and liquidity providers as our makers — firms that already hold inventory and price risk for a living, and for whom our flow is order flow they cannot otherwise reach. Our takers are large holders of CIP-0056 tokens who need to move size without showing it to the market.",
+        "long_text_mm4k6q73": "We would keep going either way — just at smaller volumes in the early stages. Without FA status every losing quote costs a maker real traffic, so makers quote fewer counterparties and we would have to cap how many can compete for a block, which is exactly the thing that makes a taker’s price good.",
+        "long_text_mm4kwxt1": "Access is whitelisted: users are admitted to the desk before they can trade, every action is tied to a party we admitted, and we monitor settled flow for suspicious patterns and can revoke access. Faking volume is also loss-making by construction. Every settlement pays a real fee and real traffic on real, externally issued assets — the desk mints nothing — and a party cannot trade with itself, so both sides of every trade are distinct counterparties moving assets they genuinely hold.",
+        "long_text_mm4khbeg": "private repo",
+        "long_text_mm4kp5en": "https://github.com/cessio-cc/brand-kit",
+        "long_text_mm4kxsgy": "Cessio is the use case Canton’s strengths point at directly: privacy here is a property of the ledger, not a policy, and block trading is the business that cannot exist without it — the makers who lose an auction never receive the data, so there is nothing to leak. It also brings large money on-chain. Holders who sit on positions today because there is no way to move size unseen get a venue to trade, and every asset issued on Canton gains a place to trade at size — real recurring volume, traffic and CC demand for the network. One thing we will not overstate: all quoting so far is our own bot, so we have no third-party maker flow and no MainNet deployment yet. The architecture generalises. Adding cETH to a cBTC desk cost configuration, not engineering. The same mechanism serves any pair of Canton Token Standard instruments, which makes this a candidate RFQ layer for the network’s asset universe rather than a single-pair venue."
       }
     }
   ]
