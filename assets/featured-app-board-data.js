@@ -1,5 +1,5 @@
 window.FEATURED_APP_BOARD_DATA = {
-  "generatedAt": "2026-08-11T07:40:12.851Z",
+  "generatedAt": "2026-08-12T07:55:23.668Z",
   "columns": [
     {
       "id": "text_mm4k2vch",
@@ -1868,7 +1868,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467790154",
       "name": "Ov Defi",
-      "updatedAt": "2026-08-10T11:00:12Z",
+      "updatedAt": "2026-08-11T11:00:12Z",
       "values": {
         "text_mm4k2vch": "OneNov",
         "color_mm4kmej3": "1-Needs Review",
@@ -2226,14 +2226,14 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467789257",
       "name": "Saxon Automate / Canton Keeper",
-      "updatedAt": "2026-08-10T11:00:15Z",
+      "updatedAt": "2026-08-11T11:00:13Z",
       "values": {
         "text_mm4k2vch": "Saxon",
         "color_mm4kmej3": "1-Needs Review",
         "long_text_mm4kq322": "saxon-various-1::12204c9e793fdcdd329d9a8bd307562e3493139d9fee257b1928be514d1d4950e5b6",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "saxon-various-1::12204c9e793fdcdd329d9a8bd307562e3493139d9fee257b1928be514d1d4950e5b6",
-        "numeric_mm4k6919": "0.1",
+        "numeric_mm4k6919": "0.3",
         "long_text_mm4km2s7": "Saxon Nodes operates NAAS (Node-as-a-Service) Canton validator infrastructure. We run validator nodes for multiple clients hosting Daml applications including Canton Swap, Cantara, and Digital Asset utility packages. We are building tooling to improve the operational efficiency and reward generation for all Canton validators",
         "link_mm4kmq24": "https://saxon-xyz.github.io/canton-keeper-docs/",
         "link_mm4krmse": "https://saxon-xyz.github.io/canton-keeper-docs/",
@@ -2609,13 +2609,13 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467834277",
       "name": "Kairo",
-      "updatedAt": "2026-07-23T13:35:27Z",
+      "updatedAt": "2026-08-11T12:50:47Z",
       "values": {
         "text_mm4k2vch": "ANGELHACK PTE. LTD.",
         "color_mm4kmej3": "2-Approved",
-        "long_text_mm4kq322": "kairo-mainnet::12205162445638c3f71c9942b74360134b4ebc953b5bea2c25adc99bff130bffd060",
+        "long_text_mm4kq322": "kairo-mainnet::1220423e47c7ac3735f6b3b27193fb6e412e83ada003edd61d595defd499a364366a",
         "color_mm4kpp3q": "Non-Issuer",
-        "long_text_mm4khjn6": "12204a89b2fe76790eae7d8849e70dcda918f64fc5de82dfcd51de6d97135ee963dd::12207159611cf1666abe62b24f562221e928156daa2b41cd184b6d69920dcf8e5e1b",
+        "long_text_mm4khjn6": "12205::1220507fd785bccd74952cc15084516b881013966da87cbe3c854d92ed247e28831c",
         "numeric_mm4k6919": "5.0",
         "long_text_mm4km2s7": "AngelHack, founded in 2011, is a global company specializing in developer relations and innovation programs, with a background in organizing hackathons since its inception. It connects technology leaders with a worldwide community of over 300,000 developers through events like hackathons, quests, and incubators. Its services aim to help companies engage developers, crowdsource new ideas, and recruit talent, and it has partnered with major tech firms like Google, Meta, and Microsoft. https://www.canton.network/ecosystem/angelhack",
         "link_mm4kd0hk": "https://drive.google.com/drive/folders/1-3Zl3E2px7Ratk-JA9vqvUwBMeW9q10q?usp=sharing",
@@ -3087,7 +3087,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467838259",
       "name": "Wintip",
-      "updatedAt": "2026-08-05T14:08:49Z",
+      "updatedAt": "2026-08-11T12:12:20Z",
       "values": {
         "text_mm4k2vch": "Winsnip",
         "color_mm4kmej3": "0-Locked+Needs Review",
@@ -3624,7 +3624,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467789103",
       "name": "Jubilee Treasury",
-      "updatedAt": "2026-08-10T11:00:18Z",
+      "updatedAt": "2026-08-11T11:00:15Z",
       "values": {
         "text_mm4k2vch": "Jubilee Treasury",
         "color_mm4kmej3": "6-Withdrawn",
@@ -3766,7 +3766,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467790155",
       "name": "Mperps",
-      "updatedAt": "2026-08-10T11:00:20Z",
+      "updatedAt": "2026-08-11T11:00:16Z",
       "values": {
         "text_mm4k2vch": "Lemongrass IT Services LLC-Fz",
         "color_mm4kmej3": "1-Needs Review",
@@ -4915,7 +4915,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467806176",
       "name": "Rapid Chain",
-      "updatedAt": "2026-08-10T11:00:22Z",
+      "updatedAt": "2026-08-11T11:00:18Z",
       "values": {
         "text_mm4k2vch": "Rapid Blockchain Technologies Ltd.",
         "color_mm4kmej3": "5-Revoked",
@@ -5988,7 +5988,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467856988",
       "name": "MEME token and Coinflip",
-      "updatedAt": "2026-08-10T11:00:24Z",
+      "updatedAt": "2026-08-11T11:00:19Z",
       "values": {
         "text_mm4k2vch": "Archerswap",
         "color_mm4kmej3": "1-Needs Review",
@@ -6520,7 +6520,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467790006",
       "name": "CC Ledger",
-      "updatedAt": "2026-08-10T11:00:28Z",
+      "updatedAt": "2026-08-11T11:00:21Z",
       "values": {
         "text_mm4k2vch": "Blueprint Infrastructure, LLC",
         "color_mm4kmej3": "1-Needs Review",
@@ -7127,7 +7127,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467847770",
       "name": "VAULT",
-      "updatedAt": "2026-08-10T11:00:30Z",
+      "updatedAt": "2026-08-11T11:00:23Z",
       "values": {
         "text_mm4k2vch": "HighTower",
         "color_mm4kmej3": "1-Needs Review",
@@ -7217,7 +7217,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467847773",
       "name": "CC Space",
-      "updatedAt": "2026-08-10T11:00:35Z",
+      "updatedAt": "2026-08-11T11:00:25Z",
       "values": {
         "text_mm4k2vch": "ITRocket LLC",
         "color_mm4kmej3": "1-Needs Review",
@@ -7302,7 +7302,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467847778",
       "name": "Ov Defi",
-      "updatedAt": "2026-08-10T11:00:37Z",
+      "updatedAt": "2026-08-11T11:00:26Z",
       "values": {
         "text_mm4k2vch": "OneNov",
         "color_mm4kmej3": "1-Needs Review",
@@ -7646,7 +7646,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467825386",
       "name": "Agora: Survey & Vote",
-      "updatedAt": "2026-08-10T11:00:38Z",
+      "updatedAt": "2026-08-11T11:00:28Z",
       "values": {
         "text_mm4k2vch": "Agora: Survey & Vote",
         "color_mm4kmej3": "1-Needs Review",
@@ -8294,7 +8294,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467790000",
       "name": "BENJI",
-      "updatedAt": "2026-08-10T11:00:40Z",
+      "updatedAt": "2026-08-11T11:00:30Z",
       "values": {
         "text_mm4k2vch": "Franklin Templeton",
         "color_mm4kmej3": "3-CIP-0116-paused",
@@ -8380,7 +8380,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467834325",
       "name": "ChainSafe x402 Global Facilitator",
-      "updatedAt": "2026-08-10T11:00:42Z",
+      "updatedAt": "2026-08-11T11:00:32Z",
       "values": {
         "text_mm4k2vch": "ChainSafe",
         "color_mm4kmej3": "1-Needs Review",
@@ -8409,7 +8409,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467834326",
       "name": "Squads Non-Custodial Wallet",
-      "updatedAt": "2026-08-10T11:00:44Z",
+      "updatedAt": "2026-08-11T11:00:33Z",
       "values": {
         "text_mm4k2vch": "SQUADS",
         "color_mm4kmej3": "1-Needs Review",
@@ -8465,7 +8465,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467824052",
       "name": "Canquest",
-      "updatedAt": "2026-08-10T11:00:46Z",
+      "updatedAt": "2026-08-11T11:00:35Z",
       "values": {
         "text_mm4k2vch": "Naxweb",
         "color_mm4kmej3": "1-Needs Review",
@@ -8497,7 +8497,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467824053",
       "name": "Deploi Credit Market",
-      "updatedAt": "2026-08-10T11:00:53Z",
+      "updatedAt": "2026-08-11T11:00:39Z",
       "values": {
         "text_mm4k2vch": "Deploi",
         "color_mm4kmej3": "1-Needs Review",
@@ -8559,7 +8559,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467824055",
       "name": "AUROX on Canton for featured app",
-      "updatedAt": "2026-08-10T11:00:54Z",
+      "updatedAt": "2026-08-11T11:00:40Z",
       "values": {
         "text_mm4k2vch": "International Institute of Blockchain Advanced Technology",
         "color_mm4kmej3": "1-Needs Review",
@@ -8616,7 +8616,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467832618",
       "name": "ScopeX Rate Lock",
-      "updatedAt": "2026-08-10T11:00:56Z",
+      "updatedAt": "2026-08-11T11:00:42Z",
       "values": {
         "text_mm4k2vch": "ScopeX Money",
         "color_mm4kmej3": "1-Needs Review",
@@ -8729,13 +8729,13 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467854319",
       "name": "Sanctum",
-      "updatedAt": "2026-08-07T16:13:36Z",
+      "updatedAt": "2026-08-11T12:50:17Z",
       "values": {
         "text_mm4k2vch": "Angelhack Private Limted",
         "color_mm4kmej3": "2-Approved",
         "long_text_mm4kq322": "sanctum-mainnet::12205162445638c3f71c9942b74360134b4ebc953b5bea2c25adc99bff130bffd060",
         "color_mm4kpp3q": "Asset Issuer",
-        "long_text_mm4khjn6": "We will confirm a dedicated Locking PartyID in the near future as we are currently in discussions to secure $CC for FA locking requirement.",
+        "long_text_mm4khjn6": "12201::1220174aa61a07cfab22a638c3a0383805f15c4b2399541767ff311bfca041228ce8",
         "numeric_mm4k6919": "25.0",
         "long_text_mm4km2s7": "Super Validator on Canton Network",
         "link_mm4kd0hk": "N/A - https://N/A",
@@ -8762,7 +8762,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467854321",
       "name": "Privket.com",
-      "updatedAt": "2026-08-10T11:00:58Z",
+      "updatedAt": "2026-08-11T11:00:43Z",
       "values": {
         "text_mm4k2vch": "Privket",
         "color_mm4kmej3": "6-Withdrawn",
@@ -9029,7 +9029,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467789859",
       "name": "Pinnaccle",
-      "updatedAt": "2026-07-23T13:35:24Z",
+      "updatedAt": "2026-08-11T17:30:58Z",
       "values": {
         "text_mm4k2vch": "Pinnaccle",
         "color_mm4kmej3": "1-Needs Review",
@@ -9169,7 +9169,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467834274",
       "name": "Ibex",
-      "updatedAt": "2026-08-10T15:44:04Z",
+      "updatedAt": "2026-08-11T17:46:16Z",
       "values": {
         "text_mm4k2vch": "Ibex Ventures Limited",
         "color_mm4kmej3": "0-Locked+Needs Review",
@@ -9201,7 +9201,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467783449",
       "name": "Mperps",
-      "updatedAt": "2026-08-10T11:01:00Z",
+      "updatedAt": "2026-08-11T11:00:44Z",
       "values": {
         "text_mm4k2vch": "Lemongrass IT Services LLC-Fz",
         "color_mm4kmej3": "1-Needs Review",
@@ -9229,7 +9229,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467783450",
       "name": "Canquest",
-      "updatedAt": "2026-08-10T11:01:02Z",
+      "updatedAt": "2026-08-11T11:00:46Z",
       "values": {
         "text_mm4k2vch": "Canquest",
         "color_mm4kmej3": "1-Needs Review",
@@ -9287,7 +9287,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12471377959",
       "name": "OpenBaskets - BlockxAI Limited",
-      "updatedAt": "2026-08-10T11:01:04Z",
+      "updatedAt": "2026-08-11T11:00:47Z",
       "values": {
         "text_mm4k2vch": "BlockxAI Limited",
         "color_mm4kmej3": "1-Needs Review",
@@ -9314,7 +9314,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12568365683",
       "name": "Synfin - Cayvox Labs",
-      "updatedAt": "2026-08-10T11:01:06Z",
+      "updatedAt": "2026-08-11T11:00:49Z",
       "values": {
         "text_mm4k2vch": "Cayvox Labs",
         "color_mm4kmej3": "1-Needs Review",
@@ -9398,7 +9398,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12609616425",
       "name": "Arkhia x402 Facilitator-as-a-Service (FaaS) - Arkhia Pte Ltd",
-      "updatedAt": "2026-08-10T11:01:08Z",
+      "updatedAt": "2026-08-11T11:00:50Z",
       "values": {
         "text_mm4k2vch": "Arkhia Pte Ltd",
         "color_mm4kmej3": "1-Needs Review",
@@ -9430,7 +9430,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12626943292",
       "name": "Yellow Card - Yellow Card Financial Inc.",
-      "updatedAt": "2026-08-10T11:01:10Z",
+      "updatedAt": "2026-08-11T11:00:51Z",
       "values": {
         "text_mm4k2vch": "Yellow Card Financial Inc.",
         "color_mm4kmej3": "1-Needs Review",
@@ -9494,7 +9494,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12731951755",
       "name": "Cove Wallet API - Qasara Labs Private Limited",
-      "updatedAt": "2026-08-10T11:01:11Z",
+      "updatedAt": "2026-08-11T11:00:53Z",
       "values": {
         "text_mm4k2vch": "Qasara Labs Private Limited",
         "color_mm4kmej3": "1-Needs Review",
@@ -9521,13 +9521,14 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12743035486",
       "name": "eesee - eesee Ltd. (BVI-registered). Application operations supported by CoreOps Digital Corporation (operator of Canсore), an affiliated entity contributing the atomic-swap/bridging primitive.",
-      "updatedAt": "2026-08-07T17:20:21Z",
+      "updatedAt": "2026-08-11T12:49:27Z",
       "values": {
         "text_mm4k2vch": "eesee Ltd. (BVI-registered). Application operations supported by CoreOps Digital Corporation (operator of Canсore), an affiliated entity contributing the atomic-swap/bridging primitive.",
         "color_mm4kmej3": "6-Withdrawn",
+        "long_text_mm4kq322": "eesee-mainnet-1::1220fb2e89aab677556481b303aad5d3aa049edcf961db626f12f2c9e040b5463df4",
         "color_mm4kpp3q": "Non-Issuer",
-        "long_text_mm4khjn6": "5,000,000 $CC locked and active via Canton Strategic / Cashen locking arrangement. Locking party: 23d169c2-0909-4c70-81d1-1922de6febaa::12200255cb9526b82c134e1bfb2136f841c32af8a2df39e2e52a2c9f03da7a4afac1 Verifiable on-chain: https://ccview.io/party/23d169c2-0909-4c70-81d1-1922de6febaa::12200255cb9526b82c134e1bfb2136f841c32af8a2df39e2e52a2c9f03da7a4afac1/ FeaturedAppRight is held on the eesee app-provider party: eesee-mainnet-1::1220fb2e89aab677556481b303aad5d3aa049edcf961db626f12f2c9e040b5463df4",
-        "numeric_mm4k6919": "10.0",
+        "long_text_mm4khjn6": "23d169c2-0909-4c70-81d1-1922de6febaa::12200255cb9526b82c134e1bfb2136f841c32af8a2df39e2e52a2c9f03da7a4afac1",
+        "numeric_mm4k6919": "5.0",
         "long_text_mm4km2s7": "eesee is the team behind the eesee.io launchpad, which has processed $10.9M+ across 91 project launches with 45K KYC'd users, backed by Animoca Brands, SevenX Ventures and dao5. We are bringing the full eesee stack onto Canton as the consumer and institutional super app for the ecosystem- a single interface through which users access asset launches, atomic swaps and bridging, yield vaults, and neobank-style payments on Canton. Critically, eesee is workflow infrastructure, not an asset issuer: assets launched through the platform are issued by their originating projects, while eesee operates the distribution, vesting, claim, and settlement rails around them. The team combines the eesee launchpad group and the Cancore engineering group, a Canton-native dapp already live on the network.",
         "link_mm4kmq24": "https://eesee.space/",
         "long_text_mm4k2537": "eesee is the super app for the Canton ecosystem: one interface where projects launch and distribute assets, and users swap, bridge, earn yield, and spend — bringing retail, crypto-native, and institutional users onto Canton through four integrated primitives (Launchpad distribution rails, Cancore atomic swaps & bridging, Vaults, and the Handle Pay neobank).",
@@ -9605,10 +9606,11 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12751665725",
       "name": "eesee - eesee Ltd. (BVI-registered)",
-      "updatedAt": "2026-08-10T11:48:54Z",
+      "updatedAt": "2026-08-11T12:49:05Z",
       "values": {
         "text_mm4k2vch": "eesee Ltd. (BVI-registered)",
         "color_mm4kmej3": "0-Locked+Needs Review",
+        "long_text_mm4kq322": "eesee-mainnet-1::1220fb2e89aab677556481b303aad5d3aa049edcf961db626f12f2c9e040b5463df4",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "23d169c2-0909-4c70-81d1-1922de6febaa::12200255cb9526b82c134e1bfb2136f841c32af8a2df39e2e52a2c9f03da7a4afac1",
         "numeric_mm4k6919": "10.0",
@@ -9635,12 +9637,13 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12769413819",
       "name": "Canquest - PT JARINGAN SIMPUL TEKNOLOGI",
-      "updatedAt": "2026-08-11T04:03:45Z",
+      "updatedAt": "2026-08-11T11:00:54Z",
       "values": {
         "text_mm4k2vch": "PT JARINGAN SIMPUL TEKNOLOGI",
         "color_mm4kmej3": "1-Needs Review",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "canquest-validator-1::12209fe74271728c49a1922362aa0c8d2bff7f7546b81963b7d5b65361fd8e5442fb",
+        "numeric_mm4k6919": "0.0",
         "long_text_mm4km2s7": "Blockchain-Based Application Development Activities",
         "link_mm4kd0hk": "https://www.canquest.cc/brand-kit",
         "link_mm4kmq24": "https://www.canquest.cc/",
@@ -9666,12 +9669,14 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12769391755",
       "name": "Helvex - Helvex (Dream Capital LLC)",
-      "updatedAt": "2026-08-11T04:03:51Z",
+      "updatedAt": "2026-08-11T12:44:00Z",
       "values": {
         "text_mm4k2vch": "Helvex (Dream Capital LLC)",
-        "color_mm4kmej3": "1-Needs Review",
+        "color_mm4kmej3": "0-Locked+Needs Review",
+        "long_text_mm4kq322": "helvex-provider-1::1220c5ac264c69e428e1064e9ca5a0b0d5be586e6befa41c133223f7e044f8b85d60",
         "color_mm4kpp3q": "Non-Issuer",
-        "long_text_mm4khjn6": "Cashen",
+        "long_text_mm4khjn6": "23d169c2-0909-4c70-81d1-1922de6febaa::1220590cb7e035449c6c6adc13aa2117e6c3e0eecf852bca42777097dd459dffc9e0",
+        "numeric_mm4k6919": "5.0",
         "long_text_mm4km2s7": "Canton-native DeFi infrastructure focused on settlement and liquidity. We have built intent-based swap and settlement primitives that pair off-ledger solver competition with atomic on-ledger delivery-versus-payment.",
         "link_mm4kmq24": "https://helvex.cc",
         "link_mm4kqtfa": "https://drive.google.com/file/d/16cxuCvTLt_vNZlmY-KNvL9hpOKQMFCyo/view?usp=sharing",
