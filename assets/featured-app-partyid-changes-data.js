@@ -1,5 +1,5 @@
 window.FEATURED_APP_PARTYID_CHANGES_DATA = {
-  "generatedAt": "2026-08-11T07:44:25.902Z",
+  "generatedAt": "2026-08-12T07:58:21.447Z",
   "columns": [
     {
       "id": "long_text_mm4kq322",
@@ -13,6 +13,78 @@ window.FEATURED_APP_PARTYID_CHANGES_DATA = {
     }
   ],
   "changes": [
+    {
+      "id": "3b18f81c-f501-4ae5-b341-ef3158a46405",
+      "changedAt": "2026-08-11T12:50:47.237Z",
+      "itemName": "Kairo",
+      "itemId": "12467834277",
+      "field": "Locking PartyIDs",
+      "previousValue": "12204a89b2fe76790eae7d8849e70dcda918f64fc5de82dfcd51de6d97135ee963dd::12207159611cf1666abe62b24f562221e928156daa2b41cd184b6d69920dcf8e5e1b",
+      "newValue": "12205::1220507fd785bccd74952cc15084516b881013966da87cbe3c854d92ed247e28831c"
+    },
+    {
+      "id": "c9bbb672-7e2f-430f-9244-7b9d37eb2f8e",
+      "changedAt": "2026-08-11T12:50:42.170Z",
+      "itemName": "Kairo",
+      "itemId": "12467834277",
+      "field": "Party ID for the Featured Application:",
+      "previousValue": "kairo-mainnet::12205162445638c3f71c9942b74360134b4ebc953b5bea2c25adc99bff130bffd060",
+      "newValue": "kairo-mainnet::1220423e47c7ac3735f6b3b27193fb6e412e83ada003edd61d595defd499a364366a"
+    },
+    {
+      "id": "293dd3b6-efac-4339-b908-a845712bb5ed",
+      "changedAt": "2026-08-11T12:50:17.291Z",
+      "itemName": "Sanctum",
+      "itemId": "12467854319",
+      "field": "Locking PartyIDs",
+      "previousValue": "We will confirm a dedicated Locking PartyID in the near future as we are currently in discussions to secure $CC for FA locking requirement.",
+      "newValue": "12201::1220174aa61a07cfab22a638c3a0383805f15c4b2399541767ff311bfca041228ce8"
+    },
+    {
+      "id": "e28263a0-c890-41a4-82ea-bd0834f73498",
+      "changedAt": "2026-08-11T12:49:05.602Z",
+      "itemName": "eesee - eesee Ltd. (BVI-registered)",
+      "itemId": "12751665725",
+      "field": "Party ID for the Featured Application:",
+      "previousValue": "",
+      "newValue": "eesee-mainnet-1::1220fb2e89aab677556481b303aad5d3aa049edcf961db626f12f2c9e040b5463df4"
+    },
+    {
+      "id": "379db0b0-91bf-4705-97b7-f7249fe8c7dd",
+      "changedAt": "2026-08-11T12:48:38.445Z",
+      "itemName": "eesee - eesee Ltd. (BVI-registered). Application operations supported by CoreOps Digital Corporation (operator of Canсore), an affiliated entity contributing the atomic-swap/bridging primitive.",
+      "itemId": "12743035486",
+      "field": "Locking PartyIDs",
+      "previousValue": "5,000,000 $CC locked and active via Canton Strategic / Cashen locking arrangement. Locking party: 23d169c2-0909-4c70-81d1-1922de6febaa::12200255cb9526b82c134e1bfb2136f841c32af8a2df39e2e52a2c9f03da7a4afac1 Verifiable on-chain: https://ccview.io/party/23d169c2-0909-4c70-81d1-1922de6febaa::12200255cb9526b82c134e1bfb2136f841c32af8a2df39e2e52a2c9f03da7a4afac1/ FeaturedAppRight is held on the eesee app-provider party: eesee-mainnet-1::1220fb2e89aab677556481b303aad5d3aa049edcf961db626f12f2c9e040b5463df4",
+      "newValue": "23d169c2-0909-4c70-81d1-1922de6febaa::12200255cb9526b82c134e1bfb2136f841c32af8a2df39e2e52a2c9f03da7a4afac1"
+    },
+    {
+      "id": "cd7634c8-cd60-46ca-a2ef-26e77a608da4",
+      "changedAt": "2026-08-11T12:48:36.873Z",
+      "itemName": "eesee - eesee Ltd. (BVI-registered). Application operations supported by CoreOps Digital Corporation (operator of Canсore), an affiliated entity contributing the atomic-swap/bridging primitive.",
+      "itemId": "12743035486",
+      "field": "Party ID for the Featured Application:",
+      "previousValue": "",
+      "newValue": "eesee-mainnet-1::1220fb2e89aab677556481b303aad5d3aa049edcf961db626f12f2c9e040b5463df4"
+    },
+    {
+      "id": "f1efdf52-e116-4669-a8ff-3433934240a8",
+      "changedAt": "2026-08-11T12:41:42.100Z",
+      "itemName": "Helvex - Helvex (Dream Capital LLC)",
+      "itemId": "12769391755",
+      "field": "Locking PartyIDs",
+      "previousValue": "Cashen",
+      "newValue": "23d169c2-0909-4c70-81d1-1922de6febaa::1220590cb7e035449c6c6adc13aa2117e6c3e0eecf852bca42777097dd459dffc9e0"
+    },
+    {
+      "id": "f8f50176-8f57-495c-9e90-dd83cf57f711",
+      "changedAt": "2026-08-11T12:41:33.518Z",
+      "itemName": "Helvex - Helvex (Dream Capital LLC)",
+      "itemId": "12769391755",
+      "field": "Party ID for the Featured Application:",
+      "previousValue": "",
+      "newValue": "helvex-provider-1::1220c5ac264c69e428e1064e9ca5a0b0d5be586e6befa41c133223f7e044f8b85d60"
+    },
     {
       "id": "37d0691a-708e-4110-a6e4-6840305fca97",
       "changedAt": "2026-08-10T11:48:36.918Z",
@@ -120,78 +192,6 @@ window.FEATURED_APP_PARTYID_CHANGES_DATA = {
       "field": "Locking PartyIDs",
       "previousValue": "brale-featured-app-locking::1220b8301e18aa8a401d6e34e6c20f8b0243183c514373bca8f1b6b9270246341a9e",
       "newValue": "brale-cc-stake-temple::1220b8301e18aa8a401d6e34e6c20f8b0243183c514373bca8f1b6b9270246341a9e"
-    },
-    {
-      "id": "4073fe3b-3ebe-41c1-bcc3-7220b18257ce",
-      "changedAt": "2026-07-22T17:34:03.890Z",
-      "itemName": "CBTC",
-      "itemId": "12467832779",
-      "field": "Party ID for the Featured Application:",
-      "previousValue": "cbtc-beneficiary::1220409a9fcc5ff6422e29ab978c22c004dde33202546b4bcbde24b25b85353366c2",
-      "newValue": "decman-network::1220409a9fcc5ff6422e29ab978c22c004dde33202546b4bcbde24b25b85353366c2"
-    },
-    {
-      "id": "37e83d99-a52a-4755-8c09-f3361d7e12be",
-      "changedAt": "2026-07-22T15:46:28.491Z",
-      "itemName": "Tritemius",
-      "itemId": "12467789887",
-      "field": "Locking PartyIDs",
-      "previousValue": "auth0_007c6a2b78c6cf43a5a01177c7ac::122064aab814d8d02f957120e33a970a5aca7c14097eab85ab40a36ddff26c70c44b",
-      "newValue": "4M-Lending-Lock-5::1220c03dee4b32e29d0e4c3a395afa3bc82629a60d86ab75289dad473ab46a5ce56f"
-    },
-    {
-      "id": "e34eb44a-5d20-47d4-b98b-cc123e5b3f6a",
-      "changedAt": "2026-07-22T14:58:43.338Z",
-      "itemName": "LayerZero",
-      "itemId": "12467825395",
-      "field": "Party ID for the Featured Application:",
-      "previousValue": "",
-      "newValue": "lz-fa::1220074b67a84b0041a9ab4c602bc60f3b6172671388afda91d9b41fa8afb1114dcc"
-    },
-    {
-      "id": "e287a8cc-07b1-4a33-be01-704ba9cae872",
-      "changedAt": "2026-07-22T13:46:41.833Z",
-      "itemName": "Centra",
-      "itemId": "12467838256",
-      "field": "Locking PartyIDs",
-      "previousValue": "4M-Lending-Lock-1::1220c03dee4b32e29d0e4c3a395afa3bc82629a60d86ab75289dad473ab46a5ce56f",
-      "newValue": ""
-    },
-    {
-      "id": "b839adbb-c9ce-44a7-be15-d5e8c7aaab0f",
-      "changedAt": "2026-07-21T18:59:21.633Z",
-      "itemName": "Wintip",
-      "itemId": "12467838259",
-      "field": "Locking PartyIDs",
-      "previousValue": "wintip-app::12200b9c9fb45ade713dce1ef55ecf311d57bfff6fb04d874cc7f65a7e3ec19e9824",
-      "newValue": "23d169c2-0909-4c70-81d1-1922de6febaa::1220d1c5d679db4268b3587ff465d4e75ae2cba0294af6eacd788dae34ab3bfaad38"
-    },
-    {
-      "id": "3057fbb8-dc6d-47c9-b097-831991637ce2",
-      "changedAt": "2026-07-21T18:57:43.699Z",
-      "itemName": "gohash.cc",
-      "itemId": "12467789888",
-      "field": "Locking PartyIDs",
-      "previousValue": "23d169c2-0909-4c70-81d1-1922de6febaa::12209d5bfec5a97c80314d1fc3a4cb874cc7f9012bb125bd527584f4cd91e86fc48e",
-      "newValue": ""
-    },
-    {
-      "id": "2e24a1bb-b878-4aec-894a-716b64573874",
-      "changedAt": "2026-07-15T16:22:10.726Z",
-      "itemName": "Ibex",
-      "itemId": "12467834274",
-      "field": "Party ID for the Featured Application:",
-      "previousValue": "",
-      "newValue": "ibex-validator-1::1220d1ae4a0a515cd1574fcc3c1425f87213ee74a35751bfa87e0633f91c56ec2247"
-    },
-    {
-      "id": "56862443-ae9c-4a35-bcaa-4d29a0ceb140",
-      "changedAt": "2026-07-15T15:50:52.040Z",
-      "itemName": "Ekiden",
-      "itemId": "12467838018",
-      "field": "Party ID for the Featured Application:",
-      "previousValue": "",
-      "newValue": "Ekiden-app-1::12209dbe4e2f483b6be8913b2f72690cd3486c7667b24d71c52e34816de78ac9482f"
     }
   ]
 };
