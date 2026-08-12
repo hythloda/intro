@@ -1,5 +1,5 @@
 window.COMMITTEE_COMPANIES_DATA = {
-  "generatedAt": "2026-08-11T07:51:04.156Z",
+  "generatedAt": "2026-08-12T08:02:28.988Z",
   "committees": {
     "faAccountability": {
       "label": "Featured Application Accountability Committee",
@@ -27,6 +27,7 @@ window.COMMITTEE_COMPANIES_DATA = {
         "Gevulot Oy",
         "Guffey, Inc.",
         "Halborn Inc.",
+        "Hecto Finance Limited",
         "Kaiko",
         "Kaleido",
         "Kora Labs Corp",
@@ -76,6 +77,7 @@ window.COMMITTEE_COMPANIES_DATA = {
         "Gevulot Oy",
         "Guffey, Inc.",
         "Halborn Inc.",
+        "Hecto Finance Limited",
         "Kaiko",
         "Kaleido",
         "Kora Labs Corp",
