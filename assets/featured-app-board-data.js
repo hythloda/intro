@@ -1,5 +1,5 @@
 window.FEATURED_APP_BOARD_DATA = {
-  "generatedAt": "2026-08-12T07:55:23.668Z",
+  "generatedAt": "2026-08-13T07:56:42.345Z",
   "columns": [
     {
       "id": "text_mm4k2vch",
@@ -1668,14 +1668,14 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467838286",
       "name": "CantonSwap",
-      "updatedAt": "2026-07-23T13:35:35Z",
+      "updatedAt": "2026-08-12T16:05:17Z",
       "values": {
         "text_mm4k2vch": "Obsidian Software LLC",
         "color_mm4kmej3": "2-Approved",
         "long_text_mm4kq322": "CantonSwap::122096fe076cc065af0cb38f94caa60e8ddfecbe8f0cfe10655ae7aa06fab99c66b7",
-        "color_mm4kpp3q": "Non-Issuer",
-        "long_text_mm4khjn6": "23d169c2-0909-4c70-81d1-1922de6febaa::12209741b897b63b314fa6f2fe0639d92c779a7cdff6fd615aede507e61682f2d95a",
-        "numeric_mm4k6919": "5.0",
+        "color_mm4kpp3q": "Asset Issuer",
+        "long_text_mm4khjn6": "23d169c2-0909-4c70-81d1-1922de6febaa::122032c668c7a88633e8c1dc45d704b8c87eb10a4140418b8ce9d9377985fb16a7bc",
+        "numeric_mm4k6919": "25",
         "long_text_mm4km2s7": "Obsidian Systems is a founding Super Validator with over a decade of enterprise consulting expertise, building critical infrastructure on the Canton Network. CantonSwap is our trading platform that provides all network participants—from individual node operators to major institutions—with atomic settlement trading that eliminates counterparty risk entirely. As the network's first trading application, CantonSwap transforms dormant Canton Coin holdings into active network utility, driving liquidity and transaction volume across the entire Canton ecosystem.",
         "link_mm4kd0hk": "https://drive.google.com/open?id=1Sl--1dp9XsquRyMGSmhxTxUmS80bvFdx",
         "link_mm4kmq24": "https://cantonswap.com",
@@ -1868,7 +1868,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467790154",
       "name": "Ov Defi",
-      "updatedAt": "2026-08-11T11:00:12Z",
+      "updatedAt": "2026-08-12T11:00:12Z",
       "values": {
         "text_mm4k2vch": "OneNov",
         "color_mm4kmej3": "1-Needs Review",
@@ -2226,7 +2226,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467789257",
       "name": "Saxon Automate / Canton Keeper",
-      "updatedAt": "2026-08-11T11:00:13Z",
+      "updatedAt": "2026-08-12T11:00:15Z",
       "values": {
         "text_mm4k2vch": "Saxon",
         "color_mm4kmej3": "1-Needs Review",
@@ -3624,7 +3624,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467789103",
       "name": "Jubilee Treasury",
-      "updatedAt": "2026-08-11T11:00:15Z",
+      "updatedAt": "2026-08-12T11:00:16Z",
       "values": {
         "text_mm4k2vch": "Jubilee Treasury",
         "color_mm4kmej3": "6-Withdrawn",
@@ -3656,14 +3656,14 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467815977",
       "name": "Tradecraft",
-      "updatedAt": "2026-07-23T13:35:32Z",
+      "updatedAt": "2026-08-12T16:05:29Z",
       "values": {
         "text_mm4k2vch": "Obsidian Software LLC",
         "color_mm4kmej3": "2-Approved",
         "long_text_mm4kq322": "Tradecraft::122096fe076cc065af0cb38f94caa60e8ddfecbe8f0cfe10655ae7aa06fab99c66b7",
         "color_mm4kpp3q": "Non-Issuer",
-        "long_text_mm4khjn6": "23d169c2-0909-4c70-81d1-1922de6febaa::122032c668c7a88633e8c1dc45d704b8c87eb10a4140418b8ce9d9377985fb16a7bc",
-        "numeric_mm4k6919": "25.0",
+        "long_text_mm4khjn6": "23d169c2-0909-4c70-81d1-1922de6febaa::12209741b897b63b314fa6f2fe0639d92c779a7cdff6fd615aede507e61682f2d95a",
+        "numeric_mm4k6919": "5",
         "long_text_mm4km2s7": "Obsidian Systems is a founding Super Validator with over a decade of enterprise consulting expertise, building critical infrastructure on the Canton Network. CantonSwap is our trading platform that provides all network participants—from individual node operators to major institutions—with atomic settlement trading that eliminates counterparty risk entirely. As the network's first trading application, CantonSwap transforms dormant Canton Coin holdings into active network utility, driving liquidity and transaction volume across the entire Canton ecosystem.",
         "link_mm4kd0hk": "https://drive.google.com/open?id=1Sl--1dp9XsquRyMGSmhxTxUmS80bvFdx",
         "link_mm4kmq24": "https://cantonswap.com",
@@ -3766,7 +3766,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467790155",
       "name": "Mperps",
-      "updatedAt": "2026-08-11T11:00:16Z",
+      "updatedAt": "2026-08-12T11:00:18Z",
       "values": {
         "text_mm4k2vch": "Lemongrass IT Services LLC-Fz",
         "color_mm4kmej3": "1-Needs Review",
@@ -4915,7 +4915,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467806176",
       "name": "Rapid Chain",
-      "updatedAt": "2026-08-11T11:00:18Z",
+      "updatedAt": "2026-08-12T11:00:20Z",
       "values": {
         "text_mm4k2vch": "Rapid Blockchain Technologies Ltd.",
         "color_mm4kmej3": "5-Revoked",
@@ -5988,7 +5988,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467856988",
       "name": "MEME token and Coinflip",
-      "updatedAt": "2026-08-11T11:00:19Z",
+      "updatedAt": "2026-08-12T11:00:21Z",
       "values": {
         "text_mm4k2vch": "Archerswap",
         "color_mm4kmej3": "1-Needs Review",
@@ -6520,7 +6520,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467790006",
       "name": "CC Ledger",
-      "updatedAt": "2026-08-11T11:00:21Z",
+      "updatedAt": "2026-08-12T11:00:23Z",
       "values": {
         "text_mm4k2vch": "Blueprint Infrastructure, LLC",
         "color_mm4kmej3": "1-Needs Review",
@@ -7127,7 +7127,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467847770",
       "name": "VAULT",
-      "updatedAt": "2026-08-11T11:00:23Z",
+      "updatedAt": "2026-08-12T11:00:24Z",
       "values": {
         "text_mm4k2vch": "HighTower",
         "color_mm4kmej3": "1-Needs Review",
@@ -7217,7 +7217,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467847773",
       "name": "CC Space",
-      "updatedAt": "2026-08-11T11:00:25Z",
+      "updatedAt": "2026-08-12T11:00:26Z",
       "values": {
         "text_mm4k2vch": "ITRocket LLC",
         "color_mm4kmej3": "1-Needs Review",
@@ -7302,7 +7302,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467847778",
       "name": "Ov Defi",
-      "updatedAt": "2026-08-11T11:00:26Z",
+      "updatedAt": "2026-08-12T11:00:27Z",
       "values": {
         "text_mm4k2vch": "OneNov",
         "color_mm4kmej3": "1-Needs Review",
@@ -7646,7 +7646,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467825386",
       "name": "Agora: Survey & Vote",
-      "updatedAt": "2026-08-11T11:00:28Z",
+      "updatedAt": "2026-08-12T11:00:29Z",
       "values": {
         "text_mm4k2vch": "Agora: Survey & Vote",
         "color_mm4kmej3": "1-Needs Review",
@@ -8294,7 +8294,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467790000",
       "name": "BENJI",
-      "updatedAt": "2026-08-11T11:00:30Z",
+      "updatedAt": "2026-08-12T12:00:31Z",
       "values": {
         "text_mm4k2vch": "Franklin Templeton",
         "color_mm4kmej3": "3-CIP-0116-paused",
@@ -8380,7 +8380,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467834325",
       "name": "ChainSafe x402 Global Facilitator",
-      "updatedAt": "2026-08-11T11:00:32Z",
+      "updatedAt": "2026-08-12T11:03:49Z",
       "values": {
         "text_mm4k2vch": "ChainSafe",
         "color_mm4kmej3": "1-Needs Review",
@@ -8409,7 +8409,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467834326",
       "name": "Squads Non-Custodial Wallet",
-      "updatedAt": "2026-08-11T11:00:33Z",
+      "updatedAt": "2026-08-12T11:03:51Z",
       "values": {
         "text_mm4k2vch": "SQUADS",
         "color_mm4kmej3": "1-Needs Review",
@@ -8465,7 +8465,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467824052",
       "name": "Canquest",
-      "updatedAt": "2026-08-11T11:00:35Z",
+      "updatedAt": "2026-08-12T11:03:52Z",
       "values": {
         "text_mm4k2vch": "Naxweb",
         "color_mm4kmej3": "1-Needs Review",
@@ -8497,7 +8497,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467824053",
       "name": "Deploi Credit Market",
-      "updatedAt": "2026-08-11T11:00:39Z",
+      "updatedAt": "2026-08-12T11:03:56Z",
       "values": {
         "text_mm4k2vch": "Deploi",
         "color_mm4kmej3": "1-Needs Review",
@@ -8559,7 +8559,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467824055",
       "name": "AUROX on Canton for featured app",
-      "updatedAt": "2026-08-11T11:00:40Z",
+      "updatedAt": "2026-08-12T11:03:57Z",
       "values": {
         "text_mm4k2vch": "International Institute of Blockchain Advanced Technology",
         "color_mm4kmej3": "1-Needs Review",
@@ -8616,7 +8616,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467832618",
       "name": "ScopeX Rate Lock",
-      "updatedAt": "2026-08-11T11:00:42Z",
+      "updatedAt": "2026-08-12T11:03:59Z",
       "values": {
         "text_mm4k2vch": "ScopeX Money",
         "color_mm4kmej3": "1-Needs Review",
@@ -8762,7 +8762,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467854321",
       "name": "Privket.com",
-      "updatedAt": "2026-08-11T11:00:43Z",
+      "updatedAt": "2026-08-12T11:04:00Z",
       "values": {
         "text_mm4k2vch": "Privket",
         "color_mm4kmej3": "6-Withdrawn",
@@ -9201,7 +9201,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467783449",
       "name": "Mperps",
-      "updatedAt": "2026-08-11T11:00:44Z",
+      "updatedAt": "2026-08-12T11:04:01Z",
       "values": {
         "text_mm4k2vch": "Lemongrass IT Services LLC-Fz",
         "color_mm4kmej3": "1-Needs Review",
@@ -9229,7 +9229,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467783450",
       "name": "Canquest",
-      "updatedAt": "2026-08-11T11:00:46Z",
+      "updatedAt": "2026-08-12T11:04:03Z",
       "values": {
         "text_mm4k2vch": "Canquest",
         "color_mm4kmej3": "1-Needs Review",
@@ -9287,7 +9287,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12471377959",
       "name": "OpenBaskets - BlockxAI Limited",
-      "updatedAt": "2026-08-11T11:00:47Z",
+      "updatedAt": "2026-08-12T11:04:04Z",
       "values": {
         "text_mm4k2vch": "BlockxAI Limited",
         "color_mm4kmej3": "1-Needs Review",
@@ -9314,7 +9314,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12568365683",
       "name": "Synfin - Cayvox Labs",
-      "updatedAt": "2026-08-11T11:00:49Z",
+      "updatedAt": "2026-08-12T11:04:06Z",
       "values": {
         "text_mm4k2vch": "Cayvox Labs",
         "color_mm4kmej3": "1-Needs Review",
@@ -9398,7 +9398,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12609616425",
       "name": "Arkhia x402 Facilitator-as-a-Service (FaaS) - Arkhia Pte Ltd",
-      "updatedAt": "2026-08-11T11:00:50Z",
+      "updatedAt": "2026-08-12T11:04:07Z",
       "values": {
         "text_mm4k2vch": "Arkhia Pte Ltd",
         "color_mm4kmej3": "1-Needs Review",
@@ -9430,7 +9430,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12626943292",
       "name": "Yellow Card - Yellow Card Financial Inc.",
-      "updatedAt": "2026-08-11T11:00:51Z",
+      "updatedAt": "2026-08-12T11:04:08Z",
       "values": {
         "text_mm4k2vch": "Yellow Card Financial Inc.",
         "color_mm4kmej3": "1-Needs Review",
@@ -9460,7 +9460,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12709198693",
       "name": "Rocky Wallet - Dune Labs",
-      "updatedAt": "2026-08-05T19:18:04Z",
+      "updatedAt": "2026-08-12T16:43:54Z",
       "values": {
         "text_mm4k2vch": "Dune Labs",
         "color_mm4kmej3": "0-Locked+Needs Review",
@@ -9494,7 +9494,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12731951755",
       "name": "Cove Wallet API - Qasara Labs Private Limited",
-      "updatedAt": "2026-08-11T11:00:53Z",
+      "updatedAt": "2026-08-12T11:04:10Z",
       "values": {
         "text_mm4k2vch": "Qasara Labs Private Limited",
         "color_mm4kmej3": "1-Needs Review",
@@ -9637,7 +9637,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12769413819",
       "name": "Canquest - PT JARINGAN SIMPUL TEKNOLOGI",
-      "updatedAt": "2026-08-11T11:00:54Z",
+      "updatedAt": "2026-08-12T11:04:11Z",
       "values": {
         "text_mm4k2vch": "PT JARINGAN SIMPUL TEKNOLOGI",
         "color_mm4kmej3": "1-Needs Review",
@@ -9726,6 +9726,57 @@ window.FEATURED_APP_BOARD_DATA = {
         "long_text_mm4khbeg": "private repo",
         "long_text_mm4kp5en": "https://github.com/cessio-cc/brand-kit",
         "long_text_mm4kxsgy": "Cessio is the use case Canton’s strengths point at directly: privacy here is a property of the ledger, not a policy, and block trading is the business that cannot exist without it — the makers who lose an auction never receive the data, so there is nothing to leak. It also brings large money on-chain. Holders who sit on positions today because there is no way to move size unseen get a venue to trade, and every asset issued on Canton gains a place to trade at size — real recurring volume, traffic and CC demand for the network. One thing we will not overstate: all quoting so far is our own bot, so we have no third-party maker flow and no MainNet deployment yet. The architecture generalises. Adding cETH to a cBTC desk cost configuration, not engineering. The same mechanism serves any pair of Canton Token Standard instruments, which makes this a candidate RFQ layer for the network’s asset universe rather than a single-pair venue."
+      }
+    },
+    {
+      "id": "12791062292",
+      "name": "test - Test",
+      "updatedAt": "2026-08-13T04:03:36Z",
+      "values": {
+        "text_mm4k2vch": "Test",
+        "color_mm4kmej3": "1-Needs Review",
+        "color_mm4kpp3q": "Non-Issuer",
+        "long_text_mm4khjn6": "test",
+        "long_text_mm4km2s7": "test",
+        "long_text_mm4k2537": "test",
+        "long_text_mm5hgry2": "test",
+        "long_text_mm4k4y1h": "test",
+        "long_text_mm4k15bg": "test",
+        "long_text_mm4kh3fw": "test",
+        "long_text_mm4kfg50": "test",
+        "long_text_mm4kxcm2": "test",
+        "long_text_mm4kvyjq": "test",
+        "long_text_mm4k1cm0": "test",
+        "long_text_mm4kd4h2": "test",
+        "long_text_mm4kfkwn": "test",
+        "long_text_mm4k6q73": "test",
+        "long_text_mm4kwxt1": "test"
+      }
+    },
+    {
+      "id": "12791057047",
+      "name": "OS Ledger - Outersunset",
+      "updatedAt": "2026-08-13T04:03:37Z",
+      "values": {
+        "text_mm4k2vch": "Outersunset",
+        "color_mm4kmej3": "1-Needs Review",
+        "color_mm4kpp3q": "Non-Issuer",
+        "long_text_mm4khjn6": "OSLedger-falocked::1220f1cd2f9ef6f966d492813215f34cf048a559d25d750b44c095c17fbf96afff64",
+        "long_text_mm4km2s7": "Outer Sunset is the finance-close stack for Canton validators and applications: it turns raw ledger activity into audit-ready, double-entry books with maker-checker controls and tamper-evident, on-ledger rollup attestations.",
+        "link_mm4kmq24": "https://outersunset.io/",
+        "long_text_mm4k2537": "OS Ledger is a finance-close and accounting stack for Canton Network participants. It ingests a node's ledger transaction data: validator rewards, domain and sequencer fees, delegation and transfer flows that classifies each event through a versioned rule engine, and generates balanced double-entry journal entries. It runs a structured month-end close with maker-checker controls and no override paths, produces standard financial reports such as trial balance, income statement, balance sheet and general ledger. As it processes the books, it posts records on-ledger at each completed accounting milestone.",
+        "long_text_mm5hgry2": "No",
+        "long_text_mm4k4y1h": "Canton Network validator operators, enterprise participants, and app providers that must account for on-chain activity rewards, domain fees, delegations and produce auditable financial statements",
+        "long_text_mm4k15bg": "OS Ledger earns application rewards through the traffic-based app reward mechanism introduced in CIP-0104, issued as RewardCouponV2. Rewards are minted from the on-ledger traffic the application generates as it processes a node's books, not from any user action. That traffic comes from two accounting milestones: transforming ingested on-chain facts into categorized journal entries, and approving those entries and exporting them to reports. Rewards accrue only from these completed accounting actions — never from raw ingest, draft entries, or any speculative or automated transaction.",
+        "long_text_mm4kh3fw": "We generate the on-chain activity based on the ingested on-chain facts that have been transformed into categorized journal entries, and when those entries are approved and exported to reports.",
+        "long_text_mm4kfg50": "OS Ledger would only earn via a FeaturedAppRight on the on-ledger traffic generated by its attestation transactions.",
+        "long_text_mm4kxcm2": "OS Ledger's activity is node-based, not user-based. Its on-ledger writes reflect a participant node's accounting workflow, not the actions of individual end users.",
+        "long_text_mm4kvyjq": "A node may produce more than one on-ledger write within a single round when a batch of newly ingested facts is processed together in that window",
+        "long_text_mm4k1cm0": "Linear in number of customer nodes, sub-linear relative to network activity. Our model is that each node runs a separate application deployment, so every new customer adds one more self-contained instance that produces its own bounded stream of accounting actions.. Total on-ledger activity therefore grows in direct proportion to the number of nodes we serve.",
+        "long_text_mm4kd4h2": "We launched on 3rd August 2026 for FiveNorth",
+        "long_text_mm4kfkwn": "Five North's internal accountants.",
+        "long_text_mm4k6q73": "Without Featured App status, OS Ledger operates unchanged — the accounting, close, reporting, and export features work independently of any rewards program.",
+        "long_text_mm4kwxt1": "OS Ledger only writes to the ledger on completed accounting actions, and those actions are gated by a maker-checker close workflow. The original on-chain transaction Id is also included as the payload to be traced back."
       }
     }
   ]
