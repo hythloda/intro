@@ -1,5 +1,5 @@
 window.FEATURED_APP_PARTYID_CHANGES_DATA = {
-  "generatedAt": "2026-08-12T07:58:21.447Z",
+  "generatedAt": "2026-08-13T07:59:35.422Z",
   "columns": [
     {
       "id": "long_text_mm4kq322",
@@ -13,6 +13,42 @@ window.FEATURED_APP_PARTYID_CHANGES_DATA = {
     }
   ],
   "changes": [
+    {
+      "id": "abe77058-a30d-4a1c-8a84-5a1961ad7e90",
+      "changedAt": "2026-08-12T16:05:29.994Z",
+      "itemName": "Tradecraft",
+      "itemId": "12467815977",
+      "field": "Locking PartyIDs",
+      "previousValue": "23d169c2-0909-4c70-81d1-1922de6febaa::122032c668c7a88633e8c1dc45d704b8c87eb10a4140418b8ce9d9377985fb16a7bc",
+      "newValue": "23d169c2-0909-4c70-81d1-1922de6febaa::12209741b897b63b314fa6f2fe0639d92c779a7cdff6fd615aede507e61682f2d95a"
+    },
+    {
+      "id": "3912fb13-8947-4fed-966b-91da7856522b",
+      "changedAt": "2026-08-12T16:05:17.998Z",
+      "itemName": "CantonSwap",
+      "itemId": "12467838286",
+      "field": "Locking PartyIDs",
+      "previousValue": "23d169c2-0909-4c70-81d1-1922de6febaa::12209741b897b63b314fa6f2fe0639d92c779a7cdff6fd615aede507e61682f2d95a",
+      "newValue": "23d169c2-0909-4c70-81d1-1922de6febaa::122032c668c7a88633e8c1dc45d704b8c87eb10a4140418b8ce9d9377985fb16a7bc"
+    },
+    {
+      "id": "ca450896-cb63-49e3-bb4d-e61fe6052b8c",
+      "changedAt": "2026-08-12T16:05:04.396Z",
+      "itemName": "CantonSwap",
+      "itemId": "12467838286",
+      "field": "Locking PartyIDs",
+      "previousValue": "23d169c2-0909-4c70-81d1-1922de6febaa::122032c668c7a88633e8c1dc45d704b8c87eb10a4140418b8ce9d9377985fb16a7bc",
+      "newValue": "23d169c2-0909-4c70-81d1-1922de6febaa::12209741b897b63b314fa6f2fe0639d92c779a7cdff6fd615aede507e61682f2d95a"
+    },
+    {
+      "id": "205ffd56-42bb-421c-88d8-b7ff6d85b313",
+      "changedAt": "2026-08-12T16:04:07.128Z",
+      "itemName": "CantonSwap",
+      "itemId": "12467838286",
+      "field": "Locking PartyIDs",
+      "previousValue": "23d169c2-0909-4c70-81d1-1922de6febaa::12209741b897b63b314fa6f2fe0639d92c779a7cdff6fd615aede507e61682f2d95a",
+      "newValue": "23d169c2-0909-4c70-81d1-1922de6febaa::122032c668c7a88633e8c1dc45d704b8c87eb10a4140418b8ce9d9377985fb16a7bc"
+    },
     {
       "id": "3b18f81c-f501-4ae5-b341-ef3158a46405",
       "changedAt": "2026-08-11T12:50:47.237Z",
@@ -156,42 +192,6 @@ window.FEATURED_APP_PARTYID_CHANGES_DATA = {
       "field": "Party ID for the Featured Application:",
       "previousValue": "TRIZEGroup-cantonMainnetValidator-1::12206ab3bf15b14410220357d6a6375eb1015f2e7fade1deb449463c2f2a25304889",
       "newValue": "t-rize-registrar::1220175c60c87ed5e1c9c1c619da159bde8e1c2e407a4d334e755c167488d3964946"
-    },
-    {
-      "id": "9548f1ff-37ff-4979-b7ff-ceb5afac73bb",
-      "changedAt": "2026-07-24T18:43:34.196Z",
-      "itemName": "Cantory",
-      "itemId": "12467824759",
-      "field": "Locking PartyIDs",
-      "previousValue": "cantory-lock::1220a0a64bd45fee105f5c80474842a4337bb09323ca748d7ea6dacc07fc6237572c",
-      "newValue": "23d169c2-0909-4c70-81d1-1922de6febaa::1220a9b64406dd45c977469aaeaa78990f414649b552a5433a87fbc08d402d1b8fa6"
-    },
-    {
-      "id": "e92c8a33-b6d5-4521-9c4d-cd97911a6e77",
-      "changedAt": "2026-07-24T18:43:02.673Z",
-      "itemName": "Walley",
-      "itemId": "12467856969",
-      "field": "Locking PartyIDs",
-      "previousValue": "jonxwang::1220a0a64bd45fee105f5c80474842a4337bb09323ca748d7ea6dacc07fc6237572c",
-      "newValue": "23d169c2-0909-4c70-81d1-1922de6febaa::1220ac077a3e9c42b3636f06790d722ea772449a94438c19b1c787f9be1e8c0eca83"
-    },
-    {
-      "id": "9ac990dc-60d8-4b0c-aa53-87b80893fec5",
-      "changedAt": "2026-07-23T15:48:12.450Z",
-      "itemName": "Brale - USDA",
-      "itemId": "12611357082",
-      "field": "Party ID for the Featured Application:",
-      "previousValue": "party-28dc4516-b5ca-44ff-86c7-2107e90a6807::1220b8301e18aa8a401d6e34e6c20f8b0243183c514373bca8f1b6b9270246341a9e",
-      "newValue": ""
-    },
-    {
-      "id": "f21f7e0a-5aaf-4c8e-ab84-3872a170e19b",
-      "changedAt": "2026-07-23T15:47:56.436Z",
-      "itemName": "Brale (copy)",
-      "itemId": "12611357082",
-      "field": "Locking PartyIDs",
-      "previousValue": "brale-featured-app-locking::1220b8301e18aa8a401d6e34e6c20f8b0243183c514373bca8f1b6b9270246341a9e",
-      "newValue": "brale-cc-stake-temple::1220b8301e18aa8a401d6e34e6c20f8b0243183c514373bca8f1b6b9270246341a9e"
     }
   ]
 };
