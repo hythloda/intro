@@ -1,5 +1,5 @@
 window.FEATURED_APP_BOARD_DATA = {
-  "generatedAt": "2026-08-13T07:56:42.345Z",
+  "generatedAt": "2026-08-14T07:53:04.980Z",
   "columns": [
     {
       "id": "text_mm4k2vch",
@@ -1868,7 +1868,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467790154",
       "name": "Ov Defi",
-      "updatedAt": "2026-08-12T11:00:12Z",
+      "updatedAt": "2026-08-13T11:00:12Z",
       "values": {
         "text_mm4k2vch": "OneNov",
         "color_mm4kmej3": "1-Needs Review",
@@ -2226,7 +2226,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467789257",
       "name": "Saxon Automate / Canton Keeper",
-      "updatedAt": "2026-08-12T11:00:15Z",
+      "updatedAt": "2026-08-13T11:00:14Z",
       "values": {
         "text_mm4k2vch": "Saxon",
         "color_mm4kmej3": "1-Needs Review",
@@ -3172,7 +3172,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467783443",
       "name": "SyncVotes",
-      "updatedAt": "2026-08-07T17:21:24Z",
+      "updatedAt": "2026-08-13T20:31:58Z",
       "values": {
         "text_mm4k2vch": "WEB34EVER",
         "color_mm4kmej3": "0-Locked+Needs Review",
@@ -3624,7 +3624,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467789103",
       "name": "Jubilee Treasury",
-      "updatedAt": "2026-08-12T11:00:16Z",
+      "updatedAt": "2026-08-13T11:00:15Z",
       "values": {
         "text_mm4k2vch": "Jubilee Treasury",
         "color_mm4kmej3": "6-Withdrawn",
@@ -3766,7 +3766,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467790155",
       "name": "Mperps",
-      "updatedAt": "2026-08-12T11:00:18Z",
+      "updatedAt": "2026-08-13T11:00:17Z",
       "values": {
         "text_mm4k2vch": "Lemongrass IT Services LLC-Fz",
         "color_mm4kmej3": "1-Needs Review",
@@ -4915,7 +4915,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467806176",
       "name": "Rapid Chain",
-      "updatedAt": "2026-08-12T11:00:20Z",
+      "updatedAt": "2026-08-13T11:00:22Z",
       "values": {
         "text_mm4k2vch": "Rapid Blockchain Technologies Ltd.",
         "color_mm4kmej3": "5-Revoked",
@@ -5908,7 +5908,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467810726",
       "name": "Parthenon",
-      "updatedAt": "2026-08-05T14:07:52Z",
+      "updatedAt": "2026-08-13T20:45:24Z",
       "values": {
         "text_mm4k2vch": "Finkfi Inc",
         "color_mm4kmej3": "0-Locked+Needs Review",
@@ -5988,7 +5988,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467856988",
       "name": "MEME token and Coinflip",
-      "updatedAt": "2026-08-12T11:00:21Z",
+      "updatedAt": "2026-08-13T11:00:24Z",
       "values": {
         "text_mm4k2vch": "Archerswap",
         "color_mm4kmej3": "1-Needs Review",
@@ -6520,7 +6520,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467790006",
       "name": "CC Ledger",
-      "updatedAt": "2026-08-12T11:00:23Z",
+      "updatedAt": "2026-08-13T11:00:25Z",
       "values": {
         "text_mm4k2vch": "Blueprint Infrastructure, LLC",
         "color_mm4kmej3": "1-Needs Review",
@@ -7127,7 +7127,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467847770",
       "name": "VAULT",
-      "updatedAt": "2026-08-12T11:00:24Z",
+      "updatedAt": "2026-08-13T11:00:27Z",
       "values": {
         "text_mm4k2vch": "HighTower",
         "color_mm4kmej3": "1-Needs Review",
@@ -7217,7 +7217,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467847773",
       "name": "CC Space",
-      "updatedAt": "2026-08-12T11:00:26Z",
+      "updatedAt": "2026-08-13T11:00:28Z",
       "values": {
         "text_mm4k2vch": "ITRocket LLC",
         "color_mm4kmej3": "1-Needs Review",
@@ -7302,7 +7302,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467847778",
       "name": "Ov Defi",
-      "updatedAt": "2026-08-12T11:00:27Z",
+      "updatedAt": "2026-08-13T11:00:30Z",
       "values": {
         "text_mm4k2vch": "OneNov",
         "color_mm4kmej3": "1-Needs Review",
@@ -7646,7 +7646,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467825386",
       "name": "Agora: Survey & Vote",
-      "updatedAt": "2026-08-12T11:00:29Z",
+      "updatedAt": "2026-08-13T11:00:33Z",
       "values": {
         "text_mm4k2vch": "Agora: Survey & Vote",
         "color_mm4kmej3": "1-Needs Review",
@@ -8294,7 +8294,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467790000",
       "name": "BENJI",
-      "updatedAt": "2026-08-12T12:00:31Z",
+      "updatedAt": "2026-08-13T11:00:34Z",
       "values": {
         "text_mm4k2vch": "Franklin Templeton",
         "color_mm4kmej3": "3-CIP-0116-paused",
@@ -8380,7 +8380,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467834325",
       "name": "ChainSafe x402 Global Facilitator",
-      "updatedAt": "2026-08-12T11:03:49Z",
+      "updatedAt": "2026-08-13T11:00:35Z",
       "values": {
         "text_mm4k2vch": "ChainSafe",
         "color_mm4kmej3": "1-Needs Review",
@@ -8409,7 +8409,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467834326",
       "name": "Squads Non-Custodial Wallet",
-      "updatedAt": "2026-08-12T11:03:51Z",
+      "updatedAt": "2026-08-13T11:00:37Z",
       "values": {
         "text_mm4k2vch": "SQUADS",
         "color_mm4kmej3": "1-Needs Review",
@@ -8465,7 +8465,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467824052",
       "name": "Canquest",
-      "updatedAt": "2026-08-12T11:03:52Z",
+      "updatedAt": "2026-08-13T11:00:38Z",
       "values": {
         "text_mm4k2vch": "Naxweb",
         "color_mm4kmej3": "1-Needs Review",
@@ -8497,7 +8497,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467824053",
       "name": "Deploi Credit Market",
-      "updatedAt": "2026-08-12T11:03:56Z",
+      "updatedAt": "2026-08-13T11:00:43Z",
       "values": {
         "text_mm4k2vch": "Deploi",
         "color_mm4kmej3": "1-Needs Review",
@@ -8559,7 +8559,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467824055",
       "name": "AUROX on Canton for featured app",
-      "updatedAt": "2026-08-12T11:03:57Z",
+      "updatedAt": "2026-08-13T11:00:45Z",
       "values": {
         "text_mm4k2vch": "International Institute of Blockchain Advanced Technology",
         "color_mm4kmej3": "1-Needs Review",
@@ -8616,7 +8616,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467832618",
       "name": "ScopeX Rate Lock",
-      "updatedAt": "2026-08-12T11:03:59Z",
+      "updatedAt": "2026-08-13T11:00:46Z",
       "values": {
         "text_mm4k2vch": "ScopeX Money",
         "color_mm4kmej3": "1-Needs Review",
@@ -8762,7 +8762,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467854321",
       "name": "Privket.com",
-      "updatedAt": "2026-08-12T11:04:00Z",
+      "updatedAt": "2026-08-13T11:00:48Z",
       "values": {
         "text_mm4k2vch": "Privket",
         "color_mm4kmej3": "6-Withdrawn",
@@ -9201,7 +9201,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467783449",
       "name": "Mperps",
-      "updatedAt": "2026-08-12T11:04:01Z",
+      "updatedAt": "2026-08-13T11:00:51Z",
       "values": {
         "text_mm4k2vch": "Lemongrass IT Services LLC-Fz",
         "color_mm4kmej3": "1-Needs Review",
@@ -9229,7 +9229,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467783450",
       "name": "Canquest",
-      "updatedAt": "2026-08-12T11:04:03Z",
+      "updatedAt": "2026-08-13T11:00:52Z",
       "values": {
         "text_mm4k2vch": "Canquest",
         "color_mm4kmej3": "1-Needs Review",
@@ -9287,7 +9287,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12471377959",
       "name": "OpenBaskets - BlockxAI Limited",
-      "updatedAt": "2026-08-12T11:04:04Z",
+      "updatedAt": "2026-08-13T11:00:54Z",
       "values": {
         "text_mm4k2vch": "BlockxAI Limited",
         "color_mm4kmej3": "1-Needs Review",
@@ -9314,7 +9314,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12568365683",
       "name": "Synfin - Cayvox Labs",
-      "updatedAt": "2026-08-12T11:04:06Z",
+      "updatedAt": "2026-08-13T11:01:07Z",
       "values": {
         "text_mm4k2vch": "Cayvox Labs",
         "color_mm4kmej3": "1-Needs Review",
@@ -9398,7 +9398,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12609616425",
       "name": "Arkhia x402 Facilitator-as-a-Service (FaaS) - Arkhia Pte Ltd",
-      "updatedAt": "2026-08-12T11:04:07Z",
+      "updatedAt": "2026-08-13T11:01:09Z",
       "values": {
         "text_mm4k2vch": "Arkhia Pte Ltd",
         "color_mm4kmej3": "1-Needs Review",
@@ -9430,7 +9430,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12626943292",
       "name": "Yellow Card - Yellow Card Financial Inc.",
-      "updatedAt": "2026-08-12T11:04:08Z",
+      "updatedAt": "2026-08-13T11:01:14Z",
       "values": {
         "text_mm4k2vch": "Yellow Card Financial Inc.",
         "color_mm4kmej3": "1-Needs Review",
@@ -9460,7 +9460,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12709198693",
       "name": "Rocky Wallet - Dune Labs",
-      "updatedAt": "2026-08-12T16:43:54Z",
+      "updatedAt": "2026-08-13T13:24:16Z",
       "values": {
         "text_mm4k2vch": "Dune Labs",
         "color_mm4kmej3": "0-Locked+Needs Review",
@@ -9494,7 +9494,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12731951755",
       "name": "Cove Wallet API - Qasara Labs Private Limited",
-      "updatedAt": "2026-08-12T11:04:10Z",
+      "updatedAt": "2026-08-13T11:01:16Z",
       "values": {
         "text_mm4k2vch": "Qasara Labs Private Limited",
         "color_mm4kmej3": "1-Needs Review",
@@ -9637,7 +9637,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12769413819",
       "name": "Canquest - PT JARINGAN SIMPUL TEKNOLOGI",
-      "updatedAt": "2026-08-12T11:04:11Z",
+      "updatedAt": "2026-08-13T11:01:17Z",
       "values": {
         "text_mm4k2vch": "PT JARINGAN SIMPUL TEKNOLOGI",
         "color_mm4kmej3": "1-Needs Review",
@@ -9756,12 +9756,14 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12791057047",
       "name": "OS Ledger - Outersunset",
-      "updatedAt": "2026-08-13T04:03:37Z",
+      "updatedAt": "2026-08-13T17:58:58Z",
       "values": {
         "text_mm4k2vch": "Outersunset",
         "color_mm4kmej3": "1-Needs Review",
+        "long_text_mm4kq322": "OSLedger-mainnet-1::1220f1cd2f9ef6f966d492813215f34cf048a559d25d750b44c095c17fbf96afff64",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "OSLedger-falocked::1220f1cd2f9ef6f966d492813215f34cf048a559d25d750b44c095c17fbf96afff64",
+        "numeric_mm4k6919": "0.0",
         "long_text_mm4km2s7": "Outer Sunset is the finance-close stack for Canton validators and applications: it turns raw ledger activity into audit-ready, double-entry books with maker-checker controls and tamper-evident, on-ledger rollup attestations.",
         "link_mm4kmq24": "https://outersunset.io/",
         "long_text_mm4k2537": "OS Ledger is a finance-close and accounting stack for Canton Network participants. It ingests a node's ledger transaction data: validator rewards, domain and sequencer fees, delegation and transfer flows that classifies each event through a versioned rule engine, and generates balanced double-entry journal entries. It runs a structured month-end close with maker-checker controls and no override paths, produces standard financial reports such as trial balance, income statement, balance sheet and general ledger. As it processes the books, it posts records on-ledger at each completed accounting milestone.",
@@ -9777,6 +9779,33 @@ window.FEATURED_APP_BOARD_DATA = {
         "long_text_mm4kfkwn": "Five North's internal accountants.",
         "long_text_mm4k6q73": "Without Featured App status, OS Ledger operates unchanged — the accounting, close, reporting, and export features work independently of any rewards program.",
         "long_text_mm4kwxt1": "OS Ledger only writes to the ledger on completed accounting actions, and those actions are gated by a maker-checker close workflow. The original on-chain transaction Id is also included as the payload to be traced back."
+      }
+    },
+    {
+      "id": "12800950488",
+      "name": "Bayzen - Bayzen",
+      "updatedAt": "2026-08-14T04:03:36Z",
+      "values": {
+        "text_mm4k2vch": "Bayzen",
+        "color_mm4kmej3": "1-Needs Review",
+        "color_mm4kpp3q": "Non-Issuer",
+        "long_text_mm4khjn6": "Pending — Bayzen is currently completing the Canton locking process. The locking Party ID(s) will be provided to the Committee once the locking arrangement has been finalized.",
+        "long_text_mm4km2s7": "Bayzen is a prediction market platform for creator made markets across crypto and traditional assets, protocol events, project milestones, and ecosystem events. It turns research-backed forecasts into measurable and verifiable track records through defined questions, evidence sources, deadlines, resolution rules, and final outcomes. Canton is the intended infrastructure for authorization, workflow, and CC settlement in the target Mainnet design.",
+        "link_mm4kmq24": "https://app.bayzen.tech/",
+        "long_text_mm4k2537": "Bayzen enables eligible users to create and participate in research-backed prediction markets. Market Creators submit research and a declared forecast, then lock Signal Points (SP) as a reusable Quality Bond. Following market review, eligible users can take positions with Canton Coin (CC). After market closing, predefined evidence and fixed rules are used to determine a provisional outcome, followed by a challenge process before final settlement. Winning participants receive payouts, creators recover their SP bond after a clean resolution, and eligible publisher rewards are released according to published market rules.",
+        "long_text_mm5hgry2": "Bayzen is preparing for Mainnet launch. The application is currently progressing through the required locking process on Canton.",
+        "long_text_mm4k4y1h": "Eligible Market Participants and Market Creators. These are non-exclusive roles under one application identity, wallet, and Canton Party. Creators may participate in markets published by others, but cannot take paid positions in their own markets.",
+        "long_text_mm4k15bg": "The Bayzen materials describe publisher rewards rather than application rewards. Following a clean resolution, Publisher Mode releases 20% of the 2% settlement fee to the creator, subject to a cap published before market opening. This equals 0.4% of the losing pool before that cap. No publisher reward is paid if the market is cancelled or invalid.",
+        "long_text_mm4kh3fw": "uses Canton for Party-based authorization, privacy-aware transaction views, Daml workflows, and interoperable CC settlement. Participants take positions using CC. The target MVP uses a pooled pari-mutuel model, in which winning participants share the distributable pool proportionally after the final outcome. The materials do not describe Activity Marker usage.",
+        "long_text_mm4kfg50": "CC is used for positions and settlement. The materials do not mention Activity Markers. Publisher rewards are funded from the settlement fee, not described as Activity Marker-based.",
+        "long_text_mm4kxcm2": "Initially, we expect an average of 5–10 transactions per active user per day. Typical activity includes reviewing markets, taking positions, and, for eligible creators, submitting and managing markets.",
+        "long_text_mm4kvyjq": "Users may generate multiple transactions when participating in multiple markets, adjusting activity across separate market windows, or when creators submit and manage separate market proposals. The application will apply market-level and account-level limits to reduce non-bona fide activity.",
+        "long_text_mm4k1cm0": "Transaction volume is expected to scale broadly linearly with active users and open markets. Activity may increase during market openings, market closings, and resolution periods.",
+        "long_text_mm4kd4h2": "ayzen is in the final pre-launch stage and is currently completing the required Canton locking process. The Mainnet launch date will follow completion of this process.",
+        "long_text_mm4kfkwn": "nitial users will consist of early-access market participants and research-focused market creators interested in crypto, traditional asset, protocol, project milestone, and ecosystem-event markets. The initial Mainnet go-live will follow completion of the required Canton locking process.",
+        "long_text_mm4k6q73": "Without Featured App status, Bayzen would continue to pursue its Mainnet operating plan but may have more limited access to the Featured App program and any associated application-reward framework. Bayzen does not rely on guaranteed Featured App approval.",
+        "long_text_mm4kwxt1": "Bayzen restricts own-market participation based on the publisher’s Party ID, other wallets under the publisher’s control, known linked Party IDs, and accounts under the publisher’s beneficial control. Protection layers may include verified identity, Party linking, eligibility credentials, market and position limits, app-level risk signals, manual review, SP-bond slashing, account suspension, and an appeals process. Market quality does not depend on participant count, wallet count, CC volume, linked-account activity, or artificial transaction activity. These controls reduce risk but cannot fully prevent identity borrowing, Sybil behavior, or collusion.",
+        "long_text_mm4kxsgy": "Bayzen is preparing for Mainnet launch and is currently completing the required Canton locking process. The application’s target features and workflows are intended for the Mainnet release."
       }
     }
   ]
