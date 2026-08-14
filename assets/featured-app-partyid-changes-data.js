@@ -1,5 +1,5 @@
 window.FEATURED_APP_PARTYID_CHANGES_DATA = {
-  "generatedAt": "2026-08-13T07:59:35.422Z",
+  "generatedAt": "2026-08-14T07:56:18.990Z",
   "columns": [
     {
       "id": "long_text_mm4kq322",
@@ -13,6 +13,15 @@ window.FEATURED_APP_PARTYID_CHANGES_DATA = {
     }
   ],
   "changes": [
+    {
+      "id": "332bc7a5-5a86-4326-a81c-2ea9e1478a9b",
+      "changedAt": "2026-08-13T17:58:58.162Z",
+      "itemName": "OS Ledger - Outersunset",
+      "itemId": "12791057047",
+      "field": "Party ID for the Featured Application:",
+      "previousValue": "",
+      "newValue": "OSLedger-mainnet-1::1220f1cd2f9ef6f966d492813215f34cf048a559d25d750b44c095c17fbf96afff64"
+    },
     {
       "id": "abe77058-a30d-4a1c-8a84-5a1961ad7e90",
       "changedAt": "2026-08-12T16:05:29.994Z",
@@ -183,15 +192,6 @@ window.FEATURED_APP_PARTYID_CHANGES_DATA = {
       "field": "Locking PartyIDs",
       "previousValue": "Yiksi",
       "newValue": "23d169c2-0909-4c70-81d1-1922de6febaa::12204c36a1823aad4d17569adf663c599baf380d0528a4710023a0b7654d76d42358"
-    },
-    {
-      "id": "56943006-1e09-427a-81f5-c7d9e59e4f5d",
-      "changedAt": "2026-07-27T19:13:59.432Z",
-      "itemName": "T-RIZE",
-      "itemId": "12467789137",
-      "field": "Party ID for the Featured Application:",
-      "previousValue": "TRIZEGroup-cantonMainnetValidator-1::12206ab3bf15b14410220357d6a6375eb1015f2e7fade1deb449463c2f2a25304889",
-      "newValue": "t-rize-registrar::1220175c60c87ed5e1c9c1c619da159bde8e1c2e407a4d334e755c167488d3964946"
     }
   ]
 };
