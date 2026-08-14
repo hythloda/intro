@@ -109,7 +109,7 @@
 
     .grid {
       display: grid;
-      grid-template-columns: repeat(2, minmax(0, 1fr));
+      grid-template-columns: repeat(3, minmax(0, 1fr));
       gap: 20px;
     }
 
@@ -158,9 +158,13 @@
 
     .resource-grid {
       display: grid;
-      grid-template-columns: repeat(2, minmax(0, 1fr));
+      grid-template-columns: repeat(3, minmax(0, 1fr));
       gap: 20px;
       margin-top: 20px;
+    }
+
+    .member-grid {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
     }
 
     .resource-card {
@@ -183,6 +187,7 @@
 
     @media (max-width: 860px) {
       .grid,
+      .member-grid,
       .resource-grid {
         grid-template-columns: 1fr;
       }
@@ -214,8 +219,7 @@
   <main class="wrap">
     <section class="section">
       <div class="section-header">
-        <h2>Primary paths</h2>
-        <p>Choose the path that matches what you are trying to do on Canton Network.</p>
+        <h2>Persona</h2>
       </div>
 
       <div class="grid">
@@ -237,22 +241,32 @@
           <p>Learn why Super Validators matter, how the CIP process works, and where to start with CIP-0000.</p>
         </a>
 
-        <a class="card" href="member.html">
-          <div class="label">Community</div>
-          <h3>Members</h3>
-          <p>Find member resources, committee participation links, Slack access, GitHub access, and the member directory.</p>
-        </a>
+      </div>
+    </section>
+
+    <section class="resource-panel">
+      <h2>Member resources</h2>
+
+      <div class="resource-grid member-grid">
+        <div class="resource-card">
+          <a href="https://members.canton.foundation/" target="_blank" rel="noopener">Member Directory</a>
+          <p>Browse Canton Foundation members grouped by tier, with logos and company information.</p>
+        </div>
+
+        <div class="resource-card">
+          <a href="https://wkf.ms/3SgUI7q" target="_blank" rel="noopener">Committee Participation Form</a>
+          <p>Use this to express interest in participating in Canton Foundation committees.</p>
+        </div>
       </div>
     </section>
 
     <section class="resource-panel">
       <h2>Developer resources</h2>
-      <p>Start with the official faucet or the developer hub.</p>
 
       <div class="resource-grid">
         <div class="resource-card">
-          <a href="https://testnet-faucet.canton.foundation/" target="_blank" rel="noopener">Testnet Faucet</a>
-          <p>Request testnet funds for development and testing on Canton Network.</p>
+          <a href="https://guide.canton.foundation/" target="_blank" rel="noopener">CF Onboarding &amp; Dev Fund Guide</a>
+          <p>Start here for Canton Foundation onboarding and Dev Fund guidance.</p>
         </div>
 
         <div class="resource-card">
@@ -261,8 +275,29 @@
         </div>
 
         <div class="resource-card">
+          <a href="https://testnet-faucet.canton.foundation/" target="_blank" rel="noopener">Testnet Faucet</a>
+          <p>Request testnet funds for development and testing on Canton Network.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="resource-panel">
+      <h2>Community resources</h2>
+
+      <div class="resource-grid">
+        <div class="resource-card">
           <a href="public-calendar.html">Public Calendar</a>
           <p>View upcoming public Canton Foundation events, meetings, and ecosystem dates.</p>
+        </div>
+
+        <div class="resource-card">
+          <a href="https://github.com/canton-foundation/canton-dev-fund/blob/main/sig-directory.md" target="_blank" rel="noopener">Sign Up for SIG</a>
+          <p>Sign up for a SIG by making a pull request to the Canton Dev Fund SIG directory.</p>
+        </div>
+
+        <div class="resource-card">
+          <a href="https://wkf.ms/4qzsS3f" target="_blank" rel="noopener">Canton Foundation Slack Request</a>
+          <p>Request access to Foundation Slack channels used for coordination and working groups.</p>
         </div>
       </div>
     </section>
