@@ -1,5 +1,5 @@
 window.FEATURED_APP_PARTYID_CHANGES_DATA = {
-  "generatedAt": "2026-08-14T07:56:18.990Z",
+  "generatedAt": "2026-08-15T07:05:36.534Z",
   "columns": [
     {
       "id": "long_text_mm4kq322",
@@ -13,6 +13,24 @@ window.FEATURED_APP_PARTYID_CHANGES_DATA = {
     }
   ],
   "changes": [
+    {
+      "id": "52ffa3ac-00ae-4f90-93b5-d9292c30c789",
+      "changedAt": "2026-08-14T15:37:34.097Z",
+      "itemName": "Bayzen - Bayzen",
+      "itemId": "12800950488",
+      "field": "Locking PartyIDs",
+      "previousValue": "Pending — Bayzen is currently completing the Canton locking process. The locking Party ID(s) will be provided to the Committee once the locking arrangement has been finalized.",
+      "newValue": "23d169c2-0909-4c70-81d1-1922de6febaa::12208504027629867135f32260ea29c443cec33d39faf9fead4a4693d93123e8b8e3"
+    },
+    {
+      "id": "cde50c7f-6da9-422e-9432-884f86bb1898",
+      "changedAt": "2026-08-14T15:37:22.800Z",
+      "itemName": "Bayzen - Bayzen",
+      "itemId": "12800950488",
+      "field": "Party ID for the Featured Application:",
+      "previousValue": "",
+      "newValue": "bayzen-validator-1::1220618de8af3a43c95f7f9c6430f9a308152eb564f57b4c60c4c655f67fb867af1c"
+    },
     {
       "id": "332bc7a5-5a86-4326-a81c-2ea9e1478a9b",
       "changedAt": "2026-08-13T17:58:58.162Z",
@@ -174,24 +192,6 @@ window.FEATURED_APP_PARTYID_CHANGES_DATA = {
       "field": "Locking PartyIDs",
       "previousValue": "",
       "newValue": "Was locked - removed Aug 4th"
-    },
-    {
-      "id": "20ef0d94-80c2-4729-8c3e-6b4710f4e7f7",
-      "changedAt": "2026-08-04T15:52:05.921Z",
-      "itemName": "FairShares",
-      "itemId": "12467834273",
-      "field": "Locking PartyIDs",
-      "previousValue": "23d169c2-0909-4c70-81d1-1922de6febaa::1220e88fd2c4184da237c4d2a89f31b2f6ae2ee88c073c3824c96b812cca51ab12a1",
-      "newValue": ""
-    },
-    {
-      "id": "0ccb4f04-1460-41e1-827c-a43795916c66",
-      "changedAt": "2026-08-02T12:45:02.831Z",
-      "itemName": "Yiksi",
-      "itemId": "12467837922",
-      "field": "Locking PartyIDs",
-      "previousValue": "Yiksi",
-      "newValue": "23d169c2-0909-4c70-81d1-1922de6febaa::12204c36a1823aad4d17569adf663c599baf380d0528a4710023a0b7654d76d42358"
     }
   ]
 };
