@@ -1,5 +1,5 @@
 window.FEATURED_APP_PARTYID_CHANGES_DATA = {
-  "generatedAt": "2026-08-18T07:12:54.622Z",
+  "generatedAt": "2026-08-19T07:13:16.912Z",
   "columns": [
     {
       "id": "long_text_mm4kq322",
@@ -13,6 +13,15 @@ window.FEATURED_APP_PARTYID_CHANGES_DATA = {
     }
   ],
   "changes": [
+    {
+      "id": "9c48c3d2-f64b-4a6c-ae9f-8d623a0a5c07",
+      "changedAt": "2026-08-18T20:18:26.883Z",
+      "itemName": "Excellar – Bermuda-regulated, yield-bearing tokens denominated in dollars, bitcoin, and other cryptocurrencies, along with related applications.",
+      "itemId": "12467790003",
+      "field": "Locking PartyIDs",
+      "previousValue": "xl-issuer-lock::12203d1e36930ee0e3fbb898add7e222a47ae9d2a5f0f6187e3a446ea32f871ce2ca, 23d169c2-0909-4c70-81d1-1922de6febaa::1220a5e6750e43fb4fb6cbc9f1c11b2607f8b8db09d877f2e2796a583c4673aa87d2",
+      "newValue": "23d169c2-0909-4c70-81d1-1922de6febaa::1220a5e6750e43fb4fb6cbc9f1c11b2607f8b8db09d877f2e2796a583c4673aa87d2"
+    },
     {
       "id": "52ffa3ac-00ae-4f90-93b5-d9292c30c789",
       "changedAt": "2026-08-14T15:37:34.097Z",
@@ -183,15 +192,6 @@ window.FEATURED_APP_PARTYID_CHANGES_DATA = {
       "field": "Party ID for the Featured Application:",
       "previousValue": "",
       "newValue": "dunelabs-validator-1::12203251ed85a1811755a4c7d1c0af8e50bf95bd72ae7fadd047e266d085a573e476"
-    },
-    {
-      "id": "8c6228b1-5974-4bec-b326-5cfb0dbcfbee",
-      "changedAt": "2026-08-04T15:52:27.098Z",
-      "itemName": "FairShares",
-      "itemId": "12467834273",
-      "field": "Locking PartyIDs",
-      "previousValue": "",
-      "newValue": "Was locked - removed Aug 4th"
     }
   ]
 };
