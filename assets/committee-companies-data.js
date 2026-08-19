@@ -1,5 +1,5 @@
 window.COMMITTEE_COMPANIES_DATA = {
-  "generatedAt": "2026-08-18T07:23:13.417Z",
+  "generatedAt": "2026-08-19T07:23:41.740Z",
   "committees": {
     "faAccountability": {
       "label": "Featured Application Accountability Committee",
@@ -232,7 +232,29 @@ window.COMMITTEE_COMPANIES_DATA = {
     },
     "collateral": {
       "label": "Collateral Subcommittee",
-      "companies": []
+      "companies": [
+        "7RIDGE",
+        "BNY",
+        "Broadridge Financial Solutions",
+        "Cumberland SV LLC",
+        "Depository Trust and Clearing Corporation (DTCC)",
+        "Digital Asset (Switzerland) GmbH",
+        "Euroclear",
+        "IntellectEU",
+        "International Swaps and Derivatives Association",
+        "Kaiko",
+        "KPMG LLP",
+        "KRO Brokers, SPC",
+        "LiquidityTech Limited",
+        "Lloyds Bank Plc",
+        "SBI Digital Asset Holdings",
+        "T-RIZE Group",
+        "The International Securities Lending Association",
+        "Tradeweb Markets LLC",
+        "Transcend Street Solutions Inc.",
+        "USIG Digital, Inc.",
+        "Zeppelin Group Ltd"
+      ]
     }
   }
 };
