@@ -120,15 +120,13 @@ const footerHtml = `
       <div class="site-footer-shell">
         <div class="site-footer-grid">
           <div class="site-footer-brand">
-            <a class="site-logo-link" href="index.html" aria-label="Canton Network intro home">
-              <img src="https://canton.foundation/wp-content/themes/canton/assets/images/logo.svg" alt="Canton Foundation">
-            </a>
+            <img src="https://canton.foundation/wp-content/themes/canton/assets/images/logo.svg" width="186" height="52" alt="Canton Foundation">
           </div>
 
           <div class="site-footer-column">
             <h4 class="site-footer-title">Canton</h4>
             <ul class="site-footer-list">
-              <li><a href="https://canton.foundation/join-the-foundation/" target="_blank" rel="noopener">Become A Member</a></li>
+              <li><a href="https://canton.foundation/membership/">Become A Member</a></li>
               <li><a href="https://canton.foundation/about-the-foundation/" target="_blank" rel="noopener">About Canton Foundation</a></li>
               <li><a href="https://canton.foundation/contact-us/" target="_blank" rel="noopener">Contact the Foundation</a></li>
             </ul>
@@ -137,59 +135,74 @@ const footerHtml = `
           <div class="site-footer-column">
             <h4 class="site-footer-title">Ecosystem</h4>
             <ul class="site-footer-list">
-              <li><a href="featured-applications.html">Featured Apps</a></li>
-              <li><a href="featured-app-board.html">Featured App Board</a></li>
-              <li><a href="featured-app-partyid-changes.html">FA PartyID Changes</a></li>
-              <li><a href="validator.html">Validators</a></li>
-              <li><a href="super-validator.html">Super Validators</a></li>
-              <li><a href="member.html">Members</a></li>
+              <li><a href="https://canton.foundation/canton-apps/">Canton Apps</a></li>
+              <li><a href="https://canton.foundation/validators/">Validators</a></li>
+              <li><a href="https://canton.foundation/sv-network-status/">SV Network Status</a></li>
             </ul>
           </div>
 
           <div class="site-footer-column">
             <h4 class="site-footer-title">Resources</h4>
             <ul class="site-footer-list">
-              <li><a href="featured-app-coupon-guidance.html">Coupon Guidance</a></li>
-              <li><a href="featured-app-locking-faq.html">Locking FAQ</a></li>
-              <li><a href="sv-milestone-framework.html">SV Milestone Framework</a></li>
-              <li><a href="https://github.com/canton-foundation/cips" target="_blank" rel="noopener">Canton CIPs</a></li>
-              <li><a href="https://dev-hub.canton.foundation/" target="_blank" rel="noopener">Developer Tooling</a></li>
-              <li><a href="https://testnet-faucet.canton.foundation/" target="_blank" rel="noopener">Testnet Faucet</a></li>
-              <li><a href="https://docs.canton.network/" target="_blank" rel="noopener">Docs</a></li>
+              <li><a href="https://canton.foundation/news/">News</a></li>
+              <li><a href="https://canton.foundation/press-releases/">Press Releases</a></li>
+              <li><a href="https://canton.foundation/working-groups/">Working Groups</a></li>
+              <li><a href="https://www.canton.network/whitepapers" target="_blank" rel="noopener">Whitepapers</a></li>
+              <li><a href="https://docs.canton.network/" target="_blank" rel="noopener">Developer Docs</a></li>
+              <li><a href="https://climate.canton.network/">Sustainability Dashboard</a></li>
+              <li><a href="https://github.com/canton-foundation/cips">Canton CIPs</a></li>
             </ul>
           </div>
         </div>
 
         <div class="site-footer-bottom">
           <p class="site-footer-copy">
-            COPYRIGHT ©2026. CANTON FOUNDATION. ALL RIGHTS RESERVED.
-            <a class="site-footer-privacy" href="https://canton.foundation/privacy-policy/" target="_blank" rel="noopener">PRIVACY POLICY</a>
+            Copyright ©2026. Canton Foundation. All rights reserved.
+            <a class="site-footer-privacy" href="https://canton.foundation/privacy-policy/">Privacy Policy</a>.
+            <a class="site-footer-privacy" href="https://canton.foundation/responsible-disclosure/">Responsible Disclosure</a>
           </p>
 
           <ul class="site-socials" aria-label="Social links">
             <li>
               <a class="site-social-link" href="https://www.linkedin.com/company/106042105/" target="_blank" rel="nofollow noopener noreferrer" aria-label="LinkedIn">
-                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.94 8.5A1.44 1.44 0 1 1 6.94 5.6a1.44 1.44 0 0 1 0 2.88ZM5.7 10.2h2.47V18H5.7v-7.8Zm4.02 0h2.37v1.06h.03c.33-.59 1.14-1.21 2.35-1.21 2.52 0 2.98 1.66 2.98 3.82V18H15V13.7c0-1.02-.02-2.32-1.41-2.32-1.42 0-1.64 1.11-1.64 2.25V18H9.72v-7.8Z"/></svg>
+                <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                  <circle cx="15" cy="15" r="15" fill="#030206"/>
+                  <path d="M7.74668 11.2308H10.8584V21.25H7.74666L7.74668 11.2308ZM9.30346 6.25C10.2983 6.25 11.1049 7.0596 11.1049 8.05511C11.1049 9.05166 10.2983 9.86115 9.30347 9.86115C8.30508 9.86115 7.5 9.05166 7.5 8.05511C7.49998 7.0596 8.30505 6.25 9.30346 6.25ZM12.809 11.2308H15.7889V12.6002H15.8312C16.2455 11.8118 17.2603 10.9817 18.7728 10.9817C21.9182 10.9817 22.5 13.0559 22.5 15.7543V21.25H19.3941V16.3787C19.3941 15.2158 19.3712 13.721 17.7783 13.721C16.1604 13.721 15.9137 14.9866 15.9137 16.2927V21.25H12.809V11.2308Z" fill="white"/>
+                </svg>
               </a>
             </li>
             <li>
               <a class="site-social-link" href="https://x.com/CantonFdn" target="_blank" rel="nofollow noopener noreferrer" aria-label="X">
-                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18.9 3H21l-4.59 5.24L21.8 21h-4.22l-3.3-4.35L10.5 21H8.4l4.91-5.61L8.2 3h4.33l2.98 3.95L18.9 3Zm-.74 16.72h1.17L11.9 4.19h-1.25l7.5 15.53Z"/></svg>
+                <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                  <circle cx="15" cy="15" r="15" fill="#030206"/>
+                  <path d="M13.5715 13.8522L7.9865 7.5H9.3095L14.161 13.0144L18.033 7.5H22.5L16.6435 15.8396L22.5 22.5H21.177L16.057 16.6754L11.967 22.5H7.5M20.6995 8.47619H18.667L9.3105 21.5718H11.3435" fill="white"/>
+                </svg>
               </a>
             </li>
             <li>
               <a class="site-social-link" href="https://github.com/canton-foundation" target="_blank" rel="nofollow noopener noreferrer" aria-label="GitHub">
-                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 .5C5.65.5.5 5.73.5 12.18c0 5.15 3.3 9.52 7.88 11.06.58.1.79-.25.79-.57 0-.28-.01-1.21-.02-2.2-3.2.71-3.87-1.38-3.87-1.38-.52-1.35-1.28-1.7-1.28-1.7-1.05-.73.08-.71.08-.71 1.16.08 1.76 1.21 1.76 1.21 1.03 1.8 2.7 1.28 3.36.98.1-.76.4-1.28.72-1.57-2.56-.3-5.26-1.3-5.26-5.77 0-1.27.44-2.31 1.17-3.12-.12-.3-.51-1.52.11-3.17 0 0 .96-.31 3.14 1.19a10.74 10.74 0 0 1 5.72 0c2.18-1.5 3.13-1.19 3.13-1.19.63 1.65.24 2.87.12 3.17.72.81 1.16 1.85 1.16 3.12 0 4.48-2.7 5.47-5.28 5.77.41.37.78 1.08.78 2.18 0 1.58-.01 2.85-.01 3.24 0 .31.21.68.8.57 4.57-1.55 7.86-5.91 7.86-11.06C23.5 5.73 18.35.5 12 .5Z"/></svg>
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M10.0083 0C4.47396 0 0 4.58331 0 10.2535C0 14.786 2.86662 18.6226 6.84338 19.9805C7.34058 20.0826 7.5227 19.7599 7.5227 19.4885C7.5227 19.2508 7.50631 18.436 7.50631 17.587C4.72225 18.1983 4.14249 16.3647 4.14249 16.3647C3.69508 15.1764 3.03215 14.871 3.03215 14.871C2.12092 14.2429 3.09852 14.2429 3.09852 14.2429C4.1093 14.3108 4.63969 15.2954 4.63969 15.2954C5.53432 16.857 6.97592 16.4158 7.55588 16.1441C7.63865 15.482 7.90394 15.0237 8.18563 14.7691C5.96514 14.5314 3.62891 13.6487 3.62891 9.71017C3.62891 8.58976 4.02634 7.67309 4.65608 6.96018C4.55672 6.7056 4.20866 5.65289 4.75564 4.24394C4.75564 4.24394 5.60069 3.97228 7.5061 5.29644C8.32188 5.07199 9.16317 4.95782 10.0083 4.95685C10.8533 4.95685 11.7148 5.07581 12.5102 5.29644C14.4159 3.97228 15.2609 4.24394 15.2609 4.24394C15.8079 5.65289 15.4596 6.7056 15.3603 6.96018C16.0066 7.67309 16.3876 8.58976 16.3876 9.71017C16.3876 13.6487 14.0514 14.5143 11.8143 14.7691C12.179 15.0916 12.4936 15.7026 12.4936 16.6703C12.4936 18.0453 12.4773 19.1489 12.4773 19.4883C12.4773 19.7599 12.6596 20.0826 13.1566 19.9808C17.1333 18.6224 20 14.786 20 10.2535C20.0163 4.58331 15.526 0 10.0083 0Z" fill="white"/>
+                </svg>
               </a>
             </li>
             <li>
               <a class="site-social-link" href="https://discord.gg/canton" target="_blank" rel="nofollow noopener noreferrer" aria-label="Discord">
-                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19.2 5.35a15.14 15.14 0 0 0-3.79-1.17.05.05 0 0 0-.05.03c-.16.3-.34.69-.46.99a13.86 13.86 0 0 0-4.18 0 10.2 10.2 0 0 0-.47-.99.05.05 0 0 0-.05-.03c-1.32.22-2.6.61-3.79 1.17a.04.04 0 0 0-.02.02C3.96 8.98 3.3 12.5 3.63 15.97a.06.06 0 0 0 .02.04 15.23 15.23 0 0 0 4.65 2.36.05.05 0 0 0 .06-.02c.36-.5.68-1.03.96-1.6a.05.05 0 0 0-.03-.07c-.5-.2-.97-.44-1.42-.71a.05.05 0 0 1-.01-.08c.1-.08.2-.16.3-.25a.05.05 0 0 1 .05-.01c2.97 1.37 6.18 1.37 9.12 0a.05.05 0 0 1 .05.01c.1.09.2.17.3.25a.05.05 0 0 1-.01.08c-.45.27-.92.51-1.42.7a.05.05 0 0 0-.03.08c.29.56.61 1.1.96 1.59a.05.05 0 0 0 .06.02 15.17 15.17 0 0 0 4.66-2.36.05.05 0 0 0 .02-.04c.39-4.03-.65-7.52-2.76-10.6a.04.04 0 0 0-.02-.02ZM9.54 13.86c-.91 0-1.66-.85-1.66-1.9 0-1.04.73-1.9 1.66-1.9.93 0 1.67.86 1.66 1.9 0 1.05-.73 1.9-1.66 1.9Zm4.92 0c-.92 0-1.66-.85-1.66-1.9 0-1.04.73-1.9 1.66-1.9.93 0 1.67.86 1.66 1.9 0 1.05-.73 1.9-1.66 1.9Z"/></svg>
+                <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                  <circle cx="15" cy="15" r="15" fill="#030206"/>
+                  <path d="M19.8047 9.36328C18.6562 8.83594 17.4375 8.46094 16.1719 8.25781C16.1562 8.25781 16.1406 8.25781 16.125 8.26562C15.9688 8.54688 15.7969 8.92188 15.6719 9.21875C14.3281 9.03125 13 9.03125 11.6875 9.21875C11.5625 8.90625 11.3906 8.54688 11.2344 8.26562C11.2188 8.25781 11.2031 8.25781 11.1875 8.25781C9.92188 8.46094 8.70312 8.83594 7.55469 9.36328C7.54688 9.36328 7.53906 9.37109 7.53125 9.37891C5.34375 12.5547 4.73438 15.6484 5.03906 18.7031C5.03906 18.7188 5.04688 18.7344 5.0625 18.7422C6.64844 19.8984 8.1875 20.6016 9.70312 21.0938C9.71875 21.0938 9.73438 21.0938 9.74219 21.0781C10.0938 20.6016 10.4141 20.1016 10.6875 19.5781C10.6953 19.5625 10.6875 19.5469 10.6719 19.5391C10.1797 19.3438 9.70312 19.1094 9.25 18.8359C9.23438 18.8281 9.23438 18.8047 9.24219 18.7969C9.35156 18.7188 9.45312 18.6328 9.55469 18.5469C9.5625 18.5391 9.57812 18.5391 9.58594 18.5391C12.2422 19.7734 15.1484 19.7734 17.7734 18.5391C17.7812 18.5391 17.7969 18.5391 17.8047 18.5469C17.9062 18.6328 18.0078 18.7188 18.125 18.7969C18.1406 18.8047 18.1406 18.8281 18.1172 18.8359C17.6719 19.1172 17.1875 19.3438 16.6953 19.5391C16.6797 19.5469 16.6797 19.5625 16.6797 19.5781C16.9609 20.1016 17.2734 20.5938 17.625 21.0781C17.6406 21.0938 17.6562 21.0938 17.6719 21.0938C19.1953 20.6016 20.7344 19.8984 22.3203 18.7422C22.3359 18.7344 22.3438 18.7188 22.3438 18.7031C22.7031 15.2266 21.7812 12.1562 19.8359 9.37891C19.8281 9.37109 19.8203 9.36328 19.8047 9.36328ZM11.2344 16.9141C10.4531 16.9141 9.8125 16.1797 9.8125 15.2656C9.8125 14.3516 10.4375 13.6172 11.2344 13.6172C12.0312 13.6172 12.6719 14.3516 12.6562 15.2656C12.6562 16.1797 12.0312 16.9141 11.2344 16.9141ZM16.1406 16.9141C15.3594 16.9141 14.7188 16.1797 14.7188 15.2656C14.7188 14.3516 15.3438 13.6172 16.1406 13.6172C16.9375 13.6172 17.5781 14.3516 17.5625 15.2656C17.5625 16.1797 16.9375 16.9141 16.1406 16.9141Z" fill="white"/>
+                </svg>
               </a>
             </li>
             <li>
-              <a class="site-social-link" href="https://t.me/CantonNetwork1" target="_blank" rel="nofollow noopener noreferrer" aria-label="Telegram">
-                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 1.5C6.2 1.5 1.5 6.2 1.5 12S6.2 22.5 12 22.5 22.5 17.8 22.5 12 17.8 1.5 12 1.5Zm5.51 7.02-1.74 8.2c-.13.58-.47.72-.95.45l-2.62-1.94-1.27 1.22c-.14.14-.26.26-.53.26l.19-2.69 4.89-4.41c.21-.19-.05-.29-.33-.1l-6.04 3.8-2.6-.81c-.57-.18-.58-.57.12-.84l10.16-3.92c.47-.17.89.11.72.78Z"/></svg>
+              <a class="site-social-link" href="https://t.me/CantonNetwork1" target="_blank" rel="nofollow noopener noreferrer" aria-label="Email">
+                <svg xmlns="http://www.w3.org/2000/svg" width="21" height="20" fill="none" viewBox="0 0 21 20" aria-hidden="true">
+                  <g clip-path="url(#telegram-footer-icon)">
+                    <path fill="#FFFFFC" d="M10.5 20c5.523 0 10-4.477 10-10s-4.477-10-10-10S.5 4.477.5 10s4.477 10 10 10Z"/>
+                    <path fill="#030206" fill-rule="evenodd" d="M5.027 9.894c2.915-1.27 4.859-2.107 5.832-2.512 2.777-1.155 3.354-1.355 3.73-1.362.083-.001.268.02.387.116a.421.421 0 0 1 .143.271c.013.078.03.255.016.394-.15 1.581-.801 5.418-1.133 7.19-.14.749-.416 1-.683 1.025-.58.053-1.022-.384-1.584-.753-.88-.577-1.377-.936-2.232-1.499-.987-.65-.347-1.008.216-1.593.147-.153 2.706-2.48 2.755-2.691.006-.026.012-.125-.046-.177-.059-.052-.145-.034-.208-.02-.088.02-1.494.95-4.218 2.788-.399.274-.76.408-1.084.4-.357-.007-1.044-.201-1.554-.367-.627-.204-1.124-.311-1.081-.657.022-.18.27-.364.744-.553Z" clip-rule="evenodd"/>
+                  </g>
+                  <defs><clipPath id="telegram-footer-icon"><path fill="#fff" d="M.5 0h20v20H.5z"/></clipPath></defs>
+                </svg>
               </a>
             </li>
           </ul>
