@@ -250,7 +250,7 @@
 .site-footer {
   position: relative;
   z-index: 20;
-  margin-top: 28px;
+  margin-top: 20px;
 }
 
 .site-footer .site-chrome-container {
@@ -260,7 +260,7 @@
 
 .site-footer-shell {
   border-radius: 40px;
-  padding: 56px 72px 34px;
+  padding: 44px 56px 28px;
   background: rgba(3, 2, 6, 0.95);
   border: 1px solid rgba(135, 92, 255, 0.68);
   box-shadow: 0 28px 70px rgba(0, 0, 0, 0.36);
@@ -269,7 +269,7 @@
 .site-footer-grid {
   display: grid;
   grid-template-columns: minmax(360px, 1.8fr) repeat(3, minmax(150px, 1fr));
-  gap: 34px 42px;
+  gap: 24px 34px;
   align-items: start;
 }
 
@@ -315,7 +315,7 @@
   align-items: center;
   justify-content: space-between;
   gap: 24px;
-  margin-top: 32px;
+  margin-top: 24px;
 }
 
 .site-footer-copy {
@@ -332,7 +332,7 @@
   order: 2;
   display: flex;
   align-items: center;
-  gap: 22px;
+  gap: 16px;
 }
 
 .site-social-link {
@@ -385,13 +385,13 @@
 
 @media (max-width: 1500px) {
   .site-footer-shell {
-    padding: 48px 64px 30px;
+    padding: 34px 48px 24px;
   }
 
   .site-footer-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
-    column-gap: 72px;
-    row-gap: 22px;
+    column-gap: 48px;
+    row-gap: 14px;
   }
 
   .site-footer-brand {
@@ -422,8 +422,8 @@
   .site-footer-bottom {
     flex-direction: column;
     align-items: flex-start;
-    gap: 18px;
-    margin-top: 34px;
+    gap: 12px;
+    margin-top: 22px;
   }
 
   .site-socials {
@@ -558,21 +558,21 @@
   }
 
   .site-footer-shell {
-    padding: 42px 44px 28px;
+    padding: 30px 34px 22px;
     border-radius: 28px;
   }
 
   .site-footer-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
-    column-gap: 36px;
-    row-gap: 20px;
+    column-gap: 28px;
+    row-gap: 12px;
   }
 
   .site-footer-bottom {
     flex-direction: column;
     align-items: flex-start;
-    gap: 18px;
-    margin-top: 30px;
+    gap: 12px;
+    margin-top: 22px;
   }
 }
 
@@ -616,12 +616,12 @@
   }
 
   .site-footer-shell {
-    padding: 34px 28px 24px;
+    padding: 28px 24px 20px;
   }
 
   .site-footer-grid {
     grid-template-columns: 1fr;
-    gap: 22px;
+    gap: 16px;
   }
 
   .site-footer-list {
@@ -634,7 +634,7 @@
   }
 
   .site-footer-bottom {
-    margin-top: 28px;
+    margin-top: 20px;
   }
 
   .site-footer-copy {
