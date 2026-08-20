@@ -260,7 +260,7 @@
 
 .site-footer-shell {
   border-radius: 40px;
-  padding: 72px 88px 42px;
+  padding: 56px 72px 34px;
   background: rgba(3, 2, 6, 0.95);
   border: 1px solid rgba(135, 92, 255, 0.68);
   box-shadow: 0 28px 70px rgba(0, 0, 0, 0.36);
@@ -269,7 +269,7 @@
 .site-footer-grid {
   display: grid;
   grid-template-columns: minmax(360px, 1.8fr) repeat(3, minmax(150px, 1fr));
-  gap: 48px;
+  gap: 34px 42px;
   align-items: start;
 }
 
@@ -280,7 +280,7 @@
 }
 
 .site-footer-title {
-  margin: 0 0 18px;
+  margin: 0 0 12px;
   color: #ffffff;
   font-size: 18px !important;
   font-weight: 400;
@@ -315,7 +315,7 @@
   align-items: center;
   justify-content: space-between;
   gap: 24px;
-  margin-top: 44px;
+  margin-top: 32px;
 }
 
 .site-footer-copy {
@@ -385,13 +385,13 @@
 
 @media (max-width: 1500px) {
   .site-footer-shell {
-    padding: 72px 76px 36px;
+    padding: 48px 64px 30px;
   }
 
   .site-footer-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
-    column-gap: 92px;
-    row-gap: 34px;
+    column-gap: 72px;
+    row-gap: 22px;
   }
 
   .site-footer-brand {
@@ -422,8 +422,8 @@
   .site-footer-bottom {
     flex-direction: column;
     align-items: flex-start;
-    gap: 28px;
-    margin-top: 58px;
+    gap: 18px;
+    margin-top: 34px;
   }
 
   .site-socials {
@@ -558,21 +558,21 @@
   }
 
   .site-footer-shell {
-    padding: 58px 56px 34px;
+    padding: 42px 44px 28px;
     border-radius: 28px;
   }
 
   .site-footer-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
-    column-gap: 44px;
-    row-gap: 30px;
+    column-gap: 36px;
+    row-gap: 20px;
   }
 
   .site-footer-bottom {
     flex-direction: column;
     align-items: flex-start;
-    gap: 24px;
-    margin-top: 50px;
+    gap: 18px;
+    margin-top: 30px;
   }
 }
 
@@ -616,12 +616,12 @@
   }
 
   .site-footer-shell {
-    padding: 46px 34px 30px;
+    padding: 34px 28px 24px;
   }
 
   .site-footer-grid {
     grid-template-columns: 1fr;
-    gap: 30px;
+    gap: 22px;
   }
 
   .site-footer-list {
@@ -634,7 +634,7 @@
   }
 
   .site-footer-bottom {
-    margin-top: 44px;
+    margin-top: 28px;
   }
 
   .site-footer-copy {
