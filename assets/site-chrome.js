@@ -212,7 +212,58 @@ const footerHtml = `
   </footer>
 `;
 
+const footerGuardCss = `
+  .site-footer, .site-footer * { box-sizing: border-box !important; }
+  .site-footer { position: relative !important; z-index: 20 !important; margin-top: 28px !important; font-family: "IBM Plex Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important; }
+  .site-footer .site-chrome-container { max-width: 1410px !important; margin: 0 auto !important; padding: 0 30px !important; }
+  .site-footer-shell { border-radius: 40px !important; padding: 72px 88px 42px !important; background: rgba(3, 2, 6, 0.95) !important; border: 1px solid rgba(135, 92, 255, 0.68) !important; box-shadow: 0 28px 70px rgba(0, 0, 0, 0.36) !important; }
+  .site-footer-grid { display: grid !important; grid-template-columns: minmax(360px, 1.8fr) repeat(3, minmax(150px, 1fr)) !important; gap: 48px !important; align-items: start !important; }
+  .site-footer-brand img { display: block !important; width: 186px !important; height: auto !important; }
+  .site-footer-title { margin: 0 0 18px !important; color: #fff !important; font-size: 18px !important; font-weight: 400 !important; line-height: 1.2 !important; }
+  .site-footer-list { display: grid !important; gap: 13px !important; list-style: none !important; margin: 0 !important; padding: 0 !important; }
+  .site-footer-list a, .site-footer-privacy { color: rgba(255, 255, 255, 0.78) !important; text-decoration: none !important; font-size: 17px !important; font-weight: 400 !important; line-height: 1.38 !important; }
+  .site-footer-bottom { display: flex !important; align-items: center !important; justify-content: space-between !important; gap: 24px !important; margin-top: 44px !important; }
+  .site-footer-copy { order: 1 !important; margin: 0 !important; color: rgba(255, 255, 255, 0.82) !important; font-size: 15px !important; font-weight: 400 !important; letter-spacing: 0.06em !important; text-transform: uppercase !important; line-height: 1.5 !important; }
+  .site-socials { order: 2 !important; display: flex !important; align-items: center !important; gap: 22px !important; list-style: none !important; margin: 0 !important; padding: 0 !important; }
+  .site-social-link { display: inline-flex !important; align-items: center !important; justify-content: center !important; width: 28px !important; height: 28px !important; color: #fff !important; text-decoration: none !important; }
+  .site-social-link svg { display: block !important; flex: 0 0 auto !important; }
+  @media (max-width: 1500px) {
+    .site-footer-shell { padding: 72px 76px 36px !important; }
+    .site-footer-grid { grid-template-columns: repeat(2, minmax(0, 1fr)) !important; column-gap: 92px !important; row-gap: 34px !important; }
+    .site-footer-brand { grid-column: 1 / -1 !important; margin-bottom: 2px !important; }
+    .site-footer-title { margin-bottom: 12px !important; font-size: 15px !important; }
+    .site-footer-list { gap: 9px !important; }
+    .site-footer-list a, .site-footer-privacy { font-size: 13px !important; line-height: 1.35 !important; }
+    .site-footer-copy { order: 2 !important; font-size: 11px !important; line-height: 1.55 !important; }
+    .site-footer-bottom { flex-direction: column !important; align-items: flex-start !important; gap: 28px !important; margin-top: 58px !important; }
+    .site-socials { order: 1 !important; }
+  }
+  @media (max-width: 1040px) {
+    .site-footer-shell { padding: 58px 56px 34px !important; border-radius: 28px !important; }
+    .site-footer-grid { grid-template-columns: repeat(2, minmax(0, 1fr)) !important; column-gap: 44px !important; row-gap: 30px !important; }
+  }
+  @media (max-width: 640px) {
+    .site-footer .site-chrome-container { padding: 0 14px !important; }
+    .site-footer-shell { padding: 46px 34px 30px !important; }
+    .site-footer-grid { grid-template-columns: 1fr !important; gap: 30px !important; }
+    .site-footer-copy { font-size: 10px !important; }
+  }
+`;
+
+function ensureFooterGuardStyles() {
+  if (document.getElementById("site-footer-guard-styles")) {
+    return;
+  }
+
+  const style = document.createElement("style");
+  style.id = "site-footer-guard-styles";
+  style.textContent = footerGuardCss;
+  document.head.appendChild(style);
+}
+
 function mountSiteChrome() {
+  ensureFooterGuardStyles();
+
   for (const node of document.querySelectorAll("[data-site-header]")) {
     node.innerHTML = headerHtml;
   }
