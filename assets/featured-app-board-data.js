@@ -1,5 +1,5 @@
 window.FEATURED_APP_BOARD_DATA = {
-  "generatedAt": "2026-08-20T07:08:56.346Z",
+  "generatedAt": "2026-08-21T07:09:57.886Z",
   "columns": [
     {
       "id": "text_mm4k2vch",
@@ -3087,7 +3087,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467838259",
       "name": "Wintip",
-      "updatedAt": "2026-08-18T19:28:50Z",
+      "updatedAt": "2026-08-20T16:05:27Z",
       "values": {
         "text_mm4k2vch": "Winsnip",
         "color_mm4kmej3": "0-Locked+Needs Review",
@@ -4915,14 +4915,14 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467806176",
       "name": "Rapid Chain",
-      "updatedAt": "2026-08-19T11:00:17Z",
+      "updatedAt": "2026-08-20T22:00:18Z",
       "values": {
         "text_mm4k2vch": "Rapid Blockchain Technologies Ltd.",
         "color_mm4kmej3": "5-Revoked",
         "long_text_mm4kq322": "Given Node",
         "color_mm4kpp3q": "Non-Issuer",
-        "long_text_mm4khjn6": "rapid-chain-lock1::12203494523f5bb02d6388ee3de4b15ee211581b6c1dadf23b71a0d2c1043d41eca5",
-        "numeric_mm4k6919": "0.0",
+        "long_text_mm4khjn6": "23d169c2-0909-4c70-81d1-1922de6febaa::1220f7a9536dd3ac943688bff534eb25b28046b6660b1f579d2d0d0037dacc96dcac",
+        "numeric_mm4k6919": "5.0",
         "long_text_mm4km2s7": "Rapid Chain is a modular execution layer infrastructure focused on institutional-grade digital asset issuance, trading, and settlement. Our team has experience in high-performance distributed systems, blockchain architecture, and regulated asset tokenization. We design scalable environments that offload computational complexity from base ledgers while preserving security, privacy, and deterministic finality.",
         "link_mm4kmq24": "https://rapidchain.io/",
         "long_text_mm4k2537": "Rapid Chain provides a high-performance execution environment for digital assets and Real World Asset (RWA) tokenization. The system performs order matching, batching, and transaction execution off-ledger, while anchoring final settlement and state commitments to the Canton Network via the Global Synchronizer. This approach enables: sub-second user experience, reduced ledger load, institutional privacy, and deterministic finality backed by Canton. Rapid Chain acts as an execution and liquidity layer while Canton serves as the root of trust and settlement authority.",
@@ -5988,7 +5988,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467856988",
       "name": "MEME token and Coinflip",
-      "updatedAt": "2026-08-19T11:00:18Z",
+      "updatedAt": "2026-08-20T11:00:17Z",
       "values": {
         "text_mm4k2vch": "Archerswap",
         "color_mm4kmej3": "1-Needs Review",
@@ -6520,7 +6520,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467790006",
       "name": "CC Ledger",
-      "updatedAt": "2026-08-19T11:00:21Z",
+      "updatedAt": "2026-08-20T11:00:19Z",
       "values": {
         "text_mm4k2vch": "Blueprint Infrastructure, LLC",
         "color_mm4kmej3": "1-Needs Review",
@@ -6554,7 +6554,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467843470",
       "name": "Lumens",
-      "updatedAt": "2026-08-18T20:03:42Z",
+      "updatedAt": "2026-08-20T13:30:29Z",
       "values": {
         "text_mm4k2vch": "Allocate Technologies",
         "color_mm4kmej3": "1-Needs Review",
@@ -6871,12 +6871,12 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467811192",
       "name": "Ember",
-      "updatedAt": "2026-07-23T13:35:29Z",
+      "updatedAt": "2026-08-20T21:40:56Z",
       "values": {
         "text_mm4k2vch": "Ember",
         "color_mm4kmej3": "2-Approved",
         "long_text_mm4kq322": "ember-validator-1::1220ad9c097ae75192b4716854fa413aa8582c86a62b16714663cdab55e025cc79c4",
-        "color_mm4kpp3q": "Non-Issuer",
+        "color_mm4kpp3q": "Asset Issuer",
         "long_text_mm4khjn6": "23d169c2-0909-4c70-81d1-1922de6febaa::12205ff1ebf71cccc45dbf25753a1e3a1049e246cd228f2325257e686a1a7012544f",
         "numeric_mm4k6919": "25.0",
         "long_text_mm4km2s7": "Ember is an institutional-grade investment platform and infrastructure layer for launching, accessing, and distributing traditional and onchain financial products through crypto capital markets. The platform currently has over $70m in assets with partners like Securitize, Ant Group, Asseto and many other leading asset issuers. Ember is now also tokenizing pre-IPO equity.",
@@ -7127,7 +7127,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467847770",
       "name": "VAULT",
-      "updatedAt": "2026-08-19T11:00:22Z",
+      "updatedAt": "2026-08-20T11:00:20Z",
       "values": {
         "text_mm4k2vch": "HighTower",
         "color_mm4kmej3": "1-Needs Review",
@@ -7217,7 +7217,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467847773",
       "name": "CC Space",
-      "updatedAt": "2026-08-19T11:00:24Z",
+      "updatedAt": "2026-08-20T11:00:22Z",
       "values": {
         "text_mm4k2vch": "ITRocket LLC",
         "color_mm4kmej3": "1-Needs Review",
@@ -7302,7 +7302,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467847778",
       "name": "Ov Defi",
-      "updatedAt": "2026-08-19T11:00:25Z",
+      "updatedAt": "2026-08-20T11:00:24Z",
       "values": {
         "text_mm4k2vch": "OneNov",
         "color_mm4kmej3": "1-Needs Review",
@@ -7646,7 +7646,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467825386",
       "name": "Agora: Survey & Vote",
-      "updatedAt": "2026-08-19T11:00:27Z",
+      "updatedAt": "2026-08-20T11:00:25Z",
       "values": {
         "text_mm4k2vch": "Agora: Survey & Vote",
         "color_mm4kmej3": "1-Needs Review",
@@ -8294,7 +8294,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467790000",
       "name": "BENJI",
-      "updatedAt": "2026-08-19T11:00:28Z",
+      "updatedAt": "2026-08-20T11:00:27Z",
       "values": {
         "text_mm4k2vch": "Franklin Templeton",
         "color_mm4kmej3": "3-CIP-0116-paused",
@@ -8380,7 +8380,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467834325",
       "name": "ChainSafe x402 Global Facilitator",
-      "updatedAt": "2026-08-19T11:00:30Z",
+      "updatedAt": "2026-08-20T11:00:28Z",
       "values": {
         "text_mm4k2vch": "ChainSafe",
         "color_mm4kmej3": "1-Needs Review",
@@ -8409,7 +8409,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467834326",
       "name": "Squads Non-Custodial Wallet",
-      "updatedAt": "2026-08-19T11:00:32Z",
+      "updatedAt": "2026-08-20T11:00:30Z",
       "values": {
         "text_mm4k2vch": "SQUADS",
         "color_mm4kmej3": "1-Needs Review",
@@ -8465,7 +8465,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467824052",
       "name": "Canquest",
-      "updatedAt": "2026-08-19T11:00:34Z",
+      "updatedAt": "2026-08-20T11:00:31Z",
       "values": {
         "text_mm4k2vch": "Naxweb",
         "color_mm4kmej3": "1-Needs Review",
@@ -8497,7 +8497,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467824053",
       "name": "Deploi Credit Market",
-      "updatedAt": "2026-08-19T11:00:38Z",
+      "updatedAt": "2026-08-20T11:00:35Z",
       "values": {
         "text_mm4k2vch": "Deploi",
         "color_mm4kmej3": "1-Needs Review",
@@ -8559,7 +8559,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467824055",
       "name": "AUROX on Canton for featured app",
-      "updatedAt": "2026-08-19T11:00:39Z",
+      "updatedAt": "2026-08-20T11:00:36Z",
       "values": {
         "text_mm4k2vch": "International Institute of Blockchain Advanced Technology",
         "color_mm4kmej3": "1-Needs Review",
@@ -8616,7 +8616,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467832618",
       "name": "ScopeX Rate Lock",
-      "updatedAt": "2026-08-19T11:01:00Z",
+      "updatedAt": "2026-08-20T11:00:37Z",
       "values": {
         "text_mm4k2vch": "ScopeX Money",
         "color_mm4kmej3": "1-Needs Review",
@@ -8762,7 +8762,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467854321",
       "name": "Privket.com",
-      "updatedAt": "2026-08-19T11:01:02Z",
+      "updatedAt": "2026-08-20T11:00:39Z",
       "values": {
         "text_mm4k2vch": "Privket",
         "color_mm4kmej3": "6-Withdrawn",
@@ -9169,7 +9169,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467834274",
       "name": "Ibex",
-      "updatedAt": "2026-08-11T17:46:16Z",
+      "updatedAt": "2026-08-20T13:37:41Z",
       "values": {
         "text_mm4k2vch": "Ibex Ventures Limited",
         "color_mm4kmej3": "0-Locked+Needs Review",
@@ -9201,7 +9201,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467783449",
       "name": "Mperps",
-      "updatedAt": "2026-08-19T11:01:03Z",
+      "updatedAt": "2026-08-20T11:00:40Z",
       "values": {
         "text_mm4k2vch": "Lemongrass IT Services LLC-Fz",
         "color_mm4kmej3": "1-Needs Review",
@@ -9229,7 +9229,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467783450",
       "name": "Canquest",
-      "updatedAt": "2026-08-19T11:01:05Z",
+      "updatedAt": "2026-08-20T11:00:43Z",
       "values": {
         "text_mm4k2vch": "Canquest",
         "color_mm4kmej3": "1-Needs Review",
@@ -9287,7 +9287,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12471377959",
       "name": "OpenBaskets - BlockxAI Limited",
-      "updatedAt": "2026-08-19T11:01:06Z",
+      "updatedAt": "2026-08-20T11:00:44Z",
       "values": {
         "text_mm4k2vch": "BlockxAI Limited",
         "color_mm4kmej3": "1-Needs Review",
@@ -9314,7 +9314,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12568365683",
       "name": "Synfin - Cayvox Labs",
-      "updatedAt": "2026-08-19T11:01:08Z",
+      "updatedAt": "2026-08-20T11:00:46Z",
       "values": {
         "text_mm4k2vch": "Cayvox Labs",
         "color_mm4kmej3": "1-Needs Review",
@@ -9398,7 +9398,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12609616425",
       "name": "Arkhia x402 Facilitator-as-a-Service (FaaS) - Arkhia Pte Ltd",
-      "updatedAt": "2026-08-19T11:01:09Z",
+      "updatedAt": "2026-08-20T11:00:47Z",
       "values": {
         "text_mm4k2vch": "Arkhia Pte Ltd",
         "color_mm4kmej3": "1-Needs Review",
@@ -9430,7 +9430,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12626943292",
       "name": "Yellow Card - Yellow Card Financial Inc.",
-      "updatedAt": "2026-08-19T11:01:10Z",
+      "updatedAt": "2026-08-20T11:00:48Z",
       "values": {
         "text_mm4k2vch": "Yellow Card Financial Inc.",
         "color_mm4kmej3": "1-Needs Review",
@@ -9494,7 +9494,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12731951755",
       "name": "Cove Wallet API - Qasara Labs Private Limited",
-      "updatedAt": "2026-08-19T11:01:11Z",
+      "updatedAt": "2026-08-20T11:00:50Z",
       "values": {
         "text_mm4k2vch": "Qasara Labs Private Limited",
         "color_mm4kmej3": "1-Needs Review",
@@ -9637,7 +9637,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12769413819",
       "name": "Canquest - PT JARINGAN SIMPUL TEKNOLOGI",
-      "updatedAt": "2026-08-19T18:26:15Z",
+      "updatedAt": "2026-08-20T11:00:51Z",
       "values": {
         "text_mm4k2vch": "PT JARINGAN SIMPUL TEKNOLOGI",
         "color_mm4kmej3": "1-Needs Review",
@@ -9731,7 +9731,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12791057047",
       "name": "OS Ledger - Outersunset",
-      "updatedAt": "2026-08-19T11:01:14Z",
+      "updatedAt": "2026-08-20T11:01:13Z",
       "values": {
         "text_mm4k2vch": "Outersunset",
         "color_mm4kmej3": "1-Needs Review",
@@ -9814,6 +9814,36 @@ window.FEATURED_APP_BOARD_DATA = {
         "long_text_mm4khbeg": "NA",
         "long_text_mm4kp5en": "https://solido-money.gitbook.io/solido/information/brand-kit",
         "long_text_mm4kxsgy": "As one of the largest dApps on the Supra blockchain, Solido brings 18+ months of DeFi production experience and $2B+ in protocol volume to Canton. Through Grow, we aim to bring new users, liquidity, and yield sources into Canton while connecting opportunities across MoveVM networks with the Canton ecosystem."
+      }
+    },
+    {
+      "id": "12861315656",
+      "name": "Upflam - Upflam",
+      "updatedAt": "2026-08-21T04:03:35Z",
+      "values": {
+        "text_mm4k2vch": "Upflam",
+        "color_mm4kmej3": "1-Needs Review",
+        "color_mm4kpp3q": "Non-Issuer",
+        "long_text_mm4khjn6": "upflam-treasury::1220fcf86322b2ae75c9e6f74b9159e3407d9c426d97ebd6676be64ccab966dee4f3",
+        "long_text_mm4km2s7": "Upflam is building a commerce payment gateway that enables Canton Coin holders to use $CC for everyday online purchases. The platform is designed to connect Canton Coin with real-world internet commerce, allowing users to purchase goods and services online directly with their Canton Coin. This includes both e-commerce and even digital services such as domain registration. Co-founded by Vinh and Tinh, who have extensive experience building products and infrastructure in the Canton ecosystem as well as consumer internet products. Vinh previously worked at Five North and operated Super Validator, NaaS, while also building Loop Wallet and Lighthouse Explorer. Tinh contributed to Loop functionality, and design lead of Seaport.to, and has decades of experience building and operating e-commerce products in Vietnam. We’re also founder of software such as https://mailwip.com and https://www.lapa.ninja Together, we bring experience across Canton infrastructure, wallets, blockchain applications, and large-scale e-commerce. Upflam’s goal is to bring the simplicity, speed, and usability expected from modern consumer software to the Canton ecosystem, while making Canton Coin useful beyond the blockchain itself. In addition to payment, the team is actively building open source and infrastructure tooling for the Canton ecosystem. We recently released https://superscan.upflam.com, a tool for monitoring Super Validators and providing unified routing for Scan API and CIP-56 Registry API requests. This reflects our broader commitment to building practical infrastructure that makes Canton easier to use for both developers and users.",
+        "link_mm4kd0hk": "https://github.com/upflam/meta/tree/main/logo",
+        "link_mm4kmq24": "https://app.upflam.com",
+        "link_mm4kqtfa": "https://drive.google.com/drive/u/1/folders/1g6-k30cmfpJLlN-9ZuhqUoQ2YUdxmOgF",
+        "long_text_mm4k2537": "Upflam provides a no-code payment solution that enables merchants and institutional users to accept Canton Coin as a payment method without building their own Canton integration. Upflam provide simple API and dashboard that allow merchants to create hosted checkout pages for one-time payments, donations, and installment payments. The experience is similar to Stripe Checkout, but designed exclusively for Canton and Canton Coin. To save merchant from integrating, Upflam provides ready-to-use plugins and extensions for popular e-commerce platforms such as Shopify and WooCommerce. Merchants will be able to install a plugin, go over a seamless onboarding experience, and add Canton Coin as a checkout option without writing custom blockchain code. The integration does not require merchants to build or maintain custom DAR integrations. This allows Canton Coin held in supported exchange and custodial wallets to participate in online commerce, making the payment experience accessible to users who hold $CC outside of a dedicated Canton wallet too. Payment can also be split and combined from multiple payers, not just a single person. Upflam also offer cloud services that utilize this payment, allowing anyone who has CC to register for a domain with only Canton Coin. Upflam support majority of TLD: com, net, io, ai, xyz,... and more",
+        "long_text_mm5hgry2": "no",
+        "long_text_mm4k4y1h": "For one time payment: Anyone who wants to send an invoice and request payment from other Canton users. The merchant who owns an e-commerce platform such as Shopify, WooCommerce will set up and take payment in CC/USDCx. Anyone who is selling goods or services on the internet that want to take Canton payment can use our hosted checkout to take The buyer can use any wallet(including exchange wallet) to make a purchase by sending payment to the merchant. For subscription, SaaS providers are our users. They can take payment through Canton. Upon renewal, a webhook is fired to enable SaaS providers to update their book keeping. Beside, Upflam Cloud also provide cloud services which anyone with Canton can become our users Domain registration: Head over to app.upflam.com/domain Anyone who holds CC can also use our service to register for a domain(hosting and other service will follow) using only CC.",
+        "long_text_mm4k15bg": "Feature transfer from customer to merchant wallet(if customer wallet has not opt-out of FA right field) When merchant withdrawal balance out of our platform Subscription payment require DAML contract creation and signing Chunk and installation payment create milestone and track on-chain",
+        "long_text_mm4kh3fw": "Upflam uses ledger throughout a payment flow. Merchants can set up their deposit wallet to receive Canton payment by creating an on-chain party. Customers make payment by performing CC, USDCx transfer, or creating Transfer Allocation.",
+        "long_text_mm4kfg50": "Follow the guidance on https://docs.google.com/document/d/1KJQ-T-HiO73nYMXTogGLVSu9lo9loMVgXNOosF74758/edit?tab=t.0#heading=h.6x3utttg2mly we implement activity markers by tracking traffic we purchase and generate market with the same weight. A background job run every minute to monitor the burn. Beside markers, if there are features of CC transfer(when the sender wallet set the FA right field), activity markers are also created automatically.",
+        "long_text_mm4kxcm2": "Depending on the merchant, but given this is crypto payment we expect a single digit or low end of 2 digit of transactions per day per merchant.",
+        "long_text_mm4kvyjq": "No, we don’t have such a condition. A transaction is associated with a real life event of a user, such as registering a domain, purchasing an item on a shopify store.",
+        "long_text_mm4k1cm0": "Linearly",
+        "long_text_mm4kd4h2": "We’re already lived on mainnet https://app.upflam.com",
+        "long_text_mm4kfkwn": "Anyone with a wallet in Canton today, that means 1,2Mil parties on Canton network today, can become our first customer to purchase a domain using CC coin and sign-up to use the services for their e-commerce store. Our payment gateway is also ready to serve any Canton developer to accept Payment for their app. For merchants, we’re finalizing the shopify and woocommerce to get listed on those platform.Our first merchant we’re working directly with is https://upperempire.com for their Shopify store.",
+        "long_text_mm4k6q73": "Not much change. Upflam will continue to deploy and operate. However, having FA status allows us to at least offset a percentage of the traffic burn, and bootstrap much faster, focus more on user acquisitions as well as building trust being a Feature app on Canton.",
+        "long_text_mm4kwxt1": "Yes, our merchant and our users are on entirely different platforms. So naturally there is no non-bona fide tx. A merchant account needs to be created, and each transaction is tied to a real life event(purchase an item on an external platform), and an additional API call with rate limit is needed to set up pre-requirement for payment intent. The customers are on a different platform from Upflam, the payer isn't an Upflam customer, they are a merchant's customer, with their own wallet on a different provider. They pay a fee for transfers from that provider, and merchants pay a fee to withdraw as well as a small percent of transaction volume. Merchant sign-up is manually controlled and reviewed at this step. After the manual approved, a rate limit is also implemented to prevent",
+        "long_text_mm4kp5en": "https://github.com/upflam/meta/tree/main/logo",
+        "long_text_mm4kxsgy": "Building a hosted payment platform on Canton presents a unique challenge due to its privacy model. We can only see data for transactions where we are an informee. Because of this, we built a limited and simple deposit account for merchants to receive funds. Upflam is focused on being a payment gateway, not on providing wallet functionality, and we do not plan to do so. Beyond the merchant track, to help drive adoption and dogfood our technology, we also launched Upflam Cloud, which allows users to register a real-world domain using a credit card. Any user with a credit card can register a domain right away and manage its DNS entirely through Upflam. We welcome reviewers to try it out by visiting https://app.upflam.com/domains and purchasing their first domain using Canton Coin."
       }
     }
   ]
