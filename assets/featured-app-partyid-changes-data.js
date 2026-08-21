@@ -1,5 +1,5 @@
 window.FEATURED_APP_PARTYID_CHANGES_DATA = {
-  "generatedAt": "2026-08-20T07:21:18.818Z",
+  "generatedAt": "2026-08-21T07:22:30.109Z",
   "columns": [
     {
       "id": "long_text_mm4kq322",
@@ -13,6 +13,15 @@ window.FEATURED_APP_PARTYID_CHANGES_DATA = {
     }
   ],
   "changes": [
+    {
+      "id": "24a8128c-ac28-4daf-b375-98b8bdc1e4bf",
+      "changedAt": "2026-08-20T21:18:44.354Z",
+      "itemName": "Rapid Chain",
+      "itemId": "12467806176",
+      "field": "Locking PartyIDs",
+      "previousValue": "rapid-chain-lock1::12203494523f5bb02d6388ee3de4b15ee211581b6c1dadf23b71a0d2c1043d41eca5",
+      "newValue": "23d169c2-0909-4c70-81d1-1922de6febaa::1220f7a9536dd3ac943688bff534eb25b28046b6660b1f579d2d0d0037dacc96dcac"
+    },
     {
       "id": "9c48c3d2-f64b-4a6c-ae9f-8d623a0a5c07",
       "changedAt": "2026-08-18T20:18:26.883Z",
@@ -183,15 +192,6 @@ window.FEATURED_APP_PARTYID_CHANGES_DATA = {
       "field": "Locking PartyIDs",
       "previousValue": "",
       "newValue": "23d169c2-0909-4c70-81d1-1922de6febaa::12207afc6e98a8ecf74866bfabba5ef7c6f45bbbf45bb9a5976c1d9ca53055fb0284"
-    },
-    {
-      "id": "9ba7a979-145a-4a56-bd1b-96c348876c5b",
-      "changedAt": "2026-08-04T20:22:36.504Z",
-      "itemName": "Rocky Wallet - Dune Labs",
-      "itemId": "12709198693",
-      "field": "Party ID for the Featured Application:",
-      "previousValue": "",
-      "newValue": "dunelabs-validator-1::12203251ed85a1811755a4c7d1c0af8e50bf95bd72ae7fadd047e266d085a573e476"
     }
   ]
 };
