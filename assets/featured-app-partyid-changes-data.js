@@ -1,5 +1,5 @@
 window.FEATURED_APP_PARTYID_CHANGES_DATA = {
-  "generatedAt": "2026-08-21T07:22:30.109Z",
+  "generatedAt": "2026-08-22T07:08:35.635Z",
   "columns": [
     {
       "id": "long_text_mm4kq322",
@@ -13,6 +13,15 @@ window.FEATURED_APP_PARTYID_CHANGES_DATA = {
     }
   ],
   "changes": [
+    {
+      "id": "a9d2d441-6bc0-49ec-aeef-c53cd7677454",
+      "changedAt": "2026-08-21T21:48:22.636Z",
+      "itemName": "Bridge by Roots",
+      "itemId": "12467824764",
+      "field": "Locking PartyIDs",
+      "previousValue": "edgevanaCIP116-lock::1220f66fafc044e4364adce1f84442dcb5ce3dc5d15fbe331e0e6155ac31052a38ee",
+      "newValue": ""
+    },
     {
       "id": "24a8128c-ac28-4daf-b375-98b8bdc1e4bf",
       "changedAt": "2026-08-20T21:18:44.354Z",
@@ -183,15 +192,6 @@ window.FEATURED_APP_PARTYID_CHANGES_DATA = {
       "field": "Party ID for the Featured Application:",
       "previousValue": "",
       "newValue": "sanctum-mainnet::12205162445638c3f71c9942b74360134b4ebc953b5bea2c25adc99bff130bffd060"
-    },
-    {
-      "id": "409a14e1-8f5f-4a92-bd59-2e7b1606edb0",
-      "changedAt": "2026-08-06T12:42:37.555Z",
-      "itemName": "SyncVotes",
-      "itemId": "12467783443",
-      "field": "Locking PartyIDs",
-      "previousValue": "",
-      "newValue": "23d169c2-0909-4c70-81d1-1922de6febaa::12207afc6e98a8ecf74866bfabba5ef7c6f45bbbf45bb9a5976c1d9ca53055fb0284"
     }
   ]
 };
