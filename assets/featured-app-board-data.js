@@ -1,5 +1,5 @@
 window.FEATURED_APP_BOARD_DATA = {
-  "generatedAt": "2026-08-22T07:02:05.928Z",
+  "generatedAt": "2026-08-23T07:04:14.094Z",
   "columns": [
     {
       "id": "text_mm4k2vch",
@@ -9110,7 +9110,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467834272",
       "name": "RAX Finance",
-      "updatedAt": "2026-08-18T14:30:52Z",
+      "updatedAt": "2026-08-22T16:01:30Z",
       "values": {
         "text_mm4k2vch": "RAX Finance",
         "color_mm4kmej3": "0-Locked+Needs Review",
