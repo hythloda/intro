@@ -1,5 +1,5 @@
 window.FEATURED_APP_BOARD_DATA = {
-  "generatedAt": "2026-08-23T07:04:14.094Z",
+  "generatedAt": "2026-08-24T07:31:18.034Z",
   "columns": [
     {
       "id": "text_mm4k2vch",
@@ -197,7 +197,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467783446",
       "name": "FlowRyd",
-      "updatedAt": "2026-08-21T20:48:07Z",
+      "updatedAt": "2026-08-23T15:00:16Z",
       "values": {
         "text_mm4k2vch": "Towler Enterprises",
         "color_mm4kmej3": "2-Approved",
@@ -506,7 +506,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467857175",
       "name": "7Trust",
-      "updatedAt": "2026-08-21T21:00:23Z",
+      "updatedAt": "2026-08-23T15:00:18Z",
       "values": {
         "text_mm4k2vch": "C7",
         "color_mm4kmej3": "2-Approved",
@@ -1030,7 +1030,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467834329",
       "name": "Modo Data Platform",
-      "updatedAt": "2026-08-21T21:00:37Z",
+      "updatedAt": "2026-08-23T15:00:20Z",
       "values": {
         "text_mm4k2vch": "Staketab",
         "color_mm4kmej3": "2-Approved",
@@ -1868,7 +1868,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467790154",
       "name": "Ov Defi",
-      "updatedAt": "2026-08-21T13:00:14Z",
+      "updatedAt": "2026-08-23T15:00:23Z",
       "values": {
         "text_mm4k2vch": "OneNov",
         "color_mm4kmej3": "1-Needs Review",
@@ -2226,7 +2226,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467789257",
       "name": "Saxon Automate / Canton Keeper",
-      "updatedAt": "2026-08-21T13:00:15Z",
+      "updatedAt": "2026-08-23T15:00:25Z",
       "values": {
         "text_mm4k2vch": "Saxon",
         "color_mm4kmej3": "1-Needs Review",
@@ -2930,7 +2930,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467856986",
       "name": "HydraX",
-      "updatedAt": "2026-08-21T20:48:08Z",
+      "updatedAt": "2026-08-23T15:00:28Z",
       "values": {
         "text_mm4k2vch": "HydraX",
         "color_mm4kmej3": "2-Approved",
@@ -2943,7 +2943,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467856987",
       "name": "Sync Insights",
-      "updatedAt": "2026-08-21T20:48:10Z",
+      "updatedAt": "2026-08-23T15:00:29Z",
       "values": {
         "text_mm4k2vch": "Chata Technologies Inc",
         "color_mm4kmej3": "2-Approved",
@@ -3596,7 +3596,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467789102",
       "name": "7LOCK",
-      "updatedAt": "2026-08-21T20:57:14Z",
+      "updatedAt": "2026-08-23T15:00:31Z",
       "values": {
         "text_mm4k2vch": "C7 Labs UK Limited",
         "color_mm4kmej3": "2-Approved",
@@ -3624,7 +3624,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467789103",
       "name": "Jubilee Treasury",
-      "updatedAt": "2026-08-21T13:00:17Z",
+      "updatedAt": "2026-08-23T15:00:33Z",
       "values": {
         "text_mm4k2vch": "Jubilee Treasury",
         "color_mm4kmej3": "6-Withdrawn",
@@ -3766,7 +3766,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467790155",
       "name": "Mperps",
-      "updatedAt": "2026-08-21T13:00:21Z",
+      "updatedAt": "2026-08-23T15:00:36Z",
       "values": {
         "text_mm4k2vch": "Lemongrass IT Services LLC-Fz",
         "color_mm4kmej3": "1-Needs Review",
@@ -4133,7 +4133,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467783401",
       "name": "Vala Wallet: Canton Non Custodial Web Wallet with Featured App Integrations",
-      "updatedAt": "2026-08-21T20:57:32Z",
+      "updatedAt": "2026-08-23T15:00:38Z",
       "values": {
         "text_mm4k2vch": "Finoa Consensus Services",
         "color_mm4kmej3": "2-Approved",
@@ -4308,7 +4308,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467825408",
       "name": "Silvana Book",
-      "updatedAt": "2026-08-21T20:57:34Z",
+      "updatedAt": "2026-08-23T15:00:41Z",
       "values": {
         "text_mm4k2vch": "Silvana",
         "color_mm4kmej3": "2-Approved",
@@ -5509,7 +5509,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467804368",
       "name": "Nexode",
-      "updatedAt": "2026-08-21T20:48:31Z",
+      "updatedAt": "2026-08-23T15:00:43Z",
       "values": {
         "text_mm4k2vch": "Nexode",
         "color_mm4kmej3": "2-Approved",
@@ -5987,7 +5987,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467856988",
       "name": "MEME token and Coinflip",
-      "updatedAt": "2026-08-21T13:00:22Z",
+      "updatedAt": "2026-08-23T15:00:45Z",
       "values": {
         "text_mm4k2vch": "Archerswap",
         "color_mm4kmej3": "1-Needs Review",
@@ -6519,7 +6519,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467790006",
       "name": "CC Ledger",
-      "updatedAt": "2026-08-21T13:00:24Z",
+      "updatedAt": "2026-08-23T15:00:48Z",
       "values": {
         "text_mm4k2vch": "Blueprint Infrastructure, LLC",
         "color_mm4kmej3": "1-Needs Review",
@@ -7126,7 +7126,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467847770",
       "name": "VAULT",
-      "updatedAt": "2026-08-21T13:00:25Z",
+      "updatedAt": "2026-08-23T15:00:51Z",
       "values": {
         "text_mm4k2vch": "HighTower",
         "color_mm4kmej3": "1-Needs Review",
@@ -7216,7 +7216,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467847773",
       "name": "CC Space",
-      "updatedAt": "2026-08-21T13:00:27Z",
+      "updatedAt": "2026-08-23T15:00:53Z",
       "values": {
         "text_mm4k2vch": "ITRocket LLC",
         "color_mm4kmej3": "1-Needs Review",
@@ -7301,7 +7301,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467847778",
       "name": "Ov Defi",
-      "updatedAt": "2026-08-21T13:00:28Z",
+      "updatedAt": "2026-08-23T15:00:55Z",
       "values": {
         "text_mm4k2vch": "OneNov",
         "color_mm4kmej3": "1-Needs Review",
@@ -7645,7 +7645,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467825386",
       "name": "Agora: Survey & Vote",
-      "updatedAt": "2026-08-21T13:00:29Z",
+      "updatedAt": "2026-08-23T15:00:59Z",
       "values": {
         "text_mm4k2vch": "Agora: Survey & Vote",
         "color_mm4kmej3": "1-Needs Review",
@@ -8212,7 +8212,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467789888",
       "name": "gohash.cc",
-      "updatedAt": "2026-08-18T20:03:40Z",
+      "updatedAt": "2026-08-23T13:54:31Z",
       "values": {
         "text_mm4k2vch": "DIGIAPP LLC",
         "color_mm4kmej3": "1-Needs Review",
@@ -8293,7 +8293,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467790000",
       "name": "BENJI",
-      "updatedAt": "2026-08-21T13:00:31Z",
+      "updatedAt": "2026-08-23T15:01:01Z",
       "values": {
         "text_mm4k2vch": "Franklin Templeton",
         "color_mm4kmej3": "3-CIP-0116-paused",
@@ -8378,7 +8378,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467834325",
       "name": "ChainSafe x402 Global Facilitator",
-      "updatedAt": "2026-08-21T13:00:33Z",
+      "updatedAt": "2026-08-23T15:01:03Z",
       "values": {
         "text_mm4k2vch": "ChainSafe",
         "color_mm4kmej3": "1-Needs Review",
@@ -8407,7 +8407,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467834326",
       "name": "Squads Non-Custodial Wallet",
-      "updatedAt": "2026-08-21T13:00:35Z",
+      "updatedAt": "2026-08-23T15:01:05Z",
       "values": {
         "text_mm4k2vch": "SQUADS",
         "color_mm4kmej3": "1-Needs Review",
@@ -8463,7 +8463,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467824052",
       "name": "Canquest",
-      "updatedAt": "2026-08-21T13:00:36Z",
+      "updatedAt": "2026-08-23T15:01:06Z",
       "values": {
         "text_mm4k2vch": "Naxweb",
         "color_mm4kmej3": "1-Needs Review",
@@ -8495,7 +8495,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467824053",
       "name": "Deploi Credit Market",
-      "updatedAt": "2026-08-21T13:00:40Z",
+      "updatedAt": "2026-08-23T15:01:13Z",
       "values": {
         "text_mm4k2vch": "Deploi",
         "color_mm4kmej3": "1-Needs Review",
@@ -8557,7 +8557,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467824055",
       "name": "AUROX on Canton for featured app",
-      "updatedAt": "2026-08-21T13:00:41Z",
+      "updatedAt": "2026-08-23T15:01:15Z",
       "values": {
         "text_mm4k2vch": "International Institute of Blockchain Advanced Technology",
         "color_mm4kmej3": "1-Needs Review",
@@ -8614,7 +8614,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467832618",
       "name": "ScopeX Rate Lock",
-      "updatedAt": "2026-08-21T13:00:43Z",
+      "updatedAt": "2026-08-23T15:01:17Z",
       "values": {
         "text_mm4k2vch": "ScopeX Money",
         "color_mm4kmej3": "1-Needs Review",
@@ -8760,7 +8760,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467854321",
       "name": "Privket.com",
-      "updatedAt": "2026-08-21T13:00:44Z",
+      "updatedAt": "2026-08-23T15:01:19Z",
       "values": {
         "text_mm4k2vch": "Privket",
         "color_mm4kmej3": "6-Withdrawn",
@@ -8785,7 +8785,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467838018",
       "name": "Ekiden",
-      "updatedAt": "2026-08-21T20:48:24Z",
+      "updatedAt": "2026-08-23T15:01:21Z",
       "values": {
         "text_mm4k2vch": "Allspark Markets Ltd.",
         "color_mm4kmej3": "2-Approved",
@@ -8965,7 +8965,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467789887",
       "name": "Tritemius",
-      "updatedAt": "2026-08-21T20:48:27Z",
+      "updatedAt": "2026-08-23T15:01:23Z",
       "values": {
         "text_mm4k2vch": "Tritemius Fund FCRE I",
         "color_mm4kmej3": "2-Approved",
@@ -9199,7 +9199,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467783449",
       "name": "Mperps",
-      "updatedAt": "2026-08-21T13:00:46Z",
+      "updatedAt": "2026-08-23T15:01:25Z",
       "values": {
         "text_mm4k2vch": "Lemongrass IT Services LLC-Fz",
         "color_mm4kmej3": "1-Needs Review",
@@ -9227,7 +9227,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467783450",
       "name": "Canquest",
-      "updatedAt": "2026-08-21T13:00:48Z",
+      "updatedAt": "2026-08-23T15:01:28Z",
       "values": {
         "text_mm4k2vch": "Canquest",
         "color_mm4kmej3": "1-Needs Review",
@@ -9285,7 +9285,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12471377959",
       "name": "OpenBaskets - BlockxAI Limited",
-      "updatedAt": "2026-08-21T13:00:49Z",
+      "updatedAt": "2026-08-23T15:01:30Z",
       "values": {
         "text_mm4k2vch": "BlockxAI Limited",
         "color_mm4kmej3": "1-Needs Review",
@@ -9312,7 +9312,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12568365683",
       "name": "Synfin - Cayvox Labs",
-      "updatedAt": "2026-08-21T13:00:51Z",
+      "updatedAt": "2026-08-23T15:01:32Z",
       "values": {
         "text_mm4k2vch": "Cayvox Labs",
         "color_mm4kmej3": "1-Needs Review",
@@ -9396,7 +9396,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12609616425",
       "name": "Arkhia x402 Facilitator-as-a-Service (FaaS) - Arkhia Pte Ltd",
-      "updatedAt": "2026-08-21T13:00:52Z",
+      "updatedAt": "2026-08-23T15:01:34Z",
       "values": {
         "text_mm4k2vch": "Arkhia Pte Ltd",
         "color_mm4kmej3": "1-Needs Review",
@@ -9428,7 +9428,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12626943292",
       "name": "Yellow Card - Yellow Card Financial Inc.",
-      "updatedAt": "2026-08-21T13:00:53Z",
+      "updatedAt": "2026-08-23T15:01:36Z",
       "values": {
         "text_mm4k2vch": "Yellow Card Financial Inc.",
         "color_mm4kmej3": "1-Needs Review",
@@ -9492,7 +9492,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12731951755",
       "name": "Cove Wallet API - Qasara Labs Private Limited",
-      "updatedAt": "2026-08-21T13:00:55Z",
+      "updatedAt": "2026-08-23T15:01:39Z",
       "values": {
         "text_mm4k2vch": "Qasara Labs Private Limited",
         "color_mm4kmej3": "1-Needs Review",
@@ -9635,7 +9635,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12769413819",
       "name": "Canquest - PT JARINGAN SIMPUL TEKNOLOGI",
-      "updatedAt": "2026-08-21T13:00:57Z",
+      "updatedAt": "2026-08-23T15:01:41Z",
       "values": {
         "text_mm4k2vch": "PT JARINGAN SIMPUL TEKNOLOGI",
         "color_mm4kmej3": "1-Needs Review",
@@ -9729,7 +9729,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12791057047",
       "name": "OS Ledger - Outersunset",
-      "updatedAt": "2026-08-21T13:00:58Z",
+      "updatedAt": "2026-08-23T15:01:43Z",
       "values": {
         "text_mm4k2vch": "Outersunset",
         "color_mm4kmej3": "1-Needs Review",
@@ -9848,12 +9848,13 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12870058108",
       "name": "R1M Sentinel - R1M",
-      "updatedAt": "2026-08-22T04:03:53Z",
+      "updatedAt": "2026-08-23T15:01:45Z",
       "values": {
         "text_mm4k2vch": "R1M",
         "color_mm4kmej3": "1-Needs Review",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "r1m-validator-1::122009ae6158cb03207cd5eb0a6796a74daf3e2855ee9f17cd5bcbcccee383842962",
+        "numeric_mm4k6919": "0.0",
         "long_text_mm4km2s7": "The R1M team is all about stability, security, and building out the ecosystem. We launched in 2020, and since then we’ve taken concrete steps to develop our brand and infrastructure. Media has played a significant role in popularizing R1M—our videos have garnered tens of thousands of views, and our combined channels have over 20,000 subscribers. We’ve developed numerous guides for quickly setting up nodes and created several products that are useful for both individual users and large validators.",
         "link_mm4kd0hk": "https://r1m.team/brand-kit",
         "link_mm4kmq24": "https://sentinel.r1m.team/",
