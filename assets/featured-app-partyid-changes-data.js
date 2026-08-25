@@ -1,5 +1,5 @@
 window.FEATURED_APP_PARTYID_CHANGES_DATA = {
-  "generatedAt": "2026-08-24T07:35:21.903Z",
+  "generatedAt": "2026-08-25T07:23:37.610Z",
   "columns": [
     {
       "id": "long_text_mm4kq322",
@@ -13,6 +13,15 @@ window.FEATURED_APP_PARTYID_CHANGES_DATA = {
     }
   ],
   "changes": [
+    {
+      "id": "5d1d29d2-b1c9-4bcf-84bc-ca69a6d872e7",
+      "changedAt": "2026-08-24T16:52:13.594Z",
+      "itemName": "Nomexis",
+      "itemId": "12467783405",
+      "field": "Locking PartyIDs",
+      "previousValue": "23d169c2-0909-4c70-81d1-1922de6febaa::1220b6564e113fc76dd67020ef7ee401c235033e1ff9692dfd3a4098235d1ece2ea9",
+      "newValue": ""
+    },
     {
       "id": "a9d2d441-6bc0-49ec-aeef-c53cd7677454",
       "changedAt": "2026-08-21T21:48:22.636Z",
@@ -183,15 +192,6 @@ window.FEATURED_APP_PARTYID_CHANGES_DATA = {
       "field": "Locking PartyIDs",
       "previousValue": "5,000,000 $CC locked and active via Canton Strategic / Cashen locking arrangement. Locking party: 23d169c2-0909-4c70-81d1-1922de6febaa::12200255cb9526b82c134e1bfb2136f841c32af8a2df39e2e52a2c9f03da7a4afac1 Verifiable on-chain: https://ccview.io/party/23d169c2-0909-4c70-81d1-1922de6febaa::12200255cb9526b82c134e1bfb2136f841c32af8a2df39e2e52a2c9f03da7a4afac1/ FeaturedAppRight is held on the eesee app-provider party: eesee-mainnet-1::1220fb2e89aab677556481b303aad5d3aa049edcf961db626f12f2c9e040b5463df4",
       "newValue": "23d169c2-0909-4c70-81d1-1922de6febaa::12200255cb9526b82c134e1bfb2136f841c32af8a2df39e2e52a2c9f03da7a4afac1"
-    },
-    {
-      "id": "09c59ea6-e0b2-44a8-aebb-73ca3ae176a7",
-      "changedAt": "2026-08-07T16:13:36.232Z",
-      "itemName": "Sanctum",
-      "itemId": "12467854319",
-      "field": "Party ID for the Featured Application:",
-      "previousValue": "",
-      "newValue": "sanctum-mainnet::12205162445638c3f71c9942b74360134b4ebc953b5bea2c25adc99bff130bffd060"
     }
   ]
 };
