@@ -1,5 +1,5 @@
 window.FEATURED_APP_BOARD_DATA = {
-  "generatedAt": "2026-08-25T07:10:52.185Z",
+  "generatedAt": "2026-08-26T07:11:14.521Z",
   "columns": [
     {
       "id": "text_mm4k2vch",
@@ -2226,14 +2226,14 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467789257",
       "name": "Saxon Automate / Canton Keeper",
-      "updatedAt": "2026-08-25T04:00:21Z",
+      "updatedAt": "2026-08-25T09:01:01Z",
       "values": {
         "text_mm4k2vch": "Saxon",
         "color_mm4kmej3": "1-Needs Review",
         "long_text_mm4kq322": "saxon-various-1::12204c9e793fdcdd329d9a8bd307562e3493139d9fee257b1928be514d1d4950e5b6",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "saxon-various-1::12204c9e793fdcdd329d9a8bd307562e3493139d9fee257b1928be514d1d4950e5b6",
-        "numeric_mm4k6919": "0.1",
+        "numeric_mm4k6919": "0.4",
         "long_text_mm4km2s7": "Saxon Nodes operates NAAS (Node-as-a-Service) Canton validator infrastructure. We run validator nodes for multiple clients hosting Daml applications including Canton Swap, Cantara, and Digital Asset utility packages. We are building tooling to improve the operational efficiency and reward generation for all Canton validators",
         "link_mm4kmq24": "https://saxon-xyz.github.io/canton-keeper-docs/",
         "link_mm4krmse": "https://saxon-xyz.github.io/canton-keeper-docs/",
@@ -3234,10 +3234,10 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467837724",
       "name": "Modulo Issuer",
-      "updatedAt": "2026-08-24T16:49:51Z",
+      "updatedAt": "2026-08-25T14:36:22Z",
       "values": {
         "text_mm4k2vch": "Modulo Labs, Inc.",
-        "color_mm4kmej3": "5-Revoked",
+        "color_mm4kmej3": "6-Withdrawn",
         "long_text_mm4kq322": "Modulo-Issuer::1220bbd47c5a10d5540c420e1f8f0f1fd513464ec6110dbd5123970dbe3b538805d3",
         "color_mm4kpp3q": "Asset Issuer",
         "long_text_mm4khjn6": "23d169c2-0909-4c70-81d1-1922de6febaa::12208ed5d822bd47a2e912ca9154ca2871ebb375cb99777bab0ae85d20060a44c811",
@@ -5475,10 +5475,10 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467777686",
       "name": "Cancore",
-      "updatedAt": "2026-08-24T16:54:20Z",
+      "updatedAt": "2026-08-25T14:21:10Z",
       "values": {
         "text_mm4k2vch": "Cancore",
-        "color_mm4kmej3": "2-Approved",
+        "color_mm4kmej3": "5-Revoked",
         "long_text_mm4kq322": "Cancore-mainnet-1::1220076a94e0a7f0256a32ffab227db7788d8075677d8afcdaa8386df8f2fa659906",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "23d169c2-0909-4c70-81d1-1922de6febaa::1220e6f35080b9d64553d4d34d6a3cc8b03d2a6936c84d02667cf39f262c55a86f46",
@@ -7507,7 +7507,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467837673",
       "name": "Atomix",
-      "updatedAt": "2026-08-24T17:08:57Z",
+      "updatedAt": "2026-08-25T14:18:45Z",
       "values": {
         "text_mm4k2vch": "K2F Labs",
         "color_mm4kmej3": "1-Needs Review",
@@ -9025,7 +9025,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467789859",
       "name": "Pinnaccle",
-      "updatedAt": "2026-08-24T17:09:45Z",
+      "updatedAt": "2026-08-26T02:41:40Z",
       "values": {
         "text_mm4k2vch": "Pinnaccle",
         "color_mm4kmej3": "1-Needs Review",
@@ -9456,7 +9456,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12709198693",
       "name": "Rocky Wallet - Dune Labs",
-      "updatedAt": "2026-08-24T17:09:59Z",
+      "updatedAt": "2026-08-25T14:10:10Z",
       "values": {
         "text_mm4k2vch": "Dune Labs",
         "color_mm4kmej3": "0-Locked+Needs Review",
@@ -9872,6 +9872,33 @@ window.FEATURED_APP_BOARD_DATA = {
         "long_text_mm4kwxt1": "Yes. Only deposits + hourly settlement create txs/markers. No alerts/polling/UI spam. Settlement only with active premium + billable pair + sufficient balance; max 1 tx/hour per address×adapter.",
         "long_text_mm4kp5en": "https://r1m.team/brand-kit",
         "long_text_mm4kxsgy": "Happy to support any further tests or questions from the Committee. Please reach out to sorkand@r1m.team anytime - we will help promptly."
+      }
+    },
+    {
+      "id": "12898935686",
+      "name": "Rapid Chain - Rapid Blockchain Technologies Ltd",
+      "updatedAt": "2026-08-26T04:50:57Z",
+      "values": {
+        "text_mm4k2vch": "Rapid Blockchain Technologies Ltd",
+        "color_mm4kmej3": "1-Needs Review",
+        "color_mm4kpp3q": "Non-Issuer",
+        "long_text_mm4khjn6": "23d169c2-0909-4c70-81d1-1922de6febaa::1220f7a9536dd3ac943688bff534eb25b28046b6660b1f579d2d0d0037dacc96dcac",
+        "long_text_mm4km2s7": "Rapid Chain is a modular execution layer infrastructure focused on institutional-grade digital asset issuance, trading, and settlement. Our team has experience in high-performance distributed systems, blockchain architecture, and regulated asset tokenization. We design scalable environments that offload computational complexity from base ledgers while preserving security, privacy, and deterministic finality.",
+        "link_mm4kmq24": "https://rapidchain.io/",
+        "long_text_mm4k2537": "Rapid Chain provides a high-performance execution environment for digital assets and Real World Asset (RWA) tokenization. The system performs order matching, batching, and transaction execution off-ledger, while anchoring final settlement and state commitments to the Canton Network via the Global Synchronizer. This approach enables: sub-second user experience, reduced ledger load, institutional privacy, and deterministic finality backed by Canton. Rapid Chain acts as an execution and liquidity layer while Canton serves as the root of trust and settlement authority.",
+        "long_text_mm5hgry2": "No",
+        "long_text_mm4k4y1h": "Our primary users are: institutional asset issuers, regulated RWA tokenization platforms, digital asset trading venues, NFT marketplaces, and professional traders requiring fast settlement with strong privacy guarantees. These users require predictable finality, low operational friction, and compliance-friendly infrastructure.",
+        "long_text_mm4k15bg": "Rewards will be generated from legitimate economic activity across three categories: Asset issuance and fractionalization of RWAs Secondary market transfers and trading settlements Smart contract–based lifecycle automation (collateralization, transfers, redemptions) Each activity corresponds to verifiable state changes recorded on Canton. No rewards are tied to synthetic or repetitive transactions.",
+        "long_text_mm4kh3fw": "Rapid Chain uses a deterministic execution engine and batching sequencer. Process: Transactions are executed off-ledger. Results are aggregated into batches. Batches are committed to Canton using atomic commits. The Canton Ledger provides finality, synchronization, and the canonical state root. Key properties: batched settlement every 2–3 seconds reduced ledger write amplification privacy via Canton’s need-to-know model Daml-based smart contract interoperability validator nodes operated directly by Rapid Chain Canton remains the final source of truth for all asset ownership and settlement.",
+        "long_text_mm4kfg50": "Rapid Chain uses both mechanisms: Canton Coin: settlement fees validator participation atomic commit execution Activity Markers: verified minting events transfers settlements lifecycle contract execution Markers are generated only when a genuine asset state change occurs. Artificial or repetitive activity is excluded through contract-level validation.",
+        "long_text_mm4kxcm2": "Use Case 1 – Tokenization Approximately 3–8 transactions per user per day Use Case 2 – Trading Approximately 10–25 transactions per user per day These estimates reflect real asset operations and professional trading behavior rather than incentive-driven volume.",
+        "long_text_mm4kvyjq": "Multiple transactions may occur during: batch tokenization of fractional assets portfolio rebalancing automated trading strategies settlement batching All transactions correspond to distinct asset state transitions. Spam or circular transactions are rejected at the contract and validator levels.",
+        "long_text_mm4k1cm0": "We expect transaction growth to scale approximately linearly with the number of active users, with periodic bursts during liquidity events or large asset issuances. This predictable scaling allows us to batch settlements efficiently and maintain stable ledger utilization.",
+        "long_text_mm4kd4h2": "Mainnet Live",
+        "long_text_mm4kfkwn": "Currently, we have 5,000 active users on our own home network and in our applications, and more than 20,000 users on the waiting list",
+        "long_text_mm4k6q73": "Featured App status primarily affects the speed of ecosystem integration and early adoption incentives. Without FA status, Rapid Chain would still launch; however: transaction subsidies may be reduced, adoption may be slower, and overall network activity contribution would scale more gradually. FA designation enables faster onboarding and higher early utilization of the Canton Ledger.",
+        "long_text_mm4kwxt1": "Rapid Chain implements multiple safeguards: smart contract validation of lifecycle events minimum economic thresholds validator-level anomaly detection batching rules preventing micro-spam audit trails for all asset state changes Only legitimate asset or settlement events generate Activity Markers.",
+        "long_text_mm4kxsgy": "Rapid Chain is not just an app; it is a strategic infrastructure designed to serve as the primary growth engine of the Canton Network. As we evaluate our app, we would like to highlight our four core commitments: Founder’s Expertise and Market Influence: Our founder is a globally recognized NFT creator with a proven track record of fostering widespread community engagement. To ensure Rapid Chain becomes a benchmark for corporate RWA and NFT activities, we are bringing this established prestige and network into the Canton ecosystem. Seamless Adoption Through Revenue Reinvestment: To accelerate the network’s “flywheel effect,” we have committed to covering all transaction fees from our own validator revenue for the first 12 months. This allows users and corporate partners to interact with the ledger without any cost barriers, maximizing transaction volume from day one. Aiming for the Highest Volume: Our goal is clear: to become the highest-volume NFT and asset management layer on the Canton Network. Circular Economic Alignment: We view the Canton Foundation as a long-term partner. Our entire economic model is built on a circular structure; increased transaction volume enhances the utility of Canton Coin and the sustainability of the Foundation’s reward pools. Our proprietary EVM network has been coded from the ground up to ensure compatibility with atomic transfers on the Canton Network. As a flagship application, we are committed to upholding the highest standards of security and transparency."
       }
     }
   ]
