@@ -1,5 +1,5 @@
 window.FEATURED_APP_BOARD_DATA = {
-  "generatedAt": "2026-08-28T18:47:04.933Z",
+  "generatedAt": "2026-08-29T12:43:48.322Z",
   "columns": [
     {
       "id": "text_mm4k2vch",
@@ -9959,6 +9959,37 @@ window.FEATURED_APP_BOARD_DATA = {
         "long_text_mm4k6q73": "FA status elevates the asset and makes it more prevalent to our target audience",
         "long_text_mm4kwxt1": "Yes. Permissioned asset",
         "long_text_mm4kp5en": "https://www.circle.com/pressroom#brandkit"
+      }
+    },
+    {
+      "id": "12926708754",
+      "name": "Bayzen - Bayzen",
+      "updatedAt": "2026-08-29T04:50:54Z",
+      "values": {
+        "text_mm4k2vch": "Bayzen",
+        "color_mm4kmej3": "1-Needs Review",
+        "color_mm4kpp3q": "Non-Issuer",
+        "long_text_mm4khjn6": "23d169c2-0909-4c70-81d1-1922de6febaa::12208504027629867135f32260ea29c443cec33d39faf9fead4a4693d93123e8b8e3",
+        "long_text_mm4km2s7": "Bayzen is a technology and crypto focused team building research driven, community owned market infrastructure. We operate at the intersection of Web3, financial information, and user-generated prediction markets, with a focus on making market-based forecasting more transparent, verifiable, and accessible. Our team is building Bayzen as a community-driven prediction market platform where users can research topics, form investment or event theses, and create markets with clearly defined outcomes, evidence sources, deadlines, and resolution criteria. Bayzen supports markets across crypto assets, traditional markets, protocol events, project milestones, and broader ecosystem developments. By combining research, market participation, and transparent settlement workflows, Bayzen aims to create measurable forecast track records for both creators and participants. Canton is the intended infrastructure for Party-based authorization, privacy-aware workflows, ledger-based market lifecycles, and Canton Coin settlement in the target Mainnet design.",
+        "link_mm4kd0hk": "https://app.bayzen.tech/docs/",
+        "link_mm4kmq24": "https://app.bayzen.tech/",
+        "link_mm4kqtfa": "https://drive.google.com/drive/u/0/folders/1Of28mC2f8-2d3EwWe3N8h5kim9BisDv1",
+        "long_text_mm4k2537": "Bayzen enables eligible users to create and participate in research-backed prediction markets. A creator can research a topic, develop a thesis, and publish a market with defined outcomes and resolution criteria. The broader community can then participate by taking positions using Canton Coin (CC). After a market closes, predefined evidence and fixed resolution rules determine a provisional outcome, followed by a challenge process before final settlement. Winning participants receive payouts; creators can recover their Signal Points (SP) quality bond after a clean resolution; and eligible publisher rewards are released under the published market rules",
+        "long_text_mm5hgry2": "Bayzen is live on Canton Mainnet and is available at https://app.bayzen.tech/",
+        "long_text_mm4k4y1h": "Bayzen’s expected users are market participants and research-focused market creators from the Canton, Web3, crypto, and broader technology communities. Users can participate in markets created by others, while eligible creators can research a topic, develop a thesis, and publish markets with predefined outcomes and resolution criteria. Initial market categories include crypto assets, traditional markets, protocol events, project milestones, and ecosystem developments. Creators may participate in markets published by other users but cannot take paid positions in their own markets.",
+        "long_text_mm4k15bg": "Bayzen expects to earn application rewards from bona fide, user-driven market lifecycle activity on Canton, including: - Eligible market creation - Verified participant positions using CC - Completed market closing, resolution, and settlement workflows Bayzen does not incentivize artificial transaction volume. Market quality is based on research quality, clear resolution criteria, and clean settlement—not participant count, wallet count, or CC volume. Creator rewards are separately funded through the settlement-fee model. Following a clean resolution, Publisher Mode releases 20% of the 2% settlement fee to the creator, subject to the cap published before market opening. No creator reward is paid if a market is cancelled or invalid.",
+        "long_text_mm4kh3fw": "The Canton ledger records and coordinates each market’s lifecycle, including creator authorization, market terms, participant positions, market closing, evidence-based resolution, challenge handling, Activity Marker tracking, and final CC settlement. Party-based authorization and privacy-aware visibility allow relevant participants to interact with market workflows while preserving appropriate confidentiality.",
+        "long_text_mm4kfg50": "Bayzen uses Canton Coin (CC) for market positions and final settlement. The application also uses Activity Markers to track eligible, bona fide market activity for application rewards. Activity Markers are associated with verified market lifecycle actions, including eligible market creation, participant positions, and completed market resolution and settlement. Bayzen applies eligibility rules, Party ID controls, and market-level limits to mitigate non-bona fide or artificial activity. Creator rewards remain funded from settlement fees.",
+        "long_text_mm4kxcm2": "Initially, Bayzen expects approximately 5–10 transactions per active user per day. Typical activity includes participating in open markets, reviewing market status, and—for eligible creators—submitting and managing market proposals.",
+        "long_text_mm4kvyjq": "A user may generate multiple transactions by participating in separate markets, taking positions during different market windows, or—where eligible—creating and managing separate market proposals. Bayzen applies market level and account level limits to reduce non-bona fide activity.",
+        "long_text_mm4k1cm0": "Transaction volume is expected to scale broadly linearly with active users and the number of open markets. Activity may temporarily increase around market openings, market closings, and resolution periods.",
+        "long_text_mm4kd4h2": "Bayzen is live on Canton Mainnet.",
+        "long_text_mm4kfkwn": "Bayzen’s initial customers are early access market participants and research-focused market creators from the Canton and broader Web3 communities. The Mainnet go live date is 7 September 2026.",
+        "long_text_mm4k6q73": "Without Featured App status, Bayzen would continue operating on Mainnet, but our initial growth plan would be materially constrained. Featured App status and the associated application-reward framework are important to supporting early-stage funding for user acquisition, community campaigns, ecosystem partnerships, and promotional activities. Without this support, Bayzen would need to reduce or phase its initial marketing and distribution efforts, resulting in slower user acquisition, lower early market liquidity, and a more gradual rollout across the Canton and broader Web3 communities.",
+        "long_text_mm4kwxt1": "Yes. Bayzen restricts own-market participation based on the publisher’s Party ID, wallets under the publisher’s control, known linked Party IDs, and accounts under the publisher’s beneficial control. Protection layers include Party linking, eligibility credentials, market and position limits, app-level risk signals, manual review, SP-bond slashing, account suspension, and an appeals process. Market quality does not depend on participant count, wallet count, CC volume, linked-account activity, or artificial transaction activity. These controls reduce risk, although they cannot fully prevent identity borrowing, Sybil behavior, or collusion.",
+        "long_text_mm4khbeg": "-",
+        "long_text_mm4kp5en": "https://app.bayzen.tech/docs/",
+        "long_text_mm4kxsgy": "Bayzen is a technology and crypto focused team building research-driven, community-owned market infrastructure. Bayzen differentiates itself by enabling users to create prediction markets from their own research-backed theses, rather than relying exclusively on platform-created markets. Its growth loop is: Research → Create a market → Community discovers and trades → New participants create markets → More markets and activity. Initial distribution focuses on Canton and broader Web3 communities, followed by Canton ecosystem partnerships and community-driven market campaigns around relevant events and topics."
       }
     }
   ]
