@@ -1,5 +1,5 @@
 window.FEATURED_APP_BOARD_DATA = {
-  "generatedAt": "2026-08-29T12:43:48.322Z",
+  "generatedAt": "2026-08-30T11:58:39.187Z",
   "columns": [
     {
       "id": "text_mm4k2vch",
