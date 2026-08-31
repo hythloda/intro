@@ -1,5 +1,5 @@
 window.FEATURED_APP_BOARD_DATA = {
-  "generatedAt": "2026-08-30T11:58:39.187Z",
+  "generatedAt": "2026-08-31T13:59:11.846Z",
   "columns": [
     {
       "id": "text_mm4k2vch",
@@ -197,7 +197,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467783446",
       "name": "FlowRyd",
-      "updatedAt": "2026-08-28T04:00:10Z",
+      "updatedAt": "2026-08-31T11:00:12Z",
       "values": {
         "text_mm4k2vch": "Towler Enterprises",
         "color_mm4kmej3": "2-Approved",
@@ -506,7 +506,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467857175",
       "name": "7Trust",
-      "updatedAt": "2026-08-28T04:00:15Z",
+      "updatedAt": "2026-08-31T11:00:14Z",
       "values": {
         "text_mm4k2vch": "C7",
         "color_mm4kmej3": "2-Approved",
@@ -1030,7 +1030,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467834329",
       "name": "Modo Data Platform",
-      "updatedAt": "2026-08-28T04:00:18Z",
+      "updatedAt": "2026-08-31T11:00:15Z",
       "values": {
         "text_mm4k2vch": "Staketab",
         "color_mm4kmej3": "2-Approved",
@@ -1185,10 +1185,10 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467824062",
       "name": "HelvetSwap",
-      "updatedAt": "2026-08-24T16:48:54Z",
+      "updatedAt": "2026-08-31T13:08:13Z",
       "values": {
         "text_mm4k2vch": "Helvet Swap LLC",
-        "color_mm4kmej3": "1-Needs Review",
+        "color_mm4kmej3": "7-Closed-new-process",
         "long_text_mm4kq322": "helvetswap-validator-1::12206d3b89fef3da6b1e40abcc7d2cbe174abae6062be451950095ca32397e84bf8b",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4km2s7": "Helvet Swap is an institutional-grade automated market maker DEX built natively on Canton Network. HelvetSwap operates a full-range x·y=k AMM enabling atomic, privacy-preserving token swaps between Canton-native assets. The company runs a live MainNet validator (Splice 0.5.17, all containers healthy) and a production backend at api.helvetswap.app. Initial liquidity is anchored through confirmed institutional liquidity providers, ensuring pool depth and price integrity from day one of public launch.",
@@ -1436,10 +1436,10 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467856995",
       "name": "P100",
-      "updatedAt": "2026-08-24T16:49:01Z",
+      "updatedAt": "2026-08-31T13:08:15Z",
       "values": {
         "text_mm4k2vch": "Tokenisys",
-        "color_mm4kmej3": "1-Needs Review",
+        "color_mm4kmej3": "7-Closed-new-process",
         "long_text_mm4kq322": "Platform::12206922e5bdc4ba6a7d3e7baeb9ceb613664253a5828f634e878d4f22fbf5865fbc",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4km2s7": "The Dark Sole Enterprise Ltd (trading as Tokenisys) is a financial technology company incorporated in the Seychelles with a London-based team building constraint-aware prediction market infrastructure on the Canton Network. The founding team has backgrounds in quantitative finance, distributed systems, and market microstructure. The company operates a Canton participant validator node hosted via Catalyst and has been developing and testing on Canton DevNet and TestNet since early 2026. P100 is the company's primary application and is the first Frequent Batch Auction prediction market built natively on Canton.",
@@ -1868,10 +1868,10 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467790154",
       "name": "Ov Defi",
-      "updatedAt": "2026-08-28T04:00:19Z",
+      "updatedAt": "2026-08-31T13:08:13Z",
       "values": {
         "text_mm4k2vch": "OneNov",
-        "color_mm4kmej3": "1-Needs Review",
+        "color_mm4kmej3": "7-Closed-new-process",
         "long_text_mm4kq322": "onenov-validator-1::122004c8b00540481384634910608b21774b9cc36030cd9df981579d8c5501a25c25",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "onenov-validator-1::122004c8b00540481384634910608b21774b9cc36030cd9df981579d8c5501a25c25",
@@ -2226,10 +2226,10 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467789257",
       "name": "Saxon Automate / Canton Keeper",
-      "updatedAt": "2026-08-28T17:00:19Z",
+      "updatedAt": "2026-08-31T13:08:13Z",
       "values": {
         "text_mm4k2vch": "Saxon",
-        "color_mm4kmej3": "1-Needs Review",
+        "color_mm4kmej3": "7-Closed-new-process",
         "long_text_mm4kq322": "saxon-various-1::12204c9e793fdcdd329d9a8bd307562e3493139d9fee257b1928be514d1d4950e5b6",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "saxon-various-1::12204c9e793fdcdd329d9a8bd307562e3493139d9fee257b1928be514d1d4950e5b6",
@@ -2930,7 +2930,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467856986",
       "name": "HydraX",
-      "updatedAt": "2026-08-28T04:00:25Z",
+      "updatedAt": "2026-08-31T11:00:20Z",
       "values": {
         "text_mm4k2vch": "HydraX",
         "color_mm4kmej3": "2-Approved",
@@ -2943,7 +2943,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467856987",
       "name": "Sync Insights",
-      "updatedAt": "2026-08-28T04:00:27Z",
+      "updatedAt": "2026-08-31T11:00:22Z",
       "values": {
         "text_mm4k2vch": "Chata Technologies Inc",
         "color_mm4kmej3": "2-Approved",
@@ -3087,10 +3087,10 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467838259",
       "name": "Wintip",
-      "updatedAt": "2026-08-24T17:16:49Z",
+      "updatedAt": "2026-08-31T13:08:16Z",
       "values": {
         "text_mm4k2vch": "Winsnip",
-        "color_mm4kmej3": "0-Locked+Needs Review",
+        "color_mm4kmej3": "7-Closed-new-process",
         "long_text_mm4kq322": "wintip-app::12200b9c9fb45ade713dce1ef55ecf311d57bfff6fb04d874cc7f65a7e3ec19e9824",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "23d169c2-0909-4c70-81d1-1922de6febaa::1220d1c5d679db4268b3587ff465d4e75ae2cba0294af6eacd788dae34ab3bfaad38",
@@ -3146,10 +3146,10 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467783442",
       "name": "Meteor Wallet",
-      "updatedAt": "2026-08-24T16:49:49Z",
+      "updatedAt": "2026-08-31T13:08:13Z",
       "values": {
         "text_mm4k2vch": "Meteor Lab pte ltd",
-        "color_mm4kmej3": "1-Needs Review",
+        "color_mm4kmej3": "7-Closed-new-process",
         "long_text_mm4kq322": "MeteorLab-validator-1::122086543403926b178f11f18cf9b557c00f5302934dcbbcdc66d2f43a5acf910703",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4km2s7": "Meteor Wallet is an established self-custodial wallet and DeFi platform with deep experience building consumer-friendly crypto products. Meteor is a leading wallet on NEAR Protocol, with more than $100M in assets under management and significant funds managed across its vault and validator products. Meteor is now expanding to the Canton Network, bringing its wallet infrastructure, DeFi experience, and user-friendly product design to Canton users. Meteor Wallet on Canton supports wallet creation/import, Canton Coin and token management, transfers, swaps, traffic balance management, lending market integration, and an in-wallet savings account.",
@@ -3172,10 +3172,10 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467783443",
       "name": "SyncVotes",
-      "updatedAt": "2026-08-24T17:16:50Z",
+      "updatedAt": "2026-08-31T13:08:13Z",
       "values": {
         "text_mm4k2vch": "WEB34EVER",
-        "color_mm4kmej3": "0-Locked+Needs Review",
+        "color_mm4kmej3": "7-Closed-new-process",
         "long_text_mm4kq322": "syncvotes-app-provider::122050f896a953422a6745ce77a4a1537e4b869f939f0eb8cb8cfdb189e2acaa7218",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "23d169c2-0909-4c70-81d1-1922de6febaa::12207afc6e98a8ecf74866bfabba5ef7c6f45bbbf45bb9a5976c1d9ca53055fb0284",
@@ -3202,10 +3202,10 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467837678",
       "name": "Canborsa",
-      "updatedAt": "2026-08-24T16:49:50Z",
+      "updatedAt": "2026-08-31T13:08:13Z",
       "values": {
         "text_mm4k2vch": "Visoti LLC, KGZ",
-        "color_mm4kmej3": "0-Locked+Needs Review",
+        "color_mm4kmej3": "7-Closed-new-process",
         "long_text_mm4kq322": "canborsa-vault-1::122056522877d74ffc2938195dfea95c1bea9bd9174968a81294591429d6a5cdc49d",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "CentillionHolding-validator-1::122096b5502fccd48220df79e8c6abcc5bb930a3decb1a41d4c1ec94a16fb7d7005b",
@@ -3321,10 +3321,10 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467810723",
       "name": "SyncVotes Issuer",
-      "updatedAt": "2026-08-24T17:16:51Z",
+      "updatedAt": "2026-08-31T13:08:13Z",
       "values": {
         "text_mm4k2vch": "WEB34EVER",
-        "color_mm4kmej3": "1-Needs Review",
+        "color_mm4kmej3": "7-Closed-new-process",
         "long_text_mm4kq322": "web34ever::122050f896a953422a6745ce77a4a1537e4b869f939f0eb8cb8cfdb189e2acaa7218.",
         "color_mm4kpp3q": "Asset Issuer",
         "long_text_mm4km2s7": "Web3 Validator — blockchain infrastructure operator since 2018. MainNet validators on Solana, Starknet, Avalanche, Mina Protocol, Canton Network, and Cosmos SDK chains. 70+ testnet participations. Canton MainNet participant node operator. Active in on-chain governance management and decentralized application development. Technical operations and support for decentralized governance systems including https://daodao.zone",
@@ -3539,10 +3539,10 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467838256",
       "name": "Centra",
-      "updatedAt": "2026-08-24T16:50:02Z",
+      "updatedAt": "2026-08-31T13:08:16Z",
       "values": {
         "text_mm4k2vch": "Centra Ltd.",
-        "color_mm4kmej3": "0-Locked+Needs Review",
+        "color_mm4kmej3": "7-Closed-new-process",
         "long_text_mm4kq322": "centra-platform-1::1220e67a994ff67c9ca862d3fdd3c81cd8ad389675ade934945460cc5f7f6fe6fe67",
         "color_mm4kpp3q": "Non-Issuer",
         "numeric_mm4k6919": "5.0",
@@ -3596,7 +3596,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467789102",
       "name": "7LOCK",
-      "updatedAt": "2026-08-28T04:00:29Z",
+      "updatedAt": "2026-08-31T11:00:24Z",
       "values": {
         "text_mm4k2vch": "C7 Labs UK Limited",
         "color_mm4kmej3": "2-Approved",
@@ -3624,7 +3624,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467789103",
       "name": "Jubilee Treasury",
-      "updatedAt": "2026-08-28T04:00:31Z",
+      "updatedAt": "2026-08-31T11:00:26Z",
       "values": {
         "text_mm4k2vch": "Jubilee Treasury",
         "color_mm4kmej3": "6-Withdrawn",
@@ -3766,10 +3766,10 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467790155",
       "name": "Mperps",
-      "updatedAt": "2026-08-28T04:00:32Z",
+      "updatedAt": "2026-08-31T13:08:13Z",
       "values": {
         "text_mm4k2vch": "Lemongrass IT Services LLC-Fz",
-        "color_mm4kmej3": "1-Needs Review",
+        "color_mm4kmej3": "7-Closed-new-process",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "mperps-validator-1::1220f7319cabca1c787577b47ef0265c747feeed9c4d108d072e2ff170cffef8c508",
         "numeric_mm4k6919": "0.0",
@@ -4133,7 +4133,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467783401",
       "name": "Vala Wallet: Canton Non Custodial Web Wallet with Featured App Integrations",
-      "updatedAt": "2026-08-28T04:00:34Z",
+      "updatedAt": "2026-08-31T11:00:30Z",
       "values": {
         "text_mm4k2vch": "Finoa Consensus Services",
         "color_mm4kmej3": "2-Approved",
@@ -4308,7 +4308,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467825408",
       "name": "Silvana Book",
-      "updatedAt": "2026-08-28T04:00:37Z",
+      "updatedAt": "2026-08-31T11:00:32Z",
       "values": {
         "text_mm4k2vch": "Silvana",
         "color_mm4kmej3": "2-Approved",
@@ -5392,10 +5392,10 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467825390",
       "name": "Calden",
-      "updatedAt": "2026-08-24T16:54:17Z",
+      "updatedAt": "2026-08-31T13:08:14Z",
       "values": {
         "text_mm4k2vch": "WolfEdge Labs",
-        "color_mm4kmej3": "1-Needs Review",
+        "color_mm4kmej3": "7-Closed-new-process",
         "long_text_mm4kq322": "wolfedgelabs-mainnet-2::1220b43e4bb9e423ba07cbcc0f5ef0d4e9ebe5d2623cb277d30e6478b179ee0ca9c3",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4km2s7": "WolfEdge Labs is a blockchain technology company focused on running validators and building infrastructure across different blockchains. Our team brings experience across distributed systems, fintech, and Web3 product development. We operate our own Canton participant node and have been actively engaged in the Canton ecosystem through development, testing, and community participation. Calden is our flagship product: a non-custodial Canton Network wallet and asset operations hub designed to make on-ledger activity accessible, reliable, and intuitive for the full range of Canton users.",
@@ -5509,7 +5509,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467804368",
       "name": "Nexode",
-      "updatedAt": "2026-08-28T17:00:32Z",
+      "updatedAt": "2026-08-31T11:00:34Z",
       "values": {
         "text_mm4k2vch": "Nexode",
         "color_mm4kmej3": "2-Approved",
@@ -5540,10 +5540,10 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467804369",
       "name": "Clareos",
-      "updatedAt": "2026-08-24T16:54:22Z",
+      "updatedAt": "2026-08-31T13:08:14Z",
       "values": {
         "text_mm4k2vch": "Lumarion Labs LLC",
-        "color_mm4kmej3": "1-Needs Review",
+        "color_mm4kmej3": "7-Closed-new-process",
         "long_text_mm4kq322": "lumarion-validator-1::12200c3d6782203089e980fa47338c3783ea522c7aa2b6af00c353a16c3a671507d4",
         "color_mm4kpp3q": "Asset Issuer",
         "long_text_mm4km2s7": "Lumarion Labs is a research-driven firm focused on enablement, tooling, and integration for permissioned financial networks — specifically the Canton Network. We focus on supporting real activity on permissioned networks through practical system design and execution. Our background spans engineers and quantitative traders from MIT and the University of Chicago, shaping an emphasis on clarity, reliability, and long-term operability over conceptual design.",
@@ -5624,10 +5624,10 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467848063",
       "name": "Enabling Canton Coin listings at exchanges via Cordial support for Canton",
-      "updatedAt": "2026-08-24T16:54:24Z",
+      "updatedAt": "2026-08-31T13:08:16Z",
       "values": {
         "text_mm4k2vch": "Cordial Systems",
-        "color_mm4kmej3": "1-Needs Review",
+        "color_mm4kmej3": "7-Closed-new-process",
         "long_text_mm4kq322": "Given Node",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4km2s7": "MPC wallet provider used by many crypto exchanges wanting to list Canton Coin",
@@ -5848,10 +5848,10 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467843220",
       "name": "CRoulettes",
-      "updatedAt": "2026-08-24T16:54:30Z",
+      "updatedAt": "2026-08-31T13:08:15Z",
       "values": {
         "text_mm4k2vch": "CryptoBridges Capital",
-        "color_mm4kmej3": "1-Needs Review",
+        "color_mm4kmej3": "7-Closed-new-process",
         "long_text_mm4kq322": "CRoulettes::1220722728b7963f4b7ee771f707903c43e57f5d958516d3c0b4b05e6a8a1aeb397f",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4km2s7": "CryptoBridges is an organization focused on Web3 infrastructure and blockchain application development, dedicated to building digital asset ecosystems and game-related platforms. Currently, CryptoBridges is developing the CRoulettes project on the Canton Network. The project aims to provide a blockchain-based real game trading platform for gamers and independent game developers, enabling in-game assets to be traded and circulated on-chain.",
@@ -5907,10 +5907,10 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467810726",
       "name": "Parthenon",
-      "updatedAt": "2026-08-24T16:54:32Z",
+      "updatedAt": "2026-08-31T13:08:13Z",
       "values": {
         "text_mm4k2vch": "Finkfi Inc",
-        "color_mm4kmej3": "0-Locked+Needs Review",
+        "color_mm4kmej3": "7-Closed-new-process",
         "long_text_mm4kq322": "finkfi-validator-1::122078651b99447bf3bf18b0586e767f097d003212e9f703c2dc5aced2a8737d73ab",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "23d169c2-0909-4c70-81d1-1922de6febaa::1220c253c4aab64a32d643638d7bc92515a2233a3ffdbe17941773985938202da6e8",
@@ -5958,10 +5958,10 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467825396",
       "name": "PoolX",
-      "updatedAt": "2026-08-24T16:54:33Z",
+      "updatedAt": "2026-08-31T13:08:13Z",
       "values": {
         "text_mm4k2vch": "PoolX Development Team",
-        "color_mm4kmej3": "1-Needs Review",
+        "color_mm4kmej3": "7-Closed-new-process",
         "long_text_mm4kq322": "To be provided upon MainNet deployment",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4km2s7": "We are a decentralized infrastructure provider focused on cross-chain interoperability and institutional-grade liquidity solutions. Our core mission is to solve the liquidity fragmentation problem in Web3 by building secure, compliance-ready gateways for the Canton ecosystem.",
@@ -5987,10 +5987,10 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467856988",
       "name": "MEME token and Coinflip",
-      "updatedAt": "2026-08-28T04:00:40Z",
+      "updatedAt": "2026-08-31T13:08:15Z",
       "values": {
         "text_mm4k2vch": "Archerswap",
-        "color_mm4kmej3": "1-Needs Review",
+        "color_mm4kmej3": "7-Closed-new-process",
         "long_text_mm4kq322": "Archerswap-Validator-1::12200cbd118a3b7f7b92382f265c776477035947b348cfb3ad9103c3d95805be5739",
         "color_mm4kpp3q": "Asset Issuer",
         "long_text_mm4khjn6": "Archerswap-Validator-1::12200cbd118a3b7f7b92382f265c776477035947b348cfb3ad9103c3d95805be5739",
@@ -6042,10 +6042,10 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467856991",
       "name": "xCC Vault",
-      "updatedAt": "2026-08-24T16:54:36Z",
+      "updatedAt": "2026-08-31T13:08:15Z",
       "values": {
         "text_mm4k2vch": "Avro Digital",
-        "color_mm4kmej3": "1-Needs Review",
+        "color_mm4kmej3": "7-Closed-new-process",
         "long_text_mm4kq322": "Not on mainNet",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4km2s7": "Avro Digital is a Canton Network participant building market infrastructure and applications that generate economically meaningful, monitorable ledger activity. This Featured App request is for xCC Vault, a Canton Coin (CC) pool product. Users deposit CC into a vault and receive xCC, a transferable pool-share token representing a proportional claim on pooled CC. Rewards accruing to the pool increase the CC-per-xCC exchange rate over time, so xCC holders accrue value pro rata without per-user reward distributions. xCC Vault is the first product in the Avro market stack. Over time, we plan to launch additional applications (submitted separately for review/approval where applicable) that may route a disclosed portion of their own rewards to xCC Vault for the benefit of xCC depositors (subject to tokenomics committee governance).",
@@ -6102,10 +6102,10 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467777692",
       "name": "LynoBridge",
-      "updatedAt": "2026-08-24T16:54:38Z",
+      "updatedAt": "2026-08-31T13:08:13Z",
       "values": {
         "text_mm4k2vch": "LynoBridge",
-        "color_mm4kmej3": "1-Needs Review",
+        "color_mm4kmej3": "7-Closed-new-process",
         "long_text_mm4kq322": "lynobridge-validator-1::1220763122479f93377a02299cb6ab573f96b389f944474ecd475644ce232aeef3db",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4km2s7": "LynoBridge is a cross-chain bridge protocol that enables users to convert any token on any EVM-compatible L2 network into USDCx on the Canton Network. The process operates in two layers: token swaps are handled through Relay Link infrastructure, after which USDC is transferred to Canton via Circle’s CCTP protocol and minted as USDCx. Users do not need to manage these two layers separately; LynoBridge combines both steps into a single seamless flow. This architecture opens the Canton ecosystem to Ethereum L2 liquidity while giving users full flexibility in token selection.",
@@ -6129,10 +6129,10 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467804373",
       "name": "Prediction Market",
-      "updatedAt": "2026-08-24T16:54:39Z",
+      "updatedAt": "2026-08-31T13:08:13Z",
       "values": {
         "text_mm4k2vch": "FireStar Digital",
-        "color_mm4kmej3": "1-Needs Review",
+        "color_mm4kmej3": "7-Closed-new-process",
         "long_text_mm4kq322": "FirestarDigital-mainnet-1::12209bbb173d5ed1ee8838e0dd41828b181ba44fa494ba44404a66c029a3a2e5c77d",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4km2s7": "EventualX is a digital asset application company focused on building simple, high-signal products that demonstrate real, verifiable on-chain activity. The team is focused on creating repeatable interaction patterns that highlight ledger transparency, liveness, and usability within emerging blockchain ecosystems. EventualX emphasizes clarity over complexity, designing applications that make network activity visible, understandable, and engaging for both users and stakeholders.",
@@ -6299,10 +6299,10 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467838262",
       "name": "Ditto CCvault",
-      "updatedAt": "2026-08-24T17:17:07Z",
+      "updatedAt": "2026-08-31T13:08:14Z",
       "values": {
         "text_mm4k2vch": "Ditto Network (Automation Labs Ltd.)",
-        "color_mm4kmej3": "1-Needs Review",
+        "color_mm4kmej3": "7-Closed-new-process",
         "long_text_mm4kq322": "ditto-validator-1::12201ab6fb2339c6175df296ff1e6f017660b6e738881556ca74d4a22cc775c4b50e",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4km2s7": "Ditto Network is a decentralized automation and yield infrastructure protocol. Founded late 2023 after winning ETHGlobal Istanbul. Trustless execution infrastructure secured by $300M+ in restaked assets via EigenLayer and Symbiotic, with 16 EVM operators on Ethereum mainnet. ERC-4626 yield vault optimizes stablecoin allocation across Aave V3, Morpho Blue, Spark, Fluid (4.6M rate scenarios in 200ms). Co-developed with P2P.org. Canton mainnet validator live since March 16, 2026.",
@@ -6331,10 +6331,10 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467832782",
       "name": "Cardiv",
-      "updatedAt": "2026-08-24T22:58:31Z",
+      "updatedAt": "2026-08-31T13:08:13Z",
       "values": {
         "text_mm4k2vch": "WolfEdge Labs",
-        "color_mm4kmej3": "0-Locked+Needs Review",
+        "color_mm4kmej3": "7-Closed-new-process",
         "long_text_mm4kq322": "cardiv::1220b43e4bb9e423ba07cbcc0f5ef0d4e9ebe5d2623cb277d30e6478b179ee0ca9c3",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "4M-Lending-Lock-3::1220c03dee4b32e29d0e4c3a395afa3bc82629a60d86ab75289dad473ab46a5ce56f",
@@ -6390,10 +6390,10 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467832784",
       "name": "Quokka",
-      "updatedAt": "2026-08-24T16:54:45Z",
+      "updatedAt": "2026-08-31T13:08:13Z",
       "values": {
         "text_mm4k2vch": "Quokka",
-        "color_mm4kmej3": "1-Needs Review",
+        "color_mm4kmej3": "7-Closed-new-process",
         "long_text_mm4kq322": "quokka::12207eec09c3e5a6aefc7d137168079b62e867657fd08a065a9a5f61fa5ae15cdfc7",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4km2s7": "Quokka is a decentralized income management, grant distribution, and continuous payroll streaming platform built exclusively for the Canton Network. In traditional financial systems, payroll and fund distribution are tedious, opaque, and strictly batched (e.g., monthly lumpsums). Quokka transforms this process into a seamless, realtime value stream. Leveraging Canton’s sub-transaction privacy and Daml's programmable logic, Quokka enables organizations, DAOs, and individuals to automate tax withholding, execute milestone-based lockups, and continuously stream assets globally, turning compensation into a real-time source of joy and security.",
@@ -6416,10 +6416,10 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467838022",
       "name": "Blueprint",
-      "updatedAt": "2026-08-24T17:17:08Z",
+      "updatedAt": "2026-08-31T13:08:14Z",
       "values": {
         "text_mm4k2vch": "Blueprint",
-        "color_mm4kmej3": "1-Needs Review",
+        "color_mm4kmej3": "7-Closed-new-process",
         "long_text_mm4kq322": "Not on mainNet",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4km2s7": "AI infrastructure and orchestration to automation onchain transactions. We work across most major EVMs and Solana",
@@ -6519,10 +6519,10 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467790006",
       "name": "CC Ledger",
-      "updatedAt": "2026-08-28T04:00:42Z",
+      "updatedAt": "2026-08-31T13:08:13Z",
       "values": {
         "text_mm4k2vch": "Blueprint Infrastructure, LLC",
-        "color_mm4kmej3": "1-Needs Review",
+        "color_mm4kmej3": "7-Closed-new-process",
         "long_text_mm4kq322": "blueprint-validator-1::1220daab58adcae026bd2ca7ad95014f678bda3ce2a6f91b744cf3ec3d87f09deeac",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "blueprint-validator-1::1220daab58adcae026bd2ca7ad95014f678bda3ce2a6f91b744cf3ec3d87f09deeac",
@@ -6553,10 +6553,10 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467843470",
       "name": "Lumens",
-      "updatedAt": "2026-08-24T16:54:48Z",
+      "updatedAt": "2026-08-31T13:08:14Z",
       "values": {
         "text_mm4k2vch": "Allocate Technologies",
-        "color_mm4kmej3": "1-Needs Review",
+        "color_mm4kmej3": "7-Closed-new-process",
         "long_text_mm4kq322": "allocate-mainnet-1::1220664f53d77081cf25ab75ce8b2efe2951ac16d478c75b40c25be296310e5bed84",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4km2s7": "Allocate Technologies is a blockchain infra company that has developed various DeFi applications (on-chain credit, DLM protocols, yield tokenization protocols, etc.) over the last 5 years across EVM and non-EVM networks. We are expanding to the Canton Network with our first product, Lumens. Lumens is a tokenization infrastructure layer connecting public blockchain liquidity to Canton Network. It enables permissionless movement of HQLAs (High-Quality Liquid Assets like ETH, SOL, HYPE, etc.) from public chains into the Canton Network.",
@@ -6614,10 +6614,10 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467834332",
       "name": "Avro Exchange",
-      "updatedAt": "2026-08-24T16:54:50Z",
+      "updatedAt": "2026-08-31T13:08:14Z",
       "values": {
         "text_mm4k2vch": "Avro Digital Inc",
-        "color_mm4kmej3": "1-Needs Review",
+        "color_mm4kmej3": "7-Closed-new-process",
         "long_text_mm4kq322": "avro-exchange::12209bdf08fc008d18cca74c36dbc7930ca196a7c67d28f44d836f066f4a613cd84d",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4km2s7": "Avro Digital is a Canton Network infrastructure company building market products for institutional and retail participants. Avro Exchange is a batch auction exchange for Canton asset pairs.",
@@ -6645,10 +6645,10 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467834343",
       "name": "Aurpay Merchant Privacy Rail",
-      "updatedAt": "2026-08-24T16:54:51Z",
+      "updatedAt": "2026-08-31T13:08:14Z",
       "values": {
         "text_mm4k2vch": "Aurtech Group Holdings Ltd",
-        "color_mm4kmej3": "1-Needs Review",
+        "color_mm4kmej3": "7-Closed-new-process",
         "long_text_mm4kq322": "aurpay-validator-1::122027d4cc22b12ccc9cfcf620692d630bd2eddd34ce93fe40697d71f6e1fbfa30c3",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4km2s7": "Aurpay is a crypto payment gateway for ecommerce merchants. We provide non-custodial checkout plugins for Shopify, WooCommerce, and BigCommerce that let online stores accept cryptocurrency payments. We're a registered Money Services Business (MSB) in HongKong. Our merchants currently process BTC, ETH, USDC, and USDT payments on Ethereum and other EVM chains. We've been operating since 2022 and serve merchants across retail, SaaS, and digital goods. We're integrating Canton because our merchants need something Ethereum can't give them: transaction privacy. On Ethereum, every settlement is public — competitors can see volumes, pricing, and supplier relationships on Etherscan. On Canton, only the parties involved see the transaction. That's why we're building Canton settlement into Aurpay — to give merchants private, confidential payments with CC and USDCx, while filling a gap we identified in the Canton ecosystem: there is no merchant payment gateway among the 300+ Canton partners today.",
@@ -6672,10 +6672,10 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467824063",
       "name": "CompassSwap",
-      "updatedAt": "2026-08-24T16:54:52Z",
+      "updatedAt": "2026-08-31T13:08:13Z",
       "values": {
         "text_mm4k2vch": "CompassPost",
-        "color_mm4kmej3": "1-Needs Review",
+        "color_mm4kmej3": "7-Closed-new-process",
         "long_text_mm4kq322": "compassSwap::12207eec09c3e5a6aefc7d137168079b62e867657fd08a065a9a5f61fa5ae15cdfc7",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4km2s7": "CompassPost is a professional, news-driven AI trading platform with extensive experience in high-frequency trading and digital asset management. We bridge the gap between traditional finance and native digital assets by delivering sophisticated navigation tools and decentralized liquidity solutions. Our mission is to leverage our deep trading expertise to empower institutional and retail participants with a low-friction, secure, and intelligence-led trading environment.",
@@ -6699,10 +6699,10 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467824064",
       "name": "Centrifuge",
-      "updatedAt": "2026-08-24T16:54:53Z",
+      "updatedAt": "2026-08-31T13:08:13Z",
       "values": {
         "text_mm4k2vch": "POSTHUMAN",
-        "color_mm4kmej3": "1-Needs Review",
+        "color_mm4kmej3": "7-Closed-new-process",
         "long_text_mm4kq322": "centrifuge-operator::1220c96e07336860952d541206b74e38779ecfa2271b48de6df6015bdb1e285d53c1",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4km2s7": "Validator of Canton Network, with 6+ years history, 50+ networks and +150K individual delegator addresses",
@@ -6762,10 +6762,10 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467824066",
       "name": "Seismar",
-      "updatedAt": "2026-08-24T16:54:54Z",
+      "updatedAt": "2026-08-31T13:08:13Z",
       "values": {
         "text_mm4k2vch": "WolfEdge Labs",
-        "color_mm4kmej3": "1-Needs Review",
+        "color_mm4kmej3": "7-Closed-new-process",
         "long_text_mm4kq322": "seismar::1220b43e4bb9e423ba07cbcc0f5ef0d4e9ebe5d2623cb277d30e6478b179ee0ca9c3",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4km2s7": "WolfEdge Labs is a blockchain technology company focused on running validators and building infrastructure across different blockchains. Our team brings experience across distributed systems, fintech, and Web3 product development. We operate our own Canton participant node and have been actively engaged in the Canton ecosystem through development, testing, and community participation.",
@@ -6789,10 +6789,10 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467824067",
       "name": "Tori Finance",
-      "updatedAt": "2026-08-24T17:17:10Z",
+      "updatedAt": "2026-08-31T13:08:13Z",
       "values": {
         "text_mm4k2vch": "Tori Labs",
-        "color_mm4kmej3": "1-Needs Review",
+        "color_mm4kmej3": "7-Closed-new-process",
         "long_text_mm4kq322": "ToriLabs-validator-1::12209ca44a2e3b2fbe3b5696775231c97e856865b24c54741800a6801e2569290fe4",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4km2s7": "Tori Labs builds and maintains the infrastructure for Tori Finance, a synthetic dollar protocol. The protocol enables users to mint trUSD - a fully collateralized synthetic dollar - and stake it into strUSD, a yield-bearing vault that accrues value through share-price appreciation. Tori Labs focuses on smart contract development, oracle infrastructure, and validator operations on Canton.",
@@ -6820,10 +6820,10 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467811180",
       "name": "Sera",
-      "updatedAt": "2026-08-24T16:54:55Z",
+      "updatedAt": "2026-08-31T13:08:13Z",
       "values": {
         "text_mm4k2vch": "Sera",
-        "color_mm4kmej3": "1-Needs Review",
+        "color_mm4kmej3": "7-Closed-new-process",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4km2s7": "SERA is a non-custodial FX DEX built by a world-class team of 10 TradFi and Web3 engineers to enable compliant, instant, and direct stablecoin-to-stablecoin swaps across 70+ global currencies without forced USD routing.",
         "link_mm4kqtfa": "https://drive.google.com/file/d/1GvvXaa2o9rsAV7lLvSv4tMIxR1vaPVQ5/view",
@@ -6845,10 +6845,10 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467811181",
       "name": "NG Wallet",
-      "updatedAt": "2026-08-24T16:54:56Z",
+      "updatedAt": "2026-08-31T13:08:14Z",
       "values": {
         "text_mm4k2vch": "Neo Genesis",
-        "color_mm4kmej3": "1-Needs Review",
+        "color_mm4kmej3": "7-Closed-new-process",
         "long_text_mm4kq322": "neogenesis-finance-1::12206c334d0c8f0a58db36ca80d63984b555016df064161f2f3df855f2b438353f01",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4km2s7": "Institutional Staking & Blockchain Infrastructure",
@@ -6900,10 +6900,10 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467783405",
       "name": "Nomexis",
-      "updatedAt": "2026-08-24T23:00:34Z",
+      "updatedAt": "2026-08-31T13:08:13Z",
       "values": {
         "text_mm4k2vch": "Bluechip Institute Limited",
-        "color_mm4kmej3": "1-Needs Review",
+        "color_mm4kmej3": "7-Closed-new-process",
         "long_text_mm4kq322": "nomexis::1220c7e7e2abaa4d419313c6e9fe0f612ef39149d24ba46f614a78ab1d9b50267fd0",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4km2s7": "Bluechip Institute Limited is the development entity behind Nomexis, a decentralized perpetual futures exchange purpose-built on the Canton Network. Our team brings together experienced practitioners from institutional finance, derivatives market structure, and distributed ledger technology, with a shared conviction that Canton's privacy-preserving, interoperable, and compliance-ready architecture is the right foundation for the next generation of institutional derivatives infrastructure. Nomexis is not a retrofit of an existing crypto exchange — it is designed from the ground up to exploit Canton's unique capabilities, including Daml-based contract modeling, sub-network composability, and atomic cross-ledger settlement, to deliver the first institutional-grade perpetual derivatives venue native to the Canton ecosystem.",
@@ -6928,10 +6928,10 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467837676",
       "name": "SuiPad",
-      "updatedAt": "2026-08-24T16:54:59Z",
+      "updatedAt": "2026-08-31T13:08:16Z",
       "values": {
         "text_mm4k2vch": "SUITECH PTE. LTD",
-        "color_mm4kmej3": "1-Needs Review",
+        "color_mm4kmej3": "7-Closed-new-process",
         "long_text_mm4kq322": "suipad::1220699e8e6e9c95a7676a57434f033e632afd25d0b1178007ba72a3aa514db1a14f",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4km2s7": "SuiPad is a decentralized launchpad and token issuance platform originally built on the Sui blockchain, designed to support high-quality token and NFT projects with a structured go-to-market process while improving user access, transparency, and risk management for launchpad participants. SuiPad's core value proposition includes simplified IDO participation, integrated wallet and transaction management, community-aligned allocation through staking tiers, project due-diligence content through Sui Tank, and downside protection through the opt-in SuiPad Shield insurance model. We are now expanding to the Canton ecosystem with the goal of bringing a proven launchpad operating model into a new institutional-grade environment.",
@@ -6956,10 +6956,10 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467837677",
       "name": "CANex",
-      "updatedAt": "2026-08-24T16:54:59Z",
+      "updatedAt": "2026-08-31T13:08:13Z",
       "values": {
         "text_mm4k2vch": "AZX TECH PTE. PTY LTD",
-        "color_mm4kmej3": "1-Needs Review",
+        "color_mm4kmej3": "7-Closed-new-process",
         "long_text_mm4kq322": "CANex::1220ad880a4c22d92d1c10efff2c1800e1d12a2cfe02ba14380aa56b4438b7bff0dd",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4km2s7": "AZ: Beyond a DEX—A Composable Orderbook Open Financial Ecosystem (AZverse) AZ is launched by a team combining \"Web3 Native Innovation\" with \"Wall Street Financial Engineering,\" boasting industry-leading technical prowess and capital strength: Technical Prowess: Our founder is a former Co-founder of DeGate (the only Orderbook Layer 2 on Ethereum to achieve Stage 2 security standards). We possess proven, top-tier capabilities in developing and operating orderbook DEXs and Layer 2 infrastructure. Financial Expertise: Team members hail from High-Frequency Trading (HFT) and financial engineering departments of Wall Street firms and top-tier brokerages, bringing deep expertise in liquidity management and transaction system design. Strong Backing: The project has secured strategic investment and support from top-tier CEX BingX and multiple Ethereum OGs, ensuring vast industry resources and connections. Robust Beta Performance & Ecosystem Traction: Since our Beta launch in late December 2025, AZ has focused on hardening our core infrastructure and optimizing the trading experience. Bingx: Founded in 2018, BingX is a global cryptocurrency exchange and Web3-AI company serving a worldwide community of 40+ million users. Built with a strong “trader-first” mindset, BingX focuses on making crypto more approachable for newcomers while still delivering professional-grade infrastructure for active traders. BingX offers a full suite of core trading and investment services. Users can trade spot markets across a broad range of cryptocurrencies, and access perpetual futures (perps) for more advanced strategies and hedging. As a pioneer in social and copy trading, BingX also enables users to follow and mirror experienced traders—turning trading into a more learnable, community-driven experience. Beyond trading, BingX provides wealth management / Earn products with flexible and fixed earning options designed for users who want to generate passive yield on their crypto holdings. ...",
@@ -6983,10 +6983,10 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467824765",
       "name": "HelvetSwap",
-      "updatedAt": "2026-08-24T16:55:01Z",
+      "updatedAt": "2026-08-31T13:08:15Z",
       "values": {
         "text_mm4k2vch": "Helvet Swap LLC",
-        "color_mm4kmej3": "1-Needs Review",
+        "color_mm4kmej3": "7-Closed-new-process",
         "long_text_mm4kq322": "helvetswap-validator-1::12206d3b89fef3da6b1e40abcc7d2cbe174abae6062be451950095ca32397e84bf8b",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4km2s7": "Helvet Swap is an institutional-grade automated market maker DEX built natively on Canton Network. HelvetSwap operates a full-range x·y=k AMM enabling atomic, privacy-preserving token swaps between Canton-native assets. The company runs a live MainNet validator (Splice 0.5.17, all containers healthy) and a production backend at api.helvetswap.app. Initial liquidity is anchored through confirmed institutional liquidity providers, ensuring pool depth and price integrity from day one of public launch.",
@@ -7039,10 +7039,10 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467810722",
       "name": "Fractit",
-      "updatedAt": "2026-08-24T17:08:41Z",
+      "updatedAt": "2026-08-31T13:08:13Z",
       "values": {
         "text_mm4k2vch": "Entravy Private Limited",
-        "color_mm4kmej3": "1-Needs Review",
+        "color_mm4kmej3": "7-Closed-new-process",
         "long_text_mm4kq322": "Waiting for mainnet validator",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4km2s7": "Fractit is a tokenization marketplace bringing physical assets on-chain. Through Fractible tokens, users can access fractional ownership, liquidity, and yield across assets ranging from holiday homes to rental fleets. Fractit is establishing the infrastructure for seamless integration between real-world value and on-chain financial systems.",
@@ -7071,10 +7071,10 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467837926",
       "name": "OtoroFi",
-      "updatedAt": "2026-08-24T17:08:42Z",
+      "updatedAt": "2026-08-31T13:08:14Z",
       "values": {
         "text_mm4k2vch": "BSV - Bosphorus Super Validator",
-        "color_mm4kmej3": "1-Needs Review",
+        "color_mm4kmej3": "7-Closed-new-process",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4km2s7": "OtoroFi is a private, non-custodial bilateral lending protocol on the Canton Network. It enables direct lending between counterparties — from request and matching through collateralization, funding, repayment, and default resolution — with the entire loan lifecycle settled atomically on-ledger. Canton's selective disclosure ensures that loan terms remain private between borrower and lender while still benefiting from the security and finality of shared infrastructure. Tagline: Private bilateral lending on Canton. Borrow, lend, and settle — all on-ledger, fully non-custodial. OtoroFi is being built by a team at the intersection of institutional finance and onchain infrastructure. The founding team combines nearly a decade of active investing in DeFi with deep operational experience in tradfi — spanning structured lending, tokenization, and large-scale fintech platform engineering. The team has spent years helping teams navigate the convergence of traditional and decentralized finance, from portfolio construction and protocol design through go-to-market. The team also includes operators who have led M&A and integration of institutional tokenization companies, architected interbank blockchain networks alongside tier-one banks and central banks, and scaled embedded credit and payments platforms to millions of users.",
         "link_mm4kd0hk": "https://docs.google.com/presentation/d/1mg3Eitm39ZkG67dN8sgIQgPvnuul5CeMvuDRG89O4RY/edit?usp=sharing",
@@ -7098,10 +7098,10 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467837927",
       "name": "Redpacket Wallet",
-      "updatedAt": "2026-08-24T17:08:43Z",
+      "updatedAt": "2026-08-31T13:08:14Z",
       "values": {
         "text_mm4k2vch": "Redpacket",
-        "color_mm4kmej3": "1-Needs Review",
+        "color_mm4kmej3": "7-Closed-new-process",
         "long_text_mm4kq322": "redpacketWallet::122051eb514198313d9e4cb03d4d4f7ebb64e5a29f950debae02ca4abeefcfac0f7c",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4km2s7": "Redpacket is the developer of the premier social engagement and user growth protocol natively built for the Canton Network. Our flagship application is a viral, smart-contract-driven asset distribution platform that uses \"password-gated envelopes\" to drive ecosystem awareness, user onboarding, and interactive education. Having successfully demonstrated the power of gamified value transfer to activate the ledger, we are now expanding our contribution to the network's foundational layer. The Redpacket Wallet is a core infrastructure sub-project of Redpacket, designed to provide a standardized, non-custodial gateway that professionalizes the user experience while facilitating high-velocity asset management and seamless connectivity for all Canton-based protocols.",
@@ -7124,10 +7124,10 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467847770",
       "name": "VAULT",
-      "updatedAt": "2026-08-28T04:00:43Z",
+      "updatedAt": "2026-08-31T13:08:15Z",
       "values": {
         "text_mm4k2vch": "HighTower",
-        "color_mm4kmej3": "1-Needs Review",
+        "color_mm4kmej3": "7-Closed-new-process",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "hightower-vault-01::12205efcd1905841c18f9cd02d0183593898f04a96cca45526a416cd2f07fc5933e6",
         "numeric_mm4k6919": "0.0",
@@ -7154,10 +7154,10 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467847771",
       "name": "CryptoLegacy Perp",
-      "updatedAt": "2026-08-24T17:08:45Z",
+      "updatedAt": "2026-08-31T13:08:15Z",
       "values": {
         "text_mm4k2vch": "Cryptolegacy",
-        "color_mm4kmej3": "1-Needs Review",
+        "color_mm4kmej3": "7-Closed-new-process",
         "long_text_mm4kq322": "CryptolegacyPerp::122002cb5bad0f12132febb896a511d40b7d542e0b9cde83b415b5c7148a9d2419c3",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4km2s7": "CryptoLegacy is the pioneering architect behind the world's first Decentralized Liveness Oracle and digital asset inheritance protocol natively built for the Canton Network. Our core innovation, the P2P Guardian Network, is a decentralized service marketplace that utilizes cryptographically-secured economic incentives to verify participant activity and automate trustless asset succession. Building on this foundational infrastructure for high-resiliency automation and secure oracle mechanics, we are expanding our ecosystem with the launch of CryptoLegacy Perp. As a primary sub-project, CryptoLegacy Perp leverages our team’s deep expertise in decentralized infrastructures to provide a 24/7, institutional-grade perpetual futures exchange, effectively bridging global equity markets with Canton’s privacy-preserving liquidity.",
@@ -7214,10 +7214,10 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467847773",
       "name": "CC Space",
-      "updatedAt": "2026-08-28T04:00:44Z",
+      "updatedAt": "2026-08-31T13:08:15Z",
       "values": {
         "text_mm4k2vch": "ITRocket LLC",
-        "color_mm4kmej3": "1-Needs Review",
+        "color_mm4kmej3": "7-Closed-new-process",
         "long_text_mm4kq322": "ITRocket-validator-1::12200ac965a56eff577aa6754516dbc0dd07265a0bf9361466c573e71ab7491ec369",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "google-oauth2_007c115128979015450106549::12200ac965a56eff577aa6754516dbc0dd07265a0bf9361466c573e71ab7491ec369",
@@ -7247,10 +7247,10 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467847775",
       "name": "DeepBlue Trace",
-      "updatedAt": "2026-08-24T17:08:49Z",
+      "updatedAt": "2026-08-31T13:08:15Z",
       "values": {
         "text_mm4k2vch": "The Blockchain Technology Application Research Center of Yantai University",
-        "color_mm4kmej3": "1-Needs Review",
+        "color_mm4kmej3": "7-Closed-new-process",
         "long_text_mm4kq322": "DeepBlue-Trace-1::12203498dc05dce1491d4b474a2bace94ee490edcc4e1369ab11e4f184c63e9c563e",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4km2s7": "The Blockchain Technology Application Research Center of Yantai University, established in 2018, is an industry–academia–research institute dedicated to advancing blockchain technology and deploying real-world applications. The center works closely with leading technology companies such as AntChain, Tencent, Baidu, and JD.com, and has received awards in national blockchain competitions organized by the Ministry of Education. Its research team has published multiple academic papers and filed more than ten national invention patents.One of the center’s most impactful achievements is the Sea Cucumber Traceability and Supply Chain Finance Platform developed for the Yantai Development Zone government. Since its launch in 2020, the platform has recorded hundreds of thousands of real production and supply-chain records, enabling transparent traceability from aquaculture to retail while protecting enterprise privacy. The system addresses a long-standing challenge in agricultural supply chains: providing consumer transparency while safeguarding commercial data.",
@@ -7272,10 +7272,10 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467847776",
       "name": "EVO",
-      "updatedAt": "2026-08-24T17:08:50Z",
+      "updatedAt": "2026-08-31T13:08:15Z",
       "values": {
         "text_mm4k2vch": "YeeGoo Technology Limited",
-        "color_mm4kmej3": "1-Needs Review",
+        "color_mm4kmej3": "7-Closed-new-process",
         "long_text_mm4kq322": "EVO::122003563c4fdc5913c205ccda58478e6574ac8b141742670126f2515f2ff05077c3",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4km2s7": "EVO — Evolution of Value & Organization （ EVO is the subsidy of the Yeegao Tech) EVO is a Web3-native global HR and payroll infrastructure built for the digital economy. We provide a compliant and scalable bridge between Web2 regulation and Web3 innovation. We enable organizations in Web3 and beyond to: • Hire employees globally in 150+ countries (EOR model) • Engage contractors with smart, jurisdiction-aware contracts • Run hybrid payroll in fiat, stablecoins, or both • Automate compliance and KYC workflows • Issue crypto-linked payroll cards for seamless global spending Powered by AI-driven HR management and Web3-ready payment rails, EVO transforms how global teams are built, rewarded, and scaled. Our key clients include well-known crypto exchanges such as Binance, BingX, and Bitunix, as well as on-chain asset management institutions, DeFi protocols, and trading teams. We also serve companies in other industries that choose to pay contractor payments in crypto. Our monthly transaction volume exceeds USD 5 million.",
@@ -7299,10 +7299,10 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467847778",
       "name": "Ov Defi",
-      "updatedAt": "2026-08-28T04:00:46Z",
+      "updatedAt": "2026-08-31T13:08:15Z",
       "values": {
         "text_mm4k2vch": "OneNov",
-        "color_mm4kmej3": "1-Needs Review",
+        "color_mm4kmej3": "7-Closed-new-process",
         "long_text_mm4kq322": "onenov-validator-1::122004c8b00540481384634910608b21774b9cc36030cd9df981579d8c5501a25c25",
         "color_mm4kpp3q": "Asset Issuer",
         "long_text_mm4khjn6": "ov-defi-bridge::122004c8b00540481384634910608b21774b9cc36030cd9df981579d8c5501a25c25",
@@ -7362,10 +7362,10 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467854575",
       "name": "Everflow",
-      "updatedAt": "2026-08-24T17:08:53Z",
+      "updatedAt": "2026-08-31T13:08:14Z",
       "values": {
         "text_mm4k2vch": "Everflow",
-        "color_mm4kmej3": "1-Needs Review",
+        "color_mm4kmej3": "7-Closed-new-process",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4km2s7": "Everflow is a B2B payroll platform built natively on Canton. We make payroll private and fully automated, with only the employer and employee able to see compensation details. Our team has hands-on experience across Canton's stack, including Daml contract design, Token Standard transfers, and participant node operations.",
         "link_mm4kmq24": "https://everflow.fi",
@@ -7388,10 +7388,10 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467832756",
       "name": "Canty Perp",
-      "updatedAt": "2026-08-24T17:08:54Z",
+      "updatedAt": "2026-08-31T13:08:13Z",
       "values": {
         "text_mm4k2vch": "Canty",
-        "color_mm4kmej3": "1-Needs Review",
+        "color_mm4kmej3": "7-Closed-new-process",
         "long_text_mm4kq322": "TBD",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4km2s7": "Canty is a decentralized perpetual trading venue on Canton, enabling leveraged long and short positions through a shared liquidity pool with on-chain settlement",
@@ -7417,10 +7417,10 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467832750",
       "name": "Tothemoon Exchange",
-      "updatedAt": "2026-08-24T17:08:55Z",
+      "updatedAt": "2026-08-31T13:08:15Z",
       "values": {
         "text_mm4k2vch": "Tothemoon",
-        "color_mm4kmej3": "1-Needs Review",
+        "color_mm4kmej3": "7-Closed-new-process",
         "long_text_mm4kq322": "tothemoon-mainnet-1::1220394cae4351302ed5b9ad97c7ca81bb3a93a3bfbcb99c93d33ef8de680ba24636",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4km2s7": "Tothemoon (formerly Cryptology, est. 2017) is an EU-licensed cryptocurrency exchange operated by Cypher Trading, UAB under Lithuanian VASP authorization. The platform serves over 160 countries with 300+ listed assets across 25+ blockchain networks. Tothemoon provides spot and derivatives trading, fiat on/off-ramps (SEPA, bank cards), a Mastercard-powered crypto debit card, and staking services. The platform manages $3.5B+ in institutional assets and processes $400M+ in trading volume. Infrastructure has been audited by Hacken, Decurity, and Cure53, with a CER.live security grade of A. Canton Coin (CC) and USDCx are already integrated into the platform's deposit and withdrawal infrastructure, with a dedicated Canton validator node operated by Tothemoon.",
@@ -7449,10 +7449,10 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467832751",
       "name": "Settlex Flow",
-      "updatedAt": "2026-08-24T17:08:56Z",
+      "updatedAt": "2026-08-31T13:08:13Z",
       "values": {
         "text_mm4k2vch": "Luganodes",
-        "color_mm4kmej3": "1-Needs Review",
+        "color_mm4kmej3": "7-Closed-new-process",
         "long_text_mm4kq322": "luganodes-validator-1::12201828d1c5a32ab3ffb2764184f81636e0bc2ebe84d724e8760080b1a210c9a53f",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4km2s7": "Luganodes is a world class, non-custodial blockchain infrastructure provider delivering institutional-grade staking across 40+ Proof-of-Stake networks. Originating from the Lugano Plan ₿ initiative backed by the City of Lugano and Tether, Luganodes secures $2.5B+ in staked assets while maintaining 99.9% uptime. Luganodes operates as a top validator across major ecosystems and adheres to ISO 27001, SOC 2 Type II , GDPR compliance, and institutional insurance coverage, delivering secure and resilient infrastructure for digital asset institutions.",
@@ -7479,10 +7479,10 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467837672",
       "name": "Hundred Exchange- hxUSD Issuer",
-      "updatedAt": "2026-08-24T17:08:57Z",
+      "updatedAt": "2026-08-31T13:08:15Z",
       "values": {
         "text_mm4k2vch": "Hundred Exchange",
-        "color_mm4kmej3": "1-Needs Review",
+        "color_mm4kmej3": "7-Closed-new-process",
         "long_text_mm4kq322": "hundredx-issuer-1::122000e3217a8d1b851feb6741d90f5c3ec474c83f89914e3d735a8b09c820ee3dfc",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4km2s7": "Hundred Exchange is an equity perpetual futures DEX built natively on the Canton Network. This application is for a second Featured App PartyID (hundredx-issuer-1) to operate the hxUSD token issuance function, separate from the existing exchange party (arcane-mainnet-1::1220c4ca7ab377f587e6009a732823c61c291559384edbd57c118f311fdc35ec729e). hxUSD is a CIP-56 compliant margin token representing $1 of margin value, initially backed by USDCx deposits with the architecture designed to accept additional Canton-native stablecoins as they become available on the network. hxUSD is used for on-chain trade settlement, margin locking, PnL settlement, and liquidations across all equity markets on the platform. This separation aligns with Rule 10 (Separate Party Concerns) of the Updated Featured App Guidance (effective April 27, 2026), which recommends that asset issuers operate under a distinct PartyID from other application functions. The existing arcane-mainnet-1 party continues to handle trade execution and settlement. The hundredx-issuer-1 party exclusively handles hxUSD mint and burn operations with full collateral backing.",
@@ -7507,10 +7507,10 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467837673",
       "name": "Atomix",
-      "updatedAt": "2026-08-25T14:18:45Z",
+      "updatedAt": "2026-08-31T13:08:16Z",
       "values": {
         "text_mm4k2vch": "K2F Labs",
-        "color_mm4kmej3": "1-Needs Review",
+        "color_mm4kmej3": "7-Closed-new-process",
         "long_text_mm4kq322": "atomix::12208428f54ef01a64f520dc586a3876f8316b03f1ec40b3764142de89dc5d34acb9",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4km2s7": "Atomix is a technology company founded by professionals with deep experience in trading infrastructure, market microstructure, and decentralized finance. We are building institutional-grade decentralized exchange infrastructure on the Canton Network, leveraging DAML smart contracts for atomic settlement, transparent execution, and secure custody of digital assets. Our mission is to bring high-performance, capital-efficient on-chain trading to the Canton ecosystem.",
@@ -7532,10 +7532,10 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467824761",
       "name": "Vaultix",
-      "updatedAt": "2026-08-24T17:08:58Z",
+      "updatedAt": "2026-08-31T13:08:14Z",
       "values": {
         "text_mm4k2vch": "Qingshan Navigator (Beijing) Technology Co., Ltd.",
-        "color_mm4kmej3": "1-Needs Review",
+        "color_mm4kmej3": "7-Closed-new-process",
         "long_text_mm4kq322": "vaultix-app::1220f5d6806a41b069b6fe3ff69b609fa1e8c4f936103e602eeb98308ae6d05b263c",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4km2s7": "We focus on the research and application of decentralized finance infrastructure. Our core businesses encompass DeFi protocol development, on-chain asset management, liquidity solutions, and blockchain underlying technology research. Our core team comes from top global internet and technology companies including Microsoft and Tencent, possessing deep expertise in distributed system architecture, smart contract security, and financial risk control models. Leveraging years of experience in global product operations and a profound understanding of blockchain technology, we have developed multiple highly liquid DeFi aggregation protocols and decentralized applications. With a rigorous risk control system and professional global localization service capabilities, we are committed to becoming a leading DeFi infrastructure service provider bridging the traditional financial world and the crypto ecosystem.",
@@ -7558,10 +7558,10 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467810717",
       "name": "Stratos Wallet",
-      "updatedAt": "2026-08-24T17:08:59Z",
+      "updatedAt": "2026-08-31T13:08:13Z",
       "values": {
         "text_mm4k2vch": "Stratos Lab",
-        "color_mm4kmej3": "1-Needs Review",
+        "color_mm4kmej3": "7-Closed-new-process",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4km2s7": "Wallet Infrastructure and workflow solutions",
         "link_mm4kmq24": "https://stratoslab.xyz",
@@ -7613,10 +7613,10 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467810719",
       "name": "Avro Pay",
-      "updatedAt": "2026-08-24T17:09:01Z",
+      "updatedAt": "2026-08-31T13:08:14Z",
       "values": {
         "text_mm4k2vch": "Avro Digital",
-        "color_mm4kmej3": "1-Needs Review",
+        "color_mm4kmej3": "7-Closed-new-process",
         "long_text_mm4kq322": "avro-pay::12209bdf08fc008d18cca74c36dbc7930ca196a7c67d28f44d836f066f4a613cd84d",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4km2s7": "Avro Digital is a Canton Network infrastructure company building products and applications for institutional and retail participants. We focus on shared infrastructure that lowers the cost of building Canton-native services: market infra, payment rails, data products, and developer tools.",
@@ -7643,10 +7643,10 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467825386",
       "name": "Agora: Survey & Vote",
-      "updatedAt": "2026-08-28T04:00:47Z",
+      "updatedAt": "2026-08-31T13:08:14Z",
       "values": {
         "text_mm4k2vch": "Agora: Survey & Vote",
-        "color_mm4kmej3": "1-Needs Review",
+        "color_mm4kmej3": "7-Closed-new-process",
         "long_text_mm4kq322": "agora-validator-1::122029be23273ca91722ffb99724c3d5ee7fffc2a63f67e8ef8e39450bfaee2e754a",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "agora-locking-1::122029be23273ca91722ffb99724c3d5ee7fffc2a63f67e8ef8e39450bfaee2e754a",
@@ -7672,10 +7672,10 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467825387",
       "name": "Falcon Finance",
-      "updatedAt": "2026-08-24T17:09:04Z",
+      "updatedAt": "2026-08-31T13:08:14Z",
       "values": {
         "text_mm4k2vch": "Falcon Finance",
-        "color_mm4kmej3": "1-Needs Review",
+        "color_mm4kmej3": "7-Closed-new-process",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4km2s7": "Falcon Finance is building a universal collateralization infrastructure that transforms custody-ready assets, including digital assets, currency-backed tokens, and tokenized real-world assets, into USD-pegged onchain liquidity. By connecting traditional and decentralized markets, Falcon enables institutions, protocols, and capital allocators to unlock stable, yield-bearing liquidity directly from the assets they already hold.",
         "link_mm4kmq24": "https://app.falcon.finance/overview",
@@ -7696,10 +7696,10 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467856972",
       "name": "Zoff",
-      "updatedAt": "2026-08-24T17:09:05Z",
+      "updatedAt": "2026-08-31T13:08:16Z",
       "values": {
         "text_mm4k2vch": "0x80 Labs LLC",
-        "color_mm4kmej3": "1-Needs Review",
+        "color_mm4kmej3": "7-Closed-new-process",
         "long_text_mm4kq322": "zoff-validator-1::12200e3e00dddf27d56b869eb2cb11734ea93d31ec0cbdc0188ee5ec5d925fad7161",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4km2s7": "0x80 Labs LLC is the company behind Zoff, a self custodial wallet for Canton Network focused on consumer grade retail UX. The founder brings a multi chain background to the project: cofounder of one of the flagship applications on Aptos, and an active Solana trader with deep familiarity with the wallet UX patterns retail users expect from a modern L1. Development started in early 2026 after several months of research into Canton's external party and Interactive Submission models. We joined DevNet to validate the full architecture end to end (external party allocation, prepare and execute signing flow, TransferPreapproval setup via Interactive Submission), passed our 5 of 5 step DevNet integration test suite, and onboarded a Splice 0.5.18 validator on Canton MainNet on April 28, 2026 (zoff-validator-1). Public launch on MainNet is scheduled in coordination with Helvetswap, mid May 2026. The company is independently operated and self funded.",
@@ -7725,10 +7725,10 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467806180",
       "name": "Duckchain",
-      "updatedAt": "2026-08-24T17:09:06Z",
+      "updatedAt": "2026-08-31T13:08:13Z",
       "values": {
         "text_mm4k2vch": "Hong Kong Blockchain Future Technology Limited",
-        "color_mm4kmej3": "1-Needs Review",
+        "color_mm4kmej3": "7-Closed-new-process",
         "long_text_mm4kq322": "DUCK::12203e40b118ed8f0ef63ffb45eb5e00883939ff587c2d11d578d426d64e5042aea7",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4km2s7": "DuckChain is defined as the Telegram AI Chain, designed specifically for the Telegram ecosystem. It combines AI-driven tools with EVM technology to serve over 1 billion global users on Telegram. As an EVM-based chain, DuckChain emphasizes seamless integration, user-friendly solutions, and operational efficiency. DuckChain focuses on promoting cryptocurrency adoption by merging complex blockchain functionalities with simplicity and accessibility tailored to the needs of the Telegram community.",
@@ -7753,10 +7753,10 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467806181",
       "name": "Merlinstarter",
-      "updatedAt": "2026-08-24T17:09:07Z",
+      "updatedAt": "2026-08-31T13:08:14Z",
       "values": {
         "text_mm4k2vch": "Shenzhen Benlian Technology Co., Ltd.",
-        "color_mm4kmej3": "1-Needs Review",
+        "color_mm4kmej3": "7-Closed-new-process",
         "long_text_mm4kq322": "merlin::12203830c6f4b4fd8ecdf6c474653e2970fda54011cb13d6051a3181b4b8bd2be9c4",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4km2s7": "Star AI is the next-generation platform for AI digital human incubation and asset issuance. It enables creators to mint, own, and monetize AI digital humans as on-chain assets, redefining digital identity in the Web3 era.",
@@ -7780,10 +7780,10 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467804367",
       "name": "Blockin Research",
-      "updatedAt": "2026-08-24T17:09:08Z",
+      "updatedAt": "2026-08-31T13:08:13Z",
       "values": {
         "text_mm4k2vch": "Blockin Ventures",
-        "color_mm4kmej3": "1-Needs Review",
+        "color_mm4kmej3": "7-Closed-new-process",
         "long_text_mm4kq322": "blockin-research::1220782a360c16c937a94490abf29ddffc2d71ee3ec7a5ddd64dd3011ae3727d1a7a",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4km2s7": "Blockin Ventures is a crypto-native venture firm dedicated to supporting the next generation of blockchain innovation. We back groundbreaking technologies that have a clear and strategic path to commercialization, focusing on real-world use cases that drive tangible impact across the decentralized ecosystem. Founded by operators and investors with deep roots in the blockchain space, our team brings hands-on experience across DeFi, infrastructure, gaming, and real-world asset tokenization. We don't just write checks — we work alongside founders as strategic partners, leveraging our network, technical expertise, and market intelligence to help portfolio companies scale.",
@@ -7866,10 +7866,10 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467837921",
       "name": "SyncVotes",
-      "updatedAt": "2026-08-24T17:17:11Z",
+      "updatedAt": "2026-08-31T13:08:16Z",
       "values": {
         "text_mm4k2vch": "WEB34EVER",
-        "color_mm4kmej3": "1-Needs Review",
+        "color_mm4kmej3": "7-Closed-new-process",
         "long_text_mm4kq322": "cantondao-operator::122050f896a953422a6745ce77a4a1537e4b869f939f0eb8cb8cfdb189e2acaa7218",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4km2s7": "Web3 Validator — blockchain infrastructure operator since 2018. MainNet validators on Solana, Starknet, Avalanche, Mina Protocol, Canton Network, and Cosmos SDK chains. 70+ testnet participations. Canton MainNet participant node operator. Active in on-chain governance management and decentralized application development. Technical operations and support for decentralized governance systems including https://daodao.zone",
@@ -7956,10 +7956,10 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467837924",
       "name": "Payvemint",
-      "updatedAt": "2026-08-24T17:09:13Z",
+      "updatedAt": "2026-08-31T13:08:16Z",
       "values": {
         "text_mm4k2vch": "App Volks LLC",
-        "color_mm4kmej3": "1-Needs Review",
+        "color_mm4kmej3": "7-Closed-new-process",
         "long_text_mm4kq322": "Payvemint-App::12205116e57db02419cddea2124b966b63ef9a2b9871338580873b230c7d0738003b",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4km2s7": "App Volks LLC (appvolks.com) is a software development studio founded in 2012. Over 14 years, we have shipped production software for end-clients including Microsoft, Johnson & Johnson, Volkswagen, the US Navy, and the US Air Force, across AI, AR/VR, mobile, and regulated medical domains. That track record in regulated, high-stakes environments is directly relevant to Payvemint: a platform handling W-9 data, 1099-NEC, and financial compliance requires a similar engineering discipline as defense systems or medical devices. Our AI platform, VirtualExperts.AI, provides the production-grade account and identity infrastructure on which Payvemint runs.",
@@ -7982,10 +7982,10 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467837925",
       "name": "Savesoft Wallet",
-      "updatedAt": "2026-08-24T17:09:14Z",
+      "updatedAt": "2026-08-31T13:08:16Z",
       "values": {
         "text_mm4k2vch": "TIEBREAKER ENTERTAINMENT PTE. LTD.",
-        "color_mm4kmej3": "1-Needs Review",
+        "color_mm4kmej3": "7-Closed-new-process",
         "long_text_mm4kq322": "savesoft::12203a28118c6bb6a438cbd40c7d74c87ecdf23cce9aba90ab0fdb63a628ee2fc509",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4km2s7": "SaveSoft is a consumer-facing digital asset wallet and crypto application suite designed to make self-custody easier, safer, and more accessible. The product combines wallet functionality, token swaps, staking, NFT management, fiat on-ramp support, and smart-wallet capabilities powered by account abstraction into a single unified product experience. The company's core focus is to simplify onboarding and daily asset management for both mainstream and crypto-native users while preserving user control, security, and ease of use across all product interactions.",
@@ -8009,10 +8009,10 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467832757",
       "name": "PropChain — PROPC Token",
-      "updatedAt": "2026-08-24T17:09:15Z",
+      "updatedAt": "2026-08-31T13:08:13Z",
       "values": {
         "text_mm4k2vch": "PC Holdings LLC",
-        "color_mm4kmej3": "1-Needs Review",
+        "color_mm4kmej3": "7-Closed-new-process",
         "long_text_mm4kq322": "TBC",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4km2s7": "PropChain is an institutional real estate technology platform operating across Germany and the UAE, serving banks, lenders, asset managers, and KVGs. The platform combines blockchain validation, AI-driven underwriting, and data infrastructure to handle everything from property data ingestion and ESG compliance to automated valuation and regulatory reporting. Partners include EY, Barclays, Citi, JLL, Knight Frank, Chainlink, and Polygon, with data alliances covering Deepki (400,000+ assets), GRESB ($7T+ GAV), and bulwiengesa RIWIS (125 German cities).",
@@ -8037,10 +8037,10 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467832758",
       "name": "Crivacy Identity Layer",
-      "updatedAt": "2026-08-24T17:09:16Z",
+      "updatedAt": "2026-08-31T13:08:13Z",
       "values": {
         "text_mm4k2vch": "Crivacy",
-        "color_mm4kmej3": "1-Needs Review",
+        "color_mm4kmej3": "7-Closed-new-process",
         "long_text_mm4kq322": "crivacy-validator-1::1220a37e50a4f650bcd0554c2fca064b59c3444eebd0383dbaaa65a2cc137bedc524",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4km2s7": "Crivacy is an early-stage Canton-native identity project building a privacy-preserving, reusable KYC credential layer. Users complete KYC once through Crivacy and receive a reusable credential on Canton. Applications can then verify that a user is KYC-approved without accessing raw personal data or building their own KYC process. Crivacy is already active on Canton MainNet with its validator and credential infrastructure. Our goal is to become a shared compliance-ready identity layer for the Canton ecosystem.",
@@ -8068,10 +8068,10 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467832777",
       "name": "Jubilee",
-      "updatedAt": "2026-08-24T22:47:29Z",
+      "updatedAt": "2026-08-31T13:08:13Z",
       "values": {
         "text_mm4k2vch": "Jubilee Markets",
-        "color_mm4kmej3": "0-Locked+Needs Review",
+        "color_mm4kmej3": "7-Closed-new-process",
         "long_text_mm4kq322": "jubilee-marketplace::1220f1e76697bbc124cc4138bed49ddd368fe7645239116e592babbd0586c972de9b",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "23d169c2-0909-4c70-81d1-1922de6febaa::1220f3aaa57c6151ce64aa9c94fa7d6a3bad72ebd264688a03e0ea19e7a327dabbb1",
@@ -8100,10 +8100,10 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467838014",
       "name": "Sig.Network",
-      "updatedAt": "2026-08-24T17:09:19Z",
+      "updatedAt": "2026-08-31T13:08:14Z",
       "values": {
         "text_mm4k2vch": "Sig.Labs (trading as Sig.Network)",
-        "color_mm4kmej3": "1-Needs Review",
+        "color_mm4kmej3": "7-Closed-new-process",
         "long_text_mm4kq322": "Not deployed on mainnet yet, but will be signet-mainnet-1",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4km2s7": "Sig.Network is a cross-chain messaging protocol that gives smart contracts on one blockchain direct control over native accounts on any other. The team built NEAR Protocol's chain signature system, the production predecessor to Sig. Sig is live on mainnet with integrations on Ethereum, Polkadot and Solana. Multiple Canton ecosystem clients are already committed. Ognjen Maric (co-author of the original Canton whitepaper) consults on the Canton integration design.",
@@ -8128,10 +8128,10 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467838015",
       "name": "Netrivo",
-      "updatedAt": "2026-08-24T17:09:20Z",
+      "updatedAt": "2026-08-31T13:08:14Z",
       "values": {
         "text_mm4k2vch": "StakeUp",
-        "color_mm4kmej3": "1-Needs Review",
+        "color_mm4kmej3": "7-Closed-new-process",
         "long_text_mm4kq322": "StakeUp-validator-1::12201f99def73b67dacd60c623490fdd1fd9fa7ae5486a1277d78d37df57ce831a09",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4km2s7": "StakeUp is a professional validator and blockchain infrastructure provider with over 5 years of experience in the Web3 industry. We actively operate validators and infrastructure across multiple blockchain networks, supporting both mainnets and testnets. Beyond validator operations, our team develops and maintains various ecosystem products and services, including RPC infrastructure, monitoring systems, dashboards, explorers, indexing solutions, and automation tools for blockchain networks. We actively participate in governance, testing, and ecosystem development, with a strong focus on reliability, security, uptime, and decentralization.",
@@ -8159,10 +8159,10 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467838016",
       "name": "George Mandres",
-      "updatedAt": "2026-08-24T17:09:21Z",
+      "updatedAt": "2026-08-31T13:08:14Z",
       "values": {
         "text_mm4k2vch": "Stablehouse",
-        "color_mm4kmej3": "1-Needs Review",
+        "color_mm4kmej3": "7-Closed-new-process",
         "long_text_mm4kq322": "stablehouse-validator-1::1220d38e1e95697500926f3f6e67c15bd89f3470a8837ccb5a097b868d79be96ec2a",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4km2s7": "Stablehouse (https://www.stablehouse.com/) platform that allows institutions and high-net-worth individuals to custody digital assets. Stablehouse is part of the XBTO Group.Moreover, through a partnership with XBTO International, Stablehouse allows clients to trade (buy or sell) digital assets, from tokens to tokenized assets.",
@@ -8184,10 +8184,10 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467838017",
       "name": "XBTO Trading",
-      "updatedAt": "2026-08-24T17:09:22Z",
+      "updatedAt": "2026-08-31T13:08:14Z",
       "values": {
         "text_mm4k2vch": "XBTO",
-        "color_mm4kmej3": "1-Needs Review",
+        "color_mm4kmej3": "7-Closed-new-process",
         "long_text_mm4kq322": "xbto-validator-1::12209b9741b4de98a57f93948b5f4a2911aa13a789b822eb215ef4c4b54060b0e0d3",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4km2s7": "XBTO is a digital asset firm founded in 2015. We have an Asset Management team as well as a Market-Making one. Moreover, our focus also spans OTC and Derivatives Trading, Infrastructure, and Data.",
@@ -8210,10 +8210,10 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467789888",
       "name": "gohash.cc",
-      "updatedAt": "2026-08-24T17:09:23Z",
+      "updatedAt": "2026-08-31T13:08:13Z",
       "values": {
         "text_mm4k2vch": "DIGIAPP LLC",
-        "color_mm4kmej3": "1-Needs Review",
+        "color_mm4kmej3": "7-Closed-new-process",
         "long_text_mm4kq322": "kekpool-validator-1::1220fe28febf8e08a147eece032a0bd3f427ed7a194dd2cdd5d2376d690b85ff139d",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4km2s7": "PoW mining operators transitioning into PoS validation and application development.",
@@ -8235,10 +8235,10 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467789889",
       "name": "Kartparty",
-      "updatedAt": "2026-08-24T17:17:11Z",
+      "updatedAt": "2026-08-31T13:08:13Z",
       "values": {
         "text_mm4k2vch": "Qingshan Technology Group",
-        "color_mm4kmej3": "1-Needs Review",
+        "color_mm4kmej3": "7-Closed-new-process",
         "long_text_mm4kq322": "kartparty::1220eb83564e9a31607f85466f92e3dc7d56bb17c312ac4d11c390f852642d555ba6",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4km2s7": "Qingshan Technology Group is a globally oriented internet technology conglomerate with business lines spanning game development and operations, pan-entertainment investment, blockchain technology research and development, VR, and new media. The core team comes from top global game and internet companies including NCsoft, Microsoft, Ubisoft, Sony, Bluehole, Sohu, and 7nujoom. The group has developed multiple high-quality games targeting global markets and has made parallel advances in H5 gaming and blockchain gaming. A subsidiary of the group has been recognized with the Golden Gyroscope Award for Best Mobile Game Service Provider of the Year. Leveraging the team's extensive experience in global game publishing, a comprehensive localization service capability, and strong financial reserves, the company is developing into a leading integrated game research and operations platform.",
@@ -8263,10 +8263,10 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467789999",
       "name": "Forthbox",
-      "updatedAt": "2026-08-24T17:17:12Z",
+      "updatedAt": "2026-08-31T13:08:13Z",
       "values": {
         "text_mm4k2vch": "Cooperate Link Trading Co Limited",
-        "color_mm4kmej3": "1-Needs Review",
+        "color_mm4kmej3": "7-Closed-new-process",
         "long_text_mm4kq322": "forthbox::1220c134c6a3bd7faf0ec9d4160ce530386111ad4cd1b2e9086ee34296648c8425e9",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4km2s7": "ForthBox is a full-category GameFi aggregation service platform. It formulates a NFT asset aggregation protocol based on game scenarios, supports game developers to issue game NFTs with one click, and makes the rapid transformation of traditional online games into blockchain games a reality. Based on GameFi and NFT's game ecology, ForthBox uses Web 3.0 SocialFi as a way to lead the flow of games, turning traditional online game players into blockchain game players. In response to the launch of the GameFi platform, the ForthBox team will launch 15 independently developed Avatar series metaverse games in phases to create an ace product at the platform application layer and ensure that the platform has continuous and stable users.",
@@ -8291,7 +8291,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467790000",
       "name": "BENJI",
-      "updatedAt": "2026-08-28T04:00:49Z",
+      "updatedAt": "2026-08-31T11:00:47Z",
       "values": {
         "text_mm4k2vch": "Franklin Templeton",
         "color_mm4kmej3": "3-CIP-0116-paused",
@@ -8376,10 +8376,10 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467834325",
       "name": "ChainSafe x402 Global Facilitator",
-      "updatedAt": "2026-08-28T04:00:50Z",
+      "updatedAt": "2026-08-31T13:08:14Z",
       "values": {
         "text_mm4k2vch": "ChainSafe",
-        "color_mm4kmej3": "1-Needs Review",
+        "color_mm4kmej3": "7-Closed-new-process",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "chainsafe-x402-locking::122043f0b94e28125e4c65aa7e0f0ded912472731695f01cc83aa41ad3f03965a19b",
         "numeric_mm4k6919": "0.0",
@@ -8405,10 +8405,10 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467834326",
       "name": "Squads Non-Custodial Wallet",
-      "updatedAt": "2026-08-28T04:00:51Z",
+      "updatedAt": "2026-08-31T13:08:14Z",
       "values": {
         "text_mm4k2vch": "SQUADS",
-        "color_mm4kmej3": "1-Needs Review",
+        "color_mm4kmej3": "7-Closed-new-process",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "lock::1220866cb5dfd431695c161dae8727665318187f0dca00b5134a24bc9c2f15ce3435",
         "numeric_mm4k6919": "0.0",
@@ -8432,10 +8432,10 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467824051",
       "name": "GOAT network x402",
-      "updatedAt": "2026-08-24T17:09:29Z",
+      "updatedAt": "2026-08-31T13:08:14Z",
       "values": {
         "text_mm4k2vch": "GOAT Network",
-        "color_mm4kmej3": "1-Needs Review",
+        "color_mm4kmej3": "7-Closed-new-process",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "TBD",
         "long_text_mm4km2s7": "GOAT Network is a Bitcoin secured infrastructure for the agentic economy . We focus on Bitcoin-secured execution, settlement, payments, and decentralized application infrastructure. The L2 uses zero-knowledge proofs, decentralized sequencing, and BitVM2-based bridge architecture to support off-chain computation with settlement and dispute mechanisms connected to Bitcoin. In addition to its Bitcoin Layer 2 work, GOAT Network has developed tools for AI-agent applications, including AgentKit, x402 payment flows, and ERC-8004 identity integrations.",
@@ -8461,10 +8461,10 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467824052",
       "name": "Canquest",
-      "updatedAt": "2026-08-28T04:00:53Z",
+      "updatedAt": "2026-08-31T13:08:14Z",
       "values": {
         "text_mm4k2vch": "Naxweb",
-        "color_mm4kmej3": "1-Needs Review",
+        "color_mm4kmej3": "7-Closed-new-process",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "Maybe : naxweb-validator-1::1220752491fc583ed19c6c7976e138a28fd745d0f422d1e4bfe895197c36e1a9fd5f",
         "numeric_mm4k6919": "0.0",
@@ -8493,10 +8493,10 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467824053",
       "name": "Deploi Credit Market",
-      "updatedAt": "2026-08-28T04:00:57Z",
+      "updatedAt": "2026-08-31T13:08:15Z",
       "values": {
         "text_mm4k2vch": "Deploi",
-        "color_mm4kmej3": "1-Needs Review",
+        "color_mm4kmej3": "7-Closed-new-process",
         "color_mm4kpp3q": "Asset Issuer",
         "long_text_mm4khjn6": "For Canton devnet/mainnet we’re using the Deploi-controlled parties from the current deployment manifest: - Admin / instrument admin: deploi-admin::122074525df66340601a0f846b0c8bbc7b916c3050fd2ee354e91a79f33181709e71 - Issuer: deploi-issuer::122074525df66340601a0f846b0c8bbc7b916c3050fd2ee354e91a79f33181709e71 - Operator / executor: deploi-operator::122074525df66340601a0f846b0c8bbc7b916c3050fd2ee354e91a79f33181709e71 - Controlled investor/seller fixture: deploi-investor-a::122074525df66340601a0f846b0c8bbc7b916c3050fd2ee354e91a79f33181709e71 - Controlled investor/buyer fixture: deploi-investor-b::122074525df66340601a0f846b0c8bbc7b916c3050fd2ee354e91a79f33181709e71 Small clarification: our current Deploi bond holding flow does not rely on a separate custom “locking party” for normal issuance/allocation. Holdings carry the Canton token-standard optional HoldingV1.Lock, but current issuance/allocation-created holdings are lock = None; allocation reservation is modeled by consuming/reserving the source holding. So if you mean the parties that can coordinate/authorize locked or reserved flows, it’s the admin/operator/investor parties above.",
         "numeric_mm4k6919": "0.0",
@@ -8555,10 +8555,10 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467824055",
       "name": "AUROX on Canton for featured app",
-      "updatedAt": "2026-08-28T04:00:58Z",
+      "updatedAt": "2026-08-31T13:08:13Z",
       "values": {
         "text_mm4k2vch": "International Institute of Blockchain Advanced Technology",
-        "color_mm4kmej3": "1-Needs Review",
+        "color_mm4kmej3": "7-Closed-new-process",
         "color_mm4kpp3q": "Asset Issuer",
         "long_text_mm4khjn6": "iibat-validator-1::12201f1fb52fbb8c3a1e93a7064ed8b968bee436f778b3546327432ae2b4ca1ac61b",
         "numeric_mm4k6919": "0.0",
@@ -8612,10 +8612,10 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467832618",
       "name": "ScopeX Rate Lock",
-      "updatedAt": "2026-08-28T04:01:00Z",
+      "updatedAt": "2026-08-31T13:08:15Z",
       "values": {
         "text_mm4k2vch": "ScopeX Money",
-        "color_mm4kmej3": "1-Needs Review",
+        "color_mm4kmej3": "7-Closed-new-process",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "scopex-validator-1::122021e5b9722a377dedb6f8fe521787d432f784b34160c2e3ddce3fd4985529f7a4",
         "numeric_mm4k6919": "0.0",
@@ -8697,10 +8697,10 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467854318",
       "name": "Canpay",
-      "updatedAt": "2026-08-24T17:09:36Z",
+      "updatedAt": "2026-08-31T13:08:16Z",
       "values": {
         "text_mm4k2vch": "Foundinals Lab",
-        "color_mm4kmej3": "1-Needs Review",
+        "color_mm4kmej3": "7-Closed-new-process",
         "long_text_mm4kq322": "foundinalsunthy-mainnet-1::12201004202ad4f2ba69d160e148899596aa294db698917f3aaef063afcb0a412c83",
         "color_mm4kpp3q": "Asset Issuer",
         "long_text_mm4khjn6": "To be submitted before June 19th if issuer pary ID approved",
@@ -8758,7 +8758,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467854321",
       "name": "Privket.com",
-      "updatedAt": "2026-08-28T04:01:01Z",
+      "updatedAt": "2026-08-31T11:01:06Z",
       "values": {
         "text_mm4k2vch": "Privket",
         "color_mm4kmej3": "6-Withdrawn",
@@ -8783,7 +8783,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467838018",
       "name": "Ekiden",
-      "updatedAt": "2026-08-28T04:01:03Z",
+      "updatedAt": "2026-08-31T11:01:08Z",
       "values": {
         "text_mm4k2vch": "Allspark Markets Ltd.",
         "color_mm4kmej3": "2-Approved",
@@ -8841,10 +8841,10 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467789883",
       "name": "Arkena",
-      "updatedAt": "2026-08-24T17:09:40Z",
+      "updatedAt": "2026-08-31T13:08:13Z",
       "values": {
         "text_mm4k2vch": "Arkena Labs",
-        "color_mm4kmej3": "1-Needs Review",
+        "color_mm4kmej3": "7-Closed-new-process",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "We will create a dedicated party on our MainNet participant solely to hold the CIP-0116 non-issuer lock, separate from our operating party. Sourcing the 5,000,000 CC is the open question for us (see the next field); once it is resolved we will fund the lock from that party and provide its ID to the committee within whatever window the process requires.",
         "long_text_mm4km2s7": "Arkena is an independent team building on Canton since early 2026. We built the whole stack ourselves, from the Daml contracts and the backend up to the web app at arkena.io and a self-custodial Chrome extension wallet. We also run our own infrastructure: a DevNet validator since April 2026, and a MainNet validator that is already provisioned and syncing. Running nodes means we pay for our own traffic, which is why we measured per-transaction costs on DevNet and brought batched settlement costs down by around 70 percent. The product runs end to end on DevNet today and we are preparing the TestNet and MainNet rollout.",
@@ -8901,10 +8901,10 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467789885",
       "name": "Selay Wallet",
-      "updatedAt": "2026-08-24T17:09:42Z",
+      "updatedAt": "2026-08-31T13:08:13Z",
       "values": {
         "text_mm4k2vch": "Security Layer Innovations",
-        "color_mm4kmej3": "1-Needs Review",
+        "color_mm4kmej3": "7-Closed-new-process",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "Now we have own validator on DevNet and TestNet. Next step is run validator on MainNet. Then we will be ready to send PartyID.",
         "long_text_mm4km2s7": "Security Layer Innovations is Hong Kong-based company building Web3 cybersecurity products. Our flagship is Selay Wallet - non-custodial MPC wallet on Canton. Also we complemented by a security research lab that studies on-chain attacks. We are an approved Canton validator (DevNet and TestNet).",
@@ -8963,7 +8963,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467789887",
       "name": "Tritemius",
-      "updatedAt": "2026-08-28T04:01:04Z",
+      "updatedAt": "2026-08-31T11:01:10Z",
       "values": {
         "text_mm4k2vch": "Tritemius Fund FCRE I",
         "color_mm4kmej3": "2-Approved",
@@ -9025,10 +9025,10 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467789859",
       "name": "Pinnaccle",
-      "updatedAt": "2026-08-26T02:41:40Z",
+      "updatedAt": "2026-08-31T13:08:13Z",
       "values": {
         "text_mm4k2vch": "Pinnaccle",
-        "color_mm4kmej3": "1-Needs Review",
+        "color_mm4kmej3": "7-Closed-new-process",
         "long_text_mm4kq322": "pinnaccle-validator-1::1220b895aeeb89c5f84d492858a1adbcf2f2fb1b0508e226d163457083bda0af3d9a",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "The final locking PartyID has not yet been issued.",
@@ -9054,10 +9054,10 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467834237",
       "name": "MetCredX",
-      "updatedAt": "2026-08-26T11:22:55Z",
+      "updatedAt": "2026-08-31T13:08:15Z",
       "values": {
         "text_mm4k2vch": "Nipro Technologies Limited",
-        "color_mm4kmej3": "1-Needs Review",
+        "color_mm4kmej3": "7-Closed-new-process",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "Locking PartyIDs are pending Canton node onboarding. MetCredX will register two primary parties upon mainnet setup: (1) MetCredX Gateway Party — the central wallet/settlement contract holding CC on behalf of users; (2) Merchant Settlement Party — the counterparty contract releasing USDT to verified merchant wallets. Exact Party IDs will be provided within 72 hours of Canton technical onboarding confirmation.",
         "long_text_mm4km2s7": "Nipro Technologies Limited (thenipro.com) is the technology and product development entity behind MetCredX — a travel payment gateway and wallet built on Canton Network. Nipro is founded by Praneet Verma, who also owns and operates Travo Tales, a backpackers hostel chain with 50+ guests daily, and is the founder of Travotality, an AI-first OTA competing directly with Hostelworld. This dual foundation — a live hospitality business generating real transaction volume and a technology company building the rails — creates a uniquely self-contained pilot environment: MetCredX launched first at Travo Tales (zero dependency on external adoption), then extends to Travotality's OTA platform, and then opens as an API gateway to the broader travel industry. The same founder controls both the demand (guests paying for beds, food, and activities in crypto) and the supply (the wallet and merchant infrastructure), making Canton transaction volume guaranteed from Week 1.",
@@ -9082,10 +9082,10 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467834271",
       "name": "InfoDive Labs Prediction Market",
-      "updatedAt": "2026-08-24T17:09:47Z",
+      "updatedAt": "2026-08-31T13:08:15Z",
       "values": {
         "text_mm4k2vch": "InfoDive Labs",
-        "color_mm4kmej3": "0-Locked+Needs Review",
+        "color_mm4kmej3": "7-Closed-new-process",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "c7624b6e30::12207c4447afbca7e52ee8bcbfd6235a06f5ae6a3f703a149d57c2460eb871fa8620",
         "numeric_mm4k6919": "5.0",
@@ -9108,10 +9108,10 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467834272",
       "name": "RAX Finance",
-      "updatedAt": "2026-08-24T17:09:48Z",
+      "updatedAt": "2026-08-31T13:08:15Z",
       "values": {
         "text_mm4k2vch": "RAX Finance",
-        "color_mm4kmej3": "0-Locked+Needs Review",
+        "color_mm4kmej3": "7-Closed-new-process",
         "long_text_mm4kq322": "rax-app::1220f9a6ba2158a8f9817ee854940475c4a6ebaaf8bb8d91d2691ae1f5b98b7f1321",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "23d169c2-0909-4c70-81d1-1922de6febaa::1220408191e246d8d4b125e8d6b67828c71e0c058fe430edf2c773d99c7c1091af07",
@@ -9137,10 +9137,10 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467834273",
       "name": "FairShares",
-      "updatedAt": "2026-08-24T17:09:49Z",
+      "updatedAt": "2026-08-31T13:08:15Z",
       "values": {
         "text_mm4k2vch": "FairShares",
-        "color_mm4kmej3": "0-Locked+Needs Review",
+        "color_mm4kmej3": "7-Closed-new-process",
         "long_text_mm4kq322": "fairshares-app::1220b10c7ba1ec70b445c4c71b13ee0b251181a796bbfb0d5525a4226ddd324d29dd",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "Was locked - removed Aug 4th",
@@ -9165,10 +9165,10 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467834274",
       "name": "Ibex",
-      "updatedAt": "2026-08-24T17:09:50Z",
+      "updatedAt": "2026-08-31T13:08:15Z",
       "values": {
         "text_mm4k2vch": "Ibex Ventures Limited",
-        "color_mm4kmej3": "0-Locked+Needs Review",
+        "color_mm4kmej3": "7-Closed-new-process",
         "long_text_mm4kq322": "ibex-validator-1::1220d1ae4a0a515cd1574fcc3c1425f87213ee74a35751bfa87e0633f91c56ec2247",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "461b6ab02c42363122d2a7dd9f992a48::122083be54a39b1974fc0df6c5ef07344e8db68e4d0712506e81c3f16c0ff8d48059",
@@ -9197,10 +9197,10 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467783449",
       "name": "Mperps",
-      "updatedAt": "2026-08-28T04:01:05Z",
+      "updatedAt": "2026-08-31T13:08:13Z",
       "values": {
         "text_mm4k2vch": "Lemongrass IT Services LLC-Fz",
-        "color_mm4kmej3": "1-Needs Review",
+        "color_mm4kmej3": "7-Closed-new-process",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "mperps-validator-1::1220f7319cabca1c787577b47ef0265c747feeed9c4d108d072e2ff170cffef8c508",
         "numeric_mm4k6919": "0.0",
@@ -9225,10 +9225,10 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467783450",
       "name": "Canquest",
-      "updatedAt": "2026-08-28T04:01:07Z",
+      "updatedAt": "2026-08-31T13:08:13Z",
       "values": {
         "text_mm4k2vch": "Canquest",
-        "color_mm4kmej3": "1-Needs Review",
+        "color_mm4kmej3": "7-Closed-new-process",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "lock-canquest::12209fe74271728c49a1922362aa0c8d2bff7f7546b81963b7d5b65361fd8e5442fb",
         "numeric_mm4k6919": "0.0",
@@ -9257,10 +9257,10 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467837727",
       "name": "myCircle",
-      "updatedAt": "2026-08-24T17:09:53Z",
+      "updatedAt": "2026-08-31T13:08:14Z",
       "values": {
         "text_mm4k2vch": "WOW Innovation Corporation",
-        "color_mm4kmej3": "1-Needs Review",
+        "color_mm4kmej3": "7-Closed-new-process",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "Canton Strategic Holdings, Inc this still needs to be set-up.",
         "long_text_mm4km2s7": "myCircle is building a network of validated humans, have partnerships with Stripe, Bridge, Equifax for authentications globally",
@@ -9283,10 +9283,10 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12471377959",
       "name": "OpenBaskets - BlockxAI Limited",
-      "updatedAt": "2026-08-28T04:01:08Z",
+      "updatedAt": "2026-08-31T13:08:15Z",
       "values": {
         "text_mm4k2vch": "BlockxAI Limited",
-        "color_mm4kmej3": "1-Needs Review",
+        "color_mm4kmej3": "7-Closed-new-process",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "BlockXAI-validator-1::1220e92aa0dd661bcfbd0dc6688dc37f99d1ae7d592cb8439dd8ce2312d3742e08a8",
         "numeric_mm4k6919": "0.0",
@@ -9310,10 +9310,10 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12568365683",
       "name": "Synfin - Cayvox Labs",
-      "updatedAt": "2026-08-28T04:01:10Z",
+      "updatedAt": "2026-08-31T13:08:15Z",
       "values": {
         "text_mm4k2vch": "Cayvox Labs",
-        "color_mm4kmej3": "1-Needs Review",
+        "color_mm4kmej3": "7-Closed-new-process",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "synfin-lock::122006c3436ad4b7bb6b220e2e7cbfdd55b13f92a6ea6a50dba01ff70fffc100066b",
         "numeric_mm4k6919": "0.0",
@@ -9338,10 +9338,10 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12595869340",
       "name": "Modulo Finance (MOD Issuer) - Modulo Labs, Inc.",
-      "updatedAt": "2026-08-24T17:09:55Z",
+      "updatedAt": "2026-08-31T13:08:15Z",
       "values": {
         "text_mm4k2vch": "Modulo Labs, Inc.",
-        "color_mm4kmej3": "0-Locked+Needs Review",
+        "color_mm4kmej3": "7-Closed-new-process",
         "color_mm4kpp3q": "Asset Issuer",
         "long_text_mm4khjn6": "23d169c2-0909-4c70-81d1-1922de6febaa::12208ed5d822bd47a2e912ca9154ca2871ebb375cb99777bab0ae85d20060a44c811",
         "numeric_mm4k6919": "25.0",
@@ -9366,10 +9366,10 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12606551173",
       "name": "cSOL Bridge - Hellomoon",
-      "updatedAt": "2026-08-24T17:09:56Z",
+      "updatedAt": "2026-08-31T13:08:15Z",
       "values": {
         "text_mm4k2vch": "Hellomoon",
-        "color_mm4kmej3": "1-Needs Review",
+        "color_mm4kmej3": "7-Closed-new-process",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "cSOL-Bridge:: To be assigned prior to MainNet activation.",
         "long_text_mm4km2s7": "Hello Moon delivers industry-leading blockchain infrastructure, staking services, and data solutions with unmatched reliability and performance.",
@@ -9394,10 +9394,10 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12609616425",
       "name": "Arkhia x402 Facilitator-as-a-Service (FaaS) - Arkhia Pte Ltd",
-      "updatedAt": "2026-08-28T04:01:11Z",
+      "updatedAt": "2026-08-31T13:08:15Z",
       "values": {
         "text_mm4k2vch": "Arkhia Pte Ltd",
-        "color_mm4kmej3": "1-Needs Review",
+        "color_mm4kmej3": "7-Closed-new-process",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "1::12208f49e6bc2638dc72b1fc7a5cda5380fad110b90c1dbc409296948f14052b2b9e",
         "numeric_mm4k6919": "0.0",
@@ -9426,10 +9426,10 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12626943292",
       "name": "Yellow Card - Yellow Card Financial Inc.",
-      "updatedAt": "2026-08-28T17:01:06Z",
+      "updatedAt": "2026-08-31T13:08:13Z",
       "values": {
         "text_mm4k2vch": "Yellow Card Financial Inc.",
-        "color_mm4kmej3": "1-Needs Review",
+        "color_mm4kmej3": "7-Closed-new-process",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "YellowCard-Validator-1::1220393b39a08729c8cd220fdf39fdd7af8d55fbfe54b06351b7f8d69e55dcbbbbfa",
         "numeric_mm4k6919": "0.4",
@@ -9456,10 +9456,10 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12709198693",
       "name": "Rocky Wallet - Dune Labs",
-      "updatedAt": "2026-08-25T14:10:10Z",
+      "updatedAt": "2026-08-31T13:08:13Z",
       "values": {
         "text_mm4k2vch": "Dune Labs",
-        "color_mm4kmej3": "0-Locked+Needs Review",
+        "color_mm4kmej3": "7-Closed-new-process",
         "long_text_mm4kq322": "dunelabs-validator-1::12203251ed85a1811755a4c7d1c0af8e50bf95bd72ae7fadd047e266d085a573e476",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "23d169c2-0909-4c70-81d1-1922de6febaa::12200a265be75cf1f7c03fbcc0d28e221e94946e627115c489b751ae3ef700c4859d",
@@ -9490,10 +9490,10 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12731951755",
       "name": "Cove Wallet API - Qasara Labs Private Limited",
-      "updatedAt": "2026-08-28T04:01:14Z",
+      "updatedAt": "2026-08-31T13:08:13Z",
       "values": {
         "text_mm4k2vch": "Qasara Labs Private Limited",
-        "color_mm4kmej3": "1-Needs Review",
+        "color_mm4kmej3": "7-Closed-new-process",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "cove-pdyctwhntx::1220694ba083b3767511d89166b5421573deb96b62bad3452f9dba9335c24672e8ed",
         "numeric_mm4k6919": "0.0",
@@ -9548,10 +9548,10 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12742983771",
       "name": "Supanova DEX - Supanova",
-      "updatedAt": "2026-08-24T17:10:01Z",
+      "updatedAt": "2026-08-31T13:08:13Z",
       "values": {
         "text_mm4k2vch": "Supanova",
-        "color_mm4kmej3": "1-Needs Review",
+        "color_mm4kmej3": "7-Closed-new-process",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "Will setup with Cashen once FA status is granted to the partyID.",
         "long_text_mm4km2s7": "Supanova is a wallet provider on the Canton Network and is looking to adding additional products to its offering.",
@@ -9574,10 +9574,10 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12742964838",
       "name": "The Hub - The Hub",
-      "updatedAt": "2026-08-24T23:00:33Z",
+      "updatedAt": "2026-08-31T13:08:13Z",
       "values": {
         "text_mm4k2vch": "The Hub",
-        "color_mm4kmej3": "0-Locked+Needs Review",
+        "color_mm4kmej3": "7-Closed-new-process",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "23d169c2-0909-4c70-81d1-1922de6febaa::1220ca49b703a773cfe71859698d6302c4e289d8a5888868438c71de0b33bf951a72",
         "numeric_mm4k6919": "5.0",
@@ -9602,10 +9602,10 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12751665725",
       "name": "eesee - eesee Ltd. (BVI-registered)",
-      "updatedAt": "2026-08-24T17:10:02Z",
+      "updatedAt": "2026-08-31T13:08:14Z",
       "values": {
         "text_mm4k2vch": "eesee Ltd. (BVI-registered)",
-        "color_mm4kmej3": "0-Locked+Needs Review",
+        "color_mm4kmej3": "7-Closed-new-process",
         "long_text_mm4kq322": "eesee-mainnet-1::1220fb2e89aab677556481b303aad5d3aa049edcf961db626f12f2c9e040b5463df4",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "23d169c2-0909-4c70-81d1-1922de6febaa::12200255cb9526b82c134e1bfb2136f841c32af8a2df39e2e52a2c9f03da7a4afac1",
@@ -9633,10 +9633,10 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12769413819",
       "name": "Canquest - PT JARINGAN SIMPUL TEKNOLOGI",
-      "updatedAt": "2026-08-28T04:01:16Z",
+      "updatedAt": "2026-08-31T13:08:14Z",
       "values": {
         "text_mm4k2vch": "PT JARINGAN SIMPUL TEKNOLOGI",
-        "color_mm4kmej3": "1-Needs Review",
+        "color_mm4kmej3": "7-Closed-new-process",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "canquest-validator-1::12209fe74271728c49a1922362aa0c8d2bff7f7546b81963b7d5b65361fd8e5442fb",
         "numeric_mm4k6919": "0.0",
@@ -9665,10 +9665,10 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12769391755",
       "name": "Helvex - Helvex (Dream Capital LLC)",
-      "updatedAt": "2026-08-24T17:10:03Z",
+      "updatedAt": "2026-08-31T13:08:14Z",
       "values": {
         "text_mm4k2vch": "Helvex (Dream Capital LLC)",
-        "color_mm4kmej3": "0-Locked+Needs Review",
+        "color_mm4kmej3": "7-Closed-new-process",
         "long_text_mm4kq322": "helvex-provider-1::1220c5ac264c69e428e1064e9ca5a0b0d5be586e6befa41c133223f7e044f8b85d60",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "23d169c2-0909-4c70-81d1-1922de6febaa::1220590cb7e035449c6c6adc13aa2117e6c3e0eecf852bca42777097dd459dffc9e0",
@@ -9696,10 +9696,10 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12769391179",
       "name": "Cessio - NODEJUMPER",
-      "updatedAt": "2026-08-24T17:10:05Z",
+      "updatedAt": "2026-08-31T13:08:14Z",
       "values": {
         "text_mm4k2vch": "NODEJUMPER",
-        "color_mm4kmej3": "1-Needs Review",
+        "color_mm4kmej3": "7-Closed-new-process",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "Will setup with Cashen once FA status is granted to the partyID.",
         "long_text_mm4km2s7": "NODEJUMPER is a validator operator and software engineering team with years of production node infrastructure behind it — we build the tooling around it rather than only consuming it. On Canton we operate validator infrastructure and build for the ecosystem: a Rust SDK for Canton and other open-source tooling for the community.",
@@ -9727,10 +9727,10 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12791057047",
       "name": "OS Ledger - Outersunset",
-      "updatedAt": "2026-08-28T04:01:17Z",
+      "updatedAt": "2026-08-31T13:08:14Z",
       "values": {
         "text_mm4k2vch": "Outersunset",
-        "color_mm4kmej3": "1-Needs Review",
+        "color_mm4kmej3": "7-Closed-new-process",
         "long_text_mm4kq322": "OSLedger-mainnet-1::1220f1cd2f9ef6f966d492813215f34cf048a559d25d750b44c095c17fbf96afff64",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "OSLedger-falocked::1220f1cd2f9ef6f966d492813215f34cf048a559d25d750b44c095c17fbf96afff64",
@@ -9755,10 +9755,10 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12800950488",
       "name": "Bayzen - Bayzen",
-      "updatedAt": "2026-08-24T17:10:07Z",
+      "updatedAt": "2026-08-31T13:08:14Z",
       "values": {
         "text_mm4k2vch": "Bayzen",
-        "color_mm4kmej3": "0-Locked+Needs Review",
+        "color_mm4kmej3": "7-Closed-new-process",
         "long_text_mm4kq322": "bayzen-validator-1::1220618de8af3a43c95f7f9c6430f9a308152eb564f57b4c60c4c655f67fb867af1c",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "23d169c2-0909-4c70-81d1-1922de6febaa::12208504027629867135f32260ea29c443cec33d39faf9fead4a4693d93123e8b8e3",
@@ -9784,10 +9784,10 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12839735755",
       "name": "Grow Protocol - Solido Money",
-      "updatedAt": "2026-08-24T17:10:08Z",
+      "updatedAt": "2026-08-31T13:08:14Z",
       "values": {
         "text_mm4k2vch": "Solido Money",
-        "color_mm4kmej3": "1-Needs Review",
+        "color_mm4kmej3": "7-Closed-new-process",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "TBD",
         "long_text_mm4km2s7": "Solido Money is a DeFi venture studio specializing in MoveVM, with production-grade applications across Supra, Sui, and Aptos. Solido has processed $2B+ in protocol volume, built a community of 50K+ users, and raised funding from Supra Foundation, Spartan Ventures, K10 Capital, and other investors.",
@@ -9815,10 +9815,10 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12861315656",
       "name": "Upflam - Upflam",
-      "updatedAt": "2026-08-24T23:00:47Z",
+      "updatedAt": "2026-08-31T13:08:14Z",
       "values": {
         "text_mm4k2vch": "Upflam",
-        "color_mm4kmej3": "0-Locked+Needs Review",
+        "color_mm4kmej3": "7-Closed-new-process",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "upflam-treasury::1220fcf86322b2ae75c9e6f74b9159e3407d9c426d97ebd6676be64ccab966dee4f3",
         "numeric_mm4k6919": "5.7",
@@ -9846,10 +9846,10 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12870058108",
       "name": "R1M Sentinel - R1M",
-      "updatedAt": "2026-08-28T04:01:19Z",
+      "updatedAt": "2026-08-31T13:08:14Z",
       "values": {
         "text_mm4k2vch": "R1M",
-        "color_mm4kmej3": "1-Needs Review",
+        "color_mm4kmej3": "7-Closed-new-process",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "r1m-validator-1::122009ae6158cb03207cd5eb0a6796a74daf3e2855ee9f17cd5bcbcccee383842962",
         "numeric_mm4k6919": "0.0",
@@ -9877,10 +9877,10 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12898935686",
       "name": "Rapid Chain - Rapid Blockchain Technologies Ltd",
-      "updatedAt": "2026-08-26T11:01:34Z",
+      "updatedAt": "2026-08-31T13:08:14Z",
       "values": {
         "text_mm4k2vch": "Rapid Blockchain Technologies Ltd",
-        "color_mm4kmej3": "1-Needs Review",
+        "color_mm4kmej3": "7-Closed-new-process",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "23d169c2-0909-4c70-81d1-1922de6febaa::1220f7a9536dd3ac943688bff534eb25b28046b6660b1f579d2d0d0037dacc96dcac",
         "numeric_mm4k6919": "5.0",
@@ -9905,10 +9905,10 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12908672324",
       "name": "FTP x402 Infrastructure (Facilitator + Agentic Wallet) - FTP Tech",
-      "updatedAt": "2026-08-27T04:51:02Z",
+      "updatedAt": "2026-08-31T13:08:15Z",
       "values": {
         "text_mm4k2vch": "FTP Tech",
-        "color_mm4kmej3": "1-Needs Review",
+        "color_mm4kmej3": "7-Closed-new-process",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "Will be later communicated to Canton Foundation",
         "long_text_mm4km2s7": "FTPTech is a team of Validators/Tech ambassadors/Contributors. We have a decent portfolio of running testnets/mainnets and web3 applications. FTP Tech builds production payment and agent infrastructure for the Canton ecosystem. We operate a live Canton MainNet x402 facilitator + merchant-middleware, self-custody agent-wallet, and MCP tooling that enables autonomous agents and conventional applications to discover, authorize, and settle HTTP-native payments. Since June 2026 FTP production x402 stack has processed more than 265,000 payments, served more than 3,000 paying agents, and onboarded more than 10 merchants eg. NODERS, DTEAM, Qasara Labs and Bit Dynamics etc. In talks/process of integration: Franklin Templeton, BitSafe, Excellar, CCTools etc. More details are available on our webpage https://ftptech.xyz",
@@ -9935,10 +9935,10 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12908672261",
       "name": "USYC - Spencer Jaffe",
-      "updatedAt": "2026-08-28T14:01:18Z",
+      "updatedAt": "2026-08-31T13:08:15Z",
       "values": {
         "text_mm4k2vch": "Spencer Jaffe",
-        "color_mm4kmej3": "1-Needs Review",
+        "color_mm4kmej3": "7-Closed-new-process",
         "color_mm4kpp3q": "Asset Issuer",
         "long_text_mm4khjn6": "Address: circle-validator-1::12203e481739809d9e69b31edbc5fb436741bfee5254766bd24acacda6ceae364582",
         "numeric_mm4k6919": "25.5",
@@ -9962,12 +9962,12 @@ window.FEATURED_APP_BOARD_DATA = {
       }
     },
     {
-      "id": "12926708754",
+      "id": "12934217674",
       "name": "Bayzen - Bayzen",
-      "updatedAt": "2026-08-29T04:50:54Z",
+      "updatedAt": "2026-08-31T13:50:58Z",
       "values": {
         "text_mm4k2vch": "Bayzen",
-        "color_mm4kmej3": "1-Needs Review",
+        "color_mm4kmej3": "7-Closed-new-process",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "23d169c2-0909-4c70-81d1-1922de6febaa::12208504027629867135f32260ea29c443cec33d39faf9fead4a4693d93123e8b8e3",
         "long_text_mm4km2s7": "Bayzen is a technology and crypto focused team building research driven, community owned market infrastructure. We operate at the intersection of Web3, financial information, and user-generated prediction markets, with a focus on making market-based forecasting more transparent, verifiable, and accessible. Our team is building Bayzen as a community-driven prediction market platform where users can research topics, form investment or event theses, and create markets with clearly defined outcomes, evidence sources, deadlines, and resolution criteria. Bayzen supports markets across crypto assets, traditional markets, protocol events, project milestones, and broader ecosystem developments. By combining research, market participation, and transparent settlement workflows, Bayzen aims to create measurable forecast track records for both creators and participants. Canton is the intended infrastructure for Party-based authorization, privacy-aware workflows, ledger-based market lifecycles, and Canton Coin settlement in the target Mainnet design.",
@@ -9983,7 +9983,6 @@ window.FEATURED_APP_BOARD_DATA = {
         "long_text_mm4kxcm2": "Initially, Bayzen expects approximately 5–10 transactions per active user per day. Typical activity includes participating in open markets, reviewing market status, and—for eligible creators—submitting and managing market proposals.",
         "long_text_mm4kvyjq": "A user may generate multiple transactions by participating in separate markets, taking positions during different market windows, or—where eligible—creating and managing separate market proposals. Bayzen applies market level and account level limits to reduce non-bona fide activity.",
         "long_text_mm4k1cm0": "Transaction volume is expected to scale broadly linearly with active users and the number of open markets. Activity may temporarily increase around market openings, market closings, and resolution periods.",
-        "long_text_mm4kd4h2": "Bayzen is live on Canton Mainnet.",
         "long_text_mm4kfkwn": "Bayzen’s initial customers are early access market participants and research-focused market creators from the Canton and broader Web3 communities. The Mainnet go live date is 7 September 2026.",
         "long_text_mm4k6q73": "Without Featured App status, Bayzen would continue operating on Mainnet, but our initial growth plan would be materially constrained. Featured App status and the associated application-reward framework are important to supporting early-stage funding for user acquisition, community campaigns, ecosystem partnerships, and promotional activities. Without this support, Bayzen would need to reduce or phase its initial marketing and distribution efforts, resulting in slower user acquisition, lower early market liquidity, and a more gradual rollout across the Canton and broader Web3 communities.",
         "long_text_mm4kwxt1": "Yes. Bayzen restricts own-market participation based on the publisher’s Party ID, wallets under the publisher’s control, known linked Party IDs, and accounts under the publisher’s beneficial control. Protection layers include Party linking, eligibility credentials, market and position limits, app-level risk signals, manual review, SP-bond slashing, account suspension, and an appeals process. Market quality does not depend on participant count, wallet count, CC volume, linked-account activity, or artificial transaction activity. These controls reduce risk, although they cannot fully prevent identity borrowing, Sybil behavior, or collusion.",
