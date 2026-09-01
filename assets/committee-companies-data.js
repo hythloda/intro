@@ -1,5 +1,5 @@
 window.COMMITTEE_COMPANIES_DATA = {
-  "generatedAt": "2026-09-01T13:26:16.396Z",
+  "generatedAt": "2026-09-01T13:34:12.984Z",
   "committees": {
     "faAccountability": {
       "label": "Featured Application Accountability Committee",
@@ -55,7 +55,10 @@ window.COMMITTEE_COMPANIES_DATA = {
       "label": "Super Validator Accountability Committee",
       "companies": [
         "5 North",
+        "Canton Strategic Holdings",
+        "Cumberland SV LLC",
         "Digital Asset (Switzerland) GmbH",
+        "MPCH",
         "Proof Group",
         "Tradeweb Markets LLC"
       ]
