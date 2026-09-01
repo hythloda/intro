@@ -32,7 +32,7 @@ const COMMITTEES = [
   {
     key: "svAccountability",
     label: "Super Validator Accountability Committee",
-    group: "accountability"
+    group: "svac"
   },
   {
     key: "marketing",
