@@ -32,7 +32,16 @@ const COMMITTEES = [
   {
     key: "svAccountability",
     label: "Super Validator Accountability Committee",
-    group: "svac"
+    group: "svac",
+    requiredCompanies: [
+      "5 North",
+      "Canton Strategic Holdings",
+      "Cumberland SV LLC",
+      "Digital Asset (Switzerland) GmbH",
+      "MPCH",
+      "Proof Group",
+      "Tradeweb Markets LLC"
+    ]
   },
   {
     key: "marketing",
@@ -433,6 +442,10 @@ async function main() {
       }
     } catch (error) {
       console.warn(`${committee.label}: unable to sync this list (${error.type || "sync_error"}).`);
+    }
+
+    for (const company of committee.requiredCompanies || []) {
+      companies.add(company);
     }
 
     committees[committee.key] = {
