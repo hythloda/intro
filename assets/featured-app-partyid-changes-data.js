@@ -1,5 +1,5 @@
 window.FEATURED_APP_PARTYID_CHANGES_DATA = {
-  "generatedAt": "2026-08-31T14:14:02.163Z",
+  "generatedAt": "2026-09-01T11:52:33.171Z",
   "columns": [
     {
       "id": "long_text_mm4kq322",
@@ -13,6 +13,33 @@ window.FEATURED_APP_PARTYID_CHANGES_DATA = {
     }
   ],
   "changes": [
+    {
+      "id": "0cd3bb9c-d088-4699-8ec5-d24131dd2e74",
+      "changedAt": "2026-09-01T11:06:38.123Z",
+      "itemName": "USYC - Circle",
+      "itemId": "12942533482",
+      "field": "Party ID for the Featured Application:",
+      "previousValue": "",
+      "newValue": "2d781524-5d36-450d-8ba7-183868bdbee0::12202eacbd060e2e22ab198cb9f337ccfe049e16a90968576e15b8bab4317cf17259"
+    },
+    {
+      "id": "a1c0e7bb-6e0e-4af4-9373-24c2db6942fa",
+      "changedAt": "2026-09-01T11:06:36.040Z",
+      "itemName": "Bayzen - Bayzen",
+      "itemId": "12942557487",
+      "field": "Party ID for the Featured Application:",
+      "previousValue": "",
+      "newValue": "bayzen-validator-1::1220618de8af3a43c95f7f9c6430f9a308152eb564f57b4c60c4c655f67fb867af1c"
+    },
+    {
+      "id": "f2b1b128-a570-4daa-9125-76cade0a7c46",
+      "changedAt": "2026-09-01T11:06:27.331Z",
+      "itemName": "Jubilee - Jubilee Markets",
+      "itemId": "12942529699",
+      "field": "Party ID for the Featured Application:",
+      "previousValue": "",
+      "newValue": "jubilee-marketplace::1220f1e76697bbc124cc4138bed49ddd368fe7645239116e592babbd0586c972de9b"
+    },
     {
       "id": "5d1d29d2-b1c9-4bcf-84bc-ca69a6d872e7",
       "changedAt": "2026-08-24T16:52:13.594Z",
@@ -165,33 +192,6 @@ window.FEATURED_APP_PARTYID_CHANGES_DATA = {
       "field": "Party ID for the Featured Application:",
       "previousValue": "",
       "newValue": "eesee-mainnet-1::1220fb2e89aab677556481b303aad5d3aa049edcf961db626f12f2c9e040b5463df4"
-    },
-    {
-      "id": "f1efdf52-e116-4669-a8ff-3433934240a8",
-      "changedAt": "2026-08-11T12:41:42.100Z",
-      "itemName": "Helvex - Helvex (Dream Capital LLC)",
-      "itemId": "12769391755",
-      "field": "Locking PartyIDs",
-      "previousValue": "Cashen",
-      "newValue": "23d169c2-0909-4c70-81d1-1922de6febaa::1220590cb7e035449c6c6adc13aa2117e6c3e0eecf852bca42777097dd459dffc9e0"
-    },
-    {
-      "id": "f8f50176-8f57-495c-9e90-dd83cf57f711",
-      "changedAt": "2026-08-11T12:41:33.518Z",
-      "itemName": "Helvex - Helvex (Dream Capital LLC)",
-      "itemId": "12769391755",
-      "field": "Party ID for the Featured Application:",
-      "previousValue": "",
-      "newValue": "helvex-provider-1::1220c5ac264c69e428e1064e9ca5a0b0d5be586e6befa41c133223f7e044f8b85d60"
-    },
-    {
-      "id": "37d0691a-708e-4110-a6e4-6840305fca97",
-      "changedAt": "2026-08-10T11:48:36.918Z",
-      "itemName": "eesee - eesee Ltd. (BVI-registered)",
-      "itemId": "12751665725",
-      "field": "Locking PartyIDs",
-      "previousValue": "5,000,000 $CC locked and active via Canton Strategic / Cashen locking arrangement. Locking party: 23d169c2-0909-4c70-81d1-1922de6febaa::12200255cb9526b82c134e1bfb2136f841c32af8a2df39e2e52a2c9f03da7a4afac1 Verifiable on-chain: https://ccview.io/party/23d169c2-0909-4c70-81d1-1922de6febaa::12200255cb9526b82c134e1bfb2136f841c32af8a2df39e2e52a2c9f03da7a4afac1/ FeaturedAppRight is held on the eesee app-provider party: eesee-mainnet-1::1220fb2e89aab677556481b303aad5d3aa049edcf961db626f12f2c9e040b5463df4",
-      "newValue": "23d169c2-0909-4c70-81d1-1922de6febaa::12200255cb9526b82c134e1bfb2136f841c32af8a2df39e2e52a2c9f03da7a4afac1"
     }
   ]
 };
