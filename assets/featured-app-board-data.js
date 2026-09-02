@@ -1,5 +1,5 @@
 window.FEATURED_APP_BOARD_DATA = {
-  "generatedAt": "2026-09-01T11:43:57.534Z",
+  "generatedAt": "2026-09-02T11:24:59.442Z",
   "columns": [
     {
       "id": "text_mm4k2vch",
@@ -192,7 +192,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467783446",
       "name": "FlowRyd",
-      "updatedAt": "2026-09-01T04:03:08Z",
+      "updatedAt": "2026-09-02T04:00:12Z",
       "values": {
         "text_mm4k2vch": "Towler Enterprises",
         "color_mm4kmej3": "2-Approved",
@@ -501,7 +501,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467857175",
       "name": "7Trust",
-      "updatedAt": "2026-09-01T04:03:09Z",
+      "updatedAt": "2026-09-02T04:00:14Z",
       "values": {
         "text_mm4k2vch": "C7",
         "color_mm4kmej3": "2-Approved",
@@ -1025,7 +1025,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467834329",
       "name": "Modo Data Platform",
-      "updatedAt": "2026-09-01T04:03:11Z",
+      "updatedAt": "2026-09-02T04:00:16Z",
       "values": {
         "text_mm4k2vch": "Staketab",
         "color_mm4kmej3": "2-Approved",
@@ -1863,7 +1863,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467790154",
       "name": "Ov Defi",
-      "updatedAt": "2026-09-01T04:03:12Z",
+      "updatedAt": "2026-09-02T04:00:21Z",
       "values": {
         "text_mm4k2vch": "OneNov",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -2221,7 +2221,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467789257",
       "name": "Saxon Automate / Canton Keeper",
-      "updatedAt": "2026-09-01T08:01:24Z",
+      "updatedAt": "2026-09-02T04:00:23Z",
       "values": {
         "text_mm4k2vch": "Saxon",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -2925,7 +2925,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467856986",
       "name": "HydraX",
-      "updatedAt": "2026-09-01T04:03:15Z",
+      "updatedAt": "2026-09-02T04:00:24Z",
       "values": {
         "text_mm4k2vch": "HydraX",
         "color_mm4kmej3": "2-Approved",
@@ -2938,7 +2938,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467856987",
       "name": "Sync Insights",
-      "updatedAt": "2026-09-01T04:03:17Z",
+      "updatedAt": "2026-09-02T04:00:26Z",
       "values": {
         "text_mm4k2vch": "Chata Technologies Inc",
         "color_mm4kmej3": "2-Approved",
@@ -3591,7 +3591,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467789102",
       "name": "7LOCK",
-      "updatedAt": "2026-09-01T04:03:18Z",
+      "updatedAt": "2026-09-02T04:00:28Z",
       "values": {
         "text_mm4k2vch": "C7 Labs UK Limited",
         "color_mm4kmej3": "2-Approved",
@@ -3619,7 +3619,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467789103",
       "name": "Jubilee Treasury",
-      "updatedAt": "2026-09-01T04:03:20Z",
+      "updatedAt": "2026-09-02T04:00:30Z",
       "values": {
         "text_mm4k2vch": "Jubilee Treasury",
         "color_mm4kmej3": "6-Withdrawn",
@@ -3761,7 +3761,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467790155",
       "name": "Mperps",
-      "updatedAt": "2026-09-01T04:03:21Z",
+      "updatedAt": "2026-09-02T04:00:31Z",
       "values": {
         "text_mm4k2vch": "Lemongrass IT Services LLC-Fz",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -4128,7 +4128,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467783401",
       "name": "Vala Wallet: Canton Non Custodial Web Wallet with Featured App Integrations",
-      "updatedAt": "2026-09-01T04:03:23Z",
+      "updatedAt": "2026-09-02T04:00:33Z",
       "values": {
         "text_mm4k2vch": "Finoa Consensus Services",
         "color_mm4kmej3": "2-Approved",
@@ -4303,7 +4303,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467825408",
       "name": "Silvana Book",
-      "updatedAt": "2026-09-01T04:03:26Z",
+      "updatedAt": "2026-09-02T04:00:35Z",
       "values": {
         "text_mm4k2vch": "Silvana",
         "color_mm4kmej3": "2-Approved",
@@ -5504,7 +5504,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467804368",
       "name": "Nexode",
-      "updatedAt": "2026-09-01T04:03:27Z",
+      "updatedAt": "2026-09-02T04:00:37Z",
       "values": {
         "text_mm4k2vch": "Nexode",
         "color_mm4kmej3": "2-Approved",
@@ -5982,7 +5982,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467856988",
       "name": "MEME token and Coinflip",
-      "updatedAt": "2026-09-01T04:03:29Z",
+      "updatedAt": "2026-09-02T04:00:38Z",
       "values": {
         "text_mm4k2vch": "Archerswap",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -6514,7 +6514,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467790006",
       "name": "CC Ledger",
-      "updatedAt": "2026-09-01T04:03:31Z",
+      "updatedAt": "2026-09-02T04:00:39Z",
       "values": {
         "text_mm4k2vch": "Blueprint Infrastructure, LLC",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -7119,7 +7119,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467847770",
       "name": "VAULT",
-      "updatedAt": "2026-09-01T04:03:32Z",
+      "updatedAt": "2026-09-02T04:00:41Z",
       "values": {
         "text_mm4k2vch": "HighTower",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -7209,7 +7209,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467847773",
       "name": "CC Space",
-      "updatedAt": "2026-09-01T04:03:34Z",
+      "updatedAt": "2026-09-02T04:00:42Z",
       "values": {
         "text_mm4k2vch": "ITRocket LLC",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -7294,7 +7294,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467847778",
       "name": "Ov Defi",
-      "updatedAt": "2026-09-01T04:03:36Z",
+      "updatedAt": "2026-09-02T04:00:44Z",
       "values": {
         "text_mm4k2vch": "OneNov",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -7638,7 +7638,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467825386",
       "name": "Agora: Survey & Vote",
-      "updatedAt": "2026-09-01T04:03:37Z",
+      "updatedAt": "2026-09-02T04:00:46Z",
       "values": {
         "text_mm4k2vch": "Agora: Survey & Vote",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -8286,7 +8286,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467790000",
       "name": "BENJI",
-      "updatedAt": "2026-09-01T04:03:39Z",
+      "updatedAt": "2026-09-02T04:00:47Z",
       "values": {
         "text_mm4k2vch": "Franklin Templeton",
         "color_mm4kmej3": "3-CIP-0116-paused",
@@ -8371,7 +8371,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467834325",
       "name": "ChainSafe x402 Global Facilitator",
-      "updatedAt": "2026-09-01T04:03:40Z",
+      "updatedAt": "2026-09-02T04:00:49Z",
       "values": {
         "text_mm4k2vch": "ChainSafe",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -8400,7 +8400,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467834326",
       "name": "Squads Non-Custodial Wallet",
-      "updatedAt": "2026-09-01T04:03:42Z",
+      "updatedAt": "2026-09-02T04:00:51Z",
       "values": {
         "text_mm4k2vch": "SQUADS",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -8456,7 +8456,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467824052",
       "name": "Canquest",
-      "updatedAt": "2026-09-01T04:03:43Z",
+      "updatedAt": "2026-09-02T04:00:52Z",
       "values": {
         "text_mm4k2vch": "Naxweb",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -8488,7 +8488,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467824053",
       "name": "Deploi Credit Market",
-      "updatedAt": "2026-09-01T05:03:38Z",
+      "updatedAt": "2026-09-02T04:00:56Z",
       "values": {
         "text_mm4k2vch": "Deploi",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -8550,7 +8550,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467824055",
       "name": "AUROX on Canton for featured app",
-      "updatedAt": "2026-09-01T05:03:40Z",
+      "updatedAt": "2026-09-02T04:00:57Z",
       "values": {
         "text_mm4k2vch": "International Institute of Blockchain Advanced Technology",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -8607,7 +8607,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467832618",
       "name": "ScopeX Rate Lock",
-      "updatedAt": "2026-09-01T05:03:41Z",
+      "updatedAt": "2026-09-02T04:00:59Z",
       "values": {
         "text_mm4k2vch": "ScopeX Money",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -8753,7 +8753,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467854321",
       "name": "Privket.com",
-      "updatedAt": "2026-09-01T05:03:43Z",
+      "updatedAt": "2026-09-02T04:01:01Z",
       "values": {
         "text_mm4k2vch": "Privket",
         "color_mm4kmej3": "6-Withdrawn",
@@ -8778,14 +8778,14 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467838018",
       "name": "Ekiden",
-      "updatedAt": "2026-09-01T05:03:44Z",
+      "updatedAt": "2026-09-02T04:01:02Z",
       "values": {
         "text_mm4k2vch": "Allspark Markets Ltd.",
         "color_mm4kmej3": "2-Approved",
         "long_text_mm4kq322": "Ekiden-app-1::12209dbe4e2f483b6be8913b2f72690cd3486c7667b24d71c52e34816de78ac9482f",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "773eee641af8e7d135548944037d05e4::122064d38a609da02755ff8f9ad59a08a5cce4f4b8dc130e33920f3d13e7dd97ea0c",
-        "numeric_mm4k6919": "0.0",
+        "numeric_mm4k6919": "0.1",
         "long_text_mm4km2s7": "Allspark is building Ekiden.fi, a derivative exchange on Canton Network",
         "link_mm4kmq24": "https://app.cnt.ekiden.fi/",
         "long_text_mm4k2537": "Ekiden is an institutional derivatives exchange on Canton, combining CLOB and RFQ execution with API-first infrastructure for market makers, trading desks, and order-flow partners. The platform lets users trade crypto, stocks, commodities, and custom markets on-chain, with fast market creation, professional liquidity, and automated trading workflows.",
@@ -8958,7 +8958,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467789887",
       "name": "Tritemius",
-      "updatedAt": "2026-09-01T05:03:46Z",
+      "updatedAt": "2026-09-02T04:01:04Z",
       "values": {
         "text_mm4k2vch": "Tritemius Fund FCRE I",
         "color_mm4kmej3": "2-Approved",
@@ -9192,7 +9192,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467783449",
       "name": "Mperps",
-      "updatedAt": "2026-09-01T05:03:47Z",
+      "updatedAt": "2026-09-02T04:01:05Z",
       "values": {
         "text_mm4k2vch": "Lemongrass IT Services LLC-Fz",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -9220,7 +9220,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467783450",
       "name": "Canquest",
-      "updatedAt": "2026-09-01T05:03:48Z",
+      "updatedAt": "2026-09-02T04:01:07Z",
       "values": {
         "text_mm4k2vch": "Canquest",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -9278,7 +9278,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12471377959",
       "name": "OpenBaskets - BlockxAI Limited",
-      "updatedAt": "2026-09-01T05:03:50Z",
+      "updatedAt": "2026-09-02T04:01:08Z",
       "values": {
         "text_mm4k2vch": "BlockxAI Limited",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -9305,7 +9305,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12568365683",
       "name": "Synfin - Cayvox Labs",
-      "updatedAt": "2026-09-01T05:03:51Z",
+      "updatedAt": "2026-09-02T04:01:10Z",
       "values": {
         "text_mm4k2vch": "Cayvox Labs",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -9389,7 +9389,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12609616425",
       "name": "Arkhia x402 Facilitator-as-a-Service (FaaS) - Arkhia Pte Ltd",
-      "updatedAt": "2026-09-01T05:03:53Z",
+      "updatedAt": "2026-09-02T04:01:12Z",
       "values": {
         "text_mm4k2vch": "Arkhia Pte Ltd",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -9421,7 +9421,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12626943292",
       "name": "Yellow Card - Yellow Card Financial Inc.",
-      "updatedAt": "2026-09-01T05:03:55Z",
+      "updatedAt": "2026-09-02T04:01:13Z",
       "values": {
         "text_mm4k2vch": "Yellow Card Financial Inc.",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -9485,7 +9485,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12731951755",
       "name": "Cove Wallet API - Qasara Labs Private Limited",
-      "updatedAt": "2026-09-01T05:03:56Z",
+      "updatedAt": "2026-09-02T04:01:14Z",
       "values": {
         "text_mm4k2vch": "Qasara Labs Private Limited",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -9628,7 +9628,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12769413819",
       "name": "Canquest - PT JARINGAN SIMPUL TEKNOLOGI",
-      "updatedAt": "2026-09-01T05:03:58Z",
+      "updatedAt": "2026-09-02T04:01:16Z",
       "values": {
         "text_mm4k2vch": "PT JARINGAN SIMPUL TEKNOLOGI",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -9722,7 +9722,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12791057047",
       "name": "OS Ledger - Outersunset",
-      "updatedAt": "2026-09-01T05:04:00Z",
+      "updatedAt": "2026-09-02T04:01:17Z",
       "values": {
         "text_mm4k2vch": "Outersunset",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -9812,7 +9812,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12870058108",
       "name": "R1M Sentinel - R1M",
-      "updatedAt": "2026-09-01T05:04:01Z",
+      "updatedAt": "2026-09-02T04:01:19Z",
       "values": {
         "text_mm4k2vch": "R1M",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -10021,13 +10021,14 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12944758321",
       "name": "Jubilee - Jubilee Markets",
-      "updatedAt": "2026-09-01T11:31:48Z",
+      "updatedAt": "2026-09-01T12:01:00Z",
       "values": {
         "text_mm4k2vch": "Jubilee Markets",
         "color_mm4kmej3": "0-Locked+Needs Review",
         "long_text_mm4kq322": "jubilee-marketplace::1220f1e76697bbc124cc4138bed49ddd368fe7645239116e592babbd0586c972de9b",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "23d169c2-0909-4c70-81d1-1922de6febaa::1220f3aaa57c6151ce64aa9c94fa7d6a3bad72ebd264688a03e0ea19e7a327dabbb1",
+        "numeric_mm4k6919": "5.0",
         "long_text_mm4km2s7": "Jubilee is a privacy-native non-fungible asset marketplace and launchpad built on Canton. The platform has implemented and validated its core marketplace flows, including minting, listing, buying, selling, offers, counter-offers, transfers, creator tooling, and self-custody wallet flows. Jubilee completed its MainNet cutover on May 1, 2026 and has since been operating in controlled production testing on Canton MainNet. Jubilee’s smart contract architecture is built natively around Canton’s DAML execution model, including party-based ownership, sub-transaction privacy, contract-enforced authorization, and atomic settlement. Jubilee’s initial go-to-market is focused on retail-facing collectibles, identity collections, creator launches, and marketplace activity. This is the first layer of a broader non-fungible asset platform. Jubilee will expand the same infrastructure to support access and membership assets, event credentials, tokenized certificates, licenses, attestations, rights, and other unique digital records where privacy, controlled ownership, provenance, and atomic settlement are important. The team consists of three core members: Kerem Kubilay, Technical Lead and DAML Architect; Gokay Sourled, Full-Stack and DevOps; and Utku, Ecosystem and Product Lead.",
         "link_mm4kd0hk": "https://drive.google.com/drive/folders/1EjU86i8tf9RkYjigHt1oLtW4WZVJJLOG",
         "link_mm4kmq24": "https://app.jubilee.markets",
@@ -10046,6 +10047,95 @@ window.FEATURED_APP_BOARD_DATA = {
         "long_text_mm4khbeg": "Not public yet. Jubilee plans to release its open-source NFT-focused CIP-56 reference implementation and reusable marketplace primitives in a public repository as part of its open-source milestone under the pending Canton Development Fund proposal.",
         "long_text_mm4kp5en": "https://drive.google.com/drive/folders/1EjU86i8tf9RkYjigHt1oLtW4WZVJJLOG",
         "long_text_mm4kxsgy": "Jubilee is being built as Canton’s native non-fungible asset layer, not solely as a marketplace for collectible NFTs. Collectibles, creator launches, and digital identity are the initial market entry because they can establish consumer activity, marketplace liquidity, and a recognizable culture layer on Canton. From there, Jubilee will expand into a broader class of non-fungible assets, including access and membership assets, event credentials, tokenized certificates, licenses, attestations, rights, and unique digital records. These use cases are particularly well suited to Canton because non-fungible assets can benefit from privacy-native ownership, selective visibility, provenance, authorization, and atomic settlement. A credential, certificate, license, or unique right does not necessarily need its ownership and full history exposed publicly to the entire network. Jubilee therefore combines an immediate retail marketplace use case with a longer-term infrastructure layer for serious non-fungible digital assets. The product has been deployed on Canton MainNet since May 1, 2026 and has remained under active development and controlled production testing throughout the Featured App review process."
+      }
+    },
+    {
+      "id": "12954167020",
+      "name": "Upflam - Upflam",
+      "updatedAt": "2026-09-02T05:01:13Z",
+      "values": {
+        "text_mm4k2vch": "Upflam",
+        "color_mm4kmej3": "1-Needs Review",
+        "long_text_mm4kq322": "upflam-main-1::1220cc07965b22048868ace639de7f516c45ab59de511e10e2a7f12ae1e3895c4d51",
+        "color_mm4kpp3q": "Non-Issuer",
+        "long_text_mm4khjn6": "upflam-treasury::1220fcf86322b2ae75c9e6f74b9159e3407d9c426d97ebd6676be64ccab966dee4f3",
+        "numeric_mm4k6919": "5.7",
+        "long_text_mm4km2s7": "Upflam provides a payment platform that helps all types of businesses accept payments on Canton network. The platform is designed to connect Canton with real-world internet ecommerce, provide hosted checkout and ready made extensions for popular ecommerce platform such as Shopify, WooCommerce, BigCommerce, etc to accept payment on Canton network. Co-founded by Vinh and Tinh, who have extensive experience building products and infrastructure in the Canton ecosystem as well as consumer internet products. Vinh previously worked at Five North and operated Super Validator, NaaS, while also building Loop Wallet and Lighthouse Explorer, and Seaport.to . Tinh contributed to Loop functionality, and design lead of Seaport.to, and has decades of experience building and operating e-commerce products in Vietnam. We’re also founder of software such as https://mailwip.com and https://www.lapa.ninja Together, we bring experience across Canton infrastructure, wallets, blockchain applications, and large-scale e-commerce. Upflam’s goal is to bring the simplicity, speed, and usability expected from modern consumer software to the Canton ecosystem, while making Canton Coin useful beyond the blockchain itself. In addition to payment, the team is actively building open source and infrastructure tooling for the Canton ecosystem. We recently released https://superscan.upflam.com, a tool for monitoring Super Validators and providing unified routing for Scan API and CIP-56 Registry API requests. This reflects our broader commitment to building practical infrastructure that makes Canton easier to use for both developers and users.",
+        "link_mm4kd0hk": "https://github.com/upflam/meta/tree/main/logo",
+        "link_mm4kmq24": "https://app.upflam.com",
+        "link_mm4kqtfa": "https://drive.google.com/drive/u/1/folders/1g6-k30cmfpJLlN-9ZuhqUoQ2YUdxmOgF",
+        "long_text_mm4k2537": "Upflam provides an API and dashboard that allows anyone to create invoice, hosted checkout pages for one-time payments, donations, and installment payments. The experience is similar to Stripe Checkout, but designed exclusively for Canton. Integration is done through UI, no code required. Advanced users can use the API for deep integration. Additionally, To save merchants from integrating, Upflam provides ready-to-use plugins and extensions for popular e-commerce platforms such as Shopify and WooCommerce. Merchants will be able to install a plugin, go over a seamless onboarding experience, and add Canton as a checkout option without writing any code. The integration does not require merchants to build or maintain custom DAR integrations. This allows assets held in any wallets that can perform a transfer with memo, to participate in online ecommerce Payment can also be split and combined from multiple payers, not just a single person. Upflam also offers cloud services that utilize this payment, allowing anyone who has stablecoin or CC to register for a domain. Upflam support majority of TLD: com, net, io, ai, xyz,... and more",
+        "long_text_mm5hgry2": "no",
+        "long_text_mm4k4y1h": "Anyone who wants to send an invoice and request payment from other Canton users. The merchant who owns an e-commerce platform such as Shopify, WooCommerce will set up and take payment on Canton. Anyone who is selling goods or services on the internet that want to take Canton payment can use our hosted checkout page and webhook to handle post checkout processing The buyer can use any wallet(including exchange wallet) to make a purchase by sending payment to the merchant wallet with a memo. Any Canton users who want to register a domain with USDCx or CC can purchase a domain on our platform. No credit card required.",
+        "long_text_mm4k15bg": "Feature transfer from customer to merchant wallet(if customer wallet has not opt-out of FA right field) Execute transfer instruction, allocation When merchant withdrawal balance out of our platform Subscription payment require DAML contract creation and signing Chunk and installation payment create milestone and track on-chain Initial merchant wallet setup and onboarding",
+        "long_text_mm4kh3fw": "Upflam allows users to create a deposit wallet using ed25519 private key, or p256 key with secure enclave. Pre-approval for CC, auto delegation and USDCx one step transfer is batch created when users onboard as well. Upon having a deposit wallet, the app will monitor those wallets for incoming payment related to their request invoice or hosted checkout. Additionally users can also create AccountRecovery to delegate a wallet to received funds in case of losing private key, this is signed and created ahead of time. A contract is created that grants exercise roles to the beneficiary to recovery fund later on. Users can also withdraw funds to an external wallet through a transfer.",
+        "long_text_mm4kfg50": "Follow the guidance on https://docs.google.com/document/d/1KJQ-T-HiO73nYMXTogGLVSu9lo9loMVgXNOosF74758/edit?tab=t.0#heading=h.6x3utttg2mly we implement activity markers by tracking traffic we purchase and generate market with the same weight. A background job runs every minute to monitor the burn. The burn is generated through activity originated from our validator such as merchant wallet onboarding, withdrawal, processing transfer allocation, accept transfer. Beside markers, if there are features of CC transfer(when the sender wallet sets the FA right field), activity markers are also created automatically. We then subtract the weight of traffic burn for the weight off feature transfer, and submitting the marker weight. This code is not currently activated, because the application isn’t featured on testnet or mainnet so there is no feature contract to trigger it.",
+        "long_text_mm4kxcm2": "Depending on the merchant, but given this is crypto payment we expect a single digit or low end of 2 digit of transactions per day per merchant.",
+        "long_text_mm4kvyjq": "No, we don’t have such a condition. A transaction is associated with a real life event of a user, such as registering a domain, purchasing an item on a shopify store.",
+        "long_text_mm4k1cm0": "Sub Linear",
+        "long_text_mm4kfkwn": "Anyone with a wallet in Canton today, that means 1,2Mil parties on Canton network today, can become our first customer to purchase a domain using USDCx/CC coin and sign-up to use the services for their e-commerce store, or request money with invoicing service. Our payment gateway is also ready to serve any Canton developer to accept Payment for their app. For merchants, we’re finalizing the shopify and woocommerce to get listed on those platform.Our first merchant we’re working directly with is https://upperempire.com for their Shopify store.",
+        "long_text_mm4k6q73": "Not much change. Upflam will continue to deploy and operate. However, having FA status allows us to at least offset a percentage of the traffic burn, and bootstrap much faster, focus more on user acquisitions as well as building trust being a Feature app on Canton.",
+        "long_text_mm4kwxt1": "Yes, our merchant and our users are on entirely different platforms. So naturally there is no non-bona fide tx. A merchant account needs to be created, and each transaction is tied to a real life event(purchase an item on an external platform), and an additional API call with rate limit is needed to set up pre-requirement for payment intent. The customers are on a different platform from Upflam, the payer isn't an Upflam customer, they are a merchant's customer, with their own wallet on a different provider. They pay a fee for transfers from that provider, and merchants pay a fee to withdraw as well as a small percent of transaction volume. Merchant sign-up is manually controlled and reviewed at this step. After the manual approved, a rate limit is also implemented to prevent",
+        "long_text_mm4khbeg": "n/a can share and present upon request",
+        "long_text_mm4kp5en": "https://github.com/upflam/meta/tree/main/logo",
+        "long_text_mm4kxsgy": "Building a hosted payment platform on Canton presents a unique challenge due to its privacy model. We can only see data for transactions where we are an informee. Because of this, we built a limited and simple deposit account for merchants to receive funds. Upflam is focused on being a payment gateway, not on providing wallet functionality, and we do not plan to do so. Beyond the merchant track, to help drive adoption and dogfood our technology, we also launched Upflam Cloud, which allows users to register a real-world domain using USDCx/CC. We welcome reviewers to try it out by visiting https://app.upflam.com/domains and purchasing their first domain using USDCx or Canton Coin. Our WooCommerce extension is also working https://docs.upflam.com/integrations/woocommerce while we’re building more. We’re seriously trying to bring more enterprise and smb into Canton through this."
+      }
+    },
+    {
+      "id": "12954185167",
+      "name": "SyncVotes - WEB34EVER",
+      "updatedAt": "2026-09-02T05:01:15Z",
+      "values": {
+        "text_mm4k2vch": "WEB34EVER",
+        "color_mm4kmej3": "1-Needs Review",
+        "long_text_mm4kq322": "syncvotes-app-provider::122050f896a953422a6745ce77a4a1537e4b869f939f0eb8cb8cfdb189e2acaa7218",
+        "color_mm4kpp3q": "Non-Issuer",
+        "long_text_mm4khjn6": "Account name Lock Party 70133 Party ID 23d169c2-0909-4c70-81d1-1922de6febaa::12207afc6e98a8ecf74866bfabba5ef7c6f45bbbf45bb9a5976c1d9ca53055fb0284 Organization details Organization Canton Strategic Holdings, Inc. Account name CSH Interest Collection Party ID 12204::12204386fae042f28f106036eb6a6360d9f9f5a0fedebd6afd2211323b659b4f134f Lock confirmed On-chain lock verified by Cashen Admin. Accrual begins. Aug 5, 2026 16:05",
+        "numeric_mm4k6919": "7.3",
+        "long_text_mm4km2s7": "WEB34EVER is a validator operator and infrastructure company focused on on-chain governance. We run validator nodes across multiple networks, including our own Canton Network MainNet validator.",
+        "link_mm4kd0hk": "https://app.syncvotes.com/brand",
+        "link_mm4kmq24": "https://SyncVotes.com",
+        "long_text_mm4k2537": "SyncVotes lets a community or an organization take its decisions by voting, on Canton. A group creates a DAO and adds its members. Anyone can then open a proposal, members vote, and the result is final and public — nobody can quietly ignore it or rewrite it later. Some decisions the ledger carries out by itself: adding or removing a member, handing over admin rights, changing the DAO's rules. Treasury payments work the same way — a passed vote sends the Canton Coin: paying a contributor, a grant, a distribution to the community. These are exactly the operations our POSTHUMAN validator does by hand today. Other decisions are simply decisions — which project to support, what the community's position is. There the vote and its outcome are the on-chain record, and people act on it afterwards. Voting can be one member one vote, or weighted, for example by stake. There is quorum, thresholds, an optional veto with a waiting period, and you can change your vote until the deadline. A DAO can be public, or private — in a private DAO only members can see the membership, the proposals and the ballots, because Canton enforces that at the ledger level, not our interface. Members sign with their own wallets, so every proposal, ballot and execution is a real Canton transaction made by the user. Our first large deployment will be the POSTHUMAN community: the delegators who stake with our validator and vote on its decisions today.",
+        "long_text_mm5hgry2": "SyncVotes itself is Canton-native and has not been deployed on another chain — this is its first production environment. But the practice behind it is not new to us: the POSTHUMAN community has run its governance in production for years on DAO DAO (daodao.zone) in the Cosmos ecosystem, where we were among the earliest adopters and testers of the platform. Proposals, weighted voting, treasury decisions with thousands of participants — the same day-to-day workflow SyncVotes now brings to Canton — is something we have operated as a real community, not just built as software. SyncVotes is our Canton implementation of that experience.",
+        "long_text_mm4k4y1h": "Two groups. First, community governance participants: members of validator communities, DAOs and token-holder groups who today vote on off-chain tools (Snapshot, forums, Telegram polls etc). Our anchor is the POSTHUMAN community, whose members are the delegators staking with our validator. They are retail users: they hold their own keys, vote a few times a month, and care that the result is enforced rather than advisory. Second, the organizations that run those communities: the validator operator, foundation or working group that opens proposals, manages membership and (later) the treasury. They are the paying side of the product — private DAOs are billed to the organization, not to voters. We expect early adopters among validator operators and community-driven projects entering Canton, since that is the network we and they already operate on.",
+        "long_text_mm4k15bg": "Rewards come from real governance activity in DAOs: creating DAOs, opening proposals, casting and changing votes, finalizing them, and executing those passed decisions that the ledger applies itself, including Canton Coin treasury payments. Note that a large share of activity is plain decision-making: proposals whose outcome people act on off-chain still produce proposal, ballot and finalization transactions on Canton.",
+        "long_text_mm4kh3fw": "All application state lives on the ledger as Daml contracts: a DAO, each proposal, and every ballot is a contract, and rule enforcement (quorum, thresholds, deadlines, veto) happens in Daml — the ledger is the single source of truth, not our database.",
+        "long_text_mm4kfg50": "Markers are created through the token-standard interface Splice.Api.FeaturedAppRightV1:FeaturedAppRight, choice FeaturedAppRight_CreateActivityMarker, taking a list of beneficiaries with weights, and several markers can be submitted in a single command. We have exercised this end to end on DevNet against a self-granted right, including the beneficiary split and a five-marker batch, and watched the network convert them into a reward coupon and pay it out.",
+        "long_text_mm4kxcm2": "Governance is bursty, not continuous. A typical member submits 0 transactions on most days, and 1–2 on a day when a proposal they care about is open (one ballot, occasionally one re-vote). Averaged over a month with 4–8 proposals and partial turnout, that is well under 0.1 transactions per user per day. Organizers (proposers, admins) generate a few more: proposal creation, finalization and execution.",
+        "long_text_mm4kvyjq": "Legitimately: casting a ballot and then changing it (our proposals support re-voting until the deadline), voting in two different DAOs, or an organizer opening a proposal and later executing it. All of these are distinct governance acts.",
+        "long_text_mm4k1cm0": "Linear in count, flat in size — sub-linear in cost. The number of transactions grows linearly with participation: one ballot per voting member per proposal. What does not grow is the size of each transaction. Proposal creation still scales with member count but is a one-time cost per proposal, not per vote.",
+        "long_text_mm4kfkwn": "Our first customer is the POSTHUMAN community, which we operate ourselves. Its governance has run on DAO DAO for years: first on Juno (daodao.zone/dao/juno1h5ex5dn62arjwvwkh88r475dap8qppmmec4sgxzmtdn5tnmke3lqwpplgg), then migrated to the Cosmos Hub (daodao.zone/dao/cosmos1lj6knrgumqr5a9jxmkqeag476gmzgn24mv0w3548tyw6a5ryr7ms6xl599). Neither has given the community what it actually needs — the functionality available there is limited, and having to move a live DAO between chains showed how fragile that dependency is. That is why we are bringing this community to Canton, and it is why SyncVotes is shaped the way it is: much of the functionality was built for their requirements specifically, and we keep adding to it as they ask. We are technically ready. The migration is gated on user economics, which is where Featured App status matters to us: target go-live within 1-2 weeks of a decision. Behind it we are in conversation with other validator-operated communities entering Canton.",
+        "long_text_mm4k6q73": "It would not stop us — it would change who pays and how fast we can grow.",
+        "long_text_mm4kwxt1": "Yes, at four levels. Nobody profits from transacting. No participant is ever paid for it, and markers only ever cover fees we already paid, so generating activity is a pure cost to whoever generates it. 2. MainNet is invite-only. Invites are issued individually and can be revoked, which removes write access immediately. 3. Quotas and cooldowns per party and per DAO as we scale, with usage beyond the free allowance billed to that actor rather than subsidized. 4. We monitor per-party traffic and look into outliers.",
+        "long_text_mm4kp5en": "https://app.syncvotes.com/brand",
+        "long_text_mm4kxsgy": "Every chain talks about governance, and almost all of them force it to happen in public: proposals, ballots and treasury movements visible to anyone forever. For grants or parameter votes that is fine; for a group making investment decisions together it is disqualifying. That is POSTHUMAN's primary requirement and the reason they asked us to build this — a DAO where the membership, the proposals and the ballots are visible to the members alone, enforced by the ledger rather than by a web application's access control. Canton is the only network where that is possible, and members still keep their own wallets and reveal no identity to take part."
+      }
+    },
+    {
+      "id": "12954184948",
+      "name": "Rapid Chain - Rapid Blockchain Technologies Ltd.",
+      "updatedAt": "2026-09-02T05:01:17Z",
+      "values": {
+        "text_mm4k2vch": "Rapid Blockchain Technologies Ltd.",
+        "color_mm4kmej3": "1-Needs Review",
+        "long_text_mm4kq322": "rapidchain-validator-1::12203494523f5bb02d6388ee3de4b15ee211581b6c1dadf23b71a0d2c1043d41eca5",
+        "color_mm4kpp3q": "Non-Issuer",
+        "long_text_mm4khjn6": "23d169c2-0909-4c70-81d1-1922de6febaa::1220f7a9536dd3ac943688bff534eb25b28046b6660b1f579d2d0d0037dacc96dcac",
+        "numeric_mm4k6919": "5.0",
+        "long_text_mm4km2s7": "Rapid Blockchain Technologies Ltd.",
+        "long_text_mm4k2537": "Rapid Chain provides a high-performance execution environment for digital assets and Real World Asset (RWA) tokenization. The system performs order matching, batching, and transaction execution off-ledger, while anchoring final settlement and state commitments to the Canton Network via the Global Synchronizer. This approach enables: sub-second user experience, reduced ledger load, institutional privacy, and deterministic finality backed by Canton. Rapid Chain acts as an execution and liquidity layer while Canton serves as the root of trust and settlement authority.",
+        "long_text_mm5hgry2": "No",
+        "long_text_mm4k4y1h": "Our primary users are: institutional asset issuers, regulated RWA tokenization platforms, digital asset trading venues, NFT marketplaces, and professional traders requiring fast settlement with strong privacy guarantees. These users require predictable finality, low operational friction, and compliance-friendly infrastructure.",
+        "long_text_mm4k15bg": "Rewards will be generated from legitimate economic activity across three categories: Asset issuance and fractionalization of RWAs Secondary market transfers and trading settlements Smart contract–based lifecycle automation (collateralization, transfers, redemptions) Each activity corresponds to verifiable state changes recorded on Canton. No rewards are tied to synthetic or repetitive transactions.",
+        "long_text_mm4kh3fw": "Rapid Chain uses a deterministic execution engine and batching sequencer. Process: Transactions are executed off-ledger. Results are aggregated into batches. Batches are committed to Canton using atomic commits. The Canton Ledger provides finality, synchronization, and the canonical state root. Key properties: batched settlement every 2–3 seconds reduced ledger write amplification privacy via Canton’s need-to-know model Daml-based smart contract interoperability validator nodes operated directly by Rapid Chain Canton remains the final source of truth for all asset ownership and settlement.",
+        "long_text_mm4kfg50": "Rapid Chain uses both mechanisms: Canton Coin: settlement fees validator participation atomic commit execution Activity Markers: verified minting events transfers settlements lifecycle contract execution Markers are generated only when a genuine asset state change occurs. Artificial or repetitive activity is excluded through contract-level validation.",
+        "long_text_mm4kxcm2": "For a standard retail or developer user on the EVM execution layer, we expect 5 to 50 transactions daily, depending on their interaction with dApps deployed on Rapid Chain. Validators and sequencers submitting batches to Canton will have a steady, automated transaction rate.",
+        "long_text_mm4kvyjq": "Users interacting with high-frequency DeFi protocols (such as our central limit order book DEX, Rapid Order), arbitrage bots, or developers deploying multi-step EVM smart contracts will generate multiple transactions per epoch. Additionally, the sequencer batching EVM transactions to Canton will naturally submit multiple proofs and state updates.",
+        "long_text_mm4k1cm0": "Sub-linear on the Canton Network side. While EVM user transactions scale linearly with the customer base, Rapid Chain acts as an execution layer that batches these transactions. Therefore, the state updates and proofs submitted to the Canton Mainnet will scale sub-linearly thanks to rollup and batching efficiencies.",
+        "long_text_mm4kfkwn": "Our target customers are Web3 developers seeking an EVM-compatible execution layer on Canton, as well as retail and institutional users utilizing our ecosystem dApps (such as Rapid Wallet, Rapid Order, and RocketPad). The network infrastructure is already live on MainNet.",
+        "long_text_mm4k6q73": "Not having Featured App status would significantly impact our ability to bootstrap the ecosystem. FA rewards are crucial for offsetting the infrastructure costs of running the execution layer and validator nodes, and for incentivizing developers and liquidity providers to bridge and build on Rapid Chain. Without it, we would be forced to introduce higher friction fees on the EVM side, which could slow adoption.",
+        "long_text_mm4kwxt1": "Yes. On the Rapid Chain execution layer, all transactions require a base gas fee (paid in native network tokens), which creates a direct economic deterrent against spam or non-bona fide transactions (Sybil attacks). Additionally, standard RPC rate limiting and sequencer-level filtering are in place to prevent network abuse.",
+        "long_text_mm4kxsgy": "We would like to emphasize Rapid Blockchain Technologies Ltd's deep, long-term commitment to the Canton Network. Rapid Chain is not just a single application; it is foundational infrastructure designed to bridge the massive EVM developer base and liquidity directly into the Canton ecosystem. To demonstrate our strong alignment and \"skin in the game,\" we have already secured and arranged the lock of 5,000,000 CC via Cumberland Innovations LLC (Ergonia) on Cashen, strictly complying with the CIP-0116 requirements. Furthermore, we are actively building a full suite of products to drive immediate utility and transaction volume to the network, including Rapid Wallet (synchronizing EVM addresses with Canton Party IDs), Rapid Order (a CLOB DEX), and RocketPad. We are fully committed to all accountability and reporting requirements and look forward to being a cornerstone of Canton's growth."
       }
     }
   ]
