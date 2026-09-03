@@ -1,5 +1,5 @@
 window.FEATURED_APP_PARTYID_CHANGES_DATA = {
-  "generatedAt": "2026-09-02T11:33:22.415Z",
+  "generatedAt": "2026-09-03T11:29:13.731Z",
   "columns": [
     {
       "id": "long_text_mm4kq322",
@@ -13,6 +13,15 @@ window.FEATURED_APP_PARTYID_CHANGES_DATA = {
     }
   ],
   "changes": [
+    {
+      "id": "e3a96d3b-a931-451a-95c0-ff37090079f1",
+      "changedAt": "2026-09-02T14:29:23.704Z",
+      "itemName": "RAX Finance",
+      "itemId": "12467834272",
+      "field": "Locking PartyIDs",
+      "previousValue": "23d169c2-0909-4c70-81d1-1922de6febaa::1220408191e246d8d4b125e8d6b67828c71e0c058fe430edf2c773d99c7c1091af07",
+      "newValue": ""
+    },
     {
       "id": "0cd3bb9c-d088-4699-8ec5-d24131dd2e74",
       "changedAt": "2026-09-01T11:06:38.123Z",
@@ -183,15 +192,6 @@ window.FEATURED_APP_PARTYID_CHANGES_DATA = {
       "field": "Locking PartyIDs",
       "previousValue": "5,000,000 $CC locked and active via Canton Strategic / Cashen locking arrangement. Locking party: 23d169c2-0909-4c70-81d1-1922de6febaa::12200255cb9526b82c134e1bfb2136f841c32af8a2df39e2e52a2c9f03da7a4afac1 Verifiable on-chain: https://ccview.io/party/23d169c2-0909-4c70-81d1-1922de6febaa::12200255cb9526b82c134e1bfb2136f841c32af8a2df39e2e52a2c9f03da7a4afac1/ FeaturedAppRight is held on the eesee app-provider party: eesee-mainnet-1::1220fb2e89aab677556481b303aad5d3aa049edcf961db626f12f2c9e040b5463df4",
       "newValue": "23d169c2-0909-4c70-81d1-1922de6febaa::12200255cb9526b82c134e1bfb2136f841c32af8a2df39e2e52a2c9f03da7a4afac1"
-    },
-    {
-      "id": "cd7634c8-cd60-46ca-a2ef-26e77a608da4",
-      "changedAt": "2026-08-11T12:48:36.873Z",
-      "itemName": "eesee - eesee Ltd. (BVI-registered). Application operations supported by CoreOps Digital Corporation (operator of Canсore), an affiliated entity contributing the atomic-swap/bridging primitive.",
-      "itemId": "12743035486",
-      "field": "Party ID for the Featured Application:",
-      "previousValue": "",
-      "newValue": "eesee-mainnet-1::1220fb2e89aab677556481b303aad5d3aa049edcf961db626f12f2c9e040b5463df4"
     }
   ]
 };
