@@ -1,5 +1,5 @@
 window.COMMITTEE_COMPANIES_DATA = {
-  "generatedAt": "2026-09-02T11:42:05.870Z",
+  "generatedAt": "2026-09-03T11:41:54.306Z",
   "committees": {
     "faAccountability": {
       "label": "Featured Application Accountability Committee",
@@ -58,6 +58,7 @@ window.COMMITTEE_COMPANIES_DATA = {
         "Canton Strategic Holdings",
         "Cumberland SV LLC",
         "Digital Asset (Switzerland) GmbH",
+        "Goldman Sachs & Co. LLC",
         "MPCH",
         "Proof Group",
         "Tradeweb Markets LLC"
