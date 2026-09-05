@@ -1,5 +1,5 @@
 window.FEATURED_APP_BOARD_DATA = {
-  "generatedAt": "2026-09-04T11:24:26.278Z",
+  "generatedAt": "2026-09-05T10:41:03.998Z",
   "columns": [
     {
       "id": "text_mm4k2vch",
@@ -323,7 +323,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12959523630",
       "name": "MetCredX - NIPRO TECHNOLOGIES LIMITED",
-      "updatedAt": "2026-09-04T05:07:39Z",
+      "updatedAt": "2026-09-05T05:05:58Z",
       "values": {
         "text_mm4k2vch": "NIPRO TECHNOLOGIES LIMITED",
         "color_mm4kmej3": "1-Needs Review",
@@ -576,7 +576,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12959492765",
       "name": "Selay Wallet - Security Layer Innovations Limited",
-      "updatedAt": "2026-09-04T05:07:41Z",
+      "updatedAt": "2026-09-05T05:06:00Z",
       "values": {
         "text_mm4k2vch": "Security Layer Innovations Limited",
         "color_mm4kmej3": "1-Needs Review",
@@ -807,7 +807,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12959522895",
       "name": "ccledger - Blueprint Infrastructure, LLC",
-      "updatedAt": "2026-09-04T05:07:42Z",
+      "updatedAt": "2026-09-05T05:06:01Z",
       "values": {
         "text_mm4k2vch": "Blueprint Infrastructure, LLC",
         "color_mm4kmej3": "1-Needs Review",
@@ -999,7 +999,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12954167020",
       "name": "Upflam - Upflam",
-      "updatedAt": "2026-09-02T17:29:02Z",
+      "updatedAt": "2026-09-04T19:22:33Z",
       "values": {
         "text_mm4k2vch": "Upflam",
         "color_mm4kmej3": "0-Locked+Needs Review",
@@ -1158,7 +1158,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12870058108",
       "name": "R1M Sentinel - R1M",
-      "updatedAt": "2026-09-04T05:07:44Z",
+      "updatedAt": "2026-09-05T05:06:03Z",
       "values": {
         "text_mm4k2vch": "R1M",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -1390,7 +1390,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12942557487",
       "name": "Bayzen - Bayzen",
-      "updatedAt": "2026-09-03T12:56:30Z",
+      "updatedAt": "2026-09-04T14:14:32Z",
       "values": {
         "text_mm4k2vch": "Bayzen",
         "color_mm4kmej3": "0-Locked+Needs Review",
@@ -1581,10 +1581,10 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12942533482",
       "name": "USYC - Circle",
-      "updatedAt": "2026-09-03T12:56:30Z",
+      "updatedAt": "2026-09-04T19:15:02Z",
       "values": {
         "text_mm4k2vch": "Circle",
-        "color_mm4kmej3": "0-Locked+Needs Review",
+        "color_mm4kmej3": "2-Approved",
         "long_text_mm4kq322": "2d781524-5d36-450d-8ba7-183868bdbee0::12202eacbd060e2e22ab198cb9f337ccfe049e16a90968576e15b8bab4317cf17259",
         "color_mm4kpp3q": "Asset Issuer",
         "long_text_mm4khjn6": "circle-validator-1::12203e481739809d9e69b31edbc5fb436741bfee5254766bd24acacda6ceae364582",
@@ -1744,7 +1744,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12791057047",
       "name": "OS Ledger - Outersunset",
-      "updatedAt": "2026-09-04T05:07:46Z",
+      "updatedAt": "2026-09-05T05:06:04Z",
       "values": {
         "text_mm4k2vch": "Outersunset",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -1860,7 +1860,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467857175",
       "name": "7Trust",
-      "updatedAt": "2026-09-04T05:07:47Z",
+      "updatedAt": "2026-09-05T05:06:06Z",
       "values": {
         "text_mm4k2vch": "C7",
         "color_mm4kmej3": "2-Approved",
@@ -2189,7 +2189,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12769413819",
       "name": "Canquest - PT JARINGAN SIMPUL TEKNOLOGI",
-      "updatedAt": "2026-09-04T05:07:49Z",
+      "updatedAt": "2026-09-05T05:06:08Z",
       "values": {
         "text_mm4k2vch": "PT JARINGAN SIMPUL TEKNOLOGI",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -2712,7 +2712,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467789103",
       "name": "Jubilee Treasury",
-      "updatedAt": "2026-09-04T05:07:50Z",
+      "updatedAt": "2026-09-05T05:06:09Z",
       "values": {
         "text_mm4k2vch": "Jubilee Treasury",
         "color_mm4kmej3": "6-Withdrawn",
@@ -2851,7 +2851,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12731951755",
       "name": "Cove Wallet API - Qasara Labs Private Limited",
-      "updatedAt": "2026-09-04T05:07:54Z",
+      "updatedAt": "2026-09-04T13:06:25Z",
       "values": {
         "text_mm4k2vch": "Qasara Labs Private Limited",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -9553,10 +9553,10 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467825385",
       "name": "Ubyx Clearing",
-      "updatedAt": "2026-08-24T16:50:19Z",
+      "updatedAt": "2026-09-04T19:22:43Z",
       "values": {
         "text_mm4k2vch": "Ubyx",
-        "color_mm4kmej3": "2-Approved",
+        "color_mm4kmej3": "0-Locked+Needs Review",
         "long_text_mm4kq322": "Ubyx-validator-1::12204cfc7847273bd046b70b5c5549627294a024fb2ab86f58755ee6aebeed9cc1c4",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "12201::122018d3b91016d411f87614aa3190c8aebbe9470c2524011e1e5abc7aedd9c722ce",
@@ -10263,10 +10263,10 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12964664349",
       "name": "Wintip - Winsnip",
-      "updatedAt": "2026-09-03T10:58:23Z",
+      "updatedAt": "2026-09-04T14:34:45Z",
       "values": {
         "text_mm4k2vch": "Winsnip",
-        "color_mm4kmej3": "1-Needs Review",
+        "color_mm4kmej3": "0-Locked+Needs Review",
         "long_text_mm4kq322": "wintip-app::12200b9c9fb45ade713dce1ef55ecf311d57bfff6fb04d874cc7f65a7e3ec19e9824",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "23d169c2-0909-4c70-81d1-1922de6febaa::1220d1c5d679db4268b3587ff465d4e75ae2cba0294af6eacd788dae34ab3bfaad38",
@@ -10294,10 +10294,10 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12964705710",
       "name": "RAX Finance - RAX Finance",
-      "updatedAt": "2026-09-03T10:58:24Z",
+      "updatedAt": "2026-09-04T14:34:51Z",
       "values": {
         "text_mm4k2vch": "RAX Finance",
-        "color_mm4kmej3": "1-Needs Review",
+        "color_mm4kmej3": "0-Locked+Needs Review",
         "long_text_mm4kq322": "rax-app::1220f9a6ba2158a8f9817ee854940475c4a6ebaaf8bb8d91d2691ae1f5b98b7f1321",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "23d169c2-0909-4c70-81d1-1922de6febaa::1220408191e246d8d4b125e8d6b67828c71e0c058fe430edf2c773d99c7c1091af07",
@@ -10323,7 +10323,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12974672977",
       "name": "FTP x402 Infrastructure (Facilitator + Agentic Wallet) - FTP Tech",
-      "updatedAt": "2026-09-04T04:50:55Z",
+      "updatedAt": "2026-09-04T19:23:18Z",
       "values": {
         "text_mm4k2vch": "FTP Tech",
         "color_mm4kmej3": "1-Needs Review",
@@ -10375,6 +10375,63 @@ window.FEATURED_APP_BOARD_DATA = {
         "long_text_mm4kfkwn": "Loop. We went live in August 2026",
         "long_text_mm4k6q73": "Without Featured App status, OS Ledger operates unchanged — the accounting, close, reporting, and export features work independently of any rewards program.",
         "long_text_mm4kwxt1": "OS Ledger only writes to the ledger on completed accounting actions, based on the transaction that has money movement or accounting related purpose. The original on-chain transaction Id is included in our system to trace the original transaction."
+      }
+    },
+    {
+      "id": "12982310839",
+      "name": "Ovdefi - OneNov",
+      "updatedAt": "2026-09-05T04:50:54Z",
+      "values": {
+        "text_mm4k2vch": "OneNov",
+        "color_mm4kmej3": "1-Needs Review",
+        "long_text_mm4kq322": "ov-defi-bridge::122004c8b00540481384634910608b21774b9cc36030cd9df981579d8c5501a25c25",
+        "color_mm4kpp3q": "Non-Issuer",
+        "long_text_mm4khjn6": "ov-defi-bridge::122004c8b00540481384634910608b21774b9cc36030cd9df981579d8c5501a25c25",
+        "long_text_mm4km2s7": "OneNov is a blockchain infrastructure and application development organization focused on the Canton Network. OneNov operates Canton validator infrastructure and is building OvDeFi, a native decentralized finance application designed specifically for the Canton ecosystem. Our goal is to contribute to Canton by building practical applications, supporting real on-chain activity, and helping expand adoption of the network.",
+        "link_mm4kmq24": "https://ovdefi.onenov.xyz/",
+        "long_text_mm4k2537": "OvDeFi is a native DeFi ecosystem on the Canton Network, powered by DAML smart contracts. It provides non-custodial financial services including validator staking, vault staking, CC/USDCx swaps through Cantex DEX, lending and borrowing, and additional on-chain applications. Users can stake, swap, lend, and earn directly on Canton Mainnet through a simple self-custodial experience using Canton Party IDs.",
+        "long_text_mm5hgry2": "NO",
+        "long_text_mm4k4y1h": "OvDeFi is designed for Canton Network users seeking non-custodial DeFi services. Expected users include CC holders, Canton validators and delegators, DeFi users, liquidity providers, traders, borrowers, and users interested in yield-generating vaults and on-chain applications. The platform is designed to provide a simple entry point for both existing Canton users and new users participating in the Canton ecosystem.",
+        "long_text_mm4k15bg": "OvDeFi will earn application rewards from genuine user-driven, state-changing activity generated through its DeFi products on Canton Mainnet. Eligible activities include validator staking and delegation, CC/OVT vault deposits and withdrawals, CC ↔ USDCx swaps through the Cantex DEX, lending and borrowing transactions, and eligible on-chain interactions with OvDeFi's casino and games. These activities involve users interacting with OvDeFi's DAML smart contracts and generating application traffic on the Canton Network. Application rewards will therefore be derived from the actual qualifying traffic generated by these interactions, rather than from passive balances or artificial transactions.",
+        "long_text_mm4kh3fw": "OvDeFi interacts directly with the Canton ledger through DAML smart contracts and Canton’s ledger APIs. User actions such as validator staking, vault deposits and withdrawals, CC/USDCx swaps, lending and borrowing, and game transactions create and update on-ledger contract states. The application reads ledger state to display balances, positions, transactions, rewards, and other application data, while user-initiated actions result in state-changing transactions that are submitted to the Canton Network. OvDeFi is non-custodial, with assets and application states represented by Canton ledger contracts rather than being held in a centralized database.",
+        "long_text_mm4kfg50": "OvDeFi's reward-generating activities primarily use Canton Coin (CC) and generate state-changing application activity on the Canton Network. OvDeFi does not currently rely on Featured App Activity Markers for application reward attribution.",
+        "long_text_mm4kxcm2": "10-20 transactions per user per day",
+        "long_text_mm4kvyjq": "Users may generate multiple transactions per round/epoch when performing multiple DeFi actions, such as staking, swapping, depositing into vaults, lending, borrowing, or claiming rewards.",
+        "long_text_mm4k1cm0": "Linearly.",
+        "long_text_mm4kfkwn": "Canton Network users and early-access OvDeFi users. Expected go-live: Q2 2026.",
+        "long_text_mm4k6q73": "No significant change. OvDeFi will continue operating and developing on Canton Mainnet, focusing on product development, user growth, and ecosystem adoption. Featured App status would provide additional incentives to accelerate these efforts, but it is not a dependency for our continued operation.",
+        "long_text_mm4kwxt1": "OvDeFi relies on genuine user-initiated transactions. Application-level validation and transaction controls are used to prevent artificial or non-bona fide activity.",
+        "long_text_mm4khbeg": "N/A — Private repository",
+        "long_text_mm4kp5en": "N/A",
+        "long_text_mm4kxsgy": "OvDeFi is live on Canton Mainnet and is being developed as a native, non-custodial DeFi ecosystem built specifically for Canton. We are committed to generating genuine user-driven on-chain activity through validator staking, vault staking, CC/USDCx swaps, lending and borrowing, and other DeFi products. We will continue investing in reliable infrastructure, security, product development, and user adoption across the Canton ecosystem. Featured App status would help accelerate these efforts and increase OvDeFi’s contribution to Canton Network activity and adoption."
+      }
+    },
+    {
+      "id": "12982310399",
+      "name": "Pinnaccle - Pinnaccle",
+      "updatedAt": "2026-09-05T04:50:55Z",
+      "values": {
+        "text_mm4k2vch": "Pinnaccle",
+        "color_mm4kmej3": "1-Needs Review",
+        "long_text_mm4kq322": "pinnaccle-validator-1::1220b895aeeb89c5f84d492858a1adbcf2f2fb1b0508e226d163457083bda0af3d9a",
+        "color_mm4kpp3q": "Non-Issuer",
+        "long_text_mm4khjn6": "The final locking PartyID has not yet been issued.",
+        "long_text_mm4km2s7": "Pinnaccle is a self-custodial trading and automation platform for Canton-native assets. It brings wallet access, portfolio analytics, market execution, programmable strategies, and ledger-linked post-trade records into one product. Built specifically for Canton, Pinnaccle combines local wallet authorization with Token Standard V2 bounded authority, scheduled execution, atomic settlement, and ledger reconciliation. The platform is live in controlled MainNet private beta, with CC/USDCx swaps and automated DCA as its first production workflows. Its architecture is designed to extend to additional Canton-native assets, advanced order types, APIs, and embedded execution services.",
+        "link_mm4kmq24": "https://app.pinnaccle.xyz",
+        "long_text_mm4k2537": "Pinnaccle is a self-custodial trading and automation platform for Canton-native assets. It combines integrated wallet access, portfolio analytics, market execution, programmable strategies, and ledger-linked receipts. Its initial MainNet workflows are CC/USDCx market swaps and automated DCA, including finite Token Standard V2 strategies that execute on schedule without requiring the user to remain online. The platform is designed to expand across additional assets, advanced order types, APIs, and embedded services.",
+        "long_text_mm5hgry2": "No. Pinnaccle was built for Canton and has not been deployed as a substantially similar product on another blockchain. It is currently live as a controlled private beta on Canton MainNet.",
+        "long_text_mm4k4y1h": "Pinnaccle's initial users are Canton ecosystem participants and individual professional users who hold or trade Canton-native assets and want self-custodial market access, automated strategies, portfolio analytics, and clear settlement records. The current application targets retail users. Over time, Pinnaccle intends to make selected wallet, execution, automation, and reconciliation capabilities available to treasury users, institutional teams, and other Canton applications through APIs or embedded services. Those are expansion areas, not claims of current institutional adoption.",
+        "long_text_mm4k15bg": "If Pinnaccle receives Featured App status and the applicable weighting, reward attribution will be limited to two completed user outcomes: 1. A settled market swap initiated by a user. 2. A successfully executed DCA slot. Each outcome is counted once and becomes eligible only after it has positive spent and received amounts, a valid execution price, confirmed delivery to the owner wallet, and a reconciled final receipt. A DCA slot may require several technical ledger updates, but those updates do not create additional reward-bearing activity. Pinnaccle does not request reward attribution for wallet setup, receive, send, token preapproval, quotes, order preparation, DCA reserve or capacity management, fee-balance activity, pause, cancellation, refunds, pending or failed settlements, skipped or expired slots, retries, delivery observation, or receipt maintenance.",
+        "long_text_mm4kh3fw": "The Canton ledger is Pinnaccle's source of truth for asset ownership, user authorization, strategy state, settlement, and completed execution records. For a market swap, the browser wallet authorizes the exact action locally. Pinnaccle submits the order directly to integrated market venue contracts through an atomic delivery-versus-payment settlement workflow. Pinnaccle then verifies delivery to the owner wallet and reconciles the spent amount, received amount, and execution price before recording the swap as complete. Pinnaccle provides the integrated wallet, execution, portfolio, automation, reconciliation, and receipt experience; it does not operate the underlying liquidity pool. For DCA, the user creates a finite and revocable Token Standard V2 strategy. The scheduler can act only within its approved pair, per-execution amount, cadence, total cap, expiry, and cancellation boundary. Each due slot uses the same market-settlement workflow and is finalized only after output delivery and reconciliation. The browser does not need to remain open. Recovery phrases and raw private keys never reach Pinnaccle's backend. The prepaid execution-fee balance is a separate, limited-purpose service balance and is not mixed with users' trading assets or the DvP settlement.",
+        "long_text_mm4kfg50": "Canton Coin. Pinnaccle's proposed reward-bearing activities, completed market swaps and successful DCA executions, use CC-based attribution under the applicable CIP-0104 mechanism. The submitted Pinnaccle application PartyID participates in the MainNet settlement route as a provider/confirmer. Pinnaccle does not use explicit Activity Markers for those same MainNet outcomes, preventing duplicate attribution. A separate fail-closed Activity Marker path has been implemented and tested on DevNet. It can create one marker only after an eligible swap or DCA execution has completed and its final receipt has been reconciled. It also verifies the applicable right, timing window, and idempotency state. Failed, pending, canceled, retried, or purely technical activity cannot create a marker.",
+        "long_text_mm4kxcm2": "During the controlled private beta, an active user is expected to complete approximately one to five market outcomes on an ordinary active day. A DCA plan using the fastest current cadence of every three hours can produce up to eight successful slots in 24 hours, but this is a product boundary rather than the expected daily average. Many approved users will have no on-ledger trading activity on a given day.",
+        "long_text_mm4kvyjq": "A user may initiate separate market swaps in the same round, or a manual swap may occur near an independently scheduled DCA slot. Separately authorized DCA plans may also become due near the same period. Supporting ledger updates for authorization, settlement, delivery, and reconciliation do not become separate eligible outcomes. Duplicate-submission and slot-idempotency controls prevent retries from producing more than one completed receipt or explicit marker for the same economic outcome.",
+        "long_text_mm4k1cm0": "Activity is expected to scale approximately with the number of active users, their genuine market activity, and their authorized DCA schedules. Invite-only onboarding, configurable execution minimums, rate limits, and bounded DCA strategies constrain abnormal growth. Missed DCA windows are skipped rather than replayed later to manufacture activity.",
+        "long_text_mm4kfkwn": "Pinnaccle's first users are approved Canton ecosystem participants who hold or trade Canton-native assets and want self-custodial market execution, recurring strategies, portfolio monitoring, and clear settlement history. The controlled MainNet private beta is live now. Broader onboarding will remain staged while execution quality, support load, security controls, and economics are monitored.",
+        "long_text_mm4k6q73": "Pinnaccle would continue operating and developing the product through its execution-fee model. Without Featured App status, growth would be staged more conservatively because validator and network costs would remain fully borne by the platform. Featured App rewards would support security, infrastructure, product development, and ecosystem expansion, but they are not required for the product to function and would not change Pinnaccle's prohibition on artificial activity.",
+        "long_text_mm4kwxt1": "Yes. Current controls include: - Invite-only MainNet access through individually approved accounts. - A current minimum execution size of 25 CC equivalent for swaps and DCA slots. - A fixed Pinnaccle fee charged only after a completed economic outcome. - Rate limits and duplicate-submission protection on sensitive actions. - No ability for users to select a matching counterparty through Pinnaccle. - Positive spent, received, price, delivery, and final-receipt checks before completion. - One completed receipt for one reconciled economic outcome. - Finite DCA strategies with fixed pair, amount, cadence, total cap, expiry, and cancellation boundary. - Missed DCA windows are skipped rather than replayed as new user activity. - No explicit marker for wallet, capacity, fee, cancellation, refund, failed, retry, or technical reconciliation activity. - Ledger-linked records that support review of circular, concentrated, duplicate, or abnormal behavior and restriction of the associated account. Pinnaccle does not reward transaction count. A completed round trip incurs venue fees, price impact, and Pinnaccle execution fees in both directions.",
+        "long_text_mm4khbeg": "Private repository.",
+        "long_text_mm4kxsgy": "This submission replaces and updates Pinnaccle's previous Featured App application, Entry ID 1107. The testing instructions and restricted Drive materials already submitted for that entry remain current and may be carried forward to this application. Pinnaccle's distinguishing capability is self-custodial scheduled execution. Users can authorize a finite, revocable DCA strategy and allow due executions to run without remaining online, surrendering wallet keys, or granting open-ended control. Every completed execution remains ledger-visible and reconciled to the owner wallet. The MainNet private beta has completed bidirectional CC/USDCx market swaps and repeated unattended DCA executions. Pinnaccle's separate DvP Status Request addresses the atomic market-settlement component of completed swaps and successful DCA slots. It does not seek DvP treatment or separate reward attribution for wallet operations, capacity management, fees, technical orchestration, or unsuccessful outcomes. Pinnaccle can provide a guided technical walkthrough, controlled repository access, transaction exports, or additional evidence requested by the Committee."
       }
     }
   ]
