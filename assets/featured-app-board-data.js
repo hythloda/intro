@@ -1,5 +1,5 @@
 window.FEATURED_APP_BOARD_DATA = {
-  "generatedAt": "2026-09-07T12:41:39.884Z",
+  "generatedAt": "2026-09-08T11:25:05.351Z",
   "columns": [
     {
       "id": "text_mm4k2vch",
@@ -323,7 +323,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12959523630",
       "name": "MetCredX - NIPRO TECHNOLOGIES LIMITED",
-      "updatedAt": "2026-09-07T05:06:04Z",
+      "updatedAt": "2026-09-08T11:00:14Z",
       "values": {
         "text_mm4k2vch": "NIPRO TECHNOLOGIES LIMITED",
         "color_mm4kmej3": "1-Needs Review",
@@ -576,7 +576,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12959492765",
       "name": "Selay Wallet - Security Layer Innovations Limited",
-      "updatedAt": "2026-09-07T05:06:06Z",
+      "updatedAt": "2026-09-08T11:00:16Z",
       "values": {
         "text_mm4k2vch": "Security Layer Innovations Limited",
         "color_mm4kmej3": "1-Needs Review",
@@ -807,7 +807,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12959522895",
       "name": "ccledger - Blueprint Infrastructure, LLC",
-      "updatedAt": "2026-09-07T05:06:07Z",
+      "updatedAt": "2026-09-08T11:00:19Z",
       "values": {
         "text_mm4k2vch": "Blueprint Infrastructure, LLC",
         "color_mm4kmej3": "1-Needs Review",
@@ -937,35 +937,6 @@ window.FEATURED_APP_BOARD_DATA = {
         "long_text_mm4k6q73": "We would still intend to proceed without FA status. The main impact is that we would likely make adjustments to the project and rollout in order to offset some of the operating costs that FA status is intended to support.",
         "long_text_mm4kwxt1": "Yes. The token lifecycle is tied directly to real ClearLoop events such as deposits, delegations, undelegations, settlements, and withdrawals. These events arise from existing operational workflows and approved participants rather than from open-ended user activity. There is no plan to share application rewards with users, so there is no direct incentive to generate artificial volume.",
         "long_text_mm4kxsgy": "This application should be understood as the token issuer and token lifecycle layer for ClearLoop on Canton. It is intentionally separate from ClearLoop Settlement. ClearLoop Tokens is responsible for creating and maintaining the token representation of ClearLoop balances and movements, relying on Digital Asset's Utilities for that token layer and the related token-lifecycle Activity Marker flows for this Featured Application. ClearLoop Settlement is the distinct application responsible for consuming that token layer, submitting settlement-related Canton transactions, and creating its own settlement Activity Markers to help cover the operational cost of that settlement workflow. This separation reflects two different operational roles within the overall ClearLoop design."
-      }
-    },
-    {
-      "id": "12467857210",
-      "name": "Rho Relay",
-      "updatedAt": "2026-08-24T16:49:17Z",
-      "values": {
-        "text_mm4k2vch": "Rho Labs (Arda Solutions LLC MENA FZ)",
-        "color_mm4kmej3": "2-Approved",
-        "long_text_mm4kq322": "rho-relay::12202d95f280fada14a100a940bb0901a08882cccc92144bc4cf9856994e192e3e73",
-        "color_mm4kpp3q": "Non-Issuer",
-        "long_text_mm4khjn6": "bron::1220f0cefe0949ae8b29d6fec5ce8fc5573147bd5b7fe845f97da6a2ce7a6beebe87",
-        "numeric_mm4k6919": "5.0",
-        "long_text_mm4km2s7": "Rho Labs is the developer of Rho Protocol, the world's first cryptonative rates trading market, launched in May 2024. In 2025 the company launched Rho X, a hybrid interest rates DEX that combines professional-grade trading infrastructure with user funds secured on Ethereum Mainnet. Rho X offers trading across multiple markets, including BTC and ETH funding rates, Ethereum staking rates, and stablecoin yields. Rho Labs is building the future of on-chain rates trading.",
-        "link_mm4kmq24": "https://relay.rho.trading/",
-        "long_text_mm4k2537": "Rho Relay turns Canton into the universal institutional grade private settlement layer for cross-chain trading infrastructure. Any token, any chain - settled through Canton with built in privacy, zero slippage, MEV protection, and full auditability. We are building the bridge that makes Canton the center of cross-chain DeFi.",
-        "long_text_mm4k4y1h": "'- Retail users seeking to acquire Canton Coin (CC) from other chains - Institutional traders and treasury managers requiring privacy for large trades - DEX aggregators (1inch, 0x, CowSwap) routing trades through Canton for best prices - Market makers providing liquidity and earning yield",
-        "long_text_mm4k15bg": "Canton Coin Integration: - Cross-chain CC on-ramp - Rho Relay is the first native path for EVM users to acquire Canton Coin without centralized exchange intermediation. Every swap where CC is the destination asset creates direct buy-side demand for the token. - CC as settlement gas - all Canton ledger operations (Mint, DvP, Burn) consume CC for transaction fees, generating baseline CC demand proportional to settlement volume. - CC as reward denomination - application rewards received in CC, aligning Rho Relay's growth incentives with Canton Coin value. Activity Markets Integration: - Each completed settlement (Mint, DvP Swap, Burn) writes a `FeaturedAppActivityMarker` to Canton's Activity Markets - one marker per ledger operation, not per user action. - Markers convert to `AppRewardCoupons` via Super Validators and redeem for CC within the 10-minute minting cycle. - As connected chains and aggregator integrations scale, marker generation compounds - every new settlement route through Canton increases Activity Markets throughput.",
-        "long_text_mm4kh3fw": "Rho Relay uses Canton's ledger as the private settlement layer for cross-chain RFQ swaps. Users connect from any EVM chain via Rho Universal Wallet Adapter - translating native wallet signatures into Canton-authenticated sessions, so every EVM wallet becomes a Canton on-ramp. Quotes are discovered privately off-ledger, and the winning quote settles atomically through DAML contracts: both legs of the swap complete in a single Canton transaction or neither does. Zero counterparty risk, zero partial fills, full sub-transaction privacy. For cross-chain swaps, Rho Relay manages the complete bridge token lifecycle on Canton through CIP-56-compliant DAML contracts - minting, escrow, and burning - with provable 1:1 backing at all times.",
-        "long_text_mm4kebr8": "Three reward-eligible activity types, each generating a privacy-enabled settlement record on Canton's ledger: - Mint - Emission of a CIP-56 compliant asset wrapper on Canton, representing a verified locked position on any connected source chain. Establishes Canton as the canonical settlement record for cross-chain assets. - Swap (DvP) - Atomic Delivery-vs-Payment settlement executed through Canton's Global Synchronizer. Both counterparties cryptographically sign via native wallets on their respective chains. Single transaction, zero counterparty exposure. - Burn - Redemption of the Canton-held wrapper and release of the underlying token on the destination chain. Completes the cross-chain settlement cycle. Each operation generates one FeaturedAppActivityMarker. Activity volume scales with the number of connected chains and liquidity sources - every new chain integration or aggregator partnership adds a new inflow of settlements routed through Canton.",
-        "long_text_mm4kfg50": "Activity Markers are embedded into the settlement pipeline, not bolted on. Each ledger operation (Mint, DvP Swap, Burn) triggers `FeaturedAppRight_CreateActivityMarker` with Rho Relay's Party ID as provider. Beneficiary weights are configurable - enabling future reward-sharing with market makers and liquidity providers to incentivize deeper Canton liquidity.",
-        "long_text_mm4kxcm2": "Depends on settlement scheme and trading pair. Each swap may involve multiple ledger operations including minting, DvP settlement, and burning. Market maker activity adds independent transactions on each fill. Effective ledger transaction count per user is higher than the user-initiated swap count.",
-        "long_text_mm4kvyjq": "Multiple transactions per round is the baseline behavior, not an exception. Each swap generates up to 3 ledger operations (Mint, DvP, Burn) that may land within the same or consecutive rounds. Common multi-transaction patterns: portfolio rebalancing across assets and chains, recurring DCA execution, cross-chain arbitrage against external pricing. Market makers independently generate settlement activity on every accepted quote, further increasing per-round density. Each swap involves up to 3 distinct ledger operations - Mint (bridge token creation), DvP (atomic swap settlement), and Burn (bridge token redemption) - which may land within the same or consecutive rounds. A user performing multiple swaps (e.g. swapping different token pairs, or converting in both directions) will naturally generate multiple transactions per round. Market makers generate independent settlement activity on every accepted quote, adding to per-round transaction density. All operations require real economic value locked on Ethereum, preventing artificial inflation.",
-        "long_text_mm4k1cm0": "Super-linear. Each new chain integration creates N-1 new directional settlement routes on Canton (combinatorial pair growth). Liquidity depth compounds: more market makers produce tighter spreads, tighter spreads attract more volume, more volume attracts more market makers. User growth and infrastructure growth are independent multipliers on Canton settlement activity.",
-        "long_text_mm4kd4h2": "Deployed to MainNet on 06 Feb 2026. Live.",
-        "long_text_mm4kfkwn": "Phase 1 (Feb): Internal market maker. Taker side: early adopters from the Canton community and Rho's existing DeFi user base acquiring CC through the first native cross-chain on-ramp. Phase 2 (Feb-Mar): Cross-pollination from Rho X - an existing user base generating $130M+ daily volume and $150M open interest on Rho's rates exchange. Natural demand for cross-chain settlement. Professional market makers from Rho's existing network (incl. Flow Traders, Keyrock - both Rho investors and active trading firms). Seeding initial liquidity, calibrating settlement parameters. Phase 3 (Q2 2026): DEX aggregator pipeline. Each integration (1inch: 4M+ monthly active users, 0x: powers major wallet backends, CowSwap: batch auction liquidity) routes external settlement volume directly through Canton.",
-        "long_text_mm4k6q73": "FA status signals mutual commitment between Canton and Rho Labs. Without it, we would reduce scope and timeline, proceeding with a minimal viable integration rather than the full-featured product with deep aggregator partnerships we're planning.",
-        "long_text_mm4kwxt1": "Yes. The RFQ model is structurally resistant to wash trading - each settlement requires two independent counterparties (taker + market maker) to cryptographically commit via separate wallets. No single party can generate synthetic activity. Additional controls: minimum notional thresholds per swap, per-party rate limiting, whitelisting market makers during initial phases. All settlement activity is fully auditable on Canton's ledger.",
-        "long_text_mm4kxsgy": "$6.2M raised from CoinFund, Flow Traders, Keyrock, Speedinvest - investors who are also active counterparties in our trading infrastructure. Rho X: $130M+ daily volume, $150M open interest, three independent security audits. Rho Relay brings Canton EVM liquidity via native cross-chain CC on-ramp, and institutional demand - treasury managers, asset managers, and professional traders who need private, compliant settlement that only Canton can offer. Roadmap beyond launch: additional chain integrations, aggregator pipeline, and evaluation of migrating Rho's core settlement infrastructure to Canton."
       }
     },
     {
@@ -1158,7 +1129,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12870058108",
       "name": "R1M Sentinel - R1M",
-      "updatedAt": "2026-09-07T05:06:09Z",
+      "updatedAt": "2026-09-08T11:00:21Z",
       "values": {
         "text_mm4k2vch": "R1M",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -1581,7 +1552,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12942533482",
       "name": "USYC - Circle",
-      "updatedAt": "2026-09-04T19:15:02Z",
+      "updatedAt": "2026-09-08T09:33:47Z",
       "values": {
         "text_mm4k2vch": "Circle",
         "color_mm4kmej3": "2-Approved",
@@ -1744,7 +1715,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12791057047",
       "name": "OS Ledger - Outersunset",
-      "updatedAt": "2026-09-07T05:06:11Z",
+      "updatedAt": "2026-09-08T11:00:23Z",
       "values": {
         "text_mm4k2vch": "Outersunset",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -1860,7 +1831,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467857175",
       "name": "7Trust",
-      "updatedAt": "2026-09-07T05:06:12Z",
+      "updatedAt": "2026-09-08T11:00:25Z",
       "values": {
         "text_mm4k2vch": "C7",
         "color_mm4kmej3": "2-Approved",
@@ -2067,6 +2038,35 @@ window.FEATURED_APP_BOARD_DATA = {
       }
     },
     {
+      "id": "12467857210",
+      "name": "Rho Relay",
+      "updatedAt": "2026-08-24T16:49:17Z",
+      "values": {
+        "text_mm4k2vch": "Rho Labs (Arda Solutions LLC MENA FZ)",
+        "color_mm4kmej3": "2-Approved",
+        "long_text_mm4kq322": "rho-relay::12202d95f280fada14a100a940bb0901a08882cccc92144bc4cf9856994e192e3e73",
+        "color_mm4kpp3q": "Non-Issuer",
+        "long_text_mm4khjn6": "bron::1220f0cefe0949ae8b29d6fec5ce8fc5573147bd5b7fe845f97da6a2ce7a6beebe87",
+        "numeric_mm4k6919": "5.0",
+        "long_text_mm4km2s7": "Rho Labs is the developer of Rho Protocol, the world's first cryptonative rates trading market, launched in May 2024. In 2025 the company launched Rho X, a hybrid interest rates DEX that combines professional-grade trading infrastructure with user funds secured on Ethereum Mainnet. Rho X offers trading across multiple markets, including BTC and ETH funding rates, Ethereum staking rates, and stablecoin yields. Rho Labs is building the future of on-chain rates trading.",
+        "link_mm4kmq24": "https://relay.rho.trading/",
+        "long_text_mm4k2537": "Rho Relay turns Canton into the universal institutional grade private settlement layer for cross-chain trading infrastructure. Any token, any chain - settled through Canton with built in privacy, zero slippage, MEV protection, and full auditability. We are building the bridge that makes Canton the center of cross-chain DeFi.",
+        "long_text_mm4k4y1h": "'- Retail users seeking to acquire Canton Coin (CC) from other chains - Institutional traders and treasury managers requiring privacy for large trades - DEX aggregators (1inch, 0x, CowSwap) routing trades through Canton for best prices - Market makers providing liquidity and earning yield",
+        "long_text_mm4k15bg": "Canton Coin Integration: - Cross-chain CC on-ramp - Rho Relay is the first native path for EVM users to acquire Canton Coin without centralized exchange intermediation. Every swap where CC is the destination asset creates direct buy-side demand for the token. - CC as settlement gas - all Canton ledger operations (Mint, DvP, Burn) consume CC for transaction fees, generating baseline CC demand proportional to settlement volume. - CC as reward denomination - application rewards received in CC, aligning Rho Relay's growth incentives with Canton Coin value. Activity Markets Integration: - Each completed settlement (Mint, DvP Swap, Burn) writes a `FeaturedAppActivityMarker` to Canton's Activity Markets - one marker per ledger operation, not per user action. - Markers convert to `AppRewardCoupons` via Super Validators and redeem for CC within the 10-minute minting cycle. - As connected chains and aggregator integrations scale, marker generation compounds - every new settlement route through Canton increases Activity Markets throughput.",
+        "long_text_mm4kh3fw": "Rho Relay uses Canton's ledger as the private settlement layer for cross-chain RFQ swaps. Users connect from any EVM chain via Rho Universal Wallet Adapter - translating native wallet signatures into Canton-authenticated sessions, so every EVM wallet becomes a Canton on-ramp. Quotes are discovered privately off-ledger, and the winning quote settles atomically through DAML contracts: both legs of the swap complete in a single Canton transaction or neither does. Zero counterparty risk, zero partial fills, full sub-transaction privacy. For cross-chain swaps, Rho Relay manages the complete bridge token lifecycle on Canton through CIP-56-compliant DAML contracts - minting, escrow, and burning - with provable 1:1 backing at all times.",
+        "long_text_mm4kebr8": "Three reward-eligible activity types, each generating a privacy-enabled settlement record on Canton's ledger: - Mint - Emission of a CIP-56 compliant asset wrapper on Canton, representing a verified locked position on any connected source chain. Establishes Canton as the canonical settlement record for cross-chain assets. - Swap (DvP) - Atomic Delivery-vs-Payment settlement executed through Canton's Global Synchronizer. Both counterparties cryptographically sign via native wallets on their respective chains. Single transaction, zero counterparty exposure. - Burn - Redemption of the Canton-held wrapper and release of the underlying token on the destination chain. Completes the cross-chain settlement cycle. Each operation generates one FeaturedAppActivityMarker. Activity volume scales with the number of connected chains and liquidity sources - every new chain integration or aggregator partnership adds a new inflow of settlements routed through Canton.",
+        "long_text_mm4kfg50": "Activity Markers are embedded into the settlement pipeline, not bolted on. Each ledger operation (Mint, DvP Swap, Burn) triggers `FeaturedAppRight_CreateActivityMarker` with Rho Relay's Party ID as provider. Beneficiary weights are configurable - enabling future reward-sharing with market makers and liquidity providers to incentivize deeper Canton liquidity.",
+        "long_text_mm4kxcm2": "Depends on settlement scheme and trading pair. Each swap may involve multiple ledger operations including minting, DvP settlement, and burning. Market maker activity adds independent transactions on each fill. Effective ledger transaction count per user is higher than the user-initiated swap count.",
+        "long_text_mm4kvyjq": "Multiple transactions per round is the baseline behavior, not an exception. Each swap generates up to 3 ledger operations (Mint, DvP, Burn) that may land within the same or consecutive rounds. Common multi-transaction patterns: portfolio rebalancing across assets and chains, recurring DCA execution, cross-chain arbitrage against external pricing. Market makers independently generate settlement activity on every accepted quote, further increasing per-round density. Each swap involves up to 3 distinct ledger operations - Mint (bridge token creation), DvP (atomic swap settlement), and Burn (bridge token redemption) - which may land within the same or consecutive rounds. A user performing multiple swaps (e.g. swapping different token pairs, or converting in both directions) will naturally generate multiple transactions per round. Market makers generate independent settlement activity on every accepted quote, adding to per-round transaction density. All operations require real economic value locked on Ethereum, preventing artificial inflation.",
+        "long_text_mm4k1cm0": "Super-linear. Each new chain integration creates N-1 new directional settlement routes on Canton (combinatorial pair growth). Liquidity depth compounds: more market makers produce tighter spreads, tighter spreads attract more volume, more volume attracts more market makers. User growth and infrastructure growth are independent multipliers on Canton settlement activity.",
+        "long_text_mm4kd4h2": "Deployed to MainNet on 06 Feb 2026. Live.",
+        "long_text_mm4kfkwn": "Phase 1 (Feb): Internal market maker. Taker side: early adopters from the Canton community and Rho's existing DeFi user base acquiring CC through the first native cross-chain on-ramp. Phase 2 (Feb-Mar): Cross-pollination from Rho X - an existing user base generating $130M+ daily volume and $150M open interest on Rho's rates exchange. Natural demand for cross-chain settlement. Professional market makers from Rho's existing network (incl. Flow Traders, Keyrock - both Rho investors and active trading firms). Seeding initial liquidity, calibrating settlement parameters. Phase 3 (Q2 2026): DEX aggregator pipeline. Each integration (1inch: 4M+ monthly active users, 0x: powers major wallet backends, CowSwap: batch auction liquidity) routes external settlement volume directly through Canton.",
+        "long_text_mm4k6q73": "FA status signals mutual commitment between Canton and Rho Labs. Without it, we would reduce scope and timeline, proceeding with a minimal viable integration rather than the full-featured product with deep aggregator partnerships we're planning.",
+        "long_text_mm4kwxt1": "Yes. The RFQ model is structurally resistant to wash trading - each settlement requires two independent counterparties (taker + market maker) to cryptographically commit via separate wallets. No single party can generate synthetic activity. Additional controls: minimum notional thresholds per swap, per-party rate limiting, whitelisting market makers during initial phases. All settlement activity is fully auditable on Canton's ledger.",
+        "long_text_mm4kxsgy": "$6.2M raised from CoinFund, Flow Traders, Keyrock, Speedinvest - investors who are also active counterparties in our trading infrastructure. Rho X: $130M+ daily volume, $150M open interest, three independent security audits. Rho Relay brings Canton EVM liquidity via native cross-chain CC on-ramp, and institutional demand - treasury managers, asset managers, and professional traders who need private, compliant settlement that only Canton can offer. Roadmap beyond launch: additional chain integrations, aggregator pipeline, and evaluation of migrating Rho's core settlement infrastructure to Canton."
+      }
+    },
+    {
       "id": "12467777690",
       "name": "Hashnote",
       "updatedAt": "2026-07-23T13:35:31Z",
@@ -2189,7 +2189,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12769413819",
       "name": "Canquest - PT JARINGAN SIMPUL TEKNOLOGI",
-      "updatedAt": "2026-09-07T05:06:14Z",
+      "updatedAt": "2026-09-08T11:00:27Z",
       "values": {
         "text_mm4k2vch": "PT JARINGAN SIMPUL TEKNOLOGI",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -2712,7 +2712,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467789103",
       "name": "Jubilee Treasury",
-      "updatedAt": "2026-09-07T05:06:16Z",
+      "updatedAt": "2026-09-08T11:00:28Z",
       "values": {
         "text_mm4k2vch": "Jubilee Treasury",
         "color_mm4kmej3": "6-Withdrawn",
@@ -2770,7 +2770,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467834329",
       "name": "Modo Data Platform",
-      "updatedAt": "2026-09-07T05:06:17Z",
+      "updatedAt": "2026-09-08T11:00:30Z",
       "values": {
         "text_mm4k2vch": "Staketab",
         "color_mm4kmej3": "2-Approved",
@@ -2851,7 +2851,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12731951755",
       "name": "Cove Wallet API - Qasara Labs Private Limited",
-      "updatedAt": "2026-09-07T05:06:18Z",
+      "updatedAt": "2026-09-08T11:00:31Z",
       "values": {
         "text_mm4k2vch": "Qasara Labs Private Limited",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -3202,7 +3202,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12626943292",
       "name": "Yellow Card - Yellow Card Financial Inc.",
-      "updatedAt": "2026-09-07T05:06:20Z",
+      "updatedAt": "2026-09-08T11:00:34Z",
       "values": {
         "text_mm4k2vch": "Yellow Card Financial Inc.",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -3366,7 +3366,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12609616425",
       "name": "Arkhia x402 Facilitator-as-a-Service (FaaS) - Arkhia Pte Ltd",
-      "updatedAt": "2026-09-07T05:06:22Z",
+      "updatedAt": "2026-09-08T11:00:36Z",
       "values": {
         "text_mm4k2vch": "Arkhia Pte Ltd",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -3649,7 +3649,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467854321",
       "name": "Privket.com",
-      "updatedAt": "2026-09-07T05:06:23Z",
+      "updatedAt": "2026-09-08T11:00:38Z",
       "values": {
         "text_mm4k2vch": "Privket",
         "color_mm4kmej3": "6-Withdrawn",
@@ -3674,7 +3674,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12568365683",
       "name": "Synfin - Cayvox Labs",
-      "updatedAt": "2026-09-07T05:06:25Z",
+      "updatedAt": "2026-09-08T11:00:39Z",
       "values": {
         "text_mm4k2vch": "Cayvox Labs",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -3783,7 +3783,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12471377959",
       "name": "OpenBaskets - BlockxAI Limited",
-      "updatedAt": "2026-09-07T05:06:27Z",
+      "updatedAt": "2026-09-08T11:00:41Z",
       "values": {
         "text_mm4k2vch": "BlockxAI Limited",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -4239,7 +4239,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467790154",
       "name": "Ov Defi",
-      "updatedAt": "2026-09-07T05:06:28Z",
+      "updatedAt": "2026-09-08T11:00:43Z",
       "values": {
         "text_mm4k2vch": "OneNov",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -4319,7 +4319,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467789257",
       "name": "Saxon Automate / Canton Keeper",
-      "updatedAt": "2026-09-07T05:06:30Z",
+      "updatedAt": "2026-09-08T11:00:44Z",
       "values": {
         "text_mm4k2vch": "Saxon",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -4440,7 +4440,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467790155",
       "name": "Mperps",
-      "updatedAt": "2026-09-07T05:06:31Z",
+      "updatedAt": "2026-09-08T11:00:46Z",
       "values": {
         "text_mm4k2vch": "Lemongrass IT Services LLC-Fz",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -4618,7 +4618,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467790000",
       "name": "BENJI",
-      "updatedAt": "2026-09-07T05:06:33Z",
+      "updatedAt": "2026-09-08T11:00:48Z",
       "values": {
         "text_mm4k2vch": "Franklin Templeton",
         "color_mm4kmej3": "3-CIP-0116-paused",
@@ -4645,7 +4645,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467790006",
       "name": "CC Ledger",
-      "updatedAt": "2026-09-07T10:02:03Z",
+      "updatedAt": "2026-09-08T11:00:49Z",
       "values": {
         "text_mm4k2vch": "Blueprint Infrastructure, LLC",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -5930,7 +5930,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467847773",
       "name": "CC Space",
-      "updatedAt": "2026-09-07T10:02:04Z",
+      "updatedAt": "2026-09-08T11:00:51Z",
       "values": {
         "text_mm4k2vch": "ITRocket LLC",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -6187,7 +6187,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467847778",
       "name": "Ov Defi",
-      "updatedAt": "2026-09-07T10:02:05Z",
+      "updatedAt": "2026-09-08T11:00:52Z",
       "values": {
         "text_mm4k2vch": "OneNov",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -6742,7 +6742,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467834325",
       "name": "ChainSafe x402 Global Facilitator",
-      "updatedAt": "2026-09-07T10:02:06Z",
+      "updatedAt": "2026-09-08T11:00:54Z",
       "values": {
         "text_mm4k2vch": "ChainSafe",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -6771,7 +6771,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467825408",
       "name": "Silvana Book",
-      "updatedAt": "2026-09-07T10:02:08Z",
+      "updatedAt": "2026-09-08T11:00:56Z",
       "values": {
         "text_mm4k2vch": "Silvana",
         "color_mm4kmej3": "2-Approved",
@@ -6800,7 +6800,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467834326",
       "name": "Squads Non-Custodial Wallet",
-      "updatedAt": "2026-09-07T10:02:10Z",
+      "updatedAt": "2026-09-08T11:00:58Z",
       "values": {
         "text_mm4k2vch": "SQUADS",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -6827,7 +6827,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467783449",
       "name": "Mperps",
-      "updatedAt": "2026-09-07T10:02:13Z",
+      "updatedAt": "2026-09-08T11:00:59Z",
       "values": {
         "text_mm4k2vch": "Lemongrass IT Services LLC-Fz",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -6886,7 +6886,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467783450",
       "name": "Canquest",
-      "updatedAt": "2026-09-07T10:02:14Z",
+      "updatedAt": "2026-09-08T11:01:01Z",
       "values": {
         "text_mm4k2vch": "Canquest",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -7434,7 +7434,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467838018",
       "name": "Ekiden",
-      "updatedAt": "2026-09-07T10:02:15Z",
+      "updatedAt": "2026-09-08T11:01:02Z",
       "values": {
         "text_mm4k2vch": "Allspark Markets Ltd.",
         "color_mm4kmej3": "2-Approved",
@@ -7488,7 +7488,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467856988",
       "name": "MEME token and Coinflip",
-      "updatedAt": "2026-09-07T10:02:17Z",
+      "updatedAt": "2026-09-08T11:01:04Z",
       "values": {
         "text_mm4k2vch": "Archerswap",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -7517,7 +7517,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467783446",
       "name": "FlowRyd",
-      "updatedAt": "2026-09-07T10:02:18Z",
+      "updatedAt": "2026-09-08T11:01:06Z",
       "values": {
         "text_mm4k2vch": "Towler Enterprises",
         "color_mm4kmej3": "2-Approved",
@@ -7909,7 +7909,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467847770",
       "name": "VAULT",
-      "updatedAt": "2026-09-07T10:02:19Z",
+      "updatedAt": "2026-09-08T11:01:08Z",
       "values": {
         "text_mm4k2vch": "HighTower",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -7971,7 +7971,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467856986",
       "name": "HydraX",
-      "updatedAt": "2026-09-07T10:02:21Z",
+      "updatedAt": "2026-09-08T11:01:10Z",
       "values": {
         "text_mm4k2vch": "HydraX",
         "color_mm4kmej3": "2-Approved",
@@ -8014,7 +8014,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467856987",
       "name": "Sync Insights",
-      "updatedAt": "2026-09-07T10:02:22Z",
+      "updatedAt": "2026-09-08T11:01:13Z",
       "values": {
         "text_mm4k2vch": "Chata Technologies Inc",
         "color_mm4kmej3": "2-Approved",
@@ -8408,7 +8408,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467824052",
       "name": "Canquest",
-      "updatedAt": "2026-09-06T14:07:08Z",
+      "updatedAt": "2026-09-08T11:01:14Z",
       "values": {
         "text_mm4k2vch": "Naxweb",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -8440,7 +8440,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467789102",
       "name": "7LOCK",
-      "updatedAt": "2026-09-07T10:18:06Z",
+      "updatedAt": "2026-09-08T11:01:16Z",
       "values": {
         "text_mm4k2vch": "C7 Labs UK Limited",
         "color_mm4kmej3": "2-Approved",
@@ -8468,7 +8468,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467824053",
       "name": "Deploi Credit Market",
-      "updatedAt": "2026-09-07T10:35:03Z",
+      "updatedAt": "2026-09-08T11:01:20Z",
       "values": {
         "text_mm4k2vch": "Deploi",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -8528,7 +8528,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467824055",
       "name": "AUROX on Canton for featured app",
-      "updatedAt": "2026-09-07T10:35:05Z",
+      "updatedAt": "2026-09-08T11:01:22Z",
       "values": {
         "text_mm4k2vch": "International Institute of Blockchain Advanced Technology",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -8973,7 +8973,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467789887",
       "name": "Tritemius",
-      "updatedAt": "2026-09-07T10:35:06Z",
+      "updatedAt": "2026-09-08T11:01:24Z",
       "values": {
         "text_mm4k2vch": "Tritemius Fund FCRE I",
         "color_mm4kmej3": "2-Approved",
@@ -9356,7 +9356,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467783401",
       "name": "Vala Wallet: Canton Non Custodial Web Wallet with Featured App Integrations",
-      "updatedAt": "2026-09-06T14:09:20Z",
+      "updatedAt": "2026-09-08T11:01:26Z",
       "values": {
         "text_mm4k2vch": "Finoa Consensus Services",
         "color_mm4kmej3": "2-Approved",
@@ -9385,7 +9385,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467825386",
       "name": "Agora: Survey & Vote",
-      "updatedAt": "2026-09-07T10:51:27Z",
+      "updatedAt": "2026-09-08T11:01:27Z",
       "values": {
         "text_mm4k2vch": "Agora: Survey & Vote",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -9708,7 +9708,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467832618",
       "name": "ScopeX Rate Lock",
-      "updatedAt": "2026-09-07T10:51:28Z",
+      "updatedAt": "2026-09-08T11:01:29Z",
       "values": {
         "text_mm4k2vch": "ScopeX Money",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -9989,7 +9989,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467804368",
       "name": "Nexode",
-      "updatedAt": "2026-09-07T10:51:30Z",
+      "updatedAt": "2026-09-08T11:01:31Z",
       "values": {
         "text_mm4k2vch": "Nexode",
         "color_mm4kmej3": "2-Approved",
@@ -10353,7 +10353,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12974668475",
       "name": "OS Ledger - Outersunset",
-      "updatedAt": "2026-09-06T14:09:26Z",
+      "updatedAt": "2026-09-08T11:01:33Z",
       "values": {
         "text_mm4k2vch": "Outersunset",
         "color_mm4kmej3": "1-Needs Review",
@@ -10380,7 +10380,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12982310839",
       "name": "Ovdefi - OneNov",
-      "updatedAt": "2026-09-06T14:09:27Z",
+      "updatedAt": "2026-09-08T11:01:35Z",
       "values": {
         "text_mm4k2vch": "OneNov",
         "color_mm4kmej3": "1-Needs Review",
@@ -10433,6 +10433,38 @@ window.FEATURED_APP_BOARD_DATA = {
         "long_text_mm4kwxt1": "Yes. Current controls include: - Invite-only MainNet access through individually approved accounts. - A current minimum execution size of 25 CC equivalent for swaps and DCA slots. - A fixed Pinnaccle fee charged only after a completed economic outcome. - Rate limits and duplicate-submission protection on sensitive actions. - No ability for users to select a matching counterparty through Pinnaccle. - Positive spent, received, price, delivery, and final-receipt checks before completion. - One completed receipt for one reconciled economic outcome. - Finite DCA strategies with fixed pair, amount, cadence, total cap, expiry, and cancellation boundary. - Missed DCA windows are skipped rather than replayed as new user activity. - No explicit marker for wallet, capacity, fee, cancellation, refund, failed, retry, or technical reconciliation activity. - Ledger-linked records that support review of circular, concentrated, duplicate, or abnormal behavior and restriction of the associated account. Pinnaccle does not reward transaction count. A completed round trip incurs venue fees, price impact, and Pinnaccle execution fees in both directions.",
         "long_text_mm4khbeg": "Private repository.",
         "long_text_mm4kxsgy": "This submission replaces and updates Pinnaccle's previous Featured App application, Entry ID 1107. The testing instructions and restricted Drive materials already submitted for that entry remain current and may be carried forward to this application. Pinnaccle's distinguishing capability is self-custodial scheduled execution. Users can authorize a finite, revocable DCA strategy and allow due executions to run without remaining online, surrendering wallet keys, or granting open-ended control. Every completed execution remains ledger-visible and reconciled to the owner wallet. The MainNet private beta has completed bidirectional CC/USDCx market swaps and repeated unattended DCA executions. Pinnaccle's separate DvP Status Request addresses the atomic market-settlement component of completed swaps and successful DCA slots. It does not seek DvP treatment or separate reward attribution for wallet operations, capacity management, fees, technical orchestration, or unsuccessful outcomes. Pinnaccle can provide a guided technical walkthrough, controlled repository access, transaction exports, or additional evidence requested by the Committee."
+      }
+    },
+    {
+      "id": "12993064923",
+      "name": "Rocky Wallet - Dune Labs",
+      "updatedAt": "2026-09-08T11:01:36Z",
+      "values": {
+        "text_mm4k2vch": "Dune Labs",
+        "color_mm4kmej3": "1-Needs Review",
+        "long_text_mm4kq322": "dunelabs-validator-1::12203251ed85a1811755a4c7d1c0af8e50bf95bd72ae7fadd047e266d085a573e476",
+        "color_mm4kpp3q": "Non-Issuer",
+        "long_text_mm4khjn6": "23d169c2-0909-4c70-81d1-1922de6febaa::12200a265be75cf1f7c03fbcc0d28e221e94946e627115c489b751ae3ef700c4859d",
+        "numeric_mm4k6919": "5.0",
+        "long_text_mm4km2s7": "Dune Labs is a blockchain-focused investment and incubation team that also operates infrastructure and builds products across digital asset markets. Our engineering team includes engineers with backgrounds in exchange infrastructure and underlying blockchain architecture, including experience with Hyperledger-based systems. We began working with the Canton Network because of its focus on privacy, interoperability, and institutional use cases. Rather than participating only as an investor, we also operate our own Canton Validator so that our team can better understand the network at the infrastructure level and contribute directly to its ecosystem. As part of this work, Dune Labs is developing Rocky Wallet, a self-custodial wallet built for the Canton Network. The wallet is designed to help users hold, transfer, and interact with Canton assets, while also supporting selected external networks where relevant. Our goal is straightforward: build useful infrastructure, operate it ourselves, and improve it based on real usage and feedback from the Canton ecosystem.",
+        "link_mm4kd0hk": "https://drive.google.com/drive/folders/1NMPHPodxwDYTpFgvy7E2iS22hEduA_xr?usp=drive_link",
+        "link_mm4kmq24": "https://extension.rocky.exchange/",
+        "link_mm4krmse": "https://github.com/orgs/Rocky-Wallet/repositories",
+        "link_mm4kqtfa": "https://drive.google.com/file/d/1sxDA40f6YqnzKwDtuuIbu84eVpJL0NwT/view?usp=sharing",
+        "long_text_mm4k2537": "Rocky Wallet is a Canton-native self-custodial wallet for holding, sending, receiving, and interacting with assets on Canton, while also supporting inbound asset transfers from selected external networks. On Canton MainNet, Rocky Wallet supports assets including CC, USDA, USDC, Hecto, cUSD, cBTC, cETH, and USDCx, with key management, Party ID generation, balance viewing, transfers, Offers, Preapproved Receiving, and transaction history. Users can switch between: • Canton MainNet • Ethereum, BNB Smart Chain, and Arbitrum One • Base, Avalanche C-Chain, OP Mainnet, Polygon, and Arbitrum Sepolia, which can be enabled in-app Supported external assets can be moved into Rocky Wallet for use on Canton. Canton remains Rocky Wallet’s primary network, while external networks mainly serve as inbound rails. Future features include multi-signature support, integrated instant messaging and community features, MCP and other Web3 wallet standards, and a native mobile app.",
+        "long_text_mm5hgry2": "No. Rocky Wallet was designed and deployed as a Canton-native product. It has not been launched as a standalone wallet whose home ledger is another public blockchain. Compared with the prior version, Rocky Wallet now supports inbound transfers from multiple external networks. Users can add Ethereum, BNB Smart Chain, and Arbitrum One, with Base, Avalanche C-Chain, OP Mainnet, Polygon, and Arbitrum Sepolia also available to enable in-app. Supported assets can be moved into Rocky Wallet and, after inbound settlement, managed and transferred under Canton’s Token Standard / Party ID model. Rocky Wallet is differentiated by its Canton-native self-custodial functions, multi-network asset on-ramp, and roadmap for social and collaborative features on Canton. Rocky Wallet is developed by Dune Labs and can integrate with other Canton applications while serving both retail and professional users under Canton’s privacy model.",
+        "long_text_mm4k4y1h": "Rocky Wallet is designed for Canton users, external asset holders entering Canton, and professional users seeking a secure, seamless wallet experience. • Canton users and CC holders who need to hold and transfer supported assets. • Users bringing supported assets from EVM networks into Canton. • Users of Canton applications who need wallet access for deposits, withdrawals, and settlement. • Institutional and professional users who value Canton’s privacy, multi-sig, and access-control capabilities. • Future mobile and community users who will use messaging, group, and other social features. Initial users will come from the Rocky / Dune Labs network, Canton ecosystem participants, Validator and Super Validator communities, supported EVM networks, and early Canton adopters.",
+        "long_text_mm4k15bg": "Rocky Wallet rewards will come from real activity on Canton: • Transfers, Offers, and Preapproved Receiving on Canton. • Future multi-sig and collaborative wallet actions. • Deposits, withdrawals, and settlement with other Canton apps. • Messaging-related and mobile transactions once launched. Rewards will follow only genuine Canton-ledger events.",
+        "long_text_mm4kh3fw": "Rocky Wallet interacts with the Canton Ledger through the official Canton Ledger API. The Chrome extension works with a Node.js backend and a connected Participant Node / Validator to submit Daml / Token Standard operations such as transfers, Offers, and Preapproved Receiving. Canton MainNet is Rocky Wallet’s primary ledger. The wallet reads balances and transaction history from the ledger and listens to transaction streams to keep balances, pending transfers, and history synchronized. Transactions are submitted only after user confirmation and follow Canton’s party-based privacy model. Rocky Wallet also supports inbound asset transfers from multiple EVM networks. External-chain transactions serve only as an on-ramp; once assets enter Canton, subsequent balances, transfers, and Offers are handled through the Canton Ledger API. External-chain transactions are not counted as Featured App activity. Final settlement, privacy, and security remain anchored on the Canton Ledger, and the backend does not custody user mnemonics.",
+        "long_text_mm4kfg50": "Both, over time. Canton Coin is already used as the fee asset, a held asset, and the unit of account for Rocky Wallet transfers. Core live activity is Canton Coin / Token Standard transfer flow, not synthetic marker farming. For Featured App rewards, Rocky Wallet plans to integrate Canton’s current mechanism — traffic-based rewards under CIP-0104 and/or FeaturedAppActivityMarker where required by then-current guidelines — into genuine Daml transfer, multi-sig, and later social / community flows. Markers or traffic-based rewards will be created only alongside genuine ledger events. See the following question for the current state of marker implementation and pre-launch verification.",
+        "long_text_mm4kxcm2": "For active wallet users we expect on average: • Launch phase: 1–3 transfer-related activities per day • Early growth (with social incentives and messaging): 2–5 activities per day • Scale phase: 2–6 activities per day for active users Many users will be lower-frequency holders who transfer infrequently. The figures above refer to active users who regularly send, receive, or use social incentive, bounty, multi-sig, or messaging features. These activities do not map 1:1 to ledger transactions because some operations can be batched or combined where the protocol allows.",
+        "long_text_mm4kvyjq": "A user may generate multiple transactions within a single 10-minute reward round when they perform several transfers, receive multiple incoming payments, or (once launched) participate in multiple social incentive or bounty actions, or multi-sig operations in a short period. This is expected and normal for active users, especially those coordinating with groups or using the wallet in daily social / financial flows. To keep rewards tied to genuine activity, the wallet will apply basic safeguards such as minimum notional thresholds where appropriate, rate limits on marker or reward creation, and exclusion of obvious self-dealing or zero-value spam. Access controls and KYC/KYB options for higher-tier features will further reduce abuse potential.",
+        "long_text_mm4k1cm0": "Sub-linear. Wallet usage is dominated by occasional transfers and social interactions rather than high-frequency trading. As the user base grows, many users will remain low-frequency holders. Efficient Daml contract design, potential batching of related operations, and the natural distribution of activity (most users transfer infrequently) mean ledger transaction growth should lag behind raw user growth. Introduction of social and multi-sig features will increase average activity per active user, but overall scaling is still expected to remain sub-linear relative to total registered users.",
+        "long_text_mm4kfkwn": "First customers are early Canton ecosystem participants, existing users of Rocky-related products, Dune Labs network contacts, Validator / Super Validator community members, holders of supported assets on Ethereum / BNB Smart Chain / Arbitrum One (and other enableable networks) who want an inbound path into Canton, and early adopters of Canton-native applications who need a reliable wallet for CC and supported assets. Public MainNet go-live for the initial Canton release: 10 August 2026 (already live at the time of this resubmission). The inbound multi-network switcher is part of the current product upgrade after that date. Roadmap features (multi-sig, red packets, instant messaging, native mobile, broader MCP support) follow after the core wallet, gated where appropriate on security work.",
+        "long_text_mm4k6q73": "Not having Featured Application (FA) status would not materially change Rocky Wallet’s core development or operating plans. The wallet’s primary value is as Canton infrastructure for custody and transfer of native assets, with a roadmap toward multi-sig, instant messaging, and mobile applications. It is designed to be useful and sustainable regardless of Featured App rewards. If FA status is not granted, protocol-level CC rewards via traffic-based mechanisms would be a secondary growth incentive rather than a core dependency. We would continue to prioritise user experience, security, multi-sig, social features, and integrations with other Canton applications. Launch timeline and feature roadmap would remain the same.",
+        "long_text_mm4kwxt1": "Yes. • Minimum value / dust filters to reduce zero-value or spam transfers where appropriate. • Rate limiting and basic behavioural checks on transfer frequency to discourage automated abuse. • Invitation-code gating for new wallet creation, which reduces mass fake-account creation. • Clear separation between genuine user-initiated transfers and any system-generated events. • Offer accept / reject (and optional Preapproved Receiving) so incoming Token Standard assets are explicit user or policy decisions. • Future multi-sig and higher-privilege features will add further authorisation controls. • As social incentive and bounty features launch, eligibility rules and anti-abuse parameters will keep reward creation tied to real economic activity. Because the wallet is primarily a custody, transfer, and social tool rather than a high-frequency trading venue, the risk surface for wash trading or artificial volume is inherently lower than for a DEX. The controls above will still be applied. Inbound multi-network: • Network enablement is explicit in the All Networks switcher; users add a chain rather than inheriting every EVM network by default. • Inbound moves require a user-initiated confirmation in the extension before assets leave the source network or credit Canton. • Source-chain volume is not counted toward Featured App rewards. Arbitrum Sepolia is treated as a test network, not a reward surface.",
+        "long_text_mm4khbeg": "https://github.com/orgs/Rocky-Wallet/repositories （This is the SDK portion of our code. Some repositories are private, but we can present them to the SV/Foundation during an online session if needed）",
+        "long_text_mm4kp5en": "https://drive.google.com/drive/folders/1NMPHPodxwDYTpFgvy7E2iS22hEduA_xr?usp=drive_link"
       }
     }
   ]
