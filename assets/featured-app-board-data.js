@@ -1,5 +1,5 @@
 window.FEATURED_APP_BOARD_DATA = {
-  "generatedAt": "2026-09-08T11:25:05.351Z",
+  "generatedAt": "2026-09-09T11:29:49.955Z",
   "columns": [
     {
       "id": "text_mm4k2vch",
@@ -323,7 +323,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12959523630",
       "name": "MetCredX - NIPRO TECHNOLOGIES LIMITED",
-      "updatedAt": "2026-09-08T11:00:14Z",
+      "updatedAt": "2026-09-09T04:00:10Z",
       "values": {
         "text_mm4k2vch": "NIPRO TECHNOLOGIES LIMITED",
         "color_mm4kmej3": "1-Needs Review",
@@ -576,14 +576,14 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12959492765",
       "name": "Selay Wallet - Security Layer Innovations Limited",
-      "updatedAt": "2026-09-08T11:00:16Z",
+      "updatedAt": "2026-09-09T04:00:12Z",
       "values": {
         "text_mm4k2vch": "Security Layer Innovations Limited",
         "color_mm4kmej3": "1-Needs Review",
         "long_text_mm4kq322": "selay-validator-1::1220db68d747efac2626aa1804790343f4ba781408ad076cbb3af63f1aa03b88f3cb",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "4M-Lending-Lock-6::1220c03dee4b32e29d0e4c3a395afa3bc82629a60d86ab75289dad473ab46a5ce56f 5,000,000 CC locked via the 7LOCK marketplace",
-        "numeric_mm4k6919": "0.0",
+        "numeric_mm4k6919": "5.0",
         "long_text_mm4km2s7": "- Security Layer Innovations Limited is a Hong Kong-based company building Web3 cybersecurity products. - Our flagship is Selay Wallet — non-custodial MPC wallet on Canton delivered through Telegram — complemented by a security research lab publishin original Canton attack research. - We are an approved Canton validator (March 2026) running self-hosted on MainNet (July 13) , and we have launched application (1 August).",
         "link_mm4kd0hk": "https://drive.google.com/file/d/1TBL3OVziUc0UYoSvn7thg-pBy7Rp2Ry4/view?usp=drive_link",
         "link_mm4kmq24": "https://selay.io/",
@@ -807,7 +807,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12959522895",
       "name": "ccledger - Blueprint Infrastructure, LLC",
-      "updatedAt": "2026-09-08T11:00:19Z",
+      "updatedAt": "2026-09-09T04:00:13Z",
       "values": {
         "text_mm4k2vch": "Blueprint Infrastructure, LLC",
         "color_mm4kmej3": "1-Needs Review",
@@ -1129,7 +1129,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12870058108",
       "name": "R1M Sentinel - R1M",
-      "updatedAt": "2026-09-08T11:00:21Z",
+      "updatedAt": "2026-09-09T04:00:16Z",
       "values": {
         "text_mm4k2vch": "R1M",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -1715,7 +1715,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12791057047",
       "name": "OS Ledger - Outersunset",
-      "updatedAt": "2026-09-08T11:00:23Z",
+      "updatedAt": "2026-09-09T04:00:17Z",
       "values": {
         "text_mm4k2vch": "Outersunset",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -1831,14 +1831,14 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467857175",
       "name": "7Trust",
-      "updatedAt": "2026-09-08T11:00:25Z",
+      "updatedAt": "2026-09-09T04:00:19Z",
       "values": {
         "text_mm4k2vch": "C7",
         "color_mm4kmej3": "2-Approved",
         "long_text_mm4kq322": "c7trust::12202e2325b04b0f0ee30685088289293b3e7a28d8b26470b39435502912e2876cba",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "C7-tech-lender-lock-1::12203a375865466efa9bb100e8ee4cf75d8fa73f4c889747e7442653c594245bdfdb",
-        "numeric_mm4k6919": "0.0",
+        "numeric_mm4k6919": "5.0",
         "long_text_mm4km2s7": "C7 has been a Super Validator on Canton since day 1, building the future of finance.",
         "link_mm4kd0hk": "https://drive.google.com/open?id=1ktzo75tjNMWhTIgfSjRug0hbZldk-zZn",
         "link_mm4kmq24": "https://7trust.c7.digital",
@@ -2189,7 +2189,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12769413819",
       "name": "Canquest - PT JARINGAN SIMPUL TEKNOLOGI",
-      "updatedAt": "2026-09-08T11:00:27Z",
+      "updatedAt": "2026-09-09T04:00:21Z",
       "values": {
         "text_mm4k2vch": "PT JARINGAN SIMPUL TEKNOLOGI",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -2712,7 +2712,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467789103",
       "name": "Jubilee Treasury",
-      "updatedAt": "2026-09-08T11:00:28Z",
+      "updatedAt": "2026-09-09T04:00:22Z",
       "values": {
         "text_mm4k2vch": "Jubilee Treasury",
         "color_mm4kmej3": "6-Withdrawn",
@@ -2770,14 +2770,14 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467834329",
       "name": "Modo Data Platform",
-      "updatedAt": "2026-09-08T11:00:30Z",
+      "updatedAt": "2026-09-09T04:00:24Z",
       "values": {
         "text_mm4k2vch": "Staketab",
         "color_mm4kmej3": "2-Approved",
         "long_text_mm4kq322": "modo::122014f09cb05cffc2f1c524601c4aa91d35908dc55cfe9e92849390137ccc7c0d41",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "auth0_007c6a3400a29e93f5bf0581e4de::122064aab814d8d02f957120e33a970a5aca7c14097eab85ab40a36ddff26c70c44b",
-        "numeric_mm4k6919": "0.0",
+        "numeric_mm4k6919": "5.0",
         "link_mm4krmse": "https://github.com/Staketab",
         "long_text_mm4k2537": "CantonGo is a featured analytics and infrastructure platform on the Canton Network, offering a number of unique features like metahub name service, app directory, ecosystem hub, and powerful data insights, designed to enhance network transparency, validator performance, and ecosystem growth. It operates in two tiers: Public Layer: a high-performance explorer, analytics hub, and data API that exposes validator activity, transactions, and ecosystem insights to all network participants. Enterprise Layer: a validator-integrated analytics suite offering real-time data feeds, custom dashboards, and private APIs for applications, validators, and service providers. As a featured app, CantonGo directly contributes to network utility by processing, categorizing, and indexing activity markers, and by providing mission-critical data infrastructure for all ecosystem participants.",
         "long_text_mm4k4y1h": "Users: Validators, Application Teams, Institutional Users, Data Analysts, Developers, and Ecosystem Integrators.",
@@ -2851,7 +2851,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12731951755",
       "name": "Cove Wallet API - Qasara Labs Private Limited",
-      "updatedAt": "2026-09-08T11:00:31Z",
+      "updatedAt": "2026-09-09T04:00:25Z",
       "values": {
         "text_mm4k2vch": "Qasara Labs Private Limited",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -3202,7 +3202,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12626943292",
       "name": "Yellow Card - Yellow Card Financial Inc.",
-      "updatedAt": "2026-09-08T11:00:34Z",
+      "updatedAt": "2026-09-09T04:00:30Z",
       "values": {
         "text_mm4k2vch": "Yellow Card Financial Inc.",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -3366,7 +3366,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12609616425",
       "name": "Arkhia x402 Facilitator-as-a-Service (FaaS) - Arkhia Pte Ltd",
-      "updatedAt": "2026-09-08T11:00:36Z",
+      "updatedAt": "2026-09-09T04:00:32Z",
       "values": {
         "text_mm4k2vch": "Arkhia Pte Ltd",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -3649,7 +3649,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467854321",
       "name": "Privket.com",
-      "updatedAt": "2026-09-08T11:00:38Z",
+      "updatedAt": "2026-09-09T04:00:34Z",
       "values": {
         "text_mm4k2vch": "Privket",
         "color_mm4kmej3": "6-Withdrawn",
@@ -3674,7 +3674,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12568365683",
       "name": "Synfin - Cayvox Labs",
-      "updatedAt": "2026-09-08T11:00:39Z",
+      "updatedAt": "2026-09-09T04:00:36Z",
       "values": {
         "text_mm4k2vch": "Cayvox Labs",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -3783,7 +3783,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12471377959",
       "name": "OpenBaskets - BlockxAI Limited",
-      "updatedAt": "2026-09-08T11:00:41Z",
+      "updatedAt": "2026-09-09T04:00:38Z",
       "values": {
         "text_mm4k2vch": "BlockxAI Limited",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -4239,7 +4239,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467790154",
       "name": "Ov Defi",
-      "updatedAt": "2026-09-08T11:00:43Z",
+      "updatedAt": "2026-09-09T04:00:39Z",
       "values": {
         "text_mm4k2vch": "OneNov",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -4319,7 +4319,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467789257",
       "name": "Saxon Automate / Canton Keeper",
-      "updatedAt": "2026-09-08T11:00:44Z",
+      "updatedAt": "2026-09-09T04:00:40Z",
       "values": {
         "text_mm4k2vch": "Saxon",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -4440,7 +4440,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467790155",
       "name": "Mperps",
-      "updatedAt": "2026-09-08T11:00:46Z",
+      "updatedAt": "2026-09-09T04:00:42Z",
       "values": {
         "text_mm4k2vch": "Lemongrass IT Services LLC-Fz",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -4618,7 +4618,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467790000",
       "name": "BENJI",
-      "updatedAt": "2026-09-08T11:00:48Z",
+      "updatedAt": "2026-09-09T04:00:44Z",
       "values": {
         "text_mm4k2vch": "Franklin Templeton",
         "color_mm4kmej3": "3-CIP-0116-paused",
@@ -4645,7 +4645,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467790006",
       "name": "CC Ledger",
-      "updatedAt": "2026-09-08T11:00:49Z",
+      "updatedAt": "2026-09-09T04:00:46Z",
       "values": {
         "text_mm4k2vch": "Blueprint Infrastructure, LLC",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -5930,7 +5930,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467847773",
       "name": "CC Space",
-      "updatedAt": "2026-09-08T11:00:51Z",
+      "updatedAt": "2026-09-09T04:00:47Z",
       "values": {
         "text_mm4k2vch": "ITRocket LLC",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -6187,7 +6187,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467847778",
       "name": "Ov Defi",
-      "updatedAt": "2026-09-08T11:00:52Z",
+      "updatedAt": "2026-09-09T04:00:49Z",
       "values": {
         "text_mm4k2vch": "OneNov",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -6742,7 +6742,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467834325",
       "name": "ChainSafe x402 Global Facilitator",
-      "updatedAt": "2026-09-08T11:00:54Z",
+      "updatedAt": "2026-09-09T04:00:50Z",
       "values": {
         "text_mm4k2vch": "ChainSafe",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -6771,14 +6771,14 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467825408",
       "name": "Silvana Book",
-      "updatedAt": "2026-09-08T11:00:56Z",
+      "updatedAt": "2026-09-09T04:00:53Z",
       "values": {
         "text_mm4k2vch": "Silvana",
         "color_mm4kmej3": "2-Approved",
         "long_text_mm4kq322": "silvana-orderbook::1220997446016f1e96be9215bab224eace372752853ef99175c332307489bccbb07b",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "auth0_007c6a3400737c6d7f5f33ee7a3b::122064aab814d8d02f957120e33a970a5aca7c14097eab85ab40a36ddff26c70c44b,auth0_007c6a3400737c6d7f5f33ee7a3b::122064aab814d8d02f957120e33a970a5aca7c14097eab85ab40a36ddff26c70c44b",
-        "numeric_mm4k6919": "0.0",
+        "numeric_mm4k6919": "10.0",
         "long_text_mm4km2s7": "Silvana is a Web3 platform focused on privacy and zero-knowledge proofs, providing an agentic environment for real-world provable data, tokenization, and on-chain asset trading.",
         "link_mm4kmq24": "https://silvana.one",
         "long_text_mm4k2537": "Silvana Book enables private, ultra-fast off-chain order matching with parties’ complete asset control and secure atomic on-chain settlement on the Canton blockchain. Silvana enables agentic trading and settlement. Proving agents can prove aggregated trading data, such as average daily prices, using zero-knowledge circuits without disclosing private transaction information.",
@@ -6800,7 +6800,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467834326",
       "name": "Squads Non-Custodial Wallet",
-      "updatedAt": "2026-09-08T11:00:58Z",
+      "updatedAt": "2026-09-09T04:00:54Z",
       "values": {
         "text_mm4k2vch": "SQUADS",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -6827,7 +6827,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467783449",
       "name": "Mperps",
-      "updatedAt": "2026-09-08T11:00:59Z",
+      "updatedAt": "2026-09-09T04:00:56Z",
       "values": {
         "text_mm4k2vch": "Lemongrass IT Services LLC-Fz",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -6886,7 +6886,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467783450",
       "name": "Canquest",
-      "updatedAt": "2026-09-08T11:01:01Z",
+      "updatedAt": "2026-09-09T04:00:57Z",
       "values": {
         "text_mm4k2vch": "Canquest",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -7434,7 +7434,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467838018",
       "name": "Ekiden",
-      "updatedAt": "2026-09-08T11:01:02Z",
+      "updatedAt": "2026-09-09T04:00:59Z",
       "values": {
         "text_mm4k2vch": "Allspark Markets Ltd.",
         "color_mm4kmej3": "2-Approved",
@@ -7488,7 +7488,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467856988",
       "name": "MEME token and Coinflip",
-      "updatedAt": "2026-09-08T11:01:04Z",
+      "updatedAt": "2026-09-09T04:01:00Z",
       "values": {
         "text_mm4k2vch": "Archerswap",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -7517,7 +7517,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467783446",
       "name": "FlowRyd",
-      "updatedAt": "2026-09-08T11:01:06Z",
+      "updatedAt": "2026-09-09T04:01:02Z",
       "values": {
         "text_mm4k2vch": "Towler Enterprises",
         "color_mm4kmej3": "2-Approved",
@@ -7909,7 +7909,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467847770",
       "name": "VAULT",
-      "updatedAt": "2026-09-08T11:01:08Z",
+      "updatedAt": "2026-09-09T04:01:03Z",
       "values": {
         "text_mm4k2vch": "HighTower",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -7971,7 +7971,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467856986",
       "name": "HydraX",
-      "updatedAt": "2026-09-08T11:01:10Z",
+      "updatedAt": "2026-09-09T04:01:05Z",
       "values": {
         "text_mm4k2vch": "HydraX",
         "color_mm4kmej3": "2-Approved",
@@ -8014,14 +8014,14 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467856987",
       "name": "Sync Insights",
-      "updatedAt": "2026-09-08T11:01:13Z",
+      "updatedAt": "2026-09-09T04:01:06Z",
       "values": {
         "text_mm4k2vch": "Chata Technologies Inc",
         "color_mm4kmej3": "2-Approved",
         "long_text_mm4kq322": "auth0_007c68129abae6733ca8b889162e::122064aab814d8d02f957120e33a970a5aca7c14097eab85ab40a36ddff26c70c44b",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "auth0_007c6a315a7291375a786002fcbf::122064aab814d8d02f957120e33a970a5aca7c14097eab85ab40a36ddff26c70c44b",
-        "numeric_mm4k6919": "0.0",
+        "numeric_mm4k6919": "5.0",
         "link_mm4kd0hk": "NA - https://NA",
         "link_mm4krmse": "will send a link to the code repo upon testing completion. We will send a link to the code repo upon testing completion. - https://We",
         "long_text_mm4k2537": "Canton Coin (\"CC\") will be used: - as payment from users that will be utilizing the app - as rewards sent back to the user for utilizing the app",
@@ -8408,7 +8408,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467824052",
       "name": "Canquest",
-      "updatedAt": "2026-09-08T11:01:14Z",
+      "updatedAt": "2026-09-09T04:01:08Z",
       "values": {
         "text_mm4k2vch": "Naxweb",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -8440,14 +8440,14 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467789102",
       "name": "7LOCK",
-      "updatedAt": "2026-09-08T11:01:16Z",
+      "updatedAt": "2026-09-09T04:01:10Z",
       "values": {
         "text_mm4k2vch": "C7 Labs UK Limited",
         "color_mm4kmej3": "2-Approved",
         "long_text_mm4kq322": "c7lock::12202e2325b04b0f0ee30685088289293b3e7a28d8b26470b39435502912e2876cba",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "C7-tech-lender-lock-2::12203a375865466efa9bb100e8ee4cf75d8fa73f4c889747e7442653c594245bdfdb",
-        "numeric_mm4k6919": "0.0",
+        "numeric_mm4k6919": "5.0",
         "text_mm4k5fnm": "C7-tech-lender-unlock-2::12203a375865466efa9bb100e8ee4cf75d8fa73f4c889747e7442653c594245bdfdb",
         "long_text_mm4km2s7": "C7 Labs UK Limited is a digital finance technology firm that develops Web3 infrastructure and applications for the Canton Network. It is a subsidiary of the investment firm 7RIDGE, which also operates a Super Validator through another subsidiary, C7 Technologies. As part of its operations, C7 Labs allocates capital to digital asset infrastructure providers and has developed Featured Apps such as 7TRUST, a cryptographic credential system for institutional identity verification.",
         "link_mm4kmq24": "https://7lock.cc/",
@@ -8468,7 +8468,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467824053",
       "name": "Deploi Credit Market",
-      "updatedAt": "2026-09-08T11:01:20Z",
+      "updatedAt": "2026-09-09T04:01:13Z",
       "values": {
         "text_mm4k2vch": "Deploi",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -8528,7 +8528,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467824055",
       "name": "AUROX on Canton for featured app",
-      "updatedAt": "2026-09-08T11:01:22Z",
+      "updatedAt": "2026-09-09T04:01:15Z",
       "values": {
         "text_mm4k2vch": "International Institute of Blockchain Advanced Technology",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -8973,14 +8973,14 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467789887",
       "name": "Tritemius",
-      "updatedAt": "2026-09-08T11:01:24Z",
+      "updatedAt": "2026-09-09T04:01:16Z",
       "values": {
         "text_mm4k2vch": "Tritemius Fund FCRE I",
         "color_mm4kmej3": "2-Approved",
         "long_text_mm4kq322": "tritemiusapp::1220cda52890c386641bf69705740e0a9abc2c6aef3878a86dfcfc7958946f59692b",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "4M-Lending-Lock-5::1220c03dee4b32e29d0e4c3a395afa3bc82629a60d86ab75289dad473ab46a5ce56f",
-        "numeric_mm4k6919": "0.0",
+        "numeric_mm4k6919": "5.0",
         "long_text_mm4km2s7": "Spain-based firm focused on Web3 and digital assets.",
         "link_mm4kmq24": "https://app.tritemius.net/",
         "link_mm4krmse": "https://github.com/tritemius-web3/canton-lightning",
@@ -9356,14 +9356,14 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467783401",
       "name": "Vala Wallet: Canton Non Custodial Web Wallet with Featured App Integrations",
-      "updatedAt": "2026-09-08T11:01:26Z",
+      "updatedAt": "2026-09-09T04:01:18Z",
       "values": {
         "text_mm4k2vch": "Finoa Consensus Services",
         "color_mm4kmej3": "2-Approved",
         "long_text_mm4kq322": "ValaWallet-FA::122093ce879ca5d08db274937f9a2ec1eb7821d41ccfdce521d68a61ef3bf1b63463",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "C7-labs-lender-lock1::12202e2325b04b0f0ee30685088289293b3e7a28d8b26470b39435502912e2876cba",
-        "numeric_mm4k6919": "0.0",
+        "numeric_mm4k6919": "5.0",
         "text_mm4k5fnm": "7-labs-lender-unlock1::12202e2325b04b0f0ee30685088289293b3e7a28d8b26470b39435502912e2876cba",
         "long_text_mm4km2s7": "Finoa Consensus Services is a Germany based staking-infrastructure provider created in 2020 after spinning out from Finoa, Europe’s regulated crypto custodian. The company operates more than 10 000 validators across 14 leading proof-of-stake networks, giving institutional investors and blockchain foundations a dependable way to secure networks and receive protocol rewards. FCS is built on the view that tomorrow’s financial system will rely on open blockchains. Its roadmap centres on three goals: running resilient validators at scale, adding support for well-governed networks as they launch, and supporting new cutting-edge innovative protocols. By connecting institutional capital with network security, FCS helps strengthen and expand the digital-asset ecosystem.",
         "long_text_mm4k2537": "Vala Wallet is a strictly non-custodial web wallet that serves as the primary gateway to the Canton ecosystem. It allows users to generate and store keys client-side (via passkeys, hardware modules, or local KMS). The wallet provides seamless access to the full spectrum of \"Allfi\" apps including Featured Apps, subscriptions, DEXs, lending, and broader DeFi utilizing our own Wallet Connect SDK or direct payload integrations. It facilitates client-side signing where the private key never leaves the device, while the validator participant acts only to validate signatures and route transactions, ensuring users keep full control while accessing the broad ecosystem.",
@@ -9385,7 +9385,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467825386",
       "name": "Agora: Survey & Vote",
-      "updatedAt": "2026-09-08T11:01:27Z",
+      "updatedAt": "2026-09-09T04:01:20Z",
       "values": {
         "text_mm4k2vch": "Agora: Survey & Vote",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -9708,7 +9708,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467832618",
       "name": "ScopeX Rate Lock",
-      "updatedAt": "2026-09-08T11:01:29Z",
+      "updatedAt": "2026-09-09T04:01:22Z",
       "values": {
         "text_mm4k2vch": "ScopeX Money",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -9989,7 +9989,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467804368",
       "name": "Nexode",
-      "updatedAt": "2026-09-08T11:01:31Z",
+      "updatedAt": "2026-09-09T04:01:23Z",
       "values": {
         "text_mm4k2vch": "Nexode",
         "color_mm4kmej3": "2-Approved",
@@ -10353,7 +10353,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12974668475",
       "name": "OS Ledger - Outersunset",
-      "updatedAt": "2026-09-08T11:01:33Z",
+      "updatedAt": "2026-09-09T04:01:25Z",
       "values": {
         "text_mm4k2vch": "Outersunset",
         "color_mm4kmej3": "1-Needs Review",
@@ -10380,7 +10380,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12982310839",
       "name": "Ovdefi - OneNov",
-      "updatedAt": "2026-09-08T11:01:35Z",
+      "updatedAt": "2026-09-09T04:01:27Z",
       "values": {
         "text_mm4k2vch": "OneNov",
         "color_mm4kmej3": "1-Needs Review",
@@ -10465,6 +10465,96 @@ window.FEATURED_APP_BOARD_DATA = {
         "long_text_mm4kwxt1": "Yes. • Minimum value / dust filters to reduce zero-value or spam transfers where appropriate. • Rate limiting and basic behavioural checks on transfer frequency to discourage automated abuse. • Invitation-code gating for new wallet creation, which reduces mass fake-account creation. • Clear separation between genuine user-initiated transfers and any system-generated events. • Offer accept / reject (and optional Preapproved Receiving) so incoming Token Standard assets are explicit user or policy decisions. • Future multi-sig and higher-privilege features will add further authorisation controls. • As social incentive and bounty features launch, eligibility rules and anti-abuse parameters will keep reward creation tied to real economic activity. Because the wallet is primarily a custody, transfer, and social tool rather than a high-frequency trading venue, the risk surface for wash trading or artificial volume is inherently lower than for a DEX. The controls above will still be applied. Inbound multi-network: • Network enablement is explicit in the All Networks switcher; users add a chain rather than inheriting every EVM network by default. • Inbound moves require a user-initiated confirmation in the extension before assets leave the source network or credit Canton. • Source-chain volume is not counted toward Featured App rewards. Arbitrum Sepolia is treated as a test network, not a reward surface.",
         "long_text_mm4khbeg": "https://github.com/orgs/Rocky-Wallet/repositories （This is the SDK portion of our code. Some repositories are private, but we can present them to the SV/Foundation during an online session if needed）",
         "long_text_mm4kp5en": "https://drive.google.com/drive/folders/1NMPHPodxwDYTpFgvy7E2iS22hEduA_xr?usp=drive_link"
+      }
+    },
+    {
+      "id": "13003184089",
+      "name": "R1M Sentinel - R1M",
+      "updatedAt": "2026-09-09T09:19:50Z",
+      "values": {
+        "text_mm4k2vch": "R1M",
+        "color_mm4kmej3": "1-Needs Review",
+        "long_text_mm4kq322": "r1m-validator-1::122009ae6158cb03207cd5eb0a6796a74daf3e2855ee9f17cd5bcbcccee383842962",
+        "color_mm4kpp3q": "Non-Issuer",
+        "long_text_mm4khjn6": "r1m-validator-1::122009ae6158cb03207cd5eb0a6796a74daf3e2855ee9f17cd5bcbcccee383842962",
+        "numeric_mm4k6919": "0.0",
+        "long_text_mm4km2s7": "The R1M team is all about stability, security, and building out the ecosystem. We launched in 2020, and since then we’ve taken concrete steps to develop our brand and infrastructure. Media has played a significant role in popularizing R1M—our videos have garnered tens of thousands of views, and our combined channels have over 20,000 subscribers. We’ve developed numerous guides for quickly setting up nodes and created several products that are useful for both individual users and large validators.",
+        "link_mm4kd0hk": "https://r1m.team/brand-kit",
+        "link_mm4kmq24": "https://sentinel.r1m.team/",
+        "link_mm4kqtfa": "https://youtu.be/kvx61NGX3w4",
+        "long_text_mm4k2537": "R1M Sentinel is a multi-chain validator and node monitoring platform with Telegram alerts and a user cabinet. We currently support multiple chains and networks: operators add nodes, we monitor them continuously, and notify on issues, network updates, and active proposals. Each adapter is configurable per project. On Canton MainNet, Canton Coin is the payment and settlement rail for premium monitoring: users deposit CC to their own party, credits fund PREMIUM node monitoring, and settlement moves CC on-chain to the platform operator party. Monitoring runs across many networks; billing and Featured App activity are Canton-native.",
+        "long_text_mm5hgry2": "yes",
+        "long_text_mm4k4y1h": "Yes — in another production environment, not as an on-chain app on other networks. R1M Sentinel is already live as a multi-chain monitoring/alerting product: we observe node and network health via RPC and similar read-only integrations, and we do not submit transactions or accept payments on those chains. Canton is our first ledger we interact with for payments and settlement (CC deposits, credits, on-chain settlement to the operator party).",
+        "long_text_mm4k15bg": "Application rewards only from bona fide paid-service activity: 1. User deposits of Canton Coin into their Sentinel party (funding premium service). 2. On-chain subscription / usage settlement — real CC transfers from the user party to the platform operator party when paid monitoring is active (billable address × adapter). 3. Related TransferPreapproval-enabled inbound/settlement flows that complete those paid-service transfers. We will NOT earn Featured App rewards from: - node health-checks or RPC polling - alert delivery (Telegram/etc.) - UI actions, logins, or internal accounting - synthetic / load-test transfers In short: rewards only when real CC moves for real monitoring subscription.",
+        "long_text_mm4kh3fw": "Each paying user has a Canton party under our self-hosted validator. Users deposit CC on-chain to that party; the backend credits the cabinet, then sweeps / settles value toward the platform operator party via Token Standard / ledger transfers. TransferPreapproval enables automated inbound and settlement paths. The application reads balances and ledger state via the Canton Ledger API and submits only user-funded, product-driven transfers — not alert or health-check traffic.",
+        "long_text_mm4kfg50": "Both. Canton Coin carries the real payment on MainNet: user deposits and on-chain settlement / Token Standard transfers from the user party to our platform operator party for premium monitoring. TransferPreapproval supports inbound and settlement flows. FeaturedAppActivityMarkers are integrated in the same billing path and are created only alongside bona fide paid-service ledger events (deposits / settlement), with weight tied to economic value and beneficiary = platform party (r1m-validator-1). Markers are not used for alerts, RPC polling, UI actions, or synthetic activity.",
+        "long_text_mm4kxcm2": "For an active paying user we expect on the order of 1–24 settlement transactions per day, depending on how many billable address×adapter pairs are active and whether PREMIUM is on for the full day. Deposits are occasional (roughly a few per user per month), not daily. Non-paying users: 0.",
+        "long_text_mm4kvyjq": "Usually at most one settlement per billable pair per hour, so most rounds have 0–1 settlement tx per user. Multiple txs in one round would mainly happen if a deposit lands near a settlement tick, or the user has several billable pairs settling in the same window. We do not add extra txs from alerts, polling, or synthetic activity.",
+        "long_text_mm4k1cm0": "Linearly, as a planning assumption: more paying users and more billable pairs - proportionally more settlement transactions. We do not plan super-linear or farming-style growth.",
+        "long_text_mm4kfkwn": "First customers are our existing R1M Sentinel users — node operators and validator teams already using the multi-chain monitoring product. We are already live on Canton MainNet: the payment/settlement path has been running since early September 2026 (product: https://sentinel.r1m.team/). Expected near-term adoption is from this current user base as they deposit Canton Coin for premium monitoring; further growth follows from that live MainNet operation.",
+        "long_text_mm4k6q73": "Without Featured App status we would continue operating and developing R1M Sentinel primarily on a free / limited basis, as we have historically — monitoring and alerts do not depend on FA. Canton MainNet paid settlement and Featured App reward economics would stay limited or delayed until approval. The core product roadmap continues; full Canton payment + reward economics are what FA unlocks.",
+        "long_text_mm4kwxt1": "Yes. Reward-earning ledger activity is limited to real paid-service flows: - Only user CC deposits and premium settlement / Token Standard transfers create reward-relevant transactions; alerts, RPC polling, UI actions, logins, and internal accounting do not. - Settlement runs only when PREMIUM is active for a billable address×adapter pair and the user has sufficient funded balance/credits. - Cadence cap: typically at most one settlement transfer per billable pair per hour (no alert-driven spam). - Minimum practical economic size for deposits/settlement (dust / sub-threshold noise is not treated as reward activity). - Markers, where used, are emitted only alongside those bona fide paid-service ledger events, with beneficiary = platform party — not for synthetic or self-deal farming. - Backend automation submits product-driven transfers only; there is no path that turns monitoring noise into Featured App activity.",
+        "long_text_mm4khbeg": "N/A",
+        "long_text_mm4kp5en": "https://r1m.team/brand-kit",
+        "long_text_mm4kxsgy": "Happy to support any further questions, testing, or clarification from the Committee."
+      }
+    },
+    {
+      "id": "13003184405",
+      "name": "Cardiv - WolfEdge Labs",
+      "updatedAt": "2026-09-09T09:19:52Z",
+      "values": {
+        "text_mm4k2vch": "WolfEdge Labs",
+        "color_mm4kmej3": "1-Needs Review",
+        "long_text_mm4kq322": "cardiv::1220b43e4bb9e423ba07cbcc0f5ef0d4e9ebe5d2623cb277d30e6478b179ee0ca9c3",
+        "color_mm4kpp3q": "Non-Issuer",
+        "long_text_mm4khjn6": "4M-Lending-Lock-3::1220c03dee4b32e29d0e4c3a395afa3bc82629a60d86ab75289dad473ab46a5ce56f",
+        "numeric_mm4k6919": "5.0",
+        "long_text_mm4km2s7": "WolfEdge Labs is a blockchain infrastructure company that operates validators and builds trading and staking infrastructure across multiple networks. We operate our own Canton participant node and have been active in the Canton ecosystem through development, validation and running Node-as-a-Service. Our team previously built and operated ClayStack, a liquid staking protocol with over five years of production history that raised more than $5.2M and underwent three independent smart contract reviews by leading security firms. Cardiv is our non-custodial central limit order book for CIP-0056 assets, built natively for Canton.",
+        "link_mm4kmq24": "https://app.cardiv.xyz",
+        "long_text_mm4k2537": "Cardiv is a non-custodial central limit order book exchange built on the Canton Network. It enables users to trade CIP-0056-compatible tokenized assets through fully on-ledger settlement. The platform provides a transparent order book with limit, market and stop-loss orders, and atomic settlement. Users authorize orders through Cardiv's integrated Canton wallet flow. The required assets are reserved on-ledger in a user-owned allocation while an order remains open; when orders match, both asset transfers execute atomically within a single ledger transaction; when an order is cancelled, the reserved assets are released back to the user. Cardiv never takes custody of user funds.",
+        "long_text_mm5hgry2": "No",
+        "long_text_mm4k4y1h": "Cardiv is designed for active traders, market makers, asset managers, and institutional crypto desks who want order-book execution on Canton with imit and stop-loss orders, transparent price discovery, and non-custodial control of their assets; which AMM-based venues do not provide with the same precision.",
+        "long_text_mm4k15bg": "Cardiv earns rewards through Activity Markers tied to three key trading events: Order Placement & Asset Reservation – The user signs a transaction that creates an order contract and reserves the required assets through a CIP-0056 self-allocation via DVP. This commits liquidity to the order book, and the eligible traffic contributes to a later Activity Marker. Order Matching & Settlement – Cardiv withdraws the buyer’s and seller’s reserved allocations and executes both sides of the matched trade atomically within a single ledger transaction. For a market order, the taker's asset is transferred directly to the counterparty without a prior lock, while the maker's side is still delivered from its reserved allocation; both legs settle in the same atomic transaction. The eligible settlement traffic contributes to a later Activity Marker. Order Cancellation & Asset Release – Cardiv archives the cancelled order and releases the reserved assets back to the user’s available balance. The eligible cancellation traffic contributes to a later Activity Marker. Transactions consume network traffic through Cardiv’s infrastructure, and users are charged a transaction fee based on traffic requirements and network conditions. Eligible traffic from completed asset reservation, settlement, and release events is aggregated into Activity Markers. Each qualifying event produces a verifiable ledger state change, ensuring application rewards reflect measurable use of Cardiv’s on-ledger trading infrastructure.",
+        "long_text_mm4kh3fw": "Cardiv submits three core transaction types: Placement & Lock: The user signs a transaction that creates an order contract and reserves the required assets through a CIP-0056 self-allocation via DVP. The assets remain owned by the user while the order is open. Matching & Settlement: Cardiv executes both sides of the matched trade atomically within a single ledger transaction, ensuring that both asset transfers succeed together or neither succeeds. A match is confined to a single instrument pair, and partial fills relock the residual in the same transaction. For a market order, the taker's asset is transferred directly to the counterparty without a prior lock, while the maker's side is still delivered from its reserved allocation; both legs settle in the same atomic transaction. Cancellation / Unlock – Cardiv archives the order contract and withdraws the associated allocation, making the reserved assets available to the user again.",
+        "long_text_mm4kfg50": "Cardiv generates application rewards through Activity Markers. Its ledger transactions consume Canton network traffic, and eligible traffic from completed order reservation, settlement, and release events is aggregated into Activity Markers. Activity Markets use these markers to calculate Cardiv’s application rewards. Canton Coin supports the network traffic and fee model, while application rewards are calculated from the markers.",
+        "long_text_mm4kxcm2": "10-20 transactions per user per day",
+        "long_text_mm4kvyjq": "A user may generate multiple transactions per round through limit-order placement across multiple price levels, continuous market-making activity, multiple partial or complete fills, and stop-loss activations during changing market conditions. All of these reflect organic trading activity.",
+        "long_text_mm4k1cm0": "Linear. Cardiv expects transaction volume to grow broadly in proportion to the number of active participants and supported trading pairs. More participants will produce additional order placements, settlements, and cancellations. Although deeper liquidity may increase trading frequency, Cardiv plans its infrastructure around linear transaction growth.",
+        "long_text_mm4kfkwn": "Cardiv's first customers will be Canton Network participants holding CIP-0056-compatible assets who want an order-book trading venue, including wallet users, market makers, and validator operators. MainNet is already live. We are already in discussions with market makers and plan to onboard them on retainer to deepen liquidity for users.",
+        "long_text_mm4k6q73": "Application rewards are expected to offset a portion of our on-ledger infrastructure and traffic costs and allow us to keep trading fees competitive. Cardiv's primary revenue is trading fees, so the business is not solely dependent on application rewards; without FA status we would need to raise fees considerably or absorb more network cost, but the venue would remain operable.",
+        "long_text_mm4kwxt1": "Yes. Cardiv's controls operate at five levels. The most important are enforced on-ledger in our DAML, they are transactions that cannot commit, not patterns we detect afterwards. Enforced on-ledger (DAML assertions): Self-match prevention: the maker and taker of a match must be different parties and their sides must oppose. A self-match fails at the ledger. Funded orders only: every order is backed by assets reserved in a user-owned allocation before it enters the book; unfunded orders cannot exist. Limit-price enforcement: a fill must satisfy both the buyer's and the seller's limit price, asserted before settlement; no fill can execute outside either party's stated terms. Single-pair settlement: both sides of a match must share the same base and quote instrument. A settlement moves exactly two assets and cannot introduce a third. Fee in the traded asset: the settlement fee is asserted to be in the quote instrument of the pair, so fees never add an unrelated asset or an extra marker. No pending settlements: a settlement transfer that would return a pending instruction aborts the trade; no trade is ever half-settled. Atomic partial fills: the unfilled residual is relocked in the same transaction, so funds are never left unlocked or stranded. Reward routing: All Featured App rewards accrue to Cardiv. There is no automatic or per-account distribution of rewards to trading accounts, so no account can convert its own traffic into reward income by trading activity alone. Liquidity partners are compensated only through commercial agreements with the operator that pay on executed volume and market depth, never on transaction count. There is therefore no route by which generated volume can be recovered; artificial volume on Cardiv is a guaranteed loss. Cardiv does not currently run a points or rewards programme. If we introduce one, it will follow the same principles: rewards earned only on executed volume and fees paid on fills, never on order placements, cancellations o..."
+      }
+    },
+    {
+      "id": "13003182078",
+      "name": "Maha Wallet - PT Maha Digital Solutions",
+      "updatedAt": "2026-09-09T04:51:00Z",
+      "values": {
+        "text_mm4k2vch": "PT Maha Digital Solutions",
+        "color_mm4kmej3": "1-Needs Review",
+        "long_text_mm4kq322": "maha-wallet::122025cef1bec8edc8aa50108068aa065b63dc1336f0695448dc8d669ae029e08ff8",
+        "color_mm4kpp3q": "Non-Issuer",
+        "long_text_mm4khjn6": "Pending, in progress with Cashen for the CC-lock process.",
+        "long_text_mm4km2s7": "PT Maha Digital Solutions is the team behind Maha Wallet, a portable, non-custodial identity and utility layer for Canton Network. We build a browser extension wallet, a developer SDK, a Telegram-native tip bot, and a fiat-to-CC pricing API, all built around Canton external party model so a users Canton identity isn't locked to one validator's wallet UI.",
+        "link_mm4kd0hk": "https://drive.google.com/drive/folders/1X_F1KY4QEpGYH1P_W2vKpPmJq3CDSv1n?usp=sharing",
+        "link_mm4kmq24": "https://mahawallet.xyz",
+        "link_mm4kqtfa": "https://drive.google.com/drive/folders/1S9ioepEX1sgki9egwr6uzynedt4GQW5u?usp=sharing",
+        "long_text_mm4k2537": "Maha Wallet gives users a portable Canton party ID, a signing key that lives client-side, not inside one validator wallet, reusable across our extension, our Telegram tip/airdrop bot and any app that integrates our SDK. It brings CC straight into Telegram chats, so tipping and small transfers happen without leaving the conversation, plus a live fiat-to-CC pricing API for builders.",
+        "long_text_mm5hgry2": "No, built specifically for Canton's external party model.",
+        "long_text_mm4k4y1h": "1. Telegram-based Web3 community members tipping and receiving small CC transfers 2. Community/project admins running in-chat airdrops 3. Third-party developers integrating Canton wallet functionality via our SDK instead of building their own 4. Anyone who wants one Canton party ID that works across apps, not just one wallet UI",
+        "long_text_mm4k15bg": "CC transfers via the Telegram tip/airdrop bot, and CC transfers triggered by SDK-integrated partner apps.",
+        "long_text_mm4kh3fw": "Via the submitted Party ID on the Canton Ledger API. User-initiated actions only: wallet linking/unlinking, CC transfers, airdrop creation/claims, balance queries. Signing is client-side or via securely stored per-user keys. Maha Wallet never custodies user funds.",
+        "long_text_mm4kfg50": "Activity Markers, on the CC transfers described above. We'll also follow CC-based application traffic (CIP-0104) once that model is in place. Integrated following Canton's official Featured App Activity Marker guidance and documentation.",
+        "long_text_mm4kxcm2": "Hard to estimate precisely, activity is likely to spike early on around launch/campaign periods, then settle to roughly 2-3 transactions per user per day once usage normalizes.",
+        "long_text_mm4kvyjq": "Mainly during `/airdrop`, but to keep costs down, airdrop payouts settle via a single batch transfer rather than one transaction per recipient (e.g. an airdrop to 5 people is 1 tx, not 5). Outside batched airdrops, a user can still generate multiple transactions in one round if they send several tips in a session or a linked SDK partner app triggers several transfers for them back to back. Always separately triggered, never looped.",
+        "long_text_mm4k1cm0": "Sub-linearly to linearly, we expect an initial surge around launch, then transaction growth settling to track new-user growth more closely as usage normalizes.",
+        "long_text_mm4kfkwn": "Already live since 18 August 2026. First users are Telegram-based Web3 communities and retail users linking wallets via the bot and extension. We're targeting partnerships to bring our Telegram tip bot into 20 communities as an incentive layer and a way to introduce more people to Canton, with 8 already confirmed (see referrals above).",
+        "long_text_mm4k6q73": "We keep building either way, the wallet, SDK, bot, and pricing API don't depend on it. FA rewards would let us keep the identity/wallet layer free while growing faster, without them, growth just slows.",
+        "long_text_mm4kwxt1": "Yes. Alongside a 5 CC minimum tip and a flat transfer fee regardless of size, we enforce strict rate limits to prevent spam and artificial volume: • A maximum of one /tip command per minute • A maximum of one /airdrop command per 10 minutes • A 5-minute cooldown is enforced per wallet on transfers to actively disrupt and prevent artificially created circular transaction chains • Airdrop shares only settle to active claimers (no forced distribution) • Users are advised to link a separate, dedicated tipping wallet rather than their primary holdings",
+        "long_text_mm4khbeg": "Currently private, access can be granted upon request.",
+        "long_text_mm4kp5en": "https://drive.google.com/drive/folders/1X_F1KY4QEpGYH1P_W2vKpPmJq3CDSv1n?usp=sharing",
+        "long_text_mm4kxsgy": "Maha Wallet core idea: one Canton party ID that works across our extension, Telegram, and any SDK-integrated app, not tied to a single wallet UI. We keep the identity/wallet layer free and monetize only usage on top (transfer fees, SDK fees, pricing spread), so more linked wallets and active communities directly mean more genuine on-chain activity. Furthermore, if Maha Wallet (serving our existing user base) or projects like Payfun succeed with this Telegram utility tip model and it sees widespread adoption, we expect this success to drive massive, organic exposure and onboarding directly to the Canton network itself. For a deeper dive into our vision and product roadmap, please view our pitch deck here: https://drive.google.com/drive/folders/1uYgrc23AP-4lmLvNGVgV6BLZ6iAOpCZ0?usp=sharing"
       }
     }
   ]
