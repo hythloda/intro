@@ -1,5 +1,5 @@
 window.FEATURED_APP_BOARD_DATA = {
-  "generatedAt": "2026-09-10T11:26:25.993Z",
+  "generatedAt": "2026-09-11T11:28:27.920Z",
   "columns": [
     {
       "id": "text_mm4k2vch",
@@ -323,7 +323,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12959523630",
       "name": "MetCredX - NIPRO TECHNOLOGIES LIMITED",
-      "updatedAt": "2026-09-10T04:05:36Z",
+      "updatedAt": "2026-09-11T08:00:19Z",
       "values": {
         "text_mm4k2vch": "NIPRO TECHNOLOGIES LIMITED",
         "color_mm4kmej3": "1-Needs Review",
@@ -807,7 +807,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12959522895",
       "name": "ccledger - Blueprint Infrastructure, LLC",
-      "updatedAt": "2026-09-10T04:05:38Z",
+      "updatedAt": "2026-09-11T08:00:21Z",
       "values": {
         "text_mm4k2vch": "Blueprint Infrastructure, LLC",
         "color_mm4kmej3": "1-Needs Review",
@@ -1129,7 +1129,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12870058108",
       "name": "R1M Sentinel - R1M",
-      "updatedAt": "2026-09-10T04:05:39Z",
+      "updatedAt": "2026-09-11T09:08:39Z",
       "values": {
         "text_mm4k2vch": "R1M",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -1715,7 +1715,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12791057047",
       "name": "OS Ledger - Outersunset",
-      "updatedAt": "2026-09-10T04:05:41Z",
+      "updatedAt": "2026-09-11T09:08:40Z",
       "values": {
         "text_mm4k2vch": "Outersunset",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -2189,7 +2189,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12769413819",
       "name": "Canquest - PT JARINGAN SIMPUL TEKNOLOGI",
-      "updatedAt": "2026-09-10T04:05:43Z",
+      "updatedAt": "2026-09-11T09:08:42Z",
       "values": {
         "text_mm4k2vch": "PT JARINGAN SIMPUL TEKNOLOGI",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -2712,7 +2712,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467789103",
       "name": "Jubilee Treasury",
-      "updatedAt": "2026-09-10T04:05:44Z",
+      "updatedAt": "2026-09-11T09:08:43Z",
       "values": {
         "text_mm4k2vch": "Jubilee Treasury",
         "color_mm4kmej3": "6-Withdrawn",
@@ -2851,7 +2851,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12731951755",
       "name": "Cove Wallet API - Qasara Labs Private Limited",
-      "updatedAt": "2026-09-10T04:05:46Z",
+      "updatedAt": "2026-09-11T09:08:45Z",
       "values": {
         "text_mm4k2vch": "Qasara Labs Private Limited",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -3202,7 +3202,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12626943292",
       "name": "Yellow Card - Yellow Card Financial Inc.",
-      "updatedAt": "2026-09-10T04:05:48Z",
+      "updatedAt": "2026-09-11T09:08:47Z",
       "values": {
         "text_mm4k2vch": "Yellow Card Financial Inc.",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -3366,7 +3366,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12609616425",
       "name": "Arkhia x402 Facilitator-as-a-Service (FaaS) - Arkhia Pte Ltd",
-      "updatedAt": "2026-09-10T04:05:50Z",
+      "updatedAt": "2026-09-11T09:08:48Z",
       "values": {
         "text_mm4k2vch": "Arkhia Pte Ltd",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -3649,7 +3649,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467854321",
       "name": "Privket.com",
-      "updatedAt": "2026-09-10T04:05:51Z",
+      "updatedAt": "2026-09-11T09:08:50Z",
       "values": {
         "text_mm4k2vch": "Privket",
         "color_mm4kmej3": "6-Withdrawn",
@@ -3674,7 +3674,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12568365683",
       "name": "Synfin - Cayvox Labs",
-      "updatedAt": "2026-09-10T04:05:53Z",
+      "updatedAt": "2026-09-11T09:08:51Z",
       "values": {
         "text_mm4k2vch": "Cayvox Labs",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -3783,7 +3783,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12471377959",
       "name": "OpenBaskets - BlockxAI Limited",
-      "updatedAt": "2026-09-10T04:05:54Z",
+      "updatedAt": "2026-09-11T09:08:52Z",
       "values": {
         "text_mm4k2vch": "BlockxAI Limited",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -4239,7 +4239,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467790154",
       "name": "Ov Defi",
-      "updatedAt": "2026-09-10T04:05:56Z",
+      "updatedAt": "2026-09-11T09:08:55Z",
       "values": {
         "text_mm4k2vch": "OneNov",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -4319,7 +4319,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467789257",
       "name": "Saxon Automate / Canton Keeper",
-      "updatedAt": "2026-09-10T04:05:57Z",
+      "updatedAt": "2026-09-11T09:08:57Z",
       "values": {
         "text_mm4k2vch": "Saxon",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -4440,7 +4440,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467790155",
       "name": "Mperps",
-      "updatedAt": "2026-09-10T04:05:59Z",
+      "updatedAt": "2026-09-11T09:08:58Z",
       "values": {
         "text_mm4k2vch": "Lemongrass IT Services LLC-Fz",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -4618,7 +4618,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467790000",
       "name": "BENJI",
-      "updatedAt": "2026-09-10T11:00:40Z",
+      "updatedAt": "2026-09-11T09:09:00Z",
       "values": {
         "text_mm4k2vch": "Franklin Templeton",
         "color_mm4kmej3": "3-CIP-0116-paused",
@@ -4645,7 +4645,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467790006",
       "name": "CC Ledger",
-      "updatedAt": "2026-09-10T04:21:47Z",
+      "updatedAt": "2026-09-11T09:09:02Z",
       "values": {
         "text_mm4k2vch": "Blueprint Infrastructure, LLC",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -5930,7 +5930,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467847773",
       "name": "CC Space",
-      "updatedAt": "2026-09-10T04:21:48Z",
+      "updatedAt": "2026-09-11T09:09:05Z",
       "values": {
         "text_mm4k2vch": "ITRocket LLC",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -6187,7 +6187,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467847778",
       "name": "Ov Defi",
-      "updatedAt": "2026-09-10T04:21:50Z",
+      "updatedAt": "2026-09-11T09:09:06Z",
       "values": {
         "text_mm4k2vch": "OneNov",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -6742,7 +6742,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467834325",
       "name": "ChainSafe x402 Global Facilitator",
-      "updatedAt": "2026-09-10T04:21:52Z",
+      "updatedAt": "2026-09-11T09:09:08Z",
       "values": {
         "text_mm4k2vch": "ChainSafe",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -6800,7 +6800,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467834326",
       "name": "Squads Non-Custodial Wallet",
-      "updatedAt": "2026-09-10T04:21:53Z",
+      "updatedAt": "2026-09-11T09:09:09Z",
       "values": {
         "text_mm4k2vch": "SQUADS",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -6827,7 +6827,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467783449",
       "name": "Mperps",
-      "updatedAt": "2026-09-10T04:21:55Z",
+      "updatedAt": "2026-09-11T09:09:11Z",
       "values": {
         "text_mm4k2vch": "Lemongrass IT Services LLC-Fz",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -10555,6 +10555,65 @@ window.FEATURED_APP_BOARD_DATA = {
         "long_text_mm4khbeg": "Currently private, access can be granted upon request.",
         "long_text_mm4kp5en": "https://drive.google.com/drive/folders/1X_F1KY4QEpGYH1P_W2vKpPmJq3CDSv1n?usp=sharing",
         "long_text_mm4kxsgy": "Maha Wallet core idea: one Canton party ID that works across our extension, Telegram, and any SDK-integrated app, not tied to a single wallet UI. We keep the identity/wallet layer free and monetize only usage on top (transfer fees, SDK fees, pricing spread), so more linked wallets and active communities directly mean more genuine on-chain activity. Furthermore, if Maha Wallet (serving our existing user base) or projects like Payfun succeed with this Telegram utility tip model and it sees widespread adoption, we expect this success to drive massive, organic exposure and onboarding directly to the Canton network itself. For a deeper dive into our vision and product roadmap, please view our pitch deck here: https://drive.google.com/drive/folders/1uYgrc23AP-4lmLvNGVgV6BLZ6iAOpCZ0?usp=sharing"
+      }
+    },
+    {
+      "id": "13023350809",
+      "name": "Zabpay - DSRV",
+      "updatedAt": "2026-09-11T04:50:59Z",
+      "values": {
+        "text_mm4k2vch": "DSRV",
+        "color_mm4kmej3": "1-Needs Review",
+        "long_text_mm4kq322": "zabpay-admin::122083ffd30e00ae87dec41c0969aeb021afe0b118c285026f3aeafd9810a257fced",
+        "color_mm4kpp3q": "Non-Issuer",
+        "long_text_mm4khjn6": "None. The ZabPayHolding template carries the CIP-56 `lock : Optional Lock` field, but holdings are always created with lock = None and locked holdings are rejected on the burn path. No locking party is used.",
+        "long_text_mm4km2s7": "DSRV is a Korean VASP licensed blockchain infrastructure company operating validator and node infrastructure across major networks since 2019, with established institutional and regulatory standing in Korea (Vice Chair of the Korea Fintech Industry Association; Chair of the Stablecoin Council). ITCEN Group is one of Korea's largest IT services groups. Zabpay is an employee benefit platform DSRV built with ITCEN, replacing ITCEN's internal benefit-point system with an on-chain one. Benefit points are issued by ITCEN to employees as Daml contracts on Canton, held in employee wallets, and burned on redemption. It is a production enterprise deployment with real end users inside a regulated Korean corporate group, and the reference implementation for rolling the same model out to other Korean enterprises.",
+        "link_mm4kmq24": "https://www.dsrv.com/en/product/payments",
+        "long_text_mm4k2537": "Zabpay is ITCEN's in-house employee benefits payment system. It's Korea's first enterprise grade corporate payment system. PR was already amplified from Canton Foundation's end too: (https://x.com/CantonNetwork/status/2095579075599331831?s=20)",
+        "long_text_mm5hgry2": "Yes, it was previously on Ethereum L2 before.",
+        "long_text_mm4k4y1h": "Employees and related personnels of ITCEN, a major listed Korean IT company (Korea Gold Exchange, SI, cloud services - https://itcen.com/index.do)",
+        "long_text_mm4k15bg": "ZabPay is a corporate expense payment application. It records settled spend on Canton as CIP-56 (Splice.Api.Token.HoldingV1) compliant holdings under a ZabPay-issued instrument (e.g. ZABPAY-KRW, ITCEN). Payment approval: exercise ZabPayInstrument_Mint to create a holding for the employee or department party. Payment cancellation: exercise ZabPayInstrument_Burn to archive holdings covering the cancelled amount, splitting the last holding if it overshoots. Holding compaction: a scheduled job burns a party's many small holdings and re-mints a single consolidated holding. All three are submitted by the application backend acting as zabpay-admin::122083ff..., which is the signatory on every holding.",
+        "long_text_mm4kh3fw": "ITCEN employees are given tokens on Zabpay on Canton, then use the tokens to purchase goods at the store and the history gets recorded on chain. Zabpay app is integrated within ITCEN's ERP system and deducts corresponding amount from the employees' salary.",
+        "long_text_mm4kfg50": "Not using Activity Markers currently.",
+        "long_text_mm4kxcm2": "~1000",
+        "long_text_mm4kvyjq": "Each approved payment and each cancellation is a separate ledger transaction. The dispatch job drains the request queue every 2 minutes by default, so a single user submitting several payments within a 10-minute round produces several transactions in that round. Additionally, a nightly compaction window (20:00-05:00 KST, every 5 minutes) submits burn and mint transactions for holders whose holding count has grown.",
+        "long_text_mm4k1cm0": "Since it's a private internal system for a listed company, the transactions will scale",
+        "long_text_mm4kfkwn": "Application is already live, since 3rd September 2026",
+        "long_text_mm4k6q73": "Zebpay will continue its operation either way, since it's a collaborative work between DSRV and ITCEN. However, FA status and the app reward will help fuel DSRV's endorsement of Canton even further in Korea towards institutions. We are in discussion with multiple Korean financial institutions and World Bank as well - for sustainable ecosystem growth, organic reward structure will help DSRV support Canton going forward.",
+        "long_text_mm4kwxt1": "Yes. - Closed user group. Only verified ITCEN employees can hold points, onboarded through ITCEN's corporate identity system. Party allocation is controlled by ITCEN HR, and offboarding revokes the wallet. - Single authorized issuer. Points can only be issued by ITCEN's treasury party, against a funded and audited budget. Users cannot mint, and there is no self-dealing path.",
+        "long_text_mm4khbeg": "Not available. The application is developed in private repositories.",
+        "long_text_mm4kxsgy": "We'll be expanding the Zabpay application, and will be building more applications with Korean institutions. Also, Zabpay will utilize DA's Registry App for the token issuance."
+      }
+    },
+    {
+      "id": "13023350936",
+      "name": "BETH - BitSafe Validator, LLC",
+      "updatedAt": "2026-09-11T04:51:00Z",
+      "values": {
+        "text_mm4k2vch": "BitSafe Validator, LLC",
+        "color_mm4kmej3": "1-Needs Review",
+        "long_text_mm4kq322": "beth-network::1220704c3cebc23916785557ebe79a5c7f68d034890a5b15690ea7ce050c7d463075",
+        "color_mm4kpp3q": "Asset Issuer",
+        "long_text_mm4khjn6": "12205::12205300e977fb85e29d2ec1a4d0ce87e148d6bec97540bbc6b5f39eb6d03de85ed3",
+        "long_text_mm4km2s7": "BitSafe builds decentralized, privacy-enabled digital asset infrastructure on the Canton Network. As the team who brought Bitcoin to Canton, BitSafe enables institutions and developers to launch, move, and manage assets across the Canton ecosystem. CBTC is BitSafe’s production proof point, with a decentralized attestor model and live integrations across Canton wallets and trading venues.",
+        "link_mm4kd0hk": "https://drive.google.com/drive/folders/1sTUEBa8f8M343t7TNKDAuv2xMVuG302m?usp=sharing",
+        "link_mm4kmq24": "https://www.bitsafe.finance/",
+        "link_mm4krmse": "https://github.com/DLC-link/canton",
+        "long_text_mm4k2537": "BETH is a 1:1 wrapped ETH asset issued on Canton by BitSafe. Users deposit ETH to mint BETH, transfer and use BETH across compatible Canton wallets and applications, and burn BETH to redeem ETH to a valid Ethereum address. BETH uses a decentralized Canton party and threshold governance for issuance and redemption, reducing reliance on a single operator while giving Canton applications access to ETH-denominated liquidity.",
+        "long_text_mm5hgry2": "BETH has not yet been deployed to production, but it reuses core components of BitSafe’s production CBTC infrastructure. BETH uses an EVM bridge for ETH deposits and redemptions and operates through the existing CBTC attestor network. Its Canton contracts build on CBTC’s deposit, withdrawal, Utility Registry, and governance architecture, adapted for Ethereum addresses and transaction data. BETH is a new asset built on an operating model and infrastructure that BitSafe has already proven in production.",
+        "long_text_mm4k4y1h": "Institutional trading venues, market makers, wallets, custodians, asset managers, and Canton application developers that need ETH liquidity for spot trading, settlement, collateral, lending, or other on-ledger financial workflows.",
+        "long_text_mm4k15bg": "Qualifying activities are genuine third-party BETH transfers and application settlements, plus mint and redemption transactions where permitted by the Committee. Each qualifying event must correspond to real on-ledger activity and fee burn. Administrative setup, test traffic, self-transfers, recycled rewards, and synthetic volume will not be counted.",
+        "long_text_mm4kh3fw": "A user creates a BETH deposit account and supplies or receives the information required to deposit ETH. Attestors observe and verify the Ethereum deposit. After the governance threshold is reached, the BETH decentralized registrar executes the approved mint through the token burn-mint interface. BETH can then move through standard Canton token transfer and allocation flows. For redemption, the user creates a withdrawal account with a validated 0x Ethereum address, burns BETH, and creates a withdrawal request. Attestors verify and approve the corresponding Ethereum release. Governance actions, confirmations, account state, mints, burns, and withdrawals are recorded on the Canton ledger.",
+        "long_text_mm4kfg50": "Activity Markers. BETH will follow the same reward model and operating process BitSafe already uses for CBTC.",
+        "long_text_mm4kxcm2": "CBTC recorded 6.55 million transfers across 30,540 active parties in its latest 30-day period, equivalent to roughly 7 transfers per party per day. BETH will follow the same model, with activity driven by individual holders plus exchange and wallet integrations.",
+        "long_text_mm4kvyjq": "A user may legitimately generate multiple transactions when executing separate trades or settlements, moving inventory between wallets and venues, minting additional BETH after a new ETH deposit, or redeeming separate positions. Each transaction must represent a distinct economic action. Splitting one action, ping-ponging assets, self-paying, or cycling rewards solely to increase reward claims is prohibited.",
+        "long_text_mm4k1cm0": "Primarily linear with the number of active users, venues, wallets, and settled economic actions. Venue integrations may create step changes in volume when new order flow or market makers go live. Batching may make ledger transaction growth sub-linear relative to executed orders.",
+        "long_text_mm4kfkwn": "Temple Digital Group is expected to go live with BETH in late September or early October 2026. Kora is also confirmed, with launch date TBD. Flowdesk and Auros are being set up as the initial BETH minters.",
+        "long_text_mm4k6q73": "BitSafe would still complete the product and technical launch, but would delay or narrow liquidity incentives, partner activation, and the pace of venue and wallet integrations. Featured status improves the economics of early BETH liquidity and lets BitSafe share network-derived value with the partners generating genuine use. BitSafe will not create artificial activity to compensate for the absence of Featured status.",
+        "long_text_mm4kwxt1": "Yes. Rewards will be calculated only from qualifying third-party BETH activity that can be matched to real ledger transactions and fee burn. BitSafe will exclude administrative actions, test accounts, self-transfers, circular transfers, reward recycling, and duplicate attribution. BitSafe will monitor concentration by venue and wallet, investigate abnormal counterparties or repeated round-level patterns, and keep an auditable event-level mapping between the economic action and any reward claim. The system will use either Featured token-transfer attribution or Activity Markers for an event, never both.",
+        "long_text_mm4khbeg": "https://github.com/DLC-link/canton (BETH implementation is currently in pull request #128)",
+        "long_text_mm4kp5en": "https://drive.google.com/drive/folders/1sTUEBa8f8M343t7TNKDAuv2xMVuG302m?usp=sharing",
+        "long_text_mm4kxsgy": "BETH extends a production-proven BitSafe issuance pattern to ETH while keeping the BETH registrar, credentials, and governance domain separate from CBTC. The current implementation creates a dedicated beth-network decentralized party with a three-member committee and a threshold of two in the sandbox reference topology. BETH begins directly on BitSafe’s generalized governance contracts."
       }
     }
   ]
