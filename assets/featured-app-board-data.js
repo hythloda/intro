@@ -1,5 +1,5 @@
 window.FEATURED_APP_BOARD_DATA = {
-  "generatedAt": "2026-09-13T11:58:19.095Z",
+  "generatedAt": "2026-09-14T12:56:20.701Z",
   "columns": [
     {
       "id": "text_mm4k2vch",
@@ -323,7 +323,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12959523630",
       "name": "MetCredX - NIPRO TECHNOLOGIES LIMITED",
-      "updatedAt": "2026-09-13T11:00:15Z",
+      "updatedAt": "2026-09-14T11:03:09Z",
       "values": {
         "text_mm4k2vch": "NIPRO TECHNOLOGIES LIMITED",
         "color_mm4kmej3": "1-Needs Review",
@@ -807,7 +807,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12959522895",
       "name": "ccledger - Blueprint Infrastructure, LLC",
-      "updatedAt": "2026-09-13T11:00:17Z",
+      "updatedAt": "2026-09-14T11:03:11Z",
       "values": {
         "text_mm4k2vch": "Blueprint Infrastructure, LLC",
         "color_mm4kmej3": "1-Needs Review",
@@ -1129,7 +1129,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12870058108",
       "name": "R1M Sentinel - R1M",
-      "updatedAt": "2026-09-13T11:00:19Z",
+      "updatedAt": "2026-09-14T11:03:12Z",
       "values": {
         "text_mm4k2vch": "R1M",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -1715,7 +1715,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12791057047",
       "name": "OS Ledger - Outersunset",
-      "updatedAt": "2026-09-13T11:00:22Z",
+      "updatedAt": "2026-09-14T11:03:14Z",
       "values": {
         "text_mm4k2vch": "Outersunset",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -2189,7 +2189,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12769413819",
       "name": "Canquest - PT JARINGAN SIMPUL TEKNOLOGI",
-      "updatedAt": "2026-09-13T11:00:24Z",
+      "updatedAt": "2026-09-14T11:03:16Z",
       "values": {
         "text_mm4k2vch": "PT JARINGAN SIMPUL TEKNOLOGI",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -2712,7 +2712,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467789103",
       "name": "Jubilee Treasury",
-      "updatedAt": "2026-09-13T11:00:28Z",
+      "updatedAt": "2026-09-14T11:03:17Z",
       "values": {
         "text_mm4k2vch": "Jubilee Treasury",
         "color_mm4kmej3": "6-Withdrawn",
@@ -2851,7 +2851,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12731951755",
       "name": "Cove Wallet API - Qasara Labs Private Limited",
-      "updatedAt": "2026-09-13T11:00:32Z",
+      "updatedAt": "2026-09-14T11:03:19Z",
       "values": {
         "text_mm4k2vch": "Qasara Labs Private Limited",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -3202,7 +3202,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12626943292",
       "name": "Yellow Card - Yellow Card Financial Inc.",
-      "updatedAt": "2026-09-13T11:00:35Z",
+      "updatedAt": "2026-09-14T11:03:20Z",
       "values": {
         "text_mm4k2vch": "Yellow Card Financial Inc.",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -3366,7 +3366,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12609616425",
       "name": "Arkhia x402 Facilitator-as-a-Service (FaaS) - Arkhia Pte Ltd",
-      "updatedAt": "2026-09-13T11:00:36Z",
+      "updatedAt": "2026-09-14T11:03:21Z",
       "values": {
         "text_mm4k2vch": "Arkhia Pte Ltd",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -3649,7 +3649,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467854321",
       "name": "Privket.com",
-      "updatedAt": "2026-09-13T11:00:38Z",
+      "updatedAt": "2026-09-14T11:03:23Z",
       "values": {
         "text_mm4k2vch": "Privket",
         "color_mm4kmej3": "6-Withdrawn",
@@ -3674,7 +3674,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12568365683",
       "name": "Synfin - Cayvox Labs",
-      "updatedAt": "2026-09-13T11:00:41Z",
+      "updatedAt": "2026-09-14T11:03:24Z",
       "values": {
         "text_mm4k2vch": "Cayvox Labs",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -3783,7 +3783,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12471377959",
       "name": "OpenBaskets - BlockxAI Limited",
-      "updatedAt": "2026-09-13T11:00:43Z",
+      "updatedAt": "2026-09-14T11:03:26Z",
       "values": {
         "text_mm4k2vch": "BlockxAI Limited",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -4239,7 +4239,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467790154",
       "name": "Ov Defi",
-      "updatedAt": "2026-09-13T11:00:45Z",
+      "updatedAt": "2026-09-14T11:03:28Z",
       "values": {
         "text_mm4k2vch": "OneNov",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -4319,7 +4319,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467789257",
       "name": "Saxon Automate / Canton Keeper",
-      "updatedAt": "2026-09-13T11:00:48Z",
+      "updatedAt": "2026-09-14T11:03:29Z",
       "values": {
         "text_mm4k2vch": "Saxon",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -4440,7 +4440,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467790155",
       "name": "Mperps",
-      "updatedAt": "2026-09-13T11:00:49Z",
+      "updatedAt": "2026-09-14T11:03:31Z",
       "values": {
         "text_mm4k2vch": "Lemongrass IT Services LLC-Fz",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -4618,7 +4618,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467790000",
       "name": "BENJI",
-      "updatedAt": "2026-09-13T11:00:54Z",
+      "updatedAt": "2026-09-14T11:03:33Z",
       "values": {
         "text_mm4k2vch": "Franklin Templeton",
         "color_mm4kmej3": "3-CIP-0116-paused",
@@ -4645,7 +4645,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467790006",
       "name": "CC Ledger",
-      "updatedAt": "2026-09-13T11:00:55Z",
+      "updatedAt": "2026-09-14T11:03:35Z",
       "values": {
         "text_mm4k2vch": "Blueprint Infrastructure, LLC",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -5930,7 +5930,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467847773",
       "name": "CC Space",
-      "updatedAt": "2026-09-13T11:00:57Z",
+      "updatedAt": "2026-09-14T11:03:36Z",
       "values": {
         "text_mm4k2vch": "ITRocket LLC",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -6187,7 +6187,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467847778",
       "name": "Ov Defi",
-      "updatedAt": "2026-09-13T11:00:58Z",
+      "updatedAt": "2026-09-14T11:03:38Z",
       "values": {
         "text_mm4k2vch": "OneNov",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -6742,7 +6742,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467834325",
       "name": "ChainSafe x402 Global Facilitator",
-      "updatedAt": "2026-09-13T11:01:04Z",
+      "updatedAt": "2026-09-14T11:03:39Z",
       "values": {
         "text_mm4k2vch": "ChainSafe",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -6800,7 +6800,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467834326",
       "name": "Squads Non-Custodial Wallet",
-      "updatedAt": "2026-09-13T11:01:06Z",
+      "updatedAt": "2026-09-14T11:03:40Z",
       "values": {
         "text_mm4k2vch": "SQUADS",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -6827,7 +6827,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467783449",
       "name": "Mperps",
-      "updatedAt": "2026-09-13T11:01:08Z",
+      "updatedAt": "2026-09-14T11:03:42Z",
       "values": {
         "text_mm4k2vch": "Lemongrass IT Services LLC-Fz",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -6886,7 +6886,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467783450",
       "name": "Canquest",
-      "updatedAt": "2026-09-13T11:01:11Z",
+      "updatedAt": "2026-09-14T11:03:44Z",
       "values": {
         "text_mm4k2vch": "Canquest",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -7434,7 +7434,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467838018",
       "name": "Ekiden",
-      "updatedAt": "2026-09-13T11:01:13Z",
+      "updatedAt": "2026-09-14T11:03:45Z",
       "values": {
         "text_mm4k2vch": "Allspark Markets Ltd.",
         "color_mm4kmej3": "2-Approved",
@@ -7488,7 +7488,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467856988",
       "name": "MEME token and Coinflip",
-      "updatedAt": "2026-09-13T11:01:15Z",
+      "updatedAt": "2026-09-14T11:03:47Z",
       "values": {
         "text_mm4k2vch": "Archerswap",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -7517,7 +7517,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467783446",
       "name": "FlowRyd",
-      "updatedAt": "2026-09-13T11:01:18Z",
+      "updatedAt": "2026-09-14T11:03:48Z",
       "values": {
         "text_mm4k2vch": "Towler Enterprises",
         "color_mm4kmej3": "2-Approved",
@@ -7909,7 +7909,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467847770",
       "name": "VAULT",
-      "updatedAt": "2026-09-13T11:01:20Z",
+      "updatedAt": "2026-09-14T11:03:50Z",
       "values": {
         "text_mm4k2vch": "HighTower",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -7971,7 +7971,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467856986",
       "name": "HydraX",
-      "updatedAt": "2026-09-13T11:01:22Z",
+      "updatedAt": "2026-09-14T11:03:53Z",
       "values": {
         "text_mm4k2vch": "HydraX",
         "color_mm4kmej3": "2-Approved",
@@ -8408,7 +8408,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467824052",
       "name": "Canquest",
-      "updatedAt": "2026-09-13T11:01:25Z",
+      "updatedAt": "2026-09-14T11:03:55Z",
       "values": {
         "text_mm4k2vch": "Naxweb",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -8468,7 +8468,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467824053",
       "name": "Deploi Credit Market",
-      "updatedAt": "2026-09-13T11:01:29Z",
+      "updatedAt": "2026-09-14T11:03:58Z",
       "values": {
         "text_mm4k2vch": "Deploi",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -8528,7 +8528,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467824055",
       "name": "AUROX on Canton for featured app",
-      "updatedAt": "2026-09-13T11:01:33Z",
+      "updatedAt": "2026-09-14T11:04:00Z",
       "values": {
         "text_mm4k2vch": "International Institute of Blockchain Advanced Technology",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -9385,7 +9385,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467825386",
       "name": "Agora: Survey & Vote",
-      "updatedAt": "2026-09-13T11:01:34Z",
+      "updatedAt": "2026-09-14T11:04:01Z",
       "values": {
         "text_mm4k2vch": "Agora: Survey & Vote",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -9708,7 +9708,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467832618",
       "name": "ScopeX Rate Lock",
-      "updatedAt": "2026-09-13T11:01:36Z",
+      "updatedAt": "2026-09-14T11:04:02Z",
       "values": {
         "text_mm4k2vch": "ScopeX Money",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -9989,14 +9989,14 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467804368",
       "name": "Nexode",
-      "updatedAt": "2026-09-13T11:01:38Z",
+      "updatedAt": "2026-09-14T11:04:05Z",
       "values": {
         "text_mm4k2vch": "Nexode",
         "color_mm4kmej3": "2-Approved",
         "long_text_mm4kq322": "nexode::12208428f54ef01a64f520dc586a3876f8316b03f1ec40b3764142de89dc5d34acb9",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "nexode-lock::12208428f54ef01a64f520dc586a3876f8316b03f1ec40b3764142de89dc5d34acb9",
-        "numeric_mm4k6919": "0.9",
+        "numeric_mm4k6919": "5.0",
         "long_text_mm4km2s7": "Nexode is a technology company founded by professionals with deep market and trading experience. We build institutional-grade prediction market infrastructure on the Canton Network.",
         "link_mm4kd0hk": "https://nexode.io/branding/",
         "link_mm4kmq24": "https://nexode.io/",
@@ -10353,7 +10353,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12974668475",
       "name": "OS Ledger - Outersunset",
-      "updatedAt": "2026-09-13T11:01:39Z",
+      "updatedAt": "2026-09-14T11:04:06Z",
       "values": {
         "text_mm4k2vch": "Outersunset",
         "color_mm4kmej3": "1-Needs Review",
@@ -10380,7 +10380,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12982310839",
       "name": "Ovdefi - OneNov",
-      "updatedAt": "2026-09-13T11:01:48Z",
+      "updatedAt": "2026-09-14T11:04:08Z",
       "values": {
         "text_mm4k2vch": "OneNov",
         "color_mm4kmej3": "1-Needs Review",
@@ -10470,7 +10470,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13003184089",
       "name": "R1M Sentinel - R1M",
-      "updatedAt": "2026-09-13T11:01:50Z",
+      "updatedAt": "2026-09-14T11:04:09Z",
       "values": {
         "text_mm4k2vch": "R1M",
         "color_mm4kmej3": "1-Needs Review",
@@ -10615,6 +10615,36 @@ window.FEATURED_APP_BOARD_DATA = {
         "long_text_mm4khbeg": "https://github.com/DLC-link/canton (BETH implementation is currently in pull request #128)",
         "long_text_mm4kp5en": "https://drive.google.com/drive/folders/1sTUEBa8f8M343t7TNKDAuv2xMVuG302m?usp=sharing",
         "long_text_mm4kxsgy": "BETH extends a production-proven BitSafe issuance pattern to ETH while keeping the BETH registrar, credentials, and governance domain separate from CBTC. The current implementation creates a dedicated beth-network decentralized party with a three-member committee and a threshold of two in the sandbox reference topology. BETH begins directly on BitSafe’s generalized governance contracts."
+      }
+    },
+    {
+      "id": "13036463016",
+      "name": "P2P Company - P2P Company",
+      "updatedAt": "2026-09-14T04:50:56Z",
+      "values": {
+        "text_mm4k2vch": "P2P Company",
+        "color_mm4kmej3": "1-Needs Review",
+        "long_text_mm4kq322": "P2P-validator-1::1220ff5e11579f619cb2e9172f9f25db32a6451f854dbef063c83ca8c270684e636f",
+        "color_mm4kpp3q": "Non-Issuer",
+        "long_text_mm4khjn6": "We are talking to cashen for required CC lock",
+        "long_text_mm4km2s7": "P2P Company runs an escrow service for peer-to-peer trades of Canton-native assets. We operate our own Canton MainNet validator, P2P-validator-1, sponsored by the Foundation.",
+        "link_mm4kd0hk": "https://www.p2p.company/#/brand",
+        "link_mm4kmq24": "https://p2p.company",
+        "link_mm4kqtfa": "https://drive.google.com/file/d/1BTS61Y9VnCLDKqX_faXEY6QmGrVsJ7jq/view?usp=sharing",
+        "long_text_mm4k2537": "P2P Company is an escrow service for peer-to-peer trades of Canton Coin, CBTC and cETH. The seller's asset is locked in escrow on Canton, the buyer pays the seller directly in stablecoins or local currency, and escrow then releases the asset to the buyer. There is no KYC and no account to create, the fee is 0.25%, and a person decides any dispute within 48 hours.",
+        "long_text_mm5hgry2": "Yes, many similar products exists in other Blockchain ecosystems",
+        "long_text_mm4k4y1h": "Individuals who hold or want Canton Coin, CBTC or cETH and prefer to trade directly with another person, paying in stablecoins or local currency (UPI, bank transfer and similar) instead of through an exchange. That includes people coming into Canton assets from fiat and holders cashing out to local currency. Our first users come from Canton community channel.",
+        "long_text_mm4k15bg": "Completed escrow settlements: the transaction in which escrow releases a trade's asset to the buyer's Canton party after the buyer has paid and the seller has released.",
+        "long_text_mm4kh3fw": "Our API connects to our own participant through the JSON Ledger API v2 and uses only standard Splice and CIP-56 token-standard contracts. We deploy no custom Daml. Deposits and locks: these arrive at our escrow party (p2p-escrow-1) either directly through its TransferPreapproval, detected from the update stream and matched to an order by the transfer description, or as token-standard TransferInstructions that we accept after matching the reason. Only the configured instruments are accepted: Amulet, and CBTC and cETH on the Digital Asset Utilities registry. Payouts: releases to buyers, returns to sellers and withdrawals are token-standard transfers from escrow. Each one is journaled with a deterministic command id, and a reconciler checks every outcome against the ledger before anything is retried, so nothing is paid twice. Fees: fees accrue in escrow and are swept once a day to our treasury party (p2p-treasury-1). Reconciliation: every 10 minutes we compare what escrow holds on the ledger with what our books owe users, and alert on any shortfall.",
+        "long_text_mm4kfg50": "Activity markers are not integrated yet, but activity markers will be tied to the traffic burn in each block.",
+        "long_text_mm4kxcm2": "1–3 settled trades per active user per day.",
+        "long_text_mm4kvyjq": "When a user completes more than one trade in the same round. For example, a seller whose listing is filled by several different buyers. Each settled trade is a separate release to a different counterparty.",
+        "long_text_mm4k1cm0": "Linearly with the number of settled trades/active users",
+        "long_text_mm4kfkwn": "We are already live. Our first customers are Canton community members trading Canton Coin against USD stablecoins and local currency. CBTC and cETH are enabled on the same escrow and settlement flow.",
+        "long_text_mm4k6q73": "We would keep operating on the 0.25% trading fee alone. FA rewards would let us keep the fee low and cover ledger and infrastructure costs while volume builds, and fund faster work on the CBTC and cETH markets and on dispute operations. Without FA status we would grow more slowly, but the service would stay live.",
+        "long_text_mm4kwxt1": "Yes. We already have fees setup, Every trade pays a 0.25% fee in the asset, paid by the seller on top, which makes self-trading a net cost.",
+        "long_text_mm4khbeg": "NA",
+        "long_text_mm4kp5en": "https://www.p2p.company/#/brand"
       }
     }
   ]
