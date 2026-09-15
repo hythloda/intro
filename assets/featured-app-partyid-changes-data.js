@@ -1,5 +1,5 @@
 window.FEATURED_APP_PARTYID_CHANGES_DATA = {
-  "generatedAt": "2026-09-14T13:07:31.313Z",
+  "generatedAt": "2026-09-15T11:57:27.071Z",
   "columns": [
     {
       "id": "long_text_mm4kq322",
@@ -13,6 +13,15 @@ window.FEATURED_APP_PARTYID_CHANGES_DATA = {
     }
   ],
   "changes": [
+    {
+      "id": "67d03fe7-c0d9-46d9-9a38-9fba345effbb",
+      "changedAt": "2026-09-14T16:37:34.262Z",
+      "itemName": "Parthenon",
+      "itemId": "12467810726",
+      "field": "Locking PartyIDs",
+      "previousValue": "23d169c2-0909-4c70-81d1-1922de6febaa::1220c253c4aab64a32d643638d7bc92515a2233a3ffdbe17941773985938202da6e8",
+      "newValue": ""
+    },
     {
       "id": "e3a96d3b-a931-451a-95c0-ff37090079f1",
       "changedAt": "2026-09-02T14:29:23.704Z",
@@ -183,15 +192,6 @@ window.FEATURED_APP_PARTYID_CHANGES_DATA = {
       "field": "Party ID for the Featured Application:",
       "previousValue": "",
       "newValue": "eesee-mainnet-1::1220fb2e89aab677556481b303aad5d3aa049edcf961db626f12f2c9e040b5463df4"
-    },
-    {
-      "id": "379db0b0-91bf-4705-97b7-f7249fe8c7dd",
-      "changedAt": "2026-08-11T12:48:38.445Z",
-      "itemName": "eesee - eesee Ltd. (BVI-registered). Application operations supported by CoreOps Digital Corporation (operator of Canсore), an affiliated entity contributing the atomic-swap/bridging primitive.",
-      "itemId": "12743035486",
-      "field": "Locking PartyIDs",
-      "previousValue": "5,000,000 $CC locked and active via Canton Strategic / Cashen locking arrangement. Locking party: 23d169c2-0909-4c70-81d1-1922de6febaa::12200255cb9526b82c134e1bfb2136f841c32af8a2df39e2e52a2c9f03da7a4afac1 Verifiable on-chain: https://ccview.io/party/23d169c2-0909-4c70-81d1-1922de6febaa::12200255cb9526b82c134e1bfb2136f841c32af8a2df39e2e52a2c9f03da7a4afac1/ FeaturedAppRight is held on the eesee app-provider party: eesee-mainnet-1::1220fb2e89aab677556481b303aad5d3aa049edcf961db626f12f2c9e040b5463df4",
-      "newValue": "23d169c2-0909-4c70-81d1-1922de6febaa::12200255cb9526b82c134e1bfb2136f841c32af8a2df39e2e52a2c9f03da7a4afac1"
     }
   ]
 };
