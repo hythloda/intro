@@ -1,5 +1,5 @@
 window.COMMITTEE_COMPANIES_DATA = {
-  "generatedAt": "2026-09-14T13:19:01.864Z",
+  "generatedAt": "2026-09-15T12:04:52.355Z",
   "committees": {
     "faAccountability": {
       "label": "Featured Application Accountability Committee",
@@ -198,11 +198,15 @@ window.COMMITTEE_COMPANIES_DATA = {
       "companies": [
         "7RIDGE",
         "BNY",
+        "BPX Markets Limited",
         "Broadridge Financial Solutions",
+        "Cashen Labs, Inc.",
+        "Copper Markets (Switzerland) AG",
         "Cumberland SV LLC",
         "Depository Trust and Clearing Corporation (DTCC)",
         "Digital Asset (Switzerland) GmbH",
         "Euroclear",
+        "Fairmint Inc",
         "IntellectEU",
         "International Swaps and Derivatives Association",
         "Kaiko",
@@ -210,6 +214,7 @@ window.COMMITTEE_COMPANIES_DATA = {
         "KRO Brokers, SPC",
         "LiquidityTech Limited",
         "Lloyds Bank Plc",
+        "RedStone",
         "SBI Digital Asset Holdings",
         "T-RIZE Group",
         "The International Securities Lending Association",
