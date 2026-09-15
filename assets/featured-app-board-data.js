@@ -1,5 +1,5 @@
 window.FEATURED_APP_BOARD_DATA = {
-  "generatedAt": "2026-09-14T12:56:20.701Z",
+  "generatedAt": "2026-09-15T11:50:34.240Z",
   "columns": [
     {
       "id": "text_mm4k2vch",
@@ -323,7 +323,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12959523630",
       "name": "MetCredX - NIPRO TECHNOLOGIES LIMITED",
-      "updatedAt": "2026-09-14T11:03:09Z",
+      "updatedAt": "2026-09-15T04:00:14Z",
       "values": {
         "text_mm4k2vch": "NIPRO TECHNOLOGIES LIMITED",
         "color_mm4kmej3": "1-Needs Review",
@@ -807,7 +807,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12959522895",
       "name": "ccledger - Blueprint Infrastructure, LLC",
-      "updatedAt": "2026-09-14T11:03:11Z",
+      "updatedAt": "2026-09-15T04:00:16Z",
       "values": {
         "text_mm4k2vch": "Blueprint Infrastructure, LLC",
         "color_mm4kmej3": "1-Needs Review",
@@ -1129,7 +1129,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12870058108",
       "name": "R1M Sentinel - R1M",
-      "updatedAt": "2026-09-14T11:03:12Z",
+      "updatedAt": "2026-09-15T04:00:17Z",
       "values": {
         "text_mm4k2vch": "R1M",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -1715,7 +1715,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12791057047",
       "name": "OS Ledger - Outersunset",
-      "updatedAt": "2026-09-14T11:03:14Z",
+      "updatedAt": "2026-09-15T04:00:19Z",
       "values": {
         "text_mm4k2vch": "Outersunset",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -2189,7 +2189,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12769413819",
       "name": "Canquest - PT JARINGAN SIMPUL TEKNOLOGI",
-      "updatedAt": "2026-09-14T11:03:16Z",
+      "updatedAt": "2026-09-15T04:00:21Z",
       "values": {
         "text_mm4k2vch": "PT JARINGAN SIMPUL TEKNOLOGI",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -2712,7 +2712,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467789103",
       "name": "Jubilee Treasury",
-      "updatedAt": "2026-09-14T11:03:17Z",
+      "updatedAt": "2026-09-15T04:00:22Z",
       "values": {
         "text_mm4k2vch": "Jubilee Treasury",
         "color_mm4kmej3": "6-Withdrawn",
@@ -2851,7 +2851,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12731951755",
       "name": "Cove Wallet API - Qasara Labs Private Limited",
-      "updatedAt": "2026-09-14T11:03:19Z",
+      "updatedAt": "2026-09-15T04:00:24Z",
       "values": {
         "text_mm4k2vch": "Qasara Labs Private Limited",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -2931,10 +2931,10 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467815974",
       "name": "ClearLoop Settlement",
-      "updatedAt": "2026-08-24T16:48:55Z",
+      "updatedAt": "2026-09-14T19:00:28Z",
       "values": {
         "text_mm4k2vch": "Copper Technologies",
-        "color_mm4kmej3": "2-Approved",
+        "color_mm4kmej3": "6-Withdrawn",
         "long_text_mm4kq322": "CopperClearLoop::1220b25aa0a73f9f34925b62591da332693bef3a71e3d235c19e5546dafca2dda9ef",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "23d169c2-0909-4c70-81d1-1922de6febaa::122056b88d963eeb73a25493d83cc0d3121069241f9775ff21686f90028f3b7496e5",
@@ -3202,7 +3202,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12626943292",
       "name": "Yellow Card - Yellow Card Financial Inc.",
-      "updatedAt": "2026-09-14T11:03:20Z",
+      "updatedAt": "2026-09-15T04:00:26Z",
       "values": {
         "text_mm4k2vch": "Yellow Card Financial Inc.",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -3366,7 +3366,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12609616425",
       "name": "Arkhia x402 Facilitator-as-a-Service (FaaS) - Arkhia Pte Ltd",
-      "updatedAt": "2026-09-14T11:03:21Z",
+      "updatedAt": "2026-09-15T04:00:27Z",
       "values": {
         "text_mm4k2vch": "Arkhia Pte Ltd",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -3649,7 +3649,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467854321",
       "name": "Privket.com",
-      "updatedAt": "2026-09-14T11:03:23Z",
+      "updatedAt": "2026-09-15T04:00:28Z",
       "values": {
         "text_mm4k2vch": "Privket",
         "color_mm4kmej3": "6-Withdrawn",
@@ -3674,7 +3674,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12568365683",
       "name": "Synfin - Cayvox Labs",
-      "updatedAt": "2026-09-14T11:03:24Z",
+      "updatedAt": "2026-09-15T04:00:30Z",
       "values": {
         "text_mm4k2vch": "Cayvox Labs",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -3783,7 +3783,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12471377959",
       "name": "OpenBaskets - BlockxAI Limited",
-      "updatedAt": "2026-09-14T11:03:26Z",
+      "updatedAt": "2026-09-15T04:00:31Z",
       "values": {
         "text_mm4k2vch": "BlockxAI Limited",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -4239,7 +4239,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467790154",
       "name": "Ov Defi",
-      "updatedAt": "2026-09-14T11:03:28Z",
+      "updatedAt": "2026-09-15T04:00:33Z",
       "values": {
         "text_mm4k2vch": "OneNov",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -4319,7 +4319,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467789257",
       "name": "Saxon Automate / Canton Keeper",
-      "updatedAt": "2026-09-14T11:03:29Z",
+      "updatedAt": "2026-09-15T04:00:35Z",
       "values": {
         "text_mm4k2vch": "Saxon",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -4440,7 +4440,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467790155",
       "name": "Mperps",
-      "updatedAt": "2026-09-14T11:03:31Z",
+      "updatedAt": "2026-09-15T04:00:41Z",
       "values": {
         "text_mm4k2vch": "Lemongrass IT Services LLC-Fz",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -4618,7 +4618,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467790000",
       "name": "BENJI",
-      "updatedAt": "2026-09-14T11:03:33Z",
+      "updatedAt": "2026-09-15T04:00:42Z",
       "values": {
         "text_mm4k2vch": "Franklin Templeton",
         "color_mm4kmej3": "3-CIP-0116-paused",
@@ -4645,7 +4645,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467790006",
       "name": "CC Ledger",
-      "updatedAt": "2026-09-14T11:03:35Z",
+      "updatedAt": "2026-09-15T04:00:43Z",
       "values": {
         "text_mm4k2vch": "Blueprint Infrastructure, LLC",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -5414,13 +5414,12 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467810726",
       "name": "Parthenon",
-      "updatedAt": "2026-08-31T19:48:16Z",
+      "updatedAt": "2026-09-14T16:37:34Z",
       "values": {
         "text_mm4k2vch": "Finkfi Inc",
         "color_mm4kmej3": "7-Closed-new-process",
         "long_text_mm4kq322": "finkfi-validator-1::122078651b99447bf3bf18b0586e767f097d003212e9f703c2dc5aced2a8737d73ab",
         "color_mm4kpp3q": "Non-Issuer",
-        "long_text_mm4khjn6": "23d169c2-0909-4c70-81d1-1922de6febaa::1220c253c4aab64a32d643638d7bc92515a2233a3ffdbe17941773985938202da6e8",
         "numeric_mm4k6919": "5.0",
         "long_text_mm4km2s7": "Parthenon Fi (parthenonfi.com) — fixed-rate rwa lending on Canton where we're a mainnet validator, with custody-integration via BitGo, Copper, and Zodia. Starting our canton contract audit engagement with Quantstamp at the moment, before going live.",
         "link_mm4kmq24": "https://parthenonfi.com/",
@@ -5722,10 +5721,10 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467790002",
       "name": "Custodial Wrapped Assets",
-      "updatedAt": "2026-08-24T16:53:50Z",
+      "updatedAt": "2026-09-14T19:00:25Z",
       "values": {
         "text_mm4k2vch": "Copper.co",
-        "color_mm4kmej3": "2-Approved",
+        "color_mm4kmej3": "6-Withdrawn",
         "long_text_mm4kq322": "CopperWrappedAssets::1220c283aa461c4a72626804a615e930d0f6432511464603eb6e40a955f958f98847",
         "color_mm4kpp3q": "Asset Issuer",
         "long_text_mm4khjn6": "23d169c2-0909-4c70-81d1-1922de6febaa::12203f7f44f693ff10e4b9000fb25fb4e9a347dda71c5ef7e20e8819fd377012a8b1",
@@ -5930,7 +5929,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467847773",
       "name": "CC Space",
-      "updatedAt": "2026-09-14T11:03:36Z",
+      "updatedAt": "2026-09-15T04:00:45Z",
       "values": {
         "text_mm4k2vch": "ITRocket LLC",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -6187,7 +6186,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467847778",
       "name": "Ov Defi",
-      "updatedAt": "2026-09-14T11:03:38Z",
+      "updatedAt": "2026-09-15T04:00:46Z",
       "values": {
         "text_mm4k2vch": "OneNov",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -6742,7 +6741,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467834325",
       "name": "ChainSafe x402 Global Facilitator",
-      "updatedAt": "2026-09-14T11:03:39Z",
+      "updatedAt": "2026-09-15T04:00:48Z",
       "values": {
         "text_mm4k2vch": "ChainSafe",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -6800,7 +6799,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467834326",
       "name": "Squads Non-Custodial Wallet",
-      "updatedAt": "2026-09-14T11:03:40Z",
+      "updatedAt": "2026-09-15T04:00:49Z",
       "values": {
         "text_mm4k2vch": "SQUADS",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -6827,7 +6826,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467783449",
       "name": "Mperps",
-      "updatedAt": "2026-09-14T11:03:42Z",
+      "updatedAt": "2026-09-15T04:00:50Z",
       "values": {
         "text_mm4k2vch": "Lemongrass IT Services LLC-Fz",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -6886,7 +6885,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467783450",
       "name": "Canquest",
-      "updatedAt": "2026-09-14T11:03:44Z",
+      "updatedAt": "2026-09-15T04:00:52Z",
       "values": {
         "text_mm4k2vch": "Canquest",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -7434,7 +7433,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467838018",
       "name": "Ekiden",
-      "updatedAt": "2026-09-14T11:03:45Z",
+      "updatedAt": "2026-09-15T04:00:54Z",
       "values": {
         "text_mm4k2vch": "Allspark Markets Ltd.",
         "color_mm4kmej3": "2-Approved",
@@ -7488,7 +7487,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467856988",
       "name": "MEME token and Coinflip",
-      "updatedAt": "2026-09-14T11:03:47Z",
+      "updatedAt": "2026-09-15T04:00:55Z",
       "values": {
         "text_mm4k2vch": "Archerswap",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -7517,7 +7516,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467783446",
       "name": "FlowRyd",
-      "updatedAt": "2026-09-14T11:03:48Z",
+      "updatedAt": "2026-09-15T04:00:56Z",
       "values": {
         "text_mm4k2vch": "Towler Enterprises",
         "color_mm4kmej3": "2-Approved",
@@ -7909,7 +7908,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467847770",
       "name": "VAULT",
-      "updatedAt": "2026-09-14T11:03:50Z",
+      "updatedAt": "2026-09-15T04:00:58Z",
       "values": {
         "text_mm4k2vch": "HighTower",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -7971,7 +7970,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467856986",
       "name": "HydraX",
-      "updatedAt": "2026-09-14T11:03:53Z",
+      "updatedAt": "2026-09-15T04:00:59Z",
       "values": {
         "text_mm4k2vch": "HydraX",
         "color_mm4kmej3": "2-Approved",
@@ -8408,7 +8407,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467824052",
       "name": "Canquest",
-      "updatedAt": "2026-09-14T11:03:55Z",
+      "updatedAt": "2026-09-15T04:01:00Z",
       "values": {
         "text_mm4k2vch": "Naxweb",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -8468,7 +8467,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467824053",
       "name": "Deploi Credit Market",
-      "updatedAt": "2026-09-14T11:03:58Z",
+      "updatedAt": "2026-09-15T04:01:03Z",
       "values": {
         "text_mm4k2vch": "Deploi",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -8528,7 +8527,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467824055",
       "name": "AUROX on Canton for featured app",
-      "updatedAt": "2026-09-14T11:04:00Z",
+      "updatedAt": "2026-09-15T04:01:05Z",
       "values": {
         "text_mm4k2vch": "International Institute of Blockchain Advanced Technology",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -9385,7 +9384,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467825386",
       "name": "Agora: Survey & Vote",
-      "updatedAt": "2026-09-14T11:04:01Z",
+      "updatedAt": "2026-09-15T04:01:06Z",
       "values": {
         "text_mm4k2vch": "Agora: Survey & Vote",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -9708,7 +9707,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467832618",
       "name": "ScopeX Rate Lock",
-      "updatedAt": "2026-09-14T11:04:02Z",
+      "updatedAt": "2026-09-15T04:01:07Z",
       "values": {
         "text_mm4k2vch": "ScopeX Money",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -10353,7 +10352,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12974668475",
       "name": "OS Ledger - Outersunset",
-      "updatedAt": "2026-09-14T11:04:06Z",
+      "updatedAt": "2026-09-15T04:01:09Z",
       "values": {
         "text_mm4k2vch": "Outersunset",
         "color_mm4kmej3": "1-Needs Review",
@@ -10380,7 +10379,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12982310839",
       "name": "Ovdefi - OneNov",
-      "updatedAt": "2026-09-14T11:04:08Z",
+      "updatedAt": "2026-09-15T04:01:10Z",
       "values": {
         "text_mm4k2vch": "OneNov",
         "color_mm4kmej3": "1-Needs Review",
@@ -10470,7 +10469,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13003184089",
       "name": "R1M Sentinel - R1M",
-      "updatedAt": "2026-09-14T11:04:09Z",
+      "updatedAt": "2026-09-15T04:01:11Z",
       "values": {
         "text_mm4k2vch": "R1M",
         "color_mm4kmej3": "1-Needs Review",
@@ -10645,6 +10644,35 @@ window.FEATURED_APP_BOARD_DATA = {
         "long_text_mm4kwxt1": "Yes. We already have fees setup, Every trade pays a 0.25% fee in the asset, paid by the seller on top, which makes self-trading a net cost.",
         "long_text_mm4khbeg": "NA",
         "long_text_mm4kp5en": "https://www.p2p.company/#/brand"
+      }
+    },
+    {
+      "id": "13046640623",
+      "name": "Yellow Card - Yellow Card Financial Inc.",
+      "updatedAt": "2026-09-15T04:50:58Z",
+      "values": {
+        "text_mm4k2vch": "Yellow Card Financial Inc.",
+        "color_mm4kmej3": "1-Needs Review",
+        "long_text_mm4kq322": "YellowCard-Validator-1::1220393b39a08729c8cd220fdf39fdd7af8d55fbfe54b06351b7f8d69e55dcbbbbfa",
+        "color_mm4kpp3q": "Non-Issuer",
+        "long_text_mm4khjn6": "DA to provide locking party ID's",
+        "long_text_mm4km2s7": "Yellow Card is a licensed stablecoin payments infrastructure provider for emerging markets, operating as the regulated counterparty for the local currency leg of cross border settlement in the markets where correspondent banking is weakest. Founded in 2016 by Chris Maurice (CEO) and Justin Poiroux (CTO), the company built Africa's first and largest licensed stablecoin on and off ramp, and today holds licenses, authorizations, or registrations in 22 jurisdictions with local payout coverage across more than 50 currencies. Yellow Card has facilitated more than $10 billion in transactions since inception, with a customer base split roughly evenly between corporates and large financial institutions and bank volumes currently growing fastest. Core products are an API suite for programmatic stablecoin and local currency payments, a treasury portal for institutional clients, Global USD Accounts for businesses, and the underlying fiat and digital asset payment infrastructure connecting local banking systems to stablecoin rails.",
+        "link_mm4kd0hk": "https://images.yellowcard.io/press-kits/Logo-Formats.zip",
+        "link_mm4kmq24": "https://yellowcard.io/products",
+        "long_text_mm4k2537": "Yellow Card operates institutional on and off ramps and settlement services connecting emerging market banking systems to stablecoin rails. The application will use Canton as the institutional settlement layer. Institutional clients, including banks, corporates, and other VASPs, instruct Yellow Card to move value between fiat currencies in emerging markets and stablecoins. Yellow Card handles the regulated local leg (collection and payout through licensed local entities, KYC and KYB, KYT screening, and travel rule obligations) and settles the digital asset leg on Canton.",
+        "long_text_mm5hgry2": "Yes. Yellow Card is historically blockchain agnostic and has facilitated more than $10 billion. As the product shifts towards highly regulated institutional clients, the settlement layer is undergoing iterations with Canton as a foundational component.",
+        "long_text_mm4k4y1h": "Banks and financial institutions. Sourcing hard currency liquidity and moving cross border USD for their own clients. This is our fastest growing segment. Corporates and payment businesses. Multinationals, remittance companies, and payment service providers using Yellow Card for treasury operations, supplier payouts, and collections across emerging markets, typically through the API suite and treasury portal. Other regulated digital asset businesses. VASPs, exchanges, and issuers settling against Yellow Card as counterparty. Each institutional client is onboarded through full KYB, is contractually identified, and is represented as a distinct external party on the ledger. There is no anonymous or self service access to the Canton leg. Yellow Card’s own licensed entities across jurisdictions are also users, settling between themselves on the network.",
+        "long_text_mm4k15bg": "Rewards are earned from institutional settlement activity where Yellow Card is the originating application, each instance corresponding to a client instruction with a real fiat or liquidity leg behind it: Position funding (on ramp settlement). A client delivers local fiat through a Yellow Card licensed entity, and the corresponding stablecoin position is settled on Canton. Position unwind (off ramp settlement). A client transfers stablecoin holdings on Canton to Yellow Card, and local fiat is paid out. Institutional transfers. Settlement between institutional parties on the ledger, including client to counterparty payments and Yellow Card inter entity net settlement across jurisdictions. Cross chain entry and exit. Bridge operations that bring external stablecoin liquidity onto Canton to fund settlement, and unwind it afterwards. Every one of these is preceded by KYB onboarding, per transaction KYT screening, and travel rule handling where applicable.",
+        "long_text_mm4kh3fw": "Yellow Card interacts through the Canton JSON Ledger API v2 and the Canton Wallet SDK, from a dedicated integration service. All interaction is through Splice and registry standard interfaces (token standard holdings and transfer instructions, transfer preapprovals, bridge agreements).",
+        "long_text_mm4kfg50": "Primarily Activity Markers. Used to signal the economic activity, because the settled instruments are third party stablecoins under the token standard rather than Canton Coin, so the value Yellow Card contributes is not represented by Canton Coin transfer volume. Markers are emitted on settlement events.",
+        "long_text_mm4kxcm2": "Daily number of transactions on a per user basis varies significantly due to the nature of B2B vs B2B2C. Our transaction count will scale through embedded distribution rather than direct acquisition. Our wallet and on/off ramp infrastructure is being integrated into retail banks, mobile network operators, and banking infrastructure resellers, who expose it to their own customer bases under their own brands. Each partner integration therefore contributes volume proportional to that partner's user base rather than to a single account relationship. We aim to build towards supporting 1-2+ tps worth of daily on-chain transactions to Canton.",
+        "long_text_mm4kvyjq": "A client party can generate more than one transaction in a ten minute round under these conditions: Independent instructions. A client submitting several unrelated settlement instructions in quick succession, most commonly a payment processor batching a payout run. Multi step flows. A single client instruction that requires more than one ledger transaction to complete, for example a bridge entry (mint preapproval then attested mint) followed by the settlement transfer that consumes it. Liquidity composition. Settlement drawing on multiple holdings when no single holding covers the instruction amount, which is a function of how liquidity happens to be fragmented at that moment rather than a choice. Retry after contention. A submission rejected for stale inputs (already spent holdings under concurrency) is re prepared and resubmitted, which can produce more than one submission attempt for one settlement.",
+        "long_text_mm4k1cm0": "Super Linear. Our rails will be embedded in banks, telcos, and fintechs.",
+        "long_text_mm4kfkwn": "The go-live plan is a phased rollout starting with a limited set of clients, moving to Canton as the settlement network for institutional flows as it proves out. Aiming to start in Q4.",
+        "long_text_mm4k6q73": "Yellow Card’s institutional ramps and settlement business operates today on other networks and is not contingent on Featured App status. Without it, the business continues, but the pace and shape of Canton adoption change: What would not change. Client onboarding, compliance operations, local fiat infrastructure, and the existing multi chain settlement capability. Canton would remain available as a settlement option and Yellow Card would continue to operate its validator. What would change. Under the reward computation currently in force, app reward minting is only available to featured applications, so without Featured App status the traffic Yellow Card burns to settle institutional volume is a pure cost with no offsetting minting, on top of the operational cost of running the validator. Routing volume through Canton would therefore carry a per transaction protocol cost that alternative networks do not. Yellow Card would therefore keep Canton as a selective settlement venue used where atomic settlement and privacy against a specific counterparty justify the premium, rather than making it the default settlement network for institutional flow.",
+        "long_text_mm4kwxt1": "Yes. Controls exist for regulatory reasons independent of Canton, which makes them harder to work around than reward specific guardrails. Client level. No self service access to the Canton settlement leg. Every party belongs to an institution onboarded through full KYB, with contractual identification, sanctions and adverse media screening, and ongoing monitoring under Yellow Card’s licensed compliance programme across 22 jurisdictions. Transaction level. Every settlement transaction is screened under the same KYT and AML controls applied to all supported networks, including travel rule handling where applicable. Transactions failing screening do not reach the ledger. Economic level. Every settlement event on the ledger corresponds to a client instruction with a real fiat or liquidity leg behind it: money collected from or paid to an identified institution through a licensed local entity, with an internal ledger entry and reconciliation on the other side. There is no path by which the application generates ledger activity without a corresponding real world settlement obligation. Activity cannot be self generated at will, because the fiat leg is the constraint. Operational level. Settlement paths are idempotent, so retries do not create duplicate economic events, and reconciliation between the internal ledger and on ledger holdings detects any divergence.",
+        "long_text_mm4kp5en": "https://images.yellowcard.io/press-kits/Logo-Formats.zip",
+        "long_text_mm4kxsgy": "Canton's settlement thesis is strongest where correspondent banking is weakest, and that is where Yellow Card operates. Licensed, authorized, or registered in 22 jurisdictions across more than 50 countries, with more than $10 billion settled, Yellow Card holds the local licenses, bank relationships, and liquidity that reaching emerging market currencies actually requires. More importantly, we bring distribution: our wallet and on/off ramp infrastructure is being embedded into retail banks, mobile network operators, and banking infrastructure resellers who expose it to their own customer bases under their own brands. Each integration puts Canton settlement behind an institution that would not otherwise evaluate a distributed ledger, and reaches its subscriber base rather than a single account."
       }
     }
   ]
