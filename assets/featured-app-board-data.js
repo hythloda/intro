@@ -1,5 +1,5 @@
 window.FEATURED_APP_BOARD_DATA = {
-  "generatedAt": "2026-09-15T11:50:34.240Z",
+  "generatedAt": "2026-09-16T11:43:19.853Z",
   "columns": [
     {
       "id": "text_mm4k2vch",
@@ -323,7 +323,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12959523630",
       "name": "MetCredX - NIPRO TECHNOLOGIES LIMITED",
-      "updatedAt": "2026-09-15T04:00:14Z",
+      "updatedAt": "2026-09-16T04:00:15Z",
       "values": {
         "text_mm4k2vch": "NIPRO TECHNOLOGIES LIMITED",
         "color_mm4kmej3": "1-Needs Review",
@@ -576,10 +576,10 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12959492765",
       "name": "Selay Wallet - Security Layer Innovations Limited",
-      "updatedAt": "2026-09-09T04:00:12Z",
+      "updatedAt": "2026-09-15T11:53:14Z",
       "values": {
         "text_mm4k2vch": "Security Layer Innovations Limited",
-        "color_mm4kmej3": "1-Needs Review",
+        "color_mm4kmej3": "0-Locked+Needs Review",
         "long_text_mm4kq322": "selay-validator-1::1220db68d747efac2626aa1804790343f4ba781408ad076cbb3af63f1aa03b88f3cb",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "4M-Lending-Lock-6::1220c03dee4b32e29d0e4c3a395afa3bc82629a60d86ab75289dad473ab46a5ce56f 5,000,000 CC locked via the 7LOCK marketplace",
@@ -807,7 +807,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12959522895",
       "name": "ccledger - Blueprint Infrastructure, LLC",
-      "updatedAt": "2026-09-15T04:00:16Z",
+      "updatedAt": "2026-09-16T04:00:16Z",
       "values": {
         "text_mm4k2vch": "Blueprint Infrastructure, LLC",
         "color_mm4kmej3": "1-Needs Review",
@@ -1129,7 +1129,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12870058108",
       "name": "R1M Sentinel - R1M",
-      "updatedAt": "2026-09-15T04:00:17Z",
+      "updatedAt": "2026-09-16T04:00:18Z",
       "values": {
         "text_mm4k2vch": "R1M",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -1715,7 +1715,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12791057047",
       "name": "OS Ledger - Outersunset",
-      "updatedAt": "2026-09-15T04:00:19Z",
+      "updatedAt": "2026-09-16T04:00:19Z",
       "values": {
         "text_mm4k2vch": "Outersunset",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -2189,7 +2189,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12769413819",
       "name": "Canquest - PT JARINGAN SIMPUL TEKNOLOGI",
-      "updatedAt": "2026-09-15T04:00:21Z",
+      "updatedAt": "2026-09-16T04:00:21Z",
       "values": {
         "text_mm4k2vch": "PT JARINGAN SIMPUL TEKNOLOGI",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -2712,7 +2712,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467789103",
       "name": "Jubilee Treasury",
-      "updatedAt": "2026-09-15T04:00:22Z",
+      "updatedAt": "2026-09-16T04:00:22Z",
       "values": {
         "text_mm4k2vch": "Jubilee Treasury",
         "color_mm4kmej3": "6-Withdrawn",
@@ -2851,7 +2851,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12731951755",
       "name": "Cove Wallet API - Qasara Labs Private Limited",
-      "updatedAt": "2026-09-15T04:00:24Z",
+      "updatedAt": "2026-09-16T04:00:24Z",
       "values": {
         "text_mm4k2vch": "Qasara Labs Private Limited",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -3202,7 +3202,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12626943292",
       "name": "Yellow Card - Yellow Card Financial Inc.",
-      "updatedAt": "2026-09-15T04:00:26Z",
+      "updatedAt": "2026-09-16T04:00:25Z",
       "values": {
         "text_mm4k2vch": "Yellow Card Financial Inc.",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -3366,7 +3366,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12609616425",
       "name": "Arkhia x402 Facilitator-as-a-Service (FaaS) - Arkhia Pte Ltd",
-      "updatedAt": "2026-09-15T04:00:27Z",
+      "updatedAt": "2026-09-16T04:00:27Z",
       "values": {
         "text_mm4k2vch": "Arkhia Pte Ltd",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -3649,7 +3649,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467854321",
       "name": "Privket.com",
-      "updatedAt": "2026-09-15T04:00:28Z",
+      "updatedAt": "2026-09-16T04:00:28Z",
       "values": {
         "text_mm4k2vch": "Privket",
         "color_mm4kmej3": "6-Withdrawn",
@@ -3674,7 +3674,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12568365683",
       "name": "Synfin - Cayvox Labs",
-      "updatedAt": "2026-09-15T04:00:30Z",
+      "updatedAt": "2026-09-16T04:00:30Z",
       "values": {
         "text_mm4k2vch": "Cayvox Labs",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -3783,7 +3783,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12471377959",
       "name": "OpenBaskets - BlockxAI Limited",
-      "updatedAt": "2026-09-15T04:00:31Z",
+      "updatedAt": "2026-09-16T04:00:32Z",
       "values": {
         "text_mm4k2vch": "BlockxAI Limited",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -4239,7 +4239,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467790154",
       "name": "Ov Defi",
-      "updatedAt": "2026-09-15T04:00:33Z",
+      "updatedAt": "2026-09-16T04:00:33Z",
       "values": {
         "text_mm4k2vch": "OneNov",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -4319,7 +4319,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467789257",
       "name": "Saxon Automate / Canton Keeper",
-      "updatedAt": "2026-09-15T04:00:35Z",
+      "updatedAt": "2026-09-16T04:00:35Z",
       "values": {
         "text_mm4k2vch": "Saxon",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -4440,7 +4440,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467790155",
       "name": "Mperps",
-      "updatedAt": "2026-09-15T04:00:41Z",
+      "updatedAt": "2026-09-16T04:00:37Z",
       "values": {
         "text_mm4k2vch": "Lemongrass IT Services LLC-Fz",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -4618,7 +4618,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467790000",
       "name": "BENJI",
-      "updatedAt": "2026-09-15T04:00:42Z",
+      "updatedAt": "2026-09-16T04:00:38Z",
       "values": {
         "text_mm4k2vch": "Franklin Templeton",
         "color_mm4kmej3": "3-CIP-0116-paused",
@@ -4645,7 +4645,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467790006",
       "name": "CC Ledger",
-      "updatedAt": "2026-09-15T04:00:43Z",
+      "updatedAt": "2026-09-16T04:00:40Z",
       "values": {
         "text_mm4k2vch": "Blueprint Infrastructure, LLC",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -5929,7 +5929,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467847773",
       "name": "CC Space",
-      "updatedAt": "2026-09-15T04:00:45Z",
+      "updatedAt": "2026-09-16T04:00:41Z",
       "values": {
         "text_mm4k2vch": "ITRocket LLC",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -6186,7 +6186,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467847778",
       "name": "Ov Defi",
-      "updatedAt": "2026-09-15T04:00:46Z",
+      "updatedAt": "2026-09-16T04:00:42Z",
       "values": {
         "text_mm4k2vch": "OneNov",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -6741,7 +6741,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467834325",
       "name": "ChainSafe x402 Global Facilitator",
-      "updatedAt": "2026-09-15T04:00:48Z",
+      "updatedAt": "2026-09-16T04:00:44Z",
       "values": {
         "text_mm4k2vch": "ChainSafe",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -6799,7 +6799,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467834326",
       "name": "Squads Non-Custodial Wallet",
-      "updatedAt": "2026-09-15T04:00:49Z",
+      "updatedAt": "2026-09-16T04:00:45Z",
       "values": {
         "text_mm4k2vch": "SQUADS",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -6826,7 +6826,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467783449",
       "name": "Mperps",
-      "updatedAt": "2026-09-15T04:00:50Z",
+      "updatedAt": "2026-09-16T04:00:47Z",
       "values": {
         "text_mm4k2vch": "Lemongrass IT Services LLC-Fz",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -6885,7 +6885,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467783450",
       "name": "Canquest",
-      "updatedAt": "2026-09-15T04:00:52Z",
+      "updatedAt": "2026-09-16T04:00:48Z",
       "values": {
         "text_mm4k2vch": "Canquest",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -7433,7 +7433,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467838018",
       "name": "Ekiden",
-      "updatedAt": "2026-09-15T04:00:54Z",
+      "updatedAt": "2026-09-16T04:00:50Z",
       "values": {
         "text_mm4k2vch": "Allspark Markets Ltd.",
         "color_mm4kmej3": "2-Approved",
@@ -7487,7 +7487,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467856988",
       "name": "MEME token and Coinflip",
-      "updatedAt": "2026-09-15T04:00:55Z",
+      "updatedAt": "2026-09-16T04:00:51Z",
       "values": {
         "text_mm4k2vch": "Archerswap",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -7516,7 +7516,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467783446",
       "name": "FlowRyd",
-      "updatedAt": "2026-09-15T04:00:56Z",
+      "updatedAt": "2026-09-16T04:00:53Z",
       "values": {
         "text_mm4k2vch": "Towler Enterprises",
         "color_mm4kmej3": "2-Approved",
@@ -7908,7 +7908,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467847770",
       "name": "VAULT",
-      "updatedAt": "2026-09-15T04:00:58Z",
+      "updatedAt": "2026-09-16T04:00:54Z",
       "values": {
         "text_mm4k2vch": "HighTower",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -7970,7 +7970,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467856986",
       "name": "HydraX",
-      "updatedAt": "2026-09-15T04:00:59Z",
+      "updatedAt": "2026-09-16T04:00:56Z",
       "values": {
         "text_mm4k2vch": "HydraX",
         "color_mm4kmej3": "2-Approved",
@@ -8407,7 +8407,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467824052",
       "name": "Canquest",
-      "updatedAt": "2026-09-15T04:01:00Z",
+      "updatedAt": "2026-09-16T04:00:57Z",
       "values": {
         "text_mm4k2vch": "Naxweb",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -8467,7 +8467,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467824053",
       "name": "Deploi Credit Market",
-      "updatedAt": "2026-09-15T04:01:03Z",
+      "updatedAt": "2026-09-16T04:01:00Z",
       "values": {
         "text_mm4k2vch": "Deploi",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -8527,7 +8527,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467824055",
       "name": "AUROX on Canton for featured app",
-      "updatedAt": "2026-09-15T04:01:05Z",
+      "updatedAt": "2026-09-16T04:01:02Z",
       "values": {
         "text_mm4k2vch": "International Institute of Blockchain Advanced Technology",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -9384,7 +9384,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467825386",
       "name": "Agora: Survey & Vote",
-      "updatedAt": "2026-09-15T04:01:06Z",
+      "updatedAt": "2026-09-16T04:01:03Z",
       "values": {
         "text_mm4k2vch": "Agora: Survey & Vote",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -9707,7 +9707,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467832618",
       "name": "ScopeX Rate Lock",
-      "updatedAt": "2026-09-15T04:01:07Z",
+      "updatedAt": "2026-09-16T04:01:05Z",
       "values": {
         "text_mm4k2vch": "ScopeX Money",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -10352,7 +10352,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12974668475",
       "name": "OS Ledger - Outersunset",
-      "updatedAt": "2026-09-15T04:01:09Z",
+      "updatedAt": "2026-09-16T04:01:06Z",
       "values": {
         "text_mm4k2vch": "Outersunset",
         "color_mm4kmej3": "1-Needs Review",
@@ -10379,7 +10379,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12982310839",
       "name": "Ovdefi - OneNov",
-      "updatedAt": "2026-09-15T04:01:10Z",
+      "updatedAt": "2026-09-16T04:01:08Z",
       "values": {
         "text_mm4k2vch": "OneNov",
         "color_mm4kmej3": "1-Needs Review",
@@ -10437,10 +10437,10 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12993064923",
       "name": "Rocky Wallet - Dune Labs",
-      "updatedAt": "2026-09-08T11:01:36Z",
+      "updatedAt": "2026-09-15T11:53:14Z",
       "values": {
         "text_mm4k2vch": "Dune Labs",
-        "color_mm4kmej3": "1-Needs Review",
+        "color_mm4kmej3": "0-Locked+Needs Review",
         "long_text_mm4kq322": "dunelabs-validator-1::12203251ed85a1811755a4c7d1c0af8e50bf95bd72ae7fadd047e266d085a573e476",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "23d169c2-0909-4c70-81d1-1922de6febaa::12200a265be75cf1f7c03fbcc0d28e221e94946e627115c489b751ae3ef700c4859d",
@@ -10469,7 +10469,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13003184089",
       "name": "R1M Sentinel - R1M",
-      "updatedAt": "2026-09-15T04:01:11Z",
+      "updatedAt": "2026-09-16T04:01:10Z",
       "values": {
         "text_mm4k2vch": "R1M",
         "color_mm4kmej3": "1-Needs Review",
@@ -10501,10 +10501,10 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13003184405",
       "name": "Cardiv - WolfEdge Labs",
-      "updatedAt": "2026-09-09T09:19:52Z",
+      "updatedAt": "2026-09-15T11:53:14Z",
       "values": {
         "text_mm4k2vch": "WolfEdge Labs",
-        "color_mm4kmej3": "1-Needs Review",
+        "color_mm4kmej3": "0-Locked+Needs Review",
         "long_text_mm4kq322": "cardiv::1220b43e4bb9e423ba07cbcc0f5ef0d4e9ebe5d2623cb277d30e6478b179ee0ca9c3",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "4M-Lending-Lock-3::1220c03dee4b32e29d0e4c3a395afa3bc82629a60d86ab75289dad473ab46a5ce56f",
@@ -10587,10 +10587,10 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13023350936",
       "name": "BETH - BitSafe Validator, LLC",
-      "updatedAt": "2026-09-11T12:01:45Z",
+      "updatedAt": "2026-09-15T11:53:14Z",
       "values": {
         "text_mm4k2vch": "BitSafe Validator, LLC",
-        "color_mm4kmej3": "1-Needs Review",
+        "color_mm4kmej3": "0-Locked+Needs Review",
         "long_text_mm4kq322": "beth-network::1220704c3cebc23916785557ebe79a5c7f68d034890a5b15690ea7ce050c7d463075",
         "color_mm4kpp3q": "Asset Issuer",
         "long_text_mm4khjn6": "12205::12205300e977fb85e29d2ec1a4d0ce87e148d6bec97540bbc6b5f39eb6d03de85ed3",
@@ -10673,6 +10673,36 @@ window.FEATURED_APP_BOARD_DATA = {
         "long_text_mm4kwxt1": "Yes. Controls exist for regulatory reasons independent of Canton, which makes them harder to work around than reward specific guardrails. Client level. No self service access to the Canton settlement leg. Every party belongs to an institution onboarded through full KYB, with contractual identification, sanctions and adverse media screening, and ongoing monitoring under Yellow Card’s licensed compliance programme across 22 jurisdictions. Transaction level. Every settlement transaction is screened under the same KYT and AML controls applied to all supported networks, including travel rule handling where applicable. Transactions failing screening do not reach the ledger. Economic level. Every settlement event on the ledger corresponds to a client instruction with a real fiat or liquidity leg behind it: money collected from or paid to an identified institution through a licensed local entity, with an internal ledger entry and reconciliation on the other side. There is no path by which the application generates ledger activity without a corresponding real world settlement obligation. Activity cannot be self generated at will, because the fiat leg is the constraint. Operational level. Settlement paths are idempotent, so retries do not create duplicate economic events, and reconciliation between the internal ledger and on ledger holdings detects any divergence.",
         "long_text_mm4kp5en": "https://images.yellowcard.io/press-kits/Logo-Formats.zip",
         "long_text_mm4kxsgy": "Canton's settlement thesis is strongest where correspondent banking is weakest, and that is where Yellow Card operates. Licensed, authorized, or registered in 22 jurisdictions across more than 50 countries, with more than $10 billion settled, Yellow Card holds the local licenses, bank relationships, and liquidity that reaching emerging market currencies actually requires. More importantly, we bring distribution: our wallet and on/off ramp infrastructure is being embedded into retail banks, mobile network operators, and banking infrastructure resellers who expose it to their own customer bases under their own brands. Each integration puts Canton settlement behind an institution that would not otherwise evaluate a distributed ledger, and reaches its subscriber base rather than a single account."
+      }
+    },
+    {
+      "id": "13056498524",
+      "name": "mperps - Lemongrass IT services LLC FZ",
+      "updatedAt": "2026-09-16T05:00:54Z",
+      "values": {
+        "text_mm4k2vch": "Lemongrass IT services LLC FZ",
+        "color_mm4kmej3": "1-Needs Review",
+        "long_text_mm4kq322": "mperps-validator-1::1220f7319cabca1c787577b47ef0265c747feeed9c4d108d072e2ff170cffef8c508",
+        "color_mm4kpp3q": "Non-Issuer",
+        "long_text_mm4khjn6": "0440790e-0c5b-4b4a-85e1-e9e52026292a::1220f7319cabca1c787577b47ef0265c747feeed9c4d108d072e2ff170cffef8c508 069cf043-0e5c-4c04-93c5-0d3c6936f409::1220f7319cabca1c787577b47ef0265c747feeed9c4d108d072e2ff170cffef8c508",
+        "numeric_mm4k6919": "0.0",
+        "long_text_mm4km2s7": "A multi-asset perpetual-futures exchange settled on the Canton Network. Every position is mirrored 1:1 on AsterDex, collateralized in USDCx, and margined in isolation.",
+        "link_mm4kd0hk": "https://drive.google.com/drive/folders/1a5SLthoZdhJjY73h0jJI21suOjn2wA9Y?usp=sharing",
+        "link_mm4kmq24": "https://mperps.xyz",
+        "link_mm4kqtfa": "https://x.com/mperpsxyz/status/2093722847290249304",
+        "long_text_mm4k2537": "mperps lets you take leveraged long or short positions across crypto, commodities, US equities, pre-IPO names, ETFs, and forex — all margined in a single stablecoin, USDCx. Two design choices define how it works and why it can be trusted with size: Every position is mirrored 1:1 on AsterDex. When you open a position, mperps opens the matching position on Aster first — and your position only exists if that external fill is confirmed. mperps therefore runs no directional book against you (see Counterparty & Hedging). Collateral and settlement live on the Canton Network, a permissioned blockchain built for regulated finance. Your USDCx balance is an on-ledger record, not just a database entry.",
+        "long_text_mm5hgry2": "No",
+        "long_text_mm4k4y1h": "Retail perpetual-futures traders holding USDCx on Canton, reached both through the Loop wallet and through hosted mperps accounts",
+        "long_text_mm4k15bg": "USDCx deposits into the exchange vault, and USDCx withdrawals back to the user. Where performed through mperps, bridge mint and burn between Ethereum and Canton. These are stablecoin transfers and token mint/burn,",
+        "long_text_mm4kh3fw": "Deposits — the user exercises the token standard's TransferFactory_Transfer, sending USDCx to the mperps vault party. A watcher service observes the resulting Holding, resolves the originating transfer, and records an operator-signed DepositRecord contract as an on-ledger receipt for the credited amount. Withdrawals — the exchange operator exercises TransferFactory_Transfer from the vault party back to the user's own party, and from a separate treasury party where trading profit is owed, then archives the corresponding DepositRecords against the paying transfer. The custom Daml surface is deliberately minimal: two operator-signed templates, DepositRecord and SettlementRecord. Neither performs a value transfer; all value movement uses Splice's own token-standard packages. Users are never stakeholders on mperps templates, so no third-party package vetting is required on a user's participant.",
+        "long_text_mm4kfg50": "Not using now. The mechanism is designed and the on-ledger prerequisites are in place on MainNet, but no marker has yet been emitted: a marker can only be created by exercising a choice on a FeaturedAppRight, and that contract is created by the DSO on approval",
+        "long_text_mm4kxcm2": "A user who actually uses the product, rather than merely registering, generates a minimum of four on-ledger transactions per funding cycle: Bridge USDCx in — Ethereum to Canton, minting to the user's own Canton party Deposit — transfer USDCx from their party into the exchange vault — a trading period of days or weeks, generating no on-ledger transactions — Withdraw — transfer USDCx from the vault back to their party Bridge USDCx out — Canton to Ethereum, burning from their party.These are not spread evenly. Steps 1 and 2 happen together when a user funds an account; steps 3 and 4 happen together when they exit, typically days or weeks later. On the large majority of days an engaged user generates zero on-ledger transactions; on the two days that bracket a cycle they generate two.",
+        "long_text_mm4kvyjq": "On-ledger transactions are generated by funding and defunding an account. A user generates multiple on-ledger transactions in a round only if they deposit and withdraw within the same round, make several partial deposits, or bridge funds in or out around a deposit.",
+        "long_text_mm4k1cm0": "Sub-linear to linear. On-ledger volume is driven by deposit and withdrawal events rather than trading activity, and deposit frequency per user does not rise with the size of the user base. We therefore expect on-ledger transactions to grow roughly in proportion to active funded accounts, while trading volume grows independently of it.",
+        "long_text_mm4kfkwn": "Retail perpetual-futures traders holding USDCx on Canton, reached both through the Loop wallet and through hosted mperps accounts",
+        "long_text_mm4k6q73": "Currently every transaction traffic cost is prohibitive compared to other perps, the FA incentive would make it viable",
+        "long_text_mm4kwxt1": "Identity — users complete identity verification through Hypersign, Persona or Sumsub. Account creation — signup is invite-code gated, with Cloudflare Turnstile challenges on both invite redemption and signup, and each invite binding to exactly one account. Deposit attribution — deposits are credited only to known users. Transfers from unrecognised parties are quarantined in an operations queue for manual review rather than credited automatically. Replay safety — withdrawals require an approval record and are submitted with pinned command ids under ledger-level deduplication, so a retry cannot produce a duplicate on-chain payout.",
+        "long_text_mm4kp5en": "https://drive.google.com/drive/folders/1a5SLthoZdhJjY73h0jJI21suOjn2wA9Y?usp=sharing"
       }
     }
   ]
