@@ -161,8 +161,86 @@ function renderPage(bodyHtml) {
 
     .doc-content ul,
     .doc-content ol {
-      margin: 0 0 18px 22px;
-      padding: 0;
+      margin: 0 0 18px;
+      padding-left: 48px;
+    }
+
+    /* Google Docs exports each list level as a separate list, so preserve its
+       36pt indentation steps instead of relying on nested HTML structure. */
+    .doc-content ul[class*="-1"],
+    .doc-content ol[class*="-1"] {
+      padding-left: 96px;
+    }
+
+    .doc-content ul[class*="-2"],
+    .doc-content ol[class*="-2"] {
+      padding-left: 144px;
+    }
+
+    .doc-content ul[class*="-3"],
+    .doc-content ol[class*="-3"] {
+      padding-left: 192px;
+    }
+
+    .doc-content ul[class*="-4"],
+    .doc-content ol[class*="-4"] {
+      padding-left: 240px;
+    }
+
+    .doc-content ul[class*="-5"],
+    .doc-content ol[class*="-5"] {
+      padding-left: 288px;
+    }
+
+    .doc-content ul[class*="-6"],
+    .doc-content ol[class*="-6"] {
+      padding-left: 336px;
+    }
+
+    .doc-content ul[class*="-7"],
+    .doc-content ol[class*="-7"] {
+      padding-left: 384px;
+    }
+
+    .doc-content ul[class*="-8"],
+    .doc-content ol[class*="-8"] {
+      padding-left: 432px;
+    }
+
+    .doc-content ul[class*="-0"],
+    .doc-content ul[class*="-3"],
+    .doc-content ul[class*="-6"] {
+      list-style-type: disc;
+    }
+
+    .doc-content ul[class*="-1"],
+    .doc-content ul[class*="-4"],
+    .doc-content ul[class*="-7"] {
+      list-style-type: circle;
+    }
+
+    .doc-content ul[class*="-2"],
+    .doc-content ul[class*="-5"],
+    .doc-content ul[class*="-8"] {
+      list-style-type: square;
+    }
+
+    .doc-content ol[class*="-0"],
+    .doc-content ol[class*="-3"],
+    .doc-content ol[class*="-6"] {
+      list-style-type: decimal;
+    }
+
+    .doc-content ol[class*="-1"],
+    .doc-content ol[class*="-4"],
+    .doc-content ol[class*="-7"] {
+      list-style-type: lower-alpha;
+    }
+
+    .doc-content ol[class*="-2"],
+    .doc-content ol[class*="-5"],
+    .doc-content ol[class*="-8"] {
+      list-style-type: lower-roman;
     }
 
     .doc-content li {
@@ -298,6 +376,26 @@ function renderPage(bodyHtml) {
       .doc-content {
         padding: 28px 24px;
         border-radius: 24px;
+      }
+
+      .doc-content ul,
+      .doc-content ol {
+        padding-left: 28px;
+      }
+
+      .doc-content ul[class*="-1"],
+      .doc-content ol[class*="-1"] {
+        padding-left: 52px;
+      }
+
+      .doc-content ul[class*="-2"],
+      .doc-content ol[class*="-2"] {
+        padding-left: 76px;
+      }
+
+      .doc-content ul[class*="-3"],
+      .doc-content ol[class*="-3"] {
+        padding-left: 100px;
       }
 
       .footer-note {
