@@ -1,5 +1,5 @@
 window.FEATURED_APP_PARTYID_CHANGES_DATA = {
-  "generatedAt": "2026-09-17T11:56:01.635Z",
+  "generatedAt": "2026-09-18T11:33:37.650Z",
   "columns": [
     {
       "id": "long_text_mm4kq322",
@@ -13,6 +13,42 @@ window.FEATURED_APP_PARTYID_CHANGES_DATA = {
     }
   ],
   "changes": [
+    {
+      "id": "55ea6431-5cb3-42b3-a464-b037425da88b",
+      "changedAt": "2026-09-18T11:28:59.114Z",
+      "itemName": "RAX Finance - RAX Finance",
+      "itemId": "12964705710",
+      "field": "Locking PartyIDs",
+      "previousValue": "23d169c2-0909-4c70-81d1-1922de6febaa::1220408191e246d8d4b125e8d6b67828c71e0c058fe430edf2c773d99c7c1091af07",
+      "newValue": ""
+    },
+    {
+      "id": "b70637af-a570-41bf-8a8b-2bab8861d291",
+      "changedAt": "2026-09-17T19:38:28.961Z",
+      "itemName": "Modulo Vault",
+      "itemId": "13073381479",
+      "field": "Locking PartyIDs",
+      "previousValue": "23d169c2-0909-4c70-81d1-1922de6febaa::12208ed5d822bd47a2e912ca9154ca2871ebb375cb99777bab0ae85d20060a44c811",
+      "newValue": "23d169c2-0909-4c70-81d1-1922de6febaa::1220f17bc6f42ec54e67717621a19e5a9954461dc6e44c5b766fc099dad86ef4aadf"
+    },
+    {
+      "id": "49c9df45-85b4-414d-9152-f8f8000f9e5a",
+      "changedAt": "2026-09-17T19:38:21.582Z",
+      "itemName": "Modulo Vault",
+      "itemId": "13073381479",
+      "field": "Party ID for the Featured Application:",
+      "previousValue": "Modulo-Issuer::1220bbd47c5a10d5540c420e1f8f0f1fd513464ec6110dbd5123970dbe3b538805d3",
+      "newValue": "Mod-Vault ::1220bbd47c5a10d5540c420e1f8f0f1fd513464ec6110dbd5123970dbe3b538805d3"
+    },
+    {
+      "id": "6f3f354b-7664-432e-b703-1fb052e36f10",
+      "changedAt": "2026-09-17T19:38:00.175Z",
+      "itemName": "Modulo Finance (MOD Issuer) - Modulo Labs, Inc.",
+      "itemId": "12595869340",
+      "field": "Party ID for the Featured Application:",
+      "previousValue": "",
+      "newValue": "Modulo-Issuer::1220bbd47c5a10d5540c420e1f8f0f1fd513464ec6110dbd5123970dbe3b538805d3"
+    },
     {
       "id": "67d03fe7-c0d9-46d9-9a38-9fba345effbb",
       "changedAt": "2026-09-14T16:37:34.262Z",
@@ -156,42 +192,6 @@ window.FEATURED_APP_PARTYID_CHANGES_DATA = {
       "field": "Locking PartyIDs",
       "previousValue": "23d169c2-0909-4c70-81d1-1922de6febaa::12209741b897b63b314fa6f2fe0639d92c779a7cdff6fd615aede507e61682f2d95a",
       "newValue": "23d169c2-0909-4c70-81d1-1922de6febaa::122032c668c7a88633e8c1dc45d704b8c87eb10a4140418b8ce9d9377985fb16a7bc"
-    },
-    {
-      "id": "3b18f81c-f501-4ae5-b341-ef3158a46405",
-      "changedAt": "2026-08-11T12:50:47.237Z",
-      "itemName": "Kairo",
-      "itemId": "12467834277",
-      "field": "Locking PartyIDs",
-      "previousValue": "12204a89b2fe76790eae7d8849e70dcda918f64fc5de82dfcd51de6d97135ee963dd::12207159611cf1666abe62b24f562221e928156daa2b41cd184b6d69920dcf8e5e1b",
-      "newValue": "12205::1220507fd785bccd74952cc15084516b881013966da87cbe3c854d92ed247e28831c"
-    },
-    {
-      "id": "c9bbb672-7e2f-430f-9244-7b9d37eb2f8e",
-      "changedAt": "2026-08-11T12:50:42.170Z",
-      "itemName": "Kairo",
-      "itemId": "12467834277",
-      "field": "Party ID for the Featured Application:",
-      "previousValue": "kairo-mainnet::12205162445638c3f71c9942b74360134b4ebc953b5bea2c25adc99bff130bffd060",
-      "newValue": "kairo-mainnet::1220423e47c7ac3735f6b3b27193fb6e412e83ada003edd61d595defd499a364366a"
-    },
-    {
-      "id": "293dd3b6-efac-4339-b908-a845712bb5ed",
-      "changedAt": "2026-08-11T12:50:17.291Z",
-      "itemName": "Sanctum",
-      "itemId": "12467854319",
-      "field": "Locking PartyIDs",
-      "previousValue": "We will confirm a dedicated Locking PartyID in the near future as we are currently in discussions to secure $CC for FA locking requirement.",
-      "newValue": "12201::1220174aa61a07cfab22a638c3a0383805f15c4b2399541767ff311bfca041228ce8"
-    },
-    {
-      "id": "e28263a0-c890-41a4-82ea-bd0834f73498",
-      "changedAt": "2026-08-11T12:49:05.602Z",
-      "itemName": "eesee - eesee Ltd. (BVI-registered)",
-      "itemId": "12751665725",
-      "field": "Party ID for the Featured Application:",
-      "previousValue": "",
-      "newValue": "eesee-mainnet-1::1220fb2e89aab677556481b303aad5d3aa049edcf961db626f12f2c9e040b5463df4"
     }
   ]
 };
