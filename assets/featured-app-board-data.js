@@ -1,5 +1,5 @@
 window.FEATURED_APP_BOARD_DATA = {
-  "generatedAt": "2026-09-17T11:48:11.638Z",
+  "generatedAt": "2026-09-18T11:22:54.428Z",
   "columns": [
     {
       "id": "text_mm4k2vch",
@@ -352,7 +352,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12959539619",
       "name": "The Hub - The Hub",
-      "updatedAt": "2026-09-03T12:56:30Z",
+      "updatedAt": "2026-09-17T16:16:12Z",
       "values": {
         "text_mm4k2vch": "The Hub",
         "color_mm4kmej3": "0-Locked+Needs Review",
@@ -492,10 +492,11 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12595869340",
       "name": "Modulo Finance (MOD Issuer) - Modulo Labs, Inc.",
-      "updatedAt": "2026-08-31T18:21:40Z",
+      "updatedAt": "2026-09-17T19:38:00Z",
       "values": {
         "text_mm4k2vch": "Modulo Labs, Inc.",
         "color_mm4kmej3": "2-Approved",
+        "long_text_mm4kq322": "Modulo-Issuer::1220bbd47c5a10d5540c420e1f8f0f1fd513464ec6110dbd5123970dbe3b538805d3",
         "color_mm4kpp3q": "Asset Issuer",
         "long_text_mm4khjn6": "23d169c2-0909-4c70-81d1-1922de6febaa::12208ed5d822bd47a2e912ca9154ca2871ebb375cb99777bab0ae85d20060a44c811",
         "numeric_mm4k6919": "25.0",
@@ -603,6 +604,35 @@ window.FEATURED_APP_BOARD_DATA = {
         "long_text_mm4khbeg": "No",
         "long_text_mm4kp5en": "https://drive.google.com/file/d/1TBL3OVziUc0UYoSvn7thg-pBy7Rp2Ry4/view?usp=drive_link",
         "long_text_mm4kxsgy": "https://drive.google.com/drive/folders/1dibU4fwshyYP01KUOHjlY3GkoX1P7C58?usp=drive_link"
+      }
+    },
+    {
+      "id": "13073381479",
+      "name": "Modulo Vault",
+      "updatedAt": "2026-09-17T19:38:28Z",
+      "values": {
+        "text_mm4k2vch": "Modulo Labs, Inc.",
+        "color_mm4kmej3": "2-Approved",
+        "long_text_mm4kq322": "Mod-Vault ::1220bbd47c5a10d5540c420e1f8f0f1fd513464ec6110dbd5123970dbe3b538805d3",
+        "color_mm4kpp3q": "Asset Issuer",
+        "long_text_mm4khjn6": "23d169c2-0909-4c70-81d1-1922de6febaa::1220f17bc6f42ec54e67717621a19e5a9954461dc6e44c5b766fc099dad86ef4aadf",
+        "numeric_mm4k6919": "25.0",
+        "long_text_mm4km2s7": "Modulo Labs was founded in August 2024 as a consumer-focused software development company focused on designing and building wallet and DeFi infrastructure to enable omnichain lending, borrowing, and swapping of digital assets.",
+        "link_mm4kmq24": "https://app.modulo.finance",
+        "long_text_mm4k2537": "Modulo enables users to lock various collateral assets in Modulo vaults as collateral to instantly lend, borrow, and swap. MOD is minted as a Canton-native, fungible collateral token. MOD is the Modulo unit of account and is also a CIP-56 compliant token that can be utilized across the ecosystem. MOD is a MVT (minimum variance token) that is intended to represent a minimum of $1.00 of collateral locked into Modulo smart vaults.",
+        "long_text_mm4k4y1h": "Modulo users are primarily retail DeFi participants hosted on various participant nodes across the ecosystem. MOD is currently supported on 5 separate participants in Canton with over 120k unique partyIDs having transacted with MOD and 99872 current holders of MOD (>= 1 observed UTXO).",
+        "long_text_mm4k15bg": "MOD transactions will be marked for any eligible activity.",
+        "long_text_mm4kh3fw": "MOD is a currently active CIP-56 token. All standard operations are supported by default. The token is also able to be composed into more complex workflows.",
+        "long_text_mm4kfg50": "FAAM are emitted for eligible MOD activities. This process has already been observed on mainnet with full compliance with all applicable ratios.",
+        "long_text_mm4kxcm2": "Historically, the median number of transactions observed per unique partyID is 2 to 3 per day.",
+        "long_text_mm4kvyjq": "Users are not limited by the number of transactions they submit to their host participants. Any limitations on user activity must be enforced by the host participants and the applications they run.",
+        "long_text_mm4k1cm0": "Linearly.",
+        "long_text_mm4kd4h2": "MOD and the Modulo Issuer party have been active on MainNet since the beginning of May 2026.",
+        "long_text_mm4kfkwn": "Modulo's initial customers were Modulo wallet users. Most of our current customers are parties active on Console Wallet, Cantex, Cansai, and HandlPay. Additionally, we are in advanced discussions with 3+ additional platforms.",
+        "long_text_mm4k6q73": "We have continued operating without our FA status. CIP-0104's impact on Featured Issuers is still unclear.",
+        "long_text_mm4kwxt1": "Modulo does not have the ability to curtail transactions involving the MOD token on external participant nodes. Modulo does have the ability to choose not to emit markers for activity deemed ineligible.",
+        "long_text_mm4khbeg": "N/A (Private Repo)",
+        "long_text_mm4kxsgy": "28. Modulo currently operates one of the most popular retail wallets in Canton with ~8k current subscribers. We have issued MOD which is one of the first Canton-native assets (not bridged from another chain) with significant user adoption >99k current holders of MOD and >120k unique partyIDs with at least one historical transaction). Collateral mobility, fungibility, and composability is a critical component of financial workflows and Modulo is committed to delivering the market leading solution on Canton."
       }
     },
     {
@@ -1361,7 +1391,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12942557487",
       "name": "Bayzen - Bayzen",
-      "updatedAt": "2026-09-04T14:14:32Z",
+      "updatedAt": "2026-09-17T16:16:12Z",
       "values": {
         "text_mm4k2vch": "Bayzen",
         "color_mm4kmej3": "0-Locked+Needs Review",
@@ -9760,7 +9790,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467806177",
       "name": "OnRails Issuer",
-      "updatedAt": "2026-08-24T16:48:53Z",
+      "updatedAt": "2026-09-18T04:50:56Z",
       "values": {
         "text_mm4k2vch": "OnRails Ltd",
         "color_mm4kmej3": "2-Approved",
@@ -10501,7 +10531,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13003184405",
       "name": "Cardiv - WolfEdge Labs",
-      "updatedAt": "2026-09-15T11:53:14Z",
+      "updatedAt": "2026-09-17T16:13:18Z",
       "values": {
         "text_mm4k2vch": "WolfEdge Labs",
         "color_mm4kmej3": "0-Locked+Needs Review",
@@ -10703,6 +10733,98 @@ window.FEATURED_APP_BOARD_DATA = {
         "long_text_mm4k6q73": "Currently every transaction traffic cost is prohibitive compared to other perps, the FA incentive would make it viable",
         "long_text_mm4kwxt1": "Identity — users complete identity verification through Hypersign, Persona or Sumsub. Account creation — signup is invite-code gated, with Cloudflare Turnstile challenges on both invite redemption and signup, and each invite binding to exactly one account. Deposit attribution — deposits are credited only to known users. Transfers from unrecognised parties are quarantined in an operations queue for manual review rather than credited automatically. Replay safety — withdrawals require an approval record and are submitted with pinned command ids under ledger-level deduplication, so a retry cannot produce a duplicate on-chain payout.",
         "long_text_mm4kp5en": "https://drive.google.com/drive/folders/1a5SLthoZdhJjY73h0jJI21suOjn2wA9Y?usp=sharing"
+      }
+    },
+    {
+      "id": "13076673771",
+      "name": "Meridiant - Catalyst Labs LLC FZ",
+      "updatedAt": "2026-09-18T04:50:56Z",
+      "values": {
+        "text_mm4k2vch": "Catalyst Labs LLC FZ",
+        "color_mm4kmej3": "1-Needs Review",
+        "long_text_mm4kq322": "meridiant-app-1::1220bf5cc4001319411167463c68611feef2cb8fcbe8896bc38025717868b0074f87",
+        "color_mm4kpp3q": "Non-Issuer",
+        "long_text_mm4khjn6": "23d169c2-0909-4c70-81d1-1922de6febaa::1220738ce7d150434a418f461c4b04f47cf583f2accd0e224a69f97ee08d85bbb222 Ergonia (Cumberland Innovations LLC) - via cashen's marketplace",
+        "long_text_mm4km2s7": "Catalyst Labs LLC FZ is a Dubai-based blockchain infrastructure and DeFi engineering team. We design and run institutional-grade decentralized finance infrastructure on the Canton Network. Our first product is Meridiant, an isolated-market lending protocol purpose-built for Canton's atomic settlement and per-market privacy.",
+        "link_mm4kd0hk": "https://meridiant.xyz/brand-guide/",
+        "link_mm4kmq24": "https://meridiant.xyz/",
+        "link_mm4kqtfa": "https://drive.google.com/file/d/1GHi6FzJGNN7SnDqEyF4hdjhVCsY-5jqa/view",
+        "long_text_mm4k2537": "Meridiant brings isolated, over-collateralized lending markets natively to Canton. Each market is separate, so liquidity and risk never mix, and positions stay private. Loans are open-term and variable-rate, and every deposit, disbursement, repayment, and liquidation settles atomically on-ledger against live oracle prices. Meridiant gives institutional lenders and borrowers the privacy and atomic settlement their mandates require.",
+        "long_text_mm5hgry2": "Meridiant itself has not been deployed elsewhere. Our team previously built and deployed lending infrastructure on Ethereum mainnet, including covered vaults built on top of Morpho vaults, so the isolated-market lending model is one we have production experience with. Meridiant is a ground-up Daml implementation designed for Canton's privacy and settlement model rather than a port of that work.",
+        "long_text_mm4k4y1h": "Two overlapping groups. First, DeFi-native lenders and borrowers who want over-collateralized borrowing and lending against Canton-native assets, with real settlement privacy rather than a fully public record of positions. Second, institutional asset managers and treasury desks looking to borrow or supply against tokenized real-world and Canton-native assets without exposing their positions or strategy on a public ledger.",
+        "long_text_mm4k15bg": "Meridiant earns rewards from four categories of on-ledger lending activity, all confirmed by our operator party. First, supply: a lender deposits liquidity into a market and receives share-accounted credit against that vault. These shares are non-transferable, cannot be used as collateral, and exist solely for internal accounting. Second, withdrawal: a lender redeems shares and takes liquidity back out. Third, borrow and repay: a loan is disbursed against committed collateral, and principal plus accrued interest is repaid when the borrower closes or reduces the position. Fourth, liquidation: a liquidator settles an unhealthy position against a live oracle price, transferring collateral and clearing debt atomically. Each of these is a distinct user-initiated transaction moving real assets on-ledger. Interest accrues from a rate index applied when a position is next acted on, so accrual generates no transaction of its own and is not a reward source for us. All reward-eligible activity corresponds to real user liquidity movements and real settlement of debt and collateral, not activity generated to earn rewards.",
+        "long_text_mm4kh3fw": "Meridiant's core lending logic runs entirely on Daml smart contracts. Each lending market is defined by an immutable, isolated parameter contract, so markets never share liquidity or risk. Supplied liquidity is tracked in a share-accounted vault per market, where the shares are non-transferable internal accounting records rather than issued tokens. Each borrower's collateral is committed to the market for the life of the loan and cannot be moved by either party alone. Assets are CIP-0056 compliant throughout, so collateral and loan tokens remain standard Canton instruments rather than protocol-specific representations. Oracle price feeds gate every borrow and liquidation, so positions are only opened or liquidated against current, verified prices. Loans are open-term and variable-rate: a borrower's position stays open until they choose to repay, and interest accrues from a per-market rate index that moves with utilization, applied when a position is next acted on rather than being fixed at origination. Every actual movement of funds, whether a deposit, a loan disbursement, a repayment, or a liquidation settlement, happens as a real, atomic on-ledger token transfer rather than an internal accounting update.",
+        "long_text_mm4kfg50": "Activity Markers, yes; Canton Coin, not as a reward mechanism. Meridiant emits Activity Markers until the transition to CIP-0104. Meridiant’s lending assets (cBTC, cETH, USDCx) are non-CC, so under the current marker-era regime on MainNet our operator emits FeaturedAppActivityMarkers for genuine lending settlement activity: supply, withdrawal, borrow, repay, and liquidation. CC-leg activity in our cBTC/CC market earns through Amulet's built-in featured-transfer support and requires no marker. When traffic-based rewards activate on MainNet, marker emission is disabled by configuration and the identical activity earns from confirmed-view traffic, with no change to protocol logic. Exactly one marker is emitted per genuine economic settlement, never as a separate reward-only artifact and never by fragmenting a single intent into multiple transactions.",
+        "long_text_mm4kxcm2": "Approximately 1 to 2 transactions per user per day on average across our user base. Activity is uneven by user type: suppliers transact infrequently, typically a few times per week, while active borrowers managing positions against their health threshold account for most daily volume. Liquidators are higher-frequency but bounded by the number of positions actually crossing a liquidation threshold, which stays low in normal conditions and spikes with volatility.",
+        "long_text_mm4kvyjq": "A few conditions in the current design naturally produce multiple transactions per round for a single actor. The liquidation backstop can be triggered by any party holding a current, disclosed price for an unhealthy position, so an active liquidator may settle many positions in a single round. Borrowers near their health threshold may also repay incrementally across a round to stay solvent.",
+        "long_text_mm4k1cm0": "Super linear. Because each market is isolated, growth in our user base tends to bring growth in the number of active markets as well, not just more users within existing markets. Each additional market adds its own recurring transaction surface, including oracle price updates and liquidator coverage, on top of the linear growth in ordinary user-driven borrow, repay, and supply activity. Total transaction volume is therefore expected to scale faster than user count alone, as new markets are added in response to genuine borrower and supplier demand.",
+        "long_text_mm4kfkwn": "Our first customers fall into two groups matching the user profiles above. First, crypto-native lending and trading desks and DeFi-native funds seeking over-collateralized borrowing against Canton-native assets with position privacy. Second, institutional treasury and asset-management desks, including prime brokerage and lending desks, looking to supply or borrow against tokenized assets without exposing positions on a public ledger. Meridiant went live on 1 September 2026 with our cBTC/CC market, and a cETH/USDCx market is being added next.",
+        "long_text_mm4k6q73": "Featured App status is central to our growth plan, not incidental to it. Meridiant's isolated-market model depends on each market reaching sufficient liquidity depth before it is genuinely useful to borrowers, and network reward flow is the mechanism we are counting on to bootstrap that liquidity across multiple markets at once. Without FA status, that bootstrap would have to come from a self-funded treasury, which would materially limit how many markets we can credibly operate and slow the pace at which each reaches usable depth. That is a direct risk to reaching the liquidity depth our target institutional users require.",
+        "long_text_mm4kwxt1": "Yes, through economic design, structural constraints, and real-time monitoring. Every reward-eligible action carries real cost: borrows are over-collateralized, so posted capital is genuinely locked and cannot be simultaneously redeployed, and each borrow/repay cycle pays interest and protocol fees that exceed the marginal reward that activity can earn, making a self-directed capital loop a net loss by construction rather than a profit. Liquidations can only be triggered once a position's health has genuinely crossed its threshold against a live oracle price, so they cannot be manufactured on demand. Our monitoring will extend to the classic recycling pattern, large offsetting supply and borrow positions in the same market, with activity identified as recycling excluded from reward attribution. We reviewed our reward economics ahead of launch specifically to confirm no self-directed transaction loop is reward-positive.",
+        "long_text_mm4khbeg": "Private",
+        "long_text_mm4kp5en": "https://meridiant.xyz/brand-guide/",
+        "long_text_mm4kxsgy": "Meridiant holds no user signing keys. Collateral remains in the borrower's own party for the life of the loan, committed to their position, and is never transferred to Meridiant. Users sign their own actions: at origination the borrower authorizes the loan's terms and its liquidation conditions, which is what allows a liquidation to settle against a live oracle price without Meridiant holding their keys. Our operator party signs as the protocol counterparty on those contracts, not on the user's behalf. We are designing our reward economics explicitly around the traffic-based model (CIP-0104) while emitting activity markers during the current interim period, and would welcome the Committee’s guidance on parameters relevant to that transition."
+      }
+    },
+    {
+      "id": "13076720974",
+      "name": "Nocturnal Wallet - The Nocturnal Foundation",
+      "updatedAt": "2026-09-18T04:50:57Z",
+      "values": {
+        "text_mm4k2vch": "The Nocturnal Foundation",
+        "color_mm4kmej3": "1-Needs Review",
+        "long_text_mm4kq322": "MPCH-NEXUvalidator-1::12203a0ef2ed2bfbc9c14239714cb839a740d30ae40a6c74b1fc939392ecaaf981c1",
+        "color_mm4kpp3q": "Non-Issuer",
+        "long_text_mm4khjn6": "1220b82ae0cef74d51b1a09944656345a10aa6fc7f4c5de6aa9d42e373e435d575f9::1220c14b674401fb2fe05644a5cca6320edfbac5c12ea1b3e0e4e5380c330db09608",
+        "long_text_mm4km2s7": "The Nocturnal Foundation, builds consumer-grade, self-custody crypto products under the Nocturnal brand. Our existing consumer platform serves approximately 5,000 users and we recently won the Colosseum Hackathon Warm-Up run by Solana Superteam Korea. We are bringing that consumer expertise, and that existing user base, to Canton. Nocturnal Wallet is our Canton product: a non-custodial, passkey-secured wallet built natively using the official Canton Wallet SDK with additional features such as a dedicated Web3 intelligence layer that is powered by AI intelligence for macro, trading, and portfolio optimization powered by Elfa.ai. Our thesis is that Canton's growth into tokenized real-world assets will require a consumer front door that is as easy to use as a mainstream fintech app, and that makes Canton's privacy model legible to ordinary users rather than hiding it in the protocol layer.",
+        "link_mm4kd0hk": "https://docs.google.com/presentation/d/1Kybrr-YuTmgjDl5p0hLRU0ZJKriM2unr/edit?usp=drive_link&ouid=110852552098906374981&rtpof=true&sd=true",
+        "link_mm4kmq24": "https://wallet.nocturnal.xyz/",
+        "link_mm4krmse": "https://github.com/nocturnalwallet",
+        "link_mm4kqtfa": "https://drive.google.com/file/d/1S-ib_AsZJE-csMavOKmdq2PbSuZuvlnu/view?usp=drive_link",
+        "long_text_mm4k2537": "Nocturnal Wallet is a non-custodial, passkey-secured consumer wallet for the Canton Network. Users hold Canton Coin, Canton stablecoins and CIP-56 assets, send and receive using human-readable Canton Name Service names, and swap in-wallet through third-party liquidity. Nocturnal turns Canton's privacy model into something users can see and control and built on the official Canton Wallet SDK, with sign-in that needs no seed phrase. For the initial launch, Nocturnal wallet will feature a dedicated AI intelligence plug-in that is powered by Elfa.ai and supports a suite of tools such as token insights and discovery. We are also working on cross-chain bridging access via LetsExchange and an embedded wallet functionality that will support institutional users and mapping between the different networks on a per-needs basis.",
+        "long_text_mm5hgry2": "Yes. Nocturnal began on Solana as a consumer trading platform, where we built the ~5,000+ user base we are now bringing to Canton. We are disclosing this proactively and are happy to share our Solana history in full. Our Canton product is materially different in kind but we are going to leverage our expertise and knowledge from our previous successful development of the Nocturnal Trading Terminal to make this a successful wallet product that is useful and in compliance with the network requirements. 1. Nocturnal Wallet is a self-custody wallet, not a trading venue. We operate no DEX and no order book on Canton. In-wallet swaps are powered by third-party liquidity and signed by the user. 2. None of the multi-wallet distribution or bulk-transfer tooling from the Solana product exists in the Canton codebase. We will support this with an independent code attestation and are willing to make the Canton repository available for review and bring onboard more features that are present on EVM/SVM networks (e.g. in-built bridging and direct dApp access). 3. We are structurally unable to manufacture volume. The wallet is non-custodial — users hold their own keys and sign their own transactions, so we cannot transact on their behalf. And under CIP-0104, rewards accrue to our app-provider party, not to users, so a user gains nothing and loses transaction fees by generating artificial activity. The incentive to wash-trade does not exist at the user layer, and the ability to do it does not exist at ours. We also have a wallet fee built-in to ensure that no gamification of usage can exist without incurring economical costs. What carries over is our users and our consumer-product craft. What does not carry over is the venue model.",
+        "long_text_mm4k4y1h": "Our primary source is our existing base of approximately 5,000+ Nocturnal users on Solana — crypto-native retail consumers, concentrated in Korea and wider Asia, who are comfortable with self-custody and active on-chain. This is a net-new consumer cohort for Canton rather than a re-segmentation of existing Canton users, and it is our core differentiator: we arrive with distribution, not a plan for distribution to allow our existing users to quickly onboard and interact with dApps on Canton Network. The secondary cohort is new-to-Canton retail users acquired directly through the wallet, drawn by passkey onboarding with no seed phrase and by human-readable Canton Name Service addressing. We are deliberately committing to floors rather than ambitions. We would rather over-deliver against a modest number than be measured against a forecast.",
+        "long_text_mm4k15bg": "Three activities, all user-initiated and all state-changing: 1. Peer-to-peer transfers of Canton Coin and Canton stablecoins, including transfers addressed via Canton Name Service names. 2. In-wallet swaps, executed against third-party liquidity. Nocturnal operates no trading venue; we route and present, the user signs, a third party fills. 3. CIP-56 asset actions initiated by the user. Not in scope for rewards: any system-generated, scheduled, internal, or self-directed transaction. We are asking to be rewarded for organic consumer traffic and nothing else. Explicitly excluded from this reward claim, and from the scope of this application: agentic or machine-initiated payments (an x402 integration on our roadmap), and any card-linked spending activity via our partner Based. Neither is live. If either begins generating ledger activity, we will return to the Committee to agree scope and weighting before including any of it in a reward claim.",
+        "long_text_mm4kh3fw": "All ledger interaction is user-initiated. The user's party is an external-keypair party: private keys are held by the user and secured by passkey, and every transaction is signed client-side. Nocturnal cannot construct, authorise, or submit transaction on a user's behalf. Nocturnal's role is to build the transaction, present it for the user's signature, and submit the signed transaction to the synchronizer through our app-provider party Transaction types are: Canton Coin and stablecoin transfers, in-wallet swaps against third-party liquidity, and CIP-56 asset actions. We deploy no custom Daml of our own for the core wallet and transactions interact with canonical Canton and Splice contracts and with CIP-56 standard assets. All rewardable traffic is therefore state-changing transactions initiated by independent end users. Agentic payments is also on our public roadmap (an x402 integration) and that capability is in the works which we will be keen to partake with the accountability and tokenomics committee on how agentic transactions are recognised as valid interactions on the ledger.",
+        "long_text_mm4kfg50": "Activity markers are generated based on the amount of $CC burned in USD terms that is compliant with the Feature App Coupon Guidelines.",
+        "long_text_mm4kxcm2": "We expect at least 3 to 5 transactions per active user per day — estimated from our real usage model based on your Solana cohort's observed behaviour. This reflects ordinary consumer wallet behaviour: a small number of deliberate, user-initiated actions per day. It is not a throughput target, and we have no product mechanic that increases transaction count independently of user intent.",
+        "long_text_mm4kvyjq": "Ordinary user flows only. Mining rounds are approximately ten minutes, so a single active user can legitimately produce more than one transaction in a round in these cases: • A swap that resolves as a quote followed by a settlement. • A user completing a sequence of deliberate actions in one session — for example, receiving funds and then making a payment. • An on-ramp completion followed by an immediate transfer, once our cross-chain integration ships. Realistic maximum for a single user in a single round: low single digits. We have designed no batching, fan-out, or transaction-splitting behaviour intended to multiply transaction count. There is no mechanism in the product by which Nocturnal increases a user's transaction count without that user initiating and signing each transaction.",
+        "long_text_mm4k1cm0": "Linearly, and if anything slightly sub-linearly. Transaction volume is a direct function of active user count multiplied by a roughly constant per-user daily transaction rate. There is no super-linear mechanism in the product — no network effect that multiplies transactions per user, no batching, no fan-out. We expect mild sub-linearity in practice, because any consumer wallet's later cohorts are typically less active than its earliest adopters. We would rather state that now than explain a shortfall later.",
+        "long_text_mm4kfkwn": "Our first users are a live pilot cohort drawn from our existing consumer base. First external cohort go-live - September. We are not dependent on a partner or an integration to generate our first traffic. Our users are already ours.",
+        "long_text_mm4k6q73": "The wallet remains viable and we would continue to build it. We are built on the official Canton Wallet SDK, our users come from our own existing base, and neither of those depends on a Committee decision. Featured App status would accelerate two things: the pace of our cross-chain on-ramp work, and the rate at which we can subsidise consumer onboarding — transaction costs are a real friction for the retail users we are trying to bring onto Canton. Without it, both go slower.",
+        "long_text_mm4kwxt1": "STRUCTURAL CONTROLS — properties of the design, not policies we administer: 1. Non-custodial architecture. Users hold their own keys, secured by passkey, and sign every transaction client-side. Nocturnal cannot transact on a user's behalf or puppet accounts. This is the foundational control: we lack the technical capability to manufacture user traffic. 2. Misaligned incentives for wash trading. Under CIP-0104, rewards accrue to our app-provider party, not to users. A user who generates artificial volume gains nothing and pays transaction fees to do it. Furthermore we have wallet fees in place to have an economical cost incurred by users to avoid gamification of wallet usage. 3. We operate no venue. Swaps are third-party-powered and user-signed, so we do not control both sides of any trade. 4. No bulk-distribution or multi-wallet fan-out tooling exists in the Canton product or codebase. Independent code attestation available on request. OPERATIONAL CONTROLS: 5. One real user per party. All rewardable traffic originates from distinct, independent end users. 6. Per-account rate limits. 7. No self-transfer or circular reward loops. MONITORING AND COMPLIANCE: 9. Independent monitoring of our app-provider party's traffic, with a methodology agreed in advance for excluding flagged activity from our reported figures. We would rather report a smaller verified number than a larger contested one. 10. OFAC and PEP screening at on-ramp initiation when such functionalities are live.. 11. IP geo-blocking of sanctioned and unlicensed jurisdictions. 12. Enforceable Terms of Service prohibiting artificial activity.",
+        "long_text_mm4khbeg": "https://github.com/nocturnalwallet",
+        "long_text_mm4kp5en": "https://docs.google.com/presentation/d/1Kybrr-YuTmgjDl5p0hLRU0ZJKriM2unr/edit?usp=drive_link&ouid=110852552098906374981&rtpof=true&sd=true",
+        "long_text_mm4kxsgy": "Lock status. The 5,000,000 CC lock is sourced and will be on-chain and verifiable here: 1220b82ae0cef74d51b1a09944656345a10aa6fc7f4c5de6aa9d42e373e435d575f9::1220c14b674401fb2fe05644a5cca6320edfbac5c12ea1b3e0e4e5380c330db09608 Code attestation. We are offering an independent attestation that no bulk-distribution or multi-wallet fan-out tooling exists in our Canton codebase, and we will make the repository available for review under NDA if the Committee would find that useful. We raise this ourselves because we know our Solana history invites the question. Monitoring methodology. We would welcome agreeing the traffic-monitoring and exclusion methodology with the Committee in advance of our first monthly report, rather than after it. Reporting. We understand and accept the one-month and quarterly activity reporting obligations, including per-use-case daily transaction counts, maximum transactions per round, and customer counts at the start and end of each period. Roadmap disclosure. Our public site lists three forward-looking items we want on the record now rather than later: a debit-card partnership with Based, AI portfolio tooling via our partner Elfa, and smart agentic payments via x402."
+      }
+    },
+    {
+      "id": "13076683931",
+      "name": "cSOL - OnRails Ltd",
+      "updatedAt": "2026-09-18T04:50:58Z",
+      "values": {
+        "text_mm4k2vch": "OnRails Ltd",
+        "color_mm4kmej3": "1-Needs Review",
+        "long_text_mm4kq322": "rails-csol::12200350ba6e96e3b701c3048b5aa013a8c1c08833e8ebf54339cff581055c29003a",
+        "color_mm4kpp3q": "Asset Issuer",
+        "long_text_mm4khjn6": "23d169c2-0909-4c70-81d1-1922de6febaa::122029327ec3596fb0a43e372cdeb90ea1cd7cc59536c57570e05459c98870361074",
+        "long_text_mm4km2s7": "OnRails operates asset infrastructure for the Canton Network. Our team has production experience in cross-chain operations and integrations with wallets and trading venues.",
+        "link_mm4kmq24": "https://csol.network",
+        "long_text_mm4k2537": "cSOL is a 1:1 SOL-backed asset issued on Canton. Users deposit SOL to obtain cSOL, hold and transfer it through compatible Canton wallets and applications, and burn cSOL to redeem SOL. The product brings SOL-denominated liquidity into the Canton ecosystem for trading, settlement and collateral use. It gives SOL holders access to Canton applications and provides venues and developers with an additional asset to integrate into their products.",
+        "long_text_mm5hgry2": "cSOL has not previously been deployed on another blockchain. OnRails has production experience with substantially similar asset infrastructure through cETH on Canton.",
+        "long_text_mm4k4y1h": "Wallet users, trading venues, market makers and institutions seeking SOL exposure and settlement on Canton.",
+        "long_text_mm4k15bg": "cSOL activity across independent third-party wallets and venues generates asset-issuer rewards for mint, burn, transfer, allocation and settlement transactions. Attribution follows the current Featured App Guidance and is based on genuine and verifiable ledger updates and associated network traffic burn.",
+        "long_text_mm4kh3fw": "Mints, burns, transfers, allocations and settlements following CIP-56 standard",
+        "long_text_mm4kfg50": "Activity Markers, using the same DA Utility automation and reward model as cETH, in line with the current Featured App Guidance.",
+        "long_text_mm4kxcm2": "We expect cSOL activity and distribution patterns to be similar to those of cETH, which averaged approximately 0.5 transactions per active party per day over the rolling 30-day window.",
+        "long_text_mm4kvyjq": "A user may execute several trades or transfers within the same round.",
+        "long_text_mm4k1cm0": "We expect generally linear growth as the active user base expands, with larger increases when new venue integrations bring additional users and market makers.",
+        "long_text_mm4kfkwn": "Bron (live), DFNS (live), Console Wallet (by EOW), C8 Wallet (by EOW), Loop (next week), Tradecraft, Kora, One Swap, Modulo, Cansai, and a number of others",
+        "long_text_mm4k6q73": "cSOL is already live, and we will continue the rollout. Featured App status would help us attract liquidity, support wallet and venue integrations, and keep transaction fees lower for users. Without it, we would need to focus on fewer integrations initially, and higher fees would likely slow adoption.",
+        "long_text_mm4kwxt1": "Yes. We have developed a system to monitor token activity across venues for circular transfers, repetitive transaction patterns, unusually concentrated volume in individual wallets and other anomalies. If suspicious activity is detected, we suspend commercial relations with the venue while we review the activity.",
+        "long_text_mm4khbeg": "n/a",
+        "long_text_mm4kp5en": "n/a",
+        "long_text_mm4kxsgy": "cSOL builds on OnRails’ experience operating cETH on MainNet, with a dedicated registrar and FA Party ID separate from those used for cETH"
       }
     }
   ]
