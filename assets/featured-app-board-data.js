@@ -1,5 +1,5 @@
 window.FEATURED_APP_BOARD_DATA = {
-  "generatedAt": "2026-09-18T11:22:54.428Z",
+  "generatedAt": "2026-09-19T11:06:47.131Z",
   "columns": [
     {
       "id": "text_mm4k2vch",
@@ -292,12 +292,11 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12934217674",
       "name": "Bayzen - Bayzen",
-      "updatedAt": "2026-08-31T19:34:10Z",
+      "updatedAt": "2026-09-18T13:43:10Z",
       "values": {
         "text_mm4k2vch": "Bayzen",
         "color_mm4kmej3": "7-Closed-new-process",
         "color_mm4kpp3q": "Non-Issuer",
-        "long_text_mm4khjn6": "23d169c2-0909-4c70-81d1-1922de6febaa::12208504027629867135f32260ea29c443cec33d39faf9fead4a4693d93123e8b8e3",
         "numeric_mm4k6919": "5.0",
         "long_text_mm4km2s7": "Bayzen is a technology and crypto focused team building research driven, community owned market infrastructure. We operate at the intersection of Web3, financial information, and user-generated prediction markets, with a focus on making market-based forecasting more transparent, verifiable, and accessible. Our team is building Bayzen as a community-driven prediction market platform where users can research topics, form investment or event theses, and create markets with clearly defined outcomes, evidence sources, deadlines, and resolution criteria. Bayzen supports markets across crypto assets, traditional markets, protocol events, project milestones, and broader ecosystem developments. By combining research, market participation, and transparent settlement workflows, Bayzen aims to create measurable forecast track records for both creators and participants. Canton is the intended infrastructure for Party-based authorization, privacy-aware workflows, ledger-based market lifecycles, and Canton Coin settlement in the target Mainnet design.",
         "link_mm4kd0hk": "https://app.bayzen.tech/docs/",
@@ -323,7 +322,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12959523630",
       "name": "MetCredX - NIPRO TECHNOLOGIES LIMITED",
-      "updatedAt": "2026-09-17T04:00:17Z",
+      "updatedAt": "2026-09-19T04:00:22Z",
       "values": {
         "text_mm4k2vch": "NIPRO TECHNOLOGIES LIMITED",
         "color_mm4kmej3": "1-Needs Review",
@@ -352,7 +351,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12959539619",
       "name": "The Hub - The Hub",
-      "updatedAt": "2026-09-17T16:16:12Z",
+      "updatedAt": "2026-09-18T18:52:09Z",
       "values": {
         "text_mm4k2vch": "The Hub",
         "color_mm4kmej3": "0-Locked+Needs Review",
@@ -609,10 +608,10 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13073381479",
       "name": "Modulo Vault",
-      "updatedAt": "2026-09-17T19:38:28Z",
+      "updatedAt": "2026-09-18T22:01:14Z",
       "values": {
         "text_mm4k2vch": "Modulo Labs, Inc.",
-        "color_mm4kmej3": "2-Approved",
+        "color_mm4kmej3": "3-CIP-0116-paused",
         "long_text_mm4kq322": "Mod-Vault ::1220bbd47c5a10d5540c420e1f8f0f1fd513464ec6110dbd5123970dbe3b538805d3",
         "color_mm4kpp3q": "Asset Issuer",
         "long_text_mm4khjn6": "23d169c2-0909-4c70-81d1-1922de6febaa::1220f17bc6f42ec54e67717621a19e5a9954461dc6e44c5b766fc099dad86ef4aadf",
@@ -667,14 +666,12 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467815975",
       "name": "DeSyn Protocol",
-      "updatedAt": "2026-08-24T16:48:56Z",
+      "updatedAt": "2026-09-18T14:35:26Z",
       "values": {
         "text_mm4k2vch": "The Ching Labs Ltd.",
         "color_mm4kmej3": "5-Revoked",
         "long_text_mm4kq322": "desyn::1220ad880a4c22d92d1c10efff2c1800e1d12a2cfe02ba14380aa56b4438b7bff0dd",
         "color_mm4kpp3q": "Non-Issuer",
-        "long_text_mm4khjn6": "23d169c2-0909-4c70-81d1-1922de6febaa::122053abd4ba5335e63555ce898cae29b07f78c04eae7cc447c311816ec0ab07426b",
-        "numeric_mm4k6919": "5.0",
         "link_mm4kd0hk": "NA - https://NA",
         "link_mm4krmse": "https://github.com/desyn-protocol",
         "long_text_mm4k2537": "DeSyn Protocol provides a modular vault infrastructure that allows participants to create, manage, and operate tokenized vaults for liquidity and yield strategies. It simplifies access to complex DeFi opportunities by transforming them into intuitive, structured products that drive participation and ecosystem growth.For Investors — Access advanced DeFi yields through simple, easy-to-use products.For DeFi Protocols — Transform complex strategies into intuitive structured products that drive user participation.For Security Companies — Capture new revenue streams through seamless integration and ecosystem growth.For Fund Managers — Discover a wide range of ready-to-deploy DeFi strategies. Launch and manage vaults to attract liquidity providers. Operate confidently on fully permissionless infrastructure.",
@@ -837,7 +834,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12959522895",
       "name": "ccledger - Blueprint Infrastructure, LLC",
-      "updatedAt": "2026-09-17T04:00:18Z",
+      "updatedAt": "2026-09-19T04:00:23Z",
       "values": {
         "text_mm4k2vch": "Blueprint Infrastructure, LLC",
         "color_mm4kmej3": "1-Needs Review",
@@ -1000,7 +997,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12954167020",
       "name": "Upflam - Upflam",
-      "updatedAt": "2026-09-04T19:22:33Z",
+      "updatedAt": "2026-09-18T18:52:10Z",
       "values": {
         "text_mm4k2vch": "Upflam",
         "color_mm4kmej3": "0-Locked+Needs Review",
@@ -1159,7 +1156,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12870058108",
       "name": "R1M Sentinel - R1M",
-      "updatedAt": "2026-09-17T04:00:20Z",
+      "updatedAt": "2026-09-19T04:00:26Z",
       "values": {
         "text_mm4k2vch": "R1M",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -1391,13 +1388,12 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12942557487",
       "name": "Bayzen - Bayzen",
-      "updatedAt": "2026-09-17T16:16:12Z",
+      "updatedAt": "2026-09-18T13:43:26Z",
       "values": {
         "text_mm4k2vch": "Bayzen",
-        "color_mm4kmej3": "0-Locked+Needs Review",
+        "color_mm4kmej3": "1-Needs Review",
         "long_text_mm4kq322": "bayzen-validator-1::1220618de8af3a43c95f7f9c6430f9a308152eb564f57b4c60c4c655f67fb867af1c",
         "color_mm4kpp3q": "Non-Issuer",
-        "long_text_mm4khjn6": "23d169c2-0909-4c70-81d1-1922de6febaa::12208504027629867135f32260ea29c443cec33d39faf9fead4a4693d93123e8b8e3",
         "numeric_mm4k6919": "5.0",
         "long_text_mm4km2s7": "Bayzen is a technology and crypto focused team building research driven, community owned market infrastructure. We operate at the intersection of Web3, financial information, and user-generated prediction markets, with a focus on making market-based forecasting more transparent, verifiable, and accessible. Our team is building Bayzen as a community-driven prediction market platform where users can research topics, form investment or event theses, and create markets with clearly defined outcomes, evidence sources, deadlines, and resolution criteria. Bayzen supports markets across crypto assets, traditional markets, protocol events, project milestones, and broader ecosystem developments. By combining research, market participation, and transparent settlement workflows, Bayzen aims to create measurable forecast track records for both creators and participants. Canton is the intended infrastructure for Party-based authorization, privacy-aware workflows, ledger-based market lifecycles, and Canton Coin settlement in the target Mainnet design.",
         "link_mm4kd0hk": "https://app.bayzen.tech/docs/#how-bayzen-works",
@@ -1745,7 +1741,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12791057047",
       "name": "OS Ledger - Outersunset",
-      "updatedAt": "2026-09-17T04:00:22Z",
+      "updatedAt": "2026-09-19T04:00:29Z",
       "values": {
         "text_mm4k2vch": "Outersunset",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -2219,7 +2215,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12769413819",
       "name": "Canquest - PT JARINGAN SIMPUL TEKNOLOGI",
-      "updatedAt": "2026-09-17T04:00:24Z",
+      "updatedAt": "2026-09-19T04:00:32Z",
       "values": {
         "text_mm4k2vch": "PT JARINGAN SIMPUL TEKNOLOGI",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -2742,7 +2738,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467789103",
       "name": "Jubilee Treasury",
-      "updatedAt": "2026-09-17T04:00:28Z",
+      "updatedAt": "2026-09-19T04:00:37Z",
       "values": {
         "text_mm4k2vch": "Jubilee Treasury",
         "color_mm4kmej3": "6-Withdrawn",
@@ -2881,7 +2877,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12731951755",
       "name": "Cove Wallet API - Qasara Labs Private Limited",
-      "updatedAt": "2026-09-17T04:00:30Z",
+      "updatedAt": "2026-09-19T04:00:39Z",
       "values": {
         "text_mm4k2vch": "Qasara Labs Private Limited",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -3232,7 +3228,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12626943292",
       "name": "Yellow Card - Yellow Card Financial Inc.",
-      "updatedAt": "2026-09-17T04:00:33Z",
+      "updatedAt": "2026-09-19T04:00:40Z",
       "values": {
         "text_mm4k2vch": "Yellow Card Financial Inc.",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -3396,7 +3392,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12609616425",
       "name": "Arkhia x402 Facilitator-as-a-Service (FaaS) - Arkhia Pte Ltd",
-      "updatedAt": "2026-09-17T04:00:34Z",
+      "updatedAt": "2026-09-19T04:00:44Z",
       "values": {
         "text_mm4k2vch": "Arkhia Pte Ltd",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -3679,7 +3675,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467854321",
       "name": "Privket.com",
-      "updatedAt": "2026-09-17T04:00:36Z",
+      "updatedAt": "2026-09-19T04:00:45Z",
       "values": {
         "text_mm4k2vch": "Privket",
         "color_mm4kmej3": "6-Withdrawn",
@@ -3704,7 +3700,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12568365683",
       "name": "Synfin - Cayvox Labs",
-      "updatedAt": "2026-09-17T04:00:37Z",
+      "updatedAt": "2026-09-19T04:00:47Z",
       "values": {
         "text_mm4k2vch": "Cayvox Labs",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -3813,7 +3809,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12471377959",
       "name": "OpenBaskets - BlockxAI Limited",
-      "updatedAt": "2026-09-17T04:00:39Z",
+      "updatedAt": "2026-09-19T04:00:49Z",
       "values": {
         "text_mm4k2vch": "BlockxAI Limited",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -4269,7 +4265,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467790154",
       "name": "Ov Defi",
-      "updatedAt": "2026-09-17T04:00:40Z",
+      "updatedAt": "2026-09-19T04:00:51Z",
       "values": {
         "text_mm4k2vch": "OneNov",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -4349,7 +4345,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467789257",
       "name": "Saxon Automate / Canton Keeper",
-      "updatedAt": "2026-09-17T04:00:42Z",
+      "updatedAt": "2026-09-19T04:00:53Z",
       "values": {
         "text_mm4k2vch": "Saxon",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -4470,7 +4466,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467790155",
       "name": "Mperps",
-      "updatedAt": "2026-09-17T04:00:44Z",
+      "updatedAt": "2026-09-19T04:00:54Z",
       "values": {
         "text_mm4k2vch": "Lemongrass IT Services LLC-Fz",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -4648,7 +4644,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467790000",
       "name": "BENJI",
-      "updatedAt": "2026-09-17T04:00:45Z",
+      "updatedAt": "2026-09-19T04:00:56Z",
       "values": {
         "text_mm4k2vch": "Franklin Templeton",
         "color_mm4kmej3": "3-CIP-0116-paused",
@@ -4675,7 +4671,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467790006",
       "name": "CC Ledger",
-      "updatedAt": "2026-09-17T04:00:46Z",
+      "updatedAt": "2026-09-19T04:00:58Z",
       "values": {
         "text_mm4k2vch": "Blueprint Infrastructure, LLC",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -4766,14 +4762,14 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467837938",
       "name": "Temple Trading copy",
-      "updatedAt": "2026-08-24T16:50:08Z",
+      "updatedAt": "2026-09-18T21:44:10Z",
       "values": {
         "text_mm4k2vch": "Temple",
         "color_mm4kmej3": "2-Approved",
         "long_text_mm4kq322": "temple-vaults-xx::1220f238bb79df3efbbac2ea964c3cd501003971a2cb59043e2dac50b06e85b8620f",
         "color_mm4kpp3q": "Non-Issuer",
-        "long_text_mm4khjn6": "1220d05c64e67cd4fad73998b755a51c03ddfafd46ae26162e2e0b47003a751e6047::122017155c6a50083889147dfb16d6a4e5023b731e9bf1eea60fbf402869e62f783e",
-        "numeric_mm4k6919": "15.5",
+        "long_text_mm4khjn6": "1220d::1220d771bf17eec529647bed1bc790613ca95109fe5848c36b629d1117175f178eb5",
+        "numeric_mm4k6919": "37.6",
         "long_text_mm4km2s7": "Temple, is a compliant and private Central Limit Orderbook (CLOB) and asset issuance platform powered by the Canton network.",
         "link_mm4kd0hk": "https://drive.google.com/open?id=1GUc2aoyUDONGJEUqX_OhvKQj51Ns7GlJ",
         "link_mm4kmq24": "https://templedigitalgroup.com",
@@ -5337,14 +5333,14 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467810727",
       "name": "Temple Trading",
-      "updatedAt": "2026-08-24T16:53:36Z",
+      "updatedAt": "2026-09-18T21:44:12Z",
       "values": {
         "text_mm4k2vch": "Temple",
         "color_mm4kmej3": "2-Approved",
         "long_text_mm4kq322": "temple-mainnet-1::1220f238bb79df3efbbac2ea964c3cd501003971a2cb59043e2dac50b06e85b8620f",
         "color_mm4kpp3q": "Non-Issuer",
-        "long_text_mm4khjn6": "1220d05c64e67cd4fad73998b755a51c03ddfafd46ae26162e2e0b47003a751e6047::122017155c6a50083889147dfb16d6a4e5023b731e9bf1eea60fbf402869e62f783e",
-        "numeric_mm4k6919": "15.5",
+        "long_text_mm4khjn6": "1220d::1220d771bf17eec529647bed1bc790613ca95109fe5848c36b629d1117175f178eb5",
+        "numeric_mm4k6919": "37.6",
         "long_text_mm4km2s7": "Temple, is a compliant and private Central Limit Orderbook (CLOB) and asset issuance platform powered by the Canton network.",
         "link_mm4kd0hk": "https://drive.google.com/open?id=1GUc2aoyUDONGJEUqX_OhvKQj51Ns7GlJ",
         "link_mm4kmq24": "https://templedigitalgroup.com",
@@ -5959,7 +5955,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467847773",
       "name": "CC Space",
-      "updatedAt": "2026-09-17T04:00:48Z",
+      "updatedAt": "2026-09-19T04:01:00Z",
       "values": {
         "text_mm4k2vch": "ITRocket LLC",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -6216,7 +6212,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467847778",
       "name": "Ov Defi",
-      "updatedAt": "2026-09-17T04:00:50Z",
+      "updatedAt": "2026-09-19T04:01:02Z",
       "values": {
         "text_mm4k2vch": "OneNov",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -6421,13 +6417,13 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467825411",
       "name": "BMCP Invest",
-      "updatedAt": "2026-08-24T16:49:13Z",
+      "updatedAt": "2026-09-18T17:42:54Z",
       "values": {
         "text_mm4k2vch": "Black Manta Capital Partners",
         "color_mm4kmej3": "2-Approved",
         "long_text_mm4kq322": "blackmantacapital-primary-1::1220c0d1b398955a314e9662027cb3ef337b0a9390ca3346314070631d72792cee36",
         "color_mm4kpp3q": "Asset Issuer",
-        "long_text_mm4khjn6": "23d169c2-0909-4c70-81d1-1922de6febaa::1220f995b75444f49f01b9b62992c9e538c35b98edea6f0495ae43c037e50fb0c893",
+        "long_text_mm4khjn6": "1220f7be5a5ed74bbd707dc4289d164ee8690da3a81574c0560019e6ee5915e5f41b::1220d8811ef50e8eceb19d1abed7f9610385f53eb177a55041266eb71fc2a3cdedcf",
         "numeric_mm4k6919": "25.0",
         "long_text_mm4km2s7": "Founded in 2018, Black Manta Capital Partners ('BMCP'), is a Munich based Next-Generation Investment Bank focused on providing tokenized and traditional investment opportunities in real estate, funds, and private equity. Black Manta Capital Partners is the regulated financial services provider for the tokenization of securities in Europe and beyond. Black Manta Capital Partners was the first MiFID II regulated Tokenization platform in Europe, licensed by BaFin in Germany, and under supervision of the German Central Bank.",
         "link_mm4kd0hk": "https://drive.google.com/open?id=1FCAnJIanxOvIUF9i45z9usk7NdoeyTSJ",
@@ -6771,7 +6767,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467834325",
       "name": "ChainSafe x402 Global Facilitator",
-      "updatedAt": "2026-09-17T04:00:51Z",
+      "updatedAt": "2026-09-19T04:01:04Z",
       "values": {
         "text_mm4k2vch": "ChainSafe",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -6829,7 +6825,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467834326",
       "name": "Squads Non-Custodial Wallet",
-      "updatedAt": "2026-09-17T04:00:53Z",
+      "updatedAt": "2026-09-19T04:01:06Z",
       "values": {
         "text_mm4k2vch": "SQUADS",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -6856,7 +6852,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467783449",
       "name": "Mperps",
-      "updatedAt": "2026-09-17T04:00:55Z",
+      "updatedAt": "2026-09-19T04:01:07Z",
       "values": {
         "text_mm4k2vch": "Lemongrass IT Services LLC-Fz",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -6915,7 +6911,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467783450",
       "name": "Canquest",
-      "updatedAt": "2026-09-17T04:00:56Z",
+      "updatedAt": "2026-09-19T04:01:09Z",
       "values": {
         "text_mm4k2vch": "Canquest",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -7463,7 +7459,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467838018",
       "name": "Ekiden",
-      "updatedAt": "2026-09-17T04:00:57Z",
+      "updatedAt": "2026-09-19T04:01:11Z",
       "values": {
         "text_mm4k2vch": "Allspark Markets Ltd.",
         "color_mm4kmej3": "2-Approved",
@@ -7517,7 +7513,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467856988",
       "name": "MEME token and Coinflip",
-      "updatedAt": "2026-09-17T04:00:59Z",
+      "updatedAt": "2026-09-19T04:01:13Z",
       "values": {
         "text_mm4k2vch": "Archerswap",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -7546,7 +7542,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467783446",
       "name": "FlowRyd",
-      "updatedAt": "2026-09-17T04:01:00Z",
+      "updatedAt": "2026-09-19T04:01:14Z",
       "values": {
         "text_mm4k2vch": "Towler Enterprises",
         "color_mm4kmej3": "2-Approved",
@@ -7938,7 +7934,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467847770",
       "name": "VAULT",
-      "updatedAt": "2026-09-17T04:01:01Z",
+      "updatedAt": "2026-09-19T04:01:16Z",
       "values": {
         "text_mm4k2vch": "HighTower",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -8000,7 +7996,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467856986",
       "name": "HydraX",
-      "updatedAt": "2026-09-17T04:01:03Z",
+      "updatedAt": "2026-09-19T04:01:18Z",
       "values": {
         "text_mm4k2vch": "HydraX",
         "color_mm4kmej3": "2-Approved",
@@ -8437,7 +8433,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467824052",
       "name": "Canquest",
-      "updatedAt": "2026-09-17T04:01:05Z",
+      "updatedAt": "2026-09-19T04:01:19Z",
       "values": {
         "text_mm4k2vch": "Naxweb",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -8497,7 +8493,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467824053",
       "name": "Deploi Credit Market",
-      "updatedAt": "2026-09-17T04:01:08Z",
+      "updatedAt": "2026-09-19T04:01:23Z",
       "values": {
         "text_mm4k2vch": "Deploi",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -8557,7 +8553,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467824055",
       "name": "AUROX on Canton for featured app",
-      "updatedAt": "2026-09-17T04:01:10Z",
+      "updatedAt": "2026-09-19T04:01:25Z",
       "values": {
         "text_mm4k2vch": "International Institute of Blockchain Advanced Technology",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -9360,14 +9356,14 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467838257",
       "name": "Temple Trading Expansion",
-      "updatedAt": "2026-08-24T16:50:03Z",
+      "updatedAt": "2026-09-18T21:44:14Z",
       "values": {
         "text_mm4k2vch": "Temple",
         "color_mm4kmej3": "2-Approved",
         "long_text_mm4kq322": "temple-mainnet-2::1220ed902ab8208518afef45e3e2d2aec1526d038d5f8ee2514a10842dc0886e6673",
         "color_mm4kpp3q": "Non-Issuer",
-        "long_text_mm4khjn6": "1220d05c64e67cd4fad73998b755a51c03ddfafd46ae26162e2e0b47003a751e6047::122017155c6a50083889147dfb16d6a4e5023b731e9bf1eea60fbf402869e62f783e",
-        "numeric_mm4k6919": "15.5",
+        "long_text_mm4khjn6": "1220d::1220d771bf17eec529647bed1bc790613ca95109fe5848c36b629d1117175f178eb5",
+        "numeric_mm4k6919": "37.6",
         "long_text_mm4km2s7": "Temple, is a compliant and private Central Limit Orderbook (CLOB) and asset issuance platform powered by the Canton network.",
         "link_mm4kd0hk": "https://drive.google.com/open?id=1GUc2aoyUDONGJEUqX_OhvKQj51Ns7GlJ",
         "link_mm4kmq24": "https://templedigitalgroup.com",
@@ -9414,7 +9410,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467825386",
       "name": "Agora: Survey & Vote",
-      "updatedAt": "2026-09-17T04:01:11Z",
+      "updatedAt": "2026-09-19T04:01:26Z",
       "values": {
         "text_mm4k2vch": "Agora: Survey & Vote",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -9582,7 +9578,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467825385",
       "name": "Ubyx Clearing",
-      "updatedAt": "2026-09-04T19:22:43Z",
+      "updatedAt": "2026-09-18T18:52:11Z",
       "values": {
         "text_mm4k2vch": "Ubyx",
         "color_mm4kmej3": "0-Locked+Needs Review",
@@ -9737,7 +9733,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467832618",
       "name": "ScopeX Rate Lock",
-      "updatedAt": "2026-09-17T04:01:13Z",
+      "updatedAt": "2026-09-19T04:01:28Z",
       "values": {
         "text_mm4k2vch": "ScopeX Money",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -10323,13 +10319,12 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12964705710",
       "name": "RAX Finance - RAX Finance",
-      "updatedAt": "2026-09-04T14:34:51Z",
+      "updatedAt": "2026-09-18T11:29:06Z",
       "values": {
         "text_mm4k2vch": "RAX Finance",
-        "color_mm4kmej3": "0-Locked+Needs Review",
+        "color_mm4kmej3": "1-Needs Review",
         "long_text_mm4kq322": "rax-app::1220f9a6ba2158a8f9817ee854940475c4a6ebaaf8bb8d91d2691ae1f5b98b7f1321",
         "color_mm4kpp3q": "Non-Issuer",
-        "long_text_mm4khjn6": "23d169c2-0909-4c70-81d1-1922de6febaa::1220408191e246d8d4b125e8d6b67828c71e0c058fe430edf2c773d99c7c1091af07",
         "numeric_mm4k6919": "5.0",
         "long_text_mm4km2s7": "RAX Finance is building the on-chain capital layer for the AI economy. RAX connects on-chain liquidity to the full AI stack — from compute (GPUs) to energy — and makes the real economic engine behind AI investable and verifiable on-chain. RAX has raised $4M from HashKey and FBG Capital, and arrives with a large pre-launch community (~106,000 verified users, most new to Canton).",
         "link_mm4kmq24": "https://raxfinance-canton.netlify.app/",
@@ -10382,7 +10377,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12974668475",
       "name": "OS Ledger - Outersunset",
-      "updatedAt": "2026-09-17T04:01:14Z",
+      "updatedAt": "2026-09-19T04:01:30Z",
       "values": {
         "text_mm4k2vch": "Outersunset",
         "color_mm4kmej3": "1-Needs Review",
@@ -10409,7 +10404,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12982310839",
       "name": "Ovdefi - OneNov",
-      "updatedAt": "2026-09-17T04:01:15Z",
+      "updatedAt": "2026-09-19T04:01:32Z",
       "values": {
         "text_mm4k2vch": "OneNov",
         "color_mm4kmej3": "1-Needs Review",
@@ -10499,7 +10494,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13003184089",
       "name": "R1M Sentinel - R1M",
-      "updatedAt": "2026-09-17T04:01:17Z",
+      "updatedAt": "2026-09-19T04:01:33Z",
       "values": {
         "text_mm4k2vch": "R1M",
         "color_mm4kmej3": "1-Needs Review",
@@ -10531,7 +10526,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13003184405",
       "name": "Cardiv - WolfEdge Labs",
-      "updatedAt": "2026-09-17T16:13:18Z",
+      "updatedAt": "2026-09-18T18:52:11Z",
       "values": {
         "text_mm4k2vch": "WolfEdge Labs",
         "color_mm4kmej3": "0-Locked+Needs Review",
@@ -10708,7 +10703,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13056498524",
       "name": "mperps - Lemongrass IT services LLC FZ",
-      "updatedAt": "2026-09-17T04:01:19Z",
+      "updatedAt": "2026-09-19T04:01:35Z",
       "values": {
         "text_mm4k2vch": "Lemongrass IT services LLC FZ",
         "color_mm4kmej3": "1-Needs Review",
@@ -10738,13 +10733,14 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13076673771",
       "name": "Meridiant - Catalyst Labs LLC FZ",
-      "updatedAt": "2026-09-18T04:50:56Z",
+      "updatedAt": "2026-09-18T12:02:12Z",
       "values": {
         "text_mm4k2vch": "Catalyst Labs LLC FZ",
         "color_mm4kmej3": "1-Needs Review",
         "long_text_mm4kq322": "meridiant-app-1::1220bf5cc4001319411167463c68611feef2cb8fcbe8896bc38025717868b0074f87",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "23d169c2-0909-4c70-81d1-1922de6febaa::1220738ce7d150434a418f461c4b04f47cf583f2accd0e224a69f97ee08d85bbb222 Ergonia (Cumberland Innovations LLC) - via cashen's marketplace",
+        "numeric_mm4k6919": "5.0",
         "long_text_mm4km2s7": "Catalyst Labs LLC FZ is a Dubai-based blockchain infrastructure and DeFi engineering team. We design and run institutional-grade decentralized finance infrastructure on the Canton Network. Our first product is Meridiant, an isolated-market lending protocol purpose-built for Canton's atomic settlement and per-market privacy.",
         "link_mm4kd0hk": "https://meridiant.xyz/brand-guide/",
         "link_mm4kmq24": "https://meridiant.xyz/",
@@ -10769,13 +10765,14 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13076720974",
       "name": "Nocturnal Wallet - The Nocturnal Foundation",
-      "updatedAt": "2026-09-18T04:50:57Z",
+      "updatedAt": "2026-09-18T12:02:14Z",
       "values": {
         "text_mm4k2vch": "The Nocturnal Foundation",
         "color_mm4kmej3": "1-Needs Review",
         "long_text_mm4kq322": "MPCH-NEXUvalidator-1::12203a0ef2ed2bfbc9c14239714cb839a740d30ae40a6c74b1fc939392ecaaf981c1",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "1220b82ae0cef74d51b1a09944656345a10aa6fc7f4c5de6aa9d42e373e435d575f9::1220c14b674401fb2fe05644a5cca6320edfbac5c12ea1b3e0e4e5380c330db09608",
+        "numeric_mm4k6919": "5.0",
         "long_text_mm4km2s7": "The Nocturnal Foundation, builds consumer-grade, self-custody crypto products under the Nocturnal brand. Our existing consumer platform serves approximately 5,000 users and we recently won the Colosseum Hackathon Warm-Up run by Solana Superteam Korea. We are bringing that consumer expertise, and that existing user base, to Canton. Nocturnal Wallet is our Canton product: a non-custodial, passkey-secured wallet built natively using the official Canton Wallet SDK with additional features such as a dedicated Web3 intelligence layer that is powered by AI intelligence for macro, trading, and portfolio optimization powered by Elfa.ai. Our thesis is that Canton's growth into tokenized real-world assets will require a consumer front door that is as easy to use as a mainstream fintech app, and that makes Canton's privacy model legible to ordinary users rather than hiding it in the protocol layer.",
         "link_mm4kd0hk": "https://docs.google.com/presentation/d/1Kybrr-YuTmgjDl5p0hLRU0ZJKriM2unr/edit?usp=drive_link&ouid=110852552098906374981&rtpof=true&sd=true",
         "link_mm4kmq24": "https://wallet.nocturnal.xyz/",
@@ -10801,13 +10798,14 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13076683931",
       "name": "cSOL - OnRails Ltd",
-      "updatedAt": "2026-09-18T04:50:58Z",
+      "updatedAt": "2026-09-18T12:02:15Z",
       "values": {
         "text_mm4k2vch": "OnRails Ltd",
         "color_mm4kmej3": "1-Needs Review",
         "long_text_mm4kq322": "rails-csol::12200350ba6e96e3b701c3048b5aa013a8c1c08833e8ebf54339cff581055c29003a",
         "color_mm4kpp3q": "Asset Issuer",
         "long_text_mm4khjn6": "23d169c2-0909-4c70-81d1-1922de6febaa::122029327ec3596fb0a43e372cdeb90ea1cd7cc59536c57570e05459c98870361074",
+        "numeric_mm4k6919": "25.0",
         "long_text_mm4km2s7": "OnRails operates asset infrastructure for the Canton Network. Our team has production experience in cross-chain operations and integrations with wallets and trading venues.",
         "link_mm4kmq24": "https://csol.network",
         "long_text_mm4k2537": "cSOL is a 1:1 SOL-backed asset issued on Canton. Users deposit SOL to obtain cSOL, hold and transfer it through compatible Canton wallets and applications, and burn cSOL to redeem SOL. The product brings SOL-denominated liquidity into the Canton ecosystem for trading, settlement and collateral use. It gives SOL holders access to Canton applications and provides venues and developers with an additional asset to integrate into their products.",
