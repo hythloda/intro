@@ -1,5 +1,5 @@
 window.FEATURED_APP_PARTYID_CHANGES_DATA = {
-  "generatedAt": "2026-09-18T11:33:37.650Z",
+  "generatedAt": "2026-09-19T11:16:50.744Z",
   "columns": [
     {
       "id": "long_text_mm4kq322",
@@ -13,6 +13,105 @@ window.FEATURED_APP_PARTYID_CHANGES_DATA = {
     }
   ],
   "changes": [
+    {
+      "id": "36427f0d-7ed7-4962-9c65-0884f850e7d2",
+      "changedAt": "2026-09-18T21:44:14.689Z",
+      "itemName": "Temple Trading Expansion",
+      "itemId": "12467838257",
+      "field": "Locking PartyIDs",
+      "previousValue": "1220a::1220a55e2d5438b00300ffdd6bf509267fbd21230f2b1281dbb11b6b2574f66d48e0",
+      "newValue": "1220d::1220d771bf17eec529647bed1bc790613ca95109fe5848c36b629d1117175f178eb5"
+    },
+    {
+      "id": "365bc7b2-3002-4fda-a125-6f74f7d3570f",
+      "changedAt": "2026-09-18T21:44:12.251Z",
+      "itemName": "Temple Trading",
+      "itemId": "12467810727",
+      "field": "Locking PartyIDs",
+      "previousValue": "1220a::1220a55e2d5438b00300ffdd6bf509267fbd21230f2b1281dbb11b6b2574f66d48e0",
+      "newValue": "1220d::1220d771bf17eec529647bed1bc790613ca95109fe5848c36b629d1117175f178eb5"
+    },
+    {
+      "id": "f06365e4-9bd0-42bc-9a4d-24212dee2865",
+      "changedAt": "2026-09-18T21:44:10.293Z",
+      "itemName": "Temple Trading copy",
+      "itemId": "12467837938",
+      "field": "Locking PartyIDs",
+      "previousValue": "1220a::1220a55e2d5438b00300ffdd6bf509267fbd21230f2b1281dbb11b6b2574f66d48e0",
+      "newValue": "1220d::1220d771bf17eec529647bed1bc790613ca95109fe5848c36b629d1117175f178eb5"
+    },
+    {
+      "id": "84f64d1c-6ed3-4aa6-ab19-cd6152862388",
+      "changedAt": "2026-09-18T20:52:32.225Z",
+      "itemName": "Temple Trading Expansion",
+      "itemId": "12467838257",
+      "field": "Locking PartyIDs",
+      "previousValue": "1220d05c64e67cd4fad73998b755a51c03ddfafd46ae26162e2e0b47003a751e6047::122017155c6a50083889147dfb16d6a4e5023b731e9bf1eea60fbf402869e62f783e",
+      "newValue": "1220a::1220a55e2d5438b00300ffdd6bf509267fbd21230f2b1281dbb11b6b2574f66d48e0"
+    },
+    {
+      "id": "521d898e-6400-4629-8edc-e76131927e02",
+      "changedAt": "2026-09-18T20:52:30.049Z",
+      "itemName": "Temple Trading",
+      "itemId": "12467810727",
+      "field": "Locking PartyIDs",
+      "previousValue": "1220d05c64e67cd4fad73998b755a51c03ddfafd46ae26162e2e0b47003a751e6047::122017155c6a50083889147dfb16d6a4e5023b731e9bf1eea60fbf402869e62f783e",
+      "newValue": "1220a::1220a55e2d5438b00300ffdd6bf509267fbd21230f2b1281dbb11b6b2574f66d48e0"
+    },
+    {
+      "id": "7feffe76-091b-4fff-b6c1-5fd2165520c9",
+      "changedAt": "2026-09-18T20:52:28.528Z",
+      "itemName": "Temple Trading copy",
+      "itemId": "12467837938",
+      "field": "Locking PartyIDs",
+      "previousValue": "1220d05c64e67cd4fad73998b755a51c03ddfafd46ae26162e2e0b47003a751e6047::122017155c6a50083889147dfb16d6a4e5023b731e9bf1eea60fbf402869e62f783e",
+      "newValue": "1220a::1220a55e2d5438b00300ffdd6bf509267fbd21230f2b1281dbb11b6b2574f66d48e0"
+    },
+    {
+      "id": "3a12f9ad-7cd0-41a8-9877-291b9a4b59c3",
+      "changedAt": "2026-09-18T17:42:52.237Z",
+      "itemName": "BMCP Invest",
+      "itemId": "12467825411",
+      "field": "Locking PartyIDs",
+      "previousValue": "",
+      "newValue": "1220f7be5a5ed74bbd707dc4289d164ee8690da3a81574c0560019e6ee5915e5f41b::1220d8811ef50e8eceb19d1abed7f9610385f53eb177a55041266eb71fc2a3cdedcf"
+    },
+    {
+      "id": "51e21e85-a904-4bbd-895a-3c5d38f8a71e",
+      "changedAt": "2026-09-18T14:35:25.047Z",
+      "itemName": "DeSyn Protocol",
+      "itemId": "12467815975",
+      "field": "Locking PartyIDs",
+      "previousValue": "23d169c2-0909-4c70-81d1-1922de6febaa::122053abd4ba5335e63555ce898cae29b07f78c04eae7cc447c311816ec0ab07426b",
+      "newValue": ""
+    },
+    {
+      "id": "f137ec1b-1fed-44de-8040-e86a443c4fb4",
+      "changedAt": "2026-09-18T13:52:31.841Z",
+      "itemName": "BMCP Invest",
+      "itemId": "12467825411",
+      "field": "Locking PartyIDs",
+      "previousValue": "23d169c2-0909-4c70-81d1-1922de6febaa::1220f995b75444f49f01b9b62992c9e538c35b98edea6f0495ae43c037e50fb0c893",
+      "newValue": ""
+    },
+    {
+      "id": "a72187d2-6f24-46ee-85b3-cc2c3d493192",
+      "changedAt": "2026-09-18T13:43:10.141Z",
+      "itemName": "Bayzen - Bayzen",
+      "itemId": "12934217674",
+      "field": "Locking PartyIDs",
+      "previousValue": "23d169c2-0909-4c70-81d1-1922de6febaa::12208504027629867135f32260ea29c443cec33d39faf9fead4a4693d93123e8b8e3",
+      "newValue": ""
+    },
+    {
+      "id": "92a39f60-fa85-4619-a4a9-67cd1eccceaa",
+      "changedAt": "2026-09-18T13:43:07.413Z",
+      "itemName": "Bayzen - Bayzen",
+      "itemId": "12942557487",
+      "field": "Locking PartyIDs",
+      "previousValue": "23d169c2-0909-4c70-81d1-1922de6febaa::12208504027629867135f32260ea29c443cec33d39faf9fead4a4693d93123e8b8e3",
+      "newValue": ""
+    },
     {
       "id": "55ea6431-5cb3-42b3-a464-b037425da88b",
       "changedAt": "2026-09-18T11:28:59.114Z",
@@ -93,105 +192,6 @@ window.FEATURED_APP_PARTYID_CHANGES_DATA = {
       "field": "Party ID for the Featured Application:",
       "previousValue": "",
       "newValue": "jubilee-marketplace::1220f1e76697bbc124cc4138bed49ddd368fe7645239116e592babbd0586c972de9b"
-    },
-    {
-      "id": "5d1d29d2-b1c9-4bcf-84bc-ca69a6d872e7",
-      "changedAt": "2026-08-24T16:52:13.594Z",
-      "itemName": "Nomexis",
-      "itemId": "12467783405",
-      "field": "Locking PartyIDs",
-      "previousValue": "23d169c2-0909-4c70-81d1-1922de6febaa::1220b6564e113fc76dd67020ef7ee401c235033e1ff9692dfd3a4098235d1ece2ea9",
-      "newValue": ""
-    },
-    {
-      "id": "a9d2d441-6bc0-49ec-aeef-c53cd7677454",
-      "changedAt": "2026-08-21T21:48:22.636Z",
-      "itemName": "Bridge by Roots",
-      "itemId": "12467824764",
-      "field": "Locking PartyIDs",
-      "previousValue": "edgevanaCIP116-lock::1220f66fafc044e4364adce1f84442dcb5ce3dc5d15fbe331e0e6155ac31052a38ee",
-      "newValue": ""
-    },
-    {
-      "id": "24a8128c-ac28-4daf-b375-98b8bdc1e4bf",
-      "changedAt": "2026-08-20T21:18:44.354Z",
-      "itemName": "Rapid Chain",
-      "itemId": "12467806176",
-      "field": "Locking PartyIDs",
-      "previousValue": "rapid-chain-lock1::12203494523f5bb02d6388ee3de4b15ee211581b6c1dadf23b71a0d2c1043d41eca5",
-      "newValue": "23d169c2-0909-4c70-81d1-1922de6febaa::1220f7a9536dd3ac943688bff534eb25b28046b6660b1f579d2d0d0037dacc96dcac"
-    },
-    {
-      "id": "9c48c3d2-f64b-4a6c-ae9f-8d623a0a5c07",
-      "changedAt": "2026-08-18T20:18:26.883Z",
-      "itemName": "Excellar – Bermuda-regulated, yield-bearing tokens denominated in dollars, bitcoin, and other cryptocurrencies, along with related applications.",
-      "itemId": "12467790003",
-      "field": "Locking PartyIDs",
-      "previousValue": "xl-issuer-lock::12203d1e36930ee0e3fbb898add7e222a47ae9d2a5f0f6187e3a446ea32f871ce2ca, 23d169c2-0909-4c70-81d1-1922de6febaa::1220a5e6750e43fb4fb6cbc9f1c11b2607f8b8db09d877f2e2796a583c4673aa87d2",
-      "newValue": "23d169c2-0909-4c70-81d1-1922de6febaa::1220a5e6750e43fb4fb6cbc9f1c11b2607f8b8db09d877f2e2796a583c4673aa87d2"
-    },
-    {
-      "id": "52ffa3ac-00ae-4f90-93b5-d9292c30c789",
-      "changedAt": "2026-08-14T15:37:34.097Z",
-      "itemName": "Bayzen - Bayzen",
-      "itemId": "12800950488",
-      "field": "Locking PartyIDs",
-      "previousValue": "Pending — Bayzen is currently completing the Canton locking process. The locking Party ID(s) will be provided to the Committee once the locking arrangement has been finalized.",
-      "newValue": "23d169c2-0909-4c70-81d1-1922de6febaa::12208504027629867135f32260ea29c443cec33d39faf9fead4a4693d93123e8b8e3"
-    },
-    {
-      "id": "cde50c7f-6da9-422e-9432-884f86bb1898",
-      "changedAt": "2026-08-14T15:37:22.800Z",
-      "itemName": "Bayzen - Bayzen",
-      "itemId": "12800950488",
-      "field": "Party ID for the Featured Application:",
-      "previousValue": "",
-      "newValue": "bayzen-validator-1::1220618de8af3a43c95f7f9c6430f9a308152eb564f57b4c60c4c655f67fb867af1c"
-    },
-    {
-      "id": "332bc7a5-5a86-4326-a81c-2ea9e1478a9b",
-      "changedAt": "2026-08-13T17:58:58.162Z",
-      "itemName": "OS Ledger - Outersunset",
-      "itemId": "12791057047",
-      "field": "Party ID for the Featured Application:",
-      "previousValue": "",
-      "newValue": "OSLedger-mainnet-1::1220f1cd2f9ef6f966d492813215f34cf048a559d25d750b44c095c17fbf96afff64"
-    },
-    {
-      "id": "abe77058-a30d-4a1c-8a84-5a1961ad7e90",
-      "changedAt": "2026-08-12T16:05:29.994Z",
-      "itemName": "Tradecraft",
-      "itemId": "12467815977",
-      "field": "Locking PartyIDs",
-      "previousValue": "23d169c2-0909-4c70-81d1-1922de6febaa::122032c668c7a88633e8c1dc45d704b8c87eb10a4140418b8ce9d9377985fb16a7bc",
-      "newValue": "23d169c2-0909-4c70-81d1-1922de6febaa::12209741b897b63b314fa6f2fe0639d92c779a7cdff6fd615aede507e61682f2d95a"
-    },
-    {
-      "id": "3912fb13-8947-4fed-966b-91da7856522b",
-      "changedAt": "2026-08-12T16:05:17.998Z",
-      "itemName": "CantonSwap",
-      "itemId": "12467838286",
-      "field": "Locking PartyIDs",
-      "previousValue": "23d169c2-0909-4c70-81d1-1922de6febaa::12209741b897b63b314fa6f2fe0639d92c779a7cdff6fd615aede507e61682f2d95a",
-      "newValue": "23d169c2-0909-4c70-81d1-1922de6febaa::122032c668c7a88633e8c1dc45d704b8c87eb10a4140418b8ce9d9377985fb16a7bc"
-    },
-    {
-      "id": "ca450896-cb63-49e3-bb4d-e61fe6052b8c",
-      "changedAt": "2026-08-12T16:05:04.396Z",
-      "itemName": "CantonSwap",
-      "itemId": "12467838286",
-      "field": "Locking PartyIDs",
-      "previousValue": "23d169c2-0909-4c70-81d1-1922de6febaa::122032c668c7a88633e8c1dc45d704b8c87eb10a4140418b8ce9d9377985fb16a7bc",
-      "newValue": "23d169c2-0909-4c70-81d1-1922de6febaa::12209741b897b63b314fa6f2fe0639d92c779a7cdff6fd615aede507e61682f2d95a"
-    },
-    {
-      "id": "205ffd56-42bb-421c-88d8-b7ff6d85b313",
-      "changedAt": "2026-08-12T16:04:07.128Z",
-      "itemName": "CantonSwap",
-      "itemId": "12467838286",
-      "field": "Locking PartyIDs",
-      "previousValue": "23d169c2-0909-4c70-81d1-1922de6febaa::12209741b897b63b314fa6f2fe0639d92c779a7cdff6fd615aede507e61682f2d95a",
-      "newValue": "23d169c2-0909-4c70-81d1-1922de6febaa::122032c668c7a88633e8c1dc45d704b8c87eb10a4140418b8ce9d9377985fb16a7bc"
     }
   ]
 };
