@@ -1,5 +1,5 @@
 window.FEATURED_APP_BOARD_DATA = {
-  "generatedAt": "2026-09-19T11:06:47.131Z",
+  "generatedAt": "2026-09-20T11:31:15.295Z",
   "columns": [
     {
       "id": "text_mm4k2vch",
@@ -10823,6 +10823,33 @@ window.FEATURED_APP_BOARD_DATA = {
         "long_text_mm4khbeg": "n/a",
         "long_text_mm4kp5en": "n/a",
         "long_text_mm4kxsgy": "cSOL builds on OnRails’ experience operating cETH on MainNet, with a dedicated registrar and FA Party ID separate from those used for cETH"
+      }
+    },
+    {
+      "id": "13087665624",
+      "name": "Float - SwapSo Inc",
+      "updatedAt": "2026-09-20T04:50:57Z",
+      "values": {
+        "text_mm4k2vch": "SwapSo Inc",
+        "color_mm4kmej3": "1-Needs Review",
+        "long_text_mm4kq322": "Float-validator-1Float-validator-1::1220fbc3e15c8028f00a1a9fbbe2b06cbc96b9f9666454fc418f6369b5b40b7e8946",
+        "color_mm4kpp3q": "Non-Issuer",
+        "long_text_mm4khjn6": "We are already onboarded on Cashen and discussing a 5M lock with them. We will ensure that locking requirements are completed as per guidelines.",
+        "long_text_mm4km2s7": "SwapSo Inc has built crypto products for over three years, including the SwapSo Bitcoin wallet and app, the Bitcoin India Tour and Bredit. On Canton we build Slay Money, a live MainNet wallet and utility app that already holds Featured App status. Float is our second Canton product: a separate app with its own validator, database and domain, aimed at the biggest gap for newcomers to Canton, which is getting in and out.",
+        "link_mm4kmq24": "https://myfloat.cc",
+        "long_text_mm4k2537": "Float is the open gateway to Canton. Deposit BTC, ETH, USDC, SOL or 2,000+ other assets and receive Canton Coin at your Canton party ID, or send CC out to any asset at an address you control. Float quotes several exchange partners at once, routes each order to the best rate, and settles natively on Canton. There's no wrapped token and no bridge contract to trust.",
+        "long_text_mm5hgry2": "Swap aggregator do exist in other blockchain ecosystems.",
+        "long_text_mm4k4y1h": "Newcomers who hold crypto on other chains and need CC to use Canton apps, and existing CC holders who want to cash out to BTC, ETH or stablecoins. The second group is Canton wallets and apps (starting with Slay Money) that embed Float's widget or API, so their users can buy CC without leaving the app. Partners earn 0.2% of each swap, paid in CC.",
+        "long_text_mm4k15bg": "One outbound CC transfer per completed customer order: Float's payment to the exchange partner on a withdrawal, or Float's delivery to the customer on a deposit. Nothing else earns rewards. That excludes refunds, moves of Float's own treasury, preapproval renewals, partner payouts and anything administrative.",
+        "long_text_mm4kh3fw": "Float runs its own MainNet validator. The backend submits commands through the JSON Ledger API v2 as Float's operator party. Float's party keeps a live TransferPreapproval so users and partners can pay it in one step. A scheduled job renews it three weeks before it expires. Outbound payments use standard Splice transfers, and each one carries an ID derived from the order, so a retry can't pay twice. An internal ledger records what Float owes on every open order. Before each send, Float checks that its on-chain balance still covers everything it owes. If the balance can't be read, the send is refused.",
+        "long_text_mm4kfg50": "Rewards come from CC transfers submitted by Float's party, with the FeaturedAppRight attached. Float doesn't emit Activity Markers, and its reward activity is limited to one attributed transfer per completed swap.",
+        "long_text_mm4kxcm2": "1–2. Most users do one swap to get CC and occasionally one to cash out.",
+        "long_text_mm4kvyjq": "Only when they place separate orders, for example buying CC in two separate orders or withdrawing to two assets. Each order is a separate CC deposit or exchange-partner order and produces exactly one reward-earning transfer from Float. Float never splits one order into several transfers.",
+        "long_text_mm4k1cm0": "Linear with completed orders. Partner integrations could add a step up when a partner's users come online, but the ratio stays one attributed transfer per real swap.",
+        "long_text_mm4kfkwn": "Float is already live at myfloat.cc. Slay Money is the first partner platform and is listed on the site. Its users can buy and cash out CC through Float.",
+        "long_text_mm4k6q73": "Float would keep operating, but more slowly. Exchange-partner fees leave little margin, and on some partners Float currently earns nothing. App rewards would pay for the 0.2% partner incentive, lower fees for users and integrations with more Canton wallets. Without them, we'd reduce partner incentives and add integrations more slowly.",
+        "long_text_mm4kwxt1": "Yes: One reward-earning transfer per order, and only after the customer's deposit is confirmed on the ledger. An order that never gets funded, or that is refunded, earns nothing. Round-tripping doesn't pay. Each order goes through a third-party exchange with its own spread and network fees (about 1–2% per round trip), which is more than any reward on the same amount. Float sends only what actually arrived, never the quoted amount. No order is topped up from Float's own funds. The internal ledger and the on-chain balance are checked before every send. Sends are refused when the balance can't be verified, and every send has an order-derived ID so it can't be duplicated.",
+        "long_text_mm4kxsgy": "Float is built by the Slay Money team (RD SwapSo Private Limited), which already runs a Featured App on Canton."
       }
     }
   ]
