@@ -136,6 +136,63 @@ a {
   border: 1px solid rgba(126, 92, 186, 0.2);
 }
 
+.meeting-series {
+  display: grid;
+  gap: 14px;
+  margin-top: 18px;
+}
+
+.meeting-series-card {
+  padding: 20px;
+  border-radius: 18px;
+  background: rgba(7, 5, 32, 0.88);
+  border: 1px solid rgba(126, 92, 186, 0.2);
+}
+
+.meeting-series-card h3 {
+  margin-bottom: 14px;
+  color: var(--accent-strong);
+}
+
+.meeting-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.meeting-detail {
+  padding: 12px 14px;
+  border-radius: 12px;
+  background: rgba(3, 2, 20, 0.48);
+  border: 1px solid rgba(126, 92, 186, 0.18);
+}
+
+.meeting-label,
+.meeting-value {
+  display: block;
+}
+
+.meeting-label {
+  margin-bottom: 5px;
+  color: var(--accent);
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.meeting-value {
+  color: var(--text);
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 1.35;
+}
+
+.meeting-note {
+  margin: 16px 0 0;
+  font-size: 15px;
+}
+
 .resource-grid {
   margin-top: 18px;
 }
@@ -312,6 +369,10 @@ a {
   }
 
   .roster-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .meeting-grid {
     grid-template-columns: 1fr;
   }
 

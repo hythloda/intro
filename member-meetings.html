@@ -1,0 +1,405 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow, noarchive, nosnippet, noimageindex">
+  <meta name="googlebot" content="noindex, nofollow, noarchive, nosnippet, noimageindex">
+  <meta name="bingbot" content="noindex, nofollow, noarchive, nosnippet, noimageindex">
+  <meta name="referrer" content="no-referrer">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/site-chrome.css?v=footer-20260820e">
+  <script src="assets/site-chrome.js?v=footer-20260820e" defer></script>
+  <title>Member Meetings | Canton Network</title>
+
+  <style>
+    :root {
+      --bg: #06014a;
+      --panel: rgba(6, 4, 30, 0.92);
+      --panel-soft: rgba(11, 8, 40, 0.82);
+      --text: #f7f8fc;
+      --muted: #d6d0e5;
+      --line: rgba(127, 91, 188, 0.24);
+      --accent: #d5a5e3;
+      --accent-strong: #f3ff97;
+      --error: #ffb6c6;
+      --shadow: 0 30px 80px rgba(0, 0, 0, 0.35);
+    }
+
+    html,
+    body {
+      margin: 0;
+      min-height: 100%;
+      background:
+        radial-gradient(circle at 78% 18%, rgba(129, 84, 120, 0.42), transparent 26%),
+        radial-gradient(circle at 18% 80%, rgba(63, 21, 172, 0.18), transparent 34%),
+        linear-gradient(180deg, #05014a 0%, #14045a 54%, #090221 100%);
+      color: var(--text);
+      font-family: "IBM Plex Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
+
+    body {
+      padding: 36px 18px 56px;
+      box-sizing: border-box;
+    }
+
+    [hidden] {
+      display: none !important;
+    }
+
+    .wrap {
+      max-width: 1180px;
+      margin: 0 auto;
+    }
+
+    .panel {
+      padding: 48px;
+      border-radius: 28px;
+      background: var(--panel);
+      border: 1px solid var(--line);
+      box-shadow: var(--shadow);
+      backdrop-filter: blur(10px);
+    }
+
+    .eyebrow {
+      display: inline-block;
+      margin-bottom: 16px;
+      padding: 8px 12px;
+      border-radius: 999px;
+      background: rgba(213, 165, 227, 0.14);
+      color: var(--accent);
+      font-size: 13px;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      margin: 0 0 16px;
+      max-width: 820px;
+      font-size: clamp(38px, 6vw, 68px);
+      line-height: 0.95;
+      letter-spacing: -0.045em;
+    }
+
+    p {
+      margin: 0;
+      max-width: 820px;
+      color: var(--muted);
+      font-size: 18px;
+      line-height: 1.65;
+    }
+
+    .actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 14px;
+      margin-top: 28px;
+    }
+
+    .button,
+    .button-secondary {
+      min-height: 48px;
+      padding: 0 18px;
+      border-radius: 14px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      box-sizing: border-box;
+      font: inherit;
+      font-weight: 800;
+      text-decoration: none;
+      cursor: pointer;
+      transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
+    }
+
+    .button {
+      border: 0;
+      background: var(--accent-strong);
+      color: #132019;
+    }
+
+    .button-secondary {
+      border: 1px solid rgba(186, 252, 104, 0.3);
+      background: transparent;
+      color: var(--text);
+    }
+
+    .button:hover,
+    .button-secondary:hover {
+      transform: translateY(-2px);
+    }
+
+    .button:focus-visible,
+    .button-secondary:focus-visible,
+    .password-input:focus-visible {
+      outline: 3px solid rgba(243, 255, 151, 0.38);
+      outline-offset: 3px;
+    }
+
+    .access-card {
+      max-width: 620px;
+      margin: 34px auto 0;
+      padding: 34px;
+      border-radius: 26px;
+      background: linear-gradient(180deg, rgba(17, 11, 55, 0.98), rgba(10, 7, 36, 0.98));
+      border: 1px solid rgba(126, 92, 186, 0.32);
+      box-shadow: 0 22px 50px rgba(0, 0, 0, 0.24);
+    }
+
+    .access-card h2 {
+      margin: 0 0 10px;
+      font-size: 28px;
+      line-height: 1.15;
+    }
+
+    .access-card p {
+      font-size: 16px;
+    }
+
+    .password-form {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto;
+      gap: 12px;
+      margin-top: 22px;
+    }
+
+    .password-label {
+      grid-column: 1 / -1;
+      color: var(--text);
+      font-size: 14px;
+      font-weight: 700;
+    }
+
+    .password-input {
+      width: 100%;
+      min-height: 52px;
+      padding: 0 16px;
+      box-sizing: border-box;
+      border-radius: 14px;
+      border: 1px solid rgba(213, 165, 227, 0.36);
+      background: rgba(2, 1, 18, 0.72);
+      color: var(--text);
+      font: inherit;
+      font-size: 17px;
+    }
+
+    .password-input::placeholder {
+      color: rgba(214, 208, 229, 0.58);
+    }
+
+    .form-message {
+      grid-column: 1 / -1;
+      min-height: 24px;
+      color: var(--error);
+      font-size: 15px;
+      line-height: 1.5;
+    }
+
+    .calendar-card {
+      margin-top: 34px;
+      padding: 18px;
+      border-radius: 26px;
+      background: linear-gradient(180deg, rgba(17, 11, 55, 0.98), rgba(10, 7, 36, 0.98));
+      border: 1px solid rgba(126, 92, 186, 0.28);
+      box-shadow: 0 22px 50px rgba(0, 0, 0, 0.24);
+    }
+
+    .calendar-frame {
+      width: 100%;
+      height: min(78vh, 760px);
+      min-height: 560px;
+      display: block;
+      border: 0;
+      border-radius: 18px;
+      background: #ffffff;
+    }
+
+    .note {
+      margin-top: 18px;
+      padding: 18px 20px;
+      border-radius: 18px;
+      background: var(--panel-soft);
+      border: 1px solid rgba(126, 92, 186, 0.2);
+    }
+
+    .note p {
+      font-size: 15px;
+    }
+
+    .note a {
+      color: var(--accent-strong);
+      font-weight: 700;
+    }
+
+    @media (max-width: 700px) {
+      body {
+        padding: 20px 14px 36px;
+      }
+
+      .panel {
+        padding: 28px 22px;
+        border-radius: 22px;
+      }
+
+      p {
+        font-size: 16px;
+      }
+
+      .actions,
+      .password-form {
+        display: grid;
+        grid-template-columns: 1fr;
+      }
+
+      .access-card {
+        padding: 24px 20px;
+        border-radius: 20px;
+      }
+
+      .calendar-card {
+        padding: 10px;
+        border-radius: 20px;
+      }
+
+      .calendar-frame {
+        min-height: 520px;
+        border-radius: 14px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div data-site-header></div>
+  <main class="wrap">
+    <section class="panel">
+      <div class="eyebrow">Members</div>
+      <h1>Member Meetings</h1>
+      <p>
+        View upcoming Canton Foundation member meetings and committee dates in Eastern Time.
+      </p>
+
+      <div class="actions">
+        <a class="button-secondary" href="member.html">Back to Member Resources</a>
+        <a class="button-secondary" href="index.html">Back to Main Page</a>
+      </div>
+
+      <div class="access-card" id="access-gate">
+        <h2>Member access</h2>
+        <p>Enter the shared member password to view the meetings calendar.</p>
+
+        <form class="password-form" id="password-form">
+          <label class="password-label" for="member-password">Password</label>
+          <input
+            class="password-input"
+            id="member-password"
+            name="password"
+            type="password"
+            autocomplete="current-password"
+            placeholder="Enter member password"
+            required>
+          <button class="button" type="submit">View Calendar</button>
+          <div class="form-message" id="form-message" role="alert" aria-live="polite"></div>
+        </form>
+      </div>
+
+      <div id="calendar-content" hidden>
+        <div class="actions">
+          <a class="button" id="open-calendar" href="#" target="_blank" rel="noopener">Open Calendar</a>
+          <button class="button-secondary" id="lock-calendar" type="button">Lock Calendar</button>
+        </div>
+
+        <div class="calendar-card">
+          <iframe
+            class="calendar-frame"
+            id="member-calendar"
+            title="Canton Foundation Member Meetings Calendar">
+          </iframe>
+        </div>
+
+        <div class="note">
+          <p>
+            If the embedded calendar does not load in your browser, use the
+            <a id="direct-calendar-link" href="#" target="_blank" rel="noopener">direct Google Calendar link</a>.
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+  <div data-site-footer></div>
+
+  <script>
+    (() => {
+      const expectedHash = "71a73b27c81b04bf7a5c55bffcaebfbf598068e2be7408d4ccbfdf1ab279749d";
+      const storageKey = "canton-member-meetings-unlocked";
+      const calendarUrl = "https://calendar.google.com/calendar/embed?src=c_8ed2b477315e995dd809674c453e6e579cce1689c970c798260f0f333740b140%40group.calendar.google.com&ctz=America%2FNew_York";
+
+      const accessGate = document.getElementById("access-gate");
+      const calendarContent = document.getElementById("calendar-content");
+      const calendarFrame = document.getElementById("member-calendar");
+      const directCalendarLink = document.getElementById("direct-calendar-link");
+      const openCalendar = document.getElementById("open-calendar");
+      const lockCalendar = document.getElementById("lock-calendar");
+      const passwordForm = document.getElementById("password-form");
+      const passwordInput = document.getElementById("member-password");
+      const formMessage = document.getElementById("form-message");
+      const submitButton = passwordForm.querySelector("button[type='submit']");
+
+      const hashPassword = async (password) => {
+        const data = new TextEncoder().encode(password);
+        const digest = await crypto.subtle.digest("SHA-256", data);
+        return Array.from(new Uint8Array(digest), (byte) => byte.toString(16).padStart(2, "0")).join("");
+      };
+
+      const showCalendar = () => {
+        accessGate.hidden = true;
+        calendarContent.hidden = false;
+        calendarFrame.src = calendarUrl;
+        directCalendarLink.href = calendarUrl;
+        openCalendar.href = calendarUrl;
+        formMessage.textContent = "";
+        passwordInput.value = "";
+      };
+
+      const lock = () => {
+        sessionStorage.removeItem(storageKey);
+        calendarFrame.removeAttribute("src");
+        directCalendarLink.href = "#";
+        openCalendar.href = "#";
+        calendarContent.hidden = true;
+        accessGate.hidden = false;
+        passwordInput.focus();
+      };
+
+      passwordForm.addEventListener("submit", async (event) => {
+        event.preventDefault();
+        formMessage.textContent = "";
+        submitButton.disabled = true;
+
+        try {
+          const passwordHash = await hashPassword(passwordInput.value);
+          if (passwordHash === expectedHash) {
+            sessionStorage.setItem(storageKey, "true");
+            showCalendar();
+          } else {
+            formMessage.textContent = "That password is not correct. Please try again.";
+            passwordInput.select();
+          }
+        } catch (error) {
+          formMessage.textContent = "This browser could not verify the password. Please try a current browser.";
+        } finally {
+          submitButton.disabled = false;
+        }
+      });
+
+      lockCalendar.addEventListener("click", lock);
+
+      if (sessionStorage.getItem(storageKey) === "true") {
+        showCalendar();
+      }
+    })();
+  </script>
+</body>
+</html>
