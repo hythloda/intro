@@ -1,5 +1,5 @@
 window.FEATURED_APP_BOARD_DATA = {
-  "generatedAt": "2026-09-21T12:55:53.635Z",
+  "generatedAt": "2026-09-22T11:45:25.541Z",
   "columns": [
     {
       "id": "text_mm4k2vch",
@@ -322,7 +322,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12959523630",
       "name": "MetCredX - NIPRO TECHNOLOGIES LIMITED",
-      "updatedAt": "2026-09-21T04:00:18Z",
+      "updatedAt": "2026-09-22T04:00:18Z",
       "values": {
         "text_mm4k2vch": "NIPRO TECHNOLOGIES LIMITED",
         "color_mm4kmej3": "1-Needs Review",
@@ -351,10 +351,10 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12959539619",
       "name": "The Hub - The Hub",
-      "updatedAt": "2026-09-18T18:52:09Z",
+      "updatedAt": "2026-09-21T16:08:30Z",
       "values": {
         "text_mm4k2vch": "The Hub",
-        "color_mm4kmej3": "0-Locked+Needs Review",
+        "color_mm4kmej3": "2-Approved",
         "long_text_mm4kq322": "thehub-validator-2::12209cbda0246f31fda21844936d3ed71d39d1e253827ba5918543cdbb07b4c24353",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "23d169c2-0909-4c70-81d1-1922de6febaa::1220ca49b703a773cfe71859698d6302c4e289d8a5888868438c71de0b33bf951a72",
@@ -834,7 +834,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12959522895",
       "name": "ccledger - Blueprint Infrastructure, LLC",
-      "updatedAt": "2026-09-21T04:00:19Z",
+      "updatedAt": "2026-09-22T04:00:20Z",
       "values": {
         "text_mm4k2vch": "Blueprint Infrastructure, LLC",
         "color_mm4kmej3": "1-Needs Review",
@@ -997,10 +997,10 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12954167020",
       "name": "Upflam - Upflam",
-      "updatedAt": "2026-09-18T18:52:10Z",
+      "updatedAt": "2026-09-21T16:09:13Z",
       "values": {
         "text_mm4k2vch": "Upflam",
-        "color_mm4kmej3": "0-Locked+Needs Review",
+        "color_mm4kmej3": "2-Approved",
         "long_text_mm4kq322": "upflam-main-1::1220cc07965b22048868ace639de7f516c45ab59de511e10e2a7f12ae1e3895c4d51",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "upflam-treasury::1220fcf86322b2ae75c9e6f74b9159e3407d9c426d97ebd6676be64ccab966dee4f3",
@@ -1156,7 +1156,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12870058108",
       "name": "R1M Sentinel - R1M",
-      "updatedAt": "2026-09-21T04:00:21Z",
+      "updatedAt": "2026-09-22T04:00:22Z",
       "values": {
         "text_mm4k2vch": "R1M",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -1388,12 +1388,13 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12942557487",
       "name": "Bayzen - Bayzen",
-      "updatedAt": "2026-09-18T13:43:26Z",
+      "updatedAt": "2026-09-22T11:25:47Z",
       "values": {
         "text_mm4k2vch": "Bayzen",
         "color_mm4kmej3": "1-Needs Review",
         "long_text_mm4kq322": "bayzen-validator-1::1220618de8af3a43c95f7f9c6430f9a308152eb564f57b4c60c4c655f67fb867af1c",
         "color_mm4kpp3q": "Non-Issuer",
+        "long_text_mm4khjn6": "auth0_007c6a3400cf326801605d25e3af::122064aab814d8d02f957120e33a970a5aca7c14097eab85ab40a36ddff26c70c44b",
         "numeric_mm4k6919": "5.0",
         "long_text_mm4km2s7": "Bayzen is a technology and crypto focused team building research driven, community owned market infrastructure. We operate at the intersection of Web3, financial information, and user-generated prediction markets, with a focus on making market-based forecasting more transparent, verifiable, and accessible. Our team is building Bayzen as a community-driven prediction market platform where users can research topics, form investment or event theses, and create markets with clearly defined outcomes, evidence sources, deadlines, and resolution criteria. Bayzen supports markets across crypto assets, traditional markets, protocol events, project milestones, and broader ecosystem developments. By combining research, market participation, and transparent settlement workflows, Bayzen aims to create measurable forecast track records for both creators and participants. Canton is the intended infrastructure for Party-based authorization, privacy-aware workflows, ledger-based market lifecycles, and Canton Coin settlement in the target Mainnet design.",
         "link_mm4kd0hk": "https://app.bayzen.tech/docs/#how-bayzen-works",
@@ -1741,7 +1742,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12791057047",
       "name": "OS Ledger - Outersunset",
-      "updatedAt": "2026-09-21T04:00:24Z",
+      "updatedAt": "2026-09-22T04:00:26Z",
       "values": {
         "text_mm4k2vch": "Outersunset",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -2215,7 +2216,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12769413819",
       "name": "Canquest - PT JARINGAN SIMPUL TEKNOLOGI",
-      "updatedAt": "2026-09-21T04:00:26Z",
+      "updatedAt": "2026-09-22T04:00:27Z",
       "values": {
         "text_mm4k2vch": "PT JARINGAN SIMPUL TEKNOLOGI",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -2738,7 +2739,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467789103",
       "name": "Jubilee Treasury",
-      "updatedAt": "2026-09-21T04:00:28Z",
+      "updatedAt": "2026-09-22T04:00:29Z",
       "values": {
         "text_mm4k2vch": "Jubilee Treasury",
         "color_mm4kmej3": "6-Withdrawn",
@@ -2877,7 +2878,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12731951755",
       "name": "Cove Wallet API - Qasara Labs Private Limited",
-      "updatedAt": "2026-09-21T04:00:31Z",
+      "updatedAt": "2026-09-22T04:00:31Z",
       "values": {
         "text_mm4k2vch": "Qasara Labs Private Limited",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -3228,7 +3229,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12626943292",
       "name": "Yellow Card - Yellow Card Financial Inc.",
-      "updatedAt": "2026-09-21T04:00:33Z",
+      "updatedAt": "2026-09-22T04:00:33Z",
       "values": {
         "text_mm4k2vch": "Yellow Card Financial Inc.",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -3392,7 +3393,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12609616425",
       "name": "Arkhia x402 Facilitator-as-a-Service (FaaS) - Arkhia Pte Ltd",
-      "updatedAt": "2026-09-21T04:00:35Z",
+      "updatedAt": "2026-09-22T04:00:35Z",
       "values": {
         "text_mm4k2vch": "Arkhia Pte Ltd",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -3675,7 +3676,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467854321",
       "name": "Privket.com",
-      "updatedAt": "2026-09-21T04:00:36Z",
+      "updatedAt": "2026-09-22T04:00:38Z",
       "values": {
         "text_mm4k2vch": "Privket",
         "color_mm4kmej3": "6-Withdrawn",
@@ -3700,7 +3701,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12568365683",
       "name": "Synfin - Cayvox Labs",
-      "updatedAt": "2026-09-21T04:00:38Z",
+      "updatedAt": "2026-09-22T04:00:40Z",
       "values": {
         "text_mm4k2vch": "Cayvox Labs",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -3809,7 +3810,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12471377959",
       "name": "OpenBaskets - BlockxAI Limited",
-      "updatedAt": "2026-09-21T04:00:40Z",
+      "updatedAt": "2026-09-22T04:00:42Z",
       "values": {
         "text_mm4k2vch": "BlockxAI Limited",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -4265,7 +4266,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467790154",
       "name": "Ov Defi",
-      "updatedAt": "2026-09-21T04:00:41Z",
+      "updatedAt": "2026-09-22T04:00:43Z",
       "values": {
         "text_mm4k2vch": "OneNov",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -4345,7 +4346,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467789257",
       "name": "Saxon Automate / Canton Keeper",
-      "updatedAt": "2026-09-21T04:00:43Z",
+      "updatedAt": "2026-09-22T04:00:45Z",
       "values": {
         "text_mm4k2vch": "Saxon",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -4466,7 +4467,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467790155",
       "name": "Mperps",
-      "updatedAt": "2026-09-21T04:00:45Z",
+      "updatedAt": "2026-09-22T04:00:47Z",
       "values": {
         "text_mm4k2vch": "Lemongrass IT Services LLC-Fz",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -4644,7 +4645,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467790000",
       "name": "BENJI",
-      "updatedAt": "2026-09-21T04:00:48Z",
+      "updatedAt": "2026-09-22T04:00:48Z",
       "values": {
         "text_mm4k2vch": "Franklin Templeton",
         "color_mm4kmej3": "3-CIP-0116-paused",
@@ -4671,7 +4672,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467790006",
       "name": "CC Ledger",
-      "updatedAt": "2026-09-21T04:00:49Z",
+      "updatedAt": "2026-09-22T04:00:50Z",
       "values": {
         "text_mm4k2vch": "Blueprint Infrastructure, LLC",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -5416,13 +5417,13 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467804378",
       "name": "5N Loop",
-      "updatedAt": "2026-08-24T17:16:26Z",
+      "updatedAt": "2026-09-21T22:10:41Z",
       "values": {
         "text_mm4k2vch": "Five North",
         "color_mm4kmej3": "2-Approved",
         "long_text_mm4kq322": "cantonloop-mainnet-1::12205fb70ce14897d06baec18a4b889f296c765a8325fd3d99cc084b1f980426ac12",
         "color_mm4kpp3q": "Non-Issuer",
-        "long_text_mm4khjn6": "1220a::1220ab101bd0a5f0cb7a2878d78a2ce5bafb5729120803b0f83221d71554b76516b8",
+        "long_text_mm4khjn6": "12202::12202d5a90256db7622726d29035c9f796a92358ef23a82dbb2175e0ae84768eb358",
         "numeric_mm4k6919": "75.0",
         "long_text_mm4km2s7": "Five North builds products and invests in companies focusing on the canton network. We are primarily focused on building picks and shovels for the network: Wallet (Loop), Explorer (Lighthouse) and ID (5N ID) are the two main products we have on the networks. The fund, Canton Ventures, exclusively invests in canton-first companies. It's funded exclusively from the Super Validator we operate on the network.",
         "link_mm4kd0hk": "https://drive.google.com/open?id=1_A3vjW29Uj23MW4UGOp2i93K-4WZa24e",
@@ -5689,13 +5690,13 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467838020",
       "name": "5N ID",
-      "updatedAt": "2026-08-24T17:16:28Z",
+      "updatedAt": "2026-09-22T11:22:12Z",
       "values": {
         "text_mm4k2vch": "Five North",
         "color_mm4kmej3": "2-Approved",
         "long_text_mm4kq322": "LoopID::1220940ccaf484be99fc67387ce461bd358aa6c76e43224e959a4bd20fe30a0b11c6",
         "color_mm4kpp3q": "Non-Issuer",
-        "long_text_mm4khjn6": "1220a::1220ab101bd0a5f0cb7a2878d78a2ce5bafb5729120803b0f83221d71554b76516b8",
+        "long_text_mm4khjn6": "12202::12202127154a1822a979535f24e635e86f0778d6d1cb615163f7bbef4ed216bab7ca",
         "numeric_mm4k6919": "75.0",
         "link_mm4kd0hk": "NA - https://NA",
         "long_text_mm4k2537": "A unified credential management platform for the canton network. We build a \"login with canton\" functionality that allows all users to login with their external wallets to any canton application. On top of that, the application is responsible for sharing credentials between apps. For example, Alice using Loop has provided KYC and Github ID on 5N ID. Then Alice wants to use Temple. Instead of onboarding again with Temple, they can just press \"Login with X (loop in this case)\". Then Temple immediately has access to Alice's ID and if Alice agrees, to their KYC credentials. Or any other credential they want. This solution significantly reduces the friction of onboarding users into apps and managing credentials, allowing for better interoperability in the network and it's expansion.",
@@ -5955,7 +5956,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467847773",
       "name": "CC Space",
-      "updatedAt": "2026-09-21T04:00:52Z",
+      "updatedAt": "2026-09-22T04:00:52Z",
       "values": {
         "text_mm4k2vch": "ITRocket LLC",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -6212,7 +6213,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467847778",
       "name": "Ov Defi",
-      "updatedAt": "2026-09-21T04:00:54Z",
+      "updatedAt": "2026-09-22T04:00:54Z",
       "values": {
         "text_mm4k2vch": "OneNov",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -6767,7 +6768,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467834325",
       "name": "ChainSafe x402 Global Facilitator",
-      "updatedAt": "2026-09-21T04:00:56Z",
+      "updatedAt": "2026-09-22T04:00:55Z",
       "values": {
         "text_mm4k2vch": "ChainSafe",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -6825,7 +6826,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467834326",
       "name": "Squads Non-Custodial Wallet",
-      "updatedAt": "2026-09-21T04:00:57Z",
+      "updatedAt": "2026-09-22T04:00:57Z",
       "values": {
         "text_mm4k2vch": "SQUADS",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -6852,7 +6853,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467783449",
       "name": "Mperps",
-      "updatedAt": "2026-09-21T04:00:59Z",
+      "updatedAt": "2026-09-22T04:00:58Z",
       "values": {
         "text_mm4k2vch": "Lemongrass IT Services LLC-Fz",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -6911,7 +6912,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467783450",
       "name": "Canquest",
-      "updatedAt": "2026-09-21T04:01:01Z",
+      "updatedAt": "2026-09-22T04:01:00Z",
       "values": {
         "text_mm4k2vch": "Canquest",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -7022,13 +7023,13 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467789133",
       "name": "Republic Wallet",
-      "updatedAt": "2026-08-24T16:50:29Z",
+      "updatedAt": "2026-09-21T21:20:28Z",
       "values": {
         "text_mm4k2vch": "Republic Crypto LLC",
         "color_mm4kmej3": "2-Approved",
         "long_text_mm4kq322": "auth0_007c69eb81fb9b5cfe37fbc593a3::1220cf5c0358766265d8b67b3269d0ab15eba018449585fa9810481842f6ceeffc44",
         "color_mm4kpp3q": "Non-Issuer",
-        "long_text_mm4khjn6": "1220f::1220fc45b0cec4481bc6cfced0362bfe4a31588910d2f9cfcb4816f918f19a21922f",
+        "long_text_mm4khjn6": "23d169c2-0909-4c70-81d1-1922de6febaa::1220b3b519d1b3dc7de45ce1dd87c31cf6fe702f0bf7c32f04ff2fe6d28f4594ad89",
         "numeric_mm4k6919": "5.0",
         "long_text_mm4km2s7": "Republic is a global fintech platform providing access to private investments, tokenized assets, and digital asset infrastructure. We operate regulated investment platforms in the US and Europe, a venture capital fund, and institutional-grade crypto infrastructure including validator operations across 25+ networks. Republic runs a Canton Super Validator and provides Node-as-a-Service, liquidity, and wallet infrastructure on Canton Network.",
         "link_mm4kmq24": "https://republic.com/wallet",
@@ -7459,7 +7460,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467838018",
       "name": "Ekiden",
-      "updatedAt": "2026-09-21T04:01:02Z",
+      "updatedAt": "2026-09-22T04:01:02Z",
       "values": {
         "text_mm4k2vch": "Allspark Markets Ltd.",
         "color_mm4kmej3": "2-Approved",
@@ -7513,7 +7514,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467856988",
       "name": "MEME token and Coinflip",
-      "updatedAt": "2026-09-21T04:01:04Z",
+      "updatedAt": "2026-09-22T04:01:04Z",
       "values": {
         "text_mm4k2vch": "Archerswap",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -7542,7 +7543,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467783446",
       "name": "FlowRyd",
-      "updatedAt": "2026-09-21T04:01:06Z",
+      "updatedAt": "2026-09-22T04:01:05Z",
       "values": {
         "text_mm4k2vch": "Towler Enterprises",
         "color_mm4kmej3": "2-Approved",
@@ -7934,7 +7935,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467847770",
       "name": "VAULT",
-      "updatedAt": "2026-09-21T04:01:07Z",
+      "updatedAt": "2026-09-22T04:01:07Z",
       "values": {
         "text_mm4k2vch": "HighTower",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -7996,7 +7997,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467856986",
       "name": "HydraX",
-      "updatedAt": "2026-09-21T04:01:09Z",
+      "updatedAt": "2026-09-22T04:01:08Z",
       "values": {
         "text_mm4k2vch": "HydraX",
         "color_mm4kmej3": "2-Approved",
@@ -8433,7 +8434,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467824052",
       "name": "Canquest",
-      "updatedAt": "2026-09-21T04:01:11Z",
+      "updatedAt": "2026-09-22T04:01:10Z",
       "values": {
         "text_mm4k2vch": "Naxweb",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -8493,7 +8494,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467824053",
       "name": "Deploi Credit Market",
-      "updatedAt": "2026-09-21T04:01:15Z",
+      "updatedAt": "2026-09-22T04:01:14Z",
       "values": {
         "text_mm4k2vch": "Deploi",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -8553,7 +8554,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467824055",
       "name": "AUROX on Canton for featured app",
-      "updatedAt": "2026-09-21T04:01:17Z",
+      "updatedAt": "2026-09-22T04:01:15Z",
       "values": {
         "text_mm4k2vch": "International Institute of Blockchain Advanced Technology",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -9410,7 +9411,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467825386",
       "name": "Agora: Survey & Vote",
-      "updatedAt": "2026-09-21T04:01:18Z",
+      "updatedAt": "2026-09-22T04:01:17Z",
       "values": {
         "text_mm4k2vch": "Agora: Survey & Vote",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -9578,10 +9579,10 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467825385",
       "name": "Ubyx Clearing",
-      "updatedAt": "2026-09-18T18:52:11Z",
+      "updatedAt": "2026-09-21T16:09:29Z",
       "values": {
         "text_mm4k2vch": "Ubyx",
-        "color_mm4kmej3": "0-Locked+Needs Review",
+        "color_mm4kmej3": "2-Approved",
         "long_text_mm4kq322": "Ubyx-validator-1::12204cfc7847273bd046b70b5c5549627294a024fb2ab86f58755ee6aebeed9cc1c4",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "12201::122018d3b91016d411f87614aa3190c8aebbe9470c2524011e1e5abc7aedd9c722ce",
@@ -9733,7 +9734,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467832618",
       "name": "ScopeX Rate Lock",
-      "updatedAt": "2026-09-21T04:01:20Z",
+      "updatedAt": "2026-09-22T04:01:18Z",
       "values": {
         "text_mm4k2vch": "ScopeX Money",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -10347,13 +10348,14 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12974672977",
       "name": "FTP x402 Infrastructure (Facilitator + Agentic Wallet) - FTP Tech",
-      "updatedAt": "2026-09-09T13:38:33Z",
+      "updatedAt": "2026-09-21T17:00:57Z",
       "values": {
         "text_mm4k2vch": "FTP Tech",
-        "color_mm4kmej3": "1-Needs Review",
+        "color_mm4kmej3": "2-Approved",
         "long_text_mm4kq322": "ftp-x402-infrastructure::1220da867ceb28e1531ebfbea9ca9b25f75be06755999f48f0ec4b96f4174e3cd133",
         "color_mm4kpp3q": "Non-Issuer",
-        "long_text_mm4khjn6": "Will be later communicated to Canton Foundation",
+        "long_text_mm4khjn6": "23d169c2-0909-4c70-81d1-1922de6febaa::12205aea9df5c5d3e9c49a2267ade608c7d8af9de0c2ab3d3e7543d6c8f24b742cd7",
+        "numeric_mm4k6919": "5.0",
         "long_text_mm4km2s7": "FTPTech is a team of Validators/Tech ambassadors/Contributors. We have a decent portfolio of running testnets/mainnets and web3 applications. FTP Tech builds production payment and agent infrastructure for the Canton ecosystem. We operate a live Canton MainNet x402 facilitator + merchant-middleware, self-custody agent-wallet, and MCP tooling that enables autonomous agents and conventional applications to discover, authorize, and settle HTTP-native payments. Since June 2026 FTP production x402 stack has processed more than 265,000 payments, served more than 3,000 paying agents, and onboarded more than 10 merchants eg. NODERS, DTEAM, Qasara Labs and Bit Dynamics etc. In talks/process of integration: Franklin Templeton, BitSafe, Excellar, CCTools etc. More details are available on our webpage https://ftptech.xyz",
         "link_mm4kmq24": "https://www.ftptech.xyz/x402",
         "link_mm4krmse": "https://github.com/FTP-Tech-LLC",
@@ -10377,7 +10379,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12974668475",
       "name": "OS Ledger - Outersunset",
-      "updatedAt": "2026-09-21T04:01:22Z",
+      "updatedAt": "2026-09-22T04:01:20Z",
       "values": {
         "text_mm4k2vch": "Outersunset",
         "color_mm4kmej3": "1-Needs Review",
@@ -10404,7 +10406,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12982310839",
       "name": "Ovdefi - OneNov",
-      "updatedAt": "2026-09-21T04:01:23Z",
+      "updatedAt": "2026-09-22T04:01:21Z",
       "values": {
         "text_mm4k2vch": "OneNov",
         "color_mm4kmej3": "1-Needs Review",
@@ -10494,7 +10496,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13003184089",
       "name": "R1M Sentinel - R1M",
-      "updatedAt": "2026-09-21T04:01:25Z",
+      "updatedAt": "2026-09-22T04:01:23Z",
       "values": {
         "text_mm4k2vch": "R1M",
         "color_mm4kmej3": "1-Needs Review",
@@ -10526,10 +10528,10 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13003184405",
       "name": "Cardiv - WolfEdge Labs",
-      "updatedAt": "2026-09-18T18:52:11Z",
+      "updatedAt": "2026-09-21T16:09:49Z",
       "values": {
         "text_mm4k2vch": "WolfEdge Labs",
-        "color_mm4kmej3": "0-Locked+Needs Review",
+        "color_mm4kmej3": "2-Approved",
         "long_text_mm4kq322": "cardiv::1220b43e4bb9e423ba07cbcc0f5ef0d4e9ebe5d2623cb277d30e6478b179ee0ca9c3",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "4M-Lending-Lock-3::1220c03dee4b32e29d0e4c3a395afa3bc82629a60d86ab75289dad473ab46a5ce56f",
@@ -10703,7 +10705,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13056498524",
       "name": "mperps - Lemongrass IT services LLC FZ",
-      "updatedAt": "2026-09-21T04:01:28Z",
+      "updatedAt": "2026-09-22T04:01:25Z",
       "values": {
         "text_mm4k2vch": "Lemongrass IT services LLC FZ",
         "color_mm4kmej3": "1-Needs Review",
