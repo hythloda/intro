@@ -1,5 +1,5 @@
 window.FEATURED_APP_PARTYID_CHANGES_DATA = {
-  "generatedAt": "2026-09-21T13:05:51.960Z",
+  "generatedAt": "2026-09-22T11:54:57.570Z",
   "columns": [
     {
       "id": "long_text_mm4kq322",
@@ -13,6 +13,51 @@ window.FEATURED_APP_PARTYID_CHANGES_DATA = {
     }
   ],
   "changes": [
+    {
+      "id": "ff161336-99bb-4fa9-8ab0-c16d40d5e99a",
+      "changedAt": "2026-09-22T11:25:47.781Z",
+      "itemName": "Bayzen - Bayzen",
+      "itemId": "12942557487",
+      "field": "Locking PartyIDs",
+      "previousValue": "",
+      "newValue": "auth0_007c6a3400cf326801605d25e3af::122064aab814d8d02f957120e33a970a5aca7c14097eab85ab40a36ddff26c70c44b"
+    },
+    {
+      "id": "8050bcf1-a8e9-49c5-884a-44866f84909c",
+      "changedAt": "2026-09-22T11:22:12.902Z",
+      "itemName": "5N ID",
+      "itemId": "12467838020",
+      "field": "Locking PartyIDs",
+      "previousValue": "1220a::1220ab101bd0a5f0cb7a2878d78a2ce5bafb5729120803b0f83221d71554b76516b8",
+      "newValue": "12202::12202127154a1822a979535f24e635e86f0778d6d1cb615163f7bbef4ed216bab7ca"
+    },
+    {
+      "id": "85fec07a-f1fc-4096-bf40-a8ad9bc32a41",
+      "changedAt": "2026-09-21T22:10:41.322Z",
+      "itemName": "5N Loop",
+      "itemId": "12467804378",
+      "field": "Locking PartyIDs",
+      "previousValue": "1220a::1220ab101bd0a5f0cb7a2878d78a2ce5bafb5729120803b0f83221d71554b76516b8",
+      "newValue": "12202::12202d5a90256db7622726d29035c9f796a92358ef23a82dbb2175e0ae84768eb358"
+    },
+    {
+      "id": "dd81a2c2-18f0-4047-b74c-13d59b3de6b3",
+      "changedAt": "2026-09-21T21:20:28.923Z",
+      "itemName": "Republic Wallet",
+      "itemId": "12467789133",
+      "field": "Locking PartyIDs",
+      "previousValue": "1220f::1220fc45b0cec4481bc6cfced0362bfe4a31588910d2f9cfcb4816f918f19a21922f",
+      "newValue": "23d169c2-0909-4c70-81d1-1922de6febaa::1220b3b519d1b3dc7de45ce1dd87c31cf6fe702f0bf7c32f04ff2fe6d28f4594ad89"
+    },
+    {
+      "id": "64e03a1f-d845-44fe-b2d2-8b833c8b93d8",
+      "changedAt": "2026-09-21T16:08:55.170Z",
+      "itemName": "FTP x402 Infrastructure (Facilitator + Agentic Wallet) - FTP Tech",
+      "itemId": "12974672977",
+      "field": "Locking PartyIDs",
+      "previousValue": "Will be later communicated to Canton Foundation",
+      "newValue": "23d169c2-0909-4c70-81d1-1922de6febaa::12205aea9df5c5d3e9c49a2267ade608c7d8af9de0c2ab3d3e7543d6c8f24b742cd7"
+    },
     {
       "id": "36427f0d-7ed7-4962-9c65-0884f850e7d2",
       "changedAt": "2026-09-18T21:44:14.689Z",
@@ -147,51 +192,6 @@ window.FEATURED_APP_PARTYID_CHANGES_DATA = {
       "field": "Party ID for the Featured Application:",
       "previousValue": "",
       "newValue": "Modulo-Issuer::1220bbd47c5a10d5540c420e1f8f0f1fd513464ec6110dbd5123970dbe3b538805d3"
-    },
-    {
-      "id": "67d03fe7-c0d9-46d9-9a38-9fba345effbb",
-      "changedAt": "2026-09-14T16:37:34.262Z",
-      "itemName": "Parthenon",
-      "itemId": "12467810726",
-      "field": "Locking PartyIDs",
-      "previousValue": "23d169c2-0909-4c70-81d1-1922de6febaa::1220c253c4aab64a32d643638d7bc92515a2233a3ffdbe17941773985938202da6e8",
-      "newValue": ""
-    },
-    {
-      "id": "e3a96d3b-a931-451a-95c0-ff37090079f1",
-      "changedAt": "2026-09-02T14:29:23.704Z",
-      "itemName": "RAX Finance",
-      "itemId": "12467834272",
-      "field": "Locking PartyIDs",
-      "previousValue": "23d169c2-0909-4c70-81d1-1922de6febaa::1220408191e246d8d4b125e8d6b67828c71e0c058fe430edf2c773d99c7c1091af07",
-      "newValue": ""
-    },
-    {
-      "id": "0cd3bb9c-d088-4699-8ec5-d24131dd2e74",
-      "changedAt": "2026-09-01T11:06:38.123Z",
-      "itemName": "USYC - Circle",
-      "itemId": "12942533482",
-      "field": "Party ID for the Featured Application:",
-      "previousValue": "",
-      "newValue": "2d781524-5d36-450d-8ba7-183868bdbee0::12202eacbd060e2e22ab198cb9f337ccfe049e16a90968576e15b8bab4317cf17259"
-    },
-    {
-      "id": "a1c0e7bb-6e0e-4af4-9373-24c2db6942fa",
-      "changedAt": "2026-09-01T11:06:36.040Z",
-      "itemName": "Bayzen - Bayzen",
-      "itemId": "12942557487",
-      "field": "Party ID for the Featured Application:",
-      "previousValue": "",
-      "newValue": "bayzen-validator-1::1220618de8af3a43c95f7f9c6430f9a308152eb564f57b4c60c4c655f67fb867af1c"
-    },
-    {
-      "id": "f2b1b128-a570-4daa-9125-76cade0a7c46",
-      "changedAt": "2026-09-01T11:06:27.331Z",
-      "itemName": "Jubilee - Jubilee Markets",
-      "itemId": "12942529699",
-      "field": "Party ID for the Featured Application:",
-      "previousValue": "",
-      "newValue": "jubilee-marketplace::1220f1e76697bbc124cc4138bed49ddd368fe7645239116e592babbd0586c972de9b"
     }
   ]
 };
