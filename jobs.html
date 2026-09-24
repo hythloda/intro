@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow, noarchive, nosnippet, noimageindex">
+  <meta name="googlebot" content="noindex, nofollow, noarchive, nosnippet, noimageindex">
+  <meta name="bingbot" content="noindex, nofollow, noarchive, nosnippet, noimageindex">
+  <meta name="description" content="Explore job openings at the Canton Foundation and apply online.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/site-chrome.css?v=footer-20260820e">
+  <script src="assets/site-chrome.js?v=footer-20260820e" defer></script>
+  <title>Jobs | Canton Foundation</title>
+  <style>
+    :root {
+      --text: #f7f8fc;
+      --muted: #d6d0e5;
+      --line: rgba(127, 91, 188, 0.24);
+      --accent-strong: #f3ff97;
+    }
+
+    html {
+      min-height: 100%;
+      background: #06014a;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      padding: 36px 18px 56px;
+      box-sizing: border-box;
+      background:
+        radial-gradient(circle at 78% 18%, rgba(129, 84, 120, 0.42), transparent 26%),
+        radial-gradient(circle at 18% 80%, rgba(63, 21, 172, 0.18), transparent 34%),
+        linear-gradient(180deg, #05014a 0%, #14045a 54%, #090221 100%);
+      color: var(--text);
+      font-family: "IBM Plex Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
+
+    .jobs-wrap {
+      max-width: 1180px;
+      margin: 0 auto;
+    }
+
+    .jobs-panel {
+      padding: 40px;
+      border: 1px solid var(--line);
+      border-radius: 28px;
+      background: rgba(6, 4, 30, 0.92);
+      box-shadow: 0 30px 80px rgba(0, 0, 0, 0.35);
+    }
+
+    .jobs-back,
+    .jobs-help a {
+      color: var(--accent-strong);
+      text-underline-offset: 4px;
+    }
+
+    .jobs-back {
+      display: inline-block;
+      margin-bottom: 28px;
+      font-size: 15px;
+    }
+
+    .jobs-intro h1 {
+      margin: 0 0 14px;
+      font-size: clamp(38px, 6vw, 64px);
+      line-height: 1.05;
+      letter-spacing: -0.035em;
+    }
+
+    .jobs-panel p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 17px;
+      line-height: 1.6;
+    }
+
+    .job-opening {
+      margin-top: 32px;
+      padding-top: 28px;
+      border-top: 1px solid var(--line);
+    }
+
+    .job-opening h2 {
+      margin: 0 0 8px;
+      font-size: clamp(24px, 4vw, 30px);
+      line-height: 1.2;
+    }
+
+    .job-opening .job-meta {
+      margin-bottom: 12px;
+      color: var(--accent-strong);
+      font-size: 15px;
+      font-weight: 500;
+    }
+
+    .job-form-frame {
+      display: block;
+      width: 100%;
+      height: clamp(600px, 85vh, 1000px);
+      height: clamp(600px, 85svh, 1000px);
+      margin-top: 24px;
+      border: 0;
+      border-radius: 18px;
+      background: #fff;
+    }
+
+    .jobs-help {
+      margin-top: 20px;
+      color: var(--muted);
+      font-size: 15px;
+      line-height: 1.6;
+    }
+
+    .jobs-help summary {
+      width: fit-content;
+      padding: 6px 0;
+      cursor: pointer;
+    }
+
+    .jobs-help p {
+      margin-top: 8px;
+      font-size: 15px;
+    }
+
+    .jobs-panel :focus-visible {
+      outline: 2px solid var(--accent-strong);
+      outline-offset: 5px;
+    }
+
+    @media (max-width: 700px) {
+      body {
+        padding: 20px 14px 36px;
+      }
+
+      .jobs-panel {
+        padding: 24px 16px;
+        border-radius: 22px;
+      }
+
+      .jobs-panel p {
+        font-size: 16px;
+      }
+
+      .job-form-frame {
+        border-radius: 12px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div data-site-header></div>
+  <main class="jobs-wrap">
+    <section class="jobs-panel" aria-labelledby="jobs-title">
+      <a class="jobs-back" href="index.html">Back to Main Page</a>
+      <div class="jobs-intro">
+        <h1 id="jobs-title">Jobs</h1>
+        <p>Explore opportunities to join the Canton Foundation. Review the opening below and apply directly on this page.</p>
+      </div>
+
+      <section class="job-opening" aria-labelledby="accounting-manager-title">
+        <h2 id="accounting-manager-title">Accounting Manager</h2>
+        <p class="job-meta">Finance &middot; Remote</p>
+        <p>Read the full role description and complete the application below. Please have your CV ready to upload.</p>
+        <!-- Use WorkForms' embed endpoint, not the share URL. Keep submission inside the frame. -->
+        <iframe
+          class="job-form-frame"
+          title="Accounting Manager role description and job application"
+          src="https://forms.monday.com/forms/embed/b6c0e4cf8dfdb5f22c3d47634188c144?r=use1"
+          sandbox="allow-scripts allow-same-origin allow-forms allow-popups allow-popups-to-escape-sandbox allow-downloads">
+        </iframe>
+      </section>
+
+      <details class="jobs-help">
+        <summary>Having trouble with the application form?</summary>
+        <p>You can <a href="https://wkf.ms/4hquwQv" target="_blank" rel="noopener noreferrer">open the application form in a new tab</a>. This opens our external form provider; this Jobs page stays open.</p>
+      </details>
+    </section>
+  </main>
+  <div data-site-footer></div>
+</body>
+</html>
