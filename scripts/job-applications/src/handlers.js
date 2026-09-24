@@ -3,6 +3,12 @@ var JOB_BOARD_ID = "18432556545";
 var JOB_HOSTNAME = "intro.canton.foundation";
 var JOB_HR_EMAIL = "hr@canton.foundation";
 
+function jobColumnFields_() {
+  return JOB_APPLICATION_SCHEMA.fields.filter(function (field) { return !field.auxiliary; }).concat([
+    { key: "applicationReference", label: "Application Reference", columnTypes: ["text"] }
+  ]);
+}
+
 function applicationError_(message, fields) {
   var error = new Error(message);
   error.publicMessage = message;
@@ -18,7 +24,7 @@ function config_() {
   if (!token || !secret || !mapping) throw applicationError_("Applications are temporarily unavailable. Please try again later.");
   mapping = JSON.parse(mapping);
   var ids = [];
-  JOB_APPLICATION_SCHEMA.fields.filter(function (field) { return !field.auxiliary; }).forEach(function (field) {
+  jobColumnFields_().forEach(function (field) {
     var column = mapping && mapping[field.key];
     if (!column || typeof column.id !== "string" || !column.id || field.columnTypes.indexOf(column.type) === -1 || ids.indexOf(column.id) !== -1) throw new Error("Invalid column configuration");
     ids.push(column.id);
@@ -41,7 +47,7 @@ function safeMondayDiagnostic_(status, result, config) {
     var code = allowed.indexOf(extension.code) === -1 ? "UNKNOWN_PROVIDER_ERROR" : extension.code;
     if (codes.indexOf(code) === -1) codes.push(code);
     var columnId = extension.error_data && extension.error_data.column_id;
-    JOB_APPLICATION_SCHEMA.fields.forEach(function (field) {
+    jobColumnFields_().forEach(function (field) {
       var mapping = config && config.mapping && config.mapping[field.key];
       if (mapping && mapping.id === columnId && fields.indexOf(field.key) === -1) fields.push(field.key);
     });
@@ -102,7 +108,7 @@ function setupJobApplication() {
   var overrides = JSON.parse(properties.getProperty("JOB_COLUMN_OVERRIDES") || "{}");
   var normalize = function (text) { return text.toLowerCase().replace(/[^a-z0-9]/g, ""); };
   var mapping = {};
-  JOB_APPLICATION_SCHEMA.fields.filter(function (field) { return !field.auxiliary; }).forEach(function (field) {
+  jobColumnFields_().forEach(function (field) {
     var matches = board.columns.filter(function (column) {
       return overrides[field.key] ? column.id === overrides[field.key] : normalize(column.title) === normalize(field.label);
     });
@@ -320,6 +326,8 @@ function doPost(event) {
     // Only receipts, internal IDs, and allowlisted diagnostic codes are retained, never answers or files.
     if (Object.keys(properties.getProperties()).filter(function (name) { return name.indexOf("application:") === 0; }).length >= 1200) throw applicationError_("Applications are temporarily unavailable. Please contact hr@canton.foundation.");
     var columns = columnValues_(application, config.mapping);
+    // Save the validated receipt reference in the initial write, even if an attachment later fails.
+    columns[config.mapping.applicationReference.id] = requestId;
     var state = { hash: hash, phase: "creating", at: new Date().toISOString() };
     if (prior) {
       state.reviewedAt = prior.reviewedAt;

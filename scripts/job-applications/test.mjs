@@ -76,6 +76,7 @@ function harness(options = {}) {
         return response({ data: { create_item: { id: "item-123" } }, ...(options.emptyErrors ? { errors: [] } : {}) });
       }
       const columns = context.JOB_APPLICATION_SCHEMA.fields.filter(f => !f.auxiliary).map(f => ({ title: f.label, id: "col_" + f.key, type: f.key === "phone" ? options.phoneType || "phone" : f.columnTypes[0] }));
+      if (!options.omitReferenceColumn) columns.push({ title: "Application Reference", id: "col_applicationReference", type: options.referenceType || "text" });
       if (options.extraColumns) columns.push(...options.extraColumns);
       return response({ data: { boards: [{ columns, groups: [{ id: "new", title: "New applicants" }] }] } });
     } }
@@ -111,6 +112,8 @@ test("success creates the correct board item, uploads CV, and returns no applica
   const mutation = JSON.parse(h.creates()[0].request.payload);
   assert.equal(mutation.variables.board, "18432556545");
   const values = JSON.parse(mutation.variables.values);
+  assert.equal(values.col_applicationReference, result.requestId);
+  assert(h.emails[0].body.includes("Application reference: " + values.col_applicationReference));
   assert.deepEqual(values.col_email, { email: "applicant@example.test", text: "applicant@example.test" });
   assert.deepEqual(values.col_country, { countryCode: "US", countryName: "United States" });
   const upload = h.calls.find(call => call.url.endsWith("/file")).request.payload;
@@ -126,6 +129,66 @@ test("identical retry is successful without creating or uploading twice", () => 
   assert.equal(h.creates().length, 1);
   assert.equal(h.calls.filter(c => c.url.endsWith("/file")).length, 1);
   assert.equal(h.emails.length, 1);
+});
+
+test("setup requires one unambiguous Application Reference text column", () => {
+  for (const options of [
+    { omitReferenceColumn: true },
+    { referenceType: "numbers" },
+    { extraColumns: [{ title: "Application Reference", id: "duplicate_reference", type: "text" }] }
+  ]) {
+    assert.throws(() => harness(options), /Review column mapping for: Application Reference/);
+  }
+  const h = harness();
+  assert.deepEqual(JSON.parse(h.properties.get("JOB_COLUMN_MAP")).applicationReference,
+    { id: "col_applicationReference", type: "text" });
+  assert(!h.context.JOB_APPLICATION_SCHEMA.fields.some(f => f.key === "applicationReference"));
+});
+
+test("a verified reference column override is respected without overwriting another answer", () => {
+  const h = harness({ extraColumns: [{ title: "Recruitment ID", id: "custom_reference", type: "text" }] });
+  h.properties.set("JOB_COLUMN_OVERRIDES", JSON.stringify({ applicationReference: "custom_reference" }));
+  h.context.setupJobApplication();
+  assert(h.post(h.body).ok);
+  const values = JSON.parse(JSON.parse(h.creates()[0].request.payload).variables.values);
+  assert.equal(values.custom_reference, h.body.requestId);
+  assert.equal(values.col_applicationReference, undefined);
+  const mappingBefore = h.properties.get("JOB_COLUMN_MAP");
+  h.properties.set("JOB_COLUMN_OVERRIDES", JSON.stringify({ applicationReference: "col_adjustments" }));
+  assert.throws(() => h.context.setupJobApplication(), /cannot share a destination column/);
+  assert.equal(h.properties.get("JOB_COLUMN_MAP"), mappingBefore);
+});
+
+test("missing or invalid saved reference mapping fails before external calls or receipts", () => {
+  for (const destination of [null, { id: "col_applicationReference", type: "numbers" }, { id: "col_adjustments", type: "text" }]) {
+    const h = harness();
+    const mapping = JSON.parse(h.properties.get("JOB_COLUMN_MAP"));
+    mapping.applicationReference = destination;
+    h.properties.set("JOB_COLUMN_MAP", JSON.stringify(mapping));
+    assert.equal(h.post(h.body).ok, false);
+    assert.equal(h.calls.length, 0);
+    assert.equal(h.properties.has("application:" + h.body.requestId), false);
+  }
+});
+
+test("the reference is in the original creation even when attachment upload fails", () => {
+  const h = harness({ uploadError: true });
+  const result = h.post(h.body);
+  assert.equal(result.ok, false);
+  const values = JSON.parse(JSON.parse(h.creates()[0].request.payload).variables.values);
+  assert.equal(values.col_applicationReference, result.requestId);
+  assert.equal(h.post(h.body).ok, false);
+  assert.equal(h.creates().length, 1);
+  assert.equal(h.emails.length, 0);
+});
+
+test("applicants cannot supply a separate reference field or an invalid receipt ID", () => {
+  for (const change of [b => b.values.applicationReference = "different", b => b.requestId = "not-a-uuid"]) {
+    const h = harness();
+    change(h.body);
+    assert.equal(h.post(h.body).ok, false);
+    assert.equal(h.calls.length, 0);
+  }
 });
 
 test("a reused receipt with changed answers cannot alter or duplicate an application", () => {
@@ -345,6 +408,7 @@ function diagnosticHarness(phase = "uploading") {
     id: "col_" + f.key, type: f.key === "phone" ? "phone" : f.columnTypes[0],
     settings: { labels: (f.options || []).map(label => ({ label })) }
   }));
+  columns.push({ id: "col_applicationReference", type: "text" });
   const files = [
     { id: "col_cv", files: [{ __typename: "FileAssetValue" }] },
     { id: "col_coverLetter", files: [] }
@@ -390,6 +454,18 @@ test("creating diagnostic does not assume no item exists or query unrelated appl
   assert.deepEqual(result.columnIssues, [{ field: "gender", issue: "missing_status_labels", expectedOptions: ["Decline to Self Identify"] }]);
   assert.equal(h.queries.length, 1);
   assert.equal(result.uploadedFileCounts, undefined);
+});
+
+test("diagnostics identify a missing reference destination without reading applicant answers", () => {
+  const h = diagnosticHarness("creating");
+  h.columns.splice(h.columns.findIndex(c => c.id === "col_applicationReference"), 1);
+  const report = h.inspect();
+  assert.deepEqual(report.columnIssues, [{ field: "applicationReference", issue: "missing_or_changed_column" }]);
+  assert.equal(h.queries.length, 1);
+  const safe = plain(h.context.safeMondayDiagnostic_(200, {
+    errors: [{ extensions: { code: "ColumnValueException", error_data: { column_id: "col_applicationReference" } } }]
+  }, { mapping: JSON.parse(h.properties.get("JOB_COLUMN_MAP")) }));
+  assert.deepEqual(safe.fields, ["applicationReference"]);
 });
 
 test("diagnostic handles absent receipts and invalid references without API calls", () => {

@@ -23,7 +23,8 @@ Preview answers are not saved or sent. Do not enable submissions before setup.
 3. Run `inspectJobColumns` to see column IDs/types and group IDs, without reading
    applications. Set `MONDAY_GROUP_ID` to the same destination group used by the
    current WorkForm if needed. If absent, Monday uses the board's first group.
-4. Run `setupJobApplication`. It matches the original question labels to actual
+4. Add a **Text** column named **Application Reference** to the jobs board, then
+   run `setupJobApplication`. It matches the original question labels to actual
    board columns, validates types, and stores `JOB_COLUMN_MAP` server-side. If a
    form label differs from its board column title, set `JOB_COLUMN_OVERRIDES` to a
    JSON object such as `{"email":"actual_column_id"}` and rerun setup. Do not guess
@@ -76,7 +77,9 @@ Opening the deployed URL should return
    Update that manifest using the supplied `appsscript.json`, or add
    `https://www.googleapis.com/auth/script.send_mail` to its existing `oauthScopes`.
    This permits sending emails, not reading the account's mailbox.
-3. Run `setupJobApplication` again to refresh column IDs and types. It selects the
+3. Add a **Text** column named **Application Reference** to the jobs board if it
+   does not already exist. Run `setupJobApplication` again to refresh column IDs
+   and types. It selects the
    uniquely named **Phone** text column, including when an old native phone column
    with the same title remains. If a `phone` override still points to the old column,
    remove only that override or change it to the verified text-column ID. Keep the
@@ -106,6 +109,25 @@ Verify with a new, authorized synthetic application addressed to a mailbox you
 control: confirm the text Phone value, attachments, acknowledgment, and Reply-To.
 Do not reuse the completed test reference or clear its receipt. An old submission's
 missing phone value cannot be reconstructed from its privacy-preserving receipt.
+
+### Application Reference in Monday
+
+Every new application writes the same reference shown on the thank-you screen
+and in the acknowledgment email to the board's **Application Reference** text
+column. It is included in the initial item creation, not a separate update, so
+HR can find an item by reference even if a later attachment upload fails.
+
+For an existing project, add that text column, install the latest all-in-one
+`Code.gs`, run `setupJobApplication`, then deploy a **New version**. A differently
+named column can use `applicationReference` in `JOB_COLUMN_OVERRIDES` with its
+verified ID. Keep the other overrides. Setup rejects missing, ambiguous, or
+non-text destinations rather than silently omitting the reference. Deploy only
+after setup succeeds; an old mapping without the reference will block new submissions.
+
+This change does not backfill older items or resubmit completed applications.
+Their references remain in the private Apps Script receipts and generated
+attachment filenames. No application reference is added as an applicant-editable
+question, and no applicant records are exposed on the public website.
 
 ## Verify before publishing
 

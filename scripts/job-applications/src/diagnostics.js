@@ -26,7 +26,7 @@ function inspectJobApplicationFailure() {
         return { extensions: { code: code } };
       })
     }, {});
-    report.failure.fields = JOB_APPLICATION_SCHEMA.fields.filter(function (field) {
+    report.failure.fields = jobColumnFields_().filter(function (field) {
       return Array.isArray(receipt.failure.fields) && receipt.failure.fields.indexOf(field.key) !== -1;
     }).map(function (field) { return field.key; });
   }
@@ -48,7 +48,7 @@ function inspectJobApplicationFailure() {
       report.destinationGroupExists = group ? board.groups.some(function (entry) { return entry.id === group; }) : null;
       report.columnIssues = [];
       report.phoneDestinationType = mapping.phone && ["text", "phone"].indexOf(mapping.phone.type) !== -1 ? mapping.phone.type : "unknown";
-      JOB_APPLICATION_SCHEMA.fields.filter(function (field) { return !field.auxiliary; }).forEach(function (field) {
+      jobColumnFields_().forEach(function (field) {
         var destination = mapping[field.key];
         var column = destination && board.columns.find(function (entry) { return entry.id === destination.id; });
         if (!column || column.type !== destination.type || field.columnTypes.indexOf(column.type) === -1) {
