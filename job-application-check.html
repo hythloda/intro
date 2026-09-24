@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow, noarchive">
+  <title>Application Integration Test | Canton Foundation</title>
+  <link rel="stylesheet" href="assets/job-application.css?v=20260924c">
+  <script src="assets/job-application-schema.js?v=20260924"></script>
+  <script src="assets/job-application-config.js?v=20260924-connect1"></script>
+  <script>window.JOB_APPLICATION_CONFIG = Object.freeze({ ...window.JOB_APPLICATION_CONFIG, enabled: true });</script>
+  <script src="assets/job-application.js?v=20260924-connect1" defer></script>
+</head>
+<body>
+  <main class="careers-wrap">
+    <h1>Application integration test</h1>
+    <p>Internal verification only. Use synthetic data, not a real applicant's information. A successful submission creates a test record in the Monday jobs board and may trigger its existing automations.</p>
+    <section class="application-panel">
+      <p id="application-unavailable">The application service is not configured.</p>
+      <p id="application-form-intro"></p>
+      <form id="job-application" novalidate autocomplete="off">
+        <fieldset id="application-fields" class="application-fields" disabled>
+          <legend>Test application</legend>
+          <fieldset class="application-section"><legend>Contact details</legend><div class="application-grid" data-fields="contact"></div></fieldset>
+          <fieldset class="application-section"><legend>Attachments</legend><div class="application-grid" data-fields="documents"></div></fieldset>
+          <fieldset class="application-section"><legend>Experience</legend><div class="application-grid" data-fields="experience"></div></fieldset>
+          <details class="application-voluntary"><summary>Optional self-identification</summary><div class="application-grid" data-fields="voluntary"></div></details>
+          <div class="application-honeypot" aria-hidden="true"><label for="company-website">Leave empty</label><input id="company-website" name="website" tabindex="-1" autocomplete="off"></div>
+          <div id="application-verification"></div>
+          <button class="careers-button" id="application-submit" disabled>Submit test application</button>
+        </fieldset>
+        <p class="application-status" id="application-status" role="status" aria-live="polite" tabindex="-1"></p>
+      </form>
+      <div class="application-success" id="application-success" tabindex="-1" hidden>
+        <h2>Test application received</h2>
+        <p>The script confirmed creation of the Monday item and upload of all supplied attachments.</p>
+        <p id="application-receipt"></p>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

@@ -9,7 +9,7 @@
   const local = ["localhost", "127.0.0.1"].includes(location.hostname);
   const validEndpoint = /^https:\/\/script\.google\.com\/macros\/s\/[\w-]+\/exec$/.test(config.endpoint || "") ||
     (local && config.endpoint === location.origin + "/application-test");
-  const submissionConfigured = validEndpoint && Boolean(config.turnstileSiteKey);
+  const submissionConfigured = config.enabled === true && validEndpoint && Boolean(config.turnstileSiteKey);
   const storageKey = "canton-accounting-application-request";
   let requestId;
   try { requestId = sessionStorage.getItem(storageKey); } catch (_) { /* Storage is optional. */ }

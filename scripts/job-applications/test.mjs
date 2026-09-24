@@ -172,7 +172,11 @@ test("schema has all original fields, no demographic requirement, and public con
   assert.equal(h.context.JOB_APPLICATION_SCHEMA.fields.length, 18);
   assert(h.context.JOB_APPLICATION_SCHEMA.fields.filter(f => f.section === "voluntary").every(f => !f.required));
   const c = {}; vm.runInNewContext(readFileSync(new URL("../../assets/job-application-config.js", import.meta.url), "utf8"), { window: c });
-  assert.deepEqual(plain(c.JOB_APPLICATION_CONFIG), { endpoint: "", turnstileSiteKey: "" });
+  const config = plain(c.JOB_APPLICATION_CONFIG);
+  assert.deepEqual(Object.keys(config).sort(), ["enabled", "endpoint", "turnstileSiteKey"]);
+  assert.match(config.endpoint, /^https:\/\/script\.google\.com\/macros\/s\/[\w-]+\/exec$/);
+  assert.match(config.turnstileSiteKey, /^0x[\w-]+$/);
+  assert.equal(typeof config.enabled, "boolean");
 });
 
 test("native questions remain visible before setup, without an external form link", () => {
