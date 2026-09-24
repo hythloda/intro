@@ -14,7 +14,7 @@ test("Code.gs is a complete standalone deployment with no additional gs files", 
   vm.runInContext(serverSource, context);
   for (const name of ["doGet", "doPost", "setupJobApplication", "inspectJobColumns",
     "inspectJobApplicationFailure", "approveReviewedJobApplicationRetry",
-    "approveReviewedJobApplicationRetryWithUpdatedAnswers"]) {
+    "approveReviewedJobApplicationRetryWithUpdatedAnswers", "authorizeJobApplicationEmail"]) {
     assert.equal(typeof context[name], "function", name + " must exist in Code.gs alone");
     assert.equal((serverSource.match(new RegExp("^function " + name + "\\(", "gm")) || []).length, 1);
   }
@@ -25,9 +25,13 @@ test("Code.gs is a complete standalone deployment with no additional gs files", 
 function harness(options = {}) {
   const properties = new Map();
   const calls = [];
+  const emails = [];
   const store = {
     getProperty: key => properties.get(key) ?? null,
-    setProperty: (key, value) => properties.set(key, value),
+    setProperty: (key, value) => {
+      if (key.startsWith("application:") && options.failEmailReceiptStatus && options.failEmailReceiptStatus === JSON.parse(value).confirmationEmail?.status) throw new Error("PRIVATE STORAGE ERROR");
+      return properties.set(key, value);
+    },
     getProperties: () => Object.fromEntries(properties)
   };
   const response = (data, status = 200) => ({ getResponseCode: () => status, getContentText: () => typeof data === "string" ? data : JSON.stringify(data) });
@@ -35,6 +39,19 @@ function harness(options = {}) {
     console: { log() {} },
     PropertiesService: { getScriptProperties: () => store },
     LockService: { getScriptLock: () => ({ tryLock: () => options.lock !== false, releaseLock() {} }) },
+    MailApp: {
+      getRemainingDailyQuota() {
+        if (options.mailPermissionError) throw new Error("PRIVATE MAIL PERMISSION ERROR");
+        return options.mailQuota ?? 100;
+      },
+      sendEmail(message) {
+        const receipt = [...properties].find(([key]) => key.startsWith("application:"));
+        assert.equal(JSON.parse(receipt[1]).phase, "complete");
+        assert.equal(JSON.parse(receipt[1]).confirmationEmail.status, "sending");
+        emails.push(plain(message));
+        if (options.mailError) throw new Error("PRIVATE RECIPIENT ERROR applicant@example.test");
+      }
+    },
     Utilities: {
       base64Decode: value => [...Buffer.from(value, "base64")],
       base64Encode: value => Buffer.from(value).toString("base64"),
@@ -58,7 +75,9 @@ function harness(options = {}) {
         if (options.createResponse) return response(options.createResponse, options.httpStatus);
         return response({ data: { create_item: { id: "item-123" } }, ...(options.emptyErrors ? { errors: [] } : {}) });
       }
-      return response({ data: { boards: [{ columns: context.JOB_APPLICATION_SCHEMA.fields.filter(f => !f.auxiliary).map(f => ({ title: f.label, id: "col_" + f.key, type: f.columnTypes[0] })), groups: [{ id: "new", title: "New applicants" }] }] } });
+      const columns = context.JOB_APPLICATION_SCHEMA.fields.filter(f => !f.auxiliary).map(f => ({ title: f.label, id: "col_" + f.key, type: f.key === "phone" ? options.phoneType || "phone" : f.columnTypes[0] }));
+      if (options.extraColumns) columns.push(...options.extraColumns);
+      return response({ data: { boards: [{ columns, groups: [{ id: "new", title: "New applicants" }] }] } });
     } }
   });
   vm.runInContext(serverSource, context);
@@ -72,7 +91,7 @@ function harness(options = {}) {
   const body = { role: schema.role, requestId: randomUUID(), token: "test-token", website: "", values, files: { cv: { name: "test.pdf", data: Buffer.from("%PDF-1.4\nSynthetic test fixture\n%%EOF").toString("base64") } } };
   const post = value => JSON.parse(context.doPost({ postData: { contents: JSON.stringify(value) } }).text);
   const creates = () => calls.filter(c => c.url.endsWith("/v2") && JSON.parse(c.request.payload).query.includes("create_item"));
-  return { context, properties, calls, body, post, creates };
+  return { context, properties, calls, emails, body, post, creates };
 }
 
 test("standalone GET and invalid POST return JSON without creating a Monday item", () => {
@@ -88,7 +107,7 @@ test("standalone GET and invalid POST return JSON without creating a Monday item
 test("success creates the correct board item, uploads CV, and returns no applicant data", () => {
   const h = harness();
   const result = h.post(h.body);
-  assert.deepEqual(result, { ok: true, requestId: h.body.requestId });
+  assert.deepEqual(result, { ok: true, requestId: h.body.requestId, confirmationEmail: "sent" });
   const mutation = JSON.parse(h.creates()[0].request.payload);
   assert.equal(mutation.variables.board, "18432556545");
   const values = JSON.parse(mutation.variables.values);
@@ -106,6 +125,7 @@ test("identical retry is successful without creating or uploading twice", () => 
   assert(h.post(h.body).ok);
   assert.equal(h.creates().length, 1);
   assert.equal(h.calls.filter(c => c.url.endsWith("/file")).length, 1);
+  assert.equal(h.emails.length, 1);
 });
 
 test("a reused receipt with changed answers cannot alter or duplicate an application", () => {
@@ -322,7 +342,7 @@ function diagnosticHarness(phase = "uploading") {
   const h = harness();
   const logs = [], queries = [];
   const columns = h.context.JOB_APPLICATION_SCHEMA.fields.filter(f => !f.auxiliary).map(f => ({
-    id: "col_" + f.key, type: f.columnTypes[0],
+    id: "col_" + f.key, type: f.key === "phone" ? "phone" : f.columnTypes[0],
     settings: { labels: (f.options || []).map(label => ({ label })) }
   }));
   const files = [
@@ -634,4 +654,145 @@ test("diagnostic reports updated-answer approval without leaking hashes or writi
   assert.equal(h.inspect().updatedAnswersRetryApproved, true);
   assert.equal(JSON.stringify([...h.properties]), before);
   assert.doesNotMatch(h.logs.join(""), /PRIVATE_RECEIPT_HASH|fake-test-secret|applicant@example/);
+});
+
+test("text Phone preserves formatting and extensions without requiring a phone country", () => {
+  for (const phone of ["(202) 555-0123", "+1 202 555 0123 ext. 9", "555-0123", "1234567890"]) {
+    const h = harness({ phoneType: "text" });
+    h.body.values.phone = phone;
+    assert.equal(h.body.values.phoneCountry, "");
+    assert.equal(h.post(h.body).ok, true);
+    const values = JSON.parse(JSON.parse(h.creates()[0].request.payload).variables.values);
+    assert.equal(values.col_phone, phone);
+    assert.equal(typeof values.col_phone, "string");
+    assert.equal(values.col_phoneCountry, undefined);
+  }
+});
+
+test("rerunning setup replaces the old saved phone mapping with the uniquely named text column", () => {
+  const options = {};
+  const h = harness(options);
+  assert.equal(JSON.parse(h.properties.get("JOB_COLUMN_MAP")).phone.type, "phone");
+  options.extraColumns = [{ id: "new_text_phone", title: "Phone", type: "text" }];
+  h.context.setupJobApplication();
+  assert.deepEqual(JSON.parse(h.properties.get("JOB_COLUMN_MAP")).phone, { id: "new_text_phone", type: "text" });
+  h.body.values.phone = "+1 202 555 0123 ext. 9";
+  assert.equal(h.post(h.body).ok, true);
+  const values = JSON.parse(JSON.parse(h.creates()[0].request.payload).variables.values);
+  assert.equal(values.new_text_phone, h.body.values.phone);
+  assert.equal(values.col_phone, undefined);
+});
+
+test("setup fails on ambiguous text Phone columns rather than guessing", () => {
+  assert.throws(() => harness({ phoneType: "text", extraColumns: [{ id: "other_phone", title: "Phone", type: "text" }] }), /Review column mapping for: Phone/);
+});
+
+test("text Phone still rejects control characters and overlong input before sending", () => {
+  for (const phone of ["hello", "12\u0000data", "123\n456", "1".repeat(41)]) {
+    const h = harness({ phoneType: "text" });
+    h.body.values.phone = phone;
+    assert.equal(h.post(h.body).ok, false);
+    assert.equal(h.calls.length, 0);
+    assert.equal(h.emails.length, 0);
+  }
+});
+
+test("confirmation emails thank one applicant, use HR replies, and contain no application answers or attachments", () => {
+  const h = harness();
+  h.body.values.adjustments = "PRIVATE ADJUSTMENTS";
+  h.body.values.gender = "Female";
+  assert.equal(h.post(h.body).confirmationEmail, "sent");
+  assert.equal(h.emails.length, 1);
+  const email = h.emails[0];
+  assert.equal(email.to, "applicant@example.test");
+  assert.equal(email.replyTo, "hr@canton.foundation");
+  assert.equal(email.name, "Canton Foundation Recruitment");
+  assert.match(email.subject, /Thank you for applying/);
+  assert.match(email.body, /Accounting Manager/);
+  assert(email.body.includes(h.body.requestId));
+  assert.doesNotMatch(email.body, /PRIVATE|Female|fake-test-secret|Test Applicant|%PDF/);
+  for (const field of ["attachments", "cc", "bcc", "from", "htmlBody"]) assert.equal(email[field], undefined);
+  assert.equal(h.post(h.body).ok, true);
+  assert.equal(h.emails.length, 1);
+});
+
+test("an unsuccessful application never sends an acknowledgment email", () => {
+  for (const options of [{ createError: true }, { uploadError: true }, { bot: true }, { lock: false }]) {
+    const h = harness(options);
+    assert.equal(h.post(h.body).ok, false);
+    assert.equal(h.emails.length, 0);
+  }
+});
+
+test("mail failures never fail a completed application or retry an uncertain email", () => {
+  for (const [options, status, attempts] of [
+    [{ mailError: true }, "unconfirmed", 1],
+    [{ mailQuota: 0 }, "not_sent", 0],
+    [{ mailPermissionError: true }, "unconfirmed", 0],
+    [{ failEmailReceiptStatus: "sending" }, "unconfirmed", 0],
+    [{ failEmailReceiptStatus: "sent" }, "unconfirmed", 1]
+  ]) {
+    const h = harness(options);
+    const logs = [];
+    h.context.console.log = value => logs.push(value);
+    const result = h.post(h.body);
+    assert.equal(result.ok, true);
+    assert.equal(result.confirmationEmail, status);
+    const receipt = JSON.parse(h.properties.get("application:" + h.body.requestId));
+    assert.equal(receipt.phase, "complete");
+    assert.equal(receipt.confirmationEmail.status, status);
+    assert.equal(h.post(h.body).ok, true);
+    assert.equal(h.emails.length, attempts);
+    assert.equal(h.creates().length, 1);
+    assert.doesNotMatch(logs.join("") + JSON.stringify(receipt), /PRIVATE|applicant@example|fake-test-secret/);
+  }
+});
+
+test("completed legacy receipts and interrupted mail attempts are not emailed again", () => {
+  for (const status of [undefined, "pending", "sending"]) {
+    const h = harness();
+    assert.equal(h.post(h.body).ok, true);
+    const key = "application:" + h.body.requestId;
+    const receipt = JSON.parse(h.properties.get(key));
+    if (status) receipt.confirmationEmail = { status };
+    else delete receipt.confirmationEmail;
+    h.properties.set(key, JSON.stringify(receipt));
+    h.emails.length = 0;
+    const result = h.post(h.body);
+    assert.equal(result.ok, true);
+    assert.equal(result.confirmationEmail, status ? "unconfirmed" : "not_requested");
+    assert.equal(h.emails.length, 0);
+    assert.equal(h.creates().length, 1);
+  }
+});
+
+test("email input cannot inject extra recipients or mail headers", () => {
+  for (const email of ["a,b@example.test", "a;b@example.test", "a@example.test,b@example.test", "a@example.test\r\nBcc: b@example.test", "Name<a@example.test>"]) {
+    const h = harness();
+    h.body.values.email = email;
+    assert.equal(h.post(h.body).ok, false);
+    assert.equal(h.calls.length, 0);
+    assert.equal(h.emails.length, 0);
+  }
+});
+
+test("email authorization uses send-only permission and does not send an email", () => {
+  const h = harness();
+  h.context.authorizeJobApplicationEmail();
+  assert.equal(h.emails.length, 0);
+  assert.equal(h.calls.length, 0);
+  const manifest = JSON.parse(readFileSync(new URL("appsscript.json", import.meta.url), "utf8"));
+  assert.deepEqual(manifest.oauthScopes.sort(), ["https://www.googleapis.com/auth/script.external_request", "https://www.googleapis.com/auth/script.send_mail"].sort());
+});
+
+test("thank-you content provides next steps, a reference, and the HR contact without promising email delivery", () => {
+  const role = readFileSync(new URL("../../accounting-manager.html", import.meta.url), "utf8");
+  assert.match(role, /What happens next/);
+  assert.match(role, /mailto:hr@canton.foundation/);
+  assert.match(role, /id="application-email-status" hidden/);
+  assert.match(role, /Your application reference/);
+  const client = readFileSync(new URL("../../assets/job-application.js", import.meta.url), "utf8");
+  assert.match(client, /result.confirmationEmail === "sent"/);
+  assert.match(client, /JOB_APPLICATION_PHONE.validateText/);
+  assert.doesNotMatch(client, /operations@canton.foundation/);
 });

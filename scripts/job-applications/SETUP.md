@@ -14,7 +14,7 @@ Preview answers are not saved or sent. Do not enable submissions before setup.
    with the complete `Code.gs` from this directory. It includes the schema,
    application handlers, setup, and diagnostics. Do not add separate `Schema.gs`
    or `Diagnostics.gs` files. Use the supplied `appsscript.json` manifest (V8,
-   external requests only); the manifest is not an additional script file.
+   external requests and send-only email permission); the manifest is not an additional script file.
 2. In **Project Settings > Script Properties**, add `MONDAY` with an API token
    authorized to create items and upload files on board `18432556545`. Prefer a
    dedicated least-privilege integration account. Do not place the token in HTML,
@@ -34,7 +34,7 @@ Preview answers are not saved or sent. Do not enable submissions before setup.
    The backend requires successful verification for the exact hostname and
    `job_application` action; leaving the secret unset never enables submissions.
 6. Deploy as a **Web app**, executing as the project owner, accessible to
-   **Anyone**. Review and approve the external-request authorization yourself.
+   **Anyone**. Review and approve the external-request and send-email authorization yourself.
    This exposes only an intake endpoint protected by Turnstile, not a board reader.
    Use the deployed `/exec` URL, not the editor's `/dev` URL. Updates to script code
    require a new version in **Deploy > Manage deployments**.
@@ -67,6 +67,45 @@ saved code and deployed version are different; updating code alone is not enough
 Opening the deployed URL should return
 `{"service":"Canton Foundation job applications"}`. If it reports a missing
 `doGet` or `doPost`, the deployment does not contain the complete file yet.
+
+### Enable text Phone and applicant acknowledgment emails
+
+1. Replace the single `Code.gs` with the updated all-in-one file. Keep credentials
+   and existing application receipts unchanged. Do not resubmit an existing application.
+2. In Project Settings, enable **Show appsscript.json manifest file in editor**.
+   Update that manifest using the supplied `appsscript.json`, or add
+   `https://www.googleapis.com/auth/script.send_mail` to its existing `oauthScopes`.
+   This permits sending emails, not reading the account's mailbox.
+3. Run `setupJobApplication` again to refresh column IDs and types. It selects the
+   uniquely named **Phone** text column, including when an old native phone column
+   with the same title remains. If a `phone` override still points to the old column,
+   remove only that override or change it to the verified text-column ID. Keep the
+   other overrides. Ambiguous text columns require an explicit verified override.
+4. Run `authorizeJobApplicationEmail` and approve Google's permission prompt. This
+   checks the remaining daily recipient quota without sending an email.
+5. Use **Deploy > Manage deployments > Edit > New version > Deploy** on the existing
+   web app. The endpoint and Turnstile settings stay the same.
+
+The website can be published independently, but phone mapping and automatic
+emails change only after the Apps Script update and deployment. Emails are sent
+from the deployment owner's account with display name **Canton Foundation
+Recruitment** and **Reply-To: hr@canton.foundation**; this does not impersonate HR
+as the sender or require mailbox-reading access.
+
+After the item and all supplied attachments are saved, the script marks the
+application complete before attempting one acknowledgment. It emails only the
+submitted email address with fixed thank-you text, the role, HR contact, and the
+reference. It does not include application answers or attachments. Completed
+older receipts are not retroactively emailed. Browser retries never resend email.
+Quota, authorization, transport, and ambiguous email results leave the application
+complete. The page explains that email could not be confirmed rather than asking
+the applicant to resubmit. A `sent` result confirms MailApp accepted the send,
+not inbox delivery. Inspect `confirmationEmail` in the diagnostic when needed.
+
+Verify with a new, authorized synthetic application addressed to a mailbox you
+control: confirm the text Phone value, attachments, acknowledgment, and Reply-To.
+Do not reuse the completed test reference or clear its receipt. An old submission's
+missing phone value cannot be reconstructed from its privacy-preserving receipt.
 
 ## Verify before publishing
 
@@ -170,20 +209,18 @@ The diagnostic reports `updatedAnswersRetryApproved` without exposing hashes.
 - Questions and required flags match the original application. A separate phone
   country selector supports Monday's phone-column format. Self-identification is
   optional, collapsed by default, and never used for scoring or screening here.
-- Phone numbers are checked against the selected phone country's numbering plan
-  before any submission request in the updated browser form, and before any
-  external API request or receipt write in Apps Script. Valid national and
-  international numbers are normalized to E.164 only for Monday's phone column;
-  the original answers remain unchanged for receipt comparison. A supplied invalid
-  number is never silently dropped. Applicants may leave the optional field blank.
-  The same pinned `libphonenumber-js` full-metadata bundle runs locally in both
-  environments; no applicant data is sent to a third-party validation service.
-  Monday still performs its own validation. A `ColumnValueException` on `phone`
-  identifies a rejected phone value, not a missing column or API credential.
+- Phone uses the board's text column and preserves the entered number, formatting,
+  and extension after trimming surrounding whitespace. Phone country is optional
+  for text. Control characters and overlong values are rejected rather than silently
+  dropped. If an administrator explicitly maps to a native phone column instead,
+  country-aware validation and E.164 normalization still apply before any write.
+  The pinned `libphonenumber-js` library runs locally; no phone data is sent to an
+  external validation service. Rerun setup after changing a column's type or ID.
 - Answers travel only in HTTPS POST bodies to Apps Script and then Monday. No
   applicant values, file contents, or provider error bodies are logged, committed,
   placed in URLs, or saved to browser storage. Session storage holds only a random
-  request reference. There is no local draft-saving feature.
+  request reference. There is no local draft-saving feature. The submitted email
+  address is passed to MailApp for the acknowledgment and is not stored in receipts.
 - PDFs and Word documents are limited to 5 MB each, checked on both sides with
   server-side file-signature checks. These checks are not a malware scanner.
   Uploads go directly to the existing Monday file columns, not public Drive links.
@@ -192,7 +229,7 @@ The diagnostic reports `updatedAnswersRetryApproved` without exposing hashes.
   coordinates. Ambiguous addresses are rejected before any board item is created.
   A text/long-text column override avoids geocoding if that is preferred.
 - The script retains only the submission reference, payload digest, internal item
-  ID, timestamps, phase, and allowlisted diagnostic codes in private Script Properties. A lock prevents concurrent
+  ID, timestamps, phase, email-attempt status, and allowlisted diagnostic codes in private Script Properties. A lock prevents concurrent
   duplicates. Completed receipts make identical retries safe. A write with an
   uncertain result is not automatically repeated or reported as successful.
 - If a receipt stays in `creating` or `uploading`, an administrator should inspect
@@ -230,5 +267,7 @@ References: [Apps Script web apps](https://developers.google.com/apps-script/gui
 [Monday item creation](https://developer.monday.com/api-reference/reference/items),
 [Monday file uploads](https://developer.monday.com/api-reference/reference/files-1),
 [Monday phone values](https://developer.monday.com/api-reference/reference/phone),
+[Monday text values](https://developer.monday.com/api-reference/reference/text),
+[Apps Script MailApp](https://developers.google.com/apps-script/reference/mail/mail-app),
 [Monday error handling](https://developer.monday.com/api-reference/docs/error-handling),
 [Turnstile verification](https://developers.cloudflare.com/turnstile/get-started/server-side-validation/).

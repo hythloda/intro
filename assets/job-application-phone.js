@@ -1,5 +1,12 @@
 /* Shared local validation; never log, store, or send numbers to a lookup service. */
 var JOB_APPLICATION_PHONE = {
+  validateText: function (value) {
+    value = typeof value === "string" ? value.trim() : "";
+    if (value && (value.length > 40 || !/[0-9]/.test(value) || /[\x00-\x1f\x7f]/.test(value))) {
+      return { ok: false, message: "Enter a phone number of up to 40 characters, or leave this optional field empty.", fields: ["phone"] };
+    }
+    return { ok: true, number: value };
+  },
   validate: function (value, country) {
     var invalid = function (message, fields) { return { ok: false, message: message, fields: fields }; };
     value = typeof value === "string" ? value.trim() : "";

@@ -1,6 +1,7 @@
 /* Application handlers. Bundled into ../Code.gs for Apps Script deployment. */
 var JOB_BOARD_ID = "18432556545";
 var JOB_HOSTNAME = "intro.canton.foundation";
+var JOB_HR_EMAIL = "hr@canton.foundation";
 
 function applicationError_(message, fields) {
   var error = new Error(message);
@@ -105,6 +106,11 @@ function setupJobApplication() {
     var matches = board.columns.filter(function (column) {
       return overrides[field.key] ? column.id === overrides[field.key] : normalize(column.title) === normalize(field.label);
     });
+    // The recruitment board now uses plain text for Phone. Do not select its old phone column.
+    if (field.key === "phone" && !overrides.phone) {
+      var textMatches = matches.filter(function (column) { return column.type === "text"; });
+      if (textMatches.length) matches = textMatches;
+    }
     if (matches.length !== 1 || field.columnTypes.indexOf(matches[0].type) === -1) {
       throw new Error("Review column mapping for: " + field.label + ". Use JOB_COLUMN_OVERRIDES to specify the correct column ID, then run setup again.");
     }
@@ -147,12 +153,12 @@ function validateApplication_(body) {
     if ((!value && field.required) || value.length > (field.max || 255)) errors.push(field.key);
     if (value && field.options && field.options.indexOf(value) === -1) errors.push(field.key);
     if (value && field.type === "country" && schema.countryCodes.indexOf(value) === -1) errors.push(field.key);
-    if (value && field.type === "email" && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(value)) errors.push(field.key);
+    if (value && field.type === "email" && !/^[a-zA-Z0-9.!#$%&'*+\/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]*[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]*[a-zA-Z0-9])?)+$/.test(value)) errors.push(field.key);
     if (value && field.type === "url" && !/^https?:\/\/[^\s/@]+(?:[/:?#][^\s]*)?$/i.test(value)) errors.push(field.key);
     if (value && field.type === "date" && (!/^\d{4}-\d{2}-\d{2}$/.test(value) || isNaN(Date.parse(value)) || new Date(value).toISOString().slice(0,10) !== value)) errors.push(field.key);
   });
   if (errors.length) throw applicationError_("Please check the highlighted fields and try again.", errors);
-  var phone = JOB_APPLICATION_PHONE.validate(clean.phone, clean.phoneCountry);
+  var phone = JOB_APPLICATION_PHONE.validateText(clean.phone);
   if (!phone.ok) throw applicationError_(phone.message, phone.fields);
   // Keep original values for existing receipt hashes; normalize only the Monday column value.
   return { values: clean, files: attachments };
@@ -232,6 +238,50 @@ function doGet() {
   return result_({ service: "Canton Foundation job applications" });
 }
 
+function authorizeJobApplicationEmail() {
+  var remaining = MailApp.getRemainingDailyQuota();
+  console.log("Application email permission is available. Remaining daily recipients: " + remaining + ". No email was sent.");
+}
+
+function completedJobApplicationResult_(requestId, receipt) {
+  var status = receipt.confirmationEmail && receipt.confirmationEmail.status;
+  return result_({ ok: true, requestId: requestId, confirmationEmail:
+    !status ? "not_requested" : ["sent", "not_sent"].indexOf(status) !== -1 ? status : "unconfirmed" });
+}
+
+// Called under the submission lock, only after the completed receipt is durable.
+function sendJobApplicationConfirmation_(application, requestId, state, properties, key) {
+  try {
+    if (MailApp.getRemainingDailyQuota() < 1) {
+      state.confirmationEmail = { status: "not_sent", reason: "quota", at: new Date().toISOString() };
+      properties.setProperty(key, JSON.stringify(state));
+      console.log(JSON.stringify({ event: "job_confirmation_not_sent", reference: requestId, reason: "quota" }));
+      return;
+    }
+    // Save intent before sending. Lost responses must not send another email on a browser retry.
+    state.confirmationEmail = { status: "sending", at: new Date().toISOString() };
+    properties.setProperty(key, JSON.stringify(state));
+    MailApp.sendEmail({
+      to: application.values.email,
+      name: "Canton Foundation Recruitment",
+      replyTo: JOB_HR_EMAIL,
+      subject: "Thank you for applying | Canton Foundation Accounting Manager",
+      body: "Thank you for applying for the Accounting Manager role at Canton Foundation.\n\n" +
+        "We have received your application and the attachments you submitted. Our recruitment team will review your application and contact you if we would like to discuss next steps.\n\n" +
+        "If you have questions, please reply to this email or contact " + JOB_HR_EMAIL + ". Include your application reference so we can help.\n\n" +
+        "Application reference: " + requestId + "\n\n" +
+        "Thank you for your interest in Canton Foundation.\nThe Canton Foundation Recruitment Team"
+    });
+    state.confirmationEmail = { status: "sent", at: new Date().toISOString() };
+    properties.setProperty(key, JSON.stringify(state));
+  } catch (_) {
+    // Mail/permission/quota errors must never turn a saved application into a failed submission.
+    state.confirmationEmail = { status: "unconfirmed", at: new Date().toISOString() };
+    try { properties.setProperty(key, JSON.stringify(state)); } catch (_) { /* The durable receipt remains complete. */ }
+    console.log(JSON.stringify({ event: "job_confirmation_unconfirmed", reference: requestId }));
+  }
+}
+
 function isReviewedJobApplicationRetry_(receipt) {
   return Boolean(receipt && receipt.phase === "retry_approved" && !receipt.itemId &&
     typeof receipt.hash === "string" && receipt.hash &&
@@ -246,6 +296,10 @@ function doPost(event) {
     requestId = typeof body.requestId === "string" ? body.requestId.slice(0,36) : "";
     var application = validateApplication_(body);
     var config = config_();
+    if (config.mapping.phone.type === "phone") {
+      var phone = JOB_APPLICATION_PHONE.validate(application.values.phone, application.values.phoneCountry);
+      if (!phone.ok) throw applicationError_(phone.message, phone.fields);
+    }
     verifyHuman_(body.token, config);
     lock = LockService.getScriptLock();
     locked = lock.tryLock(1000);
@@ -257,14 +311,14 @@ function doPost(event) {
     var prior = JSON.parse(properties.getProperty(key) || "null");
     if (prior) {
       var retryApproved = isReviewedJobApplicationRetry_(prior);
-      if (prior.hash !== hash && !(retryApproved && prior.allowUpdatedAnswers === true)) throw applicationError_("An earlier attempt exists with different answers. Please contact operations@canton.foundation with this reference before submitting again.");
-      if (prior.phase === "complete") return result_({ ok: true, requestId: requestId });
+      if (prior.hash !== hash && !(retryApproved && prior.allowUpdatedAnswers === true)) throw applicationError_("An earlier attempt exists with different answers. Please contact hr@canton.foundation with this reference before submitting again.");
+      if (prior.phase === "complete") return completedJobApplicationResult_(requestId, prior);
       if (!retryApproved) {
-        throw applicationError_("Your earlier attempt needs confirmation by the recruitment team. Please contact operations@canton.foundation with this reference; do not submit a second application.");
+        throw applicationError_("Your earlier attempt needs confirmation by the recruitment team. Please contact hr@canton.foundation with this reference; do not submit a second application.");
       }
     }
     // Only receipts, internal IDs, and allowlisted diagnostic codes are retained, never answers or files.
-    if (Object.keys(properties.getProperties()).filter(function (name) { return name.indexOf("application:") === 0; }).length >= 1200) throw applicationError_("Applications are temporarily unavailable. Please contact operations@canton.foundation.");
+    if (Object.keys(properties.getProperties()).filter(function (name) { return name.indexOf("application:") === 0; }).length >= 1200) throw applicationError_("Applications are temporarily unavailable. Please contact hr@canton.foundation.");
     var columns = columnValues_(application, config.mapping);
     var state = { hash: hash, phase: "creating", at: new Date().toISOString() };
     if (prior) {
@@ -286,8 +340,10 @@ function doPost(event) {
       upload_(config, state.itemId, column.id, application.files[field], field + "-" + requestId + "." + application.files[field].extension);
     });
     state.phase = "complete";
+    state.confirmationEmail = { status: "pending" };
     properties.setProperty(key, JSON.stringify(state));
-    return result_({ ok: true, requestId: requestId });
+    sendJobApplicationConfirmation_(application, requestId, state, properties, key);
+    return completedJobApplicationResult_(requestId, state);
   } catch (error) {
     if (writeStarted && state) {
       state.failure = error.jobDiagnostic || safeMondayDiagnostic_(null, { error_code: "UNCONFIRMED_WRITE" }, config);
@@ -297,7 +353,7 @@ function doPost(event) {
     }
     // Never return provider errors or log request bodies, credentials, or applicant data.
     var message = writeStarted
-      ? "We could not confirm all parts of your application. Please contact operations@canton.foundation with this reference; do not submit a second application."
+      ? "We could not confirm all parts of your application. Please contact hr@canton.foundation with this reference; do not submit a second application."
       : error.publicMessage || "The application service is temporarily unavailable. Your answers have not been cleared; please try again later.";
     return result_({ ok: false, requestId: requestId, message: message, fields: error.fields || [] });
   } finally {

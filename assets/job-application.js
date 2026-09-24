@@ -76,7 +76,7 @@
         }
       }
     }
-    const phone = JOB_APPLICATION_PHONE.validate(form.elements.phone.value, form.elements.phoneCountry.value);
+    const phone = JOB_APPLICATION_PHONE.validateText(form.elements.phone.value);
     if (!phone.ok) {
       for (const key of phone.fields) form.elements.namedItem(key).setCustomValidity(phone.message);
     }
@@ -149,12 +149,23 @@
       form.reset();
       form.hidden = true;
       const success = document.querySelector("#application-success");
-      document.querySelector("#application-receipt").textContent = "Application reference: " + requestId;
+      document.querySelector("#application-title").hidden = true;
+      document.querySelector("#application-form-intro").hidden = true;
+      document.querySelector("#application-receipt").textContent = requestId;
+      const emailStatus = document.querySelector("#application-email-status");
+      if (result.confirmationEmail === "sent") {
+        emailStatus.textContent = "A confirmation email has been sent to the address you provided. If you don't see it, please check your spam folder.";
+        emailStatus.hidden = false;
+      } else if (["not_sent", "unconfirmed"].includes(result.confirmationEmail)) {
+        emailStatus.textContent = "Your application is saved, but we could not confirm the acknowledgment email. Please keep your reference below; there is no need to submit again.";
+        emailStatus.hidden = false;
+      }
       success.hidden = false;
       success.focus();
+      success.scrollIntoView({ block: "start" });
       try { sessionStorage.removeItem(storageKey); } catch (_) { /* Storage is optional. */ }
     } catch (_) {
-      message("We could not confirm your submission. Your answers are still on this page. You can retry without changing them; the same reference prevents a duplicate application. If this continues, contact operations@canton.foundation with reference " + requestId + ".", true);
+      message("We could not confirm your submission. Your answers are still on this page. You can retry without changing them; the same reference prevents a duplicate application. If this continues, contact hr@canton.foundation with reference " + requestId + ".", true);
       status.focus();
     } finally {
       clearTimeout(timer);

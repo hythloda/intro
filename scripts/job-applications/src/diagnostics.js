@@ -17,6 +17,8 @@ function inspectJobApplicationFailure() {
   report.manualReviewRequired = report.phase !== "complete";
   report.updatedAnswersRetryApproved = isReviewedJobApplicationRetry_(receipt) && receipt.allowUpdatedAnswers === true;
   report.failureDetailsRecorded = Boolean(receipt.failure);
+  var emailStatus = receipt.confirmationEmail && receipt.confirmationEmail.status;
+  report.confirmationEmail = ["pending", "sending", "sent", "not_sent", "unconfirmed"].indexOf(emailStatus) !== -1 ? emailStatus : "not_requested";
   if (receipt.failure && typeof safeMondayDiagnostic_ === "function") {
     // Reapply the allowlist rather than printing arbitrary receipt contents.
     report.failure = safeMondayDiagnostic_(receipt.failure.httpStatus, {
@@ -45,6 +47,7 @@ function inspectJobApplicationFailure() {
       var group = properties.getProperty("MONDAY_GROUP_ID");
       report.destinationGroupExists = group ? board.groups.some(function (entry) { return entry.id === group; }) : null;
       report.columnIssues = [];
+      report.phoneDestinationType = mapping.phone && ["text", "phone"].indexOf(mapping.phone.type) !== -1 ? mapping.phone.type : "unknown";
       JOB_APPLICATION_SCHEMA.fields.filter(function (field) { return !field.auxiliary; }).forEach(function (field) {
         var destination = mapping[field.key];
         var column = destination && board.columns.find(function (entry) { return entry.id === destination.id; });

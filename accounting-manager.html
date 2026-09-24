@@ -11,13 +11,13 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/site-chrome.css?v=footer-20260820e">
-  <link rel="stylesheet" href="assets/job-application.css?v=20260924c">
+  <link rel="stylesheet" href="assets/job-application.css?v=20260924-thanks1">
   <script src="assets/site-chrome.js?v=footer-20260820e" defer></script>
   <script src="assets/vendor/libphonenumber-js/libphonenumber-max.js?v=1.13.14" defer></script>
-  <script src="assets/job-application-schema.js?v=20260924-phone1" defer></script>
-  <script src="assets/job-application-phone.js?v=20260924-phone1" defer></script>
+  <script src="assets/job-application-schema.js?v=20260924-textphone1" defer></script>
+  <script src="assets/job-application-phone.js?v=20260924-textphone1" defer></script>
   <script src="assets/job-application-config.js?v=20260924-live1" defer></script>
-  <script src="assets/job-application.js?v=20260924-live1" defer></script>
+  <script src="assets/job-application.js?v=20260924-thanks1" defer></script>
 </head>
 <body>
   <div data-site-header></div>
@@ -133,11 +133,19 @@
         </fieldset>
         <p class="application-status" id="application-status" role="status" aria-live="polite" tabindex="-1"></p>
       </form>
-      <div class="application-success" id="application-success" tabindex="-1" hidden>
-        <h2>Thank you for applying</h2>
-        <p>Your Accounting Manager application and attachments have been received.</p>
-        <p id="application-receipt"></p>
-        <a href="jobs.html">Back to Jobs</a>
+      <div class="application-success" id="application-success" aria-labelledby="application-success-title" tabindex="-1" hidden>
+        <div class="success-mark" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><path d="m5 12 4 4L19 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+        <p class="success-eyebrow">Application received</p>
+        <h2 id="application-success-title">Thank you for applying.</h2>
+        <p class="success-lead">We have received your application and attachments for the Accounting Manager role at Canton Foundation. We appreciate your interest in joining our team.</p>
+        <div class="success-next">
+          <h3>What happens next</h3>
+          <p>Our recruitment team will review your application and contact you if we would like to discuss next steps.</p>
+          <p id="application-email-status" hidden></p>
+        </div>
+        <div class="success-reference"><span>Your application reference</span><p id="application-receipt"></p></div>
+        <p>Have questions? Reach out to <a href="mailto:hr@canton.foundation">hr@canton.foundation</a> and include your application reference so we can help.</p>
+        <a class="careers-button" href="jobs.html">Back to Jobs</a>
       </div>
     </section>
   </main>
