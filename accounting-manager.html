@@ -11,11 +11,11 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/site-chrome.css?v=footer-20260820e">
-  <link rel="stylesheet" href="assets/job-application.css?v=20260924b">
+  <link rel="stylesheet" href="assets/job-application.css?v=20260924c">
   <script src="assets/site-chrome.js?v=footer-20260820e" defer></script>
   <script src="assets/job-application-schema.js?v=20260924" defer></script>
   <script src="assets/job-application-config.js?v=20260924" defer></script>
-  <script src="assets/job-application.js?v=20260924b" defer></script>
+  <script src="assets/job-application.js?v=20260924c" defer></script>
 </head>
 <body>
   <div data-site-header></div>
@@ -30,7 +30,7 @@
         <div><dt>Reporting to</dt><dd>CFO</dd></div>
       </dl>
       <p>Help manage the Canton Foundation's day-to-day accounting and finance operations, working with our CFO and outsourced accounting firm.</p>
-      <a class="careers-button" href="#application">Apply for this role</a>
+      <a class="careers-button" href="#application">View application form</a>
     </header>
 
     <details class="careers-role">
@@ -95,13 +95,13 @@
 
     <section class="application-panel" id="application" aria-labelledby="application-title">
       <h2 id="application-title">Apply for Accounting Manager</h2>
-      <p class="application-intro" id="application-form-intro" hidden>Fields marked * are required. Please have your CV ready. Your application is submitted to the Canton Foundation's recruitment system.</p>
       <div class="application-notice" id="application-unavailable">
-        <p>Send your application and CV to the Canton Foundation's recruitment team using our secure application form.</p>
-        <a class="careers-button" href="https://wkf.ms/4hquwQv" target="_blank" rel="noopener noreferrer">Open application form</a>
-        <p class="application-external-note">Opens our application provider in a new tab. This Canton Foundation page stays open.</p>
+        <p><strong>Application form preview</strong></p>
+        <p>The questions are shown below, but submissions are not available on this page yet. Please do not enter personal information. Nothing entered here is saved or sent.</p>
       </div>
-      <form id="job-application" novalidate hidden>
+      <p class="application-intro" id="application-form-intro">Fields marked * are required when submitting an application.</p>
+      <noscript><p>Enable JavaScript to view the application questions.</p></noscript>
+      <form id="job-application" novalidate autocomplete="off">
         <fieldset id="application-fields" class="application-fields" disabled>
           <legend class="application-honeypot">Accounting Manager application</legend>
           <fieldset class="application-section"><legend>Contact details</legend><div class="application-grid" data-fields="contact"></div></fieldset>
@@ -126,7 +126,7 @@
           <div class="application-submit">
             <p>Please review the Canton Foundation <a href="https://canton.foundation/privacy-policy/" target="_blank" rel="noopener noreferrer">Privacy Policy</a> before submitting. Do not include information you do not want to share with the recruitment team.</p>
             <div id="application-verification"></div>
-            <button class="careers-button" id="application-submit" type="submit">Submit application</button>
+            <button class="careers-button" id="application-submit" type="submit" disabled aria-describedby="application-unavailable">Submission not yet available</button>
           </div>
         </fieldset>
         <p class="application-status" id="application-status" role="status" aria-live="polite" tabindex="-1"></p>

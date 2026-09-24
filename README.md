@@ -8,11 +8,11 @@ An Apps Script backend submits answers and attachments to the existing Monday
 board. API credentials remain in private Script Properties, never public assets.
 
 See [deployment and verification instructions](scripts/job-applications/SETUP.md).
-The new form stays hidden and disabled until its endpoint and public Turnstile
-key are configured in `assets/job-application-config.js`. Until then, the role
-page offers a clearly labeled link to the existing application in a new tab,
-without an iframe. Enable the native form only after the backend passes a real
-end-to-end submission check.
+The native questions are always shown on the role page, without a Monday iframe
+or external application link. Until the endpoint and public Turnstile key are
+configured in `assets/job-application-config.js`, a prominent preview notice is
+shown and submission is blocked. Preview answers are never saved or sent.
+Enable submissions only after the backend passes a real end-to-end check.
 
 This repository publishes to `https://intro.canton.foundation/jobs.html` (see
 `CNAME`). To serve the page at `https://canton.foundation/jobs`, create a page on

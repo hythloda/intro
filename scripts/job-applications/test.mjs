@@ -175,12 +175,14 @@ test("schema has all original fields, no demographic requirement, and public con
   assert.deepEqual(plain(c.JOB_APPLICATION_CONFIG), { endpoint: "", turnstileSiteKey: "" });
 });
 
-test("public careers pages contain no iframe and offer a working unconfigured fallback", () => {
+test("native questions remain visible before setup, without an external form link", () => {
   const jobs = readFileSync(new URL("../../jobs.html", import.meta.url), "utf8");
   const role = readFileSync(new URL("../../accounting-manager.html", import.meta.url), "utf8");
   assert(!/<iframe\b/i.test(jobs + role));
   assert(jobs.includes('href="accounting-manager.html"'));
-  assert.match(role, /<form id="job-application"[^>]*\bhidden\b/);
+  assert.doesNotMatch(role, /<form id="job-application"[^>]*\bhidden\b/);
   assert.match(role, /<fieldset id="application-fields"[^>]*\bdisabled\b/);
-  assert.match(role, /href="https:\/\/wkf\.ms\/4hquwQv"[^>]*target="_blank"/);
+  assert.match(role, /<button[^>]*id="application-submit"[^>]*\bdisabled\b/);
+  assert(role.includes("Application form preview"));
+  assert.doesNotMatch(role + jobs, /(?:wkf\.ms|forms\.monday\.com)/);
 });

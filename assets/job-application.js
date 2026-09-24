@@ -6,6 +6,10 @@
   const fields = document.querySelector("#application-fields");
   const submit = document.querySelector("#application-submit");
   const status = document.querySelector("#application-status");
+  const local = ["localhost", "127.0.0.1"].includes(location.hostname);
+  const validEndpoint = /^https:\/\/script\.google\.com\/macros\/s\/[\w-]+\/exec$/.test(config.endpoint || "") ||
+    (local && config.endpoint === location.origin + "/application-test");
+  const submissionConfigured = validEndpoint && Boolean(config.turnstileSiteKey);
   const storageKey = "canton-accounting-application-request";
   let requestId;
   try { requestId = sessionStorage.getItem(storageKey); } catch (_) { /* Storage is optional. */ }
@@ -98,6 +102,10 @@
 
   form.addEventListener("submit", async event => {
     event.preventDefault();
+    if (!submissionConfigured) {
+      message("This is a preview. Submissions are not available yet, and nothing has been sent.", true);
+      return;
+    }
     if (busy || fields.disabled || !validate()) return;
     if (!token) { message("Please complete the security check before submitting.", true); return; }
     busy = true;
@@ -159,14 +167,15 @@
     }
   });
 
-  const local = ["localhost", "127.0.0.1"].includes(location.hostname);
-  const validEndpoint = /^https:\/\/script\.google\.com\/macros\/s\/[\w-]+\/exec$/.test(config.endpoint || "") ||
-    (local && config.endpoint === location.origin + "/application-test");
-  if (!validEndpoint || !config.turnstileSiteKey) return;
-  document.querySelector("#application-unavailable").hidden = true;
-  document.querySelector("#application-form-intro").hidden = false;
-  form.hidden = false;
+  // Show the native questions even before deployment, without collecting a draft.
   fields.disabled = false;
+  if (!submissionConfigured) return;
+  document.querySelector("#application-unavailable").hidden = true;
+  document.querySelector("#application-form-intro").textContent = "Fields marked * are required. Please have your CV ready. Your application is submitted to the Canton Foundation's recruitment system.";
+  form.removeAttribute("autocomplete");
+  submit.disabled = false;
+  submit.textContent = "Submit application";
+  submit.removeAttribute("aria-describedby");
   window.onJobVerificationReady = () => {
     widget = window.turnstile.render("#application-verification", {
       sitekey: config.turnstileSiteKey, action: "job_application", theme: "dark",

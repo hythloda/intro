@@ -70,7 +70,8 @@ body {
 .careers-button:hover { background: #e9f785; }
 .careers-button:disabled { opacity: .65; cursor: not-allowed; }
 .application-notice { border: 1px solid var(--field-border); border-radius: 10px; padding: 16px 18px; margin-bottom: 24px; }
-.application-notice .application-external-note { margin: 14px 0 0; font-size: 14px; }
+.application-notice p:last-child { margin-bottom: 0; }
+.application-notice strong { color: var(--accent-strong); }
 .careers-wrap [hidden] { display: none !important; }
 .application-status { margin: 20px 0 0 !important; white-space: pre-line; overflow-wrap: anywhere; }
 .application-status[data-error=true] { color: #ffd1c9; }

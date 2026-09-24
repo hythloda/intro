@@ -2,10 +2,10 @@
 
 The native page is `accounting-manager.html`, linked from `jobs.html`. The API
 destination is board `18432556545`. It does not read applicant rows or publish
-them. The branded Jobs and role pages can be published immediately: until the
-backend is connected and tested, the role page links to the existing WorkForm
-in a new tab. There is no embedded form or unusable set of fields on the public
-page. Do not enable the native application form before completing setup.
+them. The role page displays the native questions directly, with no Monday
+iframe or external application link. Until the backend is connected and tested,
+the page is clearly labeled as a preview and the Submit button is disabled.
+Preview answers are not saved or sent. Do not enable submissions before setup.
 
 ## New Apps Script project
 
@@ -43,8 +43,9 @@ page. Do not enable the native application form before completing setup.
 ## Verify before publishing
 
 - Run `node --test scripts/job-applications/test.mjs` for the mocked backend tests.
-- Preview the form at desktop and mobile widths. An unconfigured form is hidden
-  and disabled; a visible button links to the existing application instead.
+- Preview the form at desktop and mobile widths. All questions should be visible
+  before configuration, with the optional self-identification section expandable.
+  An unconfigured form must show the preview notice and block submission.
 - Make one explicitly authorized synthetic application on the real deployment,
   including a harmless test CV and optional cover letter. Confirm the destination
   group, every column, both attachments, and the existing recruitment automations.
