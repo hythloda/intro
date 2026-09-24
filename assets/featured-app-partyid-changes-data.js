@@ -1,5 +1,5 @@
 window.FEATURED_APP_PARTYID_CHANGES_DATA = {
-  "generatedAt": "2026-09-23T11:54:29.933Z",
+  "generatedAt": "2026-09-24T12:02:36.355Z",
   "columns": [
     {
       "id": "long_text_mm4kq322",
@@ -13,6 +13,24 @@ window.FEATURED_APP_PARTYID_CHANGES_DATA = {
     }
   ],
   "changes": [
+    {
+      "id": "5fe4868e-5ae7-4759-b2bd-10badd437af9",
+      "changedAt": "2026-09-23T23:28:03.735Z",
+      "itemName": "CC Scan (Block Explorer)",
+      "itemId": "12467856975",
+      "field": "Locking PartyIDs",
+      "previousValue": "1220b::1220bf515ffccfb089af4c15d0dcdf40d0f69b2122cd78b6255b2ba1a1f386e29ef7",
+      "newValue": "12208::1220869791c95054cce5a2b2bfed626e9e6ce0fc2dc9bc1bd47ceb962d0c403bd04a"
+    },
+    {
+      "id": "6a2f120a-c2ad-4cfc-9a3e-542c6380e883",
+      "changedAt": "2026-09-23T23:27:59.430Z",
+      "itemName": "CC Node",
+      "itemId": "12467790004",
+      "field": "Locking PartyIDs",
+      "previousValue": "1220d::1220df568a5ee56450098af76e311a394599011b15e7f6c235b6ac60128656a73cab",
+      "newValue": "1220c::1220cecfc2eb789d7c2b0148c26690dc6099d42936e1542033b255f1b4ecb0a5f98b"
+    },
     {
       "id": "ff161336-99bb-4fa9-8ab0-c16d40d5e99a",
       "changedAt": "2026-09-22T11:25:47.781Z",
@@ -174,24 +192,6 @@ window.FEATURED_APP_PARTYID_CHANGES_DATA = {
       "field": "Locking PartyIDs",
       "previousValue": "23d169c2-0909-4c70-81d1-1922de6febaa::12208ed5d822bd47a2e912ca9154ca2871ebb375cb99777bab0ae85d20060a44c811",
       "newValue": "23d169c2-0909-4c70-81d1-1922de6febaa::1220f17bc6f42ec54e67717621a19e5a9954461dc6e44c5b766fc099dad86ef4aadf"
-    },
-    {
-      "id": "49c9df45-85b4-414d-9152-f8f8000f9e5a",
-      "changedAt": "2026-09-17T19:38:21.582Z",
-      "itemName": "Modulo Vault",
-      "itemId": "13073381479",
-      "field": "Party ID for the Featured Application:",
-      "previousValue": "Modulo-Issuer::1220bbd47c5a10d5540c420e1f8f0f1fd513464ec6110dbd5123970dbe3b538805d3",
-      "newValue": "Mod-Vault ::1220bbd47c5a10d5540c420e1f8f0f1fd513464ec6110dbd5123970dbe3b538805d3"
-    },
-    {
-      "id": "6f3f354b-7664-432e-b703-1fb052e36f10",
-      "changedAt": "2026-09-17T19:38:00.175Z",
-      "itemName": "Modulo Finance (MOD Issuer) - Modulo Labs, Inc.",
-      "itemId": "12595869340",
-      "field": "Party ID for the Featured Application:",
-      "previousValue": "",
-      "newValue": "Modulo-Issuer::1220bbd47c5a10d5540c420e1f8f0f1fd513464ec6110dbd5123970dbe3b538805d3"
     }
   ]
 };
