@@ -8,11 +8,14 @@ An Apps Script backend submits answers and attachments to the existing Monday
 board. API credentials remain in private Script Properties, never public assets.
 
 See [deployment and verification instructions](scripts/job-applications/SETUP.md).
+The backend installs as one complete `scripts/job-applications/Code.gs` file,
+including the schema and diagnostics. No separate `.gs` files are needed.
 The native questions are always shown on the role page, without a Monday iframe
-or external application link. Until the endpoint and public Turnstile key are
-configured in `assets/job-application-config.js`, a prominent preview notice is
-shown and submission is blocked. Preview answers are never saved or sent.
-Enable submissions only after the backend passes a real end-to-end check.
+or external application link. The endpoint and public Turnstile key are configured
+in `assets/job-application-config.js`. Public submissions are enabled after the
+successful integration test. The temporary integration-test page has been removed.
+Setting `enabled: false` restores preview mode and blocks submissions; preview
+answers are never saved or sent.
 
 This repository publishes to `https://intro.canton.foundation/jobs.html` (see
 `CNAME`). To serve the page at `https://canton.foundation/jobs`, create a page on

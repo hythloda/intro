@@ -76,14 +76,15 @@
         }
       }
     }
-    if (form.elements.phone.value.trim() && !form.elements.phoneCountry.value) {
-      form.elements.phoneCountry.setCustomValidity("Select the country for your phone number.");
+    const phone = JOB_APPLICATION_PHONE.validate(form.elements.phone.value, form.elements.phoneCountry.value);
+    if (!phone.ok) {
+      for (const key of phone.fields) form.elements.namedItem(key).setCustomValidity(phone.message);
     }
     const invalid = [...form.elements].find(input => input.willValidate && !input.validity.valid);
     if (invalid) {
       invalid.closest("details")?.setAttribute("open", "");
       invalid.setAttribute("aria-invalid", "true");
-      message("Please check the highlighted field before submitting.", true);
+      message(phone.ok ? "Please check the highlighted field before submitting." : phone.message, true);
       invalid.reportValidity();
       invalid.focus();
       return false;
@@ -169,7 +170,11 @@
 
   // Show the native questions even before deployment, without collecting a draft.
   fields.disabled = false;
-  if (!submissionConfigured) return;
+  if (!submissionConfigured) {
+    document.querySelector("#application-unavailable").hidden = false;
+    submit.textContent = "Submission not yet available";
+    return;
+  }
   document.querySelector("#application-unavailable").hidden = true;
   document.querySelector("#application-form-intro").textContent = "Fields marked * are required. Please have your CV ready. Your application is submitted to the Canton Foundation's recruitment system.";
   form.removeAttribute("autocomplete");

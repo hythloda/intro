@@ -1,4 +1,4 @@
-/* Also installed in Apps Script as Schema.gs. No credentials or applicant data. */
+/* Shared by the native form and all-in-one Apps Script build. No credentials or applicant data. */
 var JOB_APPLICATION_SCHEMA = {
   role: "accounting-manager",
   maxFileBytes: 5 * 1024 * 1024,
@@ -8,8 +8,8 @@ var JOB_APPLICATION_SCHEMA = {
     { key: "preferredName", label: "Preferred Name", section: "contact", type: "text", max: 255, help: "What's the name you'd prefer us to use throughout the interview process?", columnTypes: ["text", "long_text"] },
     { key: "email", label: "Email Address", section: "contact", type: "email", autocomplete: "email", required: true, max: 254, columnTypes: ["email", "text"] },
     { key: "country", label: "Current Country of Residence", section: "contact", type: "country", required: true, columnTypes: ["country", "text", "dropdown", "status"] },
-    { key: "phoneCountry", label: "Phone country", section: "contact", type: "country", help: "If you provide a phone number, select its country.", auxiliary: true },
-    { key: "phone", label: "Phone", section: "contact", type: "tel", autocomplete: "tel", max: 40, help: "Include the international dialing code, for example +1.", columnTypes: ["phone", "text"] },
+    { key: "phoneCountry", label: "Phone country", section: "contact", type: "country", help: "Select the country your phone number belongs to, which may differ from where you live.", auxiliary: true },
+    { key: "phone", label: "Phone", section: "contact", type: "tel", autocomplete: "tel", max: 40, help: "Optional. Include the area code, for example (202) 555-0123 for United States, or use international format: +1 202 555 0123. No extensions.", columnTypes: ["phone", "text"] },
     { key: "address", label: "Physical Address", section: "contact", type: "textarea", autocomplete: "street-address", max: 1000, help: "Include street, city, region, postal code, and country.", columnTypes: ["location", "text", "long_text"] },
     { key: "linkedin", label: "LinkedIn Profile", section: "contact", type: "url", max: 2000, help: "Use a full https:// URL.", columnTypes: ["link", "text"] },
     { key: "cv", label: "CV", section: "documents", type: "file", required: true, help: "Please upload your most recent CV in PDF or Word format. Maximum 5 MB.", columnTypes: ["file"] },
