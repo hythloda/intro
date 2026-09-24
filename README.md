@@ -2,24 +2,23 @@
 
 ## Jobs
 
-`jobs.html` embeds the existing Accounting Manager WorkForm. The form, uploads,
-validation, and submissions are handled by Monday; this repository does not
-collect applicant information or require a Monday API key. Edit the job
-description and application questions in WorkForms and the embed will reflect
-those changes without a site deployment.
+`jobs.html` lists openings and links to the dedicated `accounting-manager.html`
+application. It uses native Canton-styled inputs, not an embedded Monday form.
+An Apps Script backend submits answers and attachments to the existing Monday
+board. API credentials remain in private Script Properties, never public assets.
 
-The iframe uses the `/forms/embed/` URL, since the ordinary sharing URL disallows
-embedding. Its sandbox permits forms, scripts, uploads, and new-tab links, but
-does not permit top-level navigation. Keep the WorkForms completion screen inside
-the form rather than configuring a redirect of the parent page. The optional
-fallback link explicitly opens the provider in another tab.
+See [deployment and verification instructions](scripts/job-applications/SETUP.md).
+The new form stays hidden and disabled until its endpoint and public Turnstile
+key are configured in `assets/job-application-config.js`. Until then, the role
+page offers a clearly labeled link to the existing application in a new tab,
+without an iframe. Enable the native form only after the backend passes a real
+end-to-end submission check.
 
 This repository publishes to `https://intro.canton.foundation/jobs.html` (see
 `CNAME`). To serve the page at `https://canton.foundation/jobs`, create a page on
-the main website and use the same WorkForms embed there. A redirect to the form
-would not preserve the Canton address.
+the main website and deploy the native form there with matching backend hostname
+validation. A redirect to Monday would not preserve the Canton address.
 
-Verification: preview the page on desktop and mobile, check the complete form
-and upload controls load, and verify an authorized test submission in the
-connected Monday board before announcing the opening. Avoid submitting real
-applicant information as test data. This page retains the site's noindex policy.
+Avoid submitting real applicant information as test data. Both pages retain the
+site's noindex policy. Changes to the WorkForm are not automatically mirrored in
+this custom form; keep the shared question schema and role description in sync.
