@@ -1,5 +1,5 @@
 window.FEATURED_APP_BOARD_DATA = {
-  "generatedAt": "2026-09-24T11:54:02.234Z",
+  "generatedAt": "2026-09-25T11:56:23.647Z",
   "columns": [
     {
       "id": "text_mm4k2vch",
@@ -322,7 +322,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12954184948",
       "name": "Rapid Chain - Rapid Blockchain Technologies Ltd.",
-      "updatedAt": "2026-09-23T21:51:34Z",
+      "updatedAt": "2026-09-24T22:51:24Z",
       "values": {
         "text_mm4k2vch": "Rapid Blockchain Technologies Ltd.",
         "color_mm4kmej3": "0-Locked+Needs Review",
@@ -349,7 +349,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12959523630",
       "name": "MetCredX - NIPRO TECHNOLOGIES LIMITED",
-      "updatedAt": "2026-09-24T11:51:34Z",
+      "updatedAt": "2026-09-25T11:51:27Z",
       "values": {
         "text_mm4k2vch": "NIPRO TECHNOLOGIES LIMITED",
         "color_mm4kmej3": "1-Needs Review",
@@ -576,7 +576,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12959492765",
       "name": "Selay Wallet - Security Layer Innovations Limited",
-      "updatedAt": "2026-09-24T11:51:45Z",
+      "updatedAt": "2026-09-25T11:51:39Z",
       "values": {
         "text_mm4k2vch": "Security Layer Innovations Limited",
         "color_mm4kmej3": "0-Locked+Needs Review",
@@ -804,7 +804,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12954185167",
       "name": "SyncVotes - WEB34EVER",
-      "updatedAt": "2026-09-23T21:52:10Z",
+      "updatedAt": "2026-09-25T01:11:27Z",
       "values": {
         "text_mm4k2vch": "WEB34EVER",
         "color_mm4kmej3": "0-Locked+Needs Review",
@@ -834,7 +834,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12959522895",
       "name": "ccledger - Blueprint Infrastructure, LLC",
-      "updatedAt": "2026-09-24T04:00:27Z",
+      "updatedAt": "2026-09-24T22:52:07Z",
       "values": {
         "text_mm4k2vch": "Blueprint Infrastructure, LLC",
         "color_mm4kmej3": "1-Needs Review",
@@ -1080,7 +1080,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467815978",
       "name": "arCCade swap",
-      "updatedAt": "2026-09-22T18:14:00Z",
+      "updatedAt": "2026-09-24T12:51:58Z",
       "values": {
         "text_mm4k2vch": "Arccade",
         "color_mm4kmej3": "2-Approved",
@@ -1187,7 +1187,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12944758321",
       "name": "Jubilee - Jubilee Markets",
-      "updatedAt": "2026-09-24T11:51:51Z",
+      "updatedAt": "2026-09-24T22:52:17Z",
       "values": {
         "text_mm4k2vch": "Jubilee Markets",
         "color_mm4kmej3": "0-Locked+Needs Review",
@@ -4706,7 +4706,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467837732",
       "name": "arCCade validator copy",
-      "updatedAt": "2026-09-22T18:52:10Z",
+      "updatedAt": "2026-09-24T12:51:56Z",
       "values": {
         "text_mm4k2vch": "Arccade",
         "color_mm4kmej3": "2-Approved",
@@ -10289,7 +10289,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12964664349",
       "name": "Wintip - Winsnip",
-      "updatedAt": "2026-09-24T00:51:38Z",
+      "updatedAt": "2026-09-24T22:52:28Z",
       "values": {
         "text_mm4k2vch": "Winsnip",
         "color_mm4kmej3": "0-Locked+Needs Review",
@@ -10320,7 +10320,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12964705710",
       "name": "RAX Finance - RAX Finance",
-      "updatedAt": "2026-09-24T11:51:12Z",
+      "updatedAt": "2026-09-25T11:51:16Z",
       "values": {
         "text_mm4k2vch": "RAX Finance",
         "color_mm4kmej3": "0-Locked+Needs Review",
@@ -10379,7 +10379,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12974668475",
       "name": "OS Ledger - Outersunset",
-      "updatedAt": "2026-09-24T11:51:57Z",
+      "updatedAt": "2026-09-25T01:11:51Z",
       "values": {
         "text_mm4k2vch": "Outersunset",
         "color_mm4kmej3": "1-Needs Review",
@@ -10406,7 +10406,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12982310839",
       "name": "Ovdefi - OneNov",
-      "updatedAt": "2026-09-24T04:01:29Z",
+      "updatedAt": "2026-09-24T23:51:28Z",
       "values": {
         "text_mm4k2vch": "OneNov",
         "color_mm4kmej3": "1-Needs Review",
@@ -10436,7 +10436,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12982310399",
       "name": "Pinnaccle - Pinnaccle",
-      "updatedAt": "2026-09-24T11:52:03Z",
+      "updatedAt": "2026-09-25T10:52:07Z",
       "values": {
         "text_mm4k2vch": "Pinnaccle",
         "color_mm4kmej3": "1-Needs Review",
@@ -10464,7 +10464,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12993064923",
       "name": "Rocky Wallet - Dune Labs",
-      "updatedAt": "2026-09-24T11:52:13Z",
+      "updatedAt": "2026-09-25T11:52:08Z",
       "values": {
         "text_mm4k2vch": "Dune Labs",
         "color_mm4kmej3": "0-Locked+Needs Review",
@@ -10496,7 +10496,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13003184089",
       "name": "R1M Sentinel - R1M",
-      "updatedAt": "2026-09-24T10:59:20Z",
+      "updatedAt": "2026-09-24T23:51:51Z",
       "values": {
         "text_mm4k2vch": "R1M",
         "color_mm4kmej3": "1-Needs Review",
@@ -10555,7 +10555,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13003182078",
       "name": "Maha Wallet - PT Maha Digital Solutions",
-      "updatedAt": "2026-09-24T04:51:41Z",
+      "updatedAt": "2026-09-25T07:51:23Z",
       "values": {
         "text_mm4k2vch": "PT Maha Digital Solutions",
         "color_mm4kmej3": "1-Needs Review",
@@ -10586,7 +10586,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13023350809",
       "name": "Zabpay - DSRV",
-      "updatedAt": "2026-09-24T11:52:27Z",
+      "updatedAt": "2026-09-25T11:52:23Z",
       "values": {
         "text_mm4k2vch": "DSRV",
         "color_mm4kmej3": "1-Needs Review",
@@ -10614,7 +10614,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13023350936",
       "name": "BETH - BitSafe Validator, LLC",
-      "updatedAt": "2026-09-24T01:51:26Z",
+      "updatedAt": "2026-09-25T11:52:25Z",
       "values": {
         "text_mm4k2vch": "BitSafe Validator, LLC",
         "color_mm4kmej3": "0-Locked+Needs Review",
@@ -10646,7 +10646,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13036463016",
       "name": "P2P Company - P2P Company",
-      "updatedAt": "2026-09-24T09:52:58Z",
+      "updatedAt": "2026-09-25T01:08:17Z",
       "values": {
         "text_mm4k2vch": "P2P Company",
         "color_mm4kmej3": "1-Needs Review",
@@ -10676,7 +10676,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13046640623",
       "name": "Yellow Card - Yellow Card Financial Inc.",
-      "updatedAt": "2026-09-23T20:51:31Z",
+      "updatedAt": "2026-09-24T21:51:40Z",
       "values": {
         "text_mm4k2vch": "Yellow Card Financial Inc.",
         "color_mm4kmej3": "1-Needs Review",
@@ -10705,7 +10705,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13056498524",
       "name": "mperps - Lemongrass IT services LLC FZ",
-      "updatedAt": "2026-09-24T11:53:11Z",
+      "updatedAt": "2026-09-24T21:51:55Z",
       "values": {
         "text_mm4k2vch": "Lemongrass IT services LLC FZ",
         "color_mm4kmej3": "1-Needs Review",
@@ -10735,7 +10735,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13076673771",
       "name": "Meridiant - Catalyst Labs LLC FZ",
-      "updatedAt": "2026-09-23T20:51:56Z",
+      "updatedAt": "2026-09-24T21:52:05Z",
       "values": {
         "text_mm4k2vch": "Catalyst Labs LLC FZ",
         "color_mm4kmej3": "0-Locked+Needs Review",
@@ -10767,7 +10767,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13076720974",
       "name": "Nocturnal Wallet - The Nocturnal Foundation",
-      "updatedAt": "2026-09-23T20:52:10Z",
+      "updatedAt": "2026-09-24T21:52:19Z",
       "values": {
         "text_mm4k2vch": "The Nocturnal Foundation",
         "color_mm4kmej3": "0-Locked+Needs Review",
@@ -10800,7 +10800,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13076683931",
       "name": "cSOL - OnRails Ltd",
-      "updatedAt": "2026-09-24T09:53:10Z",
+      "updatedAt": "2026-09-24T21:52:33Z",
       "values": {
         "text_mm4k2vch": "OnRails Ltd",
         "color_mm4kmej3": "0-Locked+Needs Review",
@@ -10830,7 +10830,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13087665624",
       "name": "Float - SwapSo Inc",
-      "updatedAt": "2026-09-23T20:52:30Z",
+      "updatedAt": "2026-09-24T21:52:45Z",
       "values": {
         "text_mm4k2vch": "SwapSo Inc",
         "color_mm4kmej3": "1-Needs Review",
@@ -10857,7 +10857,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13111331892",
       "name": "Cove Wallet API - Qasara Labs Pvt Ltd",
-      "updatedAt": "2026-09-24T11:51:24Z",
+      "updatedAt": "2026-09-25T11:53:30Z",
       "values": {
         "text_mm4k2vch": "Qasara Labs Pvt Ltd",
         "color_mm4kmej3": "1-Needs Review",
@@ -10884,7 +10884,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13111369113",
       "name": "Helvex - Dream Capital",
-      "updatedAt": "2026-09-24T04:54:23Z",
+      "updatedAt": "2026-09-25T04:54:48Z",
       "values": {
         "text_mm4k2vch": "Dream Capital",
         "color_mm4kmej3": "1-Needs Review",
@@ -10913,7 +10913,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13122710944",
       "name": "OneSwap Launchpad - SatsTerminal",
-      "updatedAt": "2026-09-24T04:51:10Z",
+      "updatedAt": "2026-09-25T04:54:59Z",
       "values": {
         "text_mm4k2vch": "SatsTerminal",
         "color_mm4kmej3": "1-Needs Review",
@@ -10935,6 +10935,35 @@ window.FEATURED_APP_BOARD_DATA = {
         "long_text_mm4k6q73": "We need FA so we can move forward with the registry with DA",
         "long_text_mm4kwxt1": "The Launchpad gateway derives actor identities from authenticated wallet ownership rather than accepting arbitrary party IDs from browser requests. Write access requires supported signing authority or an active mandate. The implementation includes network checks, operation journals and retry handling; issuer and venue roles have separate parties and services. These controls address authorization and transaction integrity.",
         "long_text_mm4kxsgy": "This request is for OneSwap Launchpad as an asset issuer. The wider OneSwap product also operates a trading venue, using separate on-ledger parties and infrastructure. We will distinguish issuer activity from venue activity and reconcile eligible asset activity to its designated beneficiary."
+      }
+    },
+    {
+      "id": "13132611367",
+      "name": "Veridic - Infodive Labs",
+      "updatedAt": "2026-09-25T11:54:11Z",
+      "values": {
+        "text_mm4k2vch": "Infodive Labs",
+        "color_mm4kmej3": "1-Needs Review",
+        "long_text_mm4kq322": "infodive-mainnet-1::12201e3344f53611ec30b13bdb90daad5ce41432ebc0fcf9e2dae2703e6dae84f909",
+        "color_mm4kpp3q": "Non-Issuer",
+        "long_text_mm4khjn6": "c7624b6e30::12207c4447afbca7e52ee8bcbfd6235a06f5ae6a3f703a149d57c2460eb871fa8620",
+        "long_text_mm4km2s7": "Infodive Labs builds privacy-preserving, compliance-first DeFi infrastructure for the Canton ecosystem. Our current product, Veridic, is a high-performance prediction market deployed natively on the Canton Network, designed to leverage Canton's sub-transaction privacy model for confidential order flow and ledger-final settlement.",
+        "link_mm4kd0hk": "https://drive.google.com/file/d/1WJF5WIngTC7LZiT0WpUBhWHbaGyvU--o/view?usp=sharing",
+        "link_mm4kmq24": "https://prediction.infodivelabs.com",
+        "link_mm4kqtfa": "https://drive.google.com/file/d/16_Kwjp0wYVd6mCV1ar5KGf5EnRgyg4DE/view?usp=sharing",
+        "long_text_mm4k2537": "Veridic is a low-latency prediction-market venue built on the Canton Network, combining off-ledger matching/order routing with on-ledger, token-standard-based settlement. Trade execution occurs in sub-second time while custody of user funds and final settlement of market outcomes remain anchored to the Canton ledger, giving users exchange-grade speed with ledger-verified finality.",
+        "long_text_mm5hgry2": "Canton was our first and only choice of network. Canton's privacy architecture lets us support confidential position-taking and settlement, which is central to how we want liquidity to build on the platform without exposing counterparties' trading activity to the public ledger.",
+        "long_text_mm4k4y1h": "Professional traders and arbitrage desks requiring ultra-fast execution, minimal friction, and fee-efficient order routing to manage event-driven exposures.",
+        "long_text_mm4k15bg": "We will place activity markers(in compliance with guidelines) corresponding to on-chain activities including bet placements, and payouts corresponding to them.",
+        "long_text_mm4kh3fw": "Bet placement and market-settlement payouts are executed as Canton Network Token Standard transfers submitted through the Ledger API.",
+        "long_text_mm4kfg50": "Rewards are generated via Featured App Activity Markers, integrated per current Tokenomics Committee guidance: markers are created for on-ledger transactions that constitute genuine, economically meaningful activity (bet placement and payout), and marker issuance is tied to traffic actually burned through the application rather than issued speculatively or off the back of non-substantive transactions.",
+        "long_text_mm4kxcm2": "Daily transactions per user: we expect roughly 3-10 transactions per active user on average. Professional power users may generate 40+ on-ledger transactions daily as market activity concentrates.",
+        "long_text_mm4kvyjq": "If the user wants to open/close multiple positions across markets within the same round.",
+        "long_text_mm4k1cm0": "Aggregate transaction volume should scale approximately linearly with active user count. However, per-user throughput demand is expected to grow super-linearly with the share of high-frequency/professional participants in the user base, since that cohort transacts at materially higher rates than typical retail users.",
+        "long_text_mm4kfkwn": "Initial users are expected to be crypto-native traders migrating from existing prediction-market platforms, onboarding at or shortly after public MainNet launch. Target public go-live is October 6, or sooner subject to FA status approval.",
+        "long_text_mm4k6q73": "Based on our internal modeling, operating without FA status (i.e., without application-reward accrual) would put us at a structural cost disadvantage against already-featured incumbents in the prediction-market vertical, risking a de facto monopoly for early FA-status holders in this category. FA status materially reduces user-acquisition friction (via reward-subsidized fees/incentives) and is central to our go-to-market and growth-incentive plan, so we consider it a prerequisite for competing fairly rather than a \"nice to have.\"",
+        "long_text_mm4kwxt1": "Yes. Controls are layered across the transaction lifecycle: Onboarding/anti-Sybil: mandatory referral codes, email verification, and CAPTCHA at account creation. Pre-ledger: backend rate limiting and off-chain balance checks that filter clearly illegitimate activity before any Canton Coin transfer is submitted. Post-settlement: automated on-ledger analytics that monitor for anomalous transaction patterns to detect manipulation or gaming of reward mechanisms.",
+        "long_text_mm4kp5en": "https://drive.google.com/file/d/1WJF5WIngTC7LZiT0WpUBhWHbaGyvU--o/view?usp=sharing"
       }
     }
   ]
