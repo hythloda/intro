@@ -1,5 +1,5 @@
 window.COMMITTEE_COMPANIES_DATA = {
-  "generatedAt": "2026-09-25T12:10:55.930Z",
+  "generatedAt": "2026-09-26T11:44:51.146Z",
   "committees": {
     "faAccountability": {
       "label": "Featured Application Accountability Committee",
@@ -215,6 +215,7 @@ window.COMMITTEE_COMPANIES_DATA = {
         "LiquidityTech Limited",
         "Lloyds Bank Plc",
         "RedStone",
+        "Sats Labs Inc.",
         "SBI Digital Asset Holdings",
         "T-RIZE Group",
         "The International Securities Lending Association",
