@@ -1,5 +1,5 @@
 window.FEATURED_APP_BOARD_DATA = {
-  "generatedAt": "2026-09-26T11:31:02.675Z",
+  "generatedAt": "2026-09-27T12:09:17.169Z",
   "columns": [
     {
       "id": "text_mm4k2vch",
@@ -322,7 +322,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12954184948",
       "name": "Rapid Chain - Rapid Blockchain Technologies Ltd.",
-      "updatedAt": "2026-09-25T23:51:19Z",
+      "updatedAt": "2026-09-27T04:51:22Z",
       "values": {
         "text_mm4k2vch": "Rapid Blockchain Technologies Ltd.",
         "color_mm4kmej3": "0-Locked+Needs Review",
@@ -349,7 +349,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12959523630",
       "name": "MetCredX - NIPRO TECHNOLOGIES LIMITED",
-      "updatedAt": "2026-09-26T08:51:29Z",
+      "updatedAt": "2026-09-27T09:51:18Z",
       "values": {
         "text_mm4k2vch": "NIPRO TECHNOLOGIES LIMITED",
         "color_mm4kmej3": "1-Needs Review",
@@ -576,7 +576,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12959492765",
       "name": "Selay Wallet - Security Layer Innovations Limited",
-      "updatedAt": "2026-09-26T10:51:36Z",
+      "updatedAt": "2026-09-27T11:51:36Z",
       "values": {
         "text_mm4k2vch": "Security Layer Innovations Limited",
         "color_mm4kmej3": "0-Locked+Needs Review",
@@ -804,7 +804,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12954185167",
       "name": "SyncVotes - WEB34EVER",
-      "updatedAt": "2026-09-26T04:51:42Z",
+      "updatedAt": "2026-09-27T00:52:33Z",
       "values": {
         "text_mm4k2vch": "WEB34EVER",
         "color_mm4kmej3": "0-Locked+Needs Review",
@@ -834,7 +834,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12959522895",
       "name": "ccledger - Blueprint Infrastructure, LLC",
-      "updatedAt": "2026-09-25T23:52:03Z",
+      "updatedAt": "2026-09-27T09:51:38Z",
       "values": {
         "text_mm4k2vch": "Blueprint Infrastructure, LLC",
         "color_mm4kmej3": "1-Needs Review",
@@ -1187,7 +1187,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12944758321",
       "name": "Jubilee - Jubilee Markets",
-      "updatedAt": "2026-09-26T00:51:40Z",
+      "updatedAt": "2026-09-27T00:52:59Z",
       "values": {
         "text_mm4k2vch": "Jubilee Markets",
         "color_mm4kmej3": "0-Locked+Needs Review",
@@ -10289,7 +10289,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12964664349",
       "name": "Wintip - Winsnip",
-      "updatedAt": "2026-09-26T00:51:42Z",
+      "updatedAt": "2026-09-27T01:51:50Z",
       "values": {
         "text_mm4k2vch": "Winsnip",
         "color_mm4kmej3": "0-Locked+Needs Review",
@@ -10320,7 +10320,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12964705710",
       "name": "RAX Finance - RAX Finance",
-      "updatedAt": "2026-09-26T10:51:08Z",
+      "updatedAt": "2026-09-27T11:51:12Z",
       "values": {
         "text_mm4k2vch": "RAX Finance",
         "color_mm4kmej3": "0-Locked+Needs Review",
@@ -10379,7 +10379,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12974668475",
       "name": "OS Ledger - Outersunset",
-      "updatedAt": "2026-09-25T13:52:37Z",
+      "updatedAt": "2026-09-26T14:51:59Z",
       "values": {
         "text_mm4k2vch": "Outersunset",
         "color_mm4kmej3": "1-Needs Review",
@@ -10406,7 +10406,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12982310839",
       "name": "Ovdefi - OneNov",
-      "updatedAt": "2026-09-26T10:51:17Z",
+      "updatedAt": "2026-09-26T17:51:21Z",
       "values": {
         "text_mm4k2vch": "OneNov",
         "color_mm4kmej3": "1-Needs Review",
@@ -10436,7 +10436,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12982310399",
       "name": "Pinnaccle - Pinnaccle",
-      "updatedAt": "2026-09-26T00:52:01Z",
+      "updatedAt": "2026-09-26T14:52:12Z",
       "values": {
         "text_mm4k2vch": "Pinnaccle",
         "color_mm4kmej3": "1-Needs Review",
@@ -10464,7 +10464,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12993064923",
       "name": "Rocky Wallet - Dune Labs",
-      "updatedAt": "2026-09-26T10:51:56Z",
+      "updatedAt": "2026-09-27T11:52:05Z",
       "values": {
         "text_mm4k2vch": "Dune Labs",
         "color_mm4kmej3": "0-Locked+Needs Review",
@@ -10496,7 +10496,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13003184089",
       "name": "R1M Sentinel - R1M",
-      "updatedAt": "2026-09-26T10:52:00Z",
+      "updatedAt": "2026-09-27T01:52:29Z",
       "values": {
         "text_mm4k2vch": "R1M",
         "color_mm4kmej3": "1-Needs Review",
@@ -10555,7 +10555,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13003182078",
       "name": "Maha Wallet - PT Maha Digital Solutions",
-      "updatedAt": "2026-09-26T07:53:27Z",
+      "updatedAt": "2026-09-27T08:52:40Z",
       "values": {
         "text_mm4k2vch": "PT Maha Digital Solutions",
         "color_mm4kmej3": "1-Needs Review",
@@ -10586,7 +10586,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13023350809",
       "name": "Zabpay - DSRV",
-      "updatedAt": "2026-09-26T00:52:49Z",
+      "updatedAt": "2026-09-27T01:52:46Z",
       "values": {
         "text_mm4k2vch": "DSRV",
         "color_mm4kmej3": "1-Needs Review",
@@ -10614,7 +10614,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13023350936",
       "name": "BETH - BitSafe Validator, LLC",
-      "updatedAt": "2026-09-26T03:51:30Z",
+      "updatedAt": "2026-09-27T03:52:15Z",
       "values": {
         "text_mm4k2vch": "BitSafe Validator, LLC",
         "color_mm4kmej3": "0-Locked+Needs Review",
@@ -10646,7 +10646,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13036463016",
       "name": "P2P Company - P2P Company",
-      "updatedAt": "2026-09-26T01:53:01Z",
+      "updatedAt": "2026-09-27T01:53:29Z",
       "values": {
         "text_mm4k2vch": "P2P Company",
         "color_mm4kmej3": "1-Needs Review",
@@ -10676,7 +10676,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13046640623",
       "name": "Yellow Card - Yellow Card Financial Inc.",
-      "updatedAt": "2026-09-25T22:51:25Z",
+      "updatedAt": "2026-09-27T05:53:14Z",
       "values": {
         "text_mm4k2vch": "Yellow Card Financial Inc.",
         "color_mm4kmej3": "1-Needs Review",
@@ -10705,7 +10705,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13056498524",
       "name": "mperps - Lemongrass IT services LLC FZ",
-      "updatedAt": "2026-09-26T04:53:07Z",
+      "updatedAt": "2026-09-26T23:51:38Z",
       "values": {
         "text_mm4k2vch": "Lemongrass IT services LLC FZ",
         "color_mm4kmej3": "1-Needs Review",
@@ -10735,7 +10735,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13076673771",
       "name": "Meridiant - Catalyst Labs LLC FZ",
-      "updatedAt": "2026-09-25T22:51:46Z",
+      "updatedAt": "2026-09-26T23:51:48Z",
       "values": {
         "text_mm4k2vch": "Catalyst Labs LLC FZ",
         "color_mm4kmej3": "0-Locked+Needs Review",
@@ -10767,7 +10767,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13076720974",
       "name": "Nocturnal Wallet - The Nocturnal Foundation",
-      "updatedAt": "2026-09-25T22:51:55Z",
+      "updatedAt": "2026-09-27T00:55:01Z",
       "values": {
         "text_mm4k2vch": "The Nocturnal Foundation",
         "color_mm4kmej3": "0-Locked+Needs Review",
@@ -10800,7 +10800,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13076683931",
       "name": "cSOL - OnRails Ltd",
-      "updatedAt": "2026-09-25T22:52:04Z",
+      "updatedAt": "2026-09-26T23:52:09Z",
       "values": {
         "text_mm4k2vch": "OnRails Ltd",
         "color_mm4kmej3": "0-Locked+Needs Review",
@@ -10830,7 +10830,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13087665624",
       "name": "Float - SwapSo Inc",
-      "updatedAt": "2026-09-25T22:52:13Z",
+      "updatedAt": "2026-09-27T00:51:30Z",
       "values": {
         "text_mm4k2vch": "SwapSo Inc",
         "color_mm4kmej3": "1-Needs Review",
@@ -10857,7 +10857,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13111331892",
       "name": "Cove Wallet API - Qasara Labs Pvt Ltd",
-      "updatedAt": "2026-09-25T21:51:29Z",
+      "updatedAt": "2026-09-26T21:51:41Z",
       "values": {
         "text_mm4k2vch": "Qasara Labs Pvt Ltd",
         "color_mm4kmej3": "1-Needs Review",
@@ -10884,7 +10884,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13111369113",
       "name": "Helvex - Dream Capital",
-      "updatedAt": "2026-09-26T05:53:42Z",
+      "updatedAt": "2026-09-27T05:54:26Z",
       "values": {
         "text_mm4k2vch": "Dream Capital",
         "color_mm4kmej3": "1-Needs Review",
@@ -10913,7 +10913,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13122710944",
       "name": "OneSwap Launchpad - SatsTerminal",
-      "updatedAt": "2026-09-26T05:53:50Z",
+      "updatedAt": "2026-09-27T05:54:35Z",
       "values": {
         "text_mm4k2vch": "SatsTerminal",
         "color_mm4kmej3": "1-Needs Review",
@@ -10940,7 +10940,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13132611367",
       "name": "Veridic - Infodive Labs",
-      "updatedAt": "2026-09-26T08:54:19Z",
+      "updatedAt": "2026-09-27T04:54:58Z",
       "values": {
         "text_mm4k2vch": "Infodive Labs",
         "color_mm4kmej3": "1-Needs Review",
