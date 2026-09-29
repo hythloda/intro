@@ -1,5 +1,5 @@
 window.FEATURED_APP_PARTYID_CHANGES_DATA = {
-  "generatedAt": "2026-09-28T14:16:32.661Z",
+  "generatedAt": "2026-09-29T13:11:06.646Z",
   "columns": [
     {
       "id": "long_text_mm4kq322",
@@ -13,6 +13,15 @@ window.FEATURED_APP_PARTYID_CHANGES_DATA = {
     }
   ],
   "changes": [
+    {
+      "id": "fa463589-2e28-4d4f-aaea-1e0d09d34da6",
+      "changedAt": "2026-09-29T11:58:30.995Z",
+      "itemName": "Rapid Chain - Rapid Blockchain Technologies Ltd.",
+      "itemId": "12954184948",
+      "field": "Locking PartyIDs",
+      "previousValue": "23d169c2-0909-4c70-81d1-1922de6febaa::1220f7a9536dd3ac943688bff534eb25b28046b6660b1f579d2d0d0037dacc96dcac",
+      "newValue": ""
+    },
     {
       "id": "5fe4868e-5ae7-4759-b2bd-10badd437af9",
       "changedAt": "2026-09-23T23:28:03.735Z",
@@ -183,15 +192,6 @@ window.FEATURED_APP_PARTYID_CHANGES_DATA = {
       "field": "Locking PartyIDs",
       "previousValue": "23d169c2-0909-4c70-81d1-1922de6febaa::1220408191e246d8d4b125e8d6b67828c71e0c058fe430edf2c773d99c7c1091af07",
       "newValue": ""
-    },
-    {
-      "id": "b70637af-a570-41bf-8a8b-2bab8861d291",
-      "changedAt": "2026-09-17T19:38:28.961Z",
-      "itemName": "Modulo Vault",
-      "itemId": "13073381479",
-      "field": "Locking PartyIDs",
-      "previousValue": "23d169c2-0909-4c70-81d1-1922de6febaa::12208ed5d822bd47a2e912ca9154ca2871ebb375cb99777bab0ae85d20060a44c811",
-      "newValue": "23d169c2-0909-4c70-81d1-1922de6febaa::1220f17bc6f42ec54e67717621a19e5a9954461dc6e44c5b766fc099dad86ef4aadf"
     }
   ]
 };
