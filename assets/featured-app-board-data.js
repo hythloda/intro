@@ -1,5 +1,5 @@
 window.FEATURED_APP_BOARD_DATA = {
-  "generatedAt": "2026-09-29T13:00:23.312Z",
+  "generatedAt": "2026-09-30T12:42:22.508Z",
   "columns": [
     {
       "id": "text_mm4k2vch",
@@ -347,7 +347,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12959523630",
       "name": "MetCredX - NIPRO TECHNOLOGIES LIMITED",
-      "updatedAt": "2026-09-29T10:51:28Z",
+      "updatedAt": "2026-09-30T10:51:16Z",
       "values": {
         "text_mm4k2vch": "NIPRO TECHNOLOGIES LIMITED",
         "color_mm4kmej3": "1-Needs Review",
@@ -574,7 +574,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12959492765",
       "name": "Selay Wallet - Security Layer Innovations Limited",
-      "updatedAt": "2026-09-29T12:52:06Z",
+      "updatedAt": "2026-09-30T10:51:39Z",
       "values": {
         "text_mm4k2vch": "Security Layer Innovations Limited",
         "color_mm4kmej3": "0-Locked+Needs Review",
@@ -802,14 +802,14 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12954185167",
       "name": "SyncVotes - WEB34EVER",
-      "updatedAt": "2026-09-29T02:52:11Z",
+      "updatedAt": "2026-09-30T03:52:13Z",
       "values": {
         "text_mm4k2vch": "WEB34EVER",
         "color_mm4kmej3": "0-Locked+Needs Review",
         "long_text_mm4kq322": "syncvotes-app-provider::122050f896a953422a6745ce77a4a1537e4b869f939f0eb8cb8cfdb189e2acaa7218",
         "color_mm4kpp3q": "Non-Issuer",
-        "long_text_mm4khjn6": "Account name Lock Party 70133 Party ID 23d169c2-0909-4c70-81d1-1922de6febaa::12207afc6e98a8ecf74866bfabba5ef7c6f45bbbf45bb9a5976c1d9ca53055fb0284 Organization details Organization Canton Strategic Holdings, Inc. Account name CSH Interest Collection Party ID 12204::12204386fae042f28f106036eb6a6360d9f9f5a0fedebd6afd2211323b659b4f134f Lock confirmed On-chain lock verified by Cashen Admin. Accrual begins. Aug 5, 2026 16:05",
-        "numeric_mm4k6919": "7.3",
+        "long_text_mm4khjn6": "23d169c2-0909-4c70-81d1-1922de6febaa::12207afc6e98a8ecf74866bfabba5ef7c6f45bbbf45bb9a5976c1d9ca53055fb0284",
+        "numeric_mm4k6919": "5.0",
         "long_text_mm4km2s7": "WEB34EVER is a validator operator and infrastructure company focused on on-chain governance. We run validator nodes across multiple networks, including our own Canton Network MainNet validator.",
         "link_mm4kd0hk": "https://app.syncvotes.com/brand",
         "link_mm4kmq24": "https://SyncVotes.com",
@@ -832,7 +832,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12959522895",
       "name": "ccledger - Blueprint Infrastructure, LLC",
-      "updatedAt": "2026-09-29T10:00:30Z",
+      "updatedAt": "2026-09-30T04:00:17Z",
       "values": {
         "text_mm4k2vch": "Blueprint Infrastructure, LLC",
         "color_mm4kmej3": "1-Needs Review",
@@ -1154,7 +1154,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12870058108",
       "name": "R1M Sentinel - R1M",
-      "updatedAt": "2026-09-29T10:00:32Z",
+      "updatedAt": "2026-09-30T04:00:21Z",
       "values": {
         "text_mm4k2vch": "R1M",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -1185,7 +1185,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12944758321",
       "name": "Jubilee - Jubilee Markets",
-      "updatedAt": "2026-09-29T02:52:35Z",
+      "updatedAt": "2026-09-30T03:52:35Z",
       "values": {
         "text_mm4k2vch": "Jubilee Markets",
         "color_mm4kmej3": "0-Locked+Needs Review",
@@ -1740,7 +1740,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12791057047",
       "name": "OS Ledger - Outersunset",
-      "updatedAt": "2026-09-29T10:00:34Z",
+      "updatedAt": "2026-09-30T04:00:23Z",
       "values": {
         "text_mm4k2vch": "Outersunset",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -2214,7 +2214,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12769413819",
       "name": "Canquest - PT JARINGAN SIMPUL TEKNOLOGI",
-      "updatedAt": "2026-09-29T10:00:36Z",
+      "updatedAt": "2026-09-30T04:00:24Z",
       "values": {
         "text_mm4k2vch": "PT JARINGAN SIMPUL TEKNOLOGI",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -2737,7 +2737,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467789103",
       "name": "Jubilee Treasury",
-      "updatedAt": "2026-09-29T10:00:37Z",
+      "updatedAt": "2026-09-30T04:00:25Z",
       "values": {
         "text_mm4k2vch": "Jubilee Treasury",
         "color_mm4kmej3": "6-Withdrawn",
@@ -2876,7 +2876,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12731951755",
       "name": "Cove Wallet API - Qasara Labs Private Limited",
-      "updatedAt": "2026-09-29T10:00:39Z",
+      "updatedAt": "2026-09-30T04:00:30Z",
       "values": {
         "text_mm4k2vch": "Qasara Labs Private Limited",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -3227,7 +3227,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12626943292",
       "name": "Yellow Card - Yellow Card Financial Inc.",
-      "updatedAt": "2026-09-29T10:00:42Z",
+      "updatedAt": "2026-09-30T04:00:31Z",
       "values": {
         "text_mm4k2vch": "Yellow Card Financial Inc.",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -3391,7 +3391,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12609616425",
       "name": "Arkhia x402 Facilitator-as-a-Service (FaaS) - Arkhia Pte Ltd",
-      "updatedAt": "2026-09-29T10:00:44Z",
+      "updatedAt": "2026-09-30T04:00:33Z",
       "values": {
         "text_mm4k2vch": "Arkhia Pte Ltd",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -3674,7 +3674,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467854321",
       "name": "Privket.com",
-      "updatedAt": "2026-09-29T10:00:45Z",
+      "updatedAt": "2026-09-30T04:00:36Z",
       "values": {
         "text_mm4k2vch": "Privket",
         "color_mm4kmej3": "6-Withdrawn",
@@ -3699,7 +3699,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12568365683",
       "name": "Synfin - Cayvox Labs",
-      "updatedAt": "2026-09-29T10:00:46Z",
+      "updatedAt": "2026-09-30T04:00:38Z",
       "values": {
         "text_mm4k2vch": "Cayvox Labs",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -3808,7 +3808,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12471377959",
       "name": "OpenBaskets - BlockxAI Limited",
-      "updatedAt": "2026-09-29T10:00:48Z",
+      "updatedAt": "2026-09-30T04:00:39Z",
       "values": {
         "text_mm4k2vch": "BlockxAI Limited",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -4264,7 +4264,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467790154",
       "name": "Ov Defi",
-      "updatedAt": "2026-09-29T12:00:28Z",
+      "updatedAt": "2026-09-30T04:00:41Z",
       "values": {
         "text_mm4k2vch": "OneNov",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -4344,7 +4344,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467789257",
       "name": "Saxon Automate / Canton Keeper",
-      "updatedAt": "2026-09-29T12:00:29Z",
+      "updatedAt": "2026-09-30T04:00:42Z",
       "values": {
         "text_mm4k2vch": "Saxon",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -4465,7 +4465,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467790155",
       "name": "Mperps",
-      "updatedAt": "2026-09-29T12:00:30Z",
+      "updatedAt": "2026-09-30T04:00:44Z",
       "values": {
         "text_mm4k2vch": "Lemongrass IT Services LLC-Fz",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -4643,7 +4643,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467790000",
       "name": "BENJI",
-      "updatedAt": "2026-09-29T12:00:32Z",
+      "updatedAt": "2026-09-30T04:00:45Z",
       "values": {
         "text_mm4k2vch": "Franklin Templeton",
         "color_mm4kmej3": "3-CIP-0116-paused",
@@ -4670,7 +4670,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467790006",
       "name": "CC Ledger",
-      "updatedAt": "2026-09-29T12:00:34Z",
+      "updatedAt": "2026-09-30T04:00:46Z",
       "values": {
         "text_mm4k2vch": "Blueprint Infrastructure, LLC",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -5954,7 +5954,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467847773",
       "name": "CC Space",
-      "updatedAt": "2026-09-29T12:00:36Z",
+      "updatedAt": "2026-09-30T04:00:48Z",
       "values": {
         "text_mm4k2vch": "ITRocket LLC",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -6211,7 +6211,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467847778",
       "name": "Ov Defi",
-      "updatedAt": "2026-09-29T12:00:37Z",
+      "updatedAt": "2026-09-30T04:00:49Z",
       "values": {
         "text_mm4k2vch": "OneNov",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -6766,7 +6766,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467834325",
       "name": "ChainSafe x402 Global Facilitator",
-      "updatedAt": "2026-09-29T12:00:39Z",
+      "updatedAt": "2026-09-30T04:00:50Z",
       "values": {
         "text_mm4k2vch": "ChainSafe",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -6824,7 +6824,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467834326",
       "name": "Squads Non-Custodial Wallet",
-      "updatedAt": "2026-09-29T12:00:41Z",
+      "updatedAt": "2026-09-30T04:00:52Z",
       "values": {
         "text_mm4k2vch": "SQUADS",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -6851,7 +6851,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467783449",
       "name": "Mperps",
-      "updatedAt": "2026-09-29T12:00:43Z",
+      "updatedAt": "2026-09-30T04:00:54Z",
       "values": {
         "text_mm4k2vch": "Lemongrass IT Services LLC-Fz",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -6910,7 +6910,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467783450",
       "name": "Canquest",
-      "updatedAt": "2026-09-29T12:00:49Z",
+      "updatedAt": "2026-09-30T04:00:55Z",
       "values": {
         "text_mm4k2vch": "Canquest",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -7458,7 +7458,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467838018",
       "name": "Ekiden",
-      "updatedAt": "2026-09-29T12:00:51Z",
+      "updatedAt": "2026-09-30T04:00:56Z",
       "values": {
         "text_mm4k2vch": "Allspark Markets Ltd.",
         "color_mm4kmej3": "2-Approved",
@@ -7512,7 +7512,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467856988",
       "name": "MEME token and Coinflip",
-      "updatedAt": "2026-09-29T12:00:52Z",
+      "updatedAt": "2026-09-30T04:00:58Z",
       "values": {
         "text_mm4k2vch": "Archerswap",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -7541,7 +7541,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467783446",
       "name": "FlowRyd",
-      "updatedAt": "2026-09-29T12:00:56Z",
+      "updatedAt": "2026-09-30T04:00:59Z",
       "values": {
         "text_mm4k2vch": "Towler Enterprises",
         "color_mm4kmej3": "2-Approved",
@@ -7933,7 +7933,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467847770",
       "name": "VAULT",
-      "updatedAt": "2026-09-29T12:00:57Z",
+      "updatedAt": "2026-09-30T04:01:01Z",
       "values": {
         "text_mm4k2vch": "HighTower",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -7995,7 +7995,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467856986",
       "name": "HydraX",
-      "updatedAt": "2026-09-29T12:00:59Z",
+      "updatedAt": "2026-09-30T04:01:02Z",
       "values": {
         "text_mm4k2vch": "HydraX",
         "color_mm4kmej3": "2-Approved",
@@ -8432,7 +8432,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467824052",
       "name": "Canquest",
-      "updatedAt": "2026-09-29T12:01:06Z",
+      "updatedAt": "2026-09-30T04:01:03Z",
       "values": {
         "text_mm4k2vch": "Naxweb",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -8492,7 +8492,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467824053",
       "name": "Deploi Credit Market",
-      "updatedAt": "2026-09-29T12:01:09Z",
+      "updatedAt": "2026-09-30T04:01:06Z",
       "values": {
         "text_mm4k2vch": "Deploi",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -8552,7 +8552,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467824055",
       "name": "AUROX on Canton for featured app",
-      "updatedAt": "2026-09-29T12:01:11Z",
+      "updatedAt": "2026-09-30T04:01:08Z",
       "values": {
         "text_mm4k2vch": "International Institute of Blockchain Advanced Technology",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -9409,7 +9409,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467825386",
       "name": "Agora: Survey & Vote",
-      "updatedAt": "2026-09-29T12:01:13Z",
+      "updatedAt": "2026-09-30T04:01:09Z",
       "values": {
         "text_mm4k2vch": "Agora: Survey & Vote",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -9732,7 +9732,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467832618",
       "name": "ScopeX Rate Lock",
-      "updatedAt": "2026-09-29T12:01:16Z",
+      "updatedAt": "2026-09-30T04:01:10Z",
       "values": {
         "text_mm4k2vch": "ScopeX Money",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -10287,7 +10287,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12964664349",
       "name": "Wintip - Winsnip",
-      "updatedAt": "2026-09-29T02:52:47Z",
+      "updatedAt": "2026-09-30T06:51:18Z",
       "values": {
         "text_mm4k2vch": "Winsnip",
         "color_mm4kmej3": "0-Locked+Needs Review",
@@ -10377,7 +10377,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12974668475",
       "name": "OS Ledger - Outersunset",
-      "updatedAt": "2026-09-29T12:01:20Z",
+      "updatedAt": "2026-09-30T04:01:11Z",
       "values": {
         "text_mm4k2vch": "Outersunset",
         "color_mm4kmej3": "1-Needs Review",
@@ -10404,7 +10404,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12982310839",
       "name": "Ovdefi - OneNov",
-      "updatedAt": "2026-09-29T12:01:22Z",
+      "updatedAt": "2026-09-30T04:01:13Z",
       "values": {
         "text_mm4k2vch": "OneNov",
         "color_mm4kmej3": "1-Needs Review",
@@ -10434,7 +10434,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12982310399",
       "name": "Pinnaccle - Pinnaccle",
-      "updatedAt": "2026-09-29T10:52:09Z",
+      "updatedAt": "2026-09-30T00:52:00Z",
       "values": {
         "text_mm4k2vch": "Pinnaccle",
         "color_mm4kmej3": "1-Needs Review",
@@ -10462,7 +10462,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12993064923",
       "name": "Rocky Wallet - Dune Labs",
-      "updatedAt": "2026-09-29T12:52:36Z",
+      "updatedAt": "2026-09-30T06:52:36Z",
       "values": {
         "text_mm4k2vch": "Dune Labs",
         "color_mm4kmej3": "0-Locked+Needs Review",
@@ -10494,7 +10494,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13003184089",
       "name": "R1M Sentinel - R1M",
-      "updatedAt": "2026-09-29T12:01:24Z",
+      "updatedAt": "2026-09-30T08:52:00Z",
       "values": {
         "text_mm4k2vch": "R1M",
         "color_mm4kmej3": "1-Needs Review",
@@ -10553,11 +10553,11 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13003182078",
       "name": "Maha Wallet - PT Maha Digital Solutions",
-      "updatedAt": "2026-09-29T11:59:28Z",
+      "updatedAt": "2026-09-30T00:53:19Z",
       "values": {
         "text_mm4k2vch": "PT Maha Digital Solutions",
         "color_mm4kmej3": "1-Needs Review",
-        "long_text_mm4kq322": "maha-wallet::122025cef1bec8edc8aa50108068aa065b63dc1336f0695448dc8d669ae029e08ff8",
+        "long_text_mm4kq322": "maha-validator-1::122025cef1bec8edc8aa50108068aa065b63dc1336f0695448dc8d669ae029e08ff8",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "Pending, in progress with Cashen for the CC-lock process.",
         "long_text_mm4km2s7": "PT Maha Digital Solutions is the team behind Maha Wallet, a portable, non-custodial identity and utility layer for Canton Network. We build a browser extension wallet, a developer SDK, a Telegram-native tip bot, and a fiat-to-CC pricing API, all built around Canton external party model so a users Canton identity isn't locked to one validator's wallet UI.",
@@ -10584,7 +10584,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13023350809",
       "name": "Zabpay - DSRV",
-      "updatedAt": "2026-09-29T11:52:21Z",
+      "updatedAt": "2026-09-30T07:53:31Z",
       "values": {
         "text_mm4k2vch": "DSRV",
         "color_mm4kmej3": "1-Needs Review",
@@ -10612,7 +10612,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13023350936",
       "name": "BETH - BitSafe Validator, LLC",
-      "updatedAt": "2026-09-29T12:51:25Z",
+      "updatedAt": "2026-09-29T13:51:22Z",
       "values": {
         "text_mm4k2vch": "BitSafe Validator, LLC",
         "color_mm4kmej3": "0-Locked+Needs Review",
@@ -10644,7 +10644,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13036463016",
       "name": "P2P Company - P2P Company",
-      "updatedAt": "2026-09-29T03:53:45Z",
+      "updatedAt": "2026-09-30T04:54:27Z",
       "values": {
         "text_mm4k2vch": "P2P Company",
         "color_mm4kmej3": "1-Needs Review",
@@ -10674,7 +10674,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13046640623",
       "name": "Yellow Card - Yellow Card Financial Inc.",
-      "updatedAt": "2026-09-29T01:53:06Z",
+      "updatedAt": "2026-09-30T01:53:48Z",
       "values": {
         "text_mm4k2vch": "Yellow Card Financial Inc.",
         "color_mm4kmej3": "1-Needs Review",
@@ -10703,7 +10703,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13056498524",
       "name": "mperps - Lemongrass IT services LLC FZ",
-      "updatedAt": "2026-09-29T12:01:27Z",
+      "updatedAt": "2026-09-30T04:01:17Z",
       "values": {
         "text_mm4k2vch": "Lemongrass IT services LLC FZ",
         "color_mm4kmej3": "1-Needs Review",
@@ -10733,7 +10733,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13076673771",
       "name": "Meridiant - Catalyst Labs LLC FZ",
-      "updatedAt": "2026-09-29T11:59:55Z",
+      "updatedAt": "2026-09-30T05:51:20Z",
       "values": {
         "text_mm4k2vch": "Catalyst Labs LLC FZ",
         "color_mm4kmej3": "0-Locked+Needs Review",
@@ -10765,7 +10765,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13076720974",
       "name": "Nocturnal Wallet - The Nocturnal Foundation",
-      "updatedAt": "2026-09-29T07:54:10Z",
+      "updatedAt": "2026-09-30T01:54:25Z",
       "values": {
         "text_mm4k2vch": "The Nocturnal Foundation",
         "color_mm4kmej3": "0-Locked+Needs Review",
@@ -10798,7 +10798,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13076683931",
       "name": "cSOL - OnRails Ltd",
-      "updatedAt": "2026-09-29T08:53:21Z",
+      "updatedAt": "2026-09-30T01:54:35Z",
       "values": {
         "text_mm4k2vch": "OnRails Ltd",
         "color_mm4kmej3": "0-Locked+Needs Review",
@@ -10828,13 +10828,14 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13087665624",
       "name": "Float - SwapSo Inc",
-      "updatedAt": "2026-09-29T10:53:46Z",
+      "updatedAt": "2026-09-30T01:54:48Z",
       "values": {
         "text_mm4k2vch": "SwapSo Inc",
         "color_mm4kmej3": "1-Needs Review",
         "long_text_mm4kq322": "Float-validator-1Float-validator-1::1220fbc3e15c8028f00a1a9fbbe2b06cbc96b9f9666454fc418f6369b5b40b7e8946",
         "color_mm4kpp3q": "Non-Issuer",
-        "long_text_mm4khjn6": "We are already onboarded on Cashen and discussing a 5M lock with them. We will ensure that locking requirements are completed as per guidelines.",
+        "long_text_mm4khjn6": "cantonwallet-cashen-send-lock::12202143cc113f85b8fde95b7870c0f31a2d46f7ed1bfbc174bee557808f80dc7a95",
+        "numeric_mm4k6919": "5.0",
         "long_text_mm4km2s7": "SwapSo Inc has built crypto products for over three years, including the SwapSo Bitcoin wallet and app, the Bitcoin India Tour and Bredit. On Canton we build Slay Money, a live MainNet wallet and utility app that already holds Featured App status. Float is our second Canton product: a separate app with its own validator, database and domain, aimed at the biggest gap for newcomers to Canton, which is getting in and out.",
         "link_mm4kmq24": "https://myfloat.cc",
         "long_text_mm4k2537": "Float is the open gateway to Canton. Deposit BTC, ETH, USDC, SOL or 2,000+ other assets and receive Canton Coin at your Canton party ID, or send CC out to any asset at an address you control. Float quotes several exchange partners at once, routes each order to the best rate, and settles natively on Canton. There's no wrapped token and no bridge contract to trust.",
@@ -10855,14 +10856,14 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13111331892",
       "name": "Cove Wallet API - Qasara Labs Pvt Ltd",
-      "updatedAt": "2026-09-29T12:01:30Z",
+      "updatedAt": "2026-09-30T03:51:18Z",
       "values": {
         "text_mm4k2vch": "Qasara Labs Pvt Ltd",
         "color_mm4kmej3": "1-Needs Review",
         "long_text_mm4kq322": "cove-utshcbgswo::12206e1a215f9cbbc1826c3f1c2805d8116c712c0da60bc5a96084d29017b75a9204",
         "color_mm4kpp3q": "Non-Issuer",
-        "long_text_mm4khjn6": "cove-pdyctwhntx::1220694ba083b3767511d89166b5421573deb96b62bad3452f9dba9335c24672e8ed",
-        "numeric_mm4k6919": "0.0",
+        "long_text_mm4khjn6": "23d169c2-0909-4c70-81d1-1922de6febaa::1220e88fd2c4184da237c4d2a89f31b2f6ae2ee88c073c3824c96b812cca51ab12a1",
+        "numeric_mm4k6919": "5.0",
         "long_text_mm4km2s7": "Qasara Labs builds the institutional access layer for DeFi on the Canton Network. We serve programmatic users that consumer-focused Canton applications do not address: market makers, OTC desks, fintech platforms, custodians, exchanges, and increasingly autonomous agents that pay for services per request. Qasara operates its own Canton MainNet validator and contributes open-source infrastructure to the ecosystem, including an event-stream service proposed to the Development Fund.",
         "link_mm4kmq24": "https://qasara.ai/cove",
         "long_text_mm4k2537": "Cove Wallet API is a non-custodial REST gateway that lets developers, trading bots, exchanges, and fintech platforms transact on the Canton Network without running their own validator. It uses a prepare-sign-broadcast pattern. Cove prepares transactions, the client signs externally with their own private keys, and Cove broadcasts the signed transaction to Canton. Cove never holds private keys. On top of this it ships the full regulated-asset lifecycle: issuance (exactly-once minting), delivery (non-custodial, against on-ledger pre-authorisation), and redemption (issuer burn). It also provides real-time event streams (WebSocket and Server-Sent Events) for settlement and reconciliation.",
@@ -10882,14 +10883,14 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13111369113",
       "name": "Helvex - Dream Capital",
-      "updatedAt": "2026-09-29T12:01:32Z",
+      "updatedAt": "2026-09-30T07:57:41Z",
       "values": {
         "text_mm4k2vch": "Dream Capital",
         "color_mm4kmej3": "1-Needs Review",
         "long_text_mm4kq322": "helvex-provider-1::1220c5ac264c69e428e1064e9ca5a0b0d5be586e6befa41c133223f7e044f8b85d60",
         "color_mm4kpp3q": "Non-Issuer",
-        "long_text_mm4khjn6": "helvex-provider-1::1220c5ac264c69e428e1064e9ca5a0b0d5be586e6befa41c133223f7e044f8b85d60",
-        "numeric_mm4k6919": "0.0",
+        "long_text_mm4khjn6": "23d169c2-0909-4c70-81d1-1922de6febaa::1220590cb7e035449c6c6adc13aa2117e6c3e0eecf852bca42777097dd459dffc9e0",
+        "numeric_mm4k6919": "5.0",
         "long_text_mm4km2s7": "Helvex is a Canton-native, permissioned RFQ trading desk by the Dream Capital team — not an issuer, wallet, or Super Validator. A KYC-verified user posts a swap intent (e.g. USDCx → CC or CBTC → USDCx); an independent solver fills it; settlement is one atomic CIP-0056 DvP on our self-hosted validator. Live on MainNet with Didit KYC + on-ledger allowlist",
         "link_mm4kmq24": "https://helvex.cc",
         "link_mm4kqtfa": "https://drive.google.com/file/d/16cxuCvTLt_vNZlmY-KNvL9hpOKQMFCyo/view?usp=sharing",
@@ -10911,7 +10912,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13122710944",
       "name": "OneSwap Launchpad - SatsTerminal",
-      "updatedAt": "2026-09-29T08:51:19Z",
+      "updatedAt": "2026-09-30T08:54:29Z",
       "values": {
         "text_mm4k2vch": "SatsTerminal",
         "color_mm4kmej3": "1-Needs Review",
@@ -10938,7 +10939,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13132611367",
       "name": "Veridic - Infodive Labs",
-      "updatedAt": "2026-09-29T05:53:51Z",
+      "updatedAt": "2026-09-30T05:55:16Z",
       "values": {
         "text_mm4k2vch": "Infodive Labs",
         "color_mm4kmej3": "1-Needs Review",
@@ -10968,7 +10969,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13156830721",
       "name": "SyncVotes - WEB34EVER",
-      "updatedAt": "2026-09-29T12:01:33Z",
+      "updatedAt": "2026-09-30T04:55:31Z",
       "values": {
         "text_mm4k2vch": "WEB34EVER",
         "color_mm4kmej3": "1-Needs Review",
@@ -10996,6 +10997,32 @@ window.FEATURED_APP_BOARD_DATA = {
         "long_text_mm4khbeg": "https://github.com/SYNCVOTES/syncvotes",
         "long_text_mm4kp5en": "https://syncvotes.com/brand",
         "long_text_mm4kxsgy": "This is an updated application for the party we applied with on 1 September 2026 (Entry ID 1376); the support letters from POSTHUMAN, unlockit, Cashen and BitSafe in that thread stand. What changed: on 23 September we replaced v1 with v2. Members now hold their keys in the browser and the browser verifies every transaction before signing it; the Daml package is new and evolves as Smart Contract Upgrades; the code is public under MIT with 20-page user documentation; and the trust model is published, including what the hosting validator can see. A private DAO is hidden from other users of the app, and a secret ballot from other members, but the validator that hosts a DAO can read it; communities that need no outside operator can run SyncVotes on their own validator (https://syncvotes.com/docs/self-hosting). We have also added an operational treasury from which a DAO pays for its operations. A DAO treasury with multisig payouts is the next step, proposed to the Dev Fund (https://github.com/canton-foundation/canton-dev-fund/pull/70)."
+      }
+    },
+    {
+      "id": "13167162421",
+      "name": "Scopex Rate Lock - ScopeX Money",
+      "updatedAt": "2026-09-30T05:00:56Z",
+      "values": {
+        "text_mm4k2vch": "ScopeX Money",
+        "color_mm4kmej3": "1-Needs Review",
+        "long_text_mm4kq322": "scopex-validator-1::1220c7e50bf8c378a7240cf442c0d2012578c5ed3f6afaac1d3500a6300dfdb20f65",
+        "color_mm4kpp3q": "Non-Issuer",
+        "long_text_mm4khjn6": "scopex-validator-1::122021e5b9722a377dedb6f8fe521787d432f784b34160c2e3ddce3fd4985529f7a4",
+        "numeric_mm4k6919": "0.0",
+        "long_text_mm4km2s7": "ScopeX is a regulated fintech company offering cross-border payment and remittance services to Non-Resident Indians (NRIs) across Europe and USA. We process over €125M in transfer volume for 45,000+ users sending money from EUR and USD corridors to India. ScopeX and/or its partners hold the necessary regulatory licenses for cross-border money transmission and operate with full AML/KYC compliance infrastructure. We are building Scopex Rate Lock, the first FX limit order protocol for cross-border remittances, to migrate our remittance operations onto Canton's privacy-preserving ledger. Canton is the only network where our users' salary remittances stay private. On transparent chains, competitors can analyze our corridor volumes, pricing, and user patterns. In Canton, every order is visible only to the sender and ScopeX.",
+        "long_text_mm4k2537": "Scopex Rate Lock is a privacy-preserving FX limit order protocol for cross-border remittances. Users set a target exchange rate and lock funds on-chain. When the market rate reaches their target, the smart contract automatically executes the settlement and triggers off-ramp to the receiver's bank account, without the sender needing to monitor rates or manually approve the transfer. While the user is waiting for the target rate, they will earn yield on the asset in the wallet. No other remittance service, on any blockchain or in traditional fintech, offers automated FX limit orders. Wise, Remitly, and Western Union all require users to accept the current rate immediately. Scopex Rate Lock lets users say \"send €2,400 to India when EUR/INR hits 111.5\" and walk away. The receiver requires no Canton wallet. They receive local currency directly into their bank account. Only the sender needs to be onboarded to Canton.",
+        "long_text_mm5hgry2": "Yes. A version of this functionality has been deployed in a prior production environment, which validated real user demand. The Canton implementation is fundamentally different — it adds privacy-preserving orders, atomic on-chain rate enforcement, and non-custodial settlement without re-signing, none of which were possible in the prior deployment.",
+        "long_text_mm4k4y1h": "Primary users are Non-Resident Indians (NRIs) living across Europe, USA, and UK, who regularly send remittances to family in India. These are working professionals aged 25–45 who send an average of €500–€1,500 per month. ScopeX already has 60,000+ users actively using our remittance service. These users will be migrated onto Scopex Rate Lock as the on-chain settlement layer. There is no new user acquisition required for initial launch, existing ScopeX users will benefit from better rates through automated FX limit orders. Enterprise use case: Companies paying international contractors or employees in India can use Rate Lock to optimize payroll FX costs with automated execution.",
+        "long_text_mm4k15bg": "Primary reward event: RateLockOrder.Execute. Each remittance settlement creates a FeaturedAppActivityMarker (current) or generates traffic-weighted rewards (post-CIP-0104 Increment 4). This is the economically important event, an actual cross-border transfer of real monetary value.",
+        "long_text_mm4kh3fw": "ScopeX Rate Lock uses the Ledger JSON API (v2) exclusively for all ledger interactions. No gRPC is required for the application layer. The Go automation service (canton-remit/service) runs a continuous loop: • Every 5 minutes: Exercise RateOracle.Publish with the latest EUR/INR rate from https://v2.scopex.dev/misc/rate — an on-chain transaction updating the live oracle contract. • Every cycle: Query all active RateLockOrder contracts using /v2/state/active-contracts to identify pending orders and their status. • For rate-matched orders: Exercise RateLockOrder.Execute — validates rate condition, expiry, and corridor constraints atomically, creates OffRampInstruction and CC activity marker. The customer's authority flows from their signatory on the RateLockOrder contract — no re-signing required at settlement. • For expired orders: Exercise RateLockOrder.Expire — on-chain time enforcement (now >= expiresAt) prevents premature expiry; returns funds to sender via Allocation_Withdraw sub-action within the same atomic transaction. • Customer-initiated cancel: RateLockOrder.Cancel is controlled by the sender (customer) — they can reclaim locked funds at any time while the order is Pending, without operator involvement. All contracts are deployed as a single DAR (canton-remit-ratelock-v5) compiled with Daml SDK 3.4.11 targeting LF 2.1, uploaded via the Canton participant admin API with automatic vetting.",
+        "long_text_mm4kfg50": "Activity Markers, until CIP-0104 Increment 4 activates, at which point traffic-based rewards apply automatically. The RateLockOrder.Execute choice directly exercises FeaturedAppRight_CreateActivityMarker from the splice-api-featured-app-v1 interface within the same atomic Daml transaction as the settlement. The marker is created with: • beneficiary = operator (ScopeX party) • weight = 1.0 This has been tested and verified on Devnet.",
+        "long_text_mm4kxcm2": "On a per user basis, what is your expected daily number of transactions: Each user averages 2 remittances per month, generating approximately 60 settlement transactions per day at launch with 1,000 active users. The RateOracle publishes EUR/INR rates on-chain every 5 minutes, 288 oracle transactions per day globally. FeaturedAppActivityMarkers are created exclusively on settlement (RateLockOrder.Execute), not on oracle publishes. Total estimated on-chain activity at launch is approximately 350 transactions per day, scaling linearly with user growth.",
+        "long_text_mm4kvyjq": "Under what conditions may a user generate multiple transactions per round/epoch? Multiple orders: A user can have multiple concurrent limit orders (e.g., send €1,000 at 111.5, send €2,000 at 112.0, and send €500 at 110.0 if the rate drops). If multiple rate thresholds are hit in the same round, multiple settlements execute. Rate updates: The oracle publishes rates every 5 minutes. Each “publish” is a separate on-chain transaction. Multiple rate updates per round are expected. Order management: A user who cancels or expires an order generates one additional on-chain transaction per action.",
+        "long_text_mm4k1cm0": "Transaction volume scales linearly with user growth. Each new user contributes settlement transactions proportional to their remittance activity, approximately 2 settlements per month. Oracle publish transactions are fixed per corridor at 288 per day regardless of how many users or pending orders exist (one publish every 5 minutes, 24 hours a day). At 10,000 users across 3 corridors, estimated daily transactions are approximately 667 settlements plus 864 oracle publishes, totalling around 1,531 transactions per day.",
+        "long_text_mm4kfkwn": "First customers are existing ScopeX users who opt into the ScopeX Rate Lock feature. Planned rollout: • Week 1 post-launch: 100 beta users from existing ScopeX customer base (EUR→INR corridor only) • Month 1: 500 active users, 3 corridors (EUR/GBP/USD→INR) • Month 3: Full 60,000 user migration option available",
+        "long_text_mm4k6q73": "Scopex Rate Lock will operate on MainNet regardless of Featured App status. Our core revenue model is based on FX spread and transaction fees from remittance settlements, the same economic foundation that drives our existing €180M+ annual transfer volume on traditional rails. We are a regulated fintech business with 60,000+ paying users, not a protocol dependent on token rewards to survive. Without FA status, we still launch, still migrate users, and still generate revenue from every settlement. Featured App status would meaningfully accelerate our ecosystem contributions, CC rewards would be reinvested into user incentives, liquidity provision, and expanding to new corridors faster. But they are an accelerant, not a requirement.",
+        "long_text_mm4kwxt1": "Yes. Multiple layers of controls are in place: • KYC/AML gate: Every user must pass full KYC/AML verification through ScopeX's FCA-compliant compliance infrastructure before interacting with any contract. • Real funds requirement: Every RateLockOrder requires actual funds to be locked on-chain before the order is created. • On-chain rate enforcement: The Execute choice atomically asserts the rate condition on-chain — there is no way to trigger settlement at a fabricated rate. • On-chain time enforcement: The Expire choice asserts now >= expiresAt using Canton ledger time — the operator cannot expire orders prematurely. • Single-consumption allocation: Each locked CIP-56 DvpLegAllocation can only be consumed once, therefore no double settlement is possible. • Activity markers only on settlement: FeaturedAppActivityMarkers are created exclusively within RateLockOrder.Execute, so they cannot be submitted independently of a genuine settlement transaction."
       }
     }
   ]
