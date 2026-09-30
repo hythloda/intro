@@ -1,5 +1,5 @@
 window.FEATURED_APP_PARTYID_CHANGES_DATA = {
-  "generatedAt": "2026-09-29T13:11:06.646Z",
+  "generatedAt": "2026-09-30T12:51:32.177Z",
   "columns": [
     {
       "id": "long_text_mm4kq322",
@@ -13,6 +13,51 @@ window.FEATURED_APP_PARTYID_CHANGES_DATA = {
     }
   ],
   "changes": [
+    {
+      "id": "e2a1b9c8-41d1-47ee-9390-e8581301b5e4",
+      "changedAt": "2026-09-29T20:45:51.049Z",
+      "itemName": "Maha Wallet - PT Maha Digital Solutions",
+      "itemId": "13003182078",
+      "field": "Party ID for the Featured Application:",
+      "previousValue": "maha-wallet::122025cef1bec8edc8aa50108068aa065b63dc1336f0695448dc8d669ae029e08ff8",
+      "newValue": "maha-validator-1::122025cef1bec8edc8aa50108068aa065b63dc1336f0695448dc8d669ae029e08ff8"
+    },
+    {
+      "id": "c3bde7d4-b61c-439c-9424-9ce4350adeb1",
+      "changedAt": "2026-09-29T17:43:44.015Z",
+      "itemName": "Cove Wallet API - Qasara Labs Pvt Ltd",
+      "itemId": "13111331892",
+      "field": "Locking PartyIDs",
+      "previousValue": "cove-pdyctwhntx::1220694ba083b3767511d89166b5421573deb96b62bad3452f9dba9335c24672e8ed",
+      "newValue": "23d169c2-0909-4c70-81d1-1922de6febaa::1220e88fd2c4184da237c4d2a89f31b2f6ae2ee88c073c3824c96b812cca51ab12a1"
+    },
+    {
+      "id": "2ca186cd-60f2-4a93-b121-154ddb56f9bf",
+      "changedAt": "2026-09-29T17:30:18.838Z",
+      "itemName": "SyncVotes - WEB34EVER",
+      "itemId": "12954185167",
+      "field": "Locking PartyIDs",
+      "previousValue": "Account name Lock Party 70133 Party ID 23d169c2-0909-4c70-81d1-1922de6febaa::12207afc6e98a8ecf74866bfabba5ef7c6f45bbbf45bb9a5976c1d9ca53055fb0284 Organization details Organization Canton Strategic Holdings, Inc. Account name CSH Interest Collection Party ID 12204::12204386fae042f28f106036eb6a6360d9f9f5a0fedebd6afd2211323b659b4f134f Lock confirmed On-chain lock verified by Cashen Admin. Accrual begins. Aug 5, 2026 16:05",
+      "newValue": "23d169c2-0909-4c70-81d1-1922de6febaa::12207afc6e98a8ecf74866bfabba5ef7c6f45bbbf45bb9a5976c1d9ca53055fb0284"
+    },
+    {
+      "id": "239ba9af-3ae3-46ec-9d8c-0f3a74b213c0",
+      "changedAt": "2026-09-29T17:29:19.713Z",
+      "itemName": "Helvex - Dream Capital",
+      "itemId": "13111369113",
+      "field": "Locking PartyIDs",
+      "previousValue": "helvex-provider-1::1220c5ac264c69e428e1064e9ca5a0b0d5be586e6befa41c133223f7e044f8b85d60",
+      "newValue": "23d169c2-0909-4c70-81d1-1922de6febaa::1220590cb7e035449c6c6adc13aa2117e6c3e0eecf852bca42777097dd459dffc9e0"
+    },
+    {
+      "id": "f8f2cd22-8968-4d23-87f4-860ffdc2c360",
+      "changedAt": "2026-09-29T17:27:36.638Z",
+      "itemName": "Float - SwapSo Inc",
+      "itemId": "13087665624",
+      "field": "Locking PartyIDs",
+      "previousValue": "We are already onboarded on Cashen and discussing a 5M lock with them. We will ensure that locking requirements are completed as per guidelines.",
+      "newValue": "cantonwallet-cashen-send-lock::12202143cc113f85b8fde95b7870c0f31a2d46f7ed1bfbc174bee557808f80dc7a95"
+    },
     {
       "id": "fa463589-2e28-4d4f-aaea-1e0d09d34da6",
       "changedAt": "2026-09-29T11:58:30.995Z",
@@ -147,51 +192,6 @@ window.FEATURED_APP_PARTYID_CHANGES_DATA = {
       "field": "Locking PartyIDs",
       "previousValue": "",
       "newValue": "1220f7be5a5ed74bbd707dc4289d164ee8690da3a81574c0560019e6ee5915e5f41b::1220d8811ef50e8eceb19d1abed7f9610385f53eb177a55041266eb71fc2a3cdedcf"
-    },
-    {
-      "id": "51e21e85-a904-4bbd-895a-3c5d38f8a71e",
-      "changedAt": "2026-09-18T14:35:25.047Z",
-      "itemName": "DeSyn Protocol",
-      "itemId": "12467815975",
-      "field": "Locking PartyIDs",
-      "previousValue": "23d169c2-0909-4c70-81d1-1922de6febaa::122053abd4ba5335e63555ce898cae29b07f78c04eae7cc447c311816ec0ab07426b",
-      "newValue": ""
-    },
-    {
-      "id": "f137ec1b-1fed-44de-8040-e86a443c4fb4",
-      "changedAt": "2026-09-18T13:52:31.841Z",
-      "itemName": "BMCP Invest",
-      "itemId": "12467825411",
-      "field": "Locking PartyIDs",
-      "previousValue": "23d169c2-0909-4c70-81d1-1922de6febaa::1220f995b75444f49f01b9b62992c9e538c35b98edea6f0495ae43c037e50fb0c893",
-      "newValue": ""
-    },
-    {
-      "id": "a72187d2-6f24-46ee-85b3-cc2c3d493192",
-      "changedAt": "2026-09-18T13:43:10.141Z",
-      "itemName": "Bayzen - Bayzen",
-      "itemId": "12934217674",
-      "field": "Locking PartyIDs",
-      "previousValue": "23d169c2-0909-4c70-81d1-1922de6febaa::12208504027629867135f32260ea29c443cec33d39faf9fead4a4693d93123e8b8e3",
-      "newValue": ""
-    },
-    {
-      "id": "92a39f60-fa85-4619-a4a9-67cd1eccceaa",
-      "changedAt": "2026-09-18T13:43:07.413Z",
-      "itemName": "Bayzen - Bayzen",
-      "itemId": "12942557487",
-      "field": "Locking PartyIDs",
-      "previousValue": "23d169c2-0909-4c70-81d1-1922de6febaa::12208504027629867135f32260ea29c443cec33d39faf9fead4a4693d93123e8b8e3",
-      "newValue": ""
-    },
-    {
-      "id": "55ea6431-5cb3-42b3-a464-b037425da88b",
-      "changedAt": "2026-09-18T11:28:59.114Z",
-      "itemName": "RAX Finance - RAX Finance",
-      "itemId": "12964705710",
-      "field": "Locking PartyIDs",
-      "previousValue": "23d169c2-0909-4c70-81d1-1922de6febaa::1220408191e246d8d4b125e8d6b67828c71e0c058fe430edf2c773d99c7c1091af07",
-      "newValue": ""
     }
   ]
 };
