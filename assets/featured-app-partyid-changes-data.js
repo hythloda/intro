@@ -1,5 +1,5 @@
 window.FEATURED_APP_PARTYID_CHANGES_DATA = {
-  "generatedAt": "2026-10-02T12:56:56.450Z",
+  "generatedAt": "2026-10-03T11:52:19.784Z",
   "columns": [
     {
       "id": "long_text_mm4kq322",
@@ -13,6 +13,24 @@ window.FEATURED_APP_PARTYID_CHANGES_DATA = {
     }
   ],
   "changes": [
+    {
+      "id": "7447cfe4-8454-44ce-892c-31db6c3dcee0",
+      "changedAt": "2026-10-02T18:49:19.536Z",
+      "itemName": "Meridiant - Catalyst Labs LLC FZ",
+      "itemId": "13076673771",
+      "field": "Locking PartyIDs",
+      "previousValue": "23d169c2-0909-4c70-81d1-1922de6febaa::1220738ce7d150434a418f461c4b04f47cf583f2accd0e224a69f97ee08d85bbb222 Ergonia (Cumberland Innovations LLC) - via cashen's marketplace",
+      "newValue": "23d169c2-0909-4c70-81d1-1922de6febaa::1220738ce7d150434a418f461c4b04f47cf583f2accd0e224a69f97ee08d85bbb222"
+    },
+    {
+      "id": "dd36a299-42b3-4d15-9b87-fe8464b101f5",
+      "changedAt": "2026-10-02T16:37:07.432Z",
+      "itemName": "arCCade swap",
+      "itemId": "12467815978",
+      "field": "Locking PartyIDs",
+      "previousValue": "23d169c2-0909-4c70-81d1-1922de6febaa::1220e5490780796d2d958148c6d13aa7a4546278bfa22d4d96b3bff13cbb6b15c568",
+      "newValue": ""
+    },
     {
       "id": "e2a1b9c8-41d1-47ee-9390-e8581301b5e4",
       "changedAt": "2026-09-29T20:45:51.049Z",
@@ -174,24 +192,6 @@ window.FEATURED_APP_PARTYID_CHANGES_DATA = {
       "field": "Locking PartyIDs",
       "previousValue": "1220d05c64e67cd4fad73998b755a51c03ddfafd46ae26162e2e0b47003a751e6047::122017155c6a50083889147dfb16d6a4e5023b731e9bf1eea60fbf402869e62f783e",
       "newValue": "1220a::1220a55e2d5438b00300ffdd6bf509267fbd21230f2b1281dbb11b6b2574f66d48e0"
-    },
-    {
-      "id": "7feffe76-091b-4fff-b6c1-5fd2165520c9",
-      "changedAt": "2026-09-18T20:52:28.528Z",
-      "itemName": "Temple Trading copy",
-      "itemId": "12467837938",
-      "field": "Locking PartyIDs",
-      "previousValue": "1220d05c64e67cd4fad73998b755a51c03ddfafd46ae26162e2e0b47003a751e6047::122017155c6a50083889147dfb16d6a4e5023b731e9bf1eea60fbf402869e62f783e",
-      "newValue": "1220a::1220a55e2d5438b00300ffdd6bf509267fbd21230f2b1281dbb11b6b2574f66d48e0"
-    },
-    {
-      "id": "3a12f9ad-7cd0-41a8-9877-291b9a4b59c3",
-      "changedAt": "2026-09-18T17:42:52.237Z",
-      "itemName": "BMCP Invest",
-      "itemId": "12467825411",
-      "field": "Locking PartyIDs",
-      "previousValue": "",
-      "newValue": "1220f7be5a5ed74bbd707dc4289d164ee8690da3a81574c0560019e6ee5915e5f41b::1220d8811ef50e8eceb19d1abed7f9610385f53eb177a55041266eb71fc2a3cdedcf"
     }
   ]
 };
