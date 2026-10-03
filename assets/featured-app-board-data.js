@@ -1,5 +1,5 @@
 window.FEATURED_APP_BOARD_DATA = {
-  "generatedAt": "2026-10-02T12:44:18.054Z",
+  "generatedAt": "2026-10-03T11:45:02.271Z",
   "columns": [
     {
       "id": "text_mm4k2vch",
@@ -327,7 +327,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12954184948",
       "name": "Rapid Chain - Rapid Blockchain Technologies Ltd.",
-      "updatedAt": "2026-10-01T14:51:24Z",
+      "updatedAt": "2026-10-02T15:51:25Z",
       "values": {
         "text_mm4k2vch": "Rapid Blockchain Technologies Ltd.",
         "color_mm4kmej3": "1-Needs Review",
@@ -352,7 +352,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12959523630",
       "name": "MetCredX - NIPRO TECHNOLOGIES LIMITED",
-      "updatedAt": "2026-10-02T07:51:24Z",
+      "updatedAt": "2026-10-03T09:51:18Z",
       "values": {
         "text_mm4k2vch": "NIPRO TECHNOLOGIES LIMITED",
         "color_mm4kmej3": "1-Needs Review",
@@ -579,10 +579,10 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12959492765",
       "name": "Selay Wallet - Security Layer Innovations Limited",
-      "updatedAt": "2026-10-02T09:52:01Z",
+      "updatedAt": "2026-10-02T18:51:57Z",
       "values": {
         "text_mm4k2vch": "Security Layer Innovations Limited",
-        "color_mm4kmej3": "0-Locked+Needs Review",
+        "color_mm4kmej3": "2-Approved",
         "long_text_mm4kq322": "selay-validator-1::1220db68d747efac2626aa1804790343f4ba781408ad076cbb3af63f1aa03b88f3cb",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "4M-Lending-Lock-6::1220c03dee4b32e29d0e4c3a395afa3bc82629a60d86ab75289dad473ab46a5ce56f 5,000,000 CC locked via the 7LOCK marketplace",
@@ -807,10 +807,10 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12954185167",
       "name": "SyncVotes - WEB34EVER",
-      "updatedAt": "2026-10-02T05:52:00Z",
+      "updatedAt": "2026-10-02T18:53:08Z",
       "values": {
         "text_mm4k2vch": "WEB34EVER",
-        "color_mm4kmej3": "0-Locked+Needs Review",
+        "color_mm4kmej3": "2-Approved",
         "long_text_mm4kq322": "syncvotes-app-provider::122050f896a953422a6745ce77a4a1537e4b869f939f0eb8cb8cfdb189e2acaa7218",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "23d169c2-0909-4c70-81d1-1922de6febaa::12207afc6e98a8ecf74866bfabba5ef7c6f45bbbf45bb9a5976c1d9ca53055fb0284",
@@ -837,7 +837,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12959522895",
       "name": "ccledger - Blueprint Infrastructure, LLC",
-      "updatedAt": "2026-10-02T05:52:12Z",
+      "updatedAt": "2026-10-03T06:51:34Z",
       "values": {
         "text_mm4k2vch": "Blueprint Infrastructure, LLC",
         "color_mm4kmej3": "1-Needs Review",
@@ -1083,13 +1083,12 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467815978",
       "name": "arCCade swap",
-      "updatedAt": "2026-09-24T12:51:58Z",
+      "updatedAt": "2026-10-02T17:44:28Z",
       "values": {
         "text_mm4k2vch": "Arccade",
-        "color_mm4kmej3": "2-Approved",
+        "color_mm4kmej3": "6-Withdrawn",
         "long_text_mm4kq322": "arccade-swap-lock::1220b9f238325e14ffb47255dd3f96d45f2caac70f17cd60011020b0020d34c3176d",
         "color_mm4kpp3q": "Non-Issuer",
-        "long_text_mm4khjn6": "23d169c2-0909-4c70-81d1-1922de6febaa::1220e5490780796d2d958148c6d13aa7a4546278bfa22d4d96b3bff13cbb6b15c568",
         "numeric_mm4k6919": "5.0",
         "long_text_mm4km2s7": "arCCade is a blockchain and digital product team with more than 6 years of experience in the Web3 ecosystem and over 7 years of experience in software development. Our background combines technical execution, product thinking, and user-focused design with a strong emphasis on usability, engagement, and sustainable on-chain activity. We are currently building arCCade on Canton Network, an interactive platform that combines a non-custodial wallet, send and receive, privacy-focused swaps and bridging, and structured experiences such as Trade Wars and Pixel Race. Our goal is to make Canton more accessible and more engaging by creating products that users not only use, but also genuinely enjoy returning to, while also supporting long-term participation and future builder growth.",
         "link_mm4kmq24": "https://www.arccade.io/",
@@ -1190,10 +1189,10 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12944758321",
       "name": "Jubilee - Jubilee Markets",
-      "updatedAt": "2026-10-02T09:52:07Z",
+      "updatedAt": "2026-10-02T18:51:16Z",
       "values": {
         "text_mm4k2vch": "Jubilee Markets",
-        "color_mm4kmej3": "0-Locked+Needs Review",
+        "color_mm4kmej3": "2-Approved",
         "long_text_mm4kq322": "jubilee-marketplace::1220f1e76697bbc124cc4138bed49ddd368fe7645239116e592babbd0586c972de9b",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "23d169c2-0909-4c70-81d1-1922de6febaa::1220f3aaa57c6151ce64aa9c94fa7d6a3bad72ebd264688a03e0ea19e7a327dabbb1",
@@ -6021,7 +6020,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467824061",
       "name": "iBTC Bitcoin Bridge",
-      "updatedAt": "2026-10-02T03:52:33Z",
+      "updatedAt": "2026-10-02T21:51:10Z",
       "values": {
         "text_mm4k2vch": "Bitsafe",
         "color_mm4kmej3": "0-Locked+Needs Review",
@@ -7463,14 +7462,14 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467838018",
       "name": "Ekiden",
-      "updatedAt": "2026-10-02T04:01:00Z",
+      "updatedAt": "2026-10-03T00:00:46Z",
       "values": {
         "text_mm4k2vch": "Allspark Markets Ltd.",
         "color_mm4kmej3": "2-Approved",
         "long_text_mm4kq322": "Ekiden-app-1::12209dbe4e2f483b6be8913b2f72690cd3486c7667b24d71c52e34816de78ac9482f",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "773eee641af8e7d135548944037d05e4::122064d38a609da02755ff8f9ad59a08a5cce4f4b8dc130e33920f3d13e7dd97ea0c",
-        "numeric_mm4k6919": "0.1",
+        "numeric_mm4k6919": "0.0",
         "long_text_mm4km2s7": "Allspark is building Ekiden.fi, a derivative exchange on Canton Network",
         "link_mm4kmq24": "https://app.cnt.ekiden.fi/",
         "long_text_mm4k2537": "Ekiden is an institutional derivatives exchange on Canton, combining CLOB and RFQ execution with API-first infrastructure for market makers, trading desks, and order-flow partners. The platform lets users trade crypto, stocks, commodities, and custom markets on-chain, with fast market creation, professional liquidity, and automated trading workflows.",
@@ -10292,10 +10291,10 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12964664349",
       "name": "Wintip - Winsnip",
-      "updatedAt": "2026-10-02T10:51:09Z",
+      "updatedAt": "2026-10-02T18:52:42Z",
       "values": {
         "text_mm4k2vch": "Winsnip",
-        "color_mm4kmej3": "0-Locked+Needs Review",
+        "color_mm4kmej3": "2-Approved",
         "long_text_mm4kq322": "wintip-app::12200b9c9fb45ade713dce1ef55ecf311d57bfff6fb04d874cc7f65a7e3ec19e9824",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "23d169c2-0909-4c70-81d1-1922de6febaa::1220d1c5d679db4268b3587ff465d4e75ae2cba0294af6eacd788dae34ab3bfaad38",
@@ -10323,7 +10322,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12964705710",
       "name": "RAX Finance - RAX Finance",
-      "updatedAt": "2026-10-02T11:51:10Z",
+      "updatedAt": "2026-10-02T19:51:09Z",
       "values": {
         "text_mm4k2vch": "RAX Finance",
         "color_mm4kmej3": "0-Locked+Needs Review",
@@ -10382,7 +10381,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12974668475",
       "name": "OS Ledger - Outersunset",
-      "updatedAt": "2026-10-02T04:01:19Z",
+      "updatedAt": "2026-10-02T19:51:49Z",
       "values": {
         "text_mm4k2vch": "Outersunset",
         "color_mm4kmej3": "1-Needs Review",
@@ -10409,7 +10408,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12982310839",
       "name": "Ovdefi - OneNov",
-      "updatedAt": "2026-10-02T04:01:20Z",
+      "updatedAt": "2026-10-02T22:51:16Z",
       "values": {
         "text_mm4k2vch": "OneNov",
         "color_mm4kmej3": "1-Needs Review",
@@ -10439,7 +10438,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12982310399",
       "name": "Pinnaccle - Pinnaccle",
-      "updatedAt": "2026-10-02T00:51:56Z",
+      "updatedAt": "2026-10-03T08:51:23Z",
       "values": {
         "text_mm4k2vch": "Pinnaccle",
         "color_mm4kmej3": "1-Needs Review",
@@ -10467,10 +10466,10 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12993064923",
       "name": "Rocky Wallet - Dune Labs",
-      "updatedAt": "2026-10-02T09:52:29Z",
+      "updatedAt": "2026-10-02T18:50:13Z",
       "values": {
         "text_mm4k2vch": "Dune Labs",
-        "color_mm4kmej3": "0-Locked+Needs Review",
+        "color_mm4kmej3": "2-Approved",
         "long_text_mm4kq322": "dunelabs-validator-1::12203251ed85a1811755a4c7d1c0af8e50bf95bd72ae7fadd047e266d085a573e476",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "23d169c2-0909-4c70-81d1-1922de6febaa::12200a265be75cf1f7c03fbcc0d28e221e94946e627115c489b751ae3ef700c4859d",
@@ -10499,7 +10498,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13003184089",
       "name": "R1M Sentinel - R1M",
-      "updatedAt": "2026-10-02T05:53:04Z",
+      "updatedAt": "2026-10-03T06:52:32Z",
       "values": {
         "text_mm4k2vch": "R1M",
         "color_mm4kmej3": "1-Needs Review",
@@ -10558,7 +10557,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13003182078",
       "name": "Maha Wallet - PT Maha Digital Solutions",
-      "updatedAt": "2026-10-01T21:51:38Z",
+      "updatedAt": "2026-10-02T22:51:27Z",
       "values": {
         "text_mm4k2vch": "PT Maha Digital Solutions",
         "color_mm4kmej3": "1-Needs Review",
@@ -10589,7 +10588,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13023350809",
       "name": "Zabpay - DSRV",
-      "updatedAt": "2026-10-02T09:53:19Z",
+      "updatedAt": "2026-10-03T06:53:38Z",
       "values": {
         "text_mm4k2vch": "DSRV",
         "color_mm4kmej3": "1-Needs Review",
@@ -10617,10 +10616,10 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13023350936",
       "name": "BETH - BitSafe Validator, LLC",
-      "updatedAt": "2026-10-02T06:53:22Z",
+      "updatedAt": "2026-10-02T18:56:12Z",
       "values": {
         "text_mm4k2vch": "BitSafe Validator, LLC",
-        "color_mm4kmej3": "0-Locked+Needs Review",
+        "color_mm4kmej3": "2-Approved",
         "long_text_mm4kq322": "beth-network::1220704c3cebc23916785557ebe79a5c7f68d034890a5b15690ea7ce050c7d463075",
         "color_mm4kpp3q": "Asset Issuer",
         "long_text_mm4khjn6": "12205::12205300e977fb85e29d2ec1a4d0ce87e148d6bec97540bbc6b5f39eb6d03de85ed3",
@@ -10649,7 +10648,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13036463016",
       "name": "P2P Company - P2P Company",
-      "updatedAt": "2026-10-02T06:54:06Z",
+      "updatedAt": "2026-10-03T06:54:30Z",
       "values": {
         "text_mm4k2vch": "P2P Company",
         "color_mm4kmej3": "1-Needs Review",
@@ -10679,7 +10678,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13046640623",
       "name": "Yellow Card - Yellow Card Financial Inc.",
-      "updatedAt": "2026-10-02T02:54:29Z",
+      "updatedAt": "2026-10-03T03:52:56Z",
       "values": {
         "text_mm4k2vch": "Yellow Card Financial Inc.",
         "color_mm4kmej3": "1-Needs Review",
@@ -10708,7 +10707,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13056498524",
       "name": "mperps - Lemongrass IT services LLC FZ",
-      "updatedAt": "2026-10-02T04:01:24Z",
+      "updatedAt": "2026-10-03T03:53:08Z",
       "values": {
         "text_mm4k2vch": "Lemongrass IT services LLC FZ",
         "color_mm4kmej3": "1-Needs Review",
@@ -10738,13 +10737,13 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13076673771",
       "name": "Meridiant - Catalyst Labs LLC FZ",
-      "updatedAt": "2026-10-02T06:54:23Z",
+      "updatedAt": "2026-10-02T18:49:40Z",
       "values": {
         "text_mm4k2vch": "Catalyst Labs LLC FZ",
-        "color_mm4kmej3": "0-Locked+Needs Review",
+        "color_mm4kmej3": "2-Approved",
         "long_text_mm4kq322": "meridiant-app-1::1220bf5cc4001319411167463c68611feef2cb8fcbe8896bc38025717868b0074f87",
         "color_mm4kpp3q": "Non-Issuer",
-        "long_text_mm4khjn6": "23d169c2-0909-4c70-81d1-1922de6febaa::1220738ce7d150434a418f461c4b04f47cf583f2accd0e224a69f97ee08d85bbb222 Ergonia (Cumberland Innovations LLC) - via cashen's marketplace",
+        "long_text_mm4khjn6": "23d169c2-0909-4c70-81d1-1922de6febaa::1220738ce7d150434a418f461c4b04f47cf583f2accd0e224a69f97ee08d85bbb222",
         "numeric_mm4k6919": "5.0",
         "long_text_mm4km2s7": "Catalyst Labs LLC FZ is a Dubai-based blockchain infrastructure and DeFi engineering team. We design and run institutional-grade decentralized finance infrastructure on the Canton Network. Our first product is Meridiant, an isolated-market lending protocol purpose-built for Canton's atomic settlement and per-market privacy.",
         "link_mm4kd0hk": "https://meridiant.xyz/brand-guide/",
@@ -10770,10 +10769,10 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13076720974",
       "name": "Nocturnal Wallet - The Nocturnal Foundation",
-      "updatedAt": "2026-10-02T02:54:53Z",
+      "updatedAt": "2026-10-02T18:54:14Z",
       "values": {
         "text_mm4k2vch": "The Nocturnal Foundation",
-        "color_mm4kmej3": "0-Locked+Needs Review",
+        "color_mm4kmej3": "2-Approved",
         "long_text_mm4kq322": "MPCH-NEXUvalidator-1::12203a0ef2ed2bfbc9c14239714cb839a740d30ae40a6c74b1fc939392ecaaf981c1",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "1220b82ae0cef74d51b1a09944656345a10aa6fc7f4c5de6aa9d42e373e435d575f9::1220c14b674401fb2fe05644a5cca6320edfbac5c12ea1b3e0e4e5380c330db09608",
@@ -10803,7 +10802,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13076683931",
       "name": "cSOL - OnRails Ltd",
-      "updatedAt": "2026-10-02T09:54:06Z",
+      "updatedAt": "2026-10-03T03:53:16Z",
       "values": {
         "text_mm4k2vch": "OnRails Ltd",
         "color_mm4kmej3": "0-Locked+Needs Review",
@@ -10833,7 +10832,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13087665624",
       "name": "Float - SwapSo Inc",
-      "updatedAt": "2026-10-01T18:51:49Z",
+      "updatedAt": "2026-10-03T00:53:46Z",
       "values": {
         "text_mm4k2vch": "SwapSo Inc",
         "color_mm4kmej3": "0-Locked+Needs Review",
@@ -10861,7 +10860,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13111331892",
       "name": "Cove Wallet API - Qasara Labs Pvt Ltd",
-      "updatedAt": "2026-10-01T17:51:59Z",
+      "updatedAt": "2026-10-02T19:51:20Z",
       "values": {
         "text_mm4k2vch": "Qasara Labs Pvt Ltd",
         "color_mm4kmej3": "0-Locked+Needs Review",
@@ -10888,7 +10887,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13111369113",
       "name": "Helvex - Dream Capital",
-      "updatedAt": "2026-10-01T17:52:11Z",
+      "updatedAt": "2026-10-02T18:51:34Z",
       "values": {
         "text_mm4k2vch": "Dream Capital",
         "color_mm4kmej3": "0-Locked+Needs Review",
@@ -10917,7 +10916,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13122710944",
       "name": "OneSwap Launchpad - SatsTerminal",
-      "updatedAt": "2026-10-02T09:54:54Z",
+      "updatedAt": "2026-10-03T10:54:50Z",
       "values": {
         "text_mm4k2vch": "SatsTerminal",
         "color_mm4kmej3": "1-Needs Review",
@@ -10944,7 +10943,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13132611367",
       "name": "Veridic - Infodive Labs",
-      "updatedAt": "2026-10-01T17:52:25Z",
+      "updatedAt": "2026-10-03T07:54:38Z",
       "values": {
         "text_mm4k2vch": "Infodive Labs",
         "color_mm4kmej3": "0-Locked+Needs Review",
@@ -10974,10 +10973,10 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13156830721",
       "name": "SyncVotes - WEB34EVER",
-      "updatedAt": "2026-10-01T17:52:37Z",
+      "updatedAt": "2026-10-02T18:53:06Z",
       "values": {
         "text_mm4k2vch": "WEB34EVER",
-        "color_mm4kmej3": "0-Locked+Needs Review",
+        "color_mm4kmej3": "6-Withdrawn",
         "long_text_mm4kq322": "syncvotes-app-provider::122050f896a953422a6745ce77a4a1537e4b869f939f0eb8cb8cfdb189e2acaa7218",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "As in September: Lock Party 70133, `23d169c2-0909-4c70-81d1-1922de6febaa::12207afc6e98a8ecf74866bfabba5ef7c6f45bbbf45bb9a5976c1d9ca53055fb0284` (Canton Strategic Holdings, Inc.; CSH Interest Collection `12204::12204386fae042f28f106036eb6a6360d9f9f5a0fedebd6afd2211323b659b4f134f`). On-chain lock verified by Cashen on 5 August 2026.",
@@ -11007,7 +11006,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13167162421",
       "name": "Scopex Rate Lock - ScopeX Money",
-      "updatedAt": "2026-10-02T07:55:44Z",
+      "updatedAt": "2026-10-03T08:53:49Z",
       "values": {
         "text_mm4k2vch": "ScopeX Money",
         "color_mm4kmej3": "1-Needs Review",
@@ -11033,7 +11032,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13189278091",
       "name": "CanTra - CanTra GmbH registered with the Local Court (Amtsgericht) München under HRB 314213 (Registration Authority RA000304); LEI 254900AE880M41FX2T86",
-      "updatedAt": "2026-10-02T11:51:26Z",
+      "updatedAt": "2026-10-03T08:53:51Z",
       "values": {
         "text_mm4k2vch": "CanTra GmbH registered with the Local Court (Amtsgericht) München under HRB 314213 (Registration Authority RA000304); LEI 254900AE880M41FX2T86",
         "color_mm4kmej3": "1-Needs Review",
@@ -11063,7 +11062,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13189277788",
       "name": "Canal - Ice Labs",
-      "updatedAt": "2026-10-02T09:55:05Z",
+      "updatedAt": "2026-10-03T10:55:00Z",
       "values": {
         "text_mm4k2vch": "Ice Labs",
         "color_mm4kmej3": "1-Needs Review",
