@@ -1,5 +1,5 @@
 window.FEATURED_APP_BOARD_DATA = {
-  "generatedAt": "2026-10-05T14:50:03.111Z",
+  "generatedAt": "2026-10-06T13:23:35.322Z",
   "columns": [
     {
       "id": "text_mm4k2vch",
@@ -327,7 +327,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12954184948",
       "name": "Rapid Chain - Rapid Blockchain Technologies Ltd.",
-      "updatedAt": "2026-10-05T11:51:27Z",
+      "updatedAt": "2026-10-06T00:51:15Z",
       "values": {
         "text_mm4k2vch": "Rapid Blockchain Technologies Ltd.",
         "color_mm4kmej3": "1-Needs Review",
@@ -352,7 +352,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12959523630",
       "name": "MetCredX - NIPRO TECHNOLOGIES LIMITED",
-      "updatedAt": "2026-10-05T11:51:35Z",
+      "updatedAt": "2026-10-06T09:51:20Z",
       "values": {
         "text_mm4k2vch": "NIPRO TECHNOLOGIES LIMITED",
         "color_mm4kmej3": "1-Needs Review",
@@ -837,7 +837,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12959522895",
       "name": "ccledger - Blueprint Infrastructure, LLC",
-      "updatedAt": "2026-10-05T07:52:03Z",
+      "updatedAt": "2026-10-06T08:51:40Z",
       "values": {
         "text_mm4k2vch": "Blueprint Infrastructure, LLC",
         "color_mm4kmej3": "1-Needs Review",
@@ -6020,7 +6020,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467824061",
       "name": "iBTC Bitcoin Bridge",
-      "updatedAt": "2026-10-05T01:51:11Z",
+      "updatedAt": "2026-10-06T02:52:36Z",
       "values": {
         "text_mm4k2vch": "Bitsafe",
         "color_mm4kmej3": "0-Locked+Needs Review",
@@ -10322,7 +10322,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12964705710",
       "name": "RAX Finance - RAX Finance",
-      "updatedAt": "2026-10-05T13:51:13Z",
+      "updatedAt": "2026-10-06T12:51:11Z",
       "values": {
         "text_mm4k2vch": "RAX Finance",
         "color_mm4kmej3": "0-Locked+Needs Review",
@@ -10381,7 +10381,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12974668475",
       "name": "OS Ledger - Outersunset",
-      "updatedAt": "2026-10-05T04:01:18Z",
+      "updatedAt": "2026-10-06T08:51:52Z",
       "values": {
         "text_mm4k2vch": "Outersunset",
         "color_mm4kmej3": "1-Needs Review",
@@ -10408,7 +10408,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12982310839",
       "name": "Ovdefi - OneNov",
-      "updatedAt": "2026-10-05T06:51:22Z",
+      "updatedAt": "2026-10-06T07:51:18Z",
       "values": {
         "text_mm4k2vch": "OneNov",
         "color_mm4kmej3": "1-Needs Review",
@@ -10438,7 +10438,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12982310399",
       "name": "Pinnaccle - Pinnaccle",
-      "updatedAt": "2026-10-05T11:52:44Z",
+      "updatedAt": "2026-10-06T00:51:43Z",
       "values": {
         "text_mm4k2vch": "Pinnaccle",
         "color_mm4kmej3": "1-Needs Review",
@@ -10498,7 +10498,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13003184089",
       "name": "R1M Sentinel - R1M",
-      "updatedAt": "2026-10-05T08:51:35Z",
+      "updatedAt": "2026-10-06T08:52:17Z",
       "values": {
         "text_mm4k2vch": "R1M",
         "color_mm4kmej3": "1-Needs Review",
@@ -10557,7 +10557,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13003182078",
       "name": "Maha Wallet - PT Maha Digital Solutions",
-      "updatedAt": "2026-10-04T14:51:12Z",
+      "updatedAt": "2026-10-05T14:51:28Z",
       "values": {
         "text_mm4k2vch": "PT Maha Digital Solutions",
         "color_mm4kmej3": "1-Needs Review",
@@ -10588,7 +10588,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13023350809",
       "name": "Zabpay - DSRV",
-      "updatedAt": "2026-10-05T10:52:24Z",
+      "updatedAt": "2026-10-06T08:53:22Z",
       "values": {
         "text_mm4k2vch": "DSRV",
         "color_mm4kmej3": "1-Needs Review",
@@ -10648,7 +10648,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13036463016",
       "name": "P2P Company - P2P Company",
-      "updatedAt": "2026-10-05T07:56:31Z",
+      "updatedAt": "2026-10-06T08:54:09Z",
       "values": {
         "text_mm4k2vch": "P2P Company",
         "color_mm4kmej3": "1-Needs Review",
@@ -10678,7 +10678,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13046640623",
       "name": "Yellow Card - Yellow Card Financial Inc.",
-      "updatedAt": "2026-10-05T08:52:58Z",
+      "updatedAt": "2026-10-06T05:55:07Z",
       "values": {
         "text_mm4k2vch": "Yellow Card Financial Inc.",
         "color_mm4kmej3": "1-Needs Review",
@@ -10707,7 +10707,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13056498524",
       "name": "mperps - Lemongrass IT services LLC FZ",
-      "updatedAt": "2026-10-05T09:52:37Z",
+      "updatedAt": "2026-10-06T05:55:21Z",
       "values": {
         "text_mm4k2vch": "Lemongrass IT services LLC FZ",
         "color_mm4kmej3": "1-Needs Review",
@@ -10802,7 +10802,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13076683931",
       "name": "cSOL - OnRails Ltd",
-      "updatedAt": "2026-10-05T04:54:40Z",
+      "updatedAt": "2026-10-06T05:55:32Z",
       "values": {
         "text_mm4k2vch": "OnRails Ltd",
         "color_mm4kmej3": "0-Locked+Needs Review",
@@ -10832,7 +10832,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13087665624",
       "name": "Float - SwapSo Inc",
-      "updatedAt": "2026-10-04T21:51:35Z",
+      "updatedAt": "2026-10-06T09:53:57Z",
       "values": {
         "text_mm4k2vch": "SwapSo Inc",
         "color_mm4kmej3": "0-Locked+Needs Review",
@@ -10860,7 +10860,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13111331892",
       "name": "Cove Wallet API - Qasara Labs Pvt Ltd",
-      "updatedAt": "2026-10-05T02:51:32Z",
+      "updatedAt": "2026-10-06T03:51:38Z",
       "values": {
         "text_mm4k2vch": "Qasara Labs Pvt Ltd",
         "color_mm4kmej3": "0-Locked+Needs Review",
@@ -10887,7 +10887,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13111369113",
       "name": "Helvex - Dream Capital",
-      "updatedAt": "2026-10-04T20:51:25Z",
+      "updatedAt": "2026-10-05T20:51:48Z",
       "values": {
         "text_mm4k2vch": "Dream Capital",
         "color_mm4kmej3": "0-Locked+Needs Review",
@@ -10916,7 +10916,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13122710944",
       "name": "OneSwap Launchpad - SatsTerminal",
-      "updatedAt": "2026-10-05T11:54:57Z",
+      "updatedAt": "2026-10-06T12:51:28Z",
       "values": {
         "text_mm4k2vch": "SatsTerminal",
         "color_mm4kmej3": "1-Needs Review",
@@ -10943,7 +10943,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13132611367",
       "name": "Veridic - Infodive Labs",
-      "updatedAt": "2026-10-04T22:51:05Z",
+      "updatedAt": "2026-10-05T22:51:26Z",
       "values": {
         "text_mm4k2vch": "Infodive Labs",
         "color_mm4kmej3": "0-Locked+Needs Review",
@@ -11006,7 +11006,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13167162421",
       "name": "Scopex Rate Lock - ScopeX Money",
-      "updatedAt": "2026-10-05T10:54:13Z",
+      "updatedAt": "2026-10-06T11:52:32Z",
       "values": {
         "text_mm4k2vch": "ScopeX Money",
         "color_mm4kmej3": "1-Needs Review",
@@ -11032,7 +11032,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13189278091",
       "name": "CanTra - CanTra GmbH registered with the Local Court (Amtsgericht) München under HRB 314213 (Registration Authority RA000304); LEI 254900AE880M41FX2T86",
-      "updatedAt": "2026-10-05T13:51:40Z",
+      "updatedAt": "2026-10-06T07:54:20Z",
       "values": {
         "text_mm4k2vch": "CanTra GmbH registered with the Local Court (Amtsgericht) München under HRB 314213 (Registration Authority RA000304); LEI 254900AE880M41FX2T86",
         "color_mm4kmej3": "1-Needs Review",
@@ -11062,7 +11062,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13189277788",
       "name": "Canal - Ice Labs",
-      "updatedAt": "2026-10-05T10:54:17Z",
+      "updatedAt": "2026-10-06T08:55:14Z",
       "values": {
         "text_mm4k2vch": "Ice Labs",
         "color_mm4kmej3": "1-Needs Review",
@@ -11093,7 +11093,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13202966648",
       "name": "Meriq - Anoetic Labs LLC",
-      "updatedAt": "2026-10-05T08:54:01Z",
+      "updatedAt": "2026-10-06T08:55:28Z",
       "values": {
         "text_mm4k2vch": "Anoetic Labs LLC",
         "color_mm4kmej3": "1-Needs Review",
@@ -11117,6 +11117,37 @@ window.FEATURED_APP_BOARD_DATA = {
         "long_text_mm4kwxt1": "Yes. Meriq only treats genuine asset-moving swaps as reward-relevant activity. Quote creation, cancellation, expiry, failed swaps, and UI activity do not count. Swaps have minimum sizes, quote expiries, reserve checks, slippage checks, and market limits. Market makers are approved participants, which helps us identify repeated self-trading or coordinated behavior. We will monitor for recycling patterns such as self-trades, repeated back-and-forth swaps, circular flows, and artificial transaction splitting. Participants abusing the system can be rate-limited or removed.",
         "long_text_mm4khbeg": "Private",
         "long_text_mm7pyz6h": "Meriq does not use a single shared AMM curve to determine price. Each market maker remains responsible for its own inventory, pricing and risk. Meriq's role is to bring those independent liquidity sources together, determine the best eligible execution for the trader and coordinate atomic settlement on Canton. This makes Meriq closer to a multi-maker, PropAMM-style execution venue than a passive AMM. Market makers can compete for trader flow without combining their capital or disclosing their full inventory and strategy to the broader market."
+      }
+    },
+    {
+      "id": "13209206588",
+      "name": "cSOL Bridge - Hellomoon",
+      "updatedAt": "2026-10-06T00:55:41Z",
+      "values": {
+        "text_mm4k2vch": "Guffey, Inc. (Hello Moon)",
+        "color_mm4kmej3": "1-Needs Review",
+        "long_text_mm4kq322": "acme-lp::1220a7daf7140e112f15a46f2daa52fe9c8651024ff8705bb23c494275dd02209596",
+        "color_mm4kpp3q": "Asset Issuer",
+        "long_text_mm4khjn6": "acme-lp-locked::1220a7daf7140e112f15a46f2daa52fe9c8651024ff8705bb23c494275dd02209596",
+        "numeric_mm4k6919": "25",
+        "long_text_mm4km2s7": "Guffey, Inc. (Hello Moon) provides blockchain data and infrastructure across Web3. Hello Moon supports hundreds of active clients across decentralized finance, infrastructure, gaming, protocols, and other Web3 categories, and has extensive experience operating production blockchain infrastructure across Solana and Canton.",
+        "link_mm4kmq24": "https://acmemarkets.cc",
+        "long_text_mm4k2537": "cSOL Bridge is a standards-based gateway for bringing SOL and supported Solana assets onto the Canton Network. When a user deposits SOL into the bridge, the corresponding underlying SOL is locked on the Solana side and cSOL is issued on Canton as its fully backed representation. cSOL can then be held, transferred, integrated into applications, or traded through compatible Canton venues. When a holder bridges back to Solana, the corresponding cSOL is burned and the locked SOL is released to the recipient on Solana. The initial asset is cSOL. The architecture is intended to support additional Solana assets using the same custody-backed issuance and redemption model. The bridge and asset issuer provide infrastructure for Solana assets to become interoperable Canton assets. Trading venues and other third-party applications consuming cSOL remain operationally separate from the issuer.",
+        "long_text_mm4k4y1h": "Expected users include institutional and professional market participants, market makers, exchanges, custodians, fintech platforms, DeFi applications, developers, and individual users seeking to move SOL liquidity between Solana and Canton. The bridge is designed to give existing Solana holders a direct path into the Canton ecosystem while giving Canton applications access to a liquid, fully backed representation of SOL.",
+        "long_text_mm4k15bg": "The cSOL issuer will earn application rewards only from qualifying asset-issuer activity under the applicable Canton rules. This may include: - Qualifying issuance of cSOL following a bona fide SOL deposit and custody event; - Qualifying burns/redemptions when cSOL is returned through the bridge; - Qualifying third-party-submitted transfers requiring issuer participation; and - Qualifying issuer-side participation in secondary-market settlement. Not every cSOL transfer is assumed to qualify for an Activity Marker. Marker generation will remain subject to the applicable network rules and monitoring requirements.",
+        "long_text_mm4k9kdg": "cSOL Bridge will operate a dedicated asset issuer for custody-backed representations of Solana assets on Canton. Its initial issued asset is cSOL, a fully backed representation of SOL locked through the bridge on Solana. The issuer lifecycle is: 1. A user deposits SOL through the bridge. 2. The Solana-side deposit is confirmed and reconciled. 3. The dedicated cSOL issuer mints the corresponding amount of cSOL on Canton. 4. cSOL may be held, transferred, deposited into compatible applications, or traded through third-party venues. 5. When a holder requests redemption, the corresponding cSOL is burned. 6. After the burn is confirmed and reconciled, the corresponding locked SOL is released on Solana.",
+        "long_text_mm4kh3fw": "The cSOL issuer will use the Canton token standard / CIP-0056 infrastructure for issuance and management of cSOL. Its on-ledger responsibilities are narrowly scoped to asset-issuer functions, including: - Minting cSOL after verified SOL custody events; - Burning cSOL as part of redemption; - Co-confirming qualifying third-party transfers where issuer participation is required; - Participating on the issuer side of qualifying secondary-market settlement; and - Maintaining the necessary token metadata, registry integration, and interoperability required for cSOL to function across Canton applications. Solana custody and bridge reconciliation are maintained separately from the Canton token contracts. cSOL will not be minted without corresponding verified backing.",
+        "long_text_mm4kfg50": "Activity Markers.",
+        "long_text_mm4kht92": "One Activity Marker will be generated for each qualifying issuer event where permitted by the applicable rules, including qualifying mint, burn/redemption, co-confirmed transfer, or issuer-side settlement activity. Activity Markers are a consequence of bona fide bridge and asset usage. Transactions will not be created for the purpose of generating Activity Markers.",
+        "long_text_mm4kxcm2": "Normal usage may produce several transactions per user depending on whether the user is bridging into Canton, transferring cSOL between applications or counterparties, trading it through a supported venue, or redeeming back to Solana. Initial activity is expected to consist of bridge deposits and withdrawals plus secondary transfers and venue activity. Transaction volume is expected to increase as cSOL gains integrations across Canton wallets, exchanges, market makers, custodians, and applications.",
+        "long_text_mm4kvyjq": "Examples of normal multi-transaction activity include: - Bridging SOL into Canton and subsequently transferring cSOL to another wallet or application; - Moving cSOL between a wallet, custodian, or trading venue; - Market makers executing multiple independent trades or inventory movements; and - Applications settling multiple user transactions involving cSOL. Only qualifying issuer-side events are eligible for issuer Activity Markers.",
+        "long_text_mm4k1cm0": "Super-linear. cSOL is intended as shared infrastructure rather than an isolated application asset. As more wallets, exchanges, custodians, venues, market makers, and applications support cSOL, each additional integration can create interactions between multiple existing participants. This network effect can cause transfer and settlement activity to grow faster than the number of direct bridge users.",
+        "long_text_mm4kd4h2": "The cSOL infrastructure has been developed and is preparing for production MainNet launch following approval and completion of required operational steps.",
+        "long_text_mm4kfkwn": "Initial users are expected to include existing Hello Moon and ACME ecosystem participants, market makers, Canton venues, and Solana ecosystem participants seeking access to Canton. We are also working with ecosystem partners on cSOL integrations and liquidity.",
+        "long_text_mm4k6q73": "Without Featured Application / Asset Issuer status, we would substantially reduce the scope and pace of the cSOL rollout. The economics of custody-backed issuance, cross-network reconciliation, operational infrastructure, liquidity integrations, and high-volume Canton settlement are meaningful during the early stages of the product. Reduced application economics would likely result in fewer supported Solana assets, fewer venue and wallet integrations, reduced liquidity initiatives, and a slower expansion of Solana-native capital into Canton.",
+        "long_text_mm4kwxt1": "Yes.",
+        "long_text_mm4khbeg": "N/A (no public code repository)",
+        "long_text_mm4kxsgy": "The cSOL issuer is intentionally being submitted separately because its purpose is cross-chain, custody-backed asset issuance rather than lending-market receipt issuance. The initial asset is cSOL. The product's purpose is to provide standards-based Solana asset connectivity into Canton through verifiably backed issuance and redemption."
       }
     }
   ]
