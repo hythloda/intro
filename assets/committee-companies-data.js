@@ -1,5 +1,5 @@
 window.COMMITTEE_COMPANIES_DATA = {
-  "generatedAt": "2026-10-06T13:35:33.192Z",
+  "generatedAt": "2026-10-07T13:53:02.535Z",
   "committees": {
     "faAccountability": {
       "label": "Featured Application Accountability Committee",
@@ -213,6 +213,7 @@ window.COMMITTEE_COMPANIES_DATA = {
         "KPMG LLP",
         "KRO Brokers, SPC",
         "LiquidityTech Limited",
+        "Lithium Digital Limited",
         "Lloyds Bank Plc",
         "RedStone",
         "Sats Labs Inc.",
