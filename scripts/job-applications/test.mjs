@@ -18,7 +18,7 @@ test("Code.gs is a complete standalone deployment with no additional gs files", 
     assert.equal(typeof context[name], "function", name + " must exist in Code.gs alone");
     assert.equal((serverSource.match(new RegExp("^function " + name + "\\(", "gm")) || []).length, 1);
   }
-  assert.equal(context.JOB_APPLICATION_SCHEMA.fields.length, 18);
+  assert.equal(context.JOB_APPLICATION_SCHEMA.fields.length, 19);
   assert.equal(context.JOB_APPLICATION_SCHEMA.countryNames.US, "United States");
 });
 
@@ -89,7 +89,7 @@ function harness(options = {}) {
   const schema = context.JOB_APPLICATION_SCHEMA;
   const values = Object.fromEntries(schema.fields.filter(f => f.type !== "file").map(f => [f.key, ""]));
   Object.assign(values, { name: "Test Applicant", email: "applicant@example.test", country: "US", sponsorship: "No", previousWork: "No", restrictions: "No" });
-  const body = { role: schema.role, requestId: randomUUID(), token: "test-token", website: "", values, files: { cv: { name: "test.pdf", data: Buffer.from("%PDF-1.4\nSynthetic test fixture\n%%EOF").toString("base64") } } };
+  const body = { role: schema.role, formRevision: schema.formRevision, requestId: randomUUID(), token: "test-token", website: "", values, files: { cv: { name: "test.pdf", data: Buffer.from("%PDF-1.4\nSynthetic test fixture\n%%EOF").toString("base64") } } };
   const post = value => JSON.parse(context.doPost({ postData: { contents: JSON.stringify(value) } }).text);
   const creates = () => calls.filter(c => c.url.endsWith("/v2") && JSON.parse(c.request.payload).query.includes("create_item"));
   return { context, properties, calls, emails, body, post, creates };
@@ -97,7 +97,7 @@ function harness(options = {}) {
 
 test("standalone GET and invalid POST return JSON without creating a Monday item", () => {
   const h = harness();
-  assert.deepEqual(JSON.parse(h.context.doGet().text), { service: "Canton Foundation job applications" });
+  assert.deepEqual(JSON.parse(h.context.doGet().text), { service: "Canton Foundation job applications", role: "president-and-ceo", acceptingApplications: true });
   const result = h.post({});
   assert.equal(result.ok, false);
   assert.equal(result.requestId, "");
@@ -105,12 +105,96 @@ test("standalone GET and invalid POST return JSON without creating a Monday item
   assert.equal(h.calls.length, 0);
 });
 
+test("setup binds column IDs to the new role, board, and selected group", () => {
+  const h = harness();
+  assert.deepEqual(JSON.parse(h.properties.get("JOB_COLUMN_MAP"))._target,
+    { role: "president-and-ceo", board: "18434504661", groupId: null });
+  h.properties.set("MONDAY_GROUP_ID", "new");
+  assert.equal(JSON.parse(h.context.doGet().text).acceptingApplications, false);
+  h.context.setupJobApplication();
+  assert.equal(JSON.parse(h.context.doGet().text).acceptingApplications, true);
+  assert(h.post(h.body).ok);
+  const mutation = JSON.parse(h.creates()[0].request.payload);
+  assert.equal(mutation.variables.board, "18434504661");
+  assert.equal(mutation.variables.group, "new");
+});
+
+test("readiness and submissions fail closed for stale destination mappings without exposing configuration", () => {
+  for (const target of [null, { board: "18432556545", role: "accounting-manager", groupId: null },
+    { board: "18434504661", role: "accounting-manager", groupId: null },
+    { board: "18434504661", role: "president-and-ceo", groupId: "old-group" }]) {
+    const h = harness();
+    const mapping = JSON.parse(h.properties.get("JOB_COLUMN_MAP"));
+    mapping._target = target;
+    h.properties.set("JOB_COLUMN_MAP", JSON.stringify(mapping));
+    const response = JSON.parse(h.context.doGet().text);
+    assert.deepEqual(response, { service: "Canton Foundation job applications", role: "president-and-ceo", acceptingApplications: false });
+    assert.equal(h.post(h.body).ok, false);
+    assert.equal(h.calls.length, 0);
+    assert.equal(h.emails.length, 0);
+    assert.equal(h.properties.has("application:" + h.body.requestId), false);
+  }
+});
+
+test("old Accounting Manager payloads cannot create records in the new board", () => {
+  const h = harness();
+  h.body.role = "accounting-manager";
+  assert.equal(h.post(h.body).ok, false);
+  assert.equal(h.calls.length, 0);
+  assert.equal(h.emails.length, 0);
+});
+
+test("cached old form scripts cannot post even if they load the new shared schema", () => {
+  const h = harness();
+  delete h.body.formRevision;
+  assert.equal(h.post(h.body).ok, false);
+  assert.equal(h.calls.length, 0);
+});
+
+test("Salary Expectations is optional free text and reaches its own text or long-text column", () => {
+  for (const type of ["text", "long_text"]) {
+    const h = harness();
+    const field = h.context.JOB_APPLICATION_SCHEMA.fields.find(f => f.key === "salaryExpectations");
+    assert.equal(field.type, "text");
+    assert(!field.required);
+    const mapping = JSON.parse(h.properties.get("JOB_COLUMN_MAP"));
+    mapping.salaryExpectations.type = type;
+    h.properties.set("JOB_COLUMN_MAP", JSON.stringify(mapping));
+    h.body.values.salaryExpectations = "  USD 200,000-250,000 annually; open to discussion  ";
+    assert(h.post(h.body).ok);
+    const values = JSON.parse(JSON.parse(h.creates()[0].request.payload).variables.values);
+    const expected = h.body.values.salaryExpectations.trim();
+    assert.deepEqual(values.col_salaryExpectations, type === "text" ? expected : { text: expected });
+    assert(!h.emails[0].body.includes(expected));
+    assert(!JSON.stringify([...h.properties]).includes(expected));
+  }
+  const blank = harness();
+  assert(blank.post(blank.body).ok);
+  assert.equal(JSON.parse(JSON.parse(blank.creates()[0].request.payload).variables.values).col_salaryExpectations, undefined);
+  const long = harness();
+  long.body.values.salaryExpectations = "x".repeat(1001);
+  assert.deepEqual(long.post(long.body).fields, ["salaryExpectations"]);
+  assert.equal(long.calls.length, 0);
+});
+
+test("missing salary destination or wrong type blocks readiness and submissions", () => {
+  for (const destination of [null, { id: "col_salaryExpectations", type: "numbers" }]) {
+    const h = harness();
+    const mapping = JSON.parse(h.properties.get("JOB_COLUMN_MAP"));
+    mapping.salaryExpectations = destination;
+    h.properties.set("JOB_COLUMN_MAP", JSON.stringify(mapping));
+    assert.equal(JSON.parse(h.context.doGet().text).acceptingApplications, false);
+    assert.equal(h.post(h.body).ok, false);
+    assert.equal(h.calls.length, 0);
+  }
+});
+
 test("success creates the correct board item, uploads CV, and returns no applicant data", () => {
   const h = harness();
   const result = h.post(h.body);
   assert.deepEqual(result, { ok: true, requestId: h.body.requestId, confirmationEmail: "sent" });
   const mutation = JSON.parse(h.creates()[0].request.payload);
-  assert.equal(mutation.variables.board, "18432556545");
+  assert.equal(mutation.variables.board, "18434504661");
   const values = JSON.parse(mutation.variables.values);
   assert.equal(values.col_applicationReference, result.requestId);
   assert(h.emails[0].body.includes("Application reference: " + values.col_applicationReference));
@@ -299,7 +383,7 @@ test("phone validation preserves a reviewed retry until the user corrects the in
 });
 
 test("public application page loads the shared offline phone validator before the form", () => {
-  for (const page of ["accounting-manager.html"]) {
+  for (const page of ["president-and-ceo.html"]) {
     const html = readFileSync(new URL("../../" + page, import.meta.url), "utf8");
     const sources = [...html.matchAll(/<script\b[^>]*src="([^"?]+)(?:\?[^\"]*)?"/g)].map(match => match[1]);
     const expected = ["assets/vendor/libphonenumber-js/libphonenumber-max.js", "assets/job-application-schema.js", "assets/job-application-phone.js"];
@@ -369,7 +453,7 @@ test("schema mismatch, missing credentials, and lock contention fail closed", ()
 
 test("schema has all original fields, no demographic requirement, and public config contains no secret", () => {
   const h = harness();
-  assert.equal(h.context.JOB_APPLICATION_SCHEMA.fields.length, 18);
+  assert.equal(h.context.JOB_APPLICATION_SCHEMA.fields.length, 19);
   assert(h.context.JOB_APPLICATION_SCHEMA.fields.filter(f => f.section === "voluntary").every(f => !f.required));
   const c = {}; vm.runInNewContext(readFileSync(new URL("../../assets/job-application-config.js", import.meta.url), "utf8"), { window: c });
   const config = plain(c.JOB_APPLICATION_CONFIG);
@@ -381,13 +465,13 @@ test("schema has all original fields, no demographic requirement, and public con
 
 test("native questions remain visible before setup, without an external form link", () => {
   const jobs = readFileSync(new URL("../../jobs.html", import.meta.url), "utf8");
-  const role = readFileSync(new URL("../../accounting-manager.html", import.meta.url), "utf8");
+  const role = readFileSync(new URL("../../president-and-ceo.html", import.meta.url), "utf8");
   assert(!/<iframe\b/i.test(jobs + role));
-  assert(jobs.includes('href="accounting-manager.html"'));
+  assert(jobs.includes('href="president-and-ceo.html"'));
   assert.doesNotMatch(role, /<form id="job-application"[^>]*\bhidden\b/);
   assert.match(role, /<fieldset id="application-fields"[^>]*\bdisabled\b/);
   assert.match(role, /<button[^>]*id="application-submit"[^>]*\bdisabled\b/);
-  assert(role.includes("Application form preview"));
+  assert(role.includes("Applications are temporarily unavailable"));
   assert.doesNotMatch(role + jobs, /(?:wkf\.ms|forms\.monday\.com)/);
 });
 
@@ -395,7 +479,7 @@ test("public submissions are enabled after verification and the temporary test p
   const context = { window: {} };
   vm.runInNewContext(readFileSync(new URL("../../assets/job-application-config.js", import.meta.url), "utf8"), context);
   assert.equal(context.window.JOB_APPLICATION_CONFIG.enabled, true);
-  const role = readFileSync(new URL("../../accounting-manager.html", import.meta.url), "utf8");
+  const role = readFileSync(new URL("../../president-and-ceo.html", import.meta.url), "utf8");
   assert.match(role, /job-application-config\.js\?v=20260924-sender2/);
   assert.match(role, /id="application-unavailable" hidden/);
   assert.equal(existsSync(new URL("../../job-application-check.html", import.meta.url)), false);
@@ -419,7 +503,7 @@ function diagnosticHarness(phase = "uploading") {
     queries.push({ query, variables });
     return query.includes("boards(ids:")
       ? { boards: [{ columns, groups: [{ id: "new" }] }] }
-      : { items: [{ board: { id: "18432556545" }, column_values: files }] };
+      : { items: [{ board: { id: "18434504661" }, column_values: files }] };
   };
   h.properties.set("JOB_DIAGNOSTIC_REFERENCE", h.body.requestId);
   h.properties.set("MONDAY_GROUP_ID", "new");
@@ -488,13 +572,16 @@ test("diagnostic does not print private provider errors or claim failed lookups 
 });
 
 test("item creation omits an unset group and explicitly includes a configured group", () => {
-  for (const group of [null, "topics"]) {
+  for (const group of [null, "new"]) {
     const h = harness();
-    if (group) h.properties.set("MONDAY_GROUP_ID", group);
+    if (group) {
+      h.properties.set("MONDAY_GROUP_ID", group);
+      h.context.setupJobApplication();
+    }
     assert.equal(h.post(h.body).ok, true);
     const request = JSON.parse(h.creates()[0].request.payload);
     if (group) {
-      assert.equal(request.variables.group, "topics");
+      assert.equal(request.variables.group, "new");
       assert.match(request.query, /group_id: \$group/);
     } else {
       assert.equal(Object.hasOwn(request.variables, "group"), false);
@@ -784,7 +871,8 @@ test("confirmation emails thank one applicant, use HR replies, and contain no ap
   assert.equal(email.replyTo, "hr@canton.foundation");
   assert.equal(email.name, "Canton Foundation Recruitment");
   assert.match(email.subject, /Thank you for applying/);
-  assert.match(email.body, /Accounting Manager/);
+  assert.match(email.body, /President and CEO/);
+  assert.match(email.subject, /President and CEO/);
   assert(email.body.includes(h.body.requestId));
   assert.doesNotMatch(email.body, /PRIVATE|Female|fake-test-secret|Test Applicant|%PDF/);
   for (const field of ["attachments", "cc", "bcc", "from", "htmlBody"]) assert.equal(email[field], undefined);
@@ -862,7 +950,7 @@ test("email authorization uses send-only permission and does not send an email",
 });
 
 test("thank-you content provides next steps, a reference, and the HR contact without promising email delivery", () => {
-  const role = readFileSync(new URL("../../accounting-manager.html", import.meta.url), "utf8");
+  const role = readFileSync(new URL("../../president-and-ceo.html", import.meta.url), "utf8");
   assert.match(role, /What happens next/);
   assert.match(role, /mailto:hr@canton.foundation/);
   assert.match(role, /id="application-email-status" hidden/);
@@ -871,4 +959,93 @@ test("thank-you content provides next steps, a reference, and the HR contact wit
   assert.match(client, /result.confirmationEmail === "sent"/);
   assert.match(client, /JOB_APPLICATION_PHONE.validateText/);
   assert.doesNotMatch(client, /operations@canton.foundation/);
+});
+
+test("jobs lists only President and CEO and the legacy role cannot collect applications", () => {
+  const jobs = readFileSync(new URL("../../jobs.html", import.meta.url), "utf8");
+  const role = readFileSync(new URL("../../president-and-ceo.html", import.meta.url), "utf8");
+  const closed = readFileSync(new URL("../../accounting-manager.html", import.meta.url), "utf8");
+  assert.doesNotMatch(jobs + role, /Accounting Manager|accounting-manager/);
+  assert.match(closed, /no longer accepting applications/);
+  assert.match(closed, /href="jobs.html"/);
+  assert.doesNotMatch(closed, /<form|job-application(?:-schema|-config)?\.js/);
+  for (const heading of ["Position Summary", "Strategy &amp; Execution", "Ecosystem &amp; Market Development",
+    "External Leadership &amp; Advocacy", "Organizational Leadership", "Board, Governance &amp; Financial Leadership",
+    "Candidate Profile", "Experience", "Education", "What Success Looks Like"]) assert(role.includes(heading));
+  for (const fact of ["Remote, with significant global travel", "Full-time", "Board of Directors"]) assert(role.includes(fact));
+});
+
+async function clientReadinessHarness(service, options = {}) {
+  const nodes = new Map(), requests = [], storageReads = [], scripts = [];
+  const element = tag => ({
+    tagName: tag.toUpperCase(), classList: { add() {} }, dataset: {}, listeners: {},
+    append(...children) { if (tag === "head") scripts.push(...children); },
+    add() {}, setAttribute() {}, removeAttribute() {},
+    addEventListener(event, callback) { this.listeners[event] = callback; }
+  });
+  const document = {
+    head: element("head"), createElement: element,
+    querySelector(selector) {
+      if (!nodes.has(selector)) nodes.set(selector, element("div"));
+      return nodes.get(selector);
+    }
+  };
+  document.querySelector("#application-fields").disabled = true;
+  document.querySelector("#application-submit").disabled = true;
+  document.querySelector("#job-application").dataset.role = options.pageRole ?? "president-and-ceo";
+  const context = vm.createContext({
+    document, window: { JOB_APPLICATION_CONFIG: {
+      enabled: options.enabled !== false, endpoint: "https://script.google.com/macros/s/fake-test-deployment/exec", turnstileSiteKey: "fake-test-key"
+    } },
+    location: { hostname: "intro.canton.foundation" }, crypto: { randomUUID },
+    sessionStorage: { getItem(key) { storageReads.push(key); return null; } },
+    Option: function (text, value) { this.text = text; this.value = value; },
+    AbortController, setTimeout, clearTimeout,
+    fetch: async (url, request) => {
+      requests.push({ url, request });
+      if (options.networkError) throw new Error("offline");
+      return { ok: options.httpOk !== false, json: async () => service };
+    }
+  });
+  vm.runInContext(readFileSync(new URL("../../assets/job-application-schema.js", import.meta.url), "utf8"), context);
+  vm.runInContext(readFileSync(new URL("../../assets/job-application.js", import.meta.url), "utf8"), context);
+  // Inputs stay disabled during the asynchronous readiness check.
+  assert.equal(nodes.get("#application-fields").disabled, true);
+  await new Promise(resolve => setImmediate(resolve));
+  return { nodes, requests, scripts, storageReads };
+}
+
+test("browser enables the native form only for a ready President and CEO backend", async () => {
+  const h = await clientReadinessHarness({ role: "president-and-ceo", acceptingApplications: true });
+  assert.equal(h.nodes.get("#application-fields").disabled, false);
+  assert.equal(h.nodes.get("#application-submit").disabled, false);
+  assert.equal(h.nodes.get("#application-unavailable").hidden, true);
+  assert.equal(h.scripts.length, 1);
+  assert.match(h.scripts[0].src, /challenges\.cloudflare\.com/);
+  assert.deepEqual(h.storageReads, ["canton-president-and-ceo-application-request"]);
+  assert.equal(h.requests.length, 1);
+  assert.equal(h.requests[0].request.body, undefined);
+  assert.equal(h.requests[0].request.credentials, "omit");
+});
+
+test("browser blocks old deployments, wrong roles, setup failures, network errors, and disabled config", async () => {
+  for (const [service, options] of [
+    [{ service: "Canton Foundation job applications" }, {}],
+    [{ role: "accounting-manager", acceptingApplications: true }, {}],
+    [{ role: "president-and-ceo", acceptingApplications: false }, {}],
+    [{ role: "president-and-ceo", acceptingApplications: true }, { httpOk: false }],
+    [null, { networkError: true }],
+    [null, { enabled: false }],
+    [null, { pageRole: "accounting-manager" }],
+    [null, { pageRole: "" }]
+  ]) {
+    const h = await clientReadinessHarness(service, options);
+    assert.equal(h.nodes.get("#application-fields").disabled, true);
+    assert.equal(h.nodes.get("#application-submit").disabled, true);
+    assert.equal(h.nodes.get("#application-unavailable").hidden, false);
+    assert.equal(h.scripts.length, 0);
+    await h.nodes.get("#job-application").listeners.submit({ preventDefault() {} });
+    assert.match(h.nodes.get("#application-status").textContent, /Nothing has been sent/);
+    assert(h.requests.every(({ request }) => !request.body));
+  }
 });

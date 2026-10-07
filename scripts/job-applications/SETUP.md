@@ -1,11 +1,56 @@
-# Accounting Manager application setup
+# President and CEO application setup
 
-The native page is `accounting-manager.html`, linked from `jobs.html`. The API
-destination is board `18432556545`. It does not read applicant rows or publish
+The native page is `president-and-ceo.html`, linked from `jobs.html`. The API
+destination is board `18434504661`. It does not read applicant rows or publish
 them. The role page displays the native questions directly, with no Monday
-iframe or external application link. Until the backend is connected and tested,
-the page is clearly labeled as a preview and the Submit button is disabled.
-Preview answers are not saved or sent. Do not enable submissions before setup.
+iframe or external application link. Salary Expectations is optional, open text
+with a 1,000-character limit. The old Accounting Manager URL is a closed-position
+notice with no application form.
+
+The form checks the service's public readiness before enabling any inputs.
+An old deployment or unverified destination keeps the form disabled with a
+temporary-unavailability notice. This check sends no applicant data. Readiness
+confirms configuration, not end-to-end delivery or current provider availability.
+
+## Switch the existing deployment to President and CEO
+
+1. On board **18434504661**, ensure the existing application questions have their
+   own destination columns, plus **Salary Expectations** (Text or Long Text) and
+   **Application Reference** (Text). Keep **Phone** as Text. The new board's IDs
+   must be checked even if it was duplicated from the Accounting Manager board.
+2. Replace the existing project's single **Code.gs** with the complete file in
+   this directory. Keep `MONDAY`, `TURNSTILE_SECRET`, email authorization, and
+   all `application:` receipt properties. Do not clear old receipts or resubmit
+   old applications. The existing endpoint and sender can stay the same.
+3. Run **inspectJobColumns**. Review `JOB_COLUMN_OVERRIDES` and `MONDAY_GROUP_ID`
+   against the new board's metadata, not the old board. If mapping differs, use
+   the verified column IDs. For example, `adjustments` may need the Notes column,
+   and `gender` may need the status column if two columns have that name. Add a
+   `salaryExpectations` override only if its column has a different title.
+4. Run **setupJobApplication** successfully. It verifies every field and the
+   destination group, then binds the saved mapping to this board and role. Never
+   manually set the `_target` metadata to bypass setup. Changing the destination
+   group later also requires rerunning setup.
+5. Immediately use **Deploy > Manage deployments > Edit > New version > Deploy**
+   on the existing web app. Do not leave the old deployed code running after
+   replacing its mapping. Opening its `/exec` URL must return:
+
+   ```json
+   {"service":"Canton Foundation job applications","role":"president-and-ceo","acceptingApplications":true}
+   ```
+
+6. Reload the new role page. It enables automatically when the updated service
+   reports readiness for this role. No second website change is needed if the
+   endpoint stays the same. If `acceptingApplications` is false, rerun setup and
+   check Script Properties; if `role` is missing, the old version is still deployed.
+7. Verify using a newly authorized synthetic application and mailbox you control.
+   Confirm it appears on **18434504661**, with Salary Expectations, the reference,
+   attachments, and the President and CEO acknowledgment email. Automated local
+   tests do not prove the live integration. Do not reuse an old completed reference.
+
+After switching roles, use the old board to investigate historical Accounting
+Manager applications. The current diagnostic checks the new board and its mapping;
+it cannot establish attachment completeness for old-board receipts.
 
 ## New Apps Script project
 
@@ -16,14 +61,15 @@ Preview answers are not saved or sent. Do not enable submissions before setup.
    or `Diagnostics.gs` files. Use the supplied `appsscript.json` manifest (V8,
    external requests and send-only email permission); the manifest is not an additional script file.
 2. In **Project Settings > Script Properties**, add `MONDAY` with an API token
-   authorized to create items and upload files on board `18432556545`. Prefer a
+   authorized to create items and upload files on board `18434504661`. Prefer a
    dedicated least-privilege integration account. Do not place the token in HTML,
    JavaScript, git, a URL, or the frontend configuration file. GitHub's existing
    `MONDAY` secret cannot be read back and is not automatically shared with Google.
 3. Run `inspectJobColumns` to see column IDs/types and group IDs, without reading
    applications. Set `MONDAY_GROUP_ID` to the same destination group used by the
    current WorkForm if needed. If absent, Monday uses the board's first group.
-4. Add a **Text** column named **Application Reference** to the jobs board, then
+4. Add **Salary Expectations** (Text or Long Text) and **Application Reference**
+   (Text) columns to the jobs board, then
    run `setupJobApplication`. It matches the original question labels to actual
    board columns, validates types, and stores `JOB_COLUMN_MAP` server-side. If a
    form label differs from its board column title, set `JOB_COLUMN_OVERRIDES` to a
@@ -44,15 +90,8 @@ Preview answers are not saved or sent. Do not enable submissions before setup.
    real deployment has been tested. These are public settings, not credentials.
    Share those two public values with the site maintainer to finish the connection.
 
-For the current board, the confirmed destination is `MONDAY_GROUP_ID=topics`
-(New Applications). Set `JOB_COLUMN_OVERRIDES` to the following before setup:
-
-```json
-{"adjustments":"text_mm7g6egm","gender":"single_select2u3fsjw"}
-```
-
-The adjustments answer uses the Notes column; the voluntary Gender answer uses
-the status column rather than the separate text column with the same title.
+No column or group IDs have been confirmed for the new board by the website
+maintainer. Use `inspectJobColumns` rather than copying IDs from the old board.
 
 ## Update an existing project
 
@@ -66,7 +105,8 @@ Deploy through **Deploy > Manage deployments > Edit > New version > Deploy**
 using the existing deployment so the `/exec` URL stays the same. The editor's
 saved code and deployed version are different; updating code alone is not enough.
 Opening the deployed URL should return
-`{"service":"Canton Foundation job applications"}`. If it reports a missing
+`{"service":"Canton Foundation job applications","role":"president-and-ceo","acceptingApplications":true}`.
+If it reports a missing
 `doGet` or `doPost`, the deployment does not contain the complete file yet.
 
 ### Enable text Phone and applicant acknowledgment emails
@@ -134,7 +174,8 @@ question, and no applicant records are exposed on the public website.
 - Run `node --test scripts/job-applications/test.mjs` for the mocked backend tests.
 - Preview the form at desktop and mobile widths. All questions should be visible
   before configuration, with the optional self-identification section expandable.
-  An unconfigured form must show the preview notice and block submission.
+  An unconfigured or old-role service must show the unavailable notice and disable
+  every input, not just the Submit button.
 - Make one explicitly authorized synthetic application on the real deployment,
   including a harmless test CV and optional cover letter. Confirm the destination
   group, every column, both attachments, and the existing recruitment automations.
@@ -148,7 +189,7 @@ question, and no applicant records are exposed on the public website.
   expired security check fails, and retrying the same request creates one item.
 - After verification, set `enabled: true` in the public configuration, remove
   any temporary integration-test page, and publish. Bump the configuration asset's
-  version query in `accounting-manager.html` so browsers do not retain the preview
+  version query in `president-and-ceo.html` so browsers do not retain the disabled
   setting. The `scripts` directory is excluded from the GitHub Pages artifact.
 
 ## Privacy and failure handling

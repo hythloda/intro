@@ -1,5 +1,5 @@
 /* Application handlers. Bundled into ../Code.gs for Apps Script deployment. */
-var JOB_BOARD_ID = "18432556545";
+var JOB_BOARD_ID = "18434504661";
 var JOB_HOSTNAME = "intro.canton.foundation";
 var JOB_HR_EMAIL = "hr@canton.foundation";
 
@@ -23,13 +23,19 @@ function config_() {
   var mapping = properties.getProperty("JOB_COLUMN_MAP");
   if (!token || !secret || !mapping) throw applicationError_("Applications are temporarily unavailable. Please try again later.");
   mapping = JSON.parse(mapping);
+  var groupId = properties.getProperty("MONDAY_GROUP_ID") || null;
+  // Never reuse another role's column IDs, even when the boards were duplicated.
+  if (!mapping._target || mapping._target.board !== JOB_BOARD_ID ||
+      mapping._target.role !== JOB_APPLICATION_SCHEMA.role || mapping._target.groupId !== groupId) {
+    throw applicationError_("Applications are temporarily unavailable. Please try again later.");
+  }
   var ids = [];
   jobColumnFields_().forEach(function (field) {
     var column = mapping && mapping[field.key];
     if (!column || typeof column.id !== "string" || !column.id || field.columnTypes.indexOf(column.type) === -1 || ids.indexOf(column.id) !== -1) throw new Error("Invalid column configuration");
     ids.push(column.id);
   });
-  return { token: token, secret: secret, mapping: mapping, groupId: properties.getProperty("MONDAY_GROUP_ID") || null };
+  return { token: token, secret: secret, mapping: mapping, groupId: groupId };
 }
 
 function safeMondayDiagnostic_(status, result, config) {
@@ -126,6 +132,7 @@ function setupJobApplication() {
   if (new Set(ids).size !== ids.length) throw new Error("Two questions cannot share a destination column.");
   var groupId = properties.getProperty("MONDAY_GROUP_ID");
   if (groupId && !board.groups.some(function (group) { return group.id === groupId; })) throw new Error("MONDAY_GROUP_ID does not exist on this board.");
+  mapping._target = { board: JOB_BOARD_ID, role: JOB_APPLICATION_SCHEMA.role, groupId: groupId || null };
   properties.setProperty("JOB_COLUMN_MAP", JSON.stringify(mapping));
   console.log("Job column mapping saved. Board group IDs: " + JSON.stringify(board.groups));
 }
@@ -139,7 +146,7 @@ function inspectJobColumns() {
 
 function validateApplication_(body) {
   var schema = JOB_APPLICATION_SCHEMA;
-  if (body.role !== schema.role || !/^[a-f0-9]{8}-[a-f0-9]{4}-4[a-f0-9]{3}-[89ab][a-f0-9]{3}-[a-f0-9]{12}$/i.test(body.requestId || "")) throw applicationError_("Invalid application request. Please refresh the page.");
+  if (body.role !== schema.role || body.formRevision !== schema.formRevision || !/^[a-f0-9]{8}-[a-f0-9]{4}-4[a-f0-9]{3}-[89ab][a-f0-9]{3}-[a-f0-9]{12}$/i.test(body.requestId || "")) throw applicationError_("Invalid application request. Please refresh the page.");
   if (typeof body.website !== "string" || body.website) throw applicationError_("The application could not be accepted.");
   var values = body.values, files = body.files;
   if (!values || !files || Array.isArray(values) || Array.isArray(files)) throw applicationError_("Invalid application details.");
@@ -241,7 +248,9 @@ function result_(body) {
 }
 
 function doGet() {
-  return result_({ service: "Canton Foundation job applications" });
+  var ready = false;
+  try { config_(); ready = true; } catch (_) { /* Only public readiness is returned. */ }
+  return result_({ service: "Canton Foundation job applications", role: JOB_APPLICATION_SCHEMA.role, acceptingApplications: ready });
 }
 
 function authorizeJobApplicationEmail() {
@@ -271,8 +280,8 @@ function sendJobApplicationConfirmation_(application, requestId, state, properti
       to: application.values.email,
       name: "Canton Foundation Recruitment",
       replyTo: JOB_HR_EMAIL,
-      subject: "Thank you for applying | Canton Foundation Accounting Manager",
-      body: "Thank you for applying for the Accounting Manager role at Canton Foundation.\n\n" +
+      subject: "Thank you for applying | Canton Foundation " + JOB_APPLICATION_SCHEMA.roleTitle,
+      body: "Thank you for applying for the " + JOB_APPLICATION_SCHEMA.roleTitle + " role at Canton Foundation.\n\n" +
         "We have received your application and the attachments you submitted. Our recruitment team will review your application and contact you if we would like to discuss next steps.\n\n" +
         "If you have questions, please reply to this email or contact " + JOB_HR_EMAIL + ". Include your application reference so we can help.\n\n" +
         "Application reference: " + requestId + "\n\n" +
@@ -337,7 +346,7 @@ function doPost(event) {
     // Consume the editor's approval before any write; never carry retry permission forward.
     properties.setProperty(key, JSON.stringify(state));
     writeStarted = true;
-    var data = createJobItem_(config, application.values.name || "Accounting Manager application", columns);
+    var data = createJobItem_(config, application.values.name || JOB_APPLICATION_SCHEMA.roleTitle + " application", columns);
     if (!data.create_item || !data.create_item.id) throw new Error("Creation not confirmed");
     state.itemId = data.create_item.id;
     state.phase = "uploading";

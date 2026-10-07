@@ -9,8 +9,9 @@
   const local = ["localhost", "127.0.0.1"].includes(location.hostname);
   const validEndpoint = /^https:\/\/script\.google\.com\/macros\/s\/[\w-]+\/exec$/.test(config.endpoint || "") ||
     (local && config.endpoint === location.origin + "/application-test");
-  const submissionConfigured = config.enabled === true && validEndpoint && Boolean(config.turnstileSiteKey);
-  const storageKey = "canton-accounting-application-request";
+  const submissionConfigured = config.enabled === true && validEndpoint && Boolean(config.turnstileSiteKey) && form.dataset.role === schema.role;
+  const storageKey = "canton-" + schema.role + "-application-request";
+  let acceptingApplications = false;
   let requestId;
   try { requestId = sessionStorage.getItem(storageKey); } catch (_) { /* Storage is optional. */ }
   if (!/^[a-f0-9-]{36}$/.test(requestId || "")) requestId = crypto.randomUUID();
@@ -103,8 +104,8 @@
 
   form.addEventListener("submit", async event => {
     event.preventDefault();
-    if (!submissionConfigured) {
-      message("This is a preview. Submissions are not available yet, and nothing has been sent.", true);
+    if (!acceptingApplications) {
+      message("Applications are temporarily unavailable. Nothing has been sent. Please check back shortly or contact hr@canton.foundation.", true);
       return;
     }
     if (busy || fields.disabled || !validate()) return;
@@ -132,7 +133,7 @@
       const response = await fetch(config.endpoint, {
         method: "POST", credentials: "omit", redirect: "follow",
         headers: { "Content-Type": "text/plain;charset=UTF-8" },
-        body: JSON.stringify({ role: schema.role, requestId, values, files, token, website: form.elements.website.value }),
+        body: JSON.stringify({ role: schema.role, formRevision: schema.formRevision, requestId, values, files, token, website: form.elements.website.value }),
         signal: controller.signal
       });
       const result = await response.json();
@@ -179,30 +180,46 @@
     }
   });
 
-  // Show the native questions even before deployment, without collecting a draft.
-  fields.disabled = false;
-  if (!submissionConfigured) {
-    document.querySelector("#application-unavailable").hidden = false;
-    submit.textContent = "Submission not yet available";
-    return;
+  async function initializeApplication() {
+    const notice = document.querySelector("#application-unavailable");
+    let timer;
+    try {
+      if (!submissionConfigured) throw new Error("Unconfigured service");
+      const controller = new AbortController();
+      timer = setTimeout(() => controller.abort(), 15000);
+      // Read public readiness only. An old deployment must not collect this role's answers.
+      const response = await fetch(config.endpoint + "?check=" + Date.now(), {
+        credentials: "omit", redirect: "follow", cache: "no-store", signal: controller.signal
+      });
+      const service = await response.json();
+      if (!response.ok || service.role !== schema.role || service.acceptingApplications !== true) throw new Error("Service not ready for this role");
+      acceptingApplications = true;
+      notice.hidden = true;
+      document.querySelector("#application-form-intro").textContent = "Fields marked * are required. Please have your CV ready. Your application is submitted to the Canton Foundation's recruitment system.";
+      form.removeAttribute("autocomplete");
+      fields.disabled = false;
+      submit.disabled = false;
+      submit.textContent = "Submit application";
+      submit.removeAttribute("aria-describedby");
+      window.onJobVerificationReady = () => {
+        widget = window.turnstile.render("#application-verification", {
+          sitekey: config.turnstileSiteKey, action: "job_application", theme: "dark",
+          callback: value => { token = value; },
+          "expired-callback": () => { token = ""; },
+          "error-callback": () => { token = ""; message("The security check could not load. Please refresh the page and try again.", true); }
+        });
+      };
+      const script = document.createElement("script");
+      script.src = "https://challenges.cloudflare.com/turnstile/v0/api.js?onload=onJobVerificationReady&render=explicit";
+      script.async = true;
+      script.onerror = () => message("The security check could not load. Please refresh the page and try again.", true);
+      document.head.append(script);
+    } catch (_) {
+      notice.hidden = false;
+      submit.textContent = "Applications temporarily unavailable";
+    } finally {
+      clearTimeout(timer);
+    }
   }
-  document.querySelector("#application-unavailable").hidden = true;
-  document.querySelector("#application-form-intro").textContent = "Fields marked * are required. Please have your CV ready. Your application is submitted to the Canton Foundation's recruitment system.";
-  form.removeAttribute("autocomplete");
-  submit.disabled = false;
-  submit.textContent = "Submit application";
-  submit.removeAttribute("aria-describedby");
-  window.onJobVerificationReady = () => {
-    widget = window.turnstile.render("#application-verification", {
-      sitekey: config.turnstileSiteKey, action: "job_application", theme: "dark",
-      callback: value => { token = value; },
-      "expired-callback": () => { token = ""; },
-      "error-callback": () => { token = ""; message("The security check could not load. Please refresh the page and try again.", true); }
-    });
-  };
-  const script = document.createElement("script");
-  script.src = "https://challenges.cloudflare.com/turnstile/v0/api.js?onload=onJobVerificationReady&render=explicit";
-  script.async = true;
-  script.onerror = () => message("The security check could not load. Please refresh the page and try again.", true);
-  document.head.append(script);
+  initializeApplication();
 })();
