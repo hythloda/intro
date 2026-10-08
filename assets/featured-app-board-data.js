@@ -1,5 +1,5 @@
 window.FEATURED_APP_BOARD_DATA = {
-  "generatedAt": "2026-10-07T13:32:05.076Z",
+  "generatedAt": "2026-10-08T13:37:58.140Z",
   "columns": [
     {
       "id": "text_mm4k2vch",
@@ -327,7 +327,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12954184948",
       "name": "Rapid Chain - Rapid Blockchain Technologies Ltd.",
-      "updatedAt": "2026-10-06T18:51:29Z",
+      "updatedAt": "2026-10-07T19:51:21Z",
       "values": {
         "text_mm4k2vch": "Rapid Blockchain Technologies Ltd.",
         "color_mm4kmej3": "1-Needs Review",
@@ -352,7 +352,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12959523630",
       "name": "MetCredX - NIPRO TECHNOLOGIES LIMITED",
-      "updatedAt": "2026-10-07T10:51:09Z",
+      "updatedAt": "2026-10-08T12:51:10Z",
       "values": {
         "text_mm4k2vch": "NIPRO TECHNOLOGIES LIMITED",
         "color_mm4kmej3": "1-Needs Review",
@@ -837,7 +837,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12959522895",
       "name": "ccledger - Blueprint Infrastructure, LLC",
-      "updatedAt": "2026-10-07T09:51:44Z",
+      "updatedAt": "2026-10-08T10:53:08Z",
       "values": {
         "text_mm4k2vch": "Blueprint Infrastructure, LLC",
         "color_mm4kmej3": "1-Needs Review",
@@ -6020,7 +6020,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467824061",
       "name": "iBTC Bitcoin Bridge",
-      "updatedAt": "2026-10-07T03:52:02Z",
+      "updatedAt": "2026-10-08T08:52:02Z",
       "values": {
         "text_mm4k2vch": "Bitsafe",
         "color_mm4kmej3": "0-Locked+Needs Review",
@@ -10322,7 +10322,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12964705710",
       "name": "RAX Finance - RAX Finance",
-      "updatedAt": "2026-10-07T12:51:15Z",
+      "updatedAt": "2026-10-08T12:51:20Z",
       "values": {
         "text_mm4k2vch": "RAX Finance",
         "color_mm4kmej3": "0-Locked+Needs Review",
@@ -10381,7 +10381,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12974668475",
       "name": "OS Ledger - Outersunset",
-      "updatedAt": "2026-10-07T08:01:29Z",
+      "updatedAt": "2026-10-08T01:51:32Z",
       "values": {
         "text_mm4k2vch": "Outersunset",
         "color_mm4kmej3": "1-Needs Review",
@@ -10408,7 +10408,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12982310839",
       "name": "Ovdefi - OneNov",
-      "updatedAt": "2026-10-07T08:01:30Z",
+      "updatedAt": "2026-10-08T09:51:20Z",
       "values": {
         "text_mm4k2vch": "OneNov",
         "color_mm4kmej3": "1-Needs Review",
@@ -10438,7 +10438,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12982310399",
       "name": "Pinnaccle - Pinnaccle",
-      "updatedAt": "2026-10-07T00:51:43Z",
+      "updatedAt": "2026-10-08T00:52:22Z",
       "values": {
         "text_mm4k2vch": "Pinnaccle",
         "color_mm4kmej3": "1-Needs Review",
@@ -10498,7 +10498,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13003184089",
       "name": "R1M Sentinel - R1M",
-      "updatedAt": "2026-10-07T09:51:59Z",
+      "updatedAt": "2026-10-08T10:55:15Z",
       "values": {
         "text_mm4k2vch": "R1M",
         "color_mm4kmej3": "1-Needs Review",
@@ -10557,7 +10557,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13003182078",
       "name": "Maha Wallet - PT Maha Digital Solutions",
-      "updatedAt": "2026-10-06T15:51:43Z",
+      "updatedAt": "2026-10-07T16:51:39Z",
       "values": {
         "text_mm4k2vch": "PT Maha Digital Solutions",
         "color_mm4kmej3": "1-Needs Review",
@@ -10588,7 +10588,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13023350809",
       "name": "Zabpay - DSRV",
-      "updatedAt": "2026-10-07T09:52:10Z",
+      "updatedAt": "2026-10-08T10:55:29Z",
       "values": {
         "text_mm4k2vch": "DSRV",
         "color_mm4kmej3": "1-Needs Review",
@@ -10648,7 +10648,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13036463016",
       "name": "P2P Company - P2P Company",
-      "updatedAt": "2026-10-07T10:51:31Z",
+      "updatedAt": "2026-10-08T10:55:41Z",
       "values": {
         "text_mm4k2vch": "P2P Company",
         "color_mm4kmej3": "1-Needs Review",
@@ -10678,7 +10678,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13046640623",
       "name": "Yellow Card - Yellow Card Financial Inc.",
-      "updatedAt": "2026-10-07T06:53:50Z",
+      "updatedAt": "2026-10-08T07:54:14Z",
       "values": {
         "text_mm4k2vch": "Yellow Card Financial Inc.",
         "color_mm4kmej3": "1-Needs Review",
@@ -10707,7 +10707,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13056498524",
       "name": "mperps - Lemongrass IT services LLC FZ",
-      "updatedAt": "2026-10-07T08:01:34Z",
+      "updatedAt": "2026-10-08T07:54:28Z",
       "values": {
         "text_mm4k2vch": "Lemongrass IT services LLC FZ",
         "color_mm4kmej3": "1-Needs Review",
@@ -10802,7 +10802,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13076683931",
       "name": "cSOL - OnRails Ltd",
-      "updatedAt": "2026-10-07T06:54:15Z",
+      "updatedAt": "2026-10-08T07:54:38Z",
       "values": {
         "text_mm4k2vch": "OnRails Ltd",
         "color_mm4kmej3": "0-Locked+Needs Review",
@@ -10832,7 +10832,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13087665624",
       "name": "Float - SwapSo Inc",
-      "updatedAt": "2026-10-07T00:53:27Z",
+      "updatedAt": "2026-10-08T00:54:51Z",
       "values": {
         "text_mm4k2vch": "SwapSo Inc",
         "color_mm4kmej3": "0-Locked+Needs Review",
@@ -10860,7 +10860,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13111331892",
       "name": "Cove Wallet API - Qasara Labs Pvt Ltd",
-      "updatedAt": "2026-10-07T03:54:15Z",
+      "updatedAt": "2026-10-08T05:51:34Z",
       "values": {
         "text_mm4k2vch": "Qasara Labs Pvt Ltd",
         "color_mm4kmej3": "0-Locked+Needs Review",
@@ -10887,7 +10887,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13111369113",
       "name": "Helvex - Dream Capital",
-      "updatedAt": "2026-10-06T21:51:29Z",
+      "updatedAt": "2026-10-07T22:51:33Z",
       "values": {
         "text_mm4k2vch": "Dream Capital",
         "color_mm4kmej3": "0-Locked+Needs Review",
@@ -10916,7 +10916,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13122710944",
       "name": "OneSwap Launchpad - SatsTerminal",
-      "updatedAt": "2026-10-06T13:51:23Z",
+      "updatedAt": "2026-10-08T00:55:41Z",
       "values": {
         "text_mm4k2vch": "SatsTerminal",
         "color_mm4kmej3": "1-Needs Review",
@@ -10943,7 +10943,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13132611367",
       "name": "Veridic - Infodive Labs",
-      "updatedAt": "2026-10-06T22:52:12Z",
+      "updatedAt": "2026-10-08T00:51:21Z",
       "values": {
         "text_mm4k2vch": "Infodive Labs",
         "color_mm4kmej3": "0-Locked+Needs Review",
@@ -11006,7 +11006,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13167162421",
       "name": "Scopex Rate Lock - ScopeX Money",
-      "updatedAt": "2026-10-07T11:52:43Z",
+      "updatedAt": "2026-10-08T12:51:50Z",
       "values": {
         "text_mm4k2vch": "ScopeX Money",
         "color_mm4kmej3": "1-Needs Review",
@@ -11032,7 +11032,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13189278091",
       "name": "CanTra - CanTra GmbH registered with the Local Court (Amtsgericht) München under HRB 314213 (Registration Authority RA000304); LEI 254900AE880M41FX2T86",
-      "updatedAt": "2026-10-07T07:54:12Z",
+      "updatedAt": "2026-10-08T08:57:15Z",
       "values": {
         "text_mm4k2vch": "CanTra GmbH registered with the Local Court (Amtsgericht) München under HRB 314213 (Registration Authority RA000304); LEI 254900AE880M41FX2T86",
         "color_mm4kmej3": "0-Locked+Needs Review",
@@ -11062,7 +11062,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13189277788",
       "name": "Canal - Ice Labs",
-      "updatedAt": "2026-10-07T08:53:59Z",
+      "updatedAt": "2026-10-08T08:57:18Z",
       "values": {
         "text_mm4k2vch": "Ice Labs",
         "color_mm4kmej3": "0-Locked+Needs Review",
@@ -11093,7 +11093,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13202966648",
       "name": "Meriq - Anoetic Labs LLC",
-      "updatedAt": "2026-10-07T07:54:31Z",
+      "updatedAt": "2026-10-08T04:57:04Z",
       "values": {
         "text_mm4k2vch": "Anoetic Labs LLC",
         "color_mm4kmej3": "1-Needs Review",
@@ -11122,7 +11122,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13209206588",
       "name": "aSOL Bridge - Hellomoon",
-      "updatedAt": "2026-10-06T15:52:09Z",
+      "updatedAt": "2026-10-07T16:51:26Z",
       "values": {
         "text_mm4k2vch": "Guffey, Inc. (Hello Moon)",
         "color_mm4kmej3": "0-Locked+Needs Review",
@@ -11153,7 +11153,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13224947645",
       "name": "ForecastDesk - Microsystems Express Telecom",
-      "updatedAt": "2026-10-07T08:01:36Z",
+      "updatedAt": "2026-10-08T04:59:21Z",
       "values": {
         "text_mm4k2vch": "Microsystems Express Telecom",
         "color_mm4kmej3": "1-Needs Review",
@@ -11175,6 +11175,36 @@ window.FEATURED_APP_BOARD_DATA = {
         "long_text_mm4kfkwn": "Our first expected customers are current participants of the Canton Network as well as those users that actively use their Canton wallets, be it a native node wallet or Loop wallet.",
         "long_text_mm4k6q73": "If ForecastDesk were not to achieve Featured Application (FA) status, our core technical roadmap and business model would remain unchanged. The platform is designed to function and scale organically based on the inherent utility of the prediction markets and the transactions generated by our users. However, lacking FA status would primarily impact our trust-building and growth strategies. In the Web3 space, being recognized as a Featured Application serves as a critical reputational signal. For our target audience FA status provides an immediate sense of security and validation. Without this status, we would need to reallocate resources toward alternative marketing channels, community-building, and trust-verification initiatives to overcome the initial hurdle of user acquisition. While the platform would still operate as intended, achieving the velocity of user adoption and transaction volume required to scale would require more aggressive, independent marketing efforts.",
         "long_text_mm4kwxt1": "Yes. ForecastDesk applies controls at both the application and smart-contract layers. Every trade must be authorized by the user’s linked Canton wallet and fully collateralized. The Daml contracts reject non-positive amounts, invalid or duplicate share inputs, incorrect market or outcome references, expired requests, insufficient holdings or reserves, mismatched CC allocation details, invalid fee calculations, and executions outside the user’s signed price or slippage limits. Settlement is atomic, and request and position contracts are consumed when processed, preventing replay or double settlement. The application also: Allows only one in-flight order per wallet and market through the interface. Uses stable command IDs and Ledger API deduplication to prevent retries from becoming additional trades. Reconciles submissions with uncertain outcomes before permitting another order. Applies authenticated-session and IP-based API throttling. Charges trading fees and applies LMSR price impact, making circular buy/sell or split/merge activity economically costly. Only successfully completed, positive-value CC settlements are within the requested reward scope. Failed, cancelled, expired, duplicate, and zero-value transactions are excluded, and ForecastDesk does not generate separate Activity Markers. Account, wallet PartyID, and on-ledger transaction records provide an auditable trail for investigating rapid round trips or coordinated activity. Our terms expressly prohibit wash trading, fictitious transactions, spoofing, manipulation, money-pass orders, and other abusive activity, with suspicious behavior subject to review and enforcement."
+      }
+    },
+    {
+      "id": "13235200691",
+      "name": "CHYPE - BitSafe Validator, LLC",
+      "updatedAt": "2026-10-08T12:51:28Z",
+      "values": {
+        "text_mm4k2vch": "BitSafe Validator, LLC",
+        "color_mm4kmej3": "1-Needs Review",
+        "long_text_mm4kq322": "chype-network::1220cc3b5ad1ada1b7748a17414bf1473e2de0cf9dc7bc820be1cc441b78c0b15956",
+        "color_mm4kpp3q": "Asset Issuer",
+        "long_text_mm4khjn6": "12204::122043fc346e6ae6e9ac9e9efd1c1b42245e2f4854e16dcd5ae962924a9839ce6e41 This may be subject to change - will reach out if it does",
+        "long_text_mm4km2s7": "BitSafe builds decentralized, privacy-enabled digital asset infrastructure on the Canton Network. As the team who brought Bitcoin to Canton, BitSafe enables institutions and developers to launch, move, and manage assets across the Canton ecosystem. CBTC is BitSafe’s production proof point, with a decentralized attestor model and live integrations across Canton wallets and trading venues. CHYPE extends this asset infrastructure to HYPE, with the aim of supporting trading, settlement, and collateral workflows on the Canton Network.",
+        "link_mm4kmq24": "https://www.bitsafe.finance/",
+        "link_mm4krmse": "https://github.com/DLC-link/canton.",
+        "long_text_mm4k2537": "CHYPE is a planned 1:1 HYPE-backed asset on the Canton Network. It is designed to let participants deposit native HYPE on HyperEVM, receive CHYPE on Canton, transfer and use CHYPE in compatible wallets and applications, and burn CHYPE to redeem HYPE to a supported HyperEVM address.",
+        "long_text_mm5hgry2": "No. CHYPE is a new application and is not presented as an existing customer-ready production bridge. It builds on BitSafe's production CBTC infrastructure and its deposit, withdrawal, Utility Registry, and governance architecture, adapted for native HYPE on HyperEVM. Prior deployment of shared components does not establish that the CHYPE-specific bridge has completed testing or independent audit.",
+        "long_text_mm4k4y1h": "Institutional trading venues, market makers, wallets, custodians, and Canton application developers that require HYPE exposure for spot trading, settlement, collateral, or other on-ledger financial workflows.",
+        "long_text_mm4k15bg": "Qualifying activities are genuine third-party CHYPE transfers and settlements that represent distinct economic actions. Mint and redemption transactions will qualify only where permitted by the Committee. Each qualifying event must correspond to real on-ledger activity and fee burn. Administrative setup, test traffic, self-transfers, recycled rewards, and synthetic volume will not be counted.",
+        "long_text_mm4kh3fw": "The planned flow starts with an account or deposit request that identifies the HYPE depositor and Canton recipient. The attestor infrastructure observes and verifies a qualifying HyperEVM deposit. After the required approvals, the CHYPE registrar issues the corresponding CHYPE on Canton. Participants can then transfer or allocate CHYPE through supported token interfaces. For redemption, a participant burns CHYPE and requests a HYPE payout to a supported HyperEVM address. The attestor and bridge infrastructure verifies the request and authorizes the corresponding release. Canton records issuance, transfer, burn, account state, and relevant governance actions.",
+        "long_text_mm4kfg50": "Activity Markers. CHYPE will use the same approach BitSafe already uses for CBTC, following the Committee-approved asset-issuer attribution model. Its InstrumentConfiguration has operatorAppRewardBeneficiary and providerAppRewardBeneficiaries configured in the same pattern as BitSafe's other tokens. Engineering will provide the event-to-beneficiary mapping and confirm whether separate Featured App Activity Markers are required for any approved use case. No event will be rewarded through duplicate mechanisms.",
+        "long_text_mm4kxcm2": "CHYPE does not yet have a measured production per-user transaction rate. However, CBTC recorded 6.55 million transfers across 30,540 active parties in its latest 30-day period, equivalent to roughly 7 transfers per party per day. CHYPE will follow the same model as it scales upward, with activity driven by institutional holders plus exchange and wallet integrations.",
+        "long_text_mm4kvyjq": "A participant may generate multiple transactions when executing separate trades, moving inventory between venues or wallets, minting CHYPE after a new HYPE deposits, or redeeming separate positions. Each transaction must correspond to a distinct economic action. Splitting one action, self-paying, ping-pong transfers, and cycling rewards solely to increase reward claims are prohibited.",
+        "long_text_mm4k1cm0": "Primarily linear with the number of active users, venues, wallets, and settled economic actions. Venue integrations may create step changes in volume when new order flow or market makers go live. Batching may make ledger transaction growth sub-linear relative to executed orders.",
+        "long_text_mm4kfkwn": "Temple Digital Group will integrate CHYPE first, with minters including Flowdesk and/or G20. The exact integration date and production go-live date remain to be confirmed, but the earliest would be 3 November 2026, assuming the Featured App request is submitted on 6 October. This is the earliest planning date, not a confirmed go-live date: launch must also fall at least seven days after Featured App approval and 14 days after the first MainNet mint, with bridge testing, security review, Temple readiness, and launch-gate approval complete. The current public-launch target is 10 November 2026.",
+        "long_text_mm4k6q73": "BitSafe would continue development and security testing, but may narrow or delay liquidity incentives and partner activation until the economics and launch plan are approved. Featured status would support incentives for partners generating genuine CHYPE use. BitSafe would not generate artificial activity to compensate for the absence of Featured status.",
+        "long_text_mm4kwxt1": "Yes. Rewards will be calculated only from qualifying third-party CHYPE activity that can be matched to real ledger transactions and fee burn. BitSafe will exclude administrative actions, test accounts, self-transfers, circular transfers, reward recycling, and duplicate attribution. BitSafe will monitor concentration by venue and wallet, investigate abnormal counterparties or repeated round-level patterns, and keep an auditable event-level mapping between the economic action and any reward claim. The system will use either Featured token-transfer attribution or Activity Markers for an event, never both.",
+        "long_text_mm4khbeg": "https://github.com/DLC-link/canton. This is private for now, with implementations in PRs. DARS are available via Utility.",
+        "long_text_mm4kp5en": "CHYPE Materials and Logo",
+        "long_text_mm7pyz6h": "The Canton MainNet InstrumentConfiguration was deployed on October 5, 2026 (`chype-network::1220cc3b5ad1ada1b7748a17414bf1473e2de0cf9dc7bc820be1cc441b78c0b15956)`, with UpdateID `122095ffc5c9c3dd7c6127b006552034534f2e6e8e776e7ad8960e865d8eabb7918c` and the Lighthouse link supplied above. CHYPE does not have a standalone test URL or user interface because a UI is not in scope. BitSafe is a repeat asset issuer with CBTC already live on Canton. We expect the Committee may be able to review CHYPE based on BitSafe’s proven issuance track record and the technical evidence available at launch. If the Committee requires CHYPE-specific package IDs, transaction evidence, test credentials, or a walkthrough, BitSafe will confirm the required format and provide the available materials after deployment."
       }
     }
   ]
