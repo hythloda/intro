@@ -19,7 +19,9 @@ confirms configuration, not end-to-end delivery or current provider availability
    **Application Reference** (Text). Keep **Phone** as Text. The new board's IDs
    must be checked even if it was duplicated from the Accounting Manager board.
 2. Replace the existing project's single **Code.gs** with the complete file in
-   this directory. Keep `MONDAY`, `TURNSTILE_SECRET`, email authorization, and
+   this directory. Remove any obsolete **Schema.gs** file from the editor's file
+   list: it can override the bundled CEO schema with the old Accounting Manager
+   role even when `Code.gs` is correct. Keep `MONDAY`, `TURNSTILE_SECRET`, email authorization, and
    all `application:` receipt properties. Do not clear old receipts or resubmit
    old applications. The existing endpoint and sender can stay the same.
 3. Run **inspectJobColumns**. Review `JOB_COLUMN_OVERRIDES` and `MONDAY_GROUP_ID`

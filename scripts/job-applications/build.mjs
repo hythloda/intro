@@ -13,8 +13,9 @@ export function buildJobApplicationScript() {
     readFileSync(new URL(vendor + name, import.meta.url), "utf8").trim().replaceAll("*/", "* /") + "\n */\n"
   ).join("\n");
   const header = "/*\n" +
-    " * ALL-IN-ONE ACCOUNTING MANAGER APPLICATION SCRIPT\n" +
+    " * ALL-IN-ONE PRESIDENT AND CEO APPLICATION SCRIPT\n" +
     " * This is the only .gs file to install in Apps Script.\n" +
+    " * Remove obsolete Schema.gs files: they can override the role and questions.\n" +
     " * Includes the schema, doGet/doPost handlers, setup, and diagnostics.\n" +
     " * Keep MONDAY and TURNSTILE_SECRET in Script Properties, not in this file.\n" +
     " * Maintainers: regenerate with node scripts/job-applications/build.mjs.\n" +

@@ -480,7 +480,7 @@ test("public submissions are enabled after verification and the temporary test p
   vm.runInNewContext(readFileSync(new URL("../../assets/job-application-config.js", import.meta.url), "utf8"), context);
   assert.equal(context.window.JOB_APPLICATION_CONFIG.enabled, true);
   const role = readFileSync(new URL("../../president-and-ceo.html", import.meta.url), "utf8");
-  assert.match(role, /job-application-config\.js\?v=20260924-sender2/);
+  assert.match(role, /job-application-config\.js\?v=20261007-ceo-deployment2/);
   assert.match(role, /id="application-unavailable" hidden/);
   assert.equal(existsSync(new URL("../../job-application-check.html", import.meta.url)), false);
 });
