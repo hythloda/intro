@@ -88,7 +88,7 @@ function harness(options = {}) {
   calls.length = 0;
   const schema = context.JOB_APPLICATION_SCHEMA;
   const values = Object.fromEntries(schema.fields.filter(f => f.type !== "file").map(f => [f.key, ""]));
-  Object.assign(values, { name: "Test Applicant", email: "applicant@example.test", country: "US", sponsorship: "No", previousWork: "No", restrictions: "No" });
+  Object.assign(values, { name: "Test Applicant", email: "applicant@example.test", country: "US", address: "123 Example Street, Example City, NY 10001, USA", startDate: "2026-11-01", salaryExpectations: "USD 200,000 annually", sponsorship: "No", previousWork: "No", restrictions: "No" });
   const body = { role: schema.role, formRevision: schema.formRevision, requestId: randomUUID(), token: "test-token", website: "", values, files: { cv: { name: "test.pdf", data: Buffer.from("%PDF-1.4\nSynthetic test fixture\n%%EOF").toString("base64") } } };
   const post = value => JSON.parse(context.doPost({ postData: { contents: JSON.stringify(value) } }).text);
   const creates = () => calls.filter(c => c.url.endsWith("/v2") && JSON.parse(c.request.payload).query.includes("create_item"));
@@ -151,12 +151,13 @@ test("cached old form scripts cannot post even if they load the new shared schem
   assert.equal(h.calls.length, 0);
 });
 
-test("Salary Expectations is optional free text and reaches its own text or long-text column", () => {
+test("Salary Expectations is required free text and reaches its own text or long-text column", () => {
   for (const type of ["text", "long_text"]) {
     const h = harness();
     const field = h.context.JOB_APPLICATION_SCHEMA.fields.find(f => f.key === "salaryExpectations");
     assert.equal(field.type, "text");
-    assert(!field.required);
+    assert.equal(field.required, true);
+    assert.doesNotMatch(field.help, /optional/i);
     const mapping = JSON.parse(h.properties.get("JOB_COLUMN_MAP"));
     mapping.salaryExpectations.type = type;
     h.properties.set("JOB_COLUMN_MAP", JSON.stringify(mapping));
@@ -168,9 +169,6 @@ test("Salary Expectations is optional free text and reaches its own text or long
     assert(!h.emails[0].body.includes(expected));
     assert(!JSON.stringify([...h.properties]).includes(expected));
   }
-  const blank = harness();
-  assert(blank.post(blank.body).ok);
-  assert.equal(JSON.parse(JSON.parse(blank.creates()[0].request.payload).variables.values).col_salaryExpectations, undefined);
   const long = harness();
   long.body.values.salaryExpectations = "x".repeat(1001);
   assert.deepEqual(long.post(long.body).fields, ["salaryExpectations"]);
@@ -281,11 +279,15 @@ test("a reused receipt with changed answers cannot alter or duplicate an applica
   assert.equal(h.creates().length, 1);
 });
 
-for (const key of ["email", "country", "sponsorship", "previousWork", "restrictions"]) {
+for (const key of ["name", "email", "country", "address", "sponsorship", "previousWork", "restrictions", "startDate", "salaryExpectations"]) {
   test("rejects missing required " + key, () => {
-    const h = harness(); h.body.values[key] = "";
-    const result = h.post(h.body);
-    assert.equal(result.ok, false); assert(result.fields.includes(key)); assert.equal(h.calls.length, 0);
+    for (const blank of ["", "   ", undefined]) {
+      const h = harness(); h.body.values[key] = blank;
+      const result = h.post(h.body);
+      assert.equal(result.ok, false); assert(result.fields.includes(key)); assert.equal(h.calls.length, 0);
+      assert.equal(h.emails.length, 0);
+      assert.equal(h.properties.has("application:" + h.body.requestId), false);
+    }
   });
 }
 
@@ -976,7 +978,7 @@ test("jobs lists only President and CEO and the legacy role cannot collect appli
 });
 
 async function clientReadinessHarness(service, options = {}) {
-  const nodes = new Map(), requests = [], storageReads = [], scripts = [];
+  const nodes = new Map(), requests = [], storageReads = [], scripts = [], created = [];
   const element = tag => ({
     tagName: tag.toUpperCase(), classList: { add() {} }, dataset: {}, listeners: {},
     append(...children) { if (tag === "head") scripts.push(...children); },
@@ -984,7 +986,7 @@ async function clientReadinessHarness(service, options = {}) {
     addEventListener(event, callback) { this.listeners[event] = callback; }
   });
   const document = {
-    head: element("head"), createElement: element,
+    head: element("head"), createElement(tag) { const node = element(tag); created.push(node); return node; },
     querySelector(selector) {
       if (!nodes.has(selector)) nodes.set(selector, element("div"));
       return nodes.get(selector);
@@ -1012,8 +1014,19 @@ async function clientReadinessHarness(service, options = {}) {
   // Inputs stay disabled during the asynchronous readiness check.
   assert.equal(nodes.get("#application-fields").disabled, true);
   await new Promise(resolve => setImmediate(resolve));
-  return { nodes, requests, scripts, storageReads };
+  return { nodes, requests, scripts, storageReads, created };
 }
+
+test("browser marks the four requested fields required with asterisks", async () => {
+  const h = await clientReadinessHarness({ role: "president-and-ceo", acceptingApplications: true });
+  for (const key of ["name", "address", "startDate", "salaryExpectations"]) {
+    assert.equal(h.created.find(node => node.name === key).required, true);
+    assert.match(h.created.find(node => node.htmlFor === key).textContent, / \*$/);
+  }
+  for (const key of ["preferredName", "phone", "coverLetter", "gender", "hispanicLatino", "veteran"]) {
+    assert.equal(h.created.find(node => node.name === key).required, false);
+  }
+});
 
 test("browser enables the native form only for a ready President and CEO backend", async () => {
   const h = await clientReadinessHarness({ role: "president-and-ceo", acceptingApplications: true });

@@ -222,7 +222,7 @@ function columnValues_(application, mapping) {
       case "dropdown": value = { labels: [value] }; break;
       case "location":
         var results = Maps.newGeocoder().geocode(value);
-        if (results.status !== "OK" || !results.results || results.results.length !== 1 || results.results[0].partial_match) throw applicationError_("Please provide a complete physical address, including city and country, or leave this optional field empty.", [field.key]);
+        if (results.status !== "OK" || !results.results || results.results.length !== 1 || results.results[0].partial_match) throw applicationError_("Please provide a complete physical address, including street, city, region, postal code, and country.", [field.key]);
         var location = results.results[0].geometry.location;
         value = { address: value, lat: String(location.lat), lng: String(location.lng) };
         break;

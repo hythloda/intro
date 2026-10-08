@@ -70,6 +70,9 @@
       const input = form.elements.namedItem(field.key);
       input.setCustomValidity("");
       input.removeAttribute("aria-invalid");
+      if (field.required && field.type !== "file" && !input.value.trim()) {
+        input.setCustomValidity("Please complete this required field.");
+      }
       if (field.type === "file" && input.files[0]) {
         const file = input.files[0];
         if (!/\.(pdf|docx?)$/i.test(file.name) || !file.size || file.size > schema.maxFileBytes) {

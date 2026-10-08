@@ -229,21 +229,21 @@ var JOB_APPLICATION_SCHEMA = {
   maxFileBytes: 5 * 1024 * 1024,
   countryCodes: "AD AE AF AG AI AL AM AO AQ AR AS AT AU AW AX AZ BA BB BD BE BF BG BH BI BJ BL BM BN BO BQ BR BS BT BV BW BY BZ CA CC CD CF CG CH CI CK CL CM CN CO CR CU CV CW CX CY CZ DE DJ DK DM DO DZ EC EE EG EH ER ES ET FI FJ FK FM FO FR GA GB GD GE GF GG GH GI GL GM GN GP GQ GR GS GT GU GW GY HK HM HN HR HT HU ID IE IL IM IN IO IQ IR IS IT JE JM JO JP KE KG KH KI KM KN KP KR KW KY KZ LA LB LC LI LK LR LS LT LU LV LY MA MC MD ME MF MG MH MK ML MM MN MO MP MQ MR MS MT MU MV MW MX MY MZ NA NC NE NF NG NI NL NO NP NR NU NZ OM PA PE PF PG PH PK PL PM PN PR PS PT PW PY QA RE RO RS RU RW SA SB SC SD SE SG SH SI SJ SK SL SM SN SO SR SS ST SV SX SY SZ TC TD TF TG TH TJ TK TL TM TN TO TR TT TV TW TZ UA UG UM US UY UZ VA VC VE VG VI VN VU WF WS YE YT ZA ZM ZW".split(" "),
   fields: [
-    { key: "name", label: "Name", section: "contact", type: "text", autocomplete: "name", max: 255, columnTypes: ["name"] },
+    { key: "name", label: "Name", section: "contact", type: "text", autocomplete: "name", required: true, max: 255, columnTypes: ["name"] },
     { key: "preferredName", label: "Preferred Name", section: "contact", type: "text", max: 255, help: "What's the name you'd prefer us to use throughout the interview process?", columnTypes: ["text", "long_text"] },
     { key: "email", label: "Email Address", section: "contact", type: "email", autocomplete: "email", required: true, max: 254, columnTypes: ["email", "text"] },
     { key: "country", label: "Current Country of Residence", section: "contact", type: "country", required: true, columnTypes: ["country", "text", "dropdown", "status"] },
     { key: "phoneCountry", label: "Phone country", section: "contact", type: "country", help: "Optional. Select the country your phone number belongs to, which may differ from where you live.", auxiliary: true },
     { key: "phone", label: "Phone", section: "contact", type: "tel", autocomplete: "tel", max: 40, help: "Optional. Include your international dialing code where possible. Your number and any extension are saved as entered.", columnTypes: ["text", "phone"] },
-    { key: "address", label: "Physical Address", section: "contact", type: "textarea", autocomplete: "street-address", max: 1000, help: "Include street, city, region, postal code, and country.", columnTypes: ["location", "text", "long_text"] },
+    { key: "address", label: "Physical Address", section: "contact", type: "textarea", autocomplete: "street-address", required: true, max: 1000, help: "Include street, city, region, postal code, and country.", columnTypes: ["location", "text", "long_text"] },
     { key: "linkedin", label: "LinkedIn Profile", section: "contact", type: "url", max: 2000, help: "Use a full https:// URL.", columnTypes: ["link", "text"] },
     { key: "cv", label: "CV", section: "documents", type: "file", required: true, help: "Please upload your most recent CV in PDF or Word format. Maximum 5 MB.", columnTypes: ["file"] },
     { key: "coverLetter", label: "Cover Letter", section: "documents", type: "file", help: "Optional but encouraged. Tell us why you're a great fit for this role. PDF or Word, maximum 5 MB.", columnTypes: ["file"] },
     { key: "sponsorship", label: "Will you now or in the future require visa sponsorship?", section: "experience", type: "select", required: true, options: ["Yes", "No"], columnTypes: ["status", "dropdown", "text"] },
     { key: "previousWork", label: "Have you previously worked at or consulted for Canton Foundation?", section: "experience", type: "select", required: true, options: ["Yes", "No"], columnTypes: ["status", "dropdown", "text"] },
     { key: "restrictions", label: "Are you subject to any employment agreements or post-employment restrictions with a current or past employer?", section: "experience", type: "select", required: true, options: ["Yes", "No"], columnTypes: ["status", "dropdown", "text"] },
-    { key: "startDate", label: "Earliest Start Date", section: "experience", type: "date", columnTypes: ["date", "text"] },
-    { key: "salaryExpectations", label: "Salary Expectations", section: "experience", type: "text", max: 1000, help: "Optional. Include your expected salary or range, currency, and whether it is annual or monthly.", columnTypes: ["text", "long_text"] },
+    { key: "startDate", label: "Earliest Start Date", section: "experience", type: "date", required: true, columnTypes: ["date", "text"] },
+    { key: "salaryExpectations", label: "Salary Expectations", section: "experience", type: "text", required: true, max: 1000, help: "Include your expected salary or range, currency, and whether it is annual or monthly.", columnTypes: ["text", "long_text"] },
     { key: "adjustments", label: "Requested adjustments", section: "experience", type: "textarea", max: 5000, help: "Optional: any additional information, availability, or context you'd like to share.", columnTypes: ["text", "long_text"] },
     { key: "gender", label: "Gender", section: "voluntary", type: "select", options: ["Male", "Female", "Decline to Self Identify"], columnTypes: ["status", "dropdown", "text"] },
     { key: "hispanicLatino", label: "Are you Hispanic/Latino?", section: "voluntary", type: "select", options: ["Yes", "No", "Decline to Self Identify"], columnTypes: ["status", "dropdown", "text"] },
@@ -761,7 +761,7 @@ function columnValues_(application, mapping) {
       case "dropdown": value = { labels: [value] }; break;
       case "location":
         var results = Maps.newGeocoder().geocode(value);
-        if (results.status !== "OK" || !results.results || results.results.length !== 1 || results.results[0].partial_match) throw applicationError_("Please provide a complete physical address, including city and country, or leave this optional field empty.", [field.key]);
+        if (results.status !== "OK" || !results.results || results.results.length !== 1 || results.results[0].partial_match) throw applicationError_("Please provide a complete physical address, including street, city, region, postal code, and country.", [field.key]);
         var location = results.results[0].geometry.location;
         value = { address: value, lat: String(location.lat), lng: String(location.lng) };
         break;
