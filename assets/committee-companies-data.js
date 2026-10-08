@@ -1,5 +1,5 @@
 window.COMMITTEE_COMPANIES_DATA = {
-  "generatedAt": "2026-10-07T13:53:02.535Z",
+  "generatedAt": "2026-10-08T13:59:42.662Z",
   "committees": {
     "faAccountability": {
       "label": "Featured Application Accountability Committee",
@@ -121,6 +121,7 @@ window.COMMITTEE_COMPANIES_DATA = {
         "SBI Digital Asset Holdings",
         "Send, Inc.",
         "T-RIZE Group",
+        "Texture Capital Holdings Corp.",
         "The Tie Inc",
         "Titan Labs Limited",
         "TRM Labs",
