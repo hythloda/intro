@@ -243,7 +243,8 @@ var JOB_APPLICATION_SCHEMA = {
     { key: "previousWork", label: "Have you previously worked at or consulted for Canton Foundation?", section: "experience", type: "select", required: true, options: ["Yes", "No"], columnTypes: ["status", "dropdown", "text"] },
     { key: "restrictions", label: "Are you subject to any employment agreements or post-employment restrictions with a current or past employer?", section: "experience", type: "select", required: true, options: ["Yes", "No"], columnTypes: ["status", "dropdown", "text"] },
     { key: "startDate", label: "Earliest Start Date", section: "experience", type: "date", required: true, columnTypes: ["date", "text"] },
-    { key: "salaryExpectations", label: "Salary Expectations", section: "experience", type: "text", required: true, max: 1000, help: "Include your expected salary or range, currency, and whether it is annual or monthly.", columnTypes: ["text", "long_text"] },
+    { key: "salaryExpectations", label: "Salary Expectations", section: "experience", type: "text", max: 1000, help: "Optional. Include your expected salary or range, currency, and whether it is annual or monthly.", columnTypes: ["text", "long_text"] },
+    { key: "referral", label: "Who can you thank for your referral?", columnTitle: "Referral", section: "experience", type: "text", max: 1000, help: "Optional. Share the name of the person or organization that referred you.", columnTypes: ["text", "long_text"] },
     { key: "adjustments", label: "Requested adjustments", section: "experience", type: "textarea", max: 5000, help: "Optional: any additional information, availability, or context you'd like to share.", columnTypes: ["text", "long_text"] },
     { key: "gender", label: "Gender", section: "voluntary", type: "select", options: ["Male", "Female", "Decline to Self Identify"], columnTypes: ["status", "dropdown", "text"] },
     { key: "hispanicLatino", label: "Are you Hispanic/Latino?", section: "voluntary", type: "select", options: ["Yes", "No", "Decline to Self Identify"], columnTypes: ["status", "dropdown", "text"] },
@@ -655,7 +656,7 @@ function setupJobApplication() {
   var mapping = {};
   jobColumnFields_().forEach(function (field) {
     var matches = board.columns.filter(function (column) {
-      return overrides[field.key] ? column.id === overrides[field.key] : normalize(column.title) === normalize(field.label);
+      return overrides[field.key] ? column.id === overrides[field.key] : normalize(column.title) === normalize(field.columnTitle || field.label);
     });
     // The recruitment board now uses plain text for Phone. Do not select its old phone column.
     if (field.key === "phone" && !overrides.phone) {
@@ -698,6 +699,8 @@ function validateApplication_(body) {
       attachments[field.key] = validateFile_(files[field.key], field.key);
       return;
     }
+    // Older open forms omit referral; preserve their existing receipt hashes.
+    if (field.key === "referral" && !Object.prototype.hasOwnProperty.call(values, field.key)) return;
     var value = values[field.key];
     if (typeof value !== "string") { errors.push(field.key); return; }
     value = value.trim();

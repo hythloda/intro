@@ -116,7 +116,7 @@ function setupJobApplication() {
   var mapping = {};
   jobColumnFields_().forEach(function (field) {
     var matches = board.columns.filter(function (column) {
-      return overrides[field.key] ? column.id === overrides[field.key] : normalize(column.title) === normalize(field.label);
+      return overrides[field.key] ? column.id === overrides[field.key] : normalize(column.title) === normalize(field.columnTitle || field.label);
     });
     // The recruitment board now uses plain text for Phone. Do not select its old phone column.
     if (field.key === "phone" && !overrides.phone) {
@@ -159,6 +159,8 @@ function validateApplication_(body) {
       attachments[field.key] = validateFile_(files[field.key], field.key);
       return;
     }
+    // Older open forms omit referral; preserve their existing receipt hashes.
+    if (field.key === "referral" && !Object.prototype.hasOwnProperty.call(values, field.key)) return;
     var value = values[field.key];
     if (typeof value !== "string") { errors.push(field.key); return; }
     value = value.trim();

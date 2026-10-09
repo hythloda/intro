@@ -18,7 +18,7 @@ test("Code.gs is a complete standalone deployment with no additional gs files", 
     assert.equal(typeof context[name], "function", name + " must exist in Code.gs alone");
     assert.equal((serverSource.match(new RegExp("^function " + name + "\\(", "gm")) || []).length, 1);
   }
-  assert.equal(context.JOB_APPLICATION_SCHEMA.fields.length, 19);
+  assert.equal(context.JOB_APPLICATION_SCHEMA.fields.length, 20);
   assert.equal(context.JOB_APPLICATION_SCHEMA.countryNames.US, "United States");
 });
 
@@ -75,7 +75,7 @@ function harness(options = {}) {
         if (options.createResponse) return response(options.createResponse, options.httpStatus);
         return response({ data: { create_item: { id: "item-123" } }, ...(options.emptyErrors ? { errors: [] } : {}) });
       }
-      const columns = context.JOB_APPLICATION_SCHEMA.fields.filter(f => !f.auxiliary).map(f => ({ title: f.label, id: "col_" + f.key, type: f.key === "phone" ? options.phoneType || "phone" : f.columnTypes[0] }));
+      const columns = context.JOB_APPLICATION_SCHEMA.fields.filter(f => !f.auxiliary).map(f => ({ title: f.columnTitle || f.label, id: "col_" + f.key, type: f.key === "phone" ? options.phoneType || "phone" : f.columnTypes[0] }));
       if (!options.omitReferenceColumn) columns.push({ title: "Application Reference", id: "col_applicationReference", type: options.referenceType || "text" });
       if (options.extraColumns) columns.push(...options.extraColumns);
       return response({ data: { boards: [{ columns, groups: [{ id: "new", title: "New applicants" }] }] } });
@@ -151,13 +151,13 @@ test("cached old form scripts cannot post even if they load the new shared schem
   assert.equal(h.calls.length, 0);
 });
 
-test("Salary Expectations is required free text and reaches its own text or long-text column", () => {
+test("Salary Expectations is optional free text and reaches its own text or long-text column", () => {
   for (const type of ["text", "long_text"]) {
     const h = harness();
     const field = h.context.JOB_APPLICATION_SCHEMA.fields.find(f => f.key === "salaryExpectations");
     assert.equal(field.type, "text");
-    assert.equal(field.required, true);
-    assert.doesNotMatch(field.help, /optional/i);
+    assert.equal(Boolean(field.required), false);
+    assert.match(field.help, /optional/i);
     const mapping = JSON.parse(h.properties.get("JOB_COLUMN_MAP"));
     mapping.salaryExpectations.type = type;
     h.properties.set("JOB_COLUMN_MAP", JSON.stringify(mapping));
@@ -173,6 +173,73 @@ test("Salary Expectations is required free text and reaches its own text or long
   long.body.values.salaryExpectations = "x".repeat(1001);
   assert.deepEqual(long.post(long.body).fields, ["salaryExpectations"]);
   assert.equal(long.calls.length, 0);
+});
+
+test("salary and referral may both be left blank", () => {
+  const h = harness();
+  h.body.values.salaryExpectations = "   ";
+  h.body.values.referral = "   ";
+  assert(h.post(h.body).ok);
+  const values = JSON.parse(JSON.parse(h.creates()[0].request.payload).variables.values);
+  assert.equal(values.col_salaryExpectations, undefined);
+  assert.equal(values.col_referral, undefined);
+});
+
+test("optional referral maps to its own Referral text or long-text column", () => {
+  for (const type of ["text", "long_text"]) {
+    const h = harness();
+    const field = h.context.JOB_APPLICATION_SCHEMA.fields.find(f => f.key === "referral");
+    assert.equal(field.label, "Who can you thank for your referral?");
+    assert.equal(field.columnTitle, "Referral");
+    assert.equal(field.type, "text");
+    assert.equal(Boolean(field.required), false);
+    const mapping = JSON.parse(h.properties.get("JOB_COLUMN_MAP"));
+    mapping.referral.type = type;
+    h.properties.set("JOB_COLUMN_MAP", JSON.stringify(mapping));
+    h.body.values.referral = "  Example Referrer at Example Organization  ";
+    assert(h.post(h.body).ok);
+    const values = JSON.parse(JSON.parse(h.creates()[0].request.payload).variables.values);
+    const expected = h.body.values.referral.trim();
+    assert.deepEqual(values.col_referral, type === "text" ? expected : { text: expected });
+    assert(!h.emails[0].body.includes(expected));
+    assert(!JSON.stringify([...h.properties]).includes(expected));
+  }
+});
+
+test("invalid referral answers are rejected before external calls", () => {
+  for (const value of [null, {}, "x".repeat(1001)]) {
+    const h = harness();
+    h.body.values.referral = value;
+    assert.deepEqual(h.post(h.body).fields, ["referral"]);
+    assert.equal(h.calls.length, 0);
+  }
+});
+
+test("old open forms without referral preserve receipt hashes and cannot create duplicates", () => {
+  const h = harness();
+  delete h.body.values.referral;
+  const fields = h.context.JOB_APPLICATION_SCHEMA.fields;
+  h.context.JOB_APPLICATION_SCHEMA.fields = fields.filter(f => f.key !== "referral");
+  assert(h.post(h.body).ok);
+  const priorReceipt = h.properties.get("application:" + h.body.requestId);
+  h.context.JOB_APPLICATION_SCHEMA.fields = fields;
+  assert.equal(Object.hasOwn(h.context.validateApplication_(h.body).values, "referral"), false);
+  assert(h.post(h.body).ok);
+  assert.equal(h.properties.get("application:" + h.body.requestId), priorReceipt);
+  assert.equal(h.creates().length, 1);
+  assert.equal(h.emails.length, 1);
+});
+
+test("missing referral destination or wrong type blocks readiness and submissions", () => {
+  for (const destination of [null, { id: "col_referral", type: "numbers" }]) {
+    const h = harness();
+    const mapping = JSON.parse(h.properties.get("JOB_COLUMN_MAP"));
+    mapping.referral = destination;
+    h.properties.set("JOB_COLUMN_MAP", JSON.stringify(mapping));
+    assert.equal(JSON.parse(h.context.doGet().text).acceptingApplications, false);
+    assert.equal(h.post(h.body).ok, false);
+    assert.equal(h.calls.length, 0);
+  }
 });
 
 test("missing salary destination or wrong type blocks readiness and submissions", () => {
@@ -279,7 +346,7 @@ test("a reused receipt with changed answers cannot alter or duplicate an applica
   assert.equal(h.creates().length, 1);
 });
 
-for (const key of ["name", "email", "country", "address", "sponsorship", "previousWork", "restrictions", "startDate", "salaryExpectations"]) {
+for (const key of ["name", "email", "country", "address", "sponsorship", "previousWork", "restrictions", "startDate"]) {
   test("rejects missing required " + key, () => {
     for (const blank of ["", "   ", undefined]) {
       const h = harness(); h.body.values[key] = blank;
@@ -455,7 +522,7 @@ test("schema mismatch, missing credentials, and lock contention fail closed", ()
 
 test("schema has all original fields, no demographic requirement, and public config contains no secret", () => {
   const h = harness();
-  assert.equal(h.context.JOB_APPLICATION_SCHEMA.fields.length, 19);
+  assert.equal(h.context.JOB_APPLICATION_SCHEMA.fields.length, 20);
   assert(h.context.JOB_APPLICATION_SCHEMA.fields.filter(f => f.section === "voluntary").every(f => !f.required));
   const c = {}; vm.runInNewContext(readFileSync(new URL("../../assets/job-application-config.js", import.meta.url), "utf8"), { window: c });
   const config = plain(c.JOB_APPLICATION_CONFIG);
@@ -974,7 +1041,8 @@ test("jobs lists only President and CEO and the legacy role cannot collect appli
   for (const heading of ["Position Summary", "Strategy &amp; Execution", "Ecosystem &amp; Market Development",
     "External Leadership &amp; Advocacy", "Organizational Leadership", "Board, Governance &amp; Financial Leadership",
     "Candidate Profile", "Experience", "Education", "What Success Looks Like"]) assert(role.includes(heading));
-  for (const fact of ["Remote, with significant global travel", "Full-time", "Board of Directors"]) assert(role.includes(fact));
+  for (const fact of ["US based, NYC preferred, with significant global travel", "Full-time", "Board of Directors"]) assert(role.includes(fact));
+  assert(jobs.includes("US based, NYC preferred, with significant global travel"));
 });
 
 async function clientReadinessHarness(service, options = {}) {
@@ -1017,14 +1085,15 @@ async function clientReadinessHarness(service, options = {}) {
   return { nodes, requests, scripts, storageReads, created };
 }
 
-test("browser marks the four requested fields required with asterisks", async () => {
+test("browser keeps name, address, and start date required but salary and referral optional", async () => {
   const h = await clientReadinessHarness({ role: "president-and-ceo", acceptingApplications: true });
-  for (const key of ["name", "address", "startDate", "salaryExpectations"]) {
+  for (const key of ["name", "address", "startDate"]) {
     assert.equal(h.created.find(node => node.name === key).required, true);
     assert.match(h.created.find(node => node.htmlFor === key).textContent, / \*$/);
   }
-  for (const key of ["preferredName", "phone", "coverLetter", "gender", "hispanicLatino", "veteran"]) {
+  for (const key of ["salaryExpectations", "referral", "preferredName", "phone", "coverLetter", "gender", "hispanicLatino", "veteran"]) {
     assert.equal(h.created.find(node => node.name === key).required, false);
+    assert.doesNotMatch(h.created.find(node => node.htmlFor === key).textContent, / \*$/);
   }
 });
 

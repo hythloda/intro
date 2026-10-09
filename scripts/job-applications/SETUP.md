@@ -4,7 +4,10 @@ The native page is `president-and-ceo.html`, linked from `jobs.html`. The API
 destination is board `18434504661`. It does not read applicant rows or publish
 them. The role page displays the native questions directly, with no Monday
 iframe or external application link. Salary Expectations is optional, open text
-with a 1,000-character limit. The old Accounting Manager URL is a closed-position
+with a 1,000-character limit. The optional "Who can you thank for your referral?"
+text question maps to the board's **Referral** column (Text or Long Text) and has
+the same 1,000-character limit. Name, Physical Address, and Earliest Start Date
+remain required. The old Accounting Manager URL is a closed-position
 notice with no application form.
 
 The form checks the service's public readiness before enabling any inputs.
@@ -15,7 +18,7 @@ confirms configuration, not end-to-end delivery or current provider availability
 ## Switch the existing deployment to President and CEO
 
 1. On board **18434504661**, ensure the existing application questions have their
-   own destination columns, plus **Salary Expectations** (Text or Long Text) and
+   own destination columns, plus **Salary Expectations** and **Referral** (Text or Long Text) and
    **Application Reference** (Text). Keep **Phone** as Text. The new board's IDs
    must be checked even if it was duplicated from the Accounting Manager board.
 2. Replace the existing project's single **Code.gs** with the complete file in
@@ -70,7 +73,7 @@ it cannot establish attachment completeness for old-board receipts.
 3. Run `inspectJobColumns` to see column IDs/types and group IDs, without reading
    applications. Set `MONDAY_GROUP_ID` to the same destination group used by the
    current WorkForm if needed. If absent, Monday uses the board's first group.
-4. Add **Salary Expectations** (Text or Long Text) and **Application Reference**
+4. Add **Salary Expectations** and **Referral** (Text or Long Text) and **Application Reference**
    (Text) columns to the jobs board, then
    run `setupJobApplication`. It matches the original question labels to actual
    board columns, validates types, and stores `JOB_COLUMN_MAP` server-side. If a
@@ -96,6 +99,11 @@ No column or group IDs have been confirmed for the new board by the website
 maintainer. Use `inspectJobColumns` rather than copying IDs from the old board.
 
 ## Update an existing project
+
+For the optional referral question, reuse the existing **Referral** column, run
+**setupJobApplication** to refresh its mapping, then deploy the backend before
+publishing the updated website. Previously opened CEO forms without the referral
+field remain accepted, with their existing reference hashes unchanged.
 
 Replace only the existing Apps Script `Code.gs` contents with this directory's
 complete all-in-one `Code.gs`. Keep Script Properties, credentials, and receipt
