@@ -1,5 +1,5 @@
 window.FEATURED_APP_PARTYID_CHANGES_DATA = {
-  "generatedAt": "2026-10-09T13:33:30.728Z",
+  "generatedAt": "2026-10-10T12:48:48.868Z",
   "columns": [
     {
       "id": "long_text_mm4kq322",
@@ -13,6 +13,60 @@ window.FEATURED_APP_PARTYID_CHANGES_DATA = {
     }
   ],
   "changes": [
+    {
+      "id": "42df5256-12e3-47f1-adfc-65397dd124b3",
+      "changedAt": "2026-10-09T13:41:19.056Z",
+      "itemName": "CHYPE - BitSafe Validator, LLC",
+      "itemId": "13235200691",
+      "field": "Locking PartyIDs",
+      "previousValue": "12204::122043fc346e6ae6e9ac9e9efd1c1b42245e2f4854e16dcd5ae962924a9839ce6e41 This may be subject to change - will reach out if it does",
+      "newValue": "23d169c2-0909-4c70-81d1-1922de6febaa::12200f8447ecc8401a605353fe10bcb1757c2e8491c8a7d7c62e8d557f486f11f6cc"
+    },
+    {
+      "id": "ebd24a13-7be9-4615-96ff-919bfc801ec9",
+      "changedAt": "2026-10-09T13:41:03.627Z",
+      "itemName": "BETH - BitSafe Validator, LLC",
+      "itemId": "13023350936",
+      "field": "Locking PartyIDs",
+      "previousValue": "12205::12205300e977fb85e29d2ec1a4d0ce87e148d6bec97540bbc6b5f39eb6d03de85ed3",
+      "newValue": "23d169c2-0909-4c70-81d1-1922de6febaa::1220e95d8ff2d8144234a902b2047111f28bd8b305a7964eb70dee00f714d4e3448b"
+    },
+    {
+      "id": "d02a8e3c-e3a1-4e4c-9f34-58cf664e4e1c",
+      "changedAt": "2026-10-09T13:40:29.023Z",
+      "itemName": "iBTC Bitcoin Bridge",
+      "itemId": "12467824061",
+      "field": "Locking PartyIDs",
+      "previousValue": "12208::12208faed7b6894786c3b6b7f19bbafbef9a16755563d14949f144bf21bc98a74f08",
+      "newValue": "23d169c2-0909-4c70-81d1-1922de6febaa::12209b88d79d86917e99edbf97b7a521b50057a789c07a16218ac345b80db1e20719"
+    },
+    {
+      "id": "b3c05dec-6fb9-4273-adc8-56e7db429860",
+      "changedAt": "2026-10-09T13:40:18.456Z",
+      "itemName": "DecMan",
+      "itemId": "12467832779",
+      "field": "Locking PartyIDs",
+      "previousValue": "12208::122083335a5c1c4026b7d496b39d7e1750732c1f70c1833c71bc181a0e85a3af1ac8",
+      "newValue": "23d169c2-0909-4c70-81d1-1922de6febaa::122023bafb84b249a03f3c670cb765308977c702365d11ff6c8ed5e79019be631fb1"
+    },
+    {
+      "id": "8ddd5845-7d09-41d7-88db-bbe804036e84",
+      "changedAt": "2026-10-09T13:37:01.410Z",
+      "itemName": "CC Space",
+      "itemId": "12467847773",
+      "field": "Locking PartyIDs",
+      "previousValue": "google-oauth2_007c115128979015450106549::12200ac965a56eff577aa6754516dbc0dd07265a0bf9361466c573e71ab7491ec369",
+      "newValue": "23d169c2-0909-4c70-81d1-1922de6febaa::1220408191e246d8d4b125e8d6b67828c71e0c058fe430edf2c773d99c7c1091af07"
+    },
+    {
+      "id": "3bf1ce65-dd08-471a-83af-e92539c61dd1",
+      "changedAt": "2026-10-09T13:36:27.143Z",
+      "itemName": "Maha Wallet - PT Maha Digital Solutions",
+      "itemId": "13003182078",
+      "field": "Locking PartyIDs",
+      "previousValue": "Pending, in progress with Cashen for the CC-lock process.",
+      "newValue": "23d169c2-0909-4c70-81d1-1922de6febaa::1220b6564e113fc76dd67020ef7ee401c235033e1ff9692dfd3a4098235d1ece2ea9"
+    },
     {
       "id": "7447cfe4-8454-44ce-892c-31db6c3dcee0",
       "changedAt": "2026-10-02T18:49:19.536Z",
@@ -138,60 +192,6 @@ window.FEATURED_APP_PARTYID_CHANGES_DATA = {
       "field": "Locking PartyIDs",
       "previousValue": "1220f::1220fc45b0cec4481bc6cfced0362bfe4a31588910d2f9cfcb4816f918f19a21922f",
       "newValue": "23d169c2-0909-4c70-81d1-1922de6febaa::1220b3b519d1b3dc7de45ce1dd87c31cf6fe702f0bf7c32f04ff2fe6d28f4594ad89"
-    },
-    {
-      "id": "64e03a1f-d845-44fe-b2d2-8b833c8b93d8",
-      "changedAt": "2026-09-21T16:08:55.170Z",
-      "itemName": "FTP x402 Infrastructure (Facilitator + Agentic Wallet) - FTP Tech",
-      "itemId": "12974672977",
-      "field": "Locking PartyIDs",
-      "previousValue": "Will be later communicated to Canton Foundation",
-      "newValue": "23d169c2-0909-4c70-81d1-1922de6febaa::12205aea9df5c5d3e9c49a2267ade608c7d8af9de0c2ab3d3e7543d6c8f24b742cd7"
-    },
-    {
-      "id": "36427f0d-7ed7-4962-9c65-0884f850e7d2",
-      "changedAt": "2026-09-18T21:44:14.689Z",
-      "itemName": "Temple Trading Expansion",
-      "itemId": "12467838257",
-      "field": "Locking PartyIDs",
-      "previousValue": "1220a::1220a55e2d5438b00300ffdd6bf509267fbd21230f2b1281dbb11b6b2574f66d48e0",
-      "newValue": "1220d::1220d771bf17eec529647bed1bc790613ca95109fe5848c36b629d1117175f178eb5"
-    },
-    {
-      "id": "365bc7b2-3002-4fda-a125-6f74f7d3570f",
-      "changedAt": "2026-09-18T21:44:12.251Z",
-      "itemName": "Temple Trading",
-      "itemId": "12467810727",
-      "field": "Locking PartyIDs",
-      "previousValue": "1220a::1220a55e2d5438b00300ffdd6bf509267fbd21230f2b1281dbb11b6b2574f66d48e0",
-      "newValue": "1220d::1220d771bf17eec529647bed1bc790613ca95109fe5848c36b629d1117175f178eb5"
-    },
-    {
-      "id": "f06365e4-9bd0-42bc-9a4d-24212dee2865",
-      "changedAt": "2026-09-18T21:44:10.293Z",
-      "itemName": "Temple Trading copy",
-      "itemId": "12467837938",
-      "field": "Locking PartyIDs",
-      "previousValue": "1220a::1220a55e2d5438b00300ffdd6bf509267fbd21230f2b1281dbb11b6b2574f66d48e0",
-      "newValue": "1220d::1220d771bf17eec529647bed1bc790613ca95109fe5848c36b629d1117175f178eb5"
-    },
-    {
-      "id": "84f64d1c-6ed3-4aa6-ab19-cd6152862388",
-      "changedAt": "2026-09-18T20:52:32.225Z",
-      "itemName": "Temple Trading Expansion",
-      "itemId": "12467838257",
-      "field": "Locking PartyIDs",
-      "previousValue": "1220d05c64e67cd4fad73998b755a51c03ddfafd46ae26162e2e0b47003a751e6047::122017155c6a50083889147dfb16d6a4e5023b731e9bf1eea60fbf402869e62f783e",
-      "newValue": "1220a::1220a55e2d5438b00300ffdd6bf509267fbd21230f2b1281dbb11b6b2574f66d48e0"
-    },
-    {
-      "id": "521d898e-6400-4629-8edc-e76131927e02",
-      "changedAt": "2026-09-18T20:52:30.049Z",
-      "itemName": "Temple Trading",
-      "itemId": "12467810727",
-      "field": "Locking PartyIDs",
-      "previousValue": "1220d05c64e67cd4fad73998b755a51c03ddfafd46ae26162e2e0b47003a751e6047::122017155c6a50083889147dfb16d6a4e5023b731e9bf1eea60fbf402869e62f783e",
-      "newValue": "1220a::1220a55e2d5438b00300ffdd6bf509267fbd21230f2b1281dbb11b6b2574f66d48e0"
     }
   ]
 };
