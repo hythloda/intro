@@ -1,5 +1,5 @@
 window.FEATURED_APP_BOARD_DATA = {
-  "generatedAt": "2026-10-09T13:24:04.266Z",
+  "generatedAt": "2026-10-10T12:39:07.314Z",
   "columns": [
     {
       "id": "text_mm4k2vch",
@@ -327,7 +327,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12954184948",
       "name": "Rapid Chain - Rapid Blockchain Technologies Ltd.",
-      "updatedAt": "2026-10-09T07:51:34Z",
+      "updatedAt": "2026-10-10T08:51:29Z",
       "values": {
         "text_mm4k2vch": "Rapid Blockchain Technologies Ltd.",
         "color_mm4kmej3": "1-Needs Review",
@@ -352,7 +352,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12959523630",
       "name": "MetCredX - NIPRO TECHNOLOGIES LIMITED",
-      "updatedAt": "2026-10-09T04:00:21Z",
+      "updatedAt": "2026-10-10T00:51:27Z",
       "values": {
         "text_mm4k2vch": "NIPRO TECHNOLOGIES LIMITED",
         "color_mm4kmej3": "1-Needs Review",
@@ -2274,13 +2274,13 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467832779",
       "name": "DecMan",
-      "updatedAt": "2026-09-22T18:14:46Z",
+      "updatedAt": "2026-10-09T13:40:18Z",
       "values": {
         "text_mm4k2vch": "Bitsafe",
         "color_mm4kmej3": "2-Approved",
         "long_text_mm4kq322": "decman-network::1220409a9fcc5ff6422e29ab978c22c004dde33202546b4bcbde24b25b85353366c2",
         "color_mm4kpp3q": "Non-Issuer",
-        "long_text_mm4khjn6": "12208::122083335a5c1c4026b7d496b39d7e1750732c1f70c1833c71bc181a0e85a3af1ac8",
+        "long_text_mm4khjn6": "23d169c2-0909-4c70-81d1-1922de6febaa::122023bafb84b249a03f3c670cb765308977c702365d11ff6c8ed5e79019be631fb1",
         "numeric_mm4k6919": "5.0",
         "long_text_mm4km2s7": "Bitsafe empowers sophisticated investors to generate real yield on Bitcoin through privacy-enabled infrastructure on Canton Network. Access institutional-grade yield opportunities with transparent custody and explicit risk disclosures.",
         "link_mm4kd0hk": "https://docs.bitsafe.finance/bitsafe-documentation/brand-and-press",
@@ -5958,14 +5958,45 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467847773",
       "name": "CC Space",
-      "updatedAt": "2026-10-09T04:00:51Z",
+      "updatedAt": "2026-10-09T13:37:02Z",
       "values": {
         "text_mm4k2vch": "ITRocket LLC",
         "color_mm4kmej3": "7-Closed-new-process",
         "long_text_mm4kq322": "ITRocket-validator-1::12200ac965a56eff577aa6754516dbc0dd07265a0bf9361466c573e71ab7491ec369",
         "color_mm4kpp3q": "Non-Issuer",
-        "long_text_mm4khjn6": "google-oauth2_007c115128979015450106549::12200ac965a56eff577aa6754516dbc0dd07265a0bf9361466c573e71ab7491ec369",
-        "numeric_mm4k6919": "0.0",
+        "long_text_mm4khjn6": "23d169c2-0909-4c70-81d1-1922de6febaa::1220408191e246d8d4b125e8d6b67828c71e0c058fe430edf2c773d99c7c1091af07",
+        "long_text_mm4km2s7": "ITRocket LLC is an enterprise-grade infrastructure and tooling provider for various blockchain ecosystems, with over 5 years of operational experience. We develop products and services for node operators, developers, and analysts, including explorers, analytics dashboards, indexers with custom API endpoints, and data services, tailored to the specific needs of the project. We have built a strong reputation as a trusted contributor across the ecosystems we support.",
+        "link_mm4kd0hk": "https://server-4.itrocket.net/cc_space/",
+        "link_mm4kmq24": "https://cc.itrocket.space/",
+        "link_mm4krmse": "repository. Private repository. - https://Private",
+        "long_text_mm4k2537": "CC Space is an explorer and analytics platform for the Canton Network, providing a structured view of network activity, including updates, transfers, validators, governance, and featured apps. It delivers aggregated insights into network usage and detailed validator performance analytics, supporting operational, analytical, and research workflows across the ecosystem. Core features are free and publicly available, while advanced functionality is offered to subscribers. Subscriber services include an API layer exposing the same structured data available in the explorer for integration into external tools and applications, as well as advanced analytics and validator monitoring, both with configurable alerts across multiple channels.",
+        "long_text_mm4k4y1h": "Explorer: node operators, developers, and researchers using structured network data for monitoring, analysis, and debugging. API: developers and infrastructure teams integrating Canton data into external applications and internal tools. Monitoring: validator node operators and service providers ensuring validator performance and reliability through alerting. Analytics: researchers, data analysts, and institutional participants requiring advanced insights into network activity, performance trends, and ecosystem dynamics.",
+        "long_text_mm4k15bg": "CC Space will earn application rewards from two types of activity: (1) Canton Coin transfers made by subscribers when they fund their subscription accounts, and (2) on-ledger batch settlements aggregating pay-per-use service consumption - covering API access, validator monitoring alerts, and analytics alerts - which generate network traffic proportionally reflected in Activity Markers. Both reward sources scale with real economic usage rather than raw event counts.",
+        "long_text_mm4kh3fw": "CC Space interacts with the Canton ledger in three ways: (1) provisioning external parties for users via our node, which operates as a Canton Participant Node; (2) accepting Canton Coin transfers from subscribers to fund their accounts for paid services; and (3) executing smart-contract-managed settlement transactions that record usage on-ledger through batch-based settlement for API consumption, validator monitoring alerts, and analytics alerts.",
+        "long_text_mm4kebr8": "CC Space will earn application rewards from two types of activity: (1) Canton Coin transfers made by subscribers when they fund their subscription accounts, and (2) on-ledger batch settlements aggregating pay-per-use service consumption - covering API access, validator monitoring alerts, and analytics alerts - which generate network traffic proportionally reflected in Activity Markers. Both reward sources scale with real economic usage rather than raw event counts.",
+        "long_text_mm4kfg50": "Both. Subscriber account funding is settled as on-ledger Canton Coin transfers, which generate application rewards directly. Service consumption, aggregated off-ledger, is recorded through periodic contract-managed batch settlements covering API access, validator monitoring alerts, and analytics alerts; Activity Markers are emitted in proportion to the traffic generated by these settlements. Markers are not emitted for funding transfers, free-tier activity, internal operations.",
+        "long_text_mm4kxcm2": "We expect approximately 2-10 on-ledger transactions per day for API subscribers and 1-5 on-ledger transactions per day for alerting services subscribers. These counts include periodic batch settlements and account funding; individual API requests and alert deliveries are aggregated off-ledger before being settled in batches.",
+        "long_text_mm4kvyjq": "Subscription setup requires a one-time sequence of about 3-4 transactions for party provisioning, initial funding, and contract setup. After that, steady-state activity is low: service consumption is aggregated off-ledger and settled in periodic batches, so normal usage produces at most one settlement per service in a round. Multiple transactions in one round are rare and may occur mainly when very intensive API usage triggers an early settlement, or when a funding top-up and a scheduled settlement fall in the same round.",
+        "long_text_mm4k1cm0": "Both validator monitoring and analytics alerting payments, as well as API usage payments are expected to grow roughly linearly as the customer base scales.",
+        "long_text_mm4kd4h2": "The explorer and several analytics dashboards are already live on MainNet. Subscription features (API access and validator monitoring) will launch within the next two weeks. We will continue expanding the product based on user feedback.",
+        "long_text_mm4kfkwn": "Initial customers will be validator operators and developers. Several ecosystem participants are already engaged directly and awaiting onboarding, and we will open a waitlist for broader outreach in the coming days.",
+        "long_text_mm4k6q73": "Not having FA status would not impact our core development or commitment to the platform, but it would slow growth and limit our ability to reinvest in advanced features and new applications within the Canton ecosystem. FA status would also enhance visibility and help attract more users.",
+        "long_text_mm4kwxt1": "Yes, CC Space implements multiple controls to prevent non-bona fide transactions, including rate limiting on user registration and API usage, as well as account verification. Billing transactions are initiated and controlled by the application based on actual usage, and end users do not submit transactions directly to the ledger. Activity Markers are emitted only alongside real settlement events backed by a paying subscriber balance, ensuring that reward-generating activity is always tied to actual service consumption.",
+        "long_text_mm4khbeg": "Private repository.",
+        "long_text_mm4kp5en": "https://server-4.itrocket.net/cc_space/",
+        "long_text_mm4kxsgy": "Our roadmap includes further enhancements to CC Space, such as categorization of parties to enable more advanced analytics (e.g. by exchanges, validators, and infrastructure providers), improved interpretability of on-ledger events through human-readable explanations, and AI-powered capabilities including semantic search across Canton documentation and natural-language on-chain insights. We are also exploring dedicated, self-hosted explorer environments for infrastructure teams and institutions, providing a private workspace for tracking transactions, analyzing contracts, monitoring rewards, and supporting internal reporting and analytics. Beyond CC Space, we are planning to expand our presence in the Canton ecosystem with additional applications, building on ITRocket's 5+ years of operating validator infrastructure and analytics tooling across multiple blockchain ecosystems."
+      }
+    },
+    {
+      "id": "13247411893",
+      "name": "CC Space",
+      "updatedAt": "2026-10-10T05:51:34Z",
+      "values": {
+        "text_mm4k2vch": "ITRocket LLC",
+        "color_mm4kmej3": "0-Locked+Needs Review",
+        "long_text_mm4kq322": "ITRocket-validator-1::12200ac965a56eff577aa6754516dbc0dd07265a0bf9361466c573e71ab7491ec369",
+        "color_mm4kpp3q": "Non-Issuer",
+        "long_text_mm4khjn6": "23d169c2-0909-4c70-81d1-1922de6febaa::1220408191e246d8d4b125e8d6b67828c71e0c058fe430edf2c773d99c7c1091af07",
         "long_text_mm4km2s7": "ITRocket LLC is an enterprise-grade infrastructure and tooling provider for various blockchain ecosystems, with over 5 years of operational experience. We develop products and services for node operators, developers, and analysts, including explorers, analytics dashboards, indexers with custom API endpoints, and data services, tailored to the specific needs of the project. We have built a strong reputation as a trusted contributor across the ecosystems we support.",
         "link_mm4kd0hk": "https://server-4.itrocket.net/cc_space/",
         "link_mm4kmq24": "https://cc.itrocket.space/",
@@ -6020,13 +6051,13 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467824061",
       "name": "iBTC Bitcoin Bridge",
-      "updatedAt": "2026-10-09T09:51:33Z",
+      "updatedAt": "2026-10-10T11:51:09Z",
       "values": {
         "text_mm4k2vch": "Bitsafe",
         "color_mm4kmej3": "0-Locked+Needs Review",
         "long_text_mm4kq322": "cbtc-network::12205af3b949a04776fc48cdcc05a060f6bda2e470632935f375d1049a8546a3b262",
         "color_mm4kpp3q": "Asset Issuer",
-        "long_text_mm4khjn6": "12208::12208faed7b6894786c3b6b7f19bbafbef9a16755563d14949f144bf21bc98a74f08",
+        "long_text_mm4khjn6": "23d169c2-0909-4c70-81d1-1922de6febaa::12209b88d79d86917e99edbf97b7a521b50057a789c07a16218ac345b80db1e20719",
         "numeric_mm4k6919": "25.0",
         "long_text_mm4km2s7": "BitSafe enables institutional investors to generate yield on Bitcoin beyond passive holding, offering solutions to maximize Bitcoin’s financial potential. Our suite of products- CBTC, and BitSafe Vaults—caters to sophisticated investors, providing access to privacy-enabled trading, institutional-grade custody, transparent yield strategies with explicit risk disclosures",
         "link_mm4kd0hk": "https://drive.google.com/open?id=1YzqKpbRiw3cOXiaRUHJhTSlU9xaqZYya",
@@ -7257,7 +7288,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13240232738",
       "name": "Canborsa",
-      "updatedAt": "2026-10-09T04:51:37Z",
+      "updatedAt": "2026-10-10T08:52:04Z",
       "values": {
         "text_mm4k2vch": "Visoti LLC, KGZ",
         "color_mm4kmej3": "0-Locked+Needs Review",
@@ -10354,7 +10385,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12964705710",
       "name": "RAX Finance - RAX Finance",
-      "updatedAt": "2026-10-09T12:51:19Z",
+      "updatedAt": "2026-10-10T11:51:20Z",
       "values": {
         "text_mm4k2vch": "RAX Finance",
         "color_mm4kmej3": "0-Locked+Needs Review",
@@ -10413,7 +10444,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12974668475",
       "name": "OS Ledger - Outersunset",
-      "updatedAt": "2026-10-09T04:01:15Z",
+      "updatedAt": "2026-10-10T01:51:52Z",
       "values": {
         "text_mm4k2vch": "Outersunset",
         "color_mm4kmej3": "1-Needs Review",
@@ -10440,7 +10471,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12982310839",
       "name": "Ovdefi - OneNov",
-      "updatedAt": "2026-10-09T10:51:17Z",
+      "updatedAt": "2026-10-10T10:51:47Z",
       "values": {
         "text_mm4k2vch": "OneNov",
         "color_mm4kmej3": "1-Needs Review",
@@ -10470,7 +10501,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12982310399",
       "name": "Pinnaccle - Pinnaccle",
-      "updatedAt": "2026-10-09T06:52:05Z",
+      "updatedAt": "2026-10-10T00:51:58Z",
       "values": {
         "text_mm4k2vch": "Pinnaccle",
         "color_mm4kmej3": "1-Needs Review",
@@ -10530,7 +10561,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13003184089",
       "name": "R1M Sentinel - R1M",
-      "updatedAt": "2026-10-09T11:51:43Z",
+      "updatedAt": "2026-10-10T03:52:01Z",
       "values": {
         "text_mm4k2vch": "R1M",
         "color_mm4kmej3": "1-Needs Review",
@@ -10589,13 +10620,13 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13003182078",
       "name": "Maha Wallet - PT Maha Digital Solutions",
-      "updatedAt": "2026-10-09T12:51:31Z",
+      "updatedAt": "2026-10-09T13:52:37Z",
       "values": {
         "text_mm4k2vch": "PT Maha Digital Solutions",
-        "color_mm4kmej3": "1-Needs Review",
+        "color_mm4kmej3": "0-Locked+Needs Review",
         "long_text_mm4kq322": "maha-validator-1::122025cef1bec8edc8aa50108068aa065b63dc1336f0695448dc8d669ae029e08ff8",
         "color_mm4kpp3q": "Non-Issuer",
-        "long_text_mm4khjn6": "Pending, in progress with Cashen for the CC-lock process.",
+        "long_text_mm4khjn6": "23d169c2-0909-4c70-81d1-1922de6febaa::1220b6564e113fc76dd67020ef7ee401c235033e1ff9692dfd3a4098235d1ece2ea9",
         "long_text_mm4km2s7": "PT Maha Digital Solutions is the team behind Maha Wallet, a portable, non-custodial identity and utility layer for Canton Network. We build a browser extension wallet, a developer SDK, a Telegram-native tip bot, and a fiat-to-CC pricing API, all built around Canton external party model so a users Canton identity isn't locked to one validator's wallet UI.",
         "link_mm4kd0hk": "https://drive.google.com/drive/folders/1X_F1KY4QEpGYH1P_W2vKpPmJq3CDSv1n?usp=sharing",
         "link_mm4kmq24": "https://mahawallet.xyz",
@@ -10620,7 +10651,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13023350809",
       "name": "Zabpay - DSRV",
-      "updatedAt": "2026-10-09T11:52:03Z",
+      "updatedAt": "2026-10-10T00:52:57Z",
       "values": {
         "text_mm4k2vch": "DSRV",
         "color_mm4kmej3": "1-Needs Review",
@@ -10648,13 +10679,13 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13023350936",
       "name": "BETH - BitSafe Validator, LLC",
-      "updatedAt": "2026-10-02T18:56:12Z",
+      "updatedAt": "2026-10-09T13:41:03Z",
       "values": {
         "text_mm4k2vch": "BitSafe Validator, LLC",
         "color_mm4kmej3": "2-Approved",
         "long_text_mm4kq322": "beth-network::1220704c3cebc23916785557ebe79a5c7f68d034890a5b15690ea7ce050c7d463075",
         "color_mm4kpp3q": "Asset Issuer",
-        "long_text_mm4khjn6": "12205::12205300e977fb85e29d2ec1a4d0ce87e148d6bec97540bbc6b5f39eb6d03de85ed3",
+        "long_text_mm4khjn6": "23d169c2-0909-4c70-81d1-1922de6febaa::1220e95d8ff2d8144234a902b2047111f28bd8b305a7964eb70dee00f714d4e3448b",
         "numeric_mm4k6919": "25.0",
         "long_text_mm4km2s7": "BitSafe builds decentralized, privacy-enabled digital asset infrastructure on the Canton Network. As the team who brought Bitcoin to Canton, BitSafe enables institutions and developers to launch, move, and manage assets across the Canton ecosystem. CBTC is BitSafe’s production proof point, with a decentralized attestor model and live integrations across Canton wallets and trading venues.",
         "link_mm4kd0hk": "https://drive.google.com/drive/folders/1sTUEBa8f8M343t7TNKDAuv2xMVuG302m?usp=sharing",
@@ -10710,7 +10741,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13046640623",
       "name": "Yellow Card - Yellow Card Financial Inc.",
-      "updatedAt": "2026-10-09T07:55:47Z",
+      "updatedAt": "2026-10-10T07:56:20Z",
       "values": {
         "text_mm4k2vch": "Yellow Card Financial Inc.",
         "color_mm4kmej3": "1-Needs Review",
@@ -10739,7 +10770,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13056498524",
       "name": "mperps - Lemongrass IT services LLC FZ",
-      "updatedAt": "2026-10-09T07:56:04Z",
+      "updatedAt": "2026-10-10T07:56:32Z",
       "values": {
         "text_mm4k2vch": "Lemongrass IT services LLC FZ",
         "color_mm4kmej3": "1-Needs Review",
@@ -10834,7 +10865,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13076683931",
       "name": "cSOL - OnRails Ltd",
-      "updatedAt": "2026-10-09T07:56:17Z",
+      "updatedAt": "2026-10-10T07:56:45Z",
       "values": {
         "text_mm4k2vch": "OnRails Ltd",
         "color_mm4kmej3": "0-Locked+Needs Review",
@@ -10864,7 +10895,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13087665624",
       "name": "Float - SwapSo Inc",
-      "updatedAt": "2026-10-09T00:58:52Z",
+      "updatedAt": "2026-10-10T08:54:17Z",
       "values": {
         "text_mm4k2vch": "SwapSo Inc",
         "color_mm4kmej3": "0-Locked+Needs Review",
@@ -10892,7 +10923,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13111331892",
       "name": "Cove Wallet API - Qasara Labs Pvt Ltd",
-      "updatedAt": "2026-10-09T06:51:23Z",
+      "updatedAt": "2026-10-10T07:51:24Z",
       "values": {
         "text_mm4k2vch": "Qasara Labs Pvt Ltd",
         "color_mm4kmej3": "0-Locked+Needs Review",
@@ -10919,7 +10950,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13111369113",
       "name": "Helvex - Dream Capital",
-      "updatedAt": "2026-10-08T23:51:35Z",
+      "updatedAt": "2026-10-10T00:54:28Z",
       "values": {
         "text_mm4k2vch": "Dream Capital",
         "color_mm4kmej3": "0-Locked+Needs Review",
@@ -10948,7 +10979,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13122710944",
       "name": "OneSwap Launchpad - SatsTerminal",
-      "updatedAt": "2026-10-08T16:45:08Z",
+      "updatedAt": "2026-10-09T15:51:53Z",
       "values": {
         "text_mm4k2vch": "SatsTerminal",
         "color_mm4kmej3": "1-Needs Review",
@@ -10975,7 +11006,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13132611367",
       "name": "Veridic - Infodive Labs",
-      "updatedAt": "2026-10-09T01:00:49Z",
+      "updatedAt": "2026-10-10T07:57:48Z",
       "values": {
         "text_mm4k2vch": "Infodive Labs",
         "color_mm4kmej3": "0-Locked+Needs Review",
@@ -11064,7 +11095,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13189278091",
       "name": "CanTra - CanTra GmbH registered with the Local Court (Amtsgericht) München under HRB 314213 (Registration Authority RA000304); LEI 254900AE880M41FX2T86",
-      "updatedAt": "2026-10-09T07:56:48Z",
+      "updatedAt": "2026-10-10T08:55:07Z",
       "values": {
         "text_mm4k2vch": "CanTra GmbH registered with the Local Court (Amtsgericht) München under HRB 314213 (Registration Authority RA000304); LEI 254900AE880M41FX2T86",
         "color_mm4kmej3": "0-Locked+Needs Review",
@@ -11094,7 +11125,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13189277788",
       "name": "Canal - Ice Labs",
-      "updatedAt": "2026-10-09T07:56:54Z",
+      "updatedAt": "2026-10-10T08:55:11Z",
       "values": {
         "text_mm4k2vch": "Ice Labs",
         "color_mm4kmej3": "0-Locked+Needs Review",
@@ -11125,7 +11156,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13202966648",
       "name": "Meriq - Anoetic Labs LLC",
-      "updatedAt": "2026-10-09T06:54:58Z",
+      "updatedAt": "2026-10-10T06:55:02Z",
       "values": {
         "text_mm4k2vch": "Anoetic Labs LLC",
         "color_mm4kmej3": "1-Needs Review",
@@ -11154,7 +11185,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13209206588",
       "name": "aSOL Bridge - Hellomoon",
-      "updatedAt": "2026-10-08T16:52:25Z",
+      "updatedAt": "2026-10-09T21:51:19Z",
       "values": {
         "text_mm4k2vch": "Guffey, Inc. (Hello Moon)",
         "color_mm4kmej3": "0-Locked+Needs Review",
@@ -11185,7 +11216,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13224947645",
       "name": "ForecastDesk - Microsystems Express Telecom",
-      "updatedAt": "2026-10-09T05:55:38Z",
+      "updatedAt": "2026-10-10T06:56:42Z",
       "values": {
         "text_mm4k2vch": "Microsystems Express Telecom",
         "color_mm4kmej3": "1-Needs Review",
@@ -11212,13 +11243,13 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13235200691",
       "name": "CHYPE - BitSafe Validator, LLC",
-      "updatedAt": "2026-10-09T12:51:39Z",
+      "updatedAt": "2026-10-10T11:51:27Z",
       "values": {
         "text_mm4k2vch": "BitSafe Validator, LLC",
         "color_mm4kmej3": "1-Needs Review",
         "long_text_mm4kq322": "chype-network::1220cc3b5ad1ada1b7748a17414bf1473e2de0cf9dc7bc820be1cc441b78c0b15956",
         "color_mm4kpp3q": "Asset Issuer",
-        "long_text_mm4khjn6": "12204::122043fc346e6ae6e9ac9e9efd1c1b42245e2f4854e16dcd5ae962924a9839ce6e41 This may be subject to change - will reach out if it does",
+        "long_text_mm4khjn6": "23d169c2-0909-4c70-81d1-1922de6febaa::12200f8447ecc8401a605353fe10bcb1757c2e8491c8a7d7c62e8d557f486f11f6cc",
         "numeric_mm4k6919": "0.0",
         "long_text_mm4km2s7": "BitSafe builds decentralized, privacy-enabled digital asset infrastructure on the Canton Network. As the team who brought Bitcoin to Canton, BitSafe enables institutions and developers to launch, move, and manage assets across the Canton ecosystem. CBTC is BitSafe’s production proof point, with a decentralized attestor model and live integrations across Canton wallets and trading venues. CHYPE extends this asset infrastructure to HYPE, with the aim of supporting trading, settlement, and collateral workflows on the Canton Network.",
         "link_mm4kmq24": "https://www.bitsafe.finance/",
@@ -11238,6 +11269,35 @@ window.FEATURED_APP_BOARD_DATA = {
         "long_text_mm4khbeg": "https://github.com/DLC-link/canton. This is private for now, with implementations in PRs. DARS are available via Utility.",
         "long_text_mm4kp5en": "CHYPE Materials and Logo",
         "long_text_mm7pyz6h": "The Canton MainNet InstrumentConfiguration was deployed on October 5, 2026 (`chype-network::1220cc3b5ad1ada1b7748a17414bf1473e2de0cf9dc7bc820be1cc441b78c0b15956)`, with UpdateID `122095ffc5c9c3dd7c6127b006552034534f2e6e8e776e7ad8960e865d8eabb7918c` and the Lighthouse link supplied above. CHYPE does not have a standalone test URL or user interface because a UI is not in scope. BitSafe is a repeat asset issuer with CBTC already live on Canton. We expect the Committee may be able to review CHYPE based on BitSafe’s proven issuance track record and the technical evidence available at launch. If the Committee requires CHYPE-specific package IDs, transaction evidence, test credentials, or a walkthrough, BitSafe will confirm the required format and provide the available materials after deployment."
+      }
+    },
+    {
+      "id": "13253875306",
+      "name": "cBNB - Nuxaris LLC",
+      "updatedAt": "2026-10-10T04:51:06Z",
+      "values": {
+        "text_mm4k2vch": "Nuxaris LLC",
+        "color_mm4kmej3": "1-Needs Review",
+        "long_text_mm4kq322": "cbnb-admin::122065645666a14e30513626b92fd348b76fe0430557d08f68ac3e2beb37b407b3c9",
+        "color_mm4kpp3q": "Asset Issuer",
+        "long_text_mm4khjn6": "23d169c2-0909-4c70-81d1-1922de6febaa::12205b86a74fa127c03c3e73baa3cb1e4ab9ab6b56c3556fe01218251f65f0dc2c86. The 25M CC is locked on this party, separate from app activity, rewards and operational holdings, in line with CIP-0116.",
+        "long_text_mm4km2s7": "Nuxaris is a cross-chain bridge and wallet for the Canton Network. Live on Canton MainNet for two months, Nuxaris lets users move assets from Solana, Ethereum, Base and Bitcoin into Canton through a self-custody wallet, generated in the browser and never stored on Nuxaris servers. Nuxaris runs its own validator (nuxaris-validator-1), has provisioned more than 3,400 member parties, and already operates as a Featured App. After launch, Nuxaris integrated the ETH to cETH and BTC to CBTC routes. BNB was the next asset on our roadmap, and with no BNB on Canton, Nuxaris became an asset issuer: in September 2026 it was onboarded as a Provider on the Digital Asset Utility Registry and issued cBNB.",
+        "link_mm4kd0hk": "https://www.cbnb.network/cbnb-press-kit.zip",
+        "link_mm4kmq24": "https://cbnb.network",
+        "long_text_mm4k2537": "cBNB brings BNB to the Canton Network. Users bring BNB to Canton through Nuxaris and receive cBNB, a CIP-0056 token backed 1:1, which can be held and used across Canton wallets and venues and redeemed back to BNB on BNB Chain.",
+        "long_text_mm5hgry2": "The model is established: wrapped assets backed 1:1 by a native asset exist on many chains, and on Canton cBTC and cETH follow the same pattern. cBNB itself is new and has been live on Canton MainNet since 29 September 2026. The infrastructure it runs on (validator, relayer and marker submission) has been in production on MainNet for two months for the Nuxaris bridge.",
+        "long_text_mm4k4y1h": "Nuxaris bridge users bringing BNB to Canton, trading venues and liquidity providers that list BNB pairs (Cantex, OneSwap and Cancore have signed listing agreements, and Tradecraft has confirmed the listing), market makers and other institutional counterparties that mint and redeem cBNB 1:1 through Nuxaris, and the retail users of those venues and wallets. BNB now has a US spot ETF with qualified custody (VanEck VBNB, launched May 2026), which makes it a recognized asset for institutional portfolios.",
+        "long_text_mm4k15bg": "Transfers of cBNB between third-party holders and wallets, and swaps and DvP settlements of cBNB on third-party venues. We understand that asset issuer rewards do not apply to transactions on our own bridge, including the BNB to cBNB route, and we will not apply asset markers to activity within Nuxaris's own wallet or bridge. Our venue agreements exclude our own issuance, redemption and distribution operations as well as our own liquidity additions and withdrawals.",
+        "long_text_mm4kh3fw": "The cBNB parties are hosted on our own validator and onboarded as Provider on the Utility Registry via the Ledger API. An off-chain relayer observes BNB Chain deposits past a configured confirmation depth and submits mints through the Registry. It streams Canton for redemption transfers, burns the redeemed cBNB and prepares the BNB release, which only executes once the 2-of-3 Relayer Safe signs it on BNB Chain: the relayer holds no key that can move BNB on its own. Processing is idempotent per message ID, checkpointed, and recoverable after restarts or reorgs. The relayer runs under its own machine identity, with rights on the three cBNB parties only and no administrative rights on the participant, and its issuance rights can be revoked on the ledger at any time.",
+        "long_text_mm4kfg50": "Activity Markers, generated through the Registry's featured app marker configuration, with reward sharing configured per Digital Asset's operator arrangement. Under our signed venue agreements, 60 to 70% of our net issuer rewards are passed to the venue that originates the activity, settled weekly in Canton Coin. We will not claim both Featured Canton Coin transfer rewards and an activity marker for the same event.",
+        "long_text_mm4kxcm2": "1 to 2 on average, higher for active traders on venues.",
+        "long_text_mm4kvyjq": "A user may legitimately generate several transactions when executing separate trades or settlements, moving inventory between wallets and venues, receiving more cBNB after a new BNB deposit, or redeeming separate positions. Each transaction must represent a distinct economic action. Splitting one action, ping-ponging assets, self-paying, or cycling wraps and unwraps to increase reward claims is prohibited.",
+        "long_text_mm4k1cm0": "Primarily linear with the number of holders and integrated venues and wallets, with step changes when a new venue or market maker goes live",
+        "long_text_mm4kfkwn": "Nuxaris bridge users, through the live BNB to cBNB route, on which no asset markers are applied. Cantex, a designated DvP venue, signed a cBNB token provider agreement and a liquidity provider agreement on 1 October 2026; cBNB is listed on Cantex, with trading opening once Featured status is live. OneSwap signed our venue revenue share agreement the same day and cBNB is already trading there in a CC/cBNB pool. Kora, an order-book venue, has made confirmed Featured App status a condition for listing and trading cBNB, and we are in discussions with AngelHack about routing cBNB through its RFQ venue. Cancore has also signed a cBNB listing agreement, in October 2026. Tradecraft has confirmed the cBNB listing, with trading opening once Featured status is live. Wallets: cBNB works with any CIP-0056 wallet through the standard token APIs. Discussion with other venues not mentioned here are also advancing fast.",
+        "long_text_mm4k6q73": "cBNB stays live regardless, but without FA status its use would be limited to the Nuxaris bridge and a few small venues. Kora has told us it will only list and trade cBNB once it has Featured status. Cantex, where cBNB is already listed, and Tradecraft, which has confirmed the listing, will only open trading once Featured status is live. Featured status is also what lets us fund the venue revenue shares we have signed and bring in more liquidity, which is what makes cBNB tradable on more venues.",
+        "long_text_mm4kwxt1": "Yes: 1. Deposits only from Nuxaris-controlled addresses, with counterparties onboarded through identity and compliance checks before receiving cBNB, and a daily BNB release limit. 2. Relayer rate limits, pause switches on the BNB Chain contracts, and every privileged role held by a Safe multisig (Admin 3 of 5, Manager 2 of 3, Relayer 2 of 3). 3. No asset markers on activity within Nuxaris's own wallet or bridge, and no trading by Nuxaris against its own liquidity pools. 4. Venue agreements that prohibit wash trading and artificial, circular or self-directed activity, with an eligibility review and the right to withhold rewards on flagged transactions. 5. Continuous monitoring of the marker-to-transaction ratio and of activity concentration by venue and wallet, investigation of abnormal counterparties or repeated round-level patterns, and an auditable event-level mapping between each economic action and any reward claim.",
+        "long_text_mm4kp5en": "https://www.cbnb.network/cbnb-press-kit.zip",
+        "long_text_mm7pyz6h": "We are not seeking Featured status to earn rewards from our own bridge. What matters for Canton is cBNB becoming an asset used across third-party venues for real trading and settlement, and that is the activity these rewards would support. The cBNB parties are distinct from Nuxaris's wallet and bridge parties, in line with the separation requirement for asset issuers. Holding, receiving and sending cBNB requires no credential or allowlist; only minting and redemption require onboarding with Nuxaris. We will not mark cBNB activity inside our own bridge. cBNB on Canton is uniquely identified by its admin party and instrument ID: cbnb-admin::122065645666a14e30513626b92fd348b76fe0430557d08f68ac3e2beb37b407b3c9, cBNB."
       }
     }
   ]
