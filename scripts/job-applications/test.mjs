@@ -536,7 +536,7 @@ test("native questions remain visible before setup, without an external form lin
   const jobs = readFileSync(new URL("../../jobs.html", import.meta.url), "utf8");
   const role = readFileSync(new URL("../../president-and-ceo.html", import.meta.url), "utf8");
   assert(!/<iframe\b/i.test(jobs + role));
-  assert(jobs.includes('href="president-and-ceo.html"'));
+  assert.doesNotMatch(jobs, /href="president-and-ceo\.html"/);
   assert.doesNotMatch(role, /<form id="job-application"[^>]*\bhidden\b/);
   assert.match(role, /<fieldset id="application-fields"[^>]*\bdisabled\b/);
   assert.match(role, /<button[^>]*id="application-submit"[^>]*\bdisabled\b/);
@@ -544,10 +544,17 @@ test("native questions remain visible before setup, without an external form lin
   assert.doesNotMatch(role + jobs, /(?:wkf\.ms|forms\.monday\.com)/);
 });
 
-test("public submissions are enabled after verification and the temporary test page is retired", () => {
+test("closed recruitment disables public submissions and excludes the role page from deployment", () => {
   const context = { window: {} };
   vm.runInNewContext(readFileSync(new URL("../../assets/job-application-config.js", import.meta.url), "utf8"), context);
-  assert.equal(context.window.JOB_APPLICATION_CONFIG.enabled, true);
+  assert.equal(context.window.JOB_APPLICATION_CONFIG.enabled, false);
+  const deploy = readFileSync(new URL("../../.github/workflows/deploy-pages.yml", import.meta.url), "utf8");
+  assert.match(deploy, /case "\$path" in\s+[^\n]*\|president-and-ceo\.html\)\s+continue/);
+  const home = readFileSync(new URL("../../index.html", import.meta.url), "utf8");
+  assert.doesNotMatch(home, /jobs-callout|href="jobs\.html"|Jobs at the Canton Foundation/);
+  const jobs = readFileSync(new URL("../../jobs.html", import.meta.url), "utf8");
+  assert.match(jobs, /<p>No current openings\.<\/p>/);
+  assert.doesNotMatch(jobs, /President and CEO|<form\b|<iframe\b|job-application(?:-schema|-config)?\.js/);
   const role = readFileSync(new URL("../../president-and-ceo.html", import.meta.url), "utf8");
   assert.match(role, /job-application-config\.js\?v=20261007-ceo-deployment2/);
   assert.match(role, /id="application-unavailable" hidden/);
@@ -1030,7 +1037,7 @@ test("thank-you content provides next steps, a reference, and the HR contact wit
   assert.doesNotMatch(client, /operations@canton.foundation/);
 });
 
-test("jobs lists only President and CEO and the legacy role cannot collect applications", () => {
+test("retained CEO source is available for reopening and the legacy role cannot collect applications", () => {
   const jobs = readFileSync(new URL("../../jobs.html", import.meta.url), "utf8");
   const role = readFileSync(new URL("../../president-and-ceo.html", import.meta.url), "utf8");
   const closed = readFileSync(new URL("../../accounting-manager.html", import.meta.url), "utf8");
@@ -1042,7 +1049,7 @@ test("jobs lists only President and CEO and the legacy role cannot collect appli
     "External Leadership &amp; Advocacy", "Organizational Leadership", "Board, Governance &amp; Financial Leadership",
     "Candidate Profile", "Experience", "Education", "What Success Looks Like"]) assert(role.includes(heading));
   for (const fact of ["US based, NYC preferred, with significant global travel", "Full-time", "Board of Directors"]) assert(role.includes(fact));
-  assert(jobs.includes("US based, NYC preferred, with significant global travel"));
+  assert.doesNotMatch(jobs, /href="president-and-ceo\.html"/);
 });
 
 async function clientReadinessHarness(service, options = {}) {
