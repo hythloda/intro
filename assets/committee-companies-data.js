@@ -1,5 +1,5 @@
 window.COMMITTEE_COMPANIES_DATA = {
-  "generatedAt": "2026-10-12T16:04:15.846Z",
+  "generatedAt": "2026-10-13T14:33:19.316Z",
   "committees": {
     "faAccountability": {
       "label": "Featured Application Accountability Committee",
@@ -221,6 +221,7 @@ window.COMMITTEE_COMPANIES_DATA = {
         "SBI Digital Asset Holdings",
         "T-RIZE Group",
         "The International Securities Lending Association",
+        "Tokenovate Ltd",
         "Tradeweb Markets LLC",
         "Transcend Street Solutions Inc.",
         "USIG Digital, Inc.",
