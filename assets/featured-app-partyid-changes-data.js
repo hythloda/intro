@@ -1,5 +1,5 @@
 window.FEATURED_APP_PARTYID_CHANGES_DATA = {
-  "generatedAt": "2026-10-14T12:12:16.555Z",
+  "generatedAt": "2026-10-15T11:50:38.739Z",
   "columns": [
     {
       "id": "long_text_mm4kq322",
@@ -13,6 +13,15 @@ window.FEATURED_APP_PARTYID_CHANGES_DATA = {
     }
   ],
   "changes": [
+    {
+      "id": "e429fbae-78a8-4c4f-95f8-0bbf80b47d89",
+      "changedAt": "2026-10-14T15:02:58.146Z",
+      "itemName": "Pinnaccle - Pinnaccle",
+      "itemId": "12982310399",
+      "field": "Locking PartyIDs",
+      "previousValue": "The final locking PartyID has not yet been issued.",
+      "newValue": "23d169c2-0909-4c70-81d1-1922de6febaa::1220f050d577aac2647daaf656a42e377382024c8ea909c08812ee034cdff86872c7"
+    },
     {
       "id": "42df5256-12e3-47f1-adfc-65397dd124b3",
       "changedAt": "2026-10-09T13:41:19.056Z",
@@ -183,15 +192,6 @@ window.FEATURED_APP_PARTYID_CHANGES_DATA = {
       "field": "Locking PartyIDs",
       "previousValue": "1220a::1220ab101bd0a5f0cb7a2878d78a2ce5bafb5729120803b0f83221d71554b76516b8",
       "newValue": "12202::12202d5a90256db7622726d29035c9f796a92358ef23a82dbb2175e0ae84768eb358"
-    },
-    {
-      "id": "dd81a2c2-18f0-4047-b74c-13d59b3de6b3",
-      "changedAt": "2026-09-21T21:20:28.923Z",
-      "itemName": "Republic Wallet",
-      "itemId": "12467789133",
-      "field": "Locking PartyIDs",
-      "previousValue": "1220f::1220fc45b0cec4481bc6cfced0362bfe4a31588910d2f9cfcb4816f918f19a21922f",
-      "newValue": "23d169c2-0909-4c70-81d1-1922de6febaa::1220b3b519d1b3dc7de45ce1dd87c31cf6fe702f0bf7c32f04ff2fe6d28f4594ad89"
     }
   ]
 };
