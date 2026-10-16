@@ -1,5 +1,5 @@
 window.FEATURED_APP_PARTYID_CHANGES_DATA = {
-  "generatedAt": "2026-10-15T11:50:38.739Z",
+  "generatedAt": "2026-10-16T11:42:54.110Z",
   "columns": [
     {
       "id": "long_text_mm4kq322",
@@ -13,6 +13,24 @@ window.FEATURED_APP_PARTYID_CHANGES_DATA = {
     }
   ],
   "changes": [
+    {
+      "id": "19e3ae51-2ab5-4c94-9ebf-8e7685a49a3e",
+      "changedAt": "2026-10-15T12:19:20.957Z",
+      "itemName": "cSOL - OnRails Ltd",
+      "itemId": "13076683931",
+      "field": "Party ID for the Featured Application:",
+      "previousValue": "rails-csol::12200350ba6e96e3b701c3048b5aa013a8c1c08833e8ebf54339cff581055c29003a",
+      "newValue": "onrails-provider::12200350ba6e96e3b701c3048b5aa013a8c1c08833e8ebf54339cff581055c29003a"
+    },
+    {
+      "id": "c763b69a-c26a-4f5c-95c0-7f023ff5e12b",
+      "changedAt": "2026-10-15T12:15:24.871Z",
+      "itemName": "Temple Trading (copy)",
+      "itemId": "13298605392",
+      "field": "Party ID for the Featured Application:",
+      "previousValue": "temple-mainnet-1::1220f238bb79df3efbbac2ea964c3cd501003971a2cb59043e2dac50b06e85b8620f",
+      "newValue": "temple-mainnet-3::1220470e1589422d3e98bdbccec83fd9e2c4df9bb803de8c377863819c20356976ca"
+    },
     {
       "id": "e429fbae-78a8-4c4f-95f8-0bbf80b47d89",
       "changedAt": "2026-10-14T15:02:58.146Z",
@@ -174,24 +192,6 @@ window.FEATURED_APP_PARTYID_CHANGES_DATA = {
       "field": "Locking PartyIDs",
       "previousValue": "",
       "newValue": "auth0_007c6a3400cf326801605d25e3af::122064aab814d8d02f957120e33a970a5aca7c14097eab85ab40a36ddff26c70c44b"
-    },
-    {
-      "id": "8050bcf1-a8e9-49c5-884a-44866f84909c",
-      "changedAt": "2026-09-22T11:22:12.902Z",
-      "itemName": "5N ID",
-      "itemId": "12467838020",
-      "field": "Locking PartyIDs",
-      "previousValue": "1220a::1220ab101bd0a5f0cb7a2878d78a2ce5bafb5729120803b0f83221d71554b76516b8",
-      "newValue": "12202::12202127154a1822a979535f24e635e86f0778d6d1cb615163f7bbef4ed216bab7ca"
-    },
-    {
-      "id": "85fec07a-f1fc-4096-bf40-a8ad9bc32a41",
-      "changedAt": "2026-09-21T22:10:41.322Z",
-      "itemName": "5N Loop",
-      "itemId": "12467804378",
-      "field": "Locking PartyIDs",
-      "previousValue": "1220a::1220ab101bd0a5f0cb7a2878d78a2ce5bafb5729120803b0f83221d71554b76516b8",
-      "newValue": "12202::12202d5a90256db7622726d29035c9f796a92358ef23a82dbb2175e0ae84768eb358"
     }
   ]
 };
