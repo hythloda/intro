@@ -1,5 +1,5 @@
 window.FEATURED_APP_PARTYID_CHANGES_DATA = {
-  "generatedAt": "2026-10-18T11:30:07.131Z",
+  "generatedAt": "2026-10-19T13:45:17.452Z",
   "columns": [
     {
       "id": "long_text_mm4kq322",
@@ -13,6 +13,15 @@ window.FEATURED_APP_PARTYID_CHANGES_DATA = {
     }
   ],
   "changes": [
+    {
+      "id": "5901e749-1140-43ba-9347-3fde08910fe3",
+      "changedAt": "2026-10-19T12:11:24.968Z",
+      "itemName": "Nexode",
+      "itemId": "12467804368",
+      "field": "Locking PartyIDs",
+      "previousValue": "nexode-lock::12208428f54ef01a64f520dc586a3876f8316b03f1ec40b3764142de89dc5d34acb9",
+      "newValue": "23d169c2-0909-4c70-81d1-1922de6febaa::1220f57865147cd7795b83378e0baac918519107fa07724facd823ce97b1ad64ff6e"
+    },
     {
       "id": "19e3ae51-2ab5-4c94-9ebf-8e7685a49a3e",
       "changedAt": "2026-10-15T12:19:20.957Z",
@@ -183,15 +192,6 @@ window.FEATURED_APP_PARTYID_CHANGES_DATA = {
       "field": "Locking PartyIDs",
       "previousValue": "1220d::1220df568a5ee56450098af76e311a394599011b15e7f6c235b6ac60128656a73cab",
       "newValue": "1220c::1220cecfc2eb789d7c2b0148c26690dc6099d42936e1542033b255f1b4ecb0a5f98b"
-    },
-    {
-      "id": "ff161336-99bb-4fa9-8ab0-c16d40d5e99a",
-      "changedAt": "2026-09-22T11:25:47.781Z",
-      "itemName": "Bayzen - Bayzen",
-      "itemId": "12942557487",
-      "field": "Locking PartyIDs",
-      "previousValue": "",
-      "newValue": "auth0_007c6a3400cf326801605d25e3af::122064aab814d8d02f957120e33a970a5aca7c14097eab85ab40a36ddff26c70c44b"
     }
   ]
 };
