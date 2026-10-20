@@ -3,7 +3,7 @@
 The native page is available directly at `president-and-ceo.html`; it is not
 advertised on the homepage or `jobs.html`. The API
 destination is board `18434504661`. It does not read applicant rows or publish
-them. The role page displays the native questions directly, with no Monday
+them. The role page displays the native questions after password verification, with no Monday
 iframe or external application link. Salary Expectations is optional, open text
 with a 1,000-character limit. The required "Who can you thank for your referral?"
 text question maps to the board's **Referral** column (Text or Long Text) and has
@@ -15,6 +15,40 @@ The form checks the service's public readiness before enabling any inputs.
 An old deployment or unverified destination keeps the form disabled with a
 temporary-unavailability notice. This check sends no applicant data. Readiness
 confirms configuration, not end-to-end delivery or current provider availability.
+
+## Shared application password
+
+The job description has been removed, leaving a password gate and the native
+application form. This applies only to the CEO application, not other intro pages.
+
+1. Deploy the updated all-in-one `Code.gs` to the existing CEO web app.
+2. In **Project Settings > Script Properties**, add `JOB_ACCESS_PASSWORD`.
+   Enter the chosen shared password privately and save it. Never put the value
+   in code, GitHub, a URL, the public configuration, or deployment descriptions.
+   Keep every other property and receipt unchanged.
+   If Google makes that settings screen read-only because there are over 50
+   properties, use the editor-only `configureJobApplicationPassword` helper:
+   enter the password into its empty string in the private Apps Script editor,
+   select that function and run it, then clear the string and save. Do not commit
+   or deploy source containing the password. The active web app reads the property
+   immediately; a further deployment is unnecessary.
+3. Publish the website and check that the correct password opens the form and a
+   wrong password does not. The access check creates no application and sends no
+   email. The application remains unavailable until the private property is set.
+
+`doGet` now also reports `passwordRequired: true`, never the password itself.
+Unlocking requires Turnstile action `job_application_access`; actual submission
+still requires a separate `job_application` verification. The password is
+rechecked on every submission, including retries, before any applicant write.
+Changing the private property immediately invalidates an old password without
+clearing receipts. The browser retains the password only in memory until locking,
+successful submission, reload, or navigation. It is sent only in HTTPS POST bodies,
+outside applicant answers, and is never logged or sent to Monday or email.
+
+This is not web-server authentication for static files. The public HTML and
+question schema can still be downloaded; the removed role description is absent
+from the deployed page, but old repository versions are not erased. Use a hosting
+access-control service if the page files themselves need to become confidential.
 
 ## Switch the existing deployment to President and CEO
 

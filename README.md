@@ -6,6 +6,8 @@ The direct `president-and-ceo.html` application page is restored as of
 October 20, 2026. Referral is required in both the browser and backend;
 Salary Expectations remains optional. The homepage still has no Jobs section,
 and `jobs.html` still displays "No current openings."
+The job description has been removed. A password gate now opens the application
+form, and the backend requires the shared password for every submission.
 
 The role page is included in the GitHub Pages artifact. Restore and update only
 the current CEO Apps Script deployment before publishing these changes.
@@ -24,12 +26,15 @@ board. API credentials remain in private Script Properties, never public assets.
 See [deployment and verification instructions](scripts/job-applications/SETUP.md).
 The backend installs as one complete `scripts/job-applications/Code.gs` file,
 including the schema and diagnostics. No separate `.gs` files are needed.
-The native questions are always shown on the role page, without a Monday iframe
-or external application link. The endpoint and public Turnstile key are configured
+The native questions stay hidden until the backend verifies access, without a
+Monday iframe or external application link. Set `JOB_ACCESS_PASSWORD` only in
+private Apps Script Properties, never in this repository. The public HTML and
+question schema are not confidential; this gate restricts form use and intake,
+not the static host itself. The endpoint and public Turnstile key are configured
 in `assets/job-application-config.js`. Only enable public submissions after a
 successful integration test. The temporary integration-test page has been removed.
-Setting `enabled: false` restores preview mode and blocks submissions; preview
-answers are never saved or sent.
+Setting `enabled: false` disables unlocking. A missing server password also
+blocks access and submissions.
 
 This repository publishes to `https://intro.canton.foundation/jobs.html` (see
 `CNAME`). To serve the page at `https://canton.foundation/jobs`, create a page on
@@ -38,4 +43,4 @@ validation. A redirect to Monday would not preserve the Canton address.
 
 Avoid submitting real applicant information as test data. Both pages retain the
 site's noindex policy. Changes to the WorkForm are not automatically mirrored in
-this custom form; keep the shared question schema and role description in sync.
+this custom form; keep the shared question schema in sync.

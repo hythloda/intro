@@ -543,6 +543,16 @@ var JOB_BOARD_ID = "18434504661";
 var JOB_HOSTNAME = "intro.canton.foundation";
 var JOB_HR_EMAIL = "hr@canton.foundation";
 
+// Editor-only setup when Google makes the >50-property settings screen read-only.
+// Enter the shared password privately in Apps Script, run once, then clear it here.
+// Never copy the configured value back into this repository.
+function configureJobApplicationPassword() {
+  var password = "";
+  if (password.length < 12 || password.length > 256) throw new Error("Enter a shared password of 12 to 256 characters in this editor-only helper, then run it again.");
+  PropertiesService.getScriptProperties().setProperty("JOB_ACCESS_PASSWORD", password);
+  console.log("Application password saved. Clear the password from this helper. No applicant data was changed.");
+}
+
 function jobColumnFields_() {
   return JOB_APPLICATION_SCHEMA.fields.filter(function (field) { return !field.auxiliary; }).concat([
     { key: "applicationReference", label: "Application Reference", columnTypes: ["text"] }
@@ -561,7 +571,8 @@ function config_() {
   var token = properties.getProperty("MONDAY");
   var secret = properties.getProperty("TURNSTILE_SECRET");
   var mapping = properties.getProperty("JOB_COLUMN_MAP");
-  if (!token || !secret || !mapping) throw applicationError_("Applications are temporarily unavailable. Please try again later.");
+  var password = properties.getProperty("JOB_ACCESS_PASSWORD");
+  if (!token || !secret || !mapping || !password) throw applicationError_("Applications are temporarily unavailable. Please try again later.");
   mapping = JSON.parse(mapping);
   var groupId = properties.getProperty("MONDAY_GROUP_ID") || null;
   // Never reuse another role's column IDs, even when the boards were duplicated.
@@ -730,13 +741,28 @@ function validateFile_(file, key) {
   return { bytes: bytes, type: types[extension[1]], extension: extension[1] };
 }
 
-function verifyHuman_(token, config) {
+function verifyHuman_(token, config, action) {
   if (typeof token !== "string" || !token || token.length > 2048) throw applicationError_("Please complete the security check again.");
   var response = UrlFetchApp.fetch("https://challenges.cloudflare.com/turnstile/v0/siteverify", {
     method: "post", muteHttpExceptions: true, payload: { secret: config.secret, response: token }
   });
   var result = JSON.parse(response.getContentText());
-  if (response.getResponseCode() !== 200 || !result.success || result.hostname !== JOB_HOSTNAME || result.action !== "job_application") throw applicationError_("The security check expired or failed. Please complete it again.");
+  if (response.getResponseCode() !== 200 || !result.success || result.hostname !== JOB_HOSTNAME || result.action !== (action || "job_application")) throw applicationError_("The security check expired or failed. Please complete it again.");
+}
+
+function requireApplicationPassword_(password) {
+  var expected = PropertiesService.getScriptProperties().getProperty("JOB_ACCESS_PASSWORD");
+  if (!expected) throw applicationError_("Applications are temporarily unavailable. Please try again later.");
+  var valid = typeof password === "string" && password.length > 0 && password.length <= 256;
+  var actualHash = Utilities.computeDigest(Utilities.DigestAlgorithm.SHA_256, valid ? password : "");
+  var expectedHash = Utilities.computeDigest(Utilities.DigestAlgorithm.SHA_256, expected);
+  var difference = valid ? 0 : 1;
+  for (var i = 0; i < expectedHash.length; i++) difference |= actualHash[i] ^ expectedHash[i];
+  if (difference !== 0) {
+    var error = applicationError_("That password is not correct. Please try again.");
+    error.accessRequired = true;
+    throw error;
+  }
 }
 
 function columnValues_(application, mapping) {
@@ -790,7 +816,7 @@ function result_(body) {
 function doGet() {
   var ready = false;
   try { config_(); ready = true; } catch (_) { /* Only public readiness is returned. */ }
-  return result_({ service: "Canton Foundation job applications", role: JOB_APPLICATION_SCHEMA.role, acceptingApplications: ready });
+  return result_({ service: "Canton Foundation job applications", role: JOB_APPLICATION_SCHEMA.role, acceptingApplications: ready, passwordRequired: true });
 }
 
 function authorizeJobApplicationEmail() {
@@ -848,7 +874,18 @@ function doPost(event) {
   try {
     if (!event || !event.postData || event.postData.contents.length > 15 * 1024 * 1024) throw applicationError_("Application payload is too large or missing.");
     var body = JSON.parse(event.postData.contents);
+    if (!body || typeof body !== "object" || Array.isArray(body)) throw applicationError_("Invalid application request. Please refresh the page.");
     requestId = typeof body.requestId === "string" ? body.requestId.slice(0,36) : "";
+    if (body.action === "unlock") {
+      if (event.postData.contents.length > 4096 || body.role !== JOB_APPLICATION_SCHEMA.role ||
+          body.formRevision !== JOB_APPLICATION_SCHEMA.formRevision) throw applicationError_("Invalid application request. Please refresh the page.");
+      var accessConfig = config_();
+      // Bot verification limits password guessing without collecting any applicant data.
+      verifyHuman_(body.token, accessConfig, "job_application_access");
+      requireApplicationPassword_(body.password);
+      return result_({ ok: true, accessGranted: true, role: JOB_APPLICATION_SCHEMA.role });
+    }
+    if (body.action) throw applicationError_("Invalid application request. Please refresh the page.");
     var application = validateApplication_(body);
     var config = config_();
     if (config.mapping.phone.type === "phone") {
@@ -856,6 +893,8 @@ function doPost(event) {
       if (!phone.ok) throw applicationError_(phone.message, phone.fields);
     }
     verifyHuman_(body.token, config);
+    // Bot-check every password attempt, including direct submissions and retries.
+    requireApplicationPassword_(body.password);
     lock = LockService.getScriptLock();
     locked = lock.tryLock(1000);
     if (!locked) throw applicationError_("The application service is busy. Please try again in a moment.");
@@ -912,7 +951,7 @@ function doPost(event) {
     var message = writeStarted
       ? "We could not confirm all parts of your application. Please contact hr@canton.foundation with this reference; do not submit a second application."
       : error.publicMessage || "The application service is temporarily unavailable. Your answers have not been cleared; please try again later.";
-    return result_({ ok: false, requestId: requestId, message: message, fields: error.fields || [] });
+    return result_({ ok: false, requestId: requestId, message: message, fields: error.fields || [], accessRequired: error.accessRequired === true });
   } finally {
     if (locked) lock.releaseLock();
   }

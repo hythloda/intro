@@ -84,12 +84,13 @@ function harness(options = {}) {
   vm.runInContext(serverSource, context);
   properties.set("MONDAY", "fake-test-secret");
   properties.set("TURNSTILE_SECRET", "fake-test-secret");
+  properties.set("JOB_ACCESS_PASSWORD", "synthetic-access-password");
   context.setupJobApplication();
   calls.length = 0;
   const schema = context.JOB_APPLICATION_SCHEMA;
   const values = Object.fromEntries(schema.fields.filter(f => f.type !== "file").map(f => [f.key, ""]));
   Object.assign(values, { name: "Test Applicant", email: "applicant@example.test", country: "US", address: "123 Example Street, Example City, NY 10001, USA", startDate: "2026-11-01", salaryExpectations: "USD 200,000 annually", referral: "Example Referrer", sponsorship: "No", previousWork: "No", restrictions: "No" });
-  const body = { role: schema.role, formRevision: schema.formRevision, requestId: randomUUID(), token: "test-token", website: "", values, files: { cv: { name: "test.pdf", data: Buffer.from("%PDF-1.4\nSynthetic test fixture\n%%EOF").toString("base64") } } };
+  const body = { role: schema.role, formRevision: schema.formRevision, requestId: randomUUID(), token: "test-token", password: "synthetic-access-password", website: "", values, files: { cv: { name: "test.pdf", data: Buffer.from("%PDF-1.4\nSynthetic test fixture\n%%EOF").toString("base64") } } };
   const post = value => JSON.parse(context.doPost({ postData: { contents: JSON.stringify(value) } }).text);
   const creates = () => calls.filter(c => c.url.endsWith("/v2") && JSON.parse(c.request.payload).query.includes("create_item"));
   return { context, properties, calls, emails, body, post, creates };
@@ -97,7 +98,7 @@ function harness(options = {}) {
 
 test("standalone GET and invalid POST return JSON without creating a Monday item", () => {
   const h = harness();
-  assert.deepEqual(JSON.parse(h.context.doGet().text), { service: "Canton Foundation job applications", role: "president-and-ceo", acceptingApplications: true });
+  assert.deepEqual(JSON.parse(h.context.doGet().text), { service: "Canton Foundation job applications", role: "president-and-ceo", acceptingApplications: true, passwordRequired: true });
   const result = h.post({});
   assert.equal(result.ok, false);
   assert.equal(result.requestId, "");
@@ -128,7 +129,7 @@ test("readiness and submissions fail closed for stale destination mappings witho
     mapping._target = target;
     h.properties.set("JOB_COLUMN_MAP", JSON.stringify(mapping));
     const response = JSON.parse(h.context.doGet().text);
-    assert.deepEqual(response, { service: "Canton Foundation job applications", role: "president-and-ceo", acceptingApplications: false });
+    assert.deepEqual(response, { service: "Canton Foundation job applications", role: "president-and-ceo", acceptingApplications: false, passwordRequired: true });
     assert.equal(h.post(h.body).ok, false);
     assert.equal(h.calls.length, 0);
     assert.equal(h.emails.length, 0);
@@ -537,12 +538,14 @@ test("schema has all original fields, no demographic requirement, and public con
   assert.equal(typeof config.enabled, "boolean");
 });
 
-test("native questions remain visible before setup, without an external form link", () => {
+test("native questions are hidden and disabled until access is verified, without an external form link", () => {
   const jobs = readFileSync(new URL("../../jobs.html", import.meta.url), "utf8");
   const role = readFileSync(new URL("../../president-and-ceo.html", import.meta.url), "utf8");
   assert(!/<iframe\b/i.test(jobs + role));
   assert.doesNotMatch(jobs, /href="president-and-ceo\.html"/);
   assert.doesNotMatch(role, /<form id="job-application"[^>]*\bhidden\b/);
+  assert.match(role, /<section[^>]*id="application"[^>]*\bhidden\b/);
+  assert.match(role, /id="application-password"[^>]*type="password"/);
   assert.match(role, /<fieldset id="application-fields"[^>]*\bdisabled\b/);
   assert.match(role, /<button[^>]*id="application-submit"[^>]*\bdisabled\b/);
   assert(role.includes("Applications are temporarily unavailable"));
@@ -1052,18 +1055,16 @@ test("CEO application source is available and the legacy role cannot collect app
   assert.match(closed, /href="jobs.html"/);
   assert.doesNotMatch(closed, /<form|job-application(?:-schema|-config)?\.js/);
   for (const heading of ["Position Summary", "Strategy &amp; Execution", "Ecosystem &amp; Market Development",
-    "External Leadership &amp; Advocacy", "Organizational Leadership", "Board, Governance &amp; Financial Leadership",
-    "Candidate Profile", "Experience", "Education", "What Success Looks Like"]) assert(role.includes(heading));
-  for (const fact of ["US based, NYC preferred, with significant global travel", "Full-time", "Board of Directors"]) assert(role.includes(fact));
+    "Candidate Profile", "What Success Looks Like", "US based, NYC preferred", "Full-time", "Board of Directors"]) assert(!role.includes(heading));
   assert.doesNotMatch(jobs, /href="president-and-ceo\.html"/);
 });
 
 async function clientReadinessHarness(service, options = {}) {
-  const nodes = new Map(), requests = [], storageReads = [], scripts = [], created = [];
+  const nodes = new Map(), requests = [], storageReads = [], scripts = [], created = [], widgets = [];
   const element = tag => ({
     tagName: tag.toUpperCase(), classList: { add() {} }, dataset: {}, listeners: {},
     append(...children) { if (tag === "head") scripts.push(...children); },
-    add() {}, setAttribute() {}, removeAttribute() {},
+    add() {}, setAttribute() {}, removeAttribute() {}, focus() {}, reset() {}, reportValidity() { return true; },
     addEventListener(event, callback) { this.listeners[event] = callback; }
   });
   const document = {
@@ -1075,11 +1076,14 @@ async function clientReadinessHarness(service, options = {}) {
   };
   document.querySelector("#application-fields").disabled = true;
   document.querySelector("#application-submit").disabled = true;
+  document.querySelector("#application").hidden = true;
+  document.querySelector("#application-access-submit").disabled = true;
+  document.querySelector("#application-unavailable").hidden = true;
   document.querySelector("#job-application").dataset.role = options.pageRole ?? "president-and-ceo";
   const context = vm.createContext({
     document, window: { JOB_APPLICATION_CONFIG: {
       enabled: options.enabled !== false, endpoint: "https://script.google.com/macros/s/fake-test-deployment/exec", turnstileSiteKey: "fake-test-key"
-    } },
+    }, turnstile: { render(target, settings) { widgets.push({ target, settings }); return widgets.length; }, remove() {}, reset() {} } },
     location: { hostname: "intro.canton.foundation" }, crypto: { randomUUID },
     sessionStorage: { getItem(key) { storageReads.push(key); return null; } },
     Option: function (text, value) { this.text = text; this.value = value; },
@@ -1087,7 +1091,7 @@ async function clientReadinessHarness(service, options = {}) {
     fetch: async (url, request) => {
       requests.push({ url, request });
       if (options.networkError) throw new Error("offline");
-      return { ok: options.httpOk !== false, json: async () => service };
+      return { ok: options.httpOk !== false, json: async () => request.method === "POST" ? options.unlockResult || { ok: true, accessGranted: true, role: "president-and-ceo" } : service };
     }
   });
   vm.runInContext(readFileSync(new URL("../../assets/job-application-schema.js", import.meta.url), "utf8"), context);
@@ -1095,7 +1099,7 @@ async function clientReadinessHarness(service, options = {}) {
   // Inputs stay disabled during the asynchronous readiness check.
   assert.equal(nodes.get("#application-fields").disabled, true);
   await new Promise(resolve => setImmediate(resolve));
-  return { nodes, requests, scripts, storageReads, created };
+  return { nodes, requests, scripts, storageReads, created, widgets, context };
 }
 
 test("browser requires name, address, start date, and referral but keeps salary optional", async () => {
@@ -1110,10 +1114,11 @@ test("browser requires name, address, start date, and referral but keeps salary 
   }
 });
 
-test("browser enables the native form only for a ready President and CEO backend", async () => {
-  const h = await clientReadinessHarness({ role: "president-and-ceo", acceptingApplications: true });
-  assert.equal(h.nodes.get("#application-fields").disabled, false);
-  assert.equal(h.nodes.get("#application-submit").disabled, false);
+test("browser keeps the form locked until the server confirms the password", async () => {
+  const h = await clientReadinessHarness({ role: "president-and-ceo", acceptingApplications: true, passwordRequired: true });
+  assert.equal(h.nodes.get("#application-fields").disabled, true);
+  assert.equal(h.nodes.get("#application-submit").disabled, true);
+  assert.equal(h.nodes.get("#application").hidden, true);
   assert.equal(h.nodes.get("#application-unavailable").hidden, true);
   assert.equal(h.scripts.length, 1);
   assert.match(h.scripts[0].src, /challenges\.cloudflare\.com/);
@@ -1121,6 +1126,27 @@ test("browser enables the native form only for a ready President and CEO backend
   assert.equal(h.requests.length, 1);
   assert.equal(h.requests[0].request.body, undefined);
   assert.equal(h.requests[0].request.credentials, "omit");
+  h.context.window.onJobVerificationReady();
+  assert.equal(h.widgets[0].settings.action, "job_application_access");
+  h.widgets[0].settings.callback("synthetic-turnstile-token");
+  h.nodes.get("#application-password").value = "synthetic-access-password";
+  await h.nodes.get("#application-access-form").listeners.submit({ preventDefault() {} });
+  assert.equal(h.nodes.get("#application-fields").disabled, false);
+  assert.equal(h.nodes.get("#application-submit").disabled, false);
+  assert.equal(h.nodes.get("#application").hidden, false);
+  assert.equal(h.nodes.get("#application-access").hidden, true);
+  assert.equal(h.nodes.get("#application-password").value, "");
+  assert.equal(h.widgets[1].settings.action, "job_application");
+  const unlock = JSON.parse(h.requests[1].request.body);
+  assert.equal(unlock.action, "unlock");
+  assert.equal(unlock.password, "synthetic-access-password");
+  assert.equal(unlock.values, undefined);
+  assert.equal(unlock.files, undefined);
+  assert(!h.requests[1].url.includes("synthetic-access-password"));
+  h.nodes.get("#application-lock").listeners.click();
+  assert.equal(h.nodes.get("#application").hidden, true);
+  assert.equal(h.nodes.get("#application-fields").disabled, true);
+  assert.equal(h.widgets[2].settings.action, "job_application_access");
 });
 
 test("browser blocks old deployments, wrong roles, setup failures, network errors, and disabled config", async () => {
@@ -1128,7 +1154,8 @@ test("browser blocks old deployments, wrong roles, setup failures, network error
     [{ service: "Canton Foundation job applications" }, {}],
     [{ role: "accounting-manager", acceptingApplications: true }, {}],
     [{ role: "president-and-ceo", acceptingApplications: false }, {}],
-    [{ role: "president-and-ceo", acceptingApplications: true }, { httpOk: false }],
+    [{ role: "president-and-ceo", acceptingApplications: true }, {}],
+    [{ role: "president-and-ceo", acceptingApplications: true, passwordRequired: true }, { httpOk: false }],
     [null, { networkError: true }],
     [null, { enabled: false }],
     [null, { pageRole: "accounting-manager" }],
@@ -1137,10 +1164,103 @@ test("browser blocks old deployments, wrong roles, setup failures, network error
     const h = await clientReadinessHarness(service, options);
     assert.equal(h.nodes.get("#application-fields").disabled, true);
     assert.equal(h.nodes.get("#application-submit").disabled, true);
-    assert.equal(h.nodes.get("#application-unavailable").hidden, false);
+    assert.match(h.nodes.get("#application-access-status").textContent, /temporarily unavailable/);
     assert.equal(h.scripts.length, 0);
     await h.nodes.get("#job-application").listeners.submit({ preventDefault() {} });
     assert.match(h.nodes.get("#application-status").textContent, /Nothing has been sent/);
     assert(h.requests.every(({ request }) => !request.body));
+  }
+});
+
+test("missing, wrong, malformed and padded passwords cannot submit or replay completed receipts", () => {
+  for (const password of [undefined, null, "", "wrong", "synthetic-access-password ", [], {}, "x".repeat(257)]) {
+    const h = harness();
+    const result = h.post({ ...h.body, password });
+    assert.equal(result.ok, false);
+    assert.equal(result.accessRequired, true);
+    assert.equal(h.calls.length, 1);
+    assert(h.calls[0].url.includes("siteverify"));
+    assert.equal(h.emails.length, 0);
+    assert(!h.properties.has("application:" + h.body.requestId));
+  }
+  const h = harness();
+  assert(h.post(h.body).ok);
+  h.properties.set("JOB_ACCESS_PASSWORD", "changed-synthetic-password");
+  h.calls.length = 0;
+  assert.equal(h.post(h.body).accessRequired, true);
+  assert.equal(h.calls.length, 1);
+  assert(h.calls[0].url.includes("siteverify"));
+});
+
+test("missing private password configuration fails closed", () => {
+  const h = harness();
+  h.properties.delete("JOB_ACCESS_PASSWORD");
+  assert.equal(JSON.parse(h.context.doGet().text).acceptingApplications, false);
+  assert.equal(h.post(h.body).ok, false);
+  assert.equal(h.calls.length, 0);
+});
+
+test("direct submissions cannot use password errors as a bot-check-free guessing oracle", () => {
+  for (const password of ["wrong", "synthetic-access-password"]) {
+    const h = harness({ bot: true });
+    const result = h.post({ ...h.body, password });
+    assert.equal(result.ok, false);
+    assert.equal(result.accessRequired, false);
+    assert.match(result.message, /security check/);
+    assert.equal(h.creates().length, 0);
+    assert.equal(h.emails.length, 0);
+  }
+});
+
+test("password setup is editor-only and an empty helper never overwrites a password", () => {
+  const h = harness();
+  const before = JSON.stringify([...h.properties]);
+  assert.throws(() => h.context.configureJobApplicationPassword(), /Enter a shared password/);
+  assert.equal(JSON.stringify([...h.properties]), before);
+  assert.equal(h.calls.length, 0);
+  assert.equal(h.emails.length, 0);
+  assert.match(serverSource, /function configureJobApplicationPassword\(\) \{\s+var password = "";/);
+});
+
+test("unlock requires the correct password and a matching bot check, never writes an application", () => {
+  for (const [options, password, granted] of [
+    [{ action: "job_application_access" }, "synthetic-access-password", true],
+    [{ action: "job_application_access" }, "wrong", false],
+    [{ action: "job_application" }, "synthetic-access-password", false],
+    [{ action: "job_application_access", bot: true }, "synthetic-access-password", false],
+    [{ action: "job_application_access", hostname: "other.example" }, "synthetic-access-password", false]
+  ]) {
+    const h = harness(options);
+    const before = JSON.stringify([...h.properties]);
+    const result = h.post({ action: "unlock", role: h.body.role, formRevision: h.body.formRevision, token: "test-token", password });
+    assert.equal(result.ok, granted);
+    assert.equal(result.accessGranted === true, granted);
+    assert.equal(h.creates().length, 0);
+    assert.equal(h.emails.length, 0);
+    assert.equal(JSON.stringify([...h.properties]), before);
+    assert(h.calls.every(call => call.url.includes("siteverify") && !JSON.stringify(call).includes(password)));
+    assert(!JSON.stringify(result).includes(password));
+  }
+});
+
+test("the shared password is excluded from Monday values, receipts and email", () => {
+  const h = harness();
+  assert(h.post(h.body).ok);
+  assert(!JSON.stringify(h.calls).includes(h.body.password));
+  assert(!JSON.stringify(h.emails).includes(h.body.password));
+  assert(!h.properties.get("application:" + h.body.requestId).includes(h.body.password));
+});
+
+test("browser stays locked for incorrect or unconfirmed access responses", async () => {
+  for (const unlockResult of [{ ok: false, message: "Incorrect password" }, { ok: true }, { ok: true, accessGranted: true, role: "other" }]) {
+    const h = await clientReadinessHarness({ role: "president-and-ceo", acceptingApplications: true, passwordRequired: true }, { unlockResult });
+    h.context.window.onJobVerificationReady();
+    h.widgets[0].settings.callback("synthetic-token");
+    h.nodes.get("#application-password").value = "synthetic-access-password";
+    await h.nodes.get("#application-access-form").listeners.submit({ preventDefault() {} });
+    assert.equal(h.nodes.get("#application").hidden, true);
+    assert.equal(h.nodes.get("#application-fields").disabled, true);
+    assert.equal(h.nodes.get("#application-password").value, "");
+    assert(h.nodes.get("#application-access-status").textContent);
   }
 });

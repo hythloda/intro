@@ -6,6 +6,13 @@
   const fields = document.querySelector("#application-fields");
   const submit = document.querySelector("#application-submit");
   const status = document.querySelector("#application-status");
+  const access = document.querySelector("#application-access");
+  const accessForm = document.querySelector("#application-access-form");
+  const passwordInput = document.querySelector("#application-password");
+  const accessSubmit = document.querySelector("#application-access-submit");
+  const accessStatus = document.querySelector("#application-access-status");
+  const panel = document.querySelector("#application");
+  const lockButton = document.querySelector("#application-lock");
   const local = ["localhost", "127.0.0.1"].includes(location.hostname);
   const validEndpoint = /^https:\/\/script\.google\.com\/macros\/s\/[\w-]+\/exec$/.test(config.endpoint || "") ||
     (local && config.endpoint === location.origin + "/application-test");
@@ -18,6 +25,95 @@
   let busy = false;
   let token = "";
   let widget;
+  // Keep the shared password in memory only, never in URLs, storage, or applicant answers.
+  let password = "";
+  let unlocking = false;
+
+  function renderVerification(forAccess) {
+    token = "";
+    if (widget !== undefined) window.turnstile.remove(widget);
+    widget = window.turnstile.render(forAccess ? "#application-access-verification" : "#application-verification", {
+      sitekey: config.turnstileSiteKey, action: forAccess ? "job_application_access" : "job_application", theme: "dark",
+      callback: value => { token = value; },
+      "expired-callback": () => { token = ""; },
+      "error-callback": () => {
+        token = "";
+        if (forAccess) accessStatus.textContent = "The security check could not load. Please refresh and try again.";
+        else message("The security check could not load. Please refresh and try again.", true);
+      }
+    });
+  }
+
+  function lockApplication(clearAnswers) {
+    password = "";
+    acceptingApplications = false;
+    fields.disabled = true;
+    submit.disabled = true;
+    if (clearAnswers) form.reset();
+    panel.hidden = true;
+    access.hidden = false;
+    passwordInput.value = "";
+    accessStatus.textContent = clearAnswers ? "The form is locked. Any unsent answers have been cleared." : "Please enter the password again. Your answers have not been cleared.";
+    renderVerification(true);
+    passwordInput.focus();
+  }
+
+  lockButton.addEventListener("click", () => {
+    if (!busy) lockApplication(true);
+  });
+
+  accessForm.addEventListener("submit", async event => {
+    event.preventDefault();
+    if (unlocking || accessSubmit.disabled || !accessForm.reportValidity()) return;
+    if (!token) { accessStatus.textContent = "Please complete the security check before continuing."; return; }
+    unlocking = true;
+    accessSubmit.disabled = true;
+    accessStatus.textContent = "Checking access...";
+    const enteredPassword = passwordInput.value;
+    passwordInput.value = "";
+    let timer;
+    try {
+      const controller = new AbortController();
+      timer = setTimeout(() => controller.abort(), 30000);
+      const response = await fetch(config.endpoint, {
+        method: "POST", credentials: "omit", redirect: "follow",
+        headers: { "Content-Type": "text/plain;charset=UTF-8" },
+        body: JSON.stringify({ action: "unlock", role: schema.role, formRevision: schema.formRevision, password: enteredPassword, token }),
+        signal: controller.signal
+      });
+      const result = await response.json();
+      if (!response.ok || typeof result.ok !== "boolean") throw new Error("Unconfirmed access");
+      if (!result.ok) {
+        accessStatus.textContent = result.message || "We could not unlock the form. Please try again.";
+        passwordInput.focus();
+        return;
+      }
+      if (result.accessGranted !== true || result.role !== schema.role) throw new Error("Unconfirmed access");
+      password = enteredPassword;
+      acceptingApplications = true;
+      access.hidden = true;
+      panel.hidden = false;
+      accessStatus.textContent = "";
+      fields.disabled = false;
+      submit.disabled = false;
+      submit.textContent = "Submit application";
+      submit.removeAttribute("aria-describedby");
+      form.removeAttribute("autocomplete");
+      document.querySelector("#application-form-intro").textContent = "Fields marked * are required. Please have your CV ready. Your application is submitted to the Canton Foundation's recruitment system.";
+      renderVerification(false);
+      document.querySelector("#application-title").focus();
+    } catch (_) {
+      accessStatus.textContent = "We could not verify access. Please try again or contact hr@canton.foundation.";
+    } finally {
+      clearTimeout(timer);
+      unlocking = false;
+      accessSubmit.disabled = false;
+      if (!acceptingApplications && widget !== undefined) {
+        token = "";
+        window.turnstile.reset(widget);
+      }
+    }
+  });
 
   const countries = schema.countryCodes.map(code => [code, schema.countryNames[code]])
     .sort((a, b) => a[1].localeCompare(b[1]));
@@ -114,6 +210,7 @@
     if (busy || fields.disabled || !validate()) return;
     if (!token) { message("Please complete the security check before submitting.", true); return; }
     busy = true;
+    lockButton.disabled = true;
     fields.disabled = true;
     submit.disabled = true;
     submit.textContent = "Submitting...";
@@ -136,12 +233,13 @@
       const response = await fetch(config.endpoint, {
         method: "POST", credentials: "omit", redirect: "follow",
         headers: { "Content-Type": "text/plain;charset=UTF-8" },
-        body: JSON.stringify({ role: schema.role, formRevision: schema.formRevision, requestId, values, files, token, website: form.elements.website.value }),
+        body: JSON.stringify({ role: schema.role, formRevision: schema.formRevision, requestId, values, files, token, password, website: form.elements.website.value }),
         signal: controller.signal
       });
       const result = await response.json();
       if (!response.ok || result.requestId !== requestId || typeof result.ok !== "boolean") throw new Error("Unconfirmed response");
       if (!result.ok) {
+        if (result.accessRequired) { lockApplication(false); return; }
         message(result.message + "\nReference: " + requestId, true);
         for (const key of result.fields || []) {
           const input = form.elements.namedItem(key);
@@ -151,6 +249,8 @@
         return;
       }
       form.reset();
+      password = "";
+      lockButton.hidden = true;
       form.hidden = true;
       const success = document.querySelector("#application-success");
       document.querySelector("#application-title").hidden = true;
@@ -174,8 +274,9 @@
     } finally {
       clearTimeout(timer);
       busy = false;
-      fields.disabled = false;
-      submit.disabled = false;
+      lockButton.disabled = false;
+      fields.disabled = !acceptingApplications;
+      submit.disabled = !acceptingApplications;
       submit.textContent = "Submit application";
       form.removeAttribute("aria-busy");
       token = "";
@@ -195,31 +296,25 @@
         credentials: "omit", redirect: "follow", cache: "no-store", signal: controller.signal
       });
       const service = await response.json();
-      if (!response.ok || service.role !== schema.role || service.acceptingApplications !== true) throw new Error("Service not ready for this role");
-      acceptingApplications = true;
+      if (!response.ok || service.role !== schema.role || service.acceptingApplications !== true || service.passwordRequired !== true) throw new Error("Service not ready for password access");
       notice.hidden = true;
-      document.querySelector("#application-form-intro").textContent = "Fields marked * are required. Please have your CV ready. Your application is submitted to the Canton Foundation's recruitment system.";
-      form.removeAttribute("autocomplete");
-      fields.disabled = false;
-      submit.disabled = false;
-      submit.textContent = "Submit application";
-      submit.removeAttribute("aria-describedby");
       window.onJobVerificationReady = () => {
-        widget = window.turnstile.render("#application-verification", {
-          sitekey: config.turnstileSiteKey, action: "job_application", theme: "dark",
-          callback: value => { token = value; },
-          "expired-callback": () => { token = ""; },
-          "error-callback": () => { token = ""; message("The security check could not load. Please refresh the page and try again.", true); }
-        });
+        passwordInput.disabled = false;
+        accessSubmit.disabled = false;
+        accessSubmit.textContent = "Open application";
+        renderVerification(true);
       };
       const script = document.createElement("script");
       script.src = "https://challenges.cloudflare.com/turnstile/v0/api.js?onload=onJobVerificationReady&render=explicit";
       script.async = true;
-      script.onerror = () => message("The security check could not load. Please refresh the page and try again.", true);
+      script.onerror = () => {
+        accessSubmit.textContent = "Refresh to try again";
+        accessStatus.textContent = "The security check could not load. Please refresh the page and try again.";
+      };
       document.head.append(script);
     } catch (_) {
-      notice.hidden = false;
-      submit.textContent = "Applications temporarily unavailable";
+      accessSubmit.textContent = "Access unavailable";
+      accessStatus.textContent = "Application access is temporarily unavailable. Please check back shortly or contact hr@canton.foundation.";
     } finally {
       clearTimeout(timer);
     }

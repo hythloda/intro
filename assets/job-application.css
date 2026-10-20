@@ -38,6 +38,13 @@ body {
 .role-copy li { margin: 7px 0; }
 .application-panel { padding: clamp(24px, 4vw, 48px); }
 .application-panel h2 { font-size: 28px; font-weight: 400; margin: 0 0 12px; }
+.application-access { max-width: 620px; margin: 0 auto; }
+.application-access .careers-eyebrow { margin-bottom: 14px; }
+.application-access form { margin: 24px 0; }
+.application-access .field-help { font-size: 14px; }
+.application-heading { display: flex; align-items: start; justify-content: space-between; gap: 16px; }
+.application-heading .careers-back { background: none; border: 0; color: var(--accent-strong); font-family: inherit; margin: 5px 0 0; cursor: pointer; white-space: nowrap; }
+.application-access .careers-button { width: 100%; }
 .application-panel .application-intro { margin-bottom: 24px; }
 .application-fields { border: 0; margin: 0; padding: 0; min-width: 0; }
 .application-section { min-width: 0; border: 0; border-top: 1px solid var(--line); margin: 28px 0 0; padding: 28px 0 0; }
@@ -89,7 +96,7 @@ body {
 .success-reference p { margin: 0; color: var(--text); font-family: monospace; font-size: 15px; overflow-wrap: anywhere; }
 .application-success .careers-button { margin-top: 8px; }
 .application-honeypot { position: absolute; left: -10000px; width: 1px; height: 1px; overflow: hidden; }
-#application-verification { margin: 16px 0; }
+#application-verification, #application-access-verification { margin: 16px 0; min-height: 65px; }
 @media (max-width: 700px) {
   body { padding: 20px 14px 36px; }
   .careers-hero h1 { letter-spacing: .025em; }
