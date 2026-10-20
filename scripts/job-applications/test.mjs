@@ -88,7 +88,7 @@ function harness(options = {}) {
   calls.length = 0;
   const schema = context.JOB_APPLICATION_SCHEMA;
   const values = Object.fromEntries(schema.fields.filter(f => f.type !== "file").map(f => [f.key, ""]));
-  Object.assign(values, { name: "Test Applicant", email: "applicant@example.test", country: "US", address: "123 Example Street, Example City, NY 10001, USA", startDate: "2026-11-01", salaryExpectations: "USD 200,000 annually", sponsorship: "No", previousWork: "No", restrictions: "No" });
+  Object.assign(values, { name: "Test Applicant", email: "applicant@example.test", country: "US", address: "123 Example Street, Example City, NY 10001, USA", startDate: "2026-11-01", salaryExpectations: "USD 200,000 annually", referral: "Example Referrer", sponsorship: "No", previousWork: "No", restrictions: "No" });
   const body = { role: schema.role, formRevision: schema.formRevision, requestId: randomUUID(), token: "test-token", website: "", values, files: { cv: { name: "test.pdf", data: Buffer.from("%PDF-1.4\nSynthetic test fixture\n%%EOF").toString("base64") } } };
   const post = value => JSON.parse(context.doPost({ postData: { contents: JSON.stringify(value) } }).text);
   const creates = () => calls.filter(c => c.url.endsWith("/v2") && JSON.parse(c.request.payload).query.includes("create_item"));
@@ -175,24 +175,24 @@ test("Salary Expectations is optional free text and reaches its own text or long
   assert.equal(long.calls.length, 0);
 });
 
-test("salary and referral may both be left blank", () => {
+test("salary may be left blank while referral is supplied", () => {
   const h = harness();
   h.body.values.salaryExpectations = "   ";
-  h.body.values.referral = "   ";
   assert(h.post(h.body).ok);
   const values = JSON.parse(JSON.parse(h.creates()[0].request.payload).variables.values);
   assert.equal(values.col_salaryExpectations, undefined);
-  assert.equal(values.col_referral, undefined);
+  assert.equal(values.col_referral, "Example Referrer");
 });
 
-test("optional referral maps to its own Referral text or long-text column", () => {
+test("required referral maps to its own Referral text or long-text column", () => {
   for (const type of ["text", "long_text"]) {
     const h = harness();
     const field = h.context.JOB_APPLICATION_SCHEMA.fields.find(f => f.key === "referral");
     assert.equal(field.label, "Who can you thank for your referral?");
     assert.equal(field.columnTitle, "Referral");
     assert.equal(field.type, "text");
-    assert.equal(Boolean(field.required), false);
+    assert.equal(field.required, true);
+    assert.doesNotMatch(field.help, /optional/i);
     const mapping = JSON.parse(h.properties.get("JOB_COLUMN_MAP"));
     mapping.referral.type = type;
     h.properties.set("JOB_COLUMN_MAP", JSON.stringify(mapping));
@@ -207,27 +207,32 @@ test("optional referral maps to its own Referral text or long-text column", () =
 });
 
 test("invalid referral answers are rejected before external calls", () => {
-  for (const value of [null, {}, "x".repeat(1001)]) {
+  for (const value of ["", "   ", null, {}, "x".repeat(1001)]) {
     const h = harness();
     h.body.values.referral = value;
     assert.deepEqual(h.post(h.body).fields, ["referral"]);
     assert.equal(h.calls.length, 0);
+    assert.equal(h.emails.length, 0);
+    assert.equal(h.properties.has("application:" + h.body.requestId), false);
   }
 });
 
-test("old open forms without referral preserve receipt hashes and cannot create duplicates", () => {
+test("omitting the referral field cannot bypass required validation", () => {
   const h = harness();
   delete h.body.values.referral;
-  const fields = h.context.JOB_APPLICATION_SCHEMA.fields;
-  h.context.JOB_APPLICATION_SCHEMA.fields = fields.filter(f => f.key !== "referral");
-  assert(h.post(h.body).ok);
-  const priorReceipt = h.properties.get("application:" + h.body.requestId);
-  h.context.JOB_APPLICATION_SCHEMA.fields = fields;
-  assert.equal(Object.hasOwn(h.context.validateApplication_(h.body).values, "referral"), false);
-  assert(h.post(h.body).ok);
-  assert.equal(h.properties.get("application:" + h.body.requestId), priorReceipt);
-  assert.equal(h.creates().length, 1);
-  assert.equal(h.emails.length, 1);
+  assert.deepEqual(h.post(h.body).fields, ["referral"]);
+  assert.equal(h.calls.length, 0);
+  assert.equal(h.emails.length, 0);
+  assert.equal(h.properties.has("application:" + h.body.requestId), false);
+});
+
+test("pre-reopening form revisions cannot submit with optional-referral rules", () => {
+  const h = harness();
+  h.body.formRevision = "ceo-20261007";
+  assert.equal(h.post(h.body).ok, false);
+  assert.equal(h.calls.length, 0);
+  assert.equal(h.emails.length, 0);
+  assert.equal(h.properties.has("application:" + h.body.requestId), false);
 });
 
 test("missing referral destination or wrong type blocks readiness and submissions", () => {
@@ -346,7 +351,7 @@ test("a reused receipt with changed answers cannot alter or duplicate an applica
   assert.equal(h.creates().length, 1);
 });
 
-for (const key of ["name", "email", "country", "address", "sponsorship", "previousWork", "restrictions", "startDate"]) {
+for (const key of ["name", "email", "country", "address", "sponsorship", "previousWork", "restrictions", "startDate", "referral"]) {
   test("rejects missing required " + key, () => {
     for (const blank of ["", "   ", undefined]) {
       const h = harness(); h.body.values[key] = blank;
@@ -544,19 +549,20 @@ test("native questions remain visible before setup, without an external form lin
   assert.doesNotMatch(role + jobs, /(?:wkf\.ms|forms\.monday\.com)/);
 });
 
-test("closed recruitment disables public submissions and excludes the role page from deployment", () => {
+test("direct CEO applications are restored without advertising the role on the homepage or jobs listing", () => {
   const context = { window: {} };
   vm.runInNewContext(readFileSync(new URL("../../assets/job-application-config.js", import.meta.url), "utf8"), context);
-  assert.equal(context.window.JOB_APPLICATION_CONFIG.enabled, false);
+  assert.equal(context.window.JOB_APPLICATION_CONFIG.enabled, true);
   const deploy = readFileSync(new URL("../../.github/workflows/deploy-pages.yml", import.meta.url), "utf8");
-  assert.match(deploy, /case "\$path" in\s+[^\n]*\|president-and-ceo\.html\)\s+continue/);
+  assert.doesNotMatch(deploy, /president-and-ceo\.html/);
   const home = readFileSync(new URL("../../index.html", import.meta.url), "utf8");
   assert.doesNotMatch(home, /jobs-callout|href="jobs\.html"|Jobs at the Canton Foundation/);
   const jobs = readFileSync(new URL("../../jobs.html", import.meta.url), "utf8");
   assert.match(jobs, /<p>No current openings\.<\/p>/);
   assert.doesNotMatch(jobs, /President and CEO|<form\b|<iframe\b|job-application(?:-schema|-config)?\.js/);
   const role = readFileSync(new URL("../../president-and-ceo.html", import.meta.url), "utf8");
-  assert.match(role, /job-application-config\.js\?v=20261007-ceo-deployment2/);
+  assert.match(role, /job-application-config\.js\?v=20261020-reopen1/);
+  assert.match(role, /job-application-schema\.js\?v=20261020-required-referral1/);
   assert.match(role, /id="application-unavailable" hidden/);
   assert.equal(existsSync(new URL("../../job-application-check.html", import.meta.url)), false);
 });
@@ -1037,7 +1043,7 @@ test("thank-you content provides next steps, a reference, and the HR contact wit
   assert.doesNotMatch(client, /operations@canton.foundation/);
 });
 
-test("retained CEO source is available for reopening and the legacy role cannot collect applications", () => {
+test("CEO application source is available and the legacy role cannot collect applications", () => {
   const jobs = readFileSync(new URL("../../jobs.html", import.meta.url), "utf8");
   const role = readFileSync(new URL("../../president-and-ceo.html", import.meta.url), "utf8");
   const closed = readFileSync(new URL("../../accounting-manager.html", import.meta.url), "utf8");
@@ -1092,13 +1098,13 @@ async function clientReadinessHarness(service, options = {}) {
   return { nodes, requests, scripts, storageReads, created };
 }
 
-test("browser keeps name, address, and start date required but salary and referral optional", async () => {
+test("browser requires name, address, start date, and referral but keeps salary optional", async () => {
   const h = await clientReadinessHarness({ role: "president-and-ceo", acceptingApplications: true });
-  for (const key of ["name", "address", "startDate"]) {
+  for (const key of ["name", "address", "startDate", "referral"]) {
     assert.equal(h.created.find(node => node.name === key).required, true);
     assert.match(h.created.find(node => node.htmlFor === key).textContent, / \*$/);
   }
-  for (const key of ["salaryExpectations", "referral", "preferredName", "phone", "coverLetter", "gender", "hispanicLatino", "veteran"]) {
+  for (const key of ["salaryExpectations", "preferredName", "phone", "coverLetter", "gender", "hispanicLatino", "veteran"]) {
     assert.equal(h.created.find(node => node.name === key).required, false);
     assert.doesNotMatch(h.created.find(node => node.htmlFor === key).textContent, / \*$/);
   }

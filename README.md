@@ -2,21 +2,22 @@
 
 ## Jobs
 
-Recruitment is closed as of October 12, 2026. The homepage has no Jobs section,
-and `jobs.html` displays "No current openings."
+The direct `president-and-ceo.html` application page is restored as of
+October 20, 2026. Referral is required in both the browser and backend;
+Salary Expectations remains optional. The homepage still has no Jobs section,
+and `jobs.html` still displays "No current openings."
 
-`president-and-ceo.html` is retained in source for a future reopening but is
-explicitly excluded from the GitHub Pages artifact, so its public URL returns
-404. Public submissions are disabled in `assets/job-application-config.js`.
-The Apps Script web-app deployment must also be archived in **Deploy > Manage
-deployments** to stop cached forms and direct submissions. Archiving preserves
-the script, configuration, and existing Monday applications.
+The role page is included in the GitHub Pages artifact. Restore and update only
+the current CEO Apps Script deployment before publishing these changes.
+Older deployments stay archived. Form revision `ceo-20261020` requires older
+open forms to refresh before submitting.
 
-To reopen recruitment, restore the homepage/listing links, remove the role-page
-exclusion from the deploy workflow, restore the intended Apps Script deployment,
-and verify it before enabling public submissions.
+To close intake again, set `enabled: false`, exclude the role page from the
+deployment artifact, and archive the active Apps Script web-app deployment in
+**Deploy > Manage deployments**. Archiving also stops cached forms and direct
+submissions while preserving the script, configuration, and Monday applications.
 
-The retained application uses native Canton-styled inputs, not an embedded Monday form.
+The application uses native Canton-styled inputs, not an embedded Monday form.
 An Apps Script backend submits answers and attachments to the existing Monday
 board. API credentials remain in private Script Properties, never public assets.
 

@@ -1,10 +1,11 @@
 # President and CEO application setup
 
-The native page is `president-and-ceo.html`, linked from `jobs.html`. The API
+The native page is available directly at `president-and-ceo.html`; it is not
+advertised on the homepage or `jobs.html`. The API
 destination is board `18434504661`. It does not read applicant rows or publish
 them. The role page displays the native questions directly, with no Monday
 iframe or external application link. Salary Expectations is optional, open text
-with a 1,000-character limit. The optional "Who can you thank for your referral?"
+with a 1,000-character limit. The required "Who can you thank for your referral?"
 text question maps to the board's **Referral** column (Text or Long Text) and has
 the same 1,000-character limit. Name, Physical Address, and Earliest Start Date
 remain required. The old Accounting Manager URL is a closed-position
@@ -100,10 +101,12 @@ maintainer. Use `inspectJobColumns` rather than copying IDs from the old board.
 
 ## Update an existing project
 
-For the optional referral question, reuse the existing **Referral** column, run
-**setupJobApplication** to refresh its mapping, then deploy the backend before
-publishing the updated website. Previously opened CEO forms without the referral
-field remain accepted, with their existing reference hashes unchanged.
+For the required referral question, reuse the existing **Referral** column and
+its saved mapping. Run **setupJobApplication** only if the mapping needs refreshing.
+Deploy the backend before publishing the updated website. Form revision
+`ceo-20261020` rejects older open forms and missing, empty, or whitespace-only
+referrals before any external calls. Applicants with an older form must refresh.
+Existing receipts remain unchanged; do not clear them or resubmit completed applications.
 
 Replace only the existing Apps Script `Code.gs` contents with this directory's
 complete all-in-one `Code.gs`. Keep Script Properties, credentials, and receipt

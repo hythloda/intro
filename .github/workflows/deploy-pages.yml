@@ -46,7 +46,7 @@ jobs:
           shopt -s dotglob
           for path in *; do
             case "$path" in
-              .git|.github|scripts|node_modules|_site|president-and-ceo.html)
+              .git|.github|scripts|node_modules|_site)
                 continue
                 ;;
             esac

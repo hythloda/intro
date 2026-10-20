@@ -225,7 +225,7 @@ https://gitlab.com/catamphetamine
 var JOB_APPLICATION_SCHEMA = {
   role: "president-and-ceo",
   roleTitle: "President and CEO",
-  formRevision: "ceo-20261007",
+  formRevision: "ceo-20261020",
   maxFileBytes: 5 * 1024 * 1024,
   countryCodes: "AD AE AF AG AI AL AM AO AQ AR AS AT AU AW AX AZ BA BB BD BE BF BG BH BI BJ BL BM BN BO BQ BR BS BT BV BW BY BZ CA CC CD CF CG CH CI CK CL CM CN CO CR CU CV CW CX CY CZ DE DJ DK DM DO DZ EC EE EG EH ER ES ET FI FJ FK FM FO FR GA GB GD GE GF GG GH GI GL GM GN GP GQ GR GS GT GU GW GY HK HM HN HR HT HU ID IE IL IM IN IO IQ IR IS IT JE JM JO JP KE KG KH KI KM KN KP KR KW KY KZ LA LB LC LI LK LR LS LT LU LV LY MA MC MD ME MF MG MH MK ML MM MN MO MP MQ MR MS MT MU MV MW MX MY MZ NA NC NE NF NG NI NL NO NP NR NU NZ OM PA PE PF PG PH PK PL PM PN PR PS PT PW PY QA RE RO RS RU RW SA SB SC SD SE SG SH SI SJ SK SL SM SN SO SR SS ST SV SX SY SZ TC TD TF TG TH TJ TK TL TM TN TO TR TT TV TW TZ UA UG UM US UY UZ VA VC VE VG VI VN VU WF WS YE YT ZA ZM ZW".split(" "),
   fields: [
@@ -244,7 +244,7 @@ var JOB_APPLICATION_SCHEMA = {
     { key: "restrictions", label: "Are you subject to any employment agreements or post-employment restrictions with a current or past employer?", section: "experience", type: "select", required: true, options: ["Yes", "No"], columnTypes: ["status", "dropdown", "text"] },
     { key: "startDate", label: "Earliest Start Date", section: "experience", type: "date", required: true, columnTypes: ["date", "text"] },
     { key: "salaryExpectations", label: "Salary Expectations", section: "experience", type: "text", max: 1000, help: "Optional. Include your expected salary or range, currency, and whether it is annual or monthly.", columnTypes: ["text", "long_text"] },
-    { key: "referral", label: "Who can you thank for your referral?", columnTitle: "Referral", section: "experience", type: "text", max: 1000, help: "Optional. Share the name of the person or organization that referred you.", columnTypes: ["text", "long_text"] },
+    { key: "referral", label: "Who can you thank for your referral?", columnTitle: "Referral", section: "experience", type: "text", required: true, max: 1000, help: "Share the name of the person or organization that referred you.", columnTypes: ["text", "long_text"] },
     { key: "adjustments", label: "Requested adjustments", section: "experience", type: "textarea", max: 5000, help: "Optional: any additional information, availability, or context you'd like to share.", columnTypes: ["text", "long_text"] },
     { key: "gender", label: "Gender", section: "voluntary", type: "select", options: ["Male", "Female", "Decline to Self Identify"], columnTypes: ["status", "dropdown", "text"] },
     { key: "hispanicLatino", label: "Are you Hispanic/Latino?", section: "voluntary", type: "select", options: ["Yes", "No", "Decline to Self Identify"], columnTypes: ["status", "dropdown", "text"] },
@@ -699,8 +699,6 @@ function validateApplication_(body) {
       attachments[field.key] = validateFile_(files[field.key], field.key);
       return;
     }
-    // Older open forms omit referral; preserve their existing receipt hashes.
-    if (field.key === "referral" && !Object.prototype.hasOwnProperty.call(values, field.key)) return;
     var value = values[field.key];
     if (typeof value !== "string") { errors.push(field.key); return; }
     value = value.trim();

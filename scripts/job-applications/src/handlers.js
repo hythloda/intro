@@ -159,8 +159,6 @@ function validateApplication_(body) {
       attachments[field.key] = validateFile_(files[field.key], field.key);
       return;
     }
-    // Older open forms omit referral; preserve their existing receipt hashes.
-    if (field.key === "referral" && !Object.prototype.hasOwnProperty.call(values, field.key)) return;
     var value = values[field.key];
     if (typeof value !== "string") { errors.push(field.key); return; }
     value = value.trim();
