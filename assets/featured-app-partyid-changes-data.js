@@ -1,5 +1,5 @@
 window.FEATURED_APP_PARTYID_CHANGES_DATA = {
-  "generatedAt": "2026-10-19T13:45:17.452Z",
+  "generatedAt": "2026-10-20T11:54:47.624Z",
   "columns": [
     {
       "id": "long_text_mm4kq322",
@@ -13,6 +13,15 @@ window.FEATURED_APP_PARTYID_CHANGES_DATA = {
     }
   ],
   "changes": [
+    {
+      "id": "f3abe3a2-b10e-4f62-ba7a-4570ee1148ff",
+      "changedAt": "2026-10-19T18:23:38.859Z",
+      "itemName": "canpay",
+      "itemId": "12467854326",
+      "field": "Locking PartyIDs",
+      "previousValue": "f01f786e5ec7676d491e17e151218946::12203f1f26f2994ce6e06c49a319e7804e22d830bfb51addc85943ba669035b57110",
+      "newValue": "ldg::1220de78c632a63c553feb58fa08a3172f3a324e3a27e7736089e5145d455194cec5"
+    },
     {
       "id": "5901e749-1140-43ba-9347-3fde08910fe3",
       "changedAt": "2026-10-19T12:11:24.968Z",
@@ -183,15 +192,6 @@ window.FEATURED_APP_PARTYID_CHANGES_DATA = {
       "field": "Locking PartyIDs",
       "previousValue": "1220b::1220bf515ffccfb089af4c15d0dcdf40d0f69b2122cd78b6255b2ba1a1f386e29ef7",
       "newValue": "12208::1220869791c95054cce5a2b2bfed626e9e6ce0fc2dc9bc1bd47ceb962d0c403bd04a"
-    },
-    {
-      "id": "6a2f120a-c2ad-4cfc-9a3e-542c6380e883",
-      "changedAt": "2026-09-23T23:27:59.430Z",
-      "itemName": "CC Node",
-      "itemId": "12467790004",
-      "field": "Locking PartyIDs",
-      "previousValue": "1220d::1220df568a5ee56450098af76e311a394599011b15e7f6c235b6ac60128656a73cab",
-      "newValue": "1220c::1220cecfc2eb789d7c2b0148c26690dc6099d42936e1542033b255f1b4ecb0a5f98b"
     }
   ]
 };
