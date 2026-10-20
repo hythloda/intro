@@ -1,5 +1,5 @@
 window.FEATURED_APP_BOARD_DATA = {
-  "generatedAt": "2026-10-19T13:27:53.259Z",
+  "generatedAt": "2026-10-20T11:46:00.898Z",
   "columns": [
     {
       "id": "text_mm4k2vch",
@@ -327,7 +327,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12954184948",
       "name": "Rapid Chain - Rapid Blockchain Technologies Ltd.",
-      "updatedAt": "2026-10-19T07:51:15Z",
+      "updatedAt": "2026-10-20T07:51:21Z",
       "values": {
         "text_mm4k2vch": "Rapid Blockchain Technologies Ltd.",
         "color_mm4kmej3": "1-Needs Review",
@@ -352,7 +352,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12959523630",
       "name": "MetCredX - NIPRO TECHNOLOGIES LIMITED",
-      "updatedAt": "2026-10-19T07:51:21Z",
+      "updatedAt": "2026-10-20T07:51:27Z",
       "values": {
         "text_mm4k2vch": "NIPRO TECHNOLOGIES LIMITED",
         "color_mm4kmej3": "1-Needs Review",
@@ -640,7 +640,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13289895381",
       "name": "Modulo Vault - Was CIP-0116 removed",
-      "updatedAt": "2026-10-18T19:51:24Z",
+      "updatedAt": "2026-10-19T20:51:33Z",
       "values": {
         "text_mm4k2vch": "Modulo Labs, Inc.",
         "color_mm4kmej3": "0-Locked+Needs Review",
@@ -866,7 +866,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12959522895",
       "name": "ccledger - Blueprint Infrastructure, LLC",
-      "updatedAt": "2026-10-19T05:00:19Z",
+      "updatedAt": "2026-10-20T07:51:32Z",
       "values": {
         "text_mm4k2vch": "Blueprint Infrastructure, LLC",
         "color_mm4kmej3": "1-Needs Review",
@@ -4349,14 +4349,14 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467789257",
       "name": "Saxon Automate / Canton Keeper",
-      "updatedAt": "2026-10-19T05:00:40Z",
+      "updatedAt": "2026-10-20T00:00:46Z",
       "values": {
         "text_mm4k2vch": "Saxon",
         "color_mm4kmej3": "7-Closed-new-process",
         "long_text_mm4kq322": "saxon-various-1::12204c9e793fdcdd329d9a8bd307562e3493139d9fee257b1928be514d1d4950e5b6",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "saxon-various-1::12204c9e793fdcdd329d9a8bd307562e3493139d9fee257b1928be514d1d4950e5b6",
-        "numeric_mm4k6919": "0.4",
+        "numeric_mm4k6919": "0.0",
         "long_text_mm4km2s7": "Saxon Nodes operates NAAS (Node-as-a-Service) Canton validator infrastructure. We run validator nodes for multiple clients hosting Daml applications including Canton Swap, Cantara, and Digital Asset utility packages. We are building tooling to improve the operational efficiency and reward generation for all Canton validators",
         "link_mm4kmq24": "https://saxon-xyz.github.io/canton-keeper-docs/",
         "link_mm4krmse": "https://saxon-xyz.github.io/canton-keeper-docs/",
@@ -6079,7 +6079,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467824061",
       "name": "iBTC Bitcoin Bridge",
-      "updatedAt": "2026-10-19T01:52:53Z",
+      "updatedAt": "2026-10-20T02:53:02Z",
       "values": {
         "text_mm4k2vch": "Bitsafe",
         "color_mm4kmej3": "0-Locked+Needs Review",
@@ -7826,13 +7826,13 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467854326",
       "name": "canpay",
-      "updatedAt": "2026-09-22T19:00:06Z",
+      "updatedAt": "2026-10-19T18:23:38Z",
       "values": {
         "text_mm4k2vch": "Foundinals Lab",
         "color_mm4kmej3": "2-Approved",
         "long_text_mm4kq322": "foundinalsunthy-mainnet-1::12201004202ad4f2ba69d160e148899596aa294db698917f3aaef063afcb0a412c83",
         "color_mm4kpp3q": "Non-Issuer",
-        "long_text_mm4khjn6": "f01f786e5ec7676d491e17e151218946::12203f1f26f2994ce6e06c49a319e7804e22d830bfb51addc85943ba669035b57110",
+        "long_text_mm4khjn6": "ldg::1220de78c632a63c553feb58fa08a3172f3a324e3a27e7736089e5145d455194cec5",
         "numeric_mm4k6919": "5.0",
         "text_mm4k5fnm": "d0f9d322df890814479b2a1550a0635c::12202894d22f3713aad008d78085f47a20c55513bad25ee7b7c899409511b6e8b110",
         "long_text_mm4km2s7": "The Foundials Lab is a self-funded organization dedicated to promoting the adoption of Bitcoin ordinals.We are also early Canton Network Validators in Asia",
@@ -10412,7 +10412,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12964705710",
       "name": "RAX Finance - RAX Finance",
-      "updatedAt": "2026-10-19T12:51:33Z",
+      "updatedAt": "2026-10-20T10:51:13Z",
       "values": {
         "text_mm4k2vch": "RAX Finance",
         "color_mm4kmej3": "0-Locked+Needs Review",
@@ -10471,7 +10471,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12974668475",
       "name": "OS Ledger - Outersunset",
-      "updatedAt": "2026-10-19T06:52:04Z",
+      "updatedAt": "2026-10-20T07:51:43Z",
       "values": {
         "text_mm4k2vch": "Outersunset",
         "color_mm4kmej3": "1-Needs Review",
@@ -10498,7 +10498,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12982310839",
       "name": "Ovdefi - OneNov",
-      "updatedAt": "2026-10-19T05:01:21Z",
+      "updatedAt": "2026-10-19T21:51:26Z",
       "values": {
         "text_mm4k2vch": "OneNov",
         "color_mm4kmej3": "1-Needs Review",
@@ -10528,7 +10528,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12982310399",
       "name": "Pinnaccle - Pinnaccle",
-      "updatedAt": "2026-10-19T07:52:43Z",
+      "updatedAt": "2026-10-20T00:52:34Z",
       "values": {
         "text_mm4k2vch": "Pinnaccle",
         "color_mm4kmej3": "0-Locked+Needs Review",
@@ -10589,7 +10589,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13003184089",
       "name": "R1M Sentinel - R1M",
-      "updatedAt": "2026-10-19T00:52:46Z",
+      "updatedAt": "2026-10-20T05:52:55Z",
       "values": {
         "text_mm4k2vch": "R1M",
         "color_mm4kmej3": "1-Needs Review",
@@ -10648,7 +10648,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13003182078",
       "name": "Maha Wallet - PT Maha Digital Solutions",
-      "updatedAt": "2026-10-19T00:53:42Z",
+      "updatedAt": "2026-10-20T01:53:56Z",
       "values": {
         "text_mm4k2vch": "PT Maha Digital Solutions",
         "color_mm4kmej3": "0-Locked+Needs Review",
@@ -10680,7 +10680,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13023350809",
       "name": "Zabpay - DSRV",
-      "updatedAt": "2026-10-19T07:54:43Z",
+      "updatedAt": "2026-10-20T07:53:28Z",
       "values": {
         "text_mm4k2vch": "DSRV",
         "color_mm4kmej3": "1-Needs Review",
@@ -10740,7 +10740,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13036463016",
       "name": "P2P Company - P2P Company",
-      "updatedAt": "2026-10-18T21:51:22Z",
+      "updatedAt": "2026-10-19T22:51:23Z",
       "values": {
         "text_mm4k2vch": "P2P Company",
         "color_mm4kmej3": "1-Needs Review",
@@ -10770,7 +10770,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13046640623",
       "name": "Yellow Card - Yellow Card Financial Inc.",
-      "updatedAt": "2026-10-19T12:54:02Z",
+      "updatedAt": "2026-10-20T06:54:47Z",
       "values": {
         "text_mm4k2vch": "Yellow Card Financial Inc.",
         "color_mm4kmej3": "1-Needs Review",
@@ -10799,7 +10799,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13056498524",
       "name": "mperps - Lemongrass IT services LLC FZ",
-      "updatedAt": "2026-10-19T05:18:10Z",
+      "updatedAt": "2026-10-20T02:56:38Z",
       "values": {
         "text_mm4k2vch": "Lemongrass IT services LLC FZ",
         "color_mm4kmej3": "1-Needs Review",
@@ -10979,7 +10979,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13111369113",
       "name": "Helvex - Dream Capital",
-      "updatedAt": "2026-10-19T04:56:08Z",
+      "updatedAt": "2026-10-20T04:58:31Z",
       "values": {
         "text_mm4k2vch": "Dream Capital",
         "color_mm4kmej3": "0-Locked+Needs Review",
@@ -11008,7 +11008,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13122710944",
       "name": "OneSwap Launchpad - SatsTerminal",
-      "updatedAt": "2026-10-18T21:51:57Z",
+      "updatedAt": "2026-10-19T22:51:48Z",
       "values": {
         "text_mm4k2vch": "SatsTerminal",
         "color_mm4kmej3": "1-Needs Review",
@@ -11098,7 +11098,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13167162421",
       "name": "Scopex Rate Lock - ScopeX Money",
-      "updatedAt": "2026-10-19T05:18:12Z",
+      "updatedAt": "2026-10-19T20:52:08Z",
       "values": {
         "text_mm4k2vch": "ScopeX Money",
         "color_mm4kmej3": "1-Needs Review",
@@ -11154,7 +11154,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13189277788",
       "name": "Canal - Ice Labs",
-      "updatedAt": "2026-10-19T03:01:05Z",
+      "updatedAt": "2026-10-20T03:58:50Z",
       "values": {
         "text_mm4k2vch": "Ice Labs",
         "color_mm4kmej3": "0-Locked+Needs Review",
@@ -11272,7 +11272,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13235200691",
       "name": "CHYPE - BitSafe Validator, LLC",
-      "updatedAt": "2026-10-19T02:51:22Z",
+      "updatedAt": "2026-10-20T10:51:23Z",
       "values": {
         "text_mm4k2vch": "BitSafe Validator, LLC",
         "color_mm4kmej3": "0-Locked+Needs Review",
@@ -11303,7 +11303,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13253875306",
       "name": "cBNB - Nuxaris LLC",
-      "updatedAt": "2026-10-19T01:59:02Z",
+      "updatedAt": "2026-10-20T03:00:34Z",
       "values": {
         "text_mm4k2vch": "Nuxaris LLC",
         "color_mm4kmej3": "0-Locked+Needs Review",
@@ -11333,7 +11333,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13261982165",
       "name": "CC Space - ITRocket LLC",
-      "updatedAt": "2026-10-19T04:58:14Z",
+      "updatedAt": "2026-10-20T06:57:09Z",
       "values": {
         "text_mm4k2vch": "ITRocket LLC",
         "color_mm4kmej3": "0-Locked+Needs Review",
@@ -11365,7 +11365,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13284289393",
       "name": "Stable Coin (SBC) - Stable Coin Inc. (The Stable Coin Company)",
-      "updatedAt": "2026-10-19T01:59:21Z",
+      "updatedAt": "2026-10-20T03:00:58Z",
       "values": {
         "text_mm4k2vch": "Stable Coin Inc. (The Stable Coin Company)",
         "color_mm4kmej3": "0-Locked+Needs Review",
@@ -11389,6 +11389,37 @@ window.FEATURED_APP_BOARD_DATA = {
         "long_text_mm4k6q73": "SBC will continue to be supported on Canton regardless of the outcome of this application. However, Featured Asset designation would materially strengthen our ability to accelerate distribution, incentivize ecosystem participation, and establish SBC as a broadly adopted settlement asset.",
         "long_text_mm4kwxt1": "At the ecosystem program level, we intend to use activity analysis, transaction attribution, and anti-gaming controls to identify and exclude suspicious or non-economic activity.",
         "long_text_mm4kp5en": "https://github.com/stablecoinxyz/brand-kit"
+      }
+    },
+    {
+      "id": "13332634664",
+      "name": "Grofty Dex - Grofty Labs",
+      "updatedAt": "2026-10-20T04:51:11Z",
+      "values": {
+        "text_mm4k2vch": "Grofty Labs",
+        "color_mm4kmej3": "1-Needs Review",
+        "long_text_mm4kq322": "grofty-dex::122083d6c99e7090f54523f5ecb6fefe52880fc327ff932159f1fed3ce2b0744eb71",
+        "color_mm4kpp3q": "Non-Issuer",
+        "long_text_mm4khjn6": "TBA",
+        "long_text_mm4km2s7": "Grofty Labs comes from the team behind WinNode, a professional validator and infrastructure provider based in Indonesia that maintains 99.99% uptime across its services. WinNode operates validators on more than 28 blockchain networks and builds ecosystem tools such as WinNode Explorer, a block explorer and web wallet for Cosmos SDK chains. Our team has extensive experience in blockchain infrastructure and DevOps, with a strong focus on security, performance and reliability. On Canton, the team runs its own MainNet validators, Winnode-Mainnet-1 and Winnode-Mainnet-2, and builds consumer products under Grofty Labs. The first is the Grofty Wallet, a self-custodial Canton wallet for Chrome, listed in the Chrome Web Store and already a Canton Featured App (provider grofty-wallet). Grofty DEX is its second Canton application, built for the same users. We are also committed to helping grow the Indonesian Web3 community through infrastructure development and ecosystem support.",
+        "link_mm4kd0hk": "https://www.grofty.cc/brand-kit",
+        "link_mm4kmq24": "https://dex.grofty.cc",
+        "link_mm4kqtfa": "https://drive.google.com/drive/folders/1Gl-U1q4X8qHW5HBCl91NNAoqnbySPE6r?usp=sharing",
+        "long_text_mm4k2537": "Grofty DEX is a swap and bridge application for the Canton Network. For every trade it asks every Canton venue it connects to for a quote — today Cantex, both through our own Cantex account and through Cantex Connect, and OneSwap — and shows them side by side with each venue's fees, route and exact payout, so the user can pick the best one. With Cantex Connect, the user's wallet sends one standard transfer straight to Cantex, and Cantex pays the output back to the wallet, typically within about 10 seconds; the swap never passes through Grofty DEX. The user's own wallet signs every transfer, and Grofty DEX never holds user keys. On Cantex Connect and OneSwap the funds never pass through Grofty DEX; on the route through our Cantex account they sit in that account only while the swap runs. Grofty DEX is also a gateway into Canton. Its bridge brings USDC from Ethereum, Base, Arbitrum, Avalanche, BNB Chain and Monad into Canton as USDCx, through Relay and Circle's xReserve. The user can then swap that USDCx into Canton Coin or any other Canton token in the same app. We will keep adding networks, so users from more blockchains can enter Canton in a few clicks.",
+        "long_text_mm5hgry2": "No. Grofty DEX was built specifically for Canton from day one. Today Grofty DEX works as an aggregator: every swap is routed to established Canton venues, Cantex and OneSwap, so users get the best price in one place. Going forward, we plan to integrate more aggregators and venues, and in a later phase to provide our own liquidity. The smart contract behind that liquidity will go live on MainNet only after it has passed a full security audit by an external (third-party) auditor.",
+        "long_text_mm4k4y1h": "Retail Canton users, in two groups: - Canton Coin and Canton token holders (CC, USDCx, CBTC and other CIP-0056 tokens) who want the best rate across Canton venues without checking each one themselves. - Users of Ethereum and other EVM chains who are new to Canton. They bridge USDC, receive it as USDCx on Canton, and then swap it into Canton Coin or other Canton tokens without leaving the app. Wallets already integrated: - Canton: Grofty Wallet (Chrome extension) with one-click sign-in, and Loop Wallet. Grofty Wallet proves ownership of the party by signing a sign-in challenge, Loop Wallet through Loop's own session check, and with both the user signs every swap in their own wallet. - EVM, for the bridge: any browser EVM wallet, such as MetaMask or Rabby. Our first users come from the Grofty Wallet. The DEX connects to wallets through the CIP-0103 dApp wallet standard. Going forward, we will keep adding support for other Canton wallets that already implement this standard, so more Canton users can use Grofty DEX from the wallet of their choice.",
+        "long_text_mm4k15bg": "Our rewards come from swaps. When a Grofty Wallet user swaps on Grofty DEX through Cantex, Cantex Connect or OneSwap, the transaction that sends their funds to the venue goes through our Featured App proxy, so our application party also confirms it. The traffic of that confirmed transaction is what earns the reward. On MainNet, rewards are currently still based on activity markers rather than traffic. Until MainNet switches to traffic-based rewards, our application party records one activity marker for each completed swap.",
+        "long_text_mm4kh3fw": "Grofty DEX uses no Daml contract of its own. It interacts with the ledger only through standard Splice contracts and interfaces: - Writing: each swap's funding is one command that the user's wallet signs and submits through the CIP-0103 dApp API (interactive submission: prepare, sign, execute). The command exercises the token standard's TransferFactory (CIP-0056), or Amulet's TransferPreapproval for Canton Coin, wrapped in the Splice Featured App proxy WalletUserProxy where the user's validator supports it. The registry's off-ledger API supplies the disclosed contracts the transfer needs. - Reading: the DEX reads the ledger through the Ledger API. Balances are read through the token standard's Holding interface (V1 and V2), and each order's funding and payout are confirmed from the user's transactions and the V2 transaction event log (EventLog_HoldingsChange). - Network data: Canton Coin rules, mining rounds and transfer preapprovals are read through our validator's Scan proxy. - Activity markers: our application party records them through the Splice featured-app marker contracts, in separate batch transactions after the swaps complete.",
+        "long_text_mm4kfg50": "It follows the reward model in effect at the time. Today on MainNet that is Activity Markers, recorded in batches after each swap completes and capped at the traffic our validators paid (question 18). Claiming starts only after Featured App approval. Under traffic-based rewards (CIP-0104), as on TestNet today, it is the traffic of the routed swaps that our application party confirms through the Featured App proxy, and we create no markers. On MainNet, that proxy is being enabled before rewards are claimed.",
+        "long_text_mm4kxcm2": "About 1–3 swaps per active user per day.",
+        "long_text_mm4kvyjq": "When a user makes several swaps within one round, for example splitting a large trade, or swapping in and back out after a price move.",
+        "long_text_mm4k1cm0": "Linearly with the number of active users. Every swap is started and signed by an individual user. The only transactions we submit ourselves are the payouts of swaps through our Cantex account and the marker batches, and the marker batches' own traffic is never counted toward rewards.",
+        "long_text_mm4kfkwn": "Grofty Wallet users, who sign in to the DEX with the wallet they already use. Next come users of Ethereum and other EVM chains, who enter Canton through the bridge. As we add more networks, users of those blockchains will follow. Grofty DEX is already live; its public launch was on 3 September 2026.",
+        "long_text_mm4k6q73": "Grofty DEX would keep operating. It is funded by flat fees on swaps (in Canton Coin) and on bridges (in USDCx). Our own validators pay the network traffic for Grofty Wallet users' swaps, and without app rewards to offset that cost, the flat fee would have to be raised to cover it. Featured App status lets us keep the fee low for users.",
+        "long_text_mm4kwxt1": "Yes. Every swap must be signed in the user’s own wallet; the DEX cannot create transactions by itself. The Grofty Wallet, the main entry point, is invitation-only. A minimum trade size and per-swap fees make repeated small or circular trades uneconomic. Each order is bound to exactly one on-ledger funding transfer through its memo, and a deposit can fund only one order. Deposits that cannot be matched go to manual operator review. Activity markers follow the Coupon Guidance: none for our own parties, swaps under USD 5, swaps reversing the same user’s swap within 24 hours, or beyond 10 eligible swaps per user per day, and claims are capped at the traffic our validators actually paid. The public API is rate-limited per client, and every operator action is recorded in an audit log.",
+        "long_text_mm4khbeg": "The source code is kept in private repositories under the Grofty Labs GitHub organisation. We are happy to give the Committee read access on request.",
+        "long_text_mm4kp5en": "https://www.grofty.cc/brand-kit",
+        "long_text_mm7pyz6h": "- Grofty DEX is built by the team behind the Grofty Wallet, which is already a Canton Featured App (provider grofty-wallet). - Grofty DEX is a gateway into Canton for users of other blockchains. Users on Ethereum, Base, Arbitrum, Avalanche, BNB Chain and Monad bridge USDC in as USDCx and then swap it into Canton Coin or other Canton tokens in one place, and support for more networks will keep growing. Every new user it brings in is a new Canton user. - Grofty DEX brings Canton's venues together instead of competing with them: every reachable venue is asked for a quote (Cantex, through our account and through Cantex Connect, and OneSwap) and the user chooses. The DEX has no liquidity pool of its own. - Self-custodial: users sign every transfer in their own wallet, and the DEX never holds their keys. With Cantex Connect and OneSwap, the swap goes from the user's wallet to the venue and back without passing through Grofty DEX; on the route through our Cantex account, funds sit in that account only while the swap runs. - The DEX's own validators pay the network traffic for Grofty Wallet users' swaps, so users pay no network traffic of their own; the only charges they see are the venue's fees, our flat fee and the Grofty Wallet's own fee. - Amounts are shown exactly as the venue quotes them, without rounding, with every fee listed separately. - Every order is confirmed on our own ledger, deposits are bound one-to-one to orders, and every operator action is recorded in an audit log. - Markers are claimed conservatively: only for completed swaps by outside users whose traffic we paid, never twice for the same activity, in batches, and capped at the traffic we actually paid. The marker logic is deployed on MainNet, and claiming stays off until Featured App approval. - On TestNet, swap funding already runs through a Featured App proxy, so our application party confirms the transactions its rewards are based on. Since its TestNet right took effect, that party has received ..."
       }
     }
   ]
