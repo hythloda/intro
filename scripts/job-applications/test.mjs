@@ -8,6 +8,98 @@ import { buildJobApplicationScript } from "./build.mjs";
 const serverSource = readFileSync(new URL("Code.gs", import.meta.url), "utf8");
 const plain = value => JSON.parse(JSON.stringify(value));
 
+function publicApplication(h, role) {
+  const schema = h.context.jobApplicationSchemaForRole(role);
+  const values = Object.fromEntries(schema.fields.filter(f => f.type !== "file").map(f => [f.key, h.body.values[f.key] || ""]));
+  values.referral = "";
+  return { ...h.body, role, formRevision: schema.formRevision, values, password: undefined };
+}
+
+for (const [role, board, suffix] of [["head-of-korea", "18436483787", "_KOREA"], ["head-of-japan", "18436483844", "_JAPAN"]]) {
+  test(role + " submits without a password only to its own private board", () => {
+    const h = harness({ phoneType: "text" });
+    const ceoMapping = h.properties.get("JOB_COLUMN_MAP");
+    h.context.setupPublicJobApplications();
+    assert.equal(h.properties.get("JOB_COLUMN_MAP"), ceoMapping);
+    h.properties.delete("JOB_ACCESS_PASSWORD");
+    const ready = JSON.parse(h.context.doGet({ parameter: { role } }).text);
+    assert.equal(ready.acceptingApplications, true);
+    assert.equal(ready.passwordRequired, false);
+    assert.equal(JSON.parse(h.context.doGet().text).acceptingApplications, false);
+    const body = publicApplication(h, role);
+    body.values.phone = "+82 10 0000 0000";
+    assert.equal(h.post(body).ok, true);
+    const payload = JSON.parse(h.creates()[0].request.payload);
+    assert.equal(payload.variables.board, board);
+    assert.equal(payload.variables.group, "topics");
+    const values = JSON.parse(payload.variables.values);
+    assert.equal(values.col_phone, body.values.phone);
+    assert.deepEqual(values.col_applicationStatus, { label: "New" });
+    assert.equal(values.col_applicationReference, body.requestId);
+    assert(h.properties.has("application:" + role + ":" + body.requestId));
+    assert.equal(h.emails.length, 1);
+    assert(h.emails[0].subject.includes(h.context.jobApplicationSchemaForRole(role).roleTitle));
+    assert.equal(h.post(body).ok, true);
+    assert.equal(h.creates().length, 1);
+    assert.equal(h.emails.length, 1);
+    assert.equal(JSON.parse(h.properties.get("JOB_COLUMN_MAP" + suffix))._target.board, board);
+  });
+
+  test(role + " cannot reuse CEO mappings or bypass Turnstile", () => {
+    const h = harness();
+    h.context.setupPublicJobApplications();
+    h.properties.set("JOB_COLUMN_MAP" + suffix, h.properties.get("JOB_COLUMN_MAP"));
+    assert.equal(h.post(publicApplication(h, role)).ok, false);
+    assert.equal(h.creates().length, 0);
+    for (const options of [{ bot: true }, { hostname: "evil.test" }, { action: "job_application_access" }]) {
+      const blocked = harness(options);
+      blocked.context.setupPublicJobApplications();
+      assert.equal(blocked.post(publicApplication(blocked, role)).ok, false);
+      assert.equal(blocked.creates().length, 0);
+    }
+  });
+
+  test(role + " uses native public fields, no private-role link or US survey", async () => {
+    const h = await clientReadinessHarness({ role, acceptingApplications: true, passwordRequired: false }, { pageRole: role });
+    h.context.window.onJobVerificationReady();
+    assert.equal(h.nodes.get("#application-fields").disabled, false);
+    assert.equal(h.nodes.get("#application-submit").disabled, false);
+    assert.equal(h.widgets[0].settings.action, "job_application");
+    assert.equal(h.created.find(node => node.name === "referral").required, false);
+    assert(!h.created.some(node => ["gender", "hispanicLatino", "veteran"].includes(node.name)));
+    assert(h.requests[0].url.includes("?role=" + role));
+    const html = readFileSync(new URL("../../" + role + ".html", import.meta.url), "utf8");
+    assert.match(html, /id="application" aria-labelledby="application-title">/);
+    assert.match(html, /Key Responsibilities/);
+    assert.match(html, /Native-level (Korean|Japanese)/);
+    assert.doesNotMatch(html, /president-and-ceo|President and CEO|application-access|application-voluntary|<iframe/);
+  });
+}
+
+test("public requests cannot change CEO access policy or read another role's receipt", () => {
+  const h = harness();
+  h.context.setupPublicJobApplications();
+  for (const role of ["head-of-korea", "head-of-japan"]) assert(h.post(publicApplication(h, role)).ok);
+  assert.equal(h.creates().length, 2);
+  assert.equal(h.post({ ...h.body, password: "", passwordRequired: false, boardId: "18436483787" }).accessRequired, true);
+  assert.equal(JSON.parse(h.context.doGet().text).passwordRequired, true);
+  assert(h.post(h.body).ok);
+  assert.equal(h.creates().length, 3);
+  assert.equal(JSON.parse(h.creates()[2].request.payload).variables.board, "18434504661");
+  assert.equal(h.emails.length, 3);
+});
+
+test("unknown roles fail closed even after a public request", () => {
+  const h = harness();
+  h.context.setupPublicJobApplications();
+  h.context.doGet({ parameter: { role: "head-of-korea" } });
+  for (const role of ["__proto__", "constructor", "head-of-korea ", "accounting-manager"]) {
+    assert.equal(h.post({ ...h.body, role }).ok, false);
+    assert.equal(JSON.parse(h.context.doGet({ parameter: { role } }).text).acceptingApplications, false);
+  }
+  assert.equal(h.creates().length, 0);
+});
+
 test("Code.gs is a complete standalone deployment with no additional gs files", () => {
   assert.equal(serverSource, buildJobApplicationScript());
   const context = vm.createContext({});
@@ -45,7 +137,7 @@ function harness(options = {}) {
         return options.mailQuota ?? 100;
       },
       sendEmail(message) {
-        const receipt = [...properties].find(([key]) => key.startsWith("application:"));
+        const receipt = [...properties].find(([key, value]) => key.startsWith("application:") && JSON.parse(value).confirmationEmail?.status === "sending");
         assert.equal(JSON.parse(receipt[1]).phase, "complete");
         assert.equal(JSON.parse(receipt[1]).confirmationEmail.status, "sending");
         emails.push(plain(message));
@@ -77,8 +169,9 @@ function harness(options = {}) {
       }
       const columns = context.JOB_APPLICATION_SCHEMA.fields.filter(f => !f.auxiliary).map(f => ({ title: f.columnTitle || f.label, id: "col_" + f.key, type: f.key === "phone" ? options.phoneType || "phone" : f.columnTypes[0] }));
       if (!options.omitReferenceColumn) columns.push({ title: "Application Reference", id: "col_applicationReference", type: options.referenceType || "text" });
+      if (context.JOB_ROLE.suffix) columns.push({ title: "Application Status", id: "col_applicationStatus", type: "status" });
       if (options.extraColumns) columns.push(...options.extraColumns);
-      return response({ data: { boards: [{ columns, groups: [{ id: "new", title: "New applicants" }] }] } });
+      return response({ data: { boards: [{ columns, groups: [{ id: "new", title: "New applicants" }, { id: "topics", title: "New Applications" }] }] } });
     } }
   });
   vm.runInContext(serverSource, context);
@@ -559,13 +652,15 @@ test("direct CEO applications are restored without advertising the role on the h
   const deploy = readFileSync(new URL("../../.github/workflows/deploy-pages.yml", import.meta.url), "utf8");
   assert.doesNotMatch(deploy, /president-and-ceo\.html/);
   const home = readFileSync(new URL("../../index.html", import.meta.url), "utf8");
-  assert.doesNotMatch(home, /jobs-callout|href="jobs\.html"|Jobs at the Canton Foundation/);
+  assert.match(home, /href="jobs\.html"/);
+  assert.doesNotMatch(home, /president-and-ceo|President and CEO/);
   const jobs = readFileSync(new URL("../../jobs.html", import.meta.url), "utf8");
-  assert.match(jobs, /<p>No current openings\.<\/p>/);
+  assert.match(jobs, /href="head-of-korea\.html"/);
+  assert.match(jobs, /href="head-of-japan\.html"/);
   assert.doesNotMatch(jobs, /President and CEO|<form\b|<iframe\b|job-application(?:-schema|-config)?\.js/);
   const role = readFileSync(new URL("../../president-and-ceo.html", import.meta.url), "utf8");
   assert.match(role, /job-application-config\.js\?v=20261020-reopen1/);
-  assert.match(role, /job-application-schema\.js\?v=20261020-required-referral1/);
+  assert.match(role, /job-application-schema\.js\?v=20261021-public1/);
   assert.match(role, /id="application-unavailable" hidden/);
   assert.equal(existsSync(new URL("../../job-application-check.html", import.meta.url)), false);
 });

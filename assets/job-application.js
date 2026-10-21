@@ -1,8 +1,17 @@
 (() => {
   "use strict";
-  const schema = JOB_APPLICATION_SCHEMA;
   const config = window.JOB_APPLICATION_CONFIG || {};
   const form = document.querySelector("#job-application");
+  const schema = jobApplicationSchemaForRole(form.dataset.role);
+  if (!schema) {
+    const warning = document.querySelector("#application-access-status") || document.querySelector("#application-status");
+    warning.textContent = "Application access is temporarily unavailable. Please check back shortly or contact hr@canton.foundation.";
+    form.addEventListener("submit", event => {
+      event.preventDefault();
+      document.querySelector("#application-status").textContent = "Applications are temporarily unavailable. Nothing has been sent.";
+    });
+    return;
+  }
   const fields = document.querySelector("#application-fields");
   const submit = document.querySelector("#application-submit");
   const status = document.querySelector("#application-status");
@@ -49,6 +58,10 @@
     acceptingApplications = false;
     fields.disabled = true;
     submit.disabled = true;
+    if (!schema.passwordRequired) {
+      message("Application access is temporarily unavailable. Please refresh the page or contact hr@canton.foundation.", true);
+      return;
+    }
     if (clearAnswers) form.reset();
     panel.hidden = true;
     access.hidden = false;
@@ -58,11 +71,11 @@
     passwordInput.focus();
   }
 
-  lockButton.addEventListener("click", () => {
+  lockButton?.addEventListener("click", () => {
     if (!busy) lockApplication(true);
   });
 
-  accessForm.addEventListener("submit", async event => {
+  accessForm?.addEventListener("submit", async event => {
     event.preventDefault();
     if (unlocking || accessSubmit.disabled || !accessForm.reportValidity()) return;
     if (!token) { accessStatus.textContent = "Please complete the security check before continuing."; return; }
@@ -210,7 +223,7 @@
     if (busy || fields.disabled || !validate()) return;
     if (!token) { message("Please complete the security check before submitting.", true); return; }
     busy = true;
-    lockButton.disabled = true;
+    if (lockButton) lockButton.disabled = true;
     fields.disabled = true;
     submit.disabled = true;
     submit.textContent = "Submitting...";
@@ -250,7 +263,7 @@
       }
       form.reset();
       password = "";
-      lockButton.hidden = true;
+      if (lockButton) lockButton.hidden = true;
       form.hidden = true;
       const success = document.querySelector("#application-success");
       document.querySelector("#application-title").hidden = true;
@@ -274,7 +287,7 @@
     } finally {
       clearTimeout(timer);
       busy = false;
-      lockButton.disabled = false;
+      if (lockButton) lockButton.disabled = false;
       fields.disabled = !acceptingApplications;
       submit.disabled = !acceptingApplications;
       submit.textContent = "Submit application";
@@ -292,29 +305,40 @@
       const controller = new AbortController();
       timer = setTimeout(() => controller.abort(), 15000);
       // Read public readiness only. An old deployment must not collect this role's answers.
-      const response = await fetch(config.endpoint + "?check=" + Date.now(), {
+      const response = await fetch(config.endpoint + "?role=" + encodeURIComponent(schema.role) + "&check=" + Date.now(), {
         credentials: "omit", redirect: "follow", cache: "no-store", signal: controller.signal
       });
       const service = await response.json();
-      if (!response.ok || service.role !== schema.role || service.acceptingApplications !== true || service.passwordRequired !== true) throw new Error("Service not ready for password access");
+      if (!response.ok || service.role !== schema.role || service.acceptingApplications !== true || service.passwordRequired !== schema.passwordRequired) throw new Error("Service not ready for this role");
       notice.hidden = true;
       window.onJobVerificationReady = () => {
-        passwordInput.disabled = false;
-        accessSubmit.disabled = false;
-        accessSubmit.textContent = "Open application";
-        renderVerification(true);
+        if (schema.passwordRequired) {
+          passwordInput.disabled = false;
+          accessSubmit.disabled = false;
+          accessSubmit.textContent = "Open application";
+        } else {
+          acceptingApplications = true;
+          fields.disabled = false;
+          submit.disabled = false;
+          submit.textContent = "Submit application";
+          submit.removeAttribute("aria-describedby");
+          form.removeAttribute("autocomplete");
+          document.querySelector("#application-form-intro").textContent = "Fields marked * are required. Please have your CV ready. Your application is submitted securely to the Canton Foundation's recruitment team.";
+        }
+        renderVerification(schema.passwordRequired);
       };
       const script = document.createElement("script");
       script.src = "https://challenges.cloudflare.com/turnstile/v0/api.js?onload=onJobVerificationReady&render=explicit";
       script.async = true;
       script.onerror = () => {
-        accessSubmit.textContent = "Refresh to try again";
-        accessStatus.textContent = "The security check could not load. Please refresh the page and try again.";
+        if (accessSubmit) accessSubmit.textContent = "Refresh to try again";
+        (accessStatus || status).textContent = "The security check could not load. Please refresh the page and try again.";
       };
       document.head.append(script);
     } catch (_) {
-      accessSubmit.textContent = "Access unavailable";
-      accessStatus.textContent = "Application access is temporarily unavailable. Please check back shortly or contact hr@canton.foundation.";
+      if (accessSubmit) accessSubmit.textContent = "Access unavailable";
+      else notice.hidden = false;
+      (accessStatus || status).textContent = "Application access is temporarily unavailable. Please check back shortly or contact hr@canton.foundation.";
     } finally {
       clearTimeout(timer);
     }

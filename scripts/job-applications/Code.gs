@@ -1,5 +1,5 @@
 /*
- * ALL-IN-ONE PRESIDENT AND CEO APPLICATION SCRIPT
+ * ALL-IN-ONE CANTON FOUNDATION APPLICATION SCRIPT
  * This is the only .gs file to install in Apps Script.
  * Remove obsolete Schema.gs files: they can override the role and questions.
  * Includes the schema, doGet/doPost handlers, setup, and diagnostics.
@@ -225,6 +225,7 @@ https://gitlab.com/catamphetamine
 var JOB_APPLICATION_SCHEMA = {
   role: "president-and-ceo",
   roleTitle: "President and CEO",
+  passwordRequired: true,
   formRevision: "ceo-20261020",
   maxFileBytes: 5 * 1024 * 1024,
   countryCodes: "AD AE AF AG AI AL AM AO AQ AR AS AT AU AW AX AZ BA BB BD BE BF BG BH BI BJ BL BM BN BO BQ BR BS BT BV BW BY BZ CA CC CD CF CG CH CI CK CL CM CN CO CR CU CV CW CX CY CZ DE DJ DK DM DO DZ EC EE EG EH ER ES ET FI FJ FK FM FO FR GA GB GD GE GF GG GH GI GL GM GN GP GQ GR GS GT GU GW GY HK HM HN HR HT HU ID IE IL IM IN IO IQ IR IS IT JE JM JO JP KE KG KH KI KM KN KP KR KW KY KZ LA LB LC LI LK LR LS LT LU LV LY MA MC MD ME MF MG MH MK ML MM MN MO MP MQ MR MS MT MU MV MW MX MY MZ NA NC NE NF NG NI NL NO NP NR NU NZ OM PA PE PF PG PH PK PL PM PN PR PS PT PW PY QA RE RO RS RU RW SA SB SC SD SE SG SH SI SJ SK SL SM SN SO SR SS ST SV SX SY SZ TC TD TF TG TH TJ TK TL TM TN TO TR TT TV TW TZ UA UG UM US UY UZ VA VC VE VG VI VN VU WF WS YE YT ZA ZM ZW".split(" "),
@@ -504,6 +505,27 @@ JOB_APPLICATION_SCHEMA.countryNames = {
   "ZW": "Zimbabwe"
 };
 
+// Preserve the private role's contract while sharing field definitions with public roles.
+var JOB_CEO_SCHEMA = JSON.parse(JSON.stringify(JOB_APPLICATION_SCHEMA));
+function jobApplicationSchemaForRole(role) {
+  if (["president-and-ceo", "head-of-korea", "head-of-japan"].indexOf(role) === -1) return null;
+  var schema = JSON.parse(JSON.stringify(JOB_CEO_SCHEMA));
+  if (role === "president-and-ceo") return schema;
+  schema.role = role;
+  schema.roleTitle = role === "head-of-korea" ? "Head of Korea" : "Head of Japan";
+  schema.formRevision = "apac-20261021";
+  schema.passwordRequired = false;
+  schema.fields = schema.fields.filter(function (field) { return field.section !== "voluntary"; });
+  schema.fields.forEach(function (field) {
+    if (field.key === "referral") {
+      field.label = "How did you hear about this role?";
+      field.required = false;
+      field.help = "Optional. Share the person, organization, or job listing that referred you.";
+    }
+  });
+  return schema;
+}
+
 /* Shared local validation; never log, store, or send numbers to a lookup service. */
 var JOB_APPLICATION_PHONE = {
   validateText: function (value) {
@@ -542,6 +564,28 @@ var JOB_APPLICATION_PHONE = {
 var JOB_BOARD_ID = "18434504661";
 var JOB_HOSTNAME = "intro.canton.foundation";
 var JOB_HR_EMAIL = "hr@canton.foundation";
+var JOB_ROLE_SETTINGS = {
+  "president-and-ceo": { board: "18434504661", suffix: "", group: null },
+  "head-of-korea": { board: "18436483787", suffix: "_KOREA", group: "topics" },
+  "head-of-japan": { board: "18436483844", suffix: "_JAPAN", group: "topics" }
+};
+var JOB_ROLE = JOB_ROLE_SETTINGS["president-and-ceo"];
+
+function selectJobRole_(role) {
+  var schema = jobApplicationSchemaForRole(role);
+  if (!schema) throw applicationError_("Invalid application request. Please refresh the page.");
+  JOB_APPLICATION_SCHEMA = schema;
+  JOB_ROLE = JOB_ROLE_SETTINGS[role];
+  JOB_BOARD_ID = JOB_ROLE.board;
+}
+
+function jobReceiptKey_(reference) {
+  return "application:" + (JOB_ROLE.suffix ? JOB_APPLICATION_SCHEMA.role + ":" : "") + reference;
+}
+
+function jobGroupId_(properties) {
+  return JOB_ROLE.suffix ? JOB_ROLE.group : properties.getProperty("MONDAY_GROUP_ID") || null;
+}
 
 // Editor-only setup when Google makes the >50-property settings screen read-only.
 // Enter the shared password privately in Apps Script, run once, then clear it here.
@@ -556,7 +600,7 @@ function configureJobApplicationPassword() {
 function jobColumnFields_() {
   return JOB_APPLICATION_SCHEMA.fields.filter(function (field) { return !field.auxiliary; }).concat([
     { key: "applicationReference", label: "Application Reference", columnTypes: ["text"] }
-  ]);
+  ], JOB_ROLE.suffix ? [{ key: "applicationStatus", label: "Application Status", columnTypes: ["status"] }] : []);
 }
 
 function applicationError_(message, fields) {
@@ -570,11 +614,11 @@ function config_() {
   var properties = PropertiesService.getScriptProperties();
   var token = properties.getProperty("MONDAY");
   var secret = properties.getProperty("TURNSTILE_SECRET");
-  var mapping = properties.getProperty("JOB_COLUMN_MAP");
+  var mapping = properties.getProperty("JOB_COLUMN_MAP" + JOB_ROLE.suffix);
   var password = properties.getProperty("JOB_ACCESS_PASSWORD");
-  if (!token || !secret || !mapping || !password) throw applicationError_("Applications are temporarily unavailable. Please try again later.");
+  if (!token || !secret || !mapping || (JOB_APPLICATION_SCHEMA.passwordRequired && !password)) throw applicationError_("Applications are temporarily unavailable. Please try again later.");
   mapping = JSON.parse(mapping);
-  var groupId = properties.getProperty("MONDAY_GROUP_ID") || null;
+  var groupId = jobGroupId_(properties);
   // Never reuse another role's column IDs, even when the boards were duplicated.
   if (!mapping._target || mapping._target.board !== JOB_BOARD_ID ||
       mapping._target.role !== JOB_APPLICATION_SCHEMA.role || mapping._target.groupId !== groupId) {
@@ -655,6 +699,19 @@ function createJobItem_(config, name, columns) {
 
 // Run once in the editor: resolves IDs using board metadata, never applicant rows.
 function setupJobApplication() {
+  selectJobRole_("president-and-ceo");
+  setupSelectedJobApplication_();
+}
+
+function setupPublicJobApplications() {
+  ["head-of-korea", "head-of-japan"].forEach(function (role) {
+    selectJobRole_(role);
+    setupSelectedJobApplication_();
+  });
+  selectJobRole_("president-and-ceo");
+}
+
+function setupSelectedJobApplication_() {
   var properties = PropertiesService.getScriptProperties();
   var token = properties.getProperty("MONDAY");
   if (!token) throw new Error("Add MONDAY in Script Properties first.");
@@ -662,7 +719,7 @@ function setupJobApplication() {
     "query ($ids: [ID!]!) { boards(ids: $ids) { id columns { id title type } groups { id title } } }",
     { ids: [JOB_BOARD_ID] }).boards[0];
   if (!board) throw new Error("The configured token cannot access the job board.");
-  var overrides = JSON.parse(properties.getProperty("JOB_COLUMN_OVERRIDES") || "{}");
+  var overrides = JSON.parse(properties.getProperty("JOB_COLUMN_OVERRIDES" + JOB_ROLE.suffix) || "{}");
   var normalize = function (text) { return text.toLowerCase().replace(/[^a-z0-9]/g, ""); };
   var mapping = {};
   jobColumnFields_().forEach(function (field) {
@@ -681,11 +738,11 @@ function setupJobApplication() {
   });
   var ids = Object.keys(mapping).map(function (key) { return mapping[key].id; });
   if (new Set(ids).size !== ids.length) throw new Error("Two questions cannot share a destination column.");
-  var groupId = properties.getProperty("MONDAY_GROUP_ID");
+  var groupId = jobGroupId_(properties);
   if (groupId && !board.groups.some(function (group) { return group.id === groupId; })) throw new Error("MONDAY_GROUP_ID does not exist on this board.");
   mapping._target = { board: JOB_BOARD_ID, role: JOB_APPLICATION_SCHEMA.role, groupId: groupId || null };
-  properties.setProperty("JOB_COLUMN_MAP", JSON.stringify(mapping));
-  console.log("Job column mapping saved. Board group IDs: " + JSON.stringify(board.groups));
+  properties.setProperty("JOB_COLUMN_MAP" + JOB_ROLE.suffix, JSON.stringify(mapping));
+  console.log(JOB_APPLICATION_SCHEMA.roleTitle + " column mapping saved. Board group IDs: " + JSON.stringify(board.groups));
 }
 
 function inspectJobColumns() {
@@ -751,6 +808,7 @@ function verifyHuman_(token, config, action) {
 }
 
 function requireApplicationPassword_(password) {
+  if (!JOB_APPLICATION_SCHEMA.passwordRequired) return;
   var expected = PropertiesService.getScriptProperties().getProperty("JOB_ACCESS_PASSWORD");
   if (!expected) throw applicationError_("Applications are temporarily unavailable. Please try again later.");
   var valid = typeof password === "string" && password.length > 0 && password.length <= 256;
@@ -813,10 +871,12 @@ function result_(body) {
   return ContentService.createTextOutput(JSON.stringify(body)).setMimeType(ContentService.MimeType.JSON);
 }
 
-function doGet() {
+function doGet(event) {
   var ready = false;
-  try { config_(); ready = true; } catch (_) { /* Only public readiness is returned. */ }
-  return result_({ service: "Canton Foundation job applications", role: JOB_APPLICATION_SCHEMA.role, acceptingApplications: ready, passwordRequired: true });
+  var role = event && event.parameter && event.parameter.role || "president-and-ceo";
+  try { selectJobRole_(role); config_(); ready = true; } catch (_) { /* Only public readiness is returned. */ }
+  var schema = jobApplicationSchemaForRole(role);
+  return result_({ service: "Canton Foundation job applications", role: schema ? schema.role : null, acceptingApplications: ready, passwordRequired: schema ? schema.passwordRequired : true });
 }
 
 function authorizeJobApplicationEmail() {
@@ -875,6 +935,8 @@ function doPost(event) {
     if (!event || !event.postData || event.postData.contents.length > 15 * 1024 * 1024) throw applicationError_("Application payload is too large or missing.");
     var body = JSON.parse(event.postData.contents);
     if (!body || typeof body !== "object" || Array.isArray(body)) throw applicationError_("Invalid application request. Please refresh the page.");
+    // The server allowlist chooses the board and access policy, never client-supplied IDs.
+    selectJobRole_(body.role);
     requestId = typeof body.requestId === "string" ? body.requestId.slice(0,36) : "";
     if (body.action === "unlock") {
       if (event.postData.contents.length > 4096 || body.role !== JOB_APPLICATION_SCHEMA.role ||
@@ -899,7 +961,7 @@ function doPost(event) {
     locked = lock.tryLock(1000);
     if (!locked) throw applicationError_("The application service is busy. Please try again in a moment.");
     var properties = PropertiesService.getScriptProperties();
-    var key = "application:" + requestId;
+    var key = jobReceiptKey_(requestId);
     var digest = Utilities.computeDigest(Utilities.DigestAlgorithm.SHA_256, JSON.stringify({ values: application.values, files: body.files }));
     var hash = Utilities.base64Encode(digest);
     var prior = JSON.parse(properties.getProperty(key) || "null");
@@ -916,6 +978,7 @@ function doPost(event) {
     var columns = columnValues_(application, config.mapping);
     // Save the validated receipt reference in the initial write, even if an attachment later fails.
     columns[config.mapping.applicationReference.id] = requestId;
+    if (JOB_ROLE.suffix) columns[config.mapping.applicationStatus.id] = { label: "New" };
     var state = { hash: hash, phase: "creating", at: new Date().toISOString() };
     if (prior) {
       state.reviewedAt = prior.reviewedAt;
@@ -960,11 +1023,12 @@ function doPost(event) {
 /* Editor-only diagnostics and retry approval. Bundled into ../Code.gs. */
 function inspectJobApplicationFailure() {
   var properties = PropertiesService.getScriptProperties();
+  selectJobRole_(properties.getProperty("JOB_DIAGNOSTIC_ROLE") || "president-and-ceo");
   var reference = (properties.getProperty("JOB_DIAGNOSTIC_REFERENCE") || "").trim();
   if (!/^[a-f0-9]{8}-[a-f0-9]{4}-4[a-f0-9]{3}-[89ab][a-f0-9]{3}-[a-f0-9]{12}$/i.test(reference)) {
     throw new Error("Set JOB_DIAGNOSTIC_REFERENCE to the application reference first.");
   }
-  var raw = properties.getProperty("application:" + reference);
+  var raw = properties.getProperty(jobReceiptKey_(reference));
   var report = { receiptFound: Boolean(raw) };
   var receipt;
   try { receipt = JSON.parse(raw || "null"); } catch (_) { report.receiptUnreadable = true; }
@@ -990,7 +1054,7 @@ function inspectJobApplicationFailure() {
     }).map(function (field) { return field.key; });
   }
   var token = properties.getProperty("MONDAY"), mapping;
-  try { mapping = JSON.parse(properties.getProperty("JOB_COLUMN_MAP") || "null"); } catch (_) { /* Report below. */ }
+  try { mapping = JSON.parse(properties.getProperty("JOB_COLUMN_MAP" + JOB_ROLE.suffix) || "null"); } catch (_) { /* Report below. */ }
   if (!token || !mapping) {
     report.configurationAvailable = false;
     return printJobDiagnostic_(report);
@@ -1003,7 +1067,7 @@ function inspectJobApplicationFailure() {
       { ids: [JOB_BOARD_ID] }).boards[0];
     report.boardAccessible = Boolean(board);
     if (board) {
-      var group = properties.getProperty("MONDAY_GROUP_ID");
+      var group = jobGroupId_(properties);
       report.destinationGroupExists = group ? board.groups.some(function (entry) { return entry.id === group; }) : null;
       report.columnIssues = [];
       report.phoneDestinationType = mapping.phone && ["text", "phone"].indexOf(mapping.phone.type) !== -1 ? mapping.phone.type : "unknown";
@@ -1065,6 +1129,7 @@ function printJobDiagnostic_(report) {
 // This does not submit an application or delete its receipt. The original answers must match.
 function approveReviewedJobApplicationRetry() {
   var properties = PropertiesService.getScriptProperties();
+  selectJobRole_(properties.getProperty("JOB_DIAGNOSTIC_ROLE") || "president-and-ceo");
   var reference = (properties.getProperty("JOB_DIAGNOSTIC_REFERENCE") || "").trim();
   if (!/^[a-f0-9]{8}-[a-f0-9]{4}-4[a-f0-9]{3}-[89ab][a-f0-9]{3}-[a-f0-9]{12}$/i.test(reference)) {
     throw new Error("Set JOB_DIAGNOSTIC_REFERENCE to the reviewed application reference first.");
@@ -1072,7 +1137,7 @@ function approveReviewedJobApplicationRetry() {
   var lock = LockService.getScriptLock();
   if (!lock.tryLock(1000)) throw new Error("An application is being processed. Try again later.");
   try {
-    var key = "application:" + reference;
+    var key = jobReceiptKey_(reference);
     var receipt = JSON.parse(properties.getProperty(key) || "null");
     if (!receipt || receipt.phase !== "creating" || receipt.itemId || typeof receipt.hash !== "string" || !receipt.hash) {
       throw new Error("This receipt cannot be approved for a creation retry. Review it manually.");
@@ -1090,6 +1155,7 @@ function approveReviewedJobApplicationRetry() {
 // Requires the existing no-item review; it never submits or clears a receipt.
 function approveReviewedJobApplicationRetryWithUpdatedAnswers() {
   var properties = PropertiesService.getScriptProperties();
+  selectJobRole_(properties.getProperty("JOB_DIAGNOSTIC_ROLE") || "president-and-ceo");
   var reference = (properties.getProperty("JOB_DIAGNOSTIC_REFERENCE") || "").trim();
   if (!/^[a-f0-9]{8}-[a-f0-9]{4}-4[a-f0-9]{3}-[89ab][a-f0-9]{3}-[a-f0-9]{12}$/i.test(reference)) {
     throw new Error("Set JOB_DIAGNOSTIC_REFERENCE to the reviewed application reference first.");
@@ -1097,7 +1163,7 @@ function approveReviewedJobApplicationRetryWithUpdatedAnswers() {
   var lock = LockService.getScriptLock();
   if (!lock.tryLock(1000)) throw new Error("An application is being processed. Try again later.");
   try {
-    var key = "application:" + reference;
+    var key = jobReceiptKey_(reference);
     var receipt = JSON.parse(properties.getProperty(key) || "null");
     if (!isReviewedJobApplicationRetry_(receipt)) {
       throw new Error("This receipt cannot be approved for updated answers. A reviewed creation retry with no item ID is required.");

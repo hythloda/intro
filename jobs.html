@@ -6,7 +6,7 @@
   <meta name="robots" content="noindex, nofollow, noarchive, nosnippet, noimageindex">
   <meta name="googlebot" content="noindex, nofollow, noarchive, nosnippet, noimageindex">
   <meta name="bingbot" content="noindex, nofollow, noarchive, nosnippet, noimageindex">
-  <meta name="description" content="There are no current openings at the Canton Foundation.">
+  <meta name="description" content="Explore Head of Korea and Head of Japan opportunities at Canton Foundation.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
@@ -82,7 +82,15 @@
       outline-offset: 5px;
     }
 
+    .jobs-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; margin-top: 32px; }
+    .job-card { display: flex; flex-direction: column; padding: 28px; border: 1px solid #634ba9; border-radius: 18px; background: rgba(3, 2, 25, .65); }
+    .job-card h2 { font-size: 28px; font-weight: 500; margin: 12px 0; }
+    .job-card .job-meta { color: var(--accent-strong); font-size: 13px; letter-spacing: .06em; text-transform: uppercase; }
+    .job-card .job-location { margin-bottom: 16px; color: #fff; }
+    .job-card a { display: inline-block; align-self: start; margin-top: auto; padding-top: 28px; color: var(--accent-strong); text-underline-offset: 5px; font-weight: 500; }
+
     @media (max-width: 700px) {
+      .jobs-grid { grid-template-columns: 1fr; }
       body {
         padding: 20px 14px 36px;
       }
@@ -106,7 +114,23 @@
       <a class="jobs-back" href="index.html">Back to Main Page</a>
       <div class="jobs-intro">
         <h1 id="jobs-title">Jobs</h1>
-        <p>No current openings.</p>
+        <p>Help shape the future of institutional blockchain. Explore our open roles and apply directly to the Canton Foundation recruitment team.</p>
+      </div>
+      <div class="jobs-grid">
+        <article class="job-card">
+          <p class="job-meta">Global Growth &middot; Full-time</p>
+          <h2>Head of Korea</h2>
+          <p class="job-location">Seoul, South Korea</p>
+          <p>Lead institutional engagement, strategic partnerships, and Canton ecosystem growth across the Korean market.</p>
+          <a href="head-of-korea.html">View Head of Korea role &amp; apply</a>
+        </article>
+        <article class="job-card">
+          <p class="job-meta">Global Growth &middot; Full-time</p>
+          <h2>Head of Japan</h2>
+          <p class="job-location">Tokyo, Japan</p>
+          <p>Build institutional partnerships, strengthen governance participation, and accelerate Canton adoption across Japan's financial markets.</p>
+          <a href="head-of-japan.html">View Head of Japan role &amp; apply</a>
+        </article>
       </div>
     </section>
   </main>

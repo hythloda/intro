@@ -1,11 +1,12 @@
 /* Editor-only diagnostics and retry approval. Bundled into ../Code.gs. */
 function inspectJobApplicationFailure() {
   var properties = PropertiesService.getScriptProperties();
+  selectJobRole_(properties.getProperty("JOB_DIAGNOSTIC_ROLE") || "president-and-ceo");
   var reference = (properties.getProperty("JOB_DIAGNOSTIC_REFERENCE") || "").trim();
   if (!/^[a-f0-9]{8}-[a-f0-9]{4}-4[a-f0-9]{3}-[89ab][a-f0-9]{3}-[a-f0-9]{12}$/i.test(reference)) {
     throw new Error("Set JOB_DIAGNOSTIC_REFERENCE to the application reference first.");
   }
-  var raw = properties.getProperty("application:" + reference);
+  var raw = properties.getProperty(jobReceiptKey_(reference));
   var report = { receiptFound: Boolean(raw) };
   var receipt;
   try { receipt = JSON.parse(raw || "null"); } catch (_) { report.receiptUnreadable = true; }
@@ -31,7 +32,7 @@ function inspectJobApplicationFailure() {
     }).map(function (field) { return field.key; });
   }
   var token = properties.getProperty("MONDAY"), mapping;
-  try { mapping = JSON.parse(properties.getProperty("JOB_COLUMN_MAP") || "null"); } catch (_) { /* Report below. */ }
+  try { mapping = JSON.parse(properties.getProperty("JOB_COLUMN_MAP" + JOB_ROLE.suffix) || "null"); } catch (_) { /* Report below. */ }
   if (!token || !mapping) {
     report.configurationAvailable = false;
     return printJobDiagnostic_(report);
@@ -44,7 +45,7 @@ function inspectJobApplicationFailure() {
       { ids: [JOB_BOARD_ID] }).boards[0];
     report.boardAccessible = Boolean(board);
     if (board) {
-      var group = properties.getProperty("MONDAY_GROUP_ID");
+      var group = jobGroupId_(properties);
       report.destinationGroupExists = group ? board.groups.some(function (entry) { return entry.id === group; }) : null;
       report.columnIssues = [];
       report.phoneDestinationType = mapping.phone && ["text", "phone"].indexOf(mapping.phone.type) !== -1 ? mapping.phone.type : "unknown";
@@ -106,6 +107,7 @@ function printJobDiagnostic_(report) {
 // This does not submit an application or delete its receipt. The original answers must match.
 function approveReviewedJobApplicationRetry() {
   var properties = PropertiesService.getScriptProperties();
+  selectJobRole_(properties.getProperty("JOB_DIAGNOSTIC_ROLE") || "president-and-ceo");
   var reference = (properties.getProperty("JOB_DIAGNOSTIC_REFERENCE") || "").trim();
   if (!/^[a-f0-9]{8}-[a-f0-9]{4}-4[a-f0-9]{3}-[89ab][a-f0-9]{3}-[a-f0-9]{12}$/i.test(reference)) {
     throw new Error("Set JOB_DIAGNOSTIC_REFERENCE to the reviewed application reference first.");
@@ -113,7 +115,7 @@ function approveReviewedJobApplicationRetry() {
   var lock = LockService.getScriptLock();
   if (!lock.tryLock(1000)) throw new Error("An application is being processed. Try again later.");
   try {
-    var key = "application:" + reference;
+    var key = jobReceiptKey_(reference);
     var receipt = JSON.parse(properties.getProperty(key) || "null");
     if (!receipt || receipt.phase !== "creating" || receipt.itemId || typeof receipt.hash !== "string" || !receipt.hash) {
       throw new Error("This receipt cannot be approved for a creation retry. Review it manually.");
@@ -131,6 +133,7 @@ function approveReviewedJobApplicationRetry() {
 // Requires the existing no-item review; it never submits or clears a receipt.
 function approveReviewedJobApplicationRetryWithUpdatedAnswers() {
   var properties = PropertiesService.getScriptProperties();
+  selectJobRole_(properties.getProperty("JOB_DIAGNOSTIC_ROLE") || "president-and-ceo");
   var reference = (properties.getProperty("JOB_DIAGNOSTIC_REFERENCE") || "").trim();
   if (!/^[a-f0-9]{8}-[a-f0-9]{4}-4[a-f0-9]{3}-[89ab][a-f0-9]{3}-[a-f0-9]{12}$/i.test(reference)) {
     throw new Error("Set JOB_DIAGNOSTIC_REFERENCE to the reviewed application reference first.");
@@ -138,7 +141,7 @@ function approveReviewedJobApplicationRetryWithUpdatedAnswers() {
   var lock = LockService.getScriptLock();
   if (!lock.tryLock(1000)) throw new Error("An application is being processed. Try again later.");
   try {
-    var key = "application:" + reference;
+    var key = jobReceiptKey_(reference);
     var receipt = JSON.parse(properties.getProperty(key) || "null");
     if (!isReviewedJobApplicationRetry_(receipt)) {
       throw new Error("This receipt cannot be approved for updated answers. A reviewed creation retry with no item ID is required.");

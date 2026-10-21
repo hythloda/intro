@@ -2,6 +2,28 @@
 var JOB_BOARD_ID = "18434504661";
 var JOB_HOSTNAME = "intro.canton.foundation";
 var JOB_HR_EMAIL = "hr@canton.foundation";
+var JOB_ROLE_SETTINGS = {
+  "president-and-ceo": { board: "18434504661", suffix: "", group: null },
+  "head-of-korea": { board: "18436483787", suffix: "_KOREA", group: "topics" },
+  "head-of-japan": { board: "18436483844", suffix: "_JAPAN", group: "topics" }
+};
+var JOB_ROLE = JOB_ROLE_SETTINGS["president-and-ceo"];
+
+function selectJobRole_(role) {
+  var schema = jobApplicationSchemaForRole(role);
+  if (!schema) throw applicationError_("Invalid application request. Please refresh the page.");
+  JOB_APPLICATION_SCHEMA = schema;
+  JOB_ROLE = JOB_ROLE_SETTINGS[role];
+  JOB_BOARD_ID = JOB_ROLE.board;
+}
+
+function jobReceiptKey_(reference) {
+  return "application:" + (JOB_ROLE.suffix ? JOB_APPLICATION_SCHEMA.role + ":" : "") + reference;
+}
+
+function jobGroupId_(properties) {
+  return JOB_ROLE.suffix ? JOB_ROLE.group : properties.getProperty("MONDAY_GROUP_ID") || null;
+}
 
 // Editor-only setup when Google makes the >50-property settings screen read-only.
 // Enter the shared password privately in Apps Script, run once, then clear it here.
@@ -16,7 +38,7 @@ function configureJobApplicationPassword() {
 function jobColumnFields_() {
   return JOB_APPLICATION_SCHEMA.fields.filter(function (field) { return !field.auxiliary; }).concat([
     { key: "applicationReference", label: "Application Reference", columnTypes: ["text"] }
-  ]);
+  ], JOB_ROLE.suffix ? [{ key: "applicationStatus", label: "Application Status", columnTypes: ["status"] }] : []);
 }
 
 function applicationError_(message, fields) {
@@ -30,11 +52,11 @@ function config_() {
   var properties = PropertiesService.getScriptProperties();
   var token = properties.getProperty("MONDAY");
   var secret = properties.getProperty("TURNSTILE_SECRET");
-  var mapping = properties.getProperty("JOB_COLUMN_MAP");
+  var mapping = properties.getProperty("JOB_COLUMN_MAP" + JOB_ROLE.suffix);
   var password = properties.getProperty("JOB_ACCESS_PASSWORD");
-  if (!token || !secret || !mapping || !password) throw applicationError_("Applications are temporarily unavailable. Please try again later.");
+  if (!token || !secret || !mapping || (JOB_APPLICATION_SCHEMA.passwordRequired && !password)) throw applicationError_("Applications are temporarily unavailable. Please try again later.");
   mapping = JSON.parse(mapping);
-  var groupId = properties.getProperty("MONDAY_GROUP_ID") || null;
+  var groupId = jobGroupId_(properties);
   // Never reuse another role's column IDs, even when the boards were duplicated.
   if (!mapping._target || mapping._target.board !== JOB_BOARD_ID ||
       mapping._target.role !== JOB_APPLICATION_SCHEMA.role || mapping._target.groupId !== groupId) {
@@ -115,6 +137,19 @@ function createJobItem_(config, name, columns) {
 
 // Run once in the editor: resolves IDs using board metadata, never applicant rows.
 function setupJobApplication() {
+  selectJobRole_("president-and-ceo");
+  setupSelectedJobApplication_();
+}
+
+function setupPublicJobApplications() {
+  ["head-of-korea", "head-of-japan"].forEach(function (role) {
+    selectJobRole_(role);
+    setupSelectedJobApplication_();
+  });
+  selectJobRole_("president-and-ceo");
+}
+
+function setupSelectedJobApplication_() {
   var properties = PropertiesService.getScriptProperties();
   var token = properties.getProperty("MONDAY");
   if (!token) throw new Error("Add MONDAY in Script Properties first.");
@@ -122,7 +157,7 @@ function setupJobApplication() {
     "query ($ids: [ID!]!) { boards(ids: $ids) { id columns { id title type } groups { id title } } }",
     { ids: [JOB_BOARD_ID] }).boards[0];
   if (!board) throw new Error("The configured token cannot access the job board.");
-  var overrides = JSON.parse(properties.getProperty("JOB_COLUMN_OVERRIDES") || "{}");
+  var overrides = JSON.parse(properties.getProperty("JOB_COLUMN_OVERRIDES" + JOB_ROLE.suffix) || "{}");
   var normalize = function (text) { return text.toLowerCase().replace(/[^a-z0-9]/g, ""); };
   var mapping = {};
   jobColumnFields_().forEach(function (field) {
@@ -141,11 +176,11 @@ function setupJobApplication() {
   });
   var ids = Object.keys(mapping).map(function (key) { return mapping[key].id; });
   if (new Set(ids).size !== ids.length) throw new Error("Two questions cannot share a destination column.");
-  var groupId = properties.getProperty("MONDAY_GROUP_ID");
+  var groupId = jobGroupId_(properties);
   if (groupId && !board.groups.some(function (group) { return group.id === groupId; })) throw new Error("MONDAY_GROUP_ID does not exist on this board.");
   mapping._target = { board: JOB_BOARD_ID, role: JOB_APPLICATION_SCHEMA.role, groupId: groupId || null };
-  properties.setProperty("JOB_COLUMN_MAP", JSON.stringify(mapping));
-  console.log("Job column mapping saved. Board group IDs: " + JSON.stringify(board.groups));
+  properties.setProperty("JOB_COLUMN_MAP" + JOB_ROLE.suffix, JSON.stringify(mapping));
+  console.log(JOB_APPLICATION_SCHEMA.roleTitle + " column mapping saved. Board group IDs: " + JSON.stringify(board.groups));
 }
 
 function inspectJobColumns() {
@@ -211,6 +246,7 @@ function verifyHuman_(token, config, action) {
 }
 
 function requireApplicationPassword_(password) {
+  if (!JOB_APPLICATION_SCHEMA.passwordRequired) return;
   var expected = PropertiesService.getScriptProperties().getProperty("JOB_ACCESS_PASSWORD");
   if (!expected) throw applicationError_("Applications are temporarily unavailable. Please try again later.");
   var valid = typeof password === "string" && password.length > 0 && password.length <= 256;
@@ -273,10 +309,12 @@ function result_(body) {
   return ContentService.createTextOutput(JSON.stringify(body)).setMimeType(ContentService.MimeType.JSON);
 }
 
-function doGet() {
+function doGet(event) {
   var ready = false;
-  try { config_(); ready = true; } catch (_) { /* Only public readiness is returned. */ }
-  return result_({ service: "Canton Foundation job applications", role: JOB_APPLICATION_SCHEMA.role, acceptingApplications: ready, passwordRequired: true });
+  var role = event && event.parameter && event.parameter.role || "president-and-ceo";
+  try { selectJobRole_(role); config_(); ready = true; } catch (_) { /* Only public readiness is returned. */ }
+  var schema = jobApplicationSchemaForRole(role);
+  return result_({ service: "Canton Foundation job applications", role: schema ? schema.role : null, acceptingApplications: ready, passwordRequired: schema ? schema.passwordRequired : true });
 }
 
 function authorizeJobApplicationEmail() {
@@ -335,6 +373,8 @@ function doPost(event) {
     if (!event || !event.postData || event.postData.contents.length > 15 * 1024 * 1024) throw applicationError_("Application payload is too large or missing.");
     var body = JSON.parse(event.postData.contents);
     if (!body || typeof body !== "object" || Array.isArray(body)) throw applicationError_("Invalid application request. Please refresh the page.");
+    // The server allowlist chooses the board and access policy, never client-supplied IDs.
+    selectJobRole_(body.role);
     requestId = typeof body.requestId === "string" ? body.requestId.slice(0,36) : "";
     if (body.action === "unlock") {
       if (event.postData.contents.length > 4096 || body.role !== JOB_APPLICATION_SCHEMA.role ||
@@ -359,7 +399,7 @@ function doPost(event) {
     locked = lock.tryLock(1000);
     if (!locked) throw applicationError_("The application service is busy. Please try again in a moment.");
     var properties = PropertiesService.getScriptProperties();
-    var key = "application:" + requestId;
+    var key = jobReceiptKey_(requestId);
     var digest = Utilities.computeDigest(Utilities.DigestAlgorithm.SHA_256, JSON.stringify({ values: application.values, files: body.files }));
     var hash = Utilities.base64Encode(digest);
     var prior = JSON.parse(properties.getProperty(key) || "null");
@@ -376,6 +416,7 @@ function doPost(event) {
     var columns = columnValues_(application, config.mapping);
     // Save the validated receipt reference in the initial write, even if an attachment later fails.
     columns[config.mapping.applicationReference.id] = requestId;
+    if (JOB_ROLE.suffix) columns[config.mapping.applicationStatus.id] = { label: "New" };
     var state = { hash: hash, phase: "creating", at: new Date().toISOString() };
     if (prior) {
       state.reviewedAt = prior.reviewedAt;
