@@ -23,6 +23,9 @@ jobs:
         with:
           node-version: "20"
 
+      - name: Test Featured App board sync
+        run: node --test scripts/sync-featured-app-board.test.mjs
+
       - name: Sync Featured App board
         env:
           MONDAY: ${{ secrets.MONDAY }}

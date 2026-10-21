@@ -1,5 +1,19 @@
 # intro
 
+## Featured App Board
+
+The daily `Sync Featured App Board` workflow imports approved public columns
+from Monday board `18420896395`. FA grouping uses the stable status column ID
+`color_mm4kmej3` (currently titled `FA Status`), not its display name. The export
+includes `statusColumnId` so the page can identify it after future renames.
+Other status columns, such as `DVP Status`, are not automatically made public.
+
+If that column is replaced, verify the new column ID and set
+`FEATURED_APP_STATUS_COLUMN_ID` in the workflow environment. The sync fails
+without overwriting the previous data if the configured status column is missing
+or has an unsupported type. Run regression tests with
+`node --test scripts/sync-featured-app-board.test.mjs`.
+
 ## Jobs
 
 The direct `president-and-ceo.html` application page is restored as of

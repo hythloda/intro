@@ -3,12 +3,13 @@ import path from "node:path";
 
 const MONDAY_API_URL = "https://api.monday.com/v2";
 const BOARD_ID = process.env.FEATURED_APP_BOARD_ID || "18420896395";
+// Column IDs survive title changes ("Status" was renamed to "FA Status").
+const STATUS_COLUMN_ID = process.env.FEATURED_APP_STATUS_COLUMN_ID || "color_mm4kmej3";
 const TOKEN = process.env.MONDAY;
 const OUTPUT_PATH = path.join(process.cwd(), "assets", "featured-app-board-data.js");
 const PAGE_LIMIT = 500;
 
 const approvedColumnTitlePrefixes = [
-  "Status",
   "Name of Applying Institution",
   "Party ID for the Featured Appl",
   "Locking PartyIDs",
@@ -104,6 +105,11 @@ if (!board) {
   throw new Error(`Monday board ${BOARD_ID} was not found or is not accessible`);
 }
 
+const statusColumn = board.columns?.find((column) => column.id === STATUS_COLUMN_ID);
+if (!statusColumn || statusColumn.type !== "status") {
+  throw new Error("Required FA status column is missing or is not a status column. Review FEATURED_APP_STATUS_COLUMN_ID before syncing; existing public data has not been changed.");
+}
+
 let cursor = board.items_page?.cursor || null;
 const items = [...(board.items_page?.items || [])];
 
@@ -122,7 +128,7 @@ while (cursor) {
 }
 
 const publicColumns = board.columns
-  .filter((column) => isApprovedColumn(column.title))
+  .filter((column) => column.id === statusColumn.id || isApprovedColumn(column.title))
   .map((column) => ({
     id: column.id,
     title: cleanText(column.title),
@@ -157,6 +163,7 @@ const rows = items
 
 const output = {
   generatedAt: new Date().toISOString(),
+  statusColumnId: statusColumn.id,
   columns: publicColumns,
   rows,
 };

@@ -760,7 +760,10 @@
       const rows = Array.isArray(boardData.rows) ? boardData.rows : [];
       const text = (value) => String(value || "").trim();
       const lowered = (value) => text(value).toLowerCase();
-      const statusColumn = columns.find((column) => lowered(column.title) === "status");
+      const statusColumn = columns.find((column) => column.id === boardData.statusColumnId)
+        || columns.find((column) => column.id === "color_mm4kmej3")
+        || columns.find((column) => lowered(column.title) === "fa status")
+        || columns.find((column) => lowered(column.title) === "status");
       const tableColumns = [
         { id: "name", title: "Application", type: "item" },
         ...columns.filter((column) => column.id !== statusColumn?.id),
