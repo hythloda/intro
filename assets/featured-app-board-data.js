@@ -1,5 +1,5 @@
 window.FEATURED_APP_BOARD_DATA = {
-  "generatedAt": "2026-10-21T16:31:10.991Z",
+  "generatedAt": "2026-10-22T12:00:11.981Z",
   "statusColumnId": "color_mm4kmej3",
   "columns": [
     {
@@ -328,7 +328,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12954184948",
       "name": "Rapid Chain - Rapid Blockchain Technologies Ltd.",
-      "updatedAt": "2026-10-21T07:51:33Z",
+      "updatedAt": "2026-10-22T07:51:27Z",
       "values": {
         "text_mm4k2vch": "Rapid Blockchain Technologies Ltd.",
         "color_mm4kmej3": "1-Needs Review",
@@ -353,7 +353,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12959523630",
       "name": "MetCredX - NIPRO TECHNOLOGIES LIMITED",
-      "updatedAt": "2026-10-21T07:51:44Z",
+      "updatedAt": "2026-10-22T07:51:34Z",
       "values": {
         "text_mm4k2vch": "NIPRO TECHNOLOGIES LIMITED",
         "color_mm4kmej3": "1-Needs Review",
@@ -641,7 +641,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13289895381",
       "name": "Modulo Vault - Was CIP-0116 removed",
-      "updatedAt": "2026-10-20T21:51:32Z",
+      "updatedAt": "2026-10-21T22:51:29Z",
       "values": {
         "text_mm4k2vch": "Modulo Labs, Inc.",
         "color_mm4kmej3": "0-Locked+Needs Review",
@@ -867,7 +867,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12959522895",
       "name": "ccledger - Blueprint Infrastructure, LLC",
-      "updatedAt": "2026-10-21T04:00:23Z",
+      "updatedAt": "2026-10-21T21:51:42Z",
       "values": {
         "text_mm4k2vch": "Blueprint Infrastructure, LLC",
         "color_mm4kmej3": "1-Needs Review",
@@ -6080,7 +6080,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467824061",
       "name": "iBTC Bitcoin Bridge",
-      "updatedAt": "2026-10-21T03:52:39Z",
+      "updatedAt": "2026-10-22T04:52:30Z",
       "values": {
         "text_mm4k2vch": "Bitsafe",
         "color_mm4kmej3": "0-Locked+Needs Review",
@@ -10413,7 +10413,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12964705710",
       "name": "RAX Finance - RAX Finance",
-      "updatedAt": "2026-10-21T15:51:15Z",
+      "updatedAt": "2026-10-22T11:51:16Z",
       "values": {
         "text_mm4k2vch": "RAX Finance",
         "color_mm4kmej3": "0-Locked+Needs Review",
@@ -10472,7 +10472,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12974668475",
       "name": "OS Ledger - Outersunset",
-      "updatedAt": "2026-10-21T07:52:58Z",
+      "updatedAt": "2026-10-22T08:51:34Z",
       "values": {
         "text_mm4k2vch": "Outersunset",
         "color_mm4kmej3": "1-Needs Review",
@@ -10499,7 +10499,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12982310839",
       "name": "Ovdefi - OneNov",
-      "updatedAt": "2026-10-21T04:01:25Z",
+      "updatedAt": "2026-10-21T21:51:57Z",
       "values": {
         "text_mm4k2vch": "OneNov",
         "color_mm4kmej3": "1-Needs Review",
@@ -10529,7 +10529,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12982310399",
       "name": "Pinnaccle - Pinnaccle",
-      "updatedAt": "2026-10-21T07:53:56Z",
+      "updatedAt": "2026-10-22T00:53:01Z",
       "values": {
         "text_mm4k2vch": "Pinnaccle",
         "color_mm4kmej3": "0-Locked+Needs Review",
@@ -10590,7 +10590,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13003184089",
       "name": "R1M Sentinel - R1M",
-      "updatedAt": "2026-10-21T04:01:26Z",
+      "updatedAt": "2026-10-21T20:51:32Z",
       "values": {
         "text_mm4k2vch": "R1M",
         "color_mm4kmej3": "1-Needs Review",
@@ -10681,7 +10681,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13023350809",
       "name": "Zabpay - DSRV",
-      "updatedAt": "2026-10-21T07:55:14Z",
+      "updatedAt": "2026-10-22T07:53:45Z",
       "values": {
         "text_mm4k2vch": "DSRV",
         "color_mm4kmej3": "1-Needs Review",
@@ -10741,7 +10741,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13036463016",
       "name": "P2P Company - P2P Company",
-      "updatedAt": "2026-10-21T00:51:56Z",
+      "updatedAt": "2026-10-22T00:54:54Z",
       "values": {
         "text_mm4k2vch": "P2P Company",
         "color_mm4kmej3": "1-Needs Review",
@@ -10771,7 +10771,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13046640623",
       "name": "Yellow Card - Yellow Card Financial Inc.",
-      "updatedAt": "2026-10-21T13:52:17Z",
+      "updatedAt": "2026-10-22T07:54:30Z",
       "values": {
         "text_mm4k2vch": "Yellow Card Financial Inc.",
         "color_mm4kmej3": "1-Needs Review",
@@ -10800,7 +10800,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13056498524",
       "name": "mperps - Lemongrass IT services LLC FZ",
-      "updatedAt": "2026-10-21T13:52:31Z",
+      "updatedAt": "2026-10-22T06:54:26Z",
       "values": {
         "text_mm4k2vch": "Lemongrass IT services LLC FZ",
         "color_mm4kmej3": "1-Needs Review",
@@ -10980,7 +10980,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13111369113",
       "name": "Helvex - Dream Capital",
-      "updatedAt": "2026-10-21T05:54:33Z",
+      "updatedAt": "2026-10-22T05:55:23Z",
       "values": {
         "text_mm4k2vch": "Dream Capital",
         "color_mm4kmej3": "0-Locked+Needs Review",
@@ -11009,7 +11009,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13122710944",
       "name": "OneSwap Launchpad - SatsTerminal",
-      "updatedAt": "2026-10-20T23:53:30Z",
+      "updatedAt": "2026-10-22T00:55:49Z",
       "values": {
         "text_mm4k2vch": "SatsTerminal",
         "color_mm4kmej3": "1-Needs Review",
@@ -11099,7 +11099,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13167162421",
       "name": "Scopex Rate Lock - ScopeX Money",
-      "updatedAt": "2026-10-21T04:01:30Z",
+      "updatedAt": "2026-10-21T21:52:20Z",
       "values": {
         "text_mm4k2vch": "ScopeX Money",
         "color_mm4kmej3": "1-Needs Review",
@@ -11155,7 +11155,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13189277788",
       "name": "Canal - Ice Labs",
-      "updatedAt": "2026-10-21T04:58:15Z",
+      "updatedAt": "2026-10-22T10:54:00Z",
       "values": {
         "text_mm4k2vch": "Ice Labs",
         "color_mm4kmej3": "0-Locked+Needs Review",
@@ -11273,7 +11273,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13235200691",
       "name": "CHYPE - BitSafe Validator, LLC",
-      "updatedAt": "2026-10-21T15:51:24Z",
+      "updatedAt": "2026-10-22T11:51:24Z",
       "values": {
         "text_mm4k2vch": "BitSafe Validator, LLC",
         "color_mm4kmej3": "0-Locked+Needs Review",
@@ -11304,7 +11304,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13253875306",
       "name": "cBNB - Nuxaris LLC",
-      "updatedAt": "2026-10-21T07:58:46Z",
+      "updatedAt": "2026-10-22T07:57:02Z",
       "values": {
         "text_mm4k2vch": "Nuxaris LLC",
         "color_mm4kmej3": "0-Locked+Needs Review",
@@ -11334,7 +11334,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13261982165",
       "name": "CC Space - ITRocket LLC",
-      "updatedAt": "2026-10-21T05:56:12Z",
+      "updatedAt": "2026-10-22T05:57:21Z",
       "values": {
         "text_mm4k2vch": "ITRocket LLC",
         "color_mm4kmej3": "0-Locked+Needs Review",
@@ -11366,7 +11366,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13284289393",
       "name": "Stable Coin (SBC) - Stable Coin Inc. (The Stable Coin Company)",
-      "updatedAt": "2026-10-21T03:59:31Z",
+      "updatedAt": "2026-10-22T04:07:49Z",
       "values": {
         "text_mm4k2vch": "Stable Coin Inc. (The Stable Coin Company)",
         "color_mm4kmej3": "0-Locked+Needs Review",
@@ -11395,7 +11395,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13332634664",
       "name": "Grofty Dex - Grofty Labs",
-      "updatedAt": "2026-10-21T05:00:42Z",
+      "updatedAt": "2026-10-22T05:57:33Z",
       "values": {
         "text_mm4k2vch": "Grofty Labs",
         "color_mm4kmej3": "1-Needs Review",
