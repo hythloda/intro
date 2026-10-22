@@ -65,6 +65,9 @@ for (const [role, pageSlug] of [
     .replaceAll("20261020-required-referral1", "20261021-public1")
     .replace("assets/job-application-schema.js?v=20261021-public1", "assets/job-application-schema.js?v=20261022-country-manager1")
     .replace("</title>", `</title>\n  <link rel="canonical" href="https://intro.canton.foundation/${pageSlug}.html">`);
+  if (role === "head-of-japan") {
+    head = head.replace("assets/job-application.js?v=20261021-public1", "assets/job-application.js?v=20261022-japan-salary1");
+  }
   const html = `${head}<body>
   <div data-site-header></div>
   <main class="careers-wrap">

@@ -31,12 +31,14 @@ for (const [role, board, suffix] of [["head-of-korea", "18436483787", "_KOREA"],
     assert.equal(ready.passwordRequired, false);
     assert.equal(JSON.parse(h.context.doGet().text).acceptingApplications, false);
     const body = publicApplication(h, role);
+    if (role === "head-of-japan") body.values.salaryExpectations = "";
     body.values.phone = "+82 10 0000 0000";
     assert.equal(h.post(body).ok, true);
     const payload = JSON.parse(h.creates()[0].request.payload);
     assert.equal(payload.variables.board, board);
     assert.equal(payload.variables.group, "topics");
     const values = JSON.parse(payload.variables.values);
+    if (role === "head-of-japan") assert.equal(values.col_salaryExpectations, undefined);
     assert.equal(values.col_phone, body.values.phone);
     assert.deepEqual(values.col_applicationStatus, { label: "New" });
     assert.equal(values.col_applicationReference, body.requestId);
@@ -70,6 +72,7 @@ for (const [role, board, suffix] of [["head-of-korea", "18436483787", "_KOREA"],
     assert.equal(h.nodes.get("#application-submit").disabled, false);
     assert.equal(h.widgets[0].settings.action, "job_application");
     assert.equal(h.created.find(node => node.name === "referral").required, false);
+    assert.equal(h.created.some(node => node.name === "salaryExpectations"), role !== "head-of-japan");
     assert(!h.created.some(node => ["gender", "hispanicLatino", "veteran"].includes(node.name)));
     assert(h.requests[0].url.includes("?role=" + role));
     const html = readFileSync(new URL("../../" + publicPages[role] + ".html", import.meta.url), "utf8");

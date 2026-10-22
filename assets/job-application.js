@@ -12,6 +12,9 @@
     });
     return;
   }
+  if (schema.role === "head-of-japan") {
+    schema.fields = schema.fields.filter(field => field.key !== "salaryExpectations");
+  }
   const fields = document.querySelector("#application-fields");
   const submit = document.querySelector("#application-submit");
   const status = document.querySelector("#application-status");
@@ -232,6 +235,8 @@
     let timer;
     try {
       const values = {}, files = {};
+      // The existing backend expects an empty string for every optional text answer.
+      if (schema.role === "head-of-japan") values.salaryExpectations = "";
       for (const field of schema.fields) {
         const input = form.elements.namedItem(field.key);
         if (field.type === "file") {
