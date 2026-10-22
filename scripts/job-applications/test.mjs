@@ -7,6 +7,10 @@ import { buildJobApplicationScript } from "./build.mjs";
 
 const serverSource = readFileSync(new URL("Code.gs", import.meta.url), "utf8");
 const plain = value => JSON.parse(JSON.stringify(value));
+const publicPages = {
+  "head-of-korea": "country-manager-korea",
+  "head-of-japan": "country-manager-japan"
+};
 
 function publicApplication(h, role) {
   const schema = h.context.jobApplicationSchemaForRole(role);
@@ -68,11 +72,25 @@ for (const [role, board, suffix] of [["head-of-korea", "18436483787", "_KOREA"],
     assert.equal(h.created.find(node => node.name === "referral").required, false);
     assert(!h.created.some(node => ["gender", "hispanicLatino", "veteran"].includes(node.name)));
     assert(h.requests[0].url.includes("?role=" + role));
-    const html = readFileSync(new URL("../../" + role + ".html", import.meta.url), "utf8");
+    const html = readFileSync(new URL("../../" + publicPages[role] + ".html", import.meta.url), "utf8");
     assert.match(html, /id="application" aria-labelledby="application-title">/);
     assert.match(html, /Key Responsibilities/);
     assert.match(html, /Native-level (Korean|Japanese)/);
     assert.doesNotMatch(html, /president-and-ceo|President and CEO|application-access|application-voluntary|<iframe/);
+    assert(html.includes('data-role="' + role + '"'));
+    assert(html.includes('rel="canonical" href="https://intro.canton.foundation/' + publicPages[role] + '.html"'));
+  });
+
+  test(role + " shared links redirect to the Country Manager page with query and application anchor", () => {
+    const html = readFileSync(new URL("../../" + role + ".html", import.meta.url), "utf8");
+    const target = publicPages[role] + ".html";
+    assert(html.includes('http-equiv="refresh" content="0; url=' + target + '"'));
+    assert.doesNotMatch(html, /<form\b/);
+    let redirected;
+    vm.runInNewContext(html.match(/<script>([\s\S]*?)<\/script>/)[1], {
+      window: { location: { search: "?source=shared", hash: "#application", replace: url => redirected = url } }
+    });
+    assert.equal(redirected, target + "?source=shared#application");
   });
 }
 
@@ -655,8 +673,9 @@ test("direct CEO applications are restored without advertising the role on the h
   assert.match(home, /href="jobs\.html"/);
   assert.doesNotMatch(home, /president-and-ceo|President and CEO/);
   const jobs = readFileSync(new URL("../../jobs.html", import.meta.url), "utf8");
-  assert.match(jobs, /href="head-of-korea\.html"/);
-  assert.match(jobs, /href="head-of-japan\.html"/);
+  assert.match(jobs, /href="country-manager-korea\.html"/);
+  assert.match(jobs, /href="country-manager-japan\.html"/);
+  assert.doesNotMatch(jobs, /href="head-of-(korea|japan)\.html"/);
   assert.doesNotMatch(jobs, /President and CEO|<form\b|<iframe\b|job-application(?:-schema|-config)?\.js/);
   const role = readFileSync(new URL("../../president-and-ceo.html", import.meta.url), "utf8");
   assert.match(role, /job-application-config\.js\?v=20261020-reopen1/);

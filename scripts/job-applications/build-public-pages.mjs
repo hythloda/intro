@@ -33,8 +33,19 @@ function descriptionHtml(lines) {
   return html.join("\n        ");
 }
 
-for (const slug of ["head-of-korea", "head-of-japan"]) {
-  const document = JSON.parse(readFileSync(new URL(`descriptions/${slug}.json`, import.meta.url), "utf8"));
+function writeOrCheck(filename, html) {
+  const destination = new URL(filename, root);
+  if (process.argv.includes("--check")) {
+    if (readFileSync(destination, "utf8") !== html) throw new Error(`${filename} needs regeneration`);
+  } else writeFileSync(destination, html);
+}
+
+// Keep submission role keys stable so existing receipts and board routing remain valid.
+for (const [role, pageSlug] of [
+  ["head-of-korea", "country-manager-korea"],
+  ["head-of-japan", "country-manager-japan"]
+]) {
+  const document = JSON.parse(readFileSync(new URL(`descriptions/${role}.json`, import.meta.url), "utf8"));
   const lines = document.content.split(/\r?\n/).map(line => line.trim()).filter(Boolean);
   const title = lines[0];
   const titleSplit = title.lastIndexOf(", ");
@@ -52,7 +63,8 @@ for (const slug of ["head-of-korea", "head-of-japan"]) {
     .replaceAll("President and CEO Application", `${title} | Careers`)
     .replaceAll("20261020-access1", "20261021-public1")
     .replaceAll("20261020-required-referral1", "20261021-public1")
-    .replace("assets/job-application-schema.js?v=20261021-public1", "assets/job-application-schema.js?v=20261022-country-manager1");
+    .replace("assets/job-application-schema.js?v=20261021-public1", "assets/job-application-schema.js?v=20261022-country-manager1")
+    .replace("</title>", `</title>\n  <link rel="canonical" href="https://intro.canton.foundation/${pageSlug}.html">`);
   const html = `${head}<body>
   <div data-site-header></div>
   <main class="careers-wrap">
@@ -70,14 +82,29 @@ for (const slug of ["head-of-korea", "head-of-japan"]) {
         ${descriptionHtml(lines.slice(descriptionStart))}
       </div>
     </section>
-${form.replaceAll("President and CEO", title).replaceAll("president-and-ceo", slug)}  </main>
+${form.replaceAll("President and CEO", title).replaceAll("president-and-ceo", role)}  </main>
   <div data-site-footer></div>
 </body>
 </html>
 `;
-  const destination = new URL(`${slug}.html`, root);
-  if (process.argv.includes("--check")) {
-    if (readFileSync(destination, "utf8") !== html) throw new Error(`${slug}.html needs regeneration`);
-  } else writeFileSync(destination, html);
+  writeOrCheck(`${pageSlug}.html`, html);
+  writeOrCheck(`${role}.html`, `<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>${escape(title)} | Canton Foundation</title>
+  <link rel="canonical" href="https://intro.canton.foundation/${pageSlug}.html">
+  <meta name="robots" content="noindex">
+  <meta http-equiv="refresh" content="0; url=${pageSlug}.html">
+  <script>
+    window.location.replace("${pageSlug}.html" + window.location.search + window.location.hash);
+  </script>
+</head>
+<body>
+  <p>This role has moved to <a href="${pageSlug}.html">${escape(title)}</a>.</p>
+</body>
+</html>
+`);
 }
 console.log("Public role pages are up to date.");

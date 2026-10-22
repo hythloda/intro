@@ -2,11 +2,13 @@
 
 ## Destinations and privacy
 
-- Country Manager, South Korea: `head-of-korea.html`, private Monday board `18436483787`.
-- Country Manager, Japan: `head-of-japan.html`, private Monday board `18436483844`.
+- Country Manager, South Korea: `country-manager-korea.html`, private Monday board `18436483787`.
+- Country Manager, Japan: `country-manager-japan.html`, private Monday board `18436483844`.
 - President and CEO: unchanged private application at `president-and-ceo.html`, board `18434504661`. Not linked from Jobs or the homepage. Its shared password remains enforced on every server submission.
 
 The public roles use native forms, not embedded Monday forms. They retain bot verification, validation, CV uploads, duplicate prevention, application references, and acknowledgment emails with replies directed to `hr@canton.foundation`. No applicant answers or files are written to GitHub or browser storage. The two private boards start with one New Applications group and Application Status labels for recruitment review. No applicant scoring or selection is automated.
+
+The old `head-of-korea.html` and `head-of-japan.html` URLs redirect to the corresponding Country Manager pages, preserving query parameters and the application anchor. Internal submission role keys remain `head-of-korea` and `head-of-japan` to preserve existing board routing, receipts, and duplicate prevention; they are independent of the public page URLs.
 
 ## Build and deploy
 
