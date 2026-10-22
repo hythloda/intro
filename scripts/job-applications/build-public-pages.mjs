@@ -40,7 +40,9 @@ for (const slug of ["head-of-korea", "head-of-japan"]) {
   const titleSplit = title.lastIndexOf(", ");
   const heading = titleSplit < 0 ? escape(title) :
     `${escape(title.slice(0, titleSplit + 1))} <span>${escape(title.slice(titleSplit + 2))}</span>`;
-  const facts = lines.slice(1, 5).map(line => {
+  const descriptionStart = lines.findIndex((line, index) => index > 0 && headings.includes(line));
+  if (descriptionStart < 1) throw new Error("Job description is missing its first section heading");
+  const facts = lines.slice(1, descriptionStart).map(line => {
     const split = line.indexOf(":");
     if (split < 0) throw new Error("Unexpected job description metadata");
     return `<div><dt>${escape(line.slice(0, split))}</dt><dd>${escape(line.slice(split + 1).trim())}</dd></div>`;
@@ -65,7 +67,7 @@ for (const slug of ["head-of-korea", "head-of-japan"]) {
     </header>
     <section class="careers-role" aria-label="Job description">
       <div class="role-copy">
-        ${descriptionHtml(lines.slice(5))}
+        ${descriptionHtml(lines.slice(descriptionStart))}
       </div>
     </section>
 ${form.replaceAll("President and CEO", title).replaceAll("president-and-ceo", slug)}  </main>
