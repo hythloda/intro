@@ -37,6 +37,9 @@ for (const slug of ["head-of-korea", "head-of-japan"]) {
   const document = JSON.parse(readFileSync(new URL(`descriptions/${slug}.json`, import.meta.url), "utf8"));
   const lines = document.content.split(/\r?\n/).map(line => line.trim()).filter(Boolean);
   const title = lines[0];
+  const titleSplit = title.lastIndexOf(", ");
+  const heading = titleSplit < 0 ? escape(title) :
+    `${escape(title.slice(0, titleSplit + 1))} <span>${escape(title.slice(titleSplit + 2))}</span>`;
   const facts = lines.slice(1, 5).map(line => {
     const split = line.indexOf(":");
     if (split < 0) throw new Error("Unexpected job description metadata");
@@ -46,14 +49,15 @@ for (const slug of ["head-of-korea", "head-of-japan"]) {
     .replace('Password-protected President and CEO application form for Canton Foundation.', `${title} job description and application form at Canton Foundation.`)
     .replaceAll("President and CEO Application", `${title} | Careers`)
     .replaceAll("20261020-access1", "20261021-public1")
-    .replaceAll("20261020-required-referral1", "20261021-public1");
+    .replaceAll("20261020-required-referral1", "20261021-public1")
+    .replace("assets/job-application-schema.js?v=20261021-public1", "assets/job-application-schema.js?v=20261022-country-manager1");
   const html = `${head}<body>
   <div data-site-header></div>
   <main class="careers-wrap">
     <a class="careers-back" href="jobs.html">Back to Jobs</a>
     <header class="careers-hero">
       <div class="careers-eyebrow">Canton Foundation Careers</div>
-      <h1>Head of <span>${title.replace("Head of ", "")}</span></h1>
+      <h1>${heading}</h1>
       <dl class="careers-facts">
         ${facts}
       </dl>

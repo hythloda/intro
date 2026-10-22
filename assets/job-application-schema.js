@@ -289,7 +289,7 @@ function jobApplicationSchemaForRole(role) {
   var schema = JSON.parse(JSON.stringify(JOB_CEO_SCHEMA));
   if (role === "president-and-ceo") return schema;
   schema.role = role;
-  schema.roleTitle = role === "head-of-korea" ? "Head of Korea" : "Head of Japan";
+  schema.roleTitle = role === "head-of-korea" ? "Country Manager, South Korea" : "Country Manager, Japan";
   schema.formRevision = "apac-20261021";
   schema.passwordRequired = false;
   schema.fields = schema.fields.filter(function (field) { return field.section !== "voluntary"; });
