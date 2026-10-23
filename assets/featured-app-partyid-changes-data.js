@@ -1,5 +1,5 @@
 window.FEATURED_APP_PARTYID_CHANGES_DATA = {
-  "generatedAt": "2026-10-22T12:11:57.528Z",
+  "generatedAt": "2026-10-23T11:53:18.514Z",
   "columns": [
     {
       "id": "long_text_mm4kq322",
@@ -13,6 +13,15 @@ window.FEATURED_APP_PARTYID_CHANGES_DATA = {
     }
   ],
   "changes": [
+    {
+      "id": "b23d3856-e710-4ca1-b1b2-e3b6886e87a8",
+      "changedAt": "2026-10-22T13:15:48.205Z",
+      "itemName": "VeriGift Fund",
+      "itemId": "12467857212",
+      "field": "Locking PartyIDs",
+      "previousValue": "fffe77ac879146b7be4a9d663ca1b987::1220659e04f048f751d2b537f6a7de6f7e6097386053ef2208c9f6e706ffb84643d2",
+      "newValue": "ldg::122098cd570f115b3adfd288dc2de67947af18d458dd6592aac04b3d25b0a5384f5f"
+    },
     {
       "id": "f3abe3a2-b10e-4f62-ba7a-4570ee1148ff",
       "changedAt": "2026-10-19T18:23:38.859Z",
@@ -183,15 +192,6 @@ window.FEATURED_APP_PARTYID_CHANGES_DATA = {
       "field": "Locking PartyIDs",
       "previousValue": "23d169c2-0909-4c70-81d1-1922de6febaa::1220f7a9536dd3ac943688bff534eb25b28046b6660b1f579d2d0d0037dacc96dcac",
       "newValue": ""
-    },
-    {
-      "id": "5fe4868e-5ae7-4759-b2bd-10badd437af9",
-      "changedAt": "2026-09-23T23:28:03.735Z",
-      "itemName": "CC Scan (Block Explorer)",
-      "itemId": "12467856975",
-      "field": "Locking PartyIDs",
-      "previousValue": "1220b::1220bf515ffccfb089af4c15d0dcdf40d0f69b2122cd78b6255b2ba1a1f386e29ef7",
-      "newValue": "12208::1220869791c95054cce5a2b2bfed626e9e6ce0fc2dc9bc1bd47ceb962d0c403bd04a"
     }
   ]
 };
