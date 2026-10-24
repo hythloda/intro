@@ -1,5 +1,5 @@
 window.FEATURED_APP_BOARD_DATA = {
-  "generatedAt": "2026-10-23T11:46:08.431Z",
+  "generatedAt": "2026-10-24T11:10:06.994Z",
   "statusColumnId": "color_mm4kmej3",
   "columns": [
     {
@@ -328,7 +328,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12954184948",
       "name": "Rapid Chain - Rapid Blockchain Technologies Ltd.",
-      "updatedAt": "2026-10-23T06:52:04Z",
+      "updatedAt": "2026-10-24T07:51:12Z",
       "values": {
         "text_mm4k2vch": "Rapid Blockchain Technologies Ltd.",
         "color_mm4kmej3": "1-Needs Review",
@@ -353,7 +353,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12959523630",
       "name": "MetCredX - NIPRO TECHNOLOGIES LIMITED",
-      "updatedAt": "2026-10-23T10:51:07Z",
+      "updatedAt": "2026-10-24T10:51:07Z",
       "values": {
         "text_mm4k2vch": "NIPRO TECHNOLOGIES LIMITED",
         "color_mm4kmej3": "1-Needs Review",
@@ -867,7 +867,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12959522895",
       "name": "ccledger - Blueprint Infrastructure, LLC",
-      "updatedAt": "2026-10-23T04:00:20Z",
+      "updatedAt": "2026-10-23T23:51:13Z",
       "values": {
         "text_mm4k2vch": "Blueprint Infrastructure, LLC",
         "color_mm4kmej3": "1-Needs Review",
@@ -10472,7 +10472,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12974668475",
       "name": "OS Ledger - Outersunset",
-      "updatedAt": "2026-10-23T09:51:20Z",
+      "updatedAt": "2026-10-24T09:51:53Z",
       "values": {
         "text_mm4k2vch": "Outersunset",
         "color_mm4kmej3": "1-Needs Review",
@@ -10499,7 +10499,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12982310839",
       "name": "Ovdefi - OneNov",
-      "updatedAt": "2026-10-23T04:01:19Z",
+      "updatedAt": "2026-10-24T02:51:15Z",
       "values": {
         "text_mm4k2vch": "OneNov",
         "color_mm4kmej3": "1-Needs Review",
@@ -10590,7 +10590,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13003184089",
       "name": "R1M Sentinel - R1M",
-      "updatedAt": "2026-10-23T04:01:20Z",
+      "updatedAt": "2026-10-23T22:51:22Z",
       "values": {
         "text_mm4k2vch": "R1M",
         "color_mm4kmej3": "1-Needs Review",
@@ -10681,7 +10681,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13023350809",
       "name": "Zabpay - DSRV",
-      "updatedAt": "2026-10-23T10:51:35Z",
+      "updatedAt": "2026-10-23T23:51:36Z",
       "values": {
         "text_mm4k2vch": "DSRV",
         "color_mm4kmej3": "1-Needs Review",
@@ -10741,7 +10741,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13036463016",
       "name": "P2P Company - P2P Company",
-      "updatedAt": "2026-10-23T00:55:31Z",
+      "updatedAt": "2026-10-24T01:52:24Z",
       "values": {
         "text_mm4k2vch": "P2P Company",
         "color_mm4kmej3": "1-Needs Review",
@@ -10771,7 +10771,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13046640623",
       "name": "Yellow Card - Yellow Card Financial Inc.",
-      "updatedAt": "2026-10-23T10:52:18Z",
+      "updatedAt": "2026-10-24T10:52:28Z",
       "values": {
         "text_mm4k2vch": "Yellow Card Financial Inc.",
         "color_mm4kmej3": "1-Needs Review",
@@ -10800,7 +10800,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13056498524",
       "name": "mperps - Lemongrass IT services LLC FZ",
-      "updatedAt": "2026-10-23T04:01:22Z",
+      "updatedAt": "2026-10-23T14:52:45Z",
       "values": {
         "text_mm4k2vch": "Lemongrass IT services LLC FZ",
         "color_mm4kmej3": "1-Needs Review",
@@ -11009,7 +11009,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13122710944",
       "name": "OneSwap Launchpad - SatsTerminal",
-      "updatedAt": "2026-10-23T01:52:36Z",
+      "updatedAt": "2026-10-24T02:53:48Z",
       "values": {
         "text_mm4k2vch": "SatsTerminal",
         "color_mm4kmej3": "1-Needs Review",
@@ -11099,7 +11099,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13167162421",
       "name": "Scopex Rate Lock - ScopeX Money",
-      "updatedAt": "2026-10-23T04:01:24Z",
+      "updatedAt": "2026-10-24T10:52:35Z",
       "values": {
         "text_mm4k2vch": "ScopeX Money",
         "color_mm4kmej3": "1-Needs Review",
@@ -11155,7 +11155,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13189277788",
       "name": "Canal - Ice Labs",
-      "updatedAt": "2026-10-23T10:52:36Z",
+      "updatedAt": "2026-10-24T10:52:48Z",
       "values": {
         "text_mm4k2vch": "Ice Labs",
         "color_mm4kmej3": "0-Locked+Needs Review",
@@ -11186,7 +11186,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13202966648",
       "name": "Meriq - Anoetic Labs LLC",
-      "updatedAt": "2026-10-22T15:51:36Z",
+      "updatedAt": "2026-10-23T16:51:18Z",
       "values": {
         "text_mm4k2vch": "Anoetic Labs LLC",
         "color_mm4kmej3": "1-Needs Review",
@@ -11246,7 +11246,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13224947645",
       "name": "ForecastDesk - Microsystems Express Telecom",
-      "updatedAt": "2026-10-23T04:01:25Z",
+      "updatedAt": "2026-10-23T14:54:26Z",
       "values": {
         "text_mm4k2vch": "Microsystems Express Telecom",
         "color_mm4kmej3": "1-Needs Review",
@@ -11304,7 +11304,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13253875306",
       "name": "cBNB - Nuxaris LLC",
-      "updatedAt": "2026-10-23T10:54:22Z",
+      "updatedAt": "2026-10-24T04:54:23Z",
       "values": {
         "text_mm4k2vch": "Nuxaris LLC",
         "color_mm4kmej3": "0-Locked+Needs Review",
@@ -11334,7 +11334,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13261982165",
       "name": "CC Space - ITRocket LLC",
-      "updatedAt": "2026-10-23T10:54:28Z",
+      "updatedAt": "2026-10-24T03:54:01Z",
       "values": {
         "text_mm4k2vch": "ITRocket LLC",
         "color_mm4kmej3": "0-Locked+Needs Review",
@@ -11395,7 +11395,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13332634664",
       "name": "Grofty Dex - Grofty Labs",
-      "updatedAt": "2026-10-23T06:55:27Z",
+      "updatedAt": "2026-10-24T07:54:19Z",
       "values": {
         "text_mm4k2vch": "Grofty Labs",
         "color_mm4kmej3": "1-Needs Review",
@@ -11421,6 +11421,63 @@ window.FEATURED_APP_BOARD_DATA = {
         "long_text_mm4khbeg": "The source code is kept in private repositories under the Grofty Labs GitHub organisation. We are happy to give the Committee read access on request.",
         "long_text_mm4kp5en": "https://www.grofty.cc/brand-kit",
         "long_text_mm7pyz6h": "- Grofty DEX is built by the team behind the Grofty Wallet, which is already a Canton Featured App (provider grofty-wallet). - Grofty DEX is a gateway into Canton for users of other blockchains. Users on Ethereum, Base, Arbitrum, Avalanche, BNB Chain and Monad bridge USDC in as USDCx and then swap it into Canton Coin or other Canton tokens in one place, and support for more networks will keep growing. Every new user it brings in is a new Canton user. - Grofty DEX brings Canton's venues together instead of competing with them: every reachable venue is asked for a quote (Cantex, through our account and through Cantex Connect, and OneSwap) and the user chooses. The DEX has no liquidity pool of its own. - Self-custodial: users sign every transfer in their own wallet, and the DEX never holds their keys. With Cantex Connect and OneSwap, the swap goes from the user's wallet to the venue and back without passing through Grofty DEX; on the route through our Cantex account, funds sit in that account only while the swap runs. - The DEX's own validators pay the network traffic for Grofty Wallet users' swaps, so users pay no network traffic of their own; the only charges they see are the venue's fees, our flat fee and the Grofty Wallet's own fee. - Amounts are shown exactly as the venue quotes them, without rounding, with every fee listed separately. - Every order is confirmed on our own ledger, deposits are bound one-to-one to orders, and every operator action is recorded in an audit log. - Markers are claimed conservatively: only for completed swaps by outside users whose traffic we paid, never twice for the same activity, in batches, and capped at the traffic we actually paid. The marker logic is deployed on MainNet, and claiming stays off until Featured App approval. - On TestNet, swap funding already runs through a Featured App proxy, so our application party confirms the transactions its rewards are based on. Since its TestNet right took effect, that party has received ..."
+      }
+    },
+    {
+      "id": "13374832376",
+      "name": "cLTC (Litecoin on Canton) - Greywick Digital Limited",
+      "updatedAt": "2026-10-24T04:51:04Z",
+      "values": {
+        "text_mm4k2vch": "Greywick Digital Limited",
+        "color_mm4kmej3": "1-Needs Review",
+        "long_text_mm4kq322": "greywick-cltc-issuer::12201a4d43ac9f609b10b45dce010d998141d24993fd0ea24fb0c2e593dcb47401d2",
+        "color_mm4kpp3q": "Asset Issuer",
+        "long_text_mm4khjn6": "Cumberland SV LLC (Cumberland SV LLC), final PartyID is to be confirmed after Locking is finalized (Cashen deal is finalized)",
+        "long_text_mm4km2s7": "Tokenization of assets",
+        "long_text_mm4k2537": "Bridge Litecoin to Canton",
+        "long_text_mm5hgry2": "No",
+        "long_text_mm4k4y1h": "Litecoin holders including DATs, HNWIs",
+        "long_text_mm4k15bg": "We intend to earn Featured Asset rewards from completed cLTC transfers between holders through eligible Featured Apps, and from cLTC movements settling genuine trades on compatible venues, including DvP once integrated. Rewards will reflect cLTC’s qualifying participation, the associated network traffic burn and approved asset reward weights.",
+        "long_text_mm4kh3fw": "Minting requires quorum attestations of confirmed Litecoin deposits and sufficient reserve coverage. Redemption locks cLTC before releasing Litecoin and burns the tokens only after the payout is confirmed. Transfers use Canton Token Standard interfaces.",
+        "long_text_mm4kfg50": "Activity Markers for reward attribution; Canton Coin to fund network traffic.",
+        "long_text_mm4kxcm2": "For initial planning, we assume 1–3 completed cLTC transfers or trade settlements per active user per day. Passive holders may generate no transactions. Market makers and other frequent traders may generate substantially more; we do not yet have a reliable estimate for those users.",
+        "long_text_mm4kvyjq": "A user may make several separate transfers or execute multiple trades within one round. Trading venues may also settle multiple genuine orders involving cLTC during that period.",
+        "long_text_mm4k1cm0": "Approximately linearly with active users at a stable activity rate. Trading activity may vary with market conditions, liquidity and venue integrations, so registered user count alone will not determine transaction volume.",
+        "long_text_mm4kfkwn": "First expected customers are market makers, liquidity providers, arbitrageurs. Expected go live date November 1st.",
+        "long_text_mm4k6q73": "FA rewards are a planned source of funding for operating costs, including independent security audits. Without FA status, we would need alternative funding to cover those costs and would reassess our operating plans accordingly.",
+        "long_text_mm4kwxt1": "Issuance requires customer compliance approval, confirmed Litecoin deposits and independent quorum attestations. Ledger authorization and deposit-consumption checks prevent unauthorized transfers and repeat minting against the same deposit. Failed commands commit no activity markers. These controls do not automatically detect circular transfers or common ownership across different parties. We do not currently claim automated wash-trading detection. But it can be implemented on a request.",
+        "long_text_mm7pyz6h": "Greywick is partnering with official Litecoin Foundation"
+      }
+    },
+    {
+      "id": "13374874349",
+      "name": "Fluvia Wallet - Maouam Nodelab",
+      "updatedAt": "2026-10-24T04:51:14Z",
+      "values": {
+        "text_mm4k2vch": "Maouam Nodelab",
+        "color_mm4kmej3": "1-Needs Review",
+        "long_text_mm4kq322": "fluvia-wallet::12206cd9dd2bb762d09590b47d1a810d3db3775028627f75212977f7d691ad5950be",
+        "color_mm4kpp3q": "Non-Issuer",
+        "long_text_mm4khjn6": "TBA",
+        "long_text_mm4km2s7": "Maouam Nodelab is a blockchain infrastructure team with experience running validators, relayers and RPC services across many networks, with 24/7 monitoring. Our focus now is Canton Network: we run two MainNet validators of our own and are building Fluvia as our main product. Fluvia is a self-custodial browser wallet that brings new users onto Canton in minutes, with no extension. From one app, users can store, send and swap tokens while comparing Cantex and OneSwap prices, and move funds from Ethereum and Base to Canton.",
+        "link_mm4kd0hk": "https://drive.google.com/drive/folders/1GWObQfG3ugREQi8FlS2drheJc0SmpcT3?usp=sharing",
+        "link_mm4kmq24": "https://fluvia-labs.com",
+        "link_mm4kqtfa": "https://drive.google.com/drive/folders/10yKrHiof_7tijLhXzU14GgTJERvnSgL5?usp=sharing",
+        "long_text_mm4k2537": "Fluvia is a self-custodial Canton wallet that runs directly in the browser at https://fluvia-labs.com. Nothing needs to be installed. In Fluvia, users can: Store, send and receive Canton Coin (CC), USDCx and other Canton tokens via Token Standard V2 (CIP-0112). Enable pre-approval so incoming tokens are accepted immediately, with no extra step. Swap tokens after comparing Cantex and OneSwap side by side, with all fees and the amount to be received shown before confirmation. Move funds from EVM to Canton: ETH from Ethereum and Base, and USDC from Ethereum, received as CC or USDCx. Connect to Canton dApps via the CIP-0103 standard, with approval in a Fluvia popup window. Wallet keys are created from a 24-word recovery phrase on the user's device and stored there encrypted; keys are never sent to our servers. Users confirm every transaction with their wallet password or passkey, even while the wallet is unlocked.",
+        "long_text_mm5hgry2": "No. Fluvia is built for Canton Network and runs only on Canton MainNet.",
+        "long_text_mm4k4y1h": "Fluvia is designed for three groups of users: Canton users who want a practical wallet without a browser extension. Ethereum and Base users who want to move funds to Canton. Fluvia is a one-step entry point: bridge from an EVM chain, then receive CC or USDCx in the same app. Canton dApp users who need a CIP-0103-compliant wallet. During the launch phase, access is by invite code. Prospective users without a code can request access, and our team reviews every request.",
+        "long_text_mm4k15bg": "Markers are only awarded for activity that the user signs in their own wallet and whose traffic is paid by our validator: Sending tokens to a party owned by someone else. Swap funding transfers, via either Cantex or OneSwap. A marker is only created after the transfer completes, at most one per transaction. Transactions run by the Fluvia system, fee transfers, sends to the user's own wallets, and offers that are rejected or withdrawn do not earn a marker.",
+        "long_text_mm4kh3fw": "Every transaction follows three steps: the backend prepares the transaction, the wallet signs it on the user's device, then the backend submits it to the validator. Pre-signing checks: the wallet compares the transaction contents with the user's input and refuses to sign if the recipient, amount, token, chain or fee differs. The wallet also asks for the password or passkey on every transaction, even while the wallet is unlocked. Contracts: transfers use Token Standard V2 (CIP-0112), or TransferPreapproval for CC to recipients that have a pre-approval. Fluvia uses only standard Splice and Digital Asset packages, with no custom Daml. Wallet setup: when the wallet is created, the user signs the CC pre-approval, the USDCx registration, and a balance-merge permission (MergeDelegation). This last permission lets our validator merge small balances within the user's own party without a new signature. Merging never moves funds to another party. Fees: the Fluvia fee is paid in CC and set in line with traffic costs. It is sent as a separate CC transfer before the main transaction and is always visible before the user signs. dApps: every dApp request opens a Fluvia popup. The key is only used after the user taps approve, and the dApp can only read data belonging to that wallet. Multihosting and failover: every wallet is multihosted on both of our validators. If the primary validator is unreachable, the backend automatically submits the transaction through the second validator. Markers: created by the Fluvia app party via BatchedMarkersProxy_CreateMarkersV2, in a transaction separate from the user's transaction.",
+        "long_text_mm4kfg50": "Activity Markers (CIP-0047), in line with the current MainNet reward model. How it is integrated: Once an eligible user transaction completes, the backend records it exactly once, keyed by that transaction's update ID. On a schedule, the Fluvia app party creates markers for those records via BatchedMarkersProxy_CreateMarkersV2, using Fluvia's FeaturedAppRight. Markers are always created in a separate transaction, never inside the user's transaction. The Fluvia app party is the sole beneficiary, with a weight of 1.0 per activity. All components are already deployed on MainNet. Markers start being created as soon as Featured App status is granted. For traffic-based rewards (CIP-0104), the app party must be a confirmer on the user's transaction. Fluvia meets this requirement through WalletUserProxy, the standard Splice featured app proxy contract, with the Fluvia app party as provider. The contract is already available on MainNet. Once CIP-0104 takes effect, transactions users make through Fluvia are submitted via this proxy, so the Fluvia app party confirms them as well.",
+        "long_text_mm4kxcm2": "About 1 to 3 transactions per active user per day, made up of 1 to 2 token sends and up to 1 swap funding.",
+        "long_text_mm4kvyjq": "When a user sends tokens to several recipients in a row, or swaps several assets in a row, including funds that just arrived from the bridge. Every transaction still requires a signature with the password or passkey and pays a fee. The system limits each user to at most 2 activities per 5 minutes, so at most about 4 transactions in one 10-minute round.",
+        "long_text_mm4k1cm0": "Linearly. Transactions in Fluvia are always initiated by users, not by the system, and each user is limited to 2 activities per 5 minutes, so volume rises with the number of active users, not faster. We grow the user base itself gradually through invite codes, with EVM users arriving via the bridge as the next source of new users.",
+        "long_text_mm4kfkwn": "Fluvia has been live since 09 October 2026. Our first users are Canton users we invited with invite codes. Next, we are opening access to Ethereum and Base users arriving via the bridge, followed by dApp users connecting through CIP-0103.",
+        "long_text_mm4k6q73": "Fluvia keeps running, but app rewards are part of how we plan to operate. Our validator pays network traffic for every Fluvia user transaction, and app rewards would cover most of that cost. The rest of our operations is funded by small fees on token sends, swaps and bridges, set in line with traffic costs and always shown before the user signs. Without Featured App status, we would have to raise fees to cover the traffic our validator pays and our server costs. With it, fees can stay low and we can keep bringing new users to Canton.",
+        "long_text_mm4kwxt1": "Yes. The controls are layered. Accounts: Sign-up requires an invite code and email verification. Each code has a usage limit and can be given an expiry date. User funds can only move to another party with a signature from the user's device, and every signature requires the password or passkey. Fluvia cannot move user funds on its own. Transactions: Every transaction pays a fee in CC and must meet a minimum amount, so repeated small transactions profit no one. Each user is limited to 2 activities per 5 minutes. The gateway limits each IP address to 300 requests per minute, with stricter limits for login, sign-up and password reset. Sends to the user's own party are rejected. Every swap is bound to a single funding transfer through its order memo, and one deposit can fund only one order. Rewards: A marker is only created after the transfer completes. Offers that are rejected, withdrawn or expired do not earn a marker. No markers for Fluvia parties, team accounts, sends between wallets owned by the same person, activity under USD 5, activity that reverses an earlier activity within 24 hours, or transactions that already contain a featured CC transfer. At most 10 marker-earning activities per user per day, and one marker per transaction. Compliance reports detect wallets sending back and forth to each other and duplicate claims, which our team then reviews. Users receive no rewards or rebates of any kind, so there is no incentive to create transactions for rewards.",
+        "long_text_mm4khbeg": "Our repository is private. The Committee can get read access whenever needed.",
+        "long_text_mm4kp5en": "https://drive.google.com/drive/folders/1GWObQfG3ugREQi8FlS2drheJc0SmpcT3?usp=sharing",
+        "long_text_mm7pyz6h": "No extension: Fluvia runs directly in the browser, so new users can get started in minutes. Keys stay on the device: wallet keys never leave the user's device, and every transaction is confirmed with a password or passkey. Reliable: wallets are multihosted with automatic failover that has been tested on MainNet. Gateway from EVM: Ethereum and Base users can enter Canton without leaving the app, and bridged funds arrive automatically. Price choice for users: swaps compare Cantex and OneSwap side by side. Latest standard: token transfers use Token Standard V2 (CIP-0112). Transparent fees: fees are always visible before the user signs. Careful rewards: markers only for real user activity, and active only after approval."
       }
     }
   ]
