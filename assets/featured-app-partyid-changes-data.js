@@ -1,5 +1,5 @@
 window.FEATURED_APP_PARTYID_CHANGES_DATA = {
-  "generatedAt": "2026-10-23T11:53:18.514Z",
+  "generatedAt": "2026-10-24T11:21:46.833Z",
   "columns": [
     {
       "id": "long_text_mm4kq322",
