@@ -37,7 +37,7 @@ const headerHtml = `
                     <summary class="site-nav-summary">Resources</summary>
                     <div class="site-submenu">
                       <ul class="site-submenu-list">
-                        <li><a href="featured-app-coupon-guidance.html">Coupon Guidance</a></li>
+                        <li><a href="featured-app-coupon-guidance.html">FA Guidance</a></li>
                         <li><a href="featured-app-locking-faq.html">Locking FAQ</a></li>
                         <li><a href="sv-milestone-framework.html">SV Milestone Framework</a></li>
                         <li><a href="https://github.com/canton-foundation/cips" target="_blank" rel="noopener">Canton CIPs</a></li>
@@ -91,7 +91,7 @@ const headerHtml = `
                 <details class="site-mobile-details">
                   <summary class="site-mobile-summary">Resources</summary>
                   <ul class="site-mobile-submenu">
-                    <li><a href="featured-app-coupon-guidance.html">Coupon Guidance</a></li>
+                    <li><a href="featured-app-coupon-guidance.html">FA Guidance</a></li>
                     <li><a href="featured-app-locking-faq.html">Locking FAQ</a></li>
                     <li><a href="sv-milestone-framework.html">SV Milestone Framework</a></li>
                     <li><a href="https://github.com/canton-foundation/cips" target="_blank" rel="noopener">Canton CIPs</a></li>

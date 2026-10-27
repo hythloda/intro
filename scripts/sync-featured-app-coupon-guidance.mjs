@@ -1,7 +1,8 @@
 import fs from "node:fs/promises";
 import path from "node:path";
 
-const DOC_ID = "1KJQ-T-HiO73nYMXTogGLVSu9lo9loMVgXNOosF74758";
+// Keep the existing page URL so links to the previous coupon guidance still work.
+const DOC_ID = "1pLDUen2wpEcfS2pdPtF8u8DNWVHtgb6GIDpgAeiuWGE";
 const DOC_URL = `https://docs.google.com/document/d/${DOC_ID}/edit`;
 const EXPORT_URL =
   process.env.GOOGLE_DOC_EXPORT_URL ||
@@ -45,6 +46,9 @@ function extractBody(html) {
   return match[1]
     .replace(/<script[\s\S]*?<\/script>/gi, "")
     .replace(/<!--[\s\S]*?-->/g, "")
+    // Google exports nested lists as siblings; retain their indentation.
+    .replace(/<(ul|ol)([^>]*\blst-kix_[\w]+-(\d+)\b[^>]*)>/g,
+      (_, tag, attributes, level) => `<${tag}${attributes} data-list-level="${level}">`)
     .replace(/href="https:\/\/www\.google\.com\/url\?([^"]+)"/g, (_, query) => {
       const params = new URLSearchParams(query.replace(/&amp;/g, "&"));
       const target = params.get("q");
@@ -72,7 +76,7 @@ function renderPage(bodyHtml) {
   <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/site-chrome.css">
   <script src="assets/site-chrome.js" defer></script>
-  <title>Featured App Coupon Guidance | Canton Network</title>
+  <title>Featured App Qualification and Guidance | Canton Network</title>
 
   <style>
     :root {
@@ -169,6 +173,14 @@ function renderPage(bodyHtml) {
       margin: 8px 0;
     }
 
+    .doc-content [data-list-level="1"] {
+      margin-left: 44px;
+    }
+
+    .doc-content [data-list-level="2"] {
+      margin-left: 66px;
+    }
+
     a {
       color: var(--accent-strong);
     }
@@ -226,6 +238,12 @@ function renderPage(bodyHtml) {
     .doc-content h3 {
       margin: 26px 0 10px;
       font-size: 22px;
+      color: var(--accent-strong);
+    }
+
+    .doc-content h4 {
+      margin: 24px 0 10px;
+      font-size: 19px;
       color: var(--accent-strong);
     }
 
