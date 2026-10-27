@@ -1,5 +1,5 @@
 window.FEATURED_APP_BOARD_DATA = {
-  "generatedAt": "2026-10-26T13:12:32.766Z",
+  "generatedAt": "2026-10-27T12:20:33.590Z",
   "statusColumnId": "color_mm4kmej3",
   "columns": [
     {
@@ -328,7 +328,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12954184948",
       "name": "Rapid Chain - Rapid Blockchain Technologies Ltd.",
-      "updatedAt": "2026-10-26T09:51:10Z",
+      "updatedAt": "2026-10-27T10:51:20Z",
       "values": {
         "text_mm4k2vch": "Rapid Blockchain Technologies Ltd.",
         "color_mm4kmej3": "1-Needs Review",
@@ -353,7 +353,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12959523630",
       "name": "MetCredX - NIPRO TECHNOLOGIES LIMITED",
-      "updatedAt": "2026-10-26T11:51:07Z",
+      "updatedAt": "2026-10-27T11:51:05Z",
       "values": {
         "text_mm4k2vch": "NIPRO TECHNOLOGIES LIMITED",
         "color_mm4kmej3": "1-Needs Review",
@@ -867,7 +867,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12959522895",
       "name": "ccledger - Blueprint Infrastructure, LLC",
-      "updatedAt": "2026-10-26T11:51:12Z",
+      "updatedAt": "2026-10-27T09:00:37Z",
       "values": {
         "text_mm4k2vch": "Blueprint Infrastructure, LLC",
         "color_mm4kmej3": "1-Needs Review",
@@ -1188,7 +1188,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12870058108",
       "name": "R1M Sentinel - R1M",
-      "updatedAt": "2026-10-26T04:00:17Z",
+      "updatedAt": "2026-10-27T09:00:38Z",
       "values": {
         "text_mm4k2vch": "R1M",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -1774,7 +1774,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12791057047",
       "name": "OS Ledger - Outersunset",
-      "updatedAt": "2026-10-26T04:00:19Z",
+      "updatedAt": "2026-10-27T09:00:40Z",
       "values": {
         "text_mm4k2vch": "Outersunset",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -2248,7 +2248,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12769413819",
       "name": "Canquest - PT JARINGAN SIMPUL TEKNOLOGI",
-      "updatedAt": "2026-10-26T04:00:21Z",
+      "updatedAt": "2026-10-27T09:00:42Z",
       "values": {
         "text_mm4k2vch": "PT JARINGAN SIMPUL TEKNOLOGI",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -2743,7 +2743,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467789103",
       "name": "Jubilee Treasury",
-      "updatedAt": "2026-10-26T04:00:23Z",
+      "updatedAt": "2026-10-27T09:00:44Z",
       "values": {
         "text_mm4k2vch": "Jubilee Treasury",
         "color_mm4kmej3": "6-Withdrawn",
@@ -2882,7 +2882,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12731951755",
       "name": "Cove Wallet API - Qasara Labs Private Limited",
-      "updatedAt": "2026-10-26T04:00:24Z",
+      "updatedAt": "2026-10-27T09:00:45Z",
       "values": {
         "text_mm4k2vch": "Qasara Labs Private Limited",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -3233,7 +3233,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12626943292",
       "name": "Yellow Card - Yellow Card Financial Inc.",
-      "updatedAt": "2026-10-26T04:00:26Z",
+      "updatedAt": "2026-10-27T09:00:47Z",
       "values": {
         "text_mm4k2vch": "Yellow Card Financial Inc.",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -3397,7 +3397,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12609616425",
       "name": "Arkhia x402 Facilitator-as-a-Service (FaaS) - Arkhia Pte Ltd",
-      "updatedAt": "2026-10-26T04:00:29Z",
+      "updatedAt": "2026-10-27T09:00:49Z",
       "values": {
         "text_mm4k2vch": "Arkhia Pte Ltd",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -3680,7 +3680,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467854321",
       "name": "Privket.com",
-      "updatedAt": "2026-10-26T04:00:30Z",
+      "updatedAt": "2026-10-27T09:00:50Z",
       "values": {
         "text_mm4k2vch": "Privket",
         "color_mm4kmej3": "6-Withdrawn",
@@ -3705,7 +3705,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12568365683",
       "name": "Synfin - Cayvox Labs",
-      "updatedAt": "2026-10-26T04:00:32Z",
+      "updatedAt": "2026-10-27T09:00:52Z",
       "values": {
         "text_mm4k2vch": "Cayvox Labs",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -3814,7 +3814,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12471377959",
       "name": "OpenBaskets - BlockxAI Limited",
-      "updatedAt": "2026-10-26T04:00:36Z",
+      "updatedAt": "2026-10-27T09:00:53Z",
       "values": {
         "text_mm4k2vch": "BlockxAI Limited",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -4270,7 +4270,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467790154",
       "name": "Ov Defi",
-      "updatedAt": "2026-10-26T04:00:38Z",
+      "updatedAt": "2026-10-27T09:00:55Z",
       "values": {
         "text_mm4k2vch": "OneNov",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -4350,7 +4350,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467789257",
       "name": "Saxon Automate / Canton Keeper",
-      "updatedAt": "2026-10-26T04:00:39Z",
+      "updatedAt": "2026-10-27T09:00:56Z",
       "values": {
         "text_mm4k2vch": "Saxon",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -4471,7 +4471,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467790155",
       "name": "Mperps",
-      "updatedAt": "2026-10-26T04:00:41Z",
+      "updatedAt": "2026-10-27T09:00:58Z",
       "values": {
         "text_mm4k2vch": "Lemongrass IT Services LLC-Fz",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -4649,7 +4649,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467790000",
       "name": "BENJI",
-      "updatedAt": "2026-10-26T04:00:43Z",
+      "updatedAt": "2026-10-27T09:00:59Z",
       "values": {
         "text_mm4k2vch": "Franklin Templeton",
         "color_mm4kmej3": "3-CIP-0116-paused",
@@ -4676,7 +4676,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467790006",
       "name": "CC Ledger",
-      "updatedAt": "2026-10-26T04:00:44Z",
+      "updatedAt": "2026-10-27T09:01:01Z",
       "values": {
         "text_mm4k2vch": "Blueprint Infrastructure, LLC",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -6275,7 +6275,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467847778",
       "name": "Ov Defi",
-      "updatedAt": "2026-10-26T04:00:46Z",
+      "updatedAt": "2026-10-27T12:00:41Z",
       "values": {
         "text_mm4k2vch": "OneNov",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -6830,7 +6830,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467834325",
       "name": "ChainSafe x402 Global Facilitator",
-      "updatedAt": "2026-10-26T04:00:47Z",
+      "updatedAt": "2026-10-27T12:00:42Z",
       "values": {
         "text_mm4k2vch": "ChainSafe",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -6888,7 +6888,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467834326",
       "name": "Squads Non-Custodial Wallet",
-      "updatedAt": "2026-10-26T04:00:49Z",
+      "updatedAt": "2026-10-27T12:00:44Z",
       "values": {
         "text_mm4k2vch": "SQUADS",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -6915,7 +6915,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467783449",
       "name": "Mperps",
-      "updatedAt": "2026-10-26T04:00:51Z",
+      "updatedAt": "2026-10-27T12:00:45Z",
       "values": {
         "text_mm4k2vch": "Lemongrass IT Services LLC-Fz",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -6974,7 +6974,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467783450",
       "name": "Canquest",
-      "updatedAt": "2026-10-26T04:00:52Z",
+      "updatedAt": "2026-10-27T12:00:47Z",
       "values": {
         "text_mm4k2vch": "Canquest",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -7554,7 +7554,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467838018",
       "name": "Ekiden",
-      "updatedAt": "2026-10-26T04:00:54Z",
+      "updatedAt": "2026-10-27T12:00:49Z",
       "values": {
         "text_mm4k2vch": "Allspark Markets Ltd.",
         "color_mm4kmej3": "2-Approved",
@@ -7608,7 +7608,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467856988",
       "name": "MEME token and Coinflip",
-      "updatedAt": "2026-10-26T04:00:55Z",
+      "updatedAt": "2026-10-27T12:00:51Z",
       "values": {
         "text_mm4k2vch": "Archerswap",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -7637,7 +7637,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467783446",
       "name": "FlowRyd",
-      "updatedAt": "2026-10-26T04:00:57Z",
+      "updatedAt": "2026-10-27T12:00:52Z",
       "values": {
         "text_mm4k2vch": "Towler Enterprises",
         "color_mm4kmej3": "2-Approved",
@@ -8029,7 +8029,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467847770",
       "name": "VAULT",
-      "updatedAt": "2026-10-26T04:00:58Z",
+      "updatedAt": "2026-10-27T12:00:54Z",
       "values": {
         "text_mm4k2vch": "HighTower",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -8091,7 +8091,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467856986",
       "name": "HydraX",
-      "updatedAt": "2026-10-26T04:00:59Z",
+      "updatedAt": "2026-10-27T12:00:56Z",
       "values": {
         "text_mm4k2vch": "HydraX",
         "color_mm4kmej3": "2-Approved",
@@ -8528,7 +8528,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467824052",
       "name": "Canquest",
-      "updatedAt": "2026-10-26T04:01:04Z",
+      "updatedAt": "2026-10-27T12:00:57Z",
       "values": {
         "text_mm4k2vch": "Naxweb",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -8588,7 +8588,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467824053",
       "name": "Deploi Credit Market",
-      "updatedAt": "2026-10-26T04:01:09Z",
+      "updatedAt": "2026-10-27T12:01:01Z",
       "values": {
         "text_mm4k2vch": "Deploi",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -8648,7 +8648,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467824055",
       "name": "AUROX on Canton for featured app",
-      "updatedAt": "2026-10-26T04:01:10Z",
+      "updatedAt": "2026-10-27T12:01:03Z",
       "values": {
         "text_mm4k2vch": "International Institute of Blockchain Advanced Technology",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -9475,7 +9475,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467825386",
       "name": "Agora: Survey & Vote",
-      "updatedAt": "2026-10-26T04:01:11Z",
+      "updatedAt": "2026-10-27T12:01:04Z",
       "values": {
         "text_mm4k2vch": "Agora: Survey & Vote",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -9798,7 +9798,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467832618",
       "name": "ScopeX Rate Lock",
-      "updatedAt": "2026-10-26T04:01:13Z",
+      "updatedAt": "2026-10-27T12:01:08Z",
       "values": {
         "text_mm4k2vch": "ScopeX Money",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -10472,7 +10472,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12974668475",
       "name": "OS Ledger - Outersunset",
-      "updatedAt": "2026-10-26T11:51:27Z",
+      "updatedAt": "2026-10-27T12:01:10Z",
       "values": {
         "text_mm4k2vch": "Outersunset",
         "color_mm4kmej3": "1-Needs Review",
@@ -10499,7 +10499,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12982310839",
       "name": "Ovdefi - OneNov",
-      "updatedAt": "2026-10-26T04:01:16Z",
+      "updatedAt": "2026-10-27T12:01:12Z",
       "values": {
         "text_mm4k2vch": "OneNov",
         "color_mm4kmej3": "1-Needs Review",
@@ -10590,7 +10590,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13003184089",
       "name": "R1M Sentinel - R1M",
-      "updatedAt": "2026-10-26T04:01:17Z",
+      "updatedAt": "2026-10-27T12:01:14Z",
       "values": {
         "text_mm4k2vch": "R1M",
         "color_mm4kmej3": "1-Needs Review",
@@ -10681,7 +10681,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13023350809",
       "name": "Zabpay - DSRV",
-      "updatedAt": "2026-10-26T11:51:49Z",
+      "updatedAt": "2026-10-27T11:51:26Z",
       "values": {
         "text_mm4k2vch": "DSRV",
         "color_mm4kmej3": "1-Needs Review",
@@ -10741,7 +10741,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13036463016",
       "name": "P2P Company - P2P Company",
-      "updatedAt": "2026-10-26T03:52:25Z",
+      "updatedAt": "2026-10-27T04:54:28Z",
       "values": {
         "text_mm4k2vch": "P2P Company",
         "color_mm4kmej3": "1-Needs Review",
@@ -10771,7 +10771,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13046640623",
       "name": "Yellow Card - Yellow Card Financial Inc.",
-      "updatedAt": "2026-10-25T16:51:08Z",
+      "updatedAt": "2026-10-26T17:51:13Z",
       "values": {
         "text_mm4k2vch": "Yellow Card Financial Inc.",
         "color_mm4kmej3": "1-Needs Review",
@@ -10800,7 +10800,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13056498524",
       "name": "mperps - Lemongrass IT services LLC FZ",
-      "updatedAt": "2026-10-26T04:01:19Z",
+      "updatedAt": "2026-10-27T12:01:17Z",
       "values": {
         "text_mm4k2vch": "Lemongrass IT services LLC FZ",
         "color_mm4kmej3": "1-Needs Review",
@@ -11009,7 +11009,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13122710944",
       "name": "OneSwap Launchpad - SatsTerminal",
-      "updatedAt": "2026-10-26T04:52:37Z",
+      "updatedAt": "2026-10-27T04:54:47Z",
       "values": {
         "text_mm4k2vch": "SatsTerminal",
         "color_mm4kmej3": "1-Needs Review",
@@ -11099,7 +11099,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13167162421",
       "name": "Scopex Rate Lock - ScopeX Money",
-      "updatedAt": "2026-10-26T04:01:21Z",
+      "updatedAt": "2026-10-27T12:01:19Z",
       "values": {
         "text_mm4k2vch": "ScopeX Money",
         "color_mm4kmej3": "1-Needs Review",
@@ -11155,7 +11155,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13189277788",
       "name": "Canal - Ice Labs",
-      "updatedAt": "2026-10-26T12:52:11Z",
+      "updatedAt": "2026-10-27T11:52:11Z",
       "values": {
         "text_mm4k2vch": "Ice Labs",
         "color_mm4kmej3": "0-Locked+Needs Review",
@@ -11186,7 +11186,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13202966648",
       "name": "Meriq - Anoetic Labs LLC",
-      "updatedAt": "2026-10-25T18:51:12Z",
+      "updatedAt": "2026-10-26T19:51:32Z",
       "values": {
         "text_mm4k2vch": "Anoetic Labs LLC",
         "color_mm4kmej3": "1-Needs Review",
@@ -11246,7 +11246,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13224947645",
       "name": "ForecastDesk - Microsystems Express Telecom",
-      "updatedAt": "2026-10-26T04:01:22Z",
+      "updatedAt": "2026-10-27T12:01:21Z",
       "values": {
         "text_mm4k2vch": "Microsystems Express Telecom",
         "color_mm4kmej3": "1-Needs Review",
@@ -11304,7 +11304,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13253875306",
       "name": "cBNB - Nuxaris LLC",
-      "updatedAt": "2026-10-26T11:54:43Z",
+      "updatedAt": "2026-10-27T09:56:04Z",
       "values": {
         "text_mm4k2vch": "Nuxaris LLC",
         "color_mm4kmej3": "0-Locked+Needs Review",
@@ -11334,7 +11334,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13261982165",
       "name": "CC Space - ITRocket LLC",
-      "updatedAt": "2026-10-26T06:54:27Z",
+      "updatedAt": "2026-10-27T10:55:02Z",
       "values": {
         "text_mm4k2vch": "ITRocket LLC",
         "color_mm4kmej3": "0-Locked+Needs Review",
@@ -11395,7 +11395,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13332634664",
       "name": "Grofty Dex - Grofty Labs",
-      "updatedAt": "2026-10-26T09:54:19Z",
+      "updatedAt": "2026-10-27T09:56:31Z",
       "values": {
         "text_mm4k2vch": "Grofty Labs",
         "color_mm4kmej3": "1-Needs Review",
@@ -11426,7 +11426,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13374832376",
       "name": "cLTC (Litecoin on Canton) - Greywick Digital Limited",
-      "updatedAt": "2026-10-25T21:51:10Z",
+      "updatedAt": "2026-10-26T22:51:21Z",
       "values": {
         "text_mm4k2vch": "Greywick Digital Limited",
         "color_mm4kmej3": "1-Needs Review",
@@ -11452,7 +11452,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13374874349",
       "name": "Fluvia Wallet - Maouam Nodelab",
-      "updatedAt": "2026-10-26T04:54:34Z",
+      "updatedAt": "2026-10-27T04:57:32Z",
       "values": {
         "text_mm4k2vch": "Maouam Nodelab",
         "color_mm4kmej3": "1-Needs Review",
@@ -11478,6 +11478,65 @@ window.FEATURED_APP_BOARD_DATA = {
         "long_text_mm4khbeg": "Our repository is private. The Committee can get read access whenever needed.",
         "long_text_mm4kp5en": "https://drive.google.com/drive/folders/1GWObQfG3ugREQi8FlS2drheJc0SmpcT3?usp=sharing",
         "long_text_mm7pyz6h": "No extension: Fluvia runs directly in the browser, so new users can get started in minutes. Keys stay on the device: wallet keys never leave the user's device, and every transaction is confirmed with a password or passkey. Reliable: wallets are multihosted with automatic failover that has been tested on MainNet. Gateway from EVM: Ethereum and Base users can enter Canton without leaving the app, and bridged funds arrive automatically. Price choice for users: swaps compare Cantex and OneSwap side by side. Latest standard: token transfers use Token Standard V2 (CIP-0112). Transparent fees: fees are always visible before the user signs. Careful rewards: markers only for real user activity, and active only after approval."
+      }
+    },
+    {
+      "id": "13392332045",
+      "name": "Cohong - VN Capital",
+      "updatedAt": "2026-10-27T09:57:25Z",
+      "values": {
+        "text_mm4k2vch": "VN Capital",
+        "color_mm4kmej3": "1-Needs Review",
+        "long_text_mm4kq322": "VNCapital-validator-1::122082ce1b4e75dd486b1e8749b9fb7f09a9d40af5c4686424b41da8a41d1a426c0c",
+        "color_mm4kpp3q": "Non-Issuer",
+        "long_text_mm4khjn6": "We will lock through 7lock; everything is in place and the lock will be finalized as soon as the request to lock CC is made.",
+        "long_text_mm4km2s7": "VN Capital is crypto consulting and infrastructure company. We help individuals understand digital assets and provide dedicated physical servers for clients running nodes on various testnets and mainnets, and also host our own nodes. We have operated our own Canton MainNet validator since January 2026 on our own bare-metal hardware.",
+        "link_mm4kd0hk": "https://cohong.cc/favicon.svg",
+        "link_mm4kmq24": "https://cohong.cc",
+        "link_mm4kqtfa": "https://youtu.be/uqMH0rIYx5g",
+        "long_text_mm4k2537": "Cohong is a peer-to-peer marketplace for buying and selling Canton Network assets against local currency and stablecoins, with on-chain escrow. A seller posts an ad with their price; a buyer takes it. Both lock a small Canton Coin bond in an escrow room, the seller deposits the asset, the buyer pays the fiat directly (local bank transfer, or USDC/USDT), and the room pays the asset out when the seller confirms. Timeouts and bonds make walking away expensive, an encrypted chat lets the two sides agree the payment details, and an arbiter settles disputes. No custody account, no order book: people trade Canton Network assets with each other, and the ledger holds the money in between. Supported today: EUR, UAH, NGN, IDR, USDC and USDT. Next on the roadmap: Cohong Options, options contracts on Canton Coin and other Canton Network assets, in development and expected to go live in Q1 2027.",
+        "long_text_mm5hgry2": "No. Cohong was designed for Canton and launched directly on Canton MainNet on 6 October 2026 after development and testing on a Splice LocalNet. There is no version on another blockchain or in another production environment. VN Capital itself has run infrastructure for years (consulting and bare-metal hosting before Canton, a Canton validator since January 2026 ), but Cohong is its first Canton application.",
+        "long_text_mm4k4y1h": "- Holders of Canton Coin who want to convert part of it to local currency without a centralised exchange: validator operators and their clients, early participants, people paid in CC. - People who want to buy Canton Network assets with a bank transfer or stablecoins and hold them in their own Canton wallet, especially where exchanges do not serve their currency. - Small OTC traders and market makers who post standing ads at their own price. - Later (2027): users of Cohong Options hedging or taking positions on CC and other CN assets. Since the soft launch we have already seen meaningful activity from Indonesia, Nigeria and Ukraine, which is why IDR, NGN and UAH are among the first currencies alongside EUR. Users need a Canton wallet on any validator and a browser; they interact with Cohong purely through standard token transfers",
+        "long_text_mm4k15bg": "- Escrow deposits into rooms: maker bond, taker bond, seller funding (preapproved transfers to Cohong room parties, provider = app provider party). - Payouts out of rooms at the end of a trade: asset to the buyer, bond refunds, fee to the operator (token-standard transfers submitted by our validator). - The escrow contract lifecycle on the Global Synchronizer: ad, take, funding confirmed, paid, finalize or dispute resolution, payout executed. - From 2027: option writing, exercise and settlement in Cohong Options. All of it is genuine, user-initiated economic activity: each trade requires two different people, real CC and a real fiat payment. We detect self-trades and will add velocity limits before scaling.",
+        "long_text_mm4kh3fw": "- Own Daml package cohong-escrow (templates Ad, Trade, PayoutInstruction; LF 2.1; no Splice dependency), installed on the VNCapital validator. Signatories are only Cohong parties; users appear as plain Party fields, so users on other validators never need our package. - Self-custody external parties: cohong-operator and 20 room parties, each with its own Ed25519 key held by Cohong. Every write is an interactive submission (prepare, sign locally, execute) via the JSON Ledger API v2 of our validator. - Canton Coin only through the CIP-0056 token standard: holdings via the Holding interface, outbound transfers via the registry transfer factory, inbound via TransferPreapproval with provider VNCapital-validator-1. Deposits are detected by polling the room parties' updates; every payout is idempotent and recorded in an audit log. - Reads: ACS, updates, Scan, token registry. A TypeScript backend enforces trade rules, timers and disputes; the Daml contracts enforce the money invariants.",
+        "long_text_mm4kfg50": "Canton Coin transfers only. No Activity Markers.",
+        "long_text_mm4kxcm2": "A typical trader does 1 to 3 trades a week; each trade is about 6 CC transfers split between the two parties, so about 1 to 2 transactions per user per day averaged over the week. Active OTC makers generate 6 to 15 a day (today our top users run 1 to 2 trades a day; one did 29 trades in three weeks). Expected blend once public: about 2 transactions per active user per day.",
+        "long_text_mm4kvyjq": "- Starting a trade: posting an ad and sending the maker bond, or taking an ad and sending the taker bond, happen within minutes. A seller who takes an ad then funds it sends the bond and the funding deposit inside the 5-minute lock and 60-minute funding window. - Finishing a trade: the room pays all lines back to back (CC to the buyer, bond refunds, fee), so each trader receives one or two transfers in the same round. - Market makers with several standing ads can run up to 20 concurrent trades (one per escrow room), each producing deposits and payouts independently. - An arbiter decision on a dispute triggers a payout batch in one round.",
+        "long_text_mm4k1cm0": "Linear. Every trade has the same shape (about 6 transfers, about 13 transactions), so volume scales one to one with trades, and trades scale roughly linearly with active users. Concurrency is capped by the escrow room pool (20 rooms today); we add rooms, one party each, as demand grows. Marginally sub-linear per user as liquidity deepens, since fewer ads get reposted.",
+        "long_text_mm4kfkwn": "Cohong is already live. During the soft launch since 6 October 2026 we have seen different Canton participants, using different Canton wallet providers, trade through Cohong; our statistics show a good number of participants from Indonesia, Nigeria and Ukraine, alongside the EU. As awareness of Cohong grows we expect the next customers to be: Canton Coin holders and validator operators (and their clients) who want an exit to local currency without a centralised exchange; traders and OTC desks who want to post standing ads at their own price; people in markets without a local CC/fiat venue, where we add currencies on demand; and, as further Canton Network assets list, holders of those assets. Cohong Options on CC and other Canton Network assets follows in Q1 2027.",
+        "long_text_mm4k6q73": "Cohong would keep operating on its 0.5% fee, but development and expansion would be slower: adding escrow capacity and currencies, listing further Canton Network assets and the options product would all have to be funded from fees alone. Rewards are planned to be reinvested into the product, lower fees and liquidity, not to replace the fee.",
+        "long_text_mm4kwxt1": "Yes, by design and by economics: - Every trade is between two different identities; the escrow contract itself refuses a trade with the same party on both sides and refuses a maker taking their own ad. - Every transfer is a real token-standard Canton Coin transfer between distinct parties, tied to a specific trade: the exact tagged amount, from the party that posted the bond, inside a time window. Anything else is not credited and is never refunded, so transfers cannot be looped or faked to inflate activity. - Trading has a real cost: 5% bonds on both sides and a 0.5% fee from each side, so wash trading burns about 1% of volume on every cycle; trade size is bounded (500 to 10,000 CC). - Throughput is bounded by the rules: one trade per escrow room, 20 rooms, fixed timers for each step, so no participant can generate traffic faster than genuine trading allows. - Participants are rate-limited per identity and per IP, nicknames are server-assigned, every money movement is written to an audit log, and every dispute is reviewed by a human arbiter. - We monitor per-identity and per-party volumes and will add velocity limits and same-wallet detection (same Canton party on both sides) before scaling; any pattern that looks like reward farming is blocked, and we will share our activity data with the Foundation on request.",
+        "long_text_mm4kp5en": "https://cohong.cc/favicon.svg",
+        "long_text_mm7pyz6h": "VN Capital has been part of the Canton Network since January 2026, running our validator on our own bare-metal hardware without interruption. Beyond our own node, we provide bare-metal servers to new validators who want to run their own, and we help them set up, upgrade and monitor. Cohong is one more way we try to add value: a simple, transparent place where anyone can trade Canton Coin for their local currency , Cohong Options next year. We are grateful to be part of this network and to contribute our resources to help it expand. We would be honoured if the Foundation gave us the privilege of acting as one of its Featured Applications."
+      }
+    },
+    {
+      "id": "13392344761",
+      "name": "Tori Finance (trUSD and strUSD) - Tori (BVI) Ltd.",
+      "updatedAt": "2026-10-27T12:01:23Z",
+      "values": {
+        "text_mm4k2vch": "Tori (BVI) Ltd.",
+        "color_mm4kmej3": "1-Needs Review",
+        "long_text_mm4kq322": "tori-issuer::12209ca44a2e3b2fbe3b5696775231c97e856865b24c54741800a6801e2569290fe4",
+        "color_mm4kpp3q": "Asset Issuer",
+        "long_text_mm4khjn6": "1220b64e93db2a4d51b303309700e81776e67c115cf66b80b96fc43f7a8c09506af6::1220aa871b0fb2910f78c143b33909cb66dc41d34ef3df1c04b169517b4fd0a7a209",
+        "numeric_mm4k6919": "0.0",
+        "long_text_mm4km2s7": "Tori Finance is a synthetic dollar protocol. Its issuer, Tori (BVI) Ltd., a British Virgin Islands company, issues trUSD, a synthetic dollar minted against USDC and USDT, and strUSD, the staked vault share of trUSD, whose value follows the vault's share price. Both have been live on Ethereum since June 2026, with Ethereum as the canonical chain and Chainlink CCIP connecting other networks. Reserves are attested by Accountable (tori.accountable.capital), the core contracts were audited by Sherlock and Nethermind, and protocol administration sits behind a 3-of-5 multisig.",
+        "link_mm4kd0hk": "https://docs.tori.finance/resources/brand",
+        "link_mm4kmq24": "https://tori.finance",
+        "long_text_mm4k2537": "Tori Finance brings trUSD, its synthetic dollar, and strUSD, its staked vault share, to Canton. Tori (BVI) Ltd. issues both as CIP-0056 tokens on the Digital Asset Utility Registry, bridged from Ethereum through Chainlink CCIP. Holders move them between Ethereum and Canton from their own wallets using Tori's non-custodial web app, then hold, pay and settle them in any Canton wallet and on Canton venues.",
+        "long_text_mm5hgry2": "Yes. trUSD (0xd0580192E98eA6CEB9c7b6191Ed2E27560911697) and strUSD (0x280839980a7eD0D7717F64125fE241012E5F5815) have been live on Ethereum mainnet since June 2026, verified on Etherscan, and are connected to other networks through Chainlink CCIP with Ethereum canonical. On Canton TestNet both have run under the issuer party since 14 October 2026: Registry issuance, CCIP bridging in both directions, wallet transfers and DvP settlement.",
+        "long_text_mm4k4y1h": "(1) Existing trUSD and strUSD holders who bridge from Ethereum to hold, pay and settle on Canton. (2) Users of Canton wallets that add the tokens. (3) Users of third-party Canton venues that list them, who swap or settle them against other assets.",
+        "long_text_mm4k15bg": "Transfers and DvP settlements of trUSD and strUSD between holders, in their wallets and on third-party venues. Tori pays for no volume and generates no activity to earn rewards.",
+        "long_text_mm4kh3fw": "Both tokens are issued on the Digital Asset Utility Registry with the issuer party as instrument admin. Supply enters and leaves Canton only through Chainlink CCIP: the Canton pool mints when tokens are locked on Ethereum and burns when holders bridge back. Holders sign every transaction from their own CIP-103 wallets using the standard token APIs, and no Tori party holds holder tokens. The issuer party writes only Registry administration and pool operations.",
+        "long_text_mm4kfg50": "Activity Markers, created through the Digital Asset Registry, while MainNet runs the marker regime; traffic-based app rewards once CIP-0104 is live.",
+        "long_text_mm4kxcm2": "0.25 to 1 reward-earning transfers per active holder per day, and 1 to 5 settlements per active venue user per day.",
+        "long_text_mm4kvyjq": "Only when making distinct payments or settlements, or the steps of one, such as a two-step transfer. Tori offers no incentive to repeat or split transfers.",
+        "long_text_mm4k1cm0": "Linearly with active holders and with wallet and venue integrations.",
+        "long_text_mm4kfkwn": "Existing trUSD and strUSD holders bridging from Ethereum, and users of Canton wallets and venues that add the tokens. Canton TestNet has been live since 14 October 2026; MainNet goes live once the Registry instruments are created.",
+        "long_text_mm4k6q73": "Tori would still launch on Canton. Featured status would mainly speed up on-chain integrations and growth.",
+        "long_text_mm4kwxt1": "Yes. Tori and its affiliates generate no activity to earn rewards and pay for no volume, holders sign every transaction from their own wallets, and Tori monitors trUSD and strUSD activity for round trips, split payments and self-transfers.",
+        "long_text_mm4kp5en": "https://docs.tori.finance/resources/brand"
       }
     }
   ]
