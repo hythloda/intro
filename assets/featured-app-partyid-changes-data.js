@@ -1,5 +1,5 @@
 window.FEATURED_APP_PARTYID_CHANGES_DATA = {
-  "generatedAt": "2026-10-27T12:30:43.961Z",
+  "generatedAt": "2026-10-28T13:18:53.083Z",
   "columns": [
     {
       "id": "long_text_mm4kq322",
@@ -13,6 +13,33 @@ window.FEATURED_APP_PARTYID_CHANGES_DATA = {
     }
   ],
   "changes": [
+    {
+      "id": "ee858254-9f68-4477-9e2a-7bdc9c720557",
+      "changedAt": "2026-10-27T17:28:05.236Z",
+      "itemName": "cLTC (Litecoin on Canton) - Greywick Digital Limited",
+      "itemId": "13374832376",
+      "field": "Locking PartyIDs",
+      "previousValue": "Cumberland SV LLC (Cumberland SV LLC), final PartyID is to be confirmed after Locking is finalized (Cashen deal is finalized)",
+      "newValue": "12201::122011f3d9afe2c191758c5676b91f100423772b7de1c0568f08b252d18d72613310"
+    },
+    {
+      "id": "05b433c3-7386-40a7-9dbb-4de8e72cf846",
+      "changedAt": "2026-10-27T17:08:25.930Z",
+      "itemName": "Grofty Dex - Grofty Labs",
+      "itemId": "13332634664",
+      "field": "Locking PartyIDs",
+      "previousValue": "TBA",
+      "newValue": "23d169c2-0909-4c70-81d1-1922de6febaa::122004146d19fc36c86633aeaa7bf9b32672c0d3e127aec565f82024793efc484179"
+    },
+    {
+      "id": "3341c293-e29b-4607-a302-47db9eee58ce",
+      "changedAt": "2026-10-27T13:46:52.683Z",
+      "itemName": "Fluvia Wallet - Maouam Nodelab",
+      "itemId": "13374874349",
+      "field": "Locking PartyIDs",
+      "previousValue": "TBA",
+      "newValue": "23d169c2-0909-4c70-81d1-1922de6febaa::122008e7ee5c459f76433f560738cd4eb71e980f1e928ba46beba3553d464f7d7610"
+    },
     {
       "id": "b23d3856-e710-4ca1-b1b2-e3b6886e87a8",
       "changedAt": "2026-10-22T13:15:48.205Z",
@@ -165,33 +192,6 @@ window.FEATURED_APP_PARTYID_CHANGES_DATA = {
       "field": "Locking PartyIDs",
       "previousValue": "Account name Lock Party 70133 Party ID 23d169c2-0909-4c70-81d1-1922de6febaa::12207afc6e98a8ecf74866bfabba5ef7c6f45bbbf45bb9a5976c1d9ca53055fb0284 Organization details Organization Canton Strategic Holdings, Inc. Account name CSH Interest Collection Party ID 12204::12204386fae042f28f106036eb6a6360d9f9f5a0fedebd6afd2211323b659b4f134f Lock confirmed On-chain lock verified by Cashen Admin. Accrual begins. Aug 5, 2026 16:05",
       "newValue": "23d169c2-0909-4c70-81d1-1922de6febaa::12207afc6e98a8ecf74866bfabba5ef7c6f45bbbf45bb9a5976c1d9ca53055fb0284"
-    },
-    {
-      "id": "239ba9af-3ae3-46ec-9d8c-0f3a74b213c0",
-      "changedAt": "2026-09-29T17:29:19.713Z",
-      "itemName": "Helvex - Dream Capital",
-      "itemId": "13111369113",
-      "field": "Locking PartyIDs",
-      "previousValue": "helvex-provider-1::1220c5ac264c69e428e1064e9ca5a0b0d5be586e6befa41c133223f7e044f8b85d60",
-      "newValue": "23d169c2-0909-4c70-81d1-1922de6febaa::1220590cb7e035449c6c6adc13aa2117e6c3e0eecf852bca42777097dd459dffc9e0"
-    },
-    {
-      "id": "f8f2cd22-8968-4d23-87f4-860ffdc2c360",
-      "changedAt": "2026-09-29T17:27:36.638Z",
-      "itemName": "Float - SwapSo Inc",
-      "itemId": "13087665624",
-      "field": "Locking PartyIDs",
-      "previousValue": "We are already onboarded on Cashen and discussing a 5M lock with them. We will ensure that locking requirements are completed as per guidelines.",
-      "newValue": "cantonwallet-cashen-send-lock::12202143cc113f85b8fde95b7870c0f31a2d46f7ed1bfbc174bee557808f80dc7a95"
-    },
-    {
-      "id": "fa463589-2e28-4d4f-aaea-1e0d09d34da6",
-      "changedAt": "2026-09-29T11:58:30.995Z",
-      "itemName": "Rapid Chain - Rapid Blockchain Technologies Ltd.",
-      "itemId": "12954184948",
-      "field": "Locking PartyIDs",
-      "previousValue": "23d169c2-0909-4c70-81d1-1922de6febaa::1220f7a9536dd3ac943688bff534eb25b28046b6660b1f579d2d0d0037dacc96dcac",
-      "newValue": ""
     }
   ]
 };
