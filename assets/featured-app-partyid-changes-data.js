@@ -1,5 +1,5 @@
 window.FEATURED_APP_PARTYID_CHANGES_DATA = {
-  "generatedAt": "2026-10-29T13:27:11.057Z",
+  "generatedAt": "2026-10-30T13:15:46.115Z",
   "columns": [
     {
       "id": "long_text_mm4kq322",
@@ -13,6 +13,15 @@ window.FEATURED_APP_PARTYID_CHANGES_DATA = {
     }
   ],
   "changes": [
+    {
+      "id": "5e599597-f414-49c7-858d-f84f9e425e7d",
+      "changedAt": "2026-10-29T15:41:10.080Z",
+      "itemName": "Rapid Chain - Rapid Blockchain Technologies Ltd.",
+      "itemId": "12954184948",
+      "field": "Locking PartyIDs",
+      "previousValue": "",
+      "newValue": "23d169c2-0909-4c70-81d1-1922de6febaa::1220f7a9536dd3ac943688bff534eb25b28046b6660b1f579d2d0d0037dacc96dcac"
+    },
     {
       "id": "ee858254-9f68-4477-9e2a-7bdc9c720557",
       "changedAt": "2026-10-27T17:28:05.236Z",
@@ -183,15 +192,6 @@ window.FEATURED_APP_PARTYID_CHANGES_DATA = {
       "field": "Locking PartyIDs",
       "previousValue": "cove-pdyctwhntx::1220694ba083b3767511d89166b5421573deb96b62bad3452f9dba9335c24672e8ed",
       "newValue": "23d169c2-0909-4c70-81d1-1922de6febaa::1220e88fd2c4184da237c4d2a89f31b2f6ae2ee88c073c3824c96b812cca51ab12a1"
-    },
-    {
-      "id": "2ca186cd-60f2-4a93-b121-154ddb56f9bf",
-      "changedAt": "2026-09-29T17:30:18.838Z",
-      "itemName": "SyncVotes - WEB34EVER",
-      "itemId": "12954185167",
-      "field": "Locking PartyIDs",
-      "previousValue": "Account name Lock Party 70133 Party ID 23d169c2-0909-4c70-81d1-1922de6febaa::12207afc6e98a8ecf74866bfabba5ef7c6f45bbbf45bb9a5976c1d9ca53055fb0284 Organization details Organization Canton Strategic Holdings, Inc. Account name CSH Interest Collection Party ID 12204::12204386fae042f28f106036eb6a6360d9f9f5a0fedebd6afd2211323b659b4f134f Lock confirmed On-chain lock verified by Cashen Admin. Accrual begins. Aug 5, 2026 16:05",
-      "newValue": "23d169c2-0909-4c70-81d1-1922de6febaa::12207afc6e98a8ecf74866bfabba5ef7c6f45bbbf45bb9a5976c1d9ca53055fb0284"
     }
   ]
 };
