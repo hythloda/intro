@@ -1,5 +1,5 @@
 window.FEATURED_APP_BOARD_DATA = {
-  "generatedAt": "2026-10-30T13:03:42.810Z",
+  "generatedAt": "2026-10-31T12:41:45.149Z",
   "statusColumnId": "color_mm4kmej3",
   "columns": [
     {
@@ -328,7 +328,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12954184948",
       "name": "Rapid Chain - Rapid Blockchain Technologies Ltd.",
-      "updatedAt": "2026-10-30T12:51:18Z",
+      "updatedAt": "2026-10-31T11:51:14Z",
       "values": {
         "text_mm4k2vch": "Rapid Blockchain Technologies Ltd.",
         "color_mm4kmej3": "0-Locked+Needs Review",
@@ -355,7 +355,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12959523630",
       "name": "MetCredX - NIPRO TECHNOLOGIES LIMITED",
-      "updatedAt": "2026-10-30T12:51:24Z",
+      "updatedAt": "2026-10-31T11:51:22Z",
       "values": {
         "text_mm4k2vch": "NIPRO TECHNOLOGIES LIMITED",
         "color_mm4kmej3": "1-Needs Review",
@@ -869,7 +869,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12959522895",
       "name": "ccledger - Blueprint Infrastructure, LLC",
-      "updatedAt": "2026-10-30T12:00:23Z",
+      "updatedAt": "2026-10-31T04:51:33Z",
       "values": {
         "text_mm4k2vch": "Blueprint Infrastructure, LLC",
         "color_mm4kmej3": "1-Needs Review",
@@ -8861,10 +8861,10 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467824054",
       "name": "Grofty Wallet",
-      "updatedAt": "2026-09-22T19:18:02Z",
+      "updatedAt": "2026-10-30T18:20:39Z",
       "values": {
         "text_mm4k2vch": "Winnode",
-        "color_mm4kmej3": "2-Approved",
+        "color_mm4kmej3": "5-Revoked",
         "long_text_mm4kq322": "grofty-wallet::1220d6036f0a1d91276ce99d2b371548605c0ea2b95ab3869811e04182f8a3b8b8bb",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "23d169c2-0909-4c70-81d1-1922de6febaa::1220adf4365b15c72d4c3842daf9cc583798928819ab2131c3a073efd405e4438e3c",
@@ -10318,10 +10318,10 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467832619",
       "name": "Yapper Agent",
-      "updatedAt": "2026-09-22T19:19:08Z",
+      "updatedAt": "2026-10-30T18:20:46Z",
       "values": {
         "text_mm4k2vch": "Zamza Salim",
-        "color_mm4kmej3": "2-Approved",
+        "color_mm4kmej3": "5-Revoked",
         "long_text_mm4kq322": "yapp-apps::122021ba12f7efa39e2a35ef041c84873097bad7e22e722087f4146daf8ef6092280",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "23d169c2-0909-4c70-81d1-1922de6febaa::12200ffe8e60d0afc0358f8bb08328a47e369c6ca6494f7fc991b448c283928db10f",
@@ -10474,7 +10474,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12974668475",
       "name": "OS Ledger - Outersunset",
-      "updatedAt": "2026-10-30T12:01:49Z",
+      "updatedAt": "2026-10-30T15:51:16Z",
       "values": {
         "text_mm4k2vch": "Outersunset",
         "color_mm4kmej3": "1-Needs Review",
@@ -10592,7 +10592,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13003184089",
       "name": "R1M Sentinel - R1M",
-      "updatedAt": "2026-10-30T12:01:52Z",
+      "updatedAt": "2026-10-31T04:51:50Z",
       "values": {
         "text_mm4k2vch": "R1M",
         "color_mm4kmej3": "1-Needs Review",
@@ -10683,7 +10683,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13023350809",
       "name": "Zabpay - DSRV",
-      "updatedAt": "2026-10-30T11:51:54Z",
+      "updatedAt": "2026-10-31T04:52:12Z",
       "values": {
         "text_mm4k2vch": "DSRV",
         "color_mm4kmej3": "1-Needs Review",
@@ -10743,7 +10743,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13036463016",
       "name": "P2P Company - P2P Company",
-      "updatedAt": "2026-10-30T06:53:10Z",
+      "updatedAt": "2026-10-31T07:52:27Z",
       "values": {
         "text_mm4k2vch": "P2P Company",
         "color_mm4kmej3": "1-Needs Review",
@@ -10773,7 +10773,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13046640623",
       "name": "Yellow Card - Yellow Card Financial Inc.",
-      "updatedAt": "2026-10-30T12:52:41Z",
+      "updatedAt": "2026-10-31T11:53:26Z",
       "values": {
         "text_mm4k2vch": "Yellow Card Financial Inc.",
         "color_mm4kmej3": "1-Needs Review",
@@ -10802,7 +10802,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13056498524",
       "name": "mperps - Lemongrass IT services LLC FZ",
-      "updatedAt": "2026-10-30T12:01:55Z",
+      "updatedAt": "2026-10-31T11:53:33Z",
       "values": {
         "text_mm4k2vch": "Lemongrass IT services LLC FZ",
         "color_mm4kmej3": "1-Needs Review",
@@ -11011,7 +11011,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13122710944",
       "name": "OneSwap Launchpad - SatsTerminal",
-      "updatedAt": "2026-10-30T06:53:25Z",
+      "updatedAt": "2026-10-31T07:52:40Z",
       "values": {
         "text_mm4k2vch": "SatsTerminal",
         "color_mm4kmej3": "1-Needs Review",
@@ -11101,7 +11101,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13167162421",
       "name": "Scopex Rate Lock - ScopeX Money",
-      "updatedAt": "2026-10-30T12:02:01Z",
+      "updatedAt": "2026-10-31T04:53:07Z",
       "values": {
         "text_mm4k2vch": "ScopeX Money",
         "color_mm4kmej3": "1-Needs Review",
@@ -11157,7 +11157,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13189277788",
       "name": "Canal - Ice Labs",
-      "updatedAt": "2026-10-30T12:52:52Z",
+      "updatedAt": "2026-10-31T11:53:44Z",
       "values": {
         "text_mm4k2vch": "Ice Labs",
         "color_mm4kmej3": "0-Locked+Needs Review",
@@ -11188,7 +11188,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13202966648",
       "name": "Meriq - Anoetic Labs LLC",
-      "updatedAt": "2026-10-29T21:51:26Z",
+      "updatedAt": "2026-10-30T22:51:09Z",
       "values": {
         "text_mm4k2vch": "Anoetic Labs LLC",
         "color_mm4kmej3": "1-Needs Review",
@@ -11248,7 +11248,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13224947645",
       "name": "ForecastDesk - Microsystems Express Telecom",
-      "updatedAt": "2026-10-30T12:02:02Z",
+      "updatedAt": "2026-10-30T21:51:56Z",
       "values": {
         "text_mm4k2vch": "Microsystems Express Telecom",
         "color_mm4kmej3": "1-Needs Review",
@@ -11306,7 +11306,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13253875306",
       "name": "cBNB - Nuxaris LLC",
-      "updatedAt": "2026-10-30T09:55:18Z",
+      "updatedAt": "2026-10-31T11:56:39Z",
       "values": {
         "text_mm4k2vch": "Nuxaris LLC",
         "color_mm4kmej3": "0-Locked+Needs Review",
@@ -11336,7 +11336,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13261982165",
       "name": "CC Space - ITRocket LLC",
-      "updatedAt": "2026-10-30T09:55:26Z",
+      "updatedAt": "2026-10-31T08:54:41Z",
       "values": {
         "text_mm4k2vch": "ITRocket LLC",
         "color_mm4kmej3": "0-Locked+Needs Review",
@@ -11429,7 +11429,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13374832376",
       "name": "cLTC (Litecoin on Canton) - Greywick Digital Limited",
-      "updatedAt": "2026-10-29T18:51:49Z",
+      "updatedAt": "2026-10-30T19:51:18Z",
       "values": {
         "text_mm4k2vch": "Greywick Digital Limited",
         "color_mm4kmej3": "0-Locked+Needs Review",
@@ -11456,7 +11456,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13374874349",
       "name": "Fluvia Wallet - Maouam Nodelab",
-      "updatedAt": "2026-10-30T00:54:38Z",
+      "updatedAt": "2026-10-31T03:54:28Z",
       "values": {
         "text_mm4k2vch": "Maouam Nodelab",
         "color_mm4kmej3": "0-Locked+Needs Review",
@@ -11488,7 +11488,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13392332045",
       "name": "Cohong - VN Capital",
-      "updatedAt": "2026-10-30T12:55:12Z",
+      "updatedAt": "2026-10-31T11:57:27Z",
       "values": {
         "text_mm4k2vch": "VN Capital",
         "color_mm4kmej3": "1-Needs Review",
@@ -11518,7 +11518,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13392344761",
       "name": "Tori Finance (trUSD and strUSD) - Tori (BVI) Ltd.",
-      "updatedAt": "2026-10-30T12:02:03Z",
+      "updatedAt": "2026-10-31T06:55:02Z",
       "values": {
         "text_mm4k2vch": "Tori (BVI) Ltd.",
         "color_mm4kmej3": "1-Needs Review",
@@ -11547,7 +11547,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13413543825",
       "name": "BTC0 - OnRails Ltd",
-      "updatedAt": "2026-10-30T12:02:05Z",
+      "updatedAt": "2026-10-31T00:54:53Z",
       "values": {
         "text_mm4k2vch": "OnRails Ltd",
         "color_mm4kmej3": "0-Locked+Needs Review",
@@ -11572,6 +11572,33 @@ window.FEATURED_APP_BOARD_DATA = {
         "long_text_mm4khbeg": "n/a",
         "long_text_mm4kp5en": "n/a",
         "long_text_mm7pyz6h": "BTC0 builds on OnRails’ experience operating cETH and cSOL on MainNet, with a dedicated Featured Asset Party ID separate from those used for our other tokens"
+      }
+    },
+    {
+      "id": "13432621602",
+      "name": "Efficient Frontier Volatility Capture Vaults - Efficient Frontier (Odyssey Technologies Limited)",
+      "updatedAt": "2026-10-31T04:51:12Z",
+      "values": {
+        "text_mm4k2vch": "Efficient Frontier (Odyssey Technologies Limited)",
+        "color_mm4kmej3": "1-Needs Review",
+        "long_text_mm4kq322": "efficientfrontiers-validator-1::12201bfe3629e3446e95c3c4daaa40cb49e61100c6f2a5af8fc56592c1dd43590a4a",
+        "color_mm4kpp3q": "Non-Issuer",
+        "long_text_mm4khjn6": "efficientfrontiers-validator-1::12201bfe3629e3446e95c3c4daaa40cb49e61100c6f2a5af8fc56592c1dd43590a4a",
+        "long_text_mm4km2s7": "Efficient Frontier is an institutional crypto market maker and liquidity provider, operating through Odyssey Technologies Limited (Gibraltar). We provide market making, liquidity and option-based treasury solutions to token projects, foundations and funds. We have made markets on Canton since April 2026. For example, during the month of October we've traded over $120M on Temple, while NOT being a DMM there. Currently we're the #1 trader by volume on Temple. We run our own MainNet validator and have built a Daml-native covered-call vault product on Canton.",
+        "link_mm4kmq24": "https://efrontier.cc",
+        "long_text_mm4k2537": "Efficient Frontier Volatility Capture Vaults let Canton Coin holders earn yield on their CC through pooled, collateralised covered calls. Depositors put CC into a vault round; Efficient Frontier sets a strike and pays a USDCx premium; at expiry each depositor receives their pro-rata share of the round's CC and USDCx plus the premium. All deposits, collateral checks, premiums and settlement run on-ledger in Daml on Canton.",
+        "long_text_mm5hgry2": "The vault application is Canton-native and has not been deployed on another blockchain. The underlying business is not new: Efficient Frontier writes options for token projects and treasuries off-chain, under bilateral loan-and-option agreements. The vaults bring that activity on-ledger as a pooled, self-service product with on-chain collateral and settlement.",
+        "long_text_mm4k4y1h": "Holders of Canton Coin who want yield on it: foundations and project treasuries, funds and other institutional holders, and validators and node operators holding CC rewards. Over time, holders of other Canton-native assets as further vault types are added.",
+        "long_text_mm4k15bg": "Deposit acceptance (the operator accepts a depositor's CC into a round) and round settlement (the round is settled at expiry, after which each depositor redeems their CC and USDCx plus the premium). These are the steps that reflect real use of the vault.",
+        "long_text_mm4kh3fw": "Daml smart contracts (Vault, VaultRound, VaultShare, DepositRequest, RoundProposal, BotAuthorization) run on our own validator. Our operator service submits the operator's transactions. The round custodian, which holds depositor funds only for the life of a round, is an external party that signs through interactive submission. Every collateral adjustment must keep the round's value at the strike at or above a floor, checked by the contract. Deposits and redemptions use the Canton token standard (CC and USDCx).",
+        "long_text_mm4kfg50": "Activity Markers. Markers are built into the vault contract (version 0.3.70): one FeaturedAppActivityMarker for each accepted deposit and one for each round settlement, created by the AcceptDeposit and Settle choices using the operator's own FeaturedAppRight, which must be signed by the DSO. Only operator-controlled choices take the right, so no depositor action can create a marker. If the right is missing or revoked, deposits and settlements still go through without a marker.",
+        "long_text_mm4kxcm2": "Low and bounded by the round cycle: on average well under one rewarded transaction per user per day. Each deposit creates one marker when it is accepted, and each round creates one marker when it settles (weekly, monthly, quarterly or annual rounds).",
+        "long_text_mm4kvyjq": "A user creates more than one rewarded transaction in a round only by making more than one deposit that is accepted (topping up). Premium claims, redemptions and withdrawn deposit requests do not create markers, so repeating them does not increase rewards.",
+        "long_text_mm4k1cm0": "About linearly with the number of deposits. The settlement marker is one per round and shared by all depositors in it, so total marker activity grows a little slower than the user count.",
+        "long_text_mm4kfkwn": "[First customer names to be added.] The first MainNet round ran on 28 October 2026. We plan to open rounds to our first institutional depositors from [month], starting with existing Efficient Frontier clients among Canton projects and treasuries.",
+        "long_text_mm4k6q73": "We would still run the vaults, because the core economics come from the option strategy. Without FA status we could not pass application rewards back to depositors as extra yield, which makes the product less competitive and slows adoption, and we would grow the vaults more slowly.",
+        "long_text_mm4kwxt1": "Yes. Markers are created only when the operator accepts a real deposit (the depositor's own CC moves into a round) and when a round is settled, and only operator-controlled choices can create them. Rounds are opened by the operator. Every swap of round collateral must pass an on-ledger collateral floor check and is blocked from settlement time onwards; swaps also go through a per-round authorisation with nonce, expiry and a rate limit. We will monitor marker volume against deposits and settlements.",
+        "long_text_mm7pyz6h": "The vaults give CC holders a way to earn yield on Canton itself without moving assets off-network, which supports CC demand and on-network liquidity. The code repository is private; we can give the Committee access on request. Our main Temple account appears on Temple's leaderboard as D67939."
       }
     }
   ]
