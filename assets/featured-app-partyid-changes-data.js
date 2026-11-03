@@ -1,5 +1,5 @@
 window.FEATURED_APP_PARTYID_CHANGES_DATA = {
-  "generatedAt": "2026-11-02T16:23:14.507Z",
+  "generatedAt": "2026-11-03T14:30:11.750Z",
   "columns": [
     {
       "id": "long_text_mm4kq322",
@@ -13,6 +13,15 @@ window.FEATURED_APP_PARTYID_CHANGES_DATA = {
     }
   ],
   "changes": [
+    {
+      "id": "f8b658ca-508f-414c-89ce-bb9de99818d7",
+      "changedAt": "2026-11-02T17:48:08.036Z",
+      "itemName": "OS Ledger - Outersunset",
+      "itemId": "12974668475",
+      "field": "Locking PartyIDs",
+      "previousValue": "OSLedger-falocked::1220f1cd2f9ef6f966d492813215f34cf048a559d25d750b44c095c17fbf96afff64",
+      "newValue": "12202::122027e88aed136fa4a4959dea9caba3ac6dfb2e4ad6058d350f89ee77c66dcc890a"
+    },
     {
       "id": "5e599597-f414-49c7-858d-f84f9e425e7d",
       "changedAt": "2026-10-29T15:41:10.080Z",
@@ -183,15 +192,6 @@ window.FEATURED_APP_PARTYID_CHANGES_DATA = {
       "field": "Party ID for the Featured Application:",
       "previousValue": "maha-wallet::122025cef1bec8edc8aa50108068aa065b63dc1336f0695448dc8d669ae029e08ff8",
       "newValue": "maha-validator-1::122025cef1bec8edc8aa50108068aa065b63dc1336f0695448dc8d669ae029e08ff8"
-    },
-    {
-      "id": "c3bde7d4-b61c-439c-9424-9ce4350adeb1",
-      "changedAt": "2026-09-29T17:43:44.015Z",
-      "itemName": "Cove Wallet API - Qasara Labs Pvt Ltd",
-      "itemId": "13111331892",
-      "field": "Locking PartyIDs",
-      "previousValue": "cove-pdyctwhntx::1220694ba083b3767511d89166b5421573deb96b62bad3452f9dba9335c24672e8ed",
-      "newValue": "23d169c2-0909-4c70-81d1-1922de6febaa::1220e88fd2c4184da237c4d2a89f31b2f6ae2ee88c073c3824c96b812cca51ab12a1"
     }
   ]
 };
