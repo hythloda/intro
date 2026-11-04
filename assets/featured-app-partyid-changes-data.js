@@ -1,5 +1,5 @@
 window.FEATURED_APP_PARTYID_CHANGES_DATA = {
-  "generatedAt": "2026-11-03T14:30:11.750Z",
+  "generatedAt": "2026-11-04T14:45:01.350Z",
   "columns": [
     {
       "id": "long_text_mm4kq322",
@@ -13,6 +13,33 @@ window.FEATURED_APP_PARTYID_CHANGES_DATA = {
     }
   ],
   "changes": [
+    {
+      "id": "a54a9f1a-c790-4c8d-be7b-82bec2a15759",
+      "changedAt": "2026-11-04T13:54:20.352Z",
+      "itemName": "Tori Finance (trUSD and strUSD) - Tori (BVI) Ltd.",
+      "itemId": "13392344761",
+      "field": "Locking PartyIDs",
+      "previousValue": "1220b64e93db2a4d51b303309700e81776e67c115cf66b80b96fc43f7a8c09506af6::1220aa871b0fb2910f78c143b33909cb66dc41d34ef3df1c04b169517b4fd0a7a209",
+      "newValue": "DA lock (25M CC): 1220b64e93db2a4d51b303309700e81776e67c115cf66b80b96fc43f7a8c09506af6::1220aa871b0fb2910f78c143b33909cb66dc41d34ef3df1c04b169517b4fd0a7a209 Tori (BVI) FA locking wallet (empty for now): 0c33a821::1220ff823b0ceebbad7eae6c0784fd674e1b8ca1f5c371fa2a2a175d3e4d2364fe32"
+    },
+    {
+      "id": "9346b1f0-95d5-4bab-8412-ff2dbb278f6f",
+      "changedAt": "2026-11-03T19:59:36.160Z",
+      "itemName": "Asset Relayer",
+      "itemId": "12467789131",
+      "field": "Party ID for the Featured Application:",
+      "previousValue": "asset-relayer::1220f1b0d7a83c7eaaf6d712d95d5952ea2c801238af9c342e8d83c87dfc45c999dc",
+      "newValue": "asset-relayer::12205c6f31e4d6205df9d51dc6bec6a6c842d0f0adf20b47d9655e617a2f46ce9bb1"
+    },
+    {
+      "id": "8cac45c4-7709-447c-8813-b683942435fe",
+      "changedAt": "2026-11-03T19:43:44.225Z",
+      "itemName": "Send Wallet",
+      "itemId": "12467804380",
+      "field": "Party ID for the Featured Application:",
+      "previousValue": "send-cantonwallet-1::1220f1b0d7a83c7eaaf6d712d95d5952ea2c801238af9c342e8d83c87dfc45c999dc",
+      "newValue": "send-mainnet-1::12203aebedaea4b82fe78c5f1f641bf9a61037825b7188256de307a30ac31bcaa0f8"
+    },
     {
       "id": "f8b658ca-508f-414c-89ce-bb9de99818d7",
       "changedAt": "2026-11-02T17:48:08.036Z",
@@ -165,33 +192,6 @@ window.FEATURED_APP_PARTYID_CHANGES_DATA = {
       "field": "Locking PartyIDs",
       "previousValue": "Pending, in progress with Cashen for the CC-lock process.",
       "newValue": "23d169c2-0909-4c70-81d1-1922de6febaa::1220b6564e113fc76dd67020ef7ee401c235033e1ff9692dfd3a4098235d1ece2ea9"
-    },
-    {
-      "id": "7447cfe4-8454-44ce-892c-31db6c3dcee0",
-      "changedAt": "2026-10-02T18:49:19.536Z",
-      "itemName": "Meridiant - Catalyst Labs LLC FZ",
-      "itemId": "13076673771",
-      "field": "Locking PartyIDs",
-      "previousValue": "23d169c2-0909-4c70-81d1-1922de6febaa::1220738ce7d150434a418f461c4b04f47cf583f2accd0e224a69f97ee08d85bbb222 Ergonia (Cumberland Innovations LLC) - via cashen's marketplace",
-      "newValue": "23d169c2-0909-4c70-81d1-1922de6febaa::1220738ce7d150434a418f461c4b04f47cf583f2accd0e224a69f97ee08d85bbb222"
-    },
-    {
-      "id": "dd36a299-42b3-4d15-9b87-fe8464b101f5",
-      "changedAt": "2026-10-02T16:37:07.432Z",
-      "itemName": "arCCade swap",
-      "itemId": "12467815978",
-      "field": "Locking PartyIDs",
-      "previousValue": "23d169c2-0909-4c70-81d1-1922de6febaa::1220e5490780796d2d958148c6d13aa7a4546278bfa22d4d96b3bff13cbb6b15c568",
-      "newValue": ""
-    },
-    {
-      "id": "e2a1b9c8-41d1-47ee-9390-e8581301b5e4",
-      "changedAt": "2026-09-29T20:45:51.049Z",
-      "itemName": "Maha Wallet - PT Maha Digital Solutions",
-      "itemId": "13003182078",
-      "field": "Party ID for the Featured Application:",
-      "previousValue": "maha-wallet::122025cef1bec8edc8aa50108068aa065b63dc1336f0695448dc8d669ae029e08ff8",
-      "newValue": "maha-validator-1::122025cef1bec8edc8aa50108068aa065b63dc1336f0695448dc8d669ae029e08ff8"
     }
   ]
 };
