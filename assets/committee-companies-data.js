@@ -1,5 +1,5 @@
 window.COMMITTEE_COMPANIES_DATA = {
-  "generatedAt": "2026-11-04T14:51:36.157Z",
+  "generatedAt": "2026-11-05T14:56:28.803Z",
   "committees": {
     "faAccountability": {
       "label": "Featured Application Accountability Committee",
