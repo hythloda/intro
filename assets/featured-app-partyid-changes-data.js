@@ -1,5 +1,5 @@
 window.FEATURED_APP_PARTYID_CHANGES_DATA = {
-  "generatedAt": "2026-11-04T14:45:01.350Z",
+  "generatedAt": "2026-11-05T14:50:30.476Z",
   "columns": [
     {
       "id": "long_text_mm4kq322",
@@ -13,6 +13,15 @@ window.FEATURED_APP_PARTYID_CHANGES_DATA = {
     }
   ],
   "changes": [
+    {
+      "id": "406c0842-7e8b-46fa-bad3-74437eaf473e",
+      "changedAt": "2026-11-05T14:10:44.545Z",
+      "itemName": "Stable Coin (SBC) - Stable Coin Inc. (The Stable Coin Company)",
+      "itemId": "13284289393",
+      "field": "Party ID for the Featured Application:",
+      "previousValue": "f29bdd7a-1469-498a-ba2a-796bf5387b31 (token ID)",
+      "newValue": "party-28dc4516-b5ca-44ff-86c7-2107e90a6807::1220b8301e18aa8a401d6e34e6c20f8b0243183c514373bca8f1b6b9270246341a9e"
+    },
     {
       "id": "a54a9f1a-c790-4c8d-be7b-82bec2a15759",
       "changedAt": "2026-11-04T13:54:20.352Z",
@@ -183,15 +192,6 @@ window.FEATURED_APP_PARTYID_CHANGES_DATA = {
       "field": "Locking PartyIDs",
       "previousValue": "google-oauth2_007c115128979015450106549::12200ac965a56eff577aa6754516dbc0dd07265a0bf9361466c573e71ab7491ec369",
       "newValue": "23d169c2-0909-4c70-81d1-1922de6febaa::1220408191e246d8d4b125e8d6b67828c71e0c058fe430edf2c773d99c7c1091af07"
-    },
-    {
-      "id": "3bf1ce65-dd08-471a-83af-e92539c61dd1",
-      "changedAt": "2026-10-09T13:36:27.143Z",
-      "itemName": "Maha Wallet - PT Maha Digital Solutions",
-      "itemId": "13003182078",
-      "field": "Locking PartyIDs",
-      "previousValue": "Pending, in progress with Cashen for the CC-lock process.",
-      "newValue": "23d169c2-0909-4c70-81d1-1922de6febaa::1220b6564e113fc76dd67020ef7ee401c235033e1ff9692dfd3a4098235d1ece2ea9"
     }
   ]
 };
