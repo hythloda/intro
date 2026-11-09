@@ -1,5 +1,5 @@
 window.FEATURED_APP_PARTYID_CHANGES_DATA = {
-  "generatedAt": "2026-11-08T13:43:05.019Z",
+  "generatedAt": "2026-11-09T16:42:33.248Z",
   "columns": [
     {
       "id": "long_text_mm4kq322",
@@ -13,6 +13,15 @@ window.FEATURED_APP_PARTYID_CHANGES_DATA = {
     }
   ],
   "changes": [
+    {
+      "id": "ed57f523-38a8-4e39-869e-fd7492df440e",
+      "changedAt": "2026-11-09T14:17:40.054Z",
+      "itemName": "Nexode",
+      "itemId": "12467804368",
+      "field": "Locking PartyIDs",
+      "previousValue": "23d169c2-0909-4c70-81d1-1922de6febaa::1220f57865147cd7795b83378e0baac918519107fa07724facd823ce97b1ad64ff6e",
+      "newValue": "nexode-lock::12208428f54ef01a64f520dc586a3876f8316b03f1ec40b3764142de89dc5d34acb9"
+    },
     {
       "id": "406c0842-7e8b-46fa-bad3-74437eaf473e",
       "changedAt": "2026-11-05T14:10:44.545Z",
@@ -183,15 +192,6 @@ window.FEATURED_APP_PARTYID_CHANGES_DATA = {
       "field": "Locking PartyIDs",
       "previousValue": "12208::122083335a5c1c4026b7d496b39d7e1750732c1f70c1833c71bc181a0e85a3af1ac8",
       "newValue": "23d169c2-0909-4c70-81d1-1922de6febaa::122023bafb84b249a03f3c670cb765308977c702365d11ff6c8ed5e79019be631fb1"
-    },
-    {
-      "id": "8ddd5845-7d09-41d7-88db-bbe804036e84",
-      "changedAt": "2026-10-09T13:37:01.410Z",
-      "itemName": "CC Space",
-      "itemId": "12467847773",
-      "field": "Locking PartyIDs",
-      "previousValue": "google-oauth2_007c115128979015450106549::12200ac965a56eff577aa6754516dbc0dd07265a0bf9361466c573e71ab7491ec369",
-      "newValue": "23d169c2-0909-4c70-81d1-1922de6febaa::1220408191e246d8d4b125e8d6b67828c71e0c058fe430edf2c773d99c7c1091af07"
     }
   ]
 };
