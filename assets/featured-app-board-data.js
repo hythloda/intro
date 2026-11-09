@@ -1,5 +1,5 @@
 window.FEATURED_APP_BOARD_DATA = {
-  "generatedAt": "2026-11-08T13:33:15.012Z",
+  "generatedAt": "2026-11-09T16:30:36.000Z",
   "statusColumnId": "color_mm4kmej3",
   "columns": [
     {
@@ -328,7 +328,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12954184948",
       "name": "Rapid Chain - Rapid Blockchain Technologies Ltd.",
-      "updatedAt": "2026-11-08T12:51:03Z",
+      "updatedAt": "2026-11-09T12:51:04Z",
       "values": {
         "text_mm4k2vch": "Rapid Blockchain Technologies Ltd.",
         "color_mm4kmej3": "0-Locked+Needs Review",
@@ -355,7 +355,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12959523630",
       "name": "MetCredX - NIPRO TECHNOLOGIES LIMITED",
-      "updatedAt": "2026-11-08T11:51:08Z",
+      "updatedAt": "2026-11-09T15:52:01Z",
       "values": {
         "text_mm4k2vch": "NIPRO TECHNOLOGIES LIMITED",
         "color_mm4kmej3": "1-Needs Review",
@@ -869,7 +869,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12959522895",
       "name": "ccledger - Blueprint Infrastructure, LLC",
-      "updatedAt": "2026-11-08T12:51:22Z",
+      "updatedAt": "2026-11-09T13:51:20Z",
       "values": {
         "text_mm4k2vch": "Blueprint Infrastructure, LLC",
         "color_mm4kmej3": "1-Needs Review",
@@ -1190,7 +1190,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12870058108",
       "name": "R1M Sentinel - R1M",
-      "updatedAt": "2026-11-08T06:00:20Z",
+      "updatedAt": "2026-11-09T12:00:22Z",
       "values": {
         "text_mm4k2vch": "R1M",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -1776,7 +1776,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12791057047",
       "name": "OS Ledger - Outersunset",
-      "updatedAt": "2026-11-08T06:00:22Z",
+      "updatedAt": "2026-11-09T12:00:25Z",
       "values": {
         "text_mm4k2vch": "Outersunset",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -2250,7 +2250,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12769413819",
       "name": "Canquest - PT JARINGAN SIMPUL TEKNOLOGI",
-      "updatedAt": "2026-11-08T06:00:23Z",
+      "updatedAt": "2026-11-09T12:00:27Z",
       "values": {
         "text_mm4k2vch": "PT JARINGAN SIMPUL TEKNOLOGI",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -2745,7 +2745,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467789103",
       "name": "Jubilee Treasury",
-      "updatedAt": "2026-11-08T06:00:25Z",
+      "updatedAt": "2026-11-09T12:00:29Z",
       "values": {
         "text_mm4k2vch": "Jubilee Treasury",
         "color_mm4kmej3": "6-Withdrawn",
@@ -2884,7 +2884,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12731951755",
       "name": "Cove Wallet API - Qasara Labs Private Limited",
-      "updatedAt": "2026-11-08T06:00:26Z",
+      "updatedAt": "2026-11-09T12:00:31Z",
       "values": {
         "text_mm4k2vch": "Qasara Labs Private Limited",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -3235,7 +3235,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12626943292",
       "name": "Yellow Card - Yellow Card Financial Inc.",
-      "updatedAt": "2026-11-08T06:00:28Z",
+      "updatedAt": "2026-11-09T12:00:32Z",
       "values": {
         "text_mm4k2vch": "Yellow Card Financial Inc.",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -3399,7 +3399,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12609616425",
       "name": "Arkhia x402 Facilitator-as-a-Service (FaaS) - Arkhia Pte Ltd",
-      "updatedAt": "2026-11-08T06:00:30Z",
+      "updatedAt": "2026-11-09T12:00:34Z",
       "values": {
         "text_mm4k2vch": "Arkhia Pte Ltd",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -3682,7 +3682,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467854321",
       "name": "Privket.com",
-      "updatedAt": "2026-11-08T06:00:31Z",
+      "updatedAt": "2026-11-09T12:00:35Z",
       "values": {
         "text_mm4k2vch": "Privket",
         "color_mm4kmej3": "6-Withdrawn",
@@ -3707,7 +3707,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12568365683",
       "name": "Synfin - Cayvox Labs",
-      "updatedAt": "2026-11-08T06:00:32Z",
+      "updatedAt": "2026-11-09T12:00:36Z",
       "values": {
         "text_mm4k2vch": "Cayvox Labs",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -3816,7 +3816,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12471377959",
       "name": "OpenBaskets - BlockxAI Limited",
-      "updatedAt": "2026-11-08T06:00:34Z",
+      "updatedAt": "2026-11-09T12:00:38Z",
       "values": {
         "text_mm4k2vch": "BlockxAI Limited",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -4272,7 +4272,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467790154",
       "name": "Ov Defi",
-      "updatedAt": "2026-11-08T06:00:36Z",
+      "updatedAt": "2026-11-09T12:00:40Z",
       "values": {
         "text_mm4k2vch": "OneNov",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -4352,7 +4352,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467789257",
       "name": "Saxon Automate / Canton Keeper",
-      "updatedAt": "2026-11-08T06:00:38Z",
+      "updatedAt": "2026-11-09T12:00:41Z",
       "values": {
         "text_mm4k2vch": "Saxon",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -4473,7 +4473,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467790155",
       "name": "Mperps",
-      "updatedAt": "2026-11-08T06:00:43Z",
+      "updatedAt": "2026-11-09T12:00:43Z",
       "values": {
         "text_mm4k2vch": "Lemongrass IT Services LLC-Fz",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -4651,7 +4651,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467790000",
       "name": "BENJI",
-      "updatedAt": "2026-11-08T06:00:44Z",
+      "updatedAt": "2026-11-09T12:00:45Z",
       "values": {
         "text_mm4k2vch": "Franklin Templeton",
         "color_mm4kmej3": "3-CIP-0116-paused",
@@ -4678,7 +4678,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467790006",
       "name": "CC Ledger",
-      "updatedAt": "2026-11-08T06:00:46Z",
+      "updatedAt": "2026-11-09T12:00:46Z",
       "values": {
         "text_mm4k2vch": "Blueprint Infrastructure, LLC",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -6277,7 +6277,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467847778",
       "name": "Ov Defi",
-      "updatedAt": "2026-11-08T06:00:47Z",
+      "updatedAt": "2026-11-09T12:00:48Z",
       "values": {
         "text_mm4k2vch": "OneNov",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -6832,7 +6832,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467834325",
       "name": "ChainSafe x402 Global Facilitator",
-      "updatedAt": "2026-11-08T06:00:50Z",
+      "updatedAt": "2026-11-09T12:00:50Z",
       "values": {
         "text_mm4k2vch": "ChainSafe",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -6890,7 +6890,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467834326",
       "name": "Squads Non-Custodial Wallet",
-      "updatedAt": "2026-11-08T06:00:52Z",
+      "updatedAt": "2026-11-09T12:00:52Z",
       "values": {
         "text_mm4k2vch": "SQUADS",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -6917,7 +6917,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467783449",
       "name": "Mperps",
-      "updatedAt": "2026-11-08T06:00:53Z",
+      "updatedAt": "2026-11-09T12:01:04Z",
       "values": {
         "text_mm4k2vch": "Lemongrass IT Services LLC-Fz",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -6976,7 +6976,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467783450",
       "name": "Canquest",
-      "updatedAt": "2026-11-08T06:00:54Z",
+      "updatedAt": "2026-11-09T12:01:06Z",
       "values": {
         "text_mm4k2vch": "Canquest",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -7556,7 +7556,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467838018",
       "name": "Ekiden",
-      "updatedAt": "2026-11-08T06:00:56Z",
+      "updatedAt": "2026-11-09T12:01:08Z",
       "values": {
         "text_mm4k2vch": "Allspark Markets Ltd.",
         "color_mm4kmej3": "2-Approved",
@@ -7610,7 +7610,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467856988",
       "name": "MEME token and Coinflip",
-      "updatedAt": "2026-11-08T06:00:58Z",
+      "updatedAt": "2026-11-09T12:01:10Z",
       "values": {
         "text_mm4k2vch": "Archerswap",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -7639,7 +7639,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467783446",
       "name": "FlowRyd",
-      "updatedAt": "2026-11-08T06:00:59Z",
+      "updatedAt": "2026-11-09T12:01:12Z",
       "values": {
         "text_mm4k2vch": "Towler Enterprises",
         "color_mm4kmej3": "2-Approved",
@@ -8031,7 +8031,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467847770",
       "name": "VAULT",
-      "updatedAt": "2026-11-08T06:01:01Z",
+      "updatedAt": "2026-11-09T12:01:14Z",
       "values": {
         "text_mm4k2vch": "HighTower",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -8093,7 +8093,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467856986",
       "name": "HydraX",
-      "updatedAt": "2026-11-08T06:01:05Z",
+      "updatedAt": "2026-11-09T12:01:15Z",
       "values": {
         "text_mm4k2vch": "HydraX",
         "color_mm4kmej3": "2-Approved",
@@ -8530,7 +8530,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467824052",
       "name": "Canquest",
-      "updatedAt": "2026-11-08T06:01:07Z",
+      "updatedAt": "2026-11-09T12:01:17Z",
       "values": {
         "text_mm4k2vch": "Naxweb",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -8590,7 +8590,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467824053",
       "name": "Deploi Credit Market",
-      "updatedAt": "2026-11-08T06:01:10Z",
+      "updatedAt": "2026-11-09T12:01:21Z",
       "values": {
         "text_mm4k2vch": "Deploi",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -8650,7 +8650,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467824055",
       "name": "AUROX on Canton for featured app",
-      "updatedAt": "2026-11-08T06:01:12Z",
+      "updatedAt": "2026-11-09T12:01:22Z",
       "values": {
         "text_mm4k2vch": "International Institute of Blockchain Advanced Technology",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -9477,7 +9477,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467825386",
       "name": "Agora: Survey & Vote",
-      "updatedAt": "2026-11-08T06:01:14Z",
+      "updatedAt": "2026-11-09T12:01:24Z",
       "values": {
         "text_mm4k2vch": "Agora: Survey & Vote",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -9800,7 +9800,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467832618",
       "name": "ScopeX Rate Lock",
-      "updatedAt": "2026-11-08T06:01:15Z",
+      "updatedAt": "2026-11-09T12:01:26Z",
       "values": {
         "text_mm4k2vch": "ScopeX Money",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -10110,13 +10110,13 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467804368",
       "name": "Nexode",
-      "updatedAt": "2026-10-19T12:11:24Z",
+      "updatedAt": "2026-11-09T14:17:39Z",
       "values": {
         "text_mm4k2vch": "Nexode",
         "color_mm4kmej3": "2-Approved",
         "long_text_mm4kq322": "nexode::12208428f54ef01a64f520dc586a3876f8316b03f1ec40b3764142de89dc5d34acb9",
         "color_mm4kpp3q": "Non-Issuer",
-        "long_text_mm4khjn6": "23d169c2-0909-4c70-81d1-1922de6febaa::1220f57865147cd7795b83378e0baac918519107fa07724facd823ce97b1ad64ff6e",
+        "long_text_mm4khjn6": "nexode-lock::12208428f54ef01a64f520dc586a3876f8316b03f1ec40b3764142de89dc5d34acb9",
         "numeric_mm4k6919": "5.0",
         "long_text_mm4km2s7": "Nexode is a technology company founded by professionals with deep market and trading experience. We build institutional-grade prediction market infrastructure on the Canton Network.",
         "link_mm4kd0hk": "https://nexode.io/branding/",
@@ -10474,7 +10474,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12974668475",
       "name": "OS Ledger - Outersunset",
-      "updatedAt": "2026-11-07T22:51:14Z",
+      "updatedAt": "2026-11-09T06:51:18Z",
       "values": {
         "text_mm4k2vch": "Outersunset",
         "color_mm4kmej3": "0-Locked+Needs Review",
@@ -10501,7 +10501,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12982310839",
       "name": "Ovdefi - OneNov",
-      "updatedAt": "2026-11-08T06:01:17Z",
+      "updatedAt": "2026-11-09T12:01:48Z",
       "values": {
         "text_mm4k2vch": "OneNov",
         "color_mm4kmej3": "1-Needs Review",
@@ -10592,7 +10592,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13003184089",
       "name": "R1M Sentinel - R1M",
-      "updatedAt": "2026-11-08T12:51:43Z",
+      "updatedAt": "2026-11-09T13:51:34Z",
       "values": {
         "text_mm4k2vch": "R1M",
         "color_mm4kmej3": "1-Needs Review",
@@ -10683,7 +10683,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13023350809",
       "name": "Zabpay - DSRV",
-      "updatedAt": "2026-11-08T12:52:09Z",
+      "updatedAt": "2026-11-09T13:51:48Z",
       "values": {
         "text_mm4k2vch": "DSRV",
         "color_mm4kmej3": "1-Needs Review",
@@ -10743,7 +10743,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13036463016",
       "name": "P2P Company - P2P Company",
-      "updatedAt": "2026-11-08T12:53:04Z",
+      "updatedAt": "2026-11-09T13:52:01Z",
       "values": {
         "text_mm4k2vch": "P2P Company",
         "color_mm4kmej3": "1-Needs Review",
@@ -10773,7 +10773,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13046640623",
       "name": "Yellow Card - Yellow Card Financial Inc.",
-      "updatedAt": "2026-11-08T12:53:08Z",
+      "updatedAt": "2026-11-09T12:52:26Z",
       "values": {
         "text_mm4k2vch": "Yellow Card Financial Inc.",
         "color_mm4kmej3": "1-Needs Review",
@@ -10802,7 +10802,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13056498524",
       "name": "mperps - Lemongrass IT services LLC FZ",
-      "updatedAt": "2026-11-08T12:53:13Z",
+      "updatedAt": "2026-11-09T12:52:32Z",
       "values": {
         "text_mm4k2vch": "Lemongrass IT services LLC FZ",
         "color_mm4kmej3": "1-Needs Review",
@@ -11011,7 +11011,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13122710944",
       "name": "OneSwap Launchpad - SatsTerminal",
-      "updatedAt": "2026-11-08T12:53:23Z",
+      "updatedAt": "2026-11-09T13:52:16Z",
       "values": {
         "text_mm4k2vch": "SatsTerminal",
         "color_mm4kmej3": "1-Needs Review",
@@ -11101,7 +11101,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13167162421",
       "name": "Scopex Rate Lock - ScopeX Money",
-      "updatedAt": "2026-11-08T12:53:34Z",
+      "updatedAt": "2026-11-09T13:52:28Z",
       "values": {
         "text_mm4k2vch": "ScopeX Money",
         "color_mm4kmej3": "1-Needs Review",
@@ -11157,7 +11157,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13189277788",
       "name": "Canal - Ice Labs",
-      "updatedAt": "2026-11-08T12:53:38Z",
+      "updatedAt": "2026-11-09T12:52:36Z",
       "values": {
         "text_mm4k2vch": "Ice Labs",
         "color_mm4kmej3": "0-Locked+Needs Review",
@@ -11188,7 +11188,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13202966648",
       "name": "Meriq - Anoetic Labs LLC",
-      "updatedAt": "2026-11-08T05:53:49Z",
+      "updatedAt": "2026-11-09T05:54:36Z",
       "values": {
         "text_mm4k2vch": "Anoetic Labs LLC",
         "color_mm4kmej3": "1-Needs Review",
@@ -11248,7 +11248,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13224947645",
       "name": "ForecastDesk - Microsystems Express Telecom",
-      "updatedAt": "2026-11-08T12:54:53Z",
+      "updatedAt": "2026-11-09T12:53:46Z",
       "values": {
         "text_mm4k2vch": "Microsystems Express Telecom",
         "color_mm4kmej3": "1-Needs Review",
@@ -11306,7 +11306,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13253875306",
       "name": "cBNB - Nuxaris LLC",
-      "updatedAt": "2026-11-08T01:53:38Z",
+      "updatedAt": "2026-11-09T08:54:45Z",
       "values": {
         "text_mm4k2vch": "Nuxaris LLC",
         "color_mm4kmej3": "0-Locked+Needs Review",
@@ -11336,7 +11336,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13261982165",
       "name": "CC Space - ITRocket LLC",
-      "updatedAt": "2026-11-08T12:55:08Z",
+      "updatedAt": "2026-11-09T13:52:41Z",
       "values": {
         "text_mm4k2vch": "ITRocket LLC",
         "color_mm4kmej3": "0-Locked+Needs Review",
@@ -11429,7 +11429,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13374832376",
       "name": "cLTC (Litecoin on Canton) - Greywick Digital Limited",
-      "updatedAt": "2026-11-08T00:55:16Z",
+      "updatedAt": "2026-11-09T01:56:24Z",
       "values": {
         "text_mm4k2vch": "Greywick Digital Limited",
         "color_mm4kmej3": "0-Locked+Needs Review",
@@ -11456,7 +11456,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13374874349",
       "name": "Fluvia Wallet - Maouam Nodelab",
-      "updatedAt": "2026-11-08T00:55:19Z",
+      "updatedAt": "2026-11-08T20:51:28Z",
       "values": {
         "text_mm4k2vch": "Maouam Nodelab",
         "color_mm4kmej3": "0-Locked+Needs Review",
@@ -11488,7 +11488,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13392332045",
       "name": "Cohong - VN Capital",
-      "updatedAt": "2026-11-08T12:55:35Z",
+      "updatedAt": "2026-11-09T13:52:57Z",
       "values": {
         "text_mm4k2vch": "VN Capital",
         "color_mm4kmej3": "1-Needs Review",
@@ -11518,7 +11518,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13392344761",
       "name": "Tori Finance (trUSD and strUSD) - Tori (BVI) Ltd.",
-      "updatedAt": "2026-11-08T00:55:51Z",
+      "updatedAt": "2026-11-09T01:57:03Z",
       "values": {
         "text_mm4k2vch": "Tori (BVI) Ltd.",
         "color_mm4kmej3": "0-Locked+Needs Review",
@@ -11548,7 +11548,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13413543825",
       "name": "BTC0 - OnRails Ltd",
-      "updatedAt": "2026-11-08T10:11:41Z",
+      "updatedAt": "2026-11-09T12:01:56Z",
       "values": {
         "text_mm4k2vch": "OnRails Ltd",
         "color_mm4kmej3": "0-Locked+Needs Review",
@@ -11578,7 +11578,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13432621602",
       "name": "Efficient Frontier Volatility Capture Vaults - Efficient Frontier (Odyssey Technologies Limited)",
-      "updatedAt": "2026-11-08T12:55:42Z",
+      "updatedAt": "2026-11-09T12:54:28Z",
       "values": {
         "text_mm4k2vch": "Efficient Frontier (Odyssey Technologies Limited)",
         "color_mm4kmej3": "1-Needs Review",
@@ -11606,7 +11606,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13460684786",
       "name": "USD1 - World Liberty Financial",
-      "updatedAt": "2026-11-08T08:54:33Z",
+      "updatedAt": "2026-11-09T08:55:41Z",
       "values": {
         "text_mm4k2vch": "World Liberty Financial",
         "color_mm4kmej3": "1-Needs Review",
@@ -11637,7 +11637,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13495001147",
       "name": "Edel Stocks - Edel Finance",
-      "updatedAt": "2026-11-08T05:55:07Z",
+      "updatedAt": "2026-11-09T05:55:49Z",
       "values": {
         "text_mm4k2vch": "Edel Finance",
         "color_mm4kmej3": "1-Needs Review",
@@ -11666,7 +11666,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13495071449",
       "name": "Supanova Launchpad - SUPANOVA CORP",
-      "updatedAt": "2026-11-08T05:55:17Z",
+      "updatedAt": "2026-11-09T05:56:00Z",
       "values": {
         "text_mm4k2vch": "SUPANOVA CORP",
         "color_mm4kmej3": "1-Needs Review",
@@ -11688,6 +11688,36 @@ window.FEATURED_APP_BOARD_DATA = {
         "long_text_mm4k6q73": "It wouldn't.",
         "long_text_mm4kwxt1": "People pay a 1% swap fee and we don't share any rewards so it wouldn't be profitable.",
         "long_text_mm7pyz6h": "Spoke to Bernhard."
+      }
+    },
+    {
+      "id": "13500835544",
+      "name": "Cantumi - Cantumi",
+      "updatedAt": "2026-11-09T05:51:53Z",
+      "values": {
+        "text_mm4k2vch": "Cantumi",
+        "color_mm4kmej3": "1-Needs Review",
+        "long_text_mm4kq322": "cantumi-validator-1::1220569a49ddd835810f0b692c9c2703e69c8fbe2b009646b1743fde66837612997b",
+        "color_mm4kpp3q": "Non-Issuer",
+        "long_text_mm4khjn6": "Cantumi is arranging the 5,000,000 CC locking requirement applicable to its proposed Basic Featured App designation. The dedicated locking Party ID and supporting lock evidence will be supplied as the arrangement is finalized and before the on-chain featuring process. The locking identity will be separate from the Featured App rewards identity, the operational validator, and other holdings. The required lock will need to be maintained in accordance with the applicable rules after designation. This application does not represent the lock as already completed.",
+        "long_text_mm4km2s7": "Cantumi is a technology product team building user-controlled wallets and AI-assisted financial workflows on Canton Network. Its work focuses on bringing wallet onboarding, asset visibility, account management, and connected assistants into a consistent experience that users can operate directly. Cantumi combines browser-based wallet creation and recovery with multi-asset portfolio visibility and connections to ChatGPT and Claude. Initial asset integrations include CC, cETH, and cSOL, with support designed to expand as additional compatible Canton assets are integrated. Users retain control of wallet keys and account permissions, while Canton provides the underlying infrastructure for wallet identities, asset holdings, transaction records, and payment workflows.",
+        "link_mm4kd0hk": "https://cantumi.cc/brand-kit",
+        "link_mm4kmq24": "https://cantumi.cc/",
+        "link_mm4kqtfa": "https://drive.google.com/drive/folders/16GUGDKD2ZEV7xsdKj_hDx6vbK9ITtLnw?usp=drive_link",
+        "long_text_mm4k2537": "Cantumi enables users to access Canton wallets and connect them with familiar AI assistants through one application. A user can create or recover a wallet, review supported assets, inspect transaction activity, and connect ChatGPT or Claude to their Cantumi account. Initial integrations include CC, cETH, and cSOL, while the product is designed to accommodate additional compatible Canton tokens as integrations are added. Account access follows the permissions granted by the user, and private signing keys remain in the user's browser. The product's payment architecture follows a human-in-the-loop model in which transaction details are reviewed and wallet signing remains under owner control.",
+        "long_text_mm5hgry2": "Cantumi was developed and tested on Canton DevNet before launching on Canton MainNet. It has not been deployed on another blockchain or in an unrelated production environment. Canton is the network on which the product has been developed and introduced to users, with MainNet availability announced on 13 October 2026.",
+        "long_text_mm4k4y1h": "Cantumi's expected users are individual wallet users and AI-assistant users from the Canton, digital-asset, and broader technology communities. Initial access is provided to selected users through a waitlist so that onboarding and product evaluation can take place in a controlled environment. Initial integrations include CC, cETH, and cSOL rather than an exclusive asset list, with additional compatible Canton assets added through subsequent integrations. Access is also available to the Canton Foundation team for product evaluation.",
+        "long_text_mm4k15bg": "Qualified activity will be limited to app-attributable qualifying burn borne by Cantumi's designated operational party or validator. Under the marker regime, user-submitted wallet transactions will be considered only where permitted by the applicable guidance. After traffic-based rewards activate, ordinary user-submitted transfers will not automatically earn Cantumi wallet rewards; attribution will follow the actual protocol roles. Each eligible action must correspond to genuine application use and verifiable network activity. Artificial volume, unnecessary wallet operations, circular transfers, off-chain interactions, and duplicate reward attribution will be excluded.",
+        "long_text_mm4kh3fw": "Cantumi separates account authentication, ledger access, wallet signing, and transaction execution into distinct authorization boundaries. Authenticated account permissions and verified wallet ownership determine which Party's information can be accessed through the application and its restricted proxies. Wallet signing keys remain in the user's browser. Connected agents receive scoped account access rather than private signing keys or participant administration credentials. Owner authorization remains the boundary for wallet signing. For reward accounting, the proposed service will consume committed ledger events, preserve their update and event identifiers, and associate them with the correct application identity. It will not infer payment activity or reward eligibility merely from the presence of a generic ledger update.",
+        "long_text_mm4kfg50": "Cantumi proposes a reward-accounting pipeline with the following stages: OBSERVED → ATTRIBUTED → COST_RECONCILED → ELIGIBLE → SUBMITTED → CONFIRMED. Events that fail eligibility checks will move to EXCLUDED, while claims that miss the permitted submission window will move to EXPIRED. Each economic action will receive a persistent claim key derived from the network, ledger update identifier, economic-action identifier, and application reward role. This key will remain stable across retries, reward rounds, and attribution mechanisms so that changing the submission path cannot create a second claim for the same action. The attribution stage will verify that the action belongs to the approved Cantumi scope and that the relevant Featured App identity and rights were applicable. The cost-reconciliation stage will establish qualifying burn, distinguish application activity from unrelated validator activity, and apply the traffic-balance conditions required by the rules in force. Purchasing traffic alone will not be treated as sufficient evidence that the entire purchase qualifies for application rewards. Where manual markers remain applicable, the accounting service will maintain a reward-weight budget aligned exactly 1:1 with qualifying burn and submit eligible claims within the required two-round window. Tolerances will not be treated as additional reward budget. Canton Coin attribution and manual-marker attribution will be reconciled so that the same activity is not counted twice. Missing fee evidence, uncertain attribution, inactive rights, or an expired window will block submission. Submission will use the network-supported Featured App interface and a restricted application worker. A submission timeout will trigger reconciliation of the existing attempt before any retry. The worker will not receive user recovery words or signing keys. If MainNet activates traffic-derived activity recording that replaces manual markers, the implementation will reconcile prot...",
+        "long_text_mm4kxcm2": "Cantumi initially serves selected users admitted through its waitlist. For capacity planning, the proposed pilot model assumes one to three genuine on-chain payment instructions per active transacting user per day. This is an engineering assumption rather than a measured production average and will be revised using observed user behavior and qualified transaction records. Application views and agent queries will be measured separately.",
+        "long_text_mm4kvyjq": "A user may generate multiple transactions when they have separate payment instructions, different recipients, or distinct economic purposes. Each action will retain its own ledger references, while reward accounting will prevent duplicate claims for the same economic event. Splitting an action, retrying a request, or crossing a reward-round boundary will not by itself create another eligible claim. Transaction scheduling and batching will follow application needs rather than attempts to optimize reward issuance.",
+        "long_text_mm4k1cm0": "Transaction volume is expected to scale broadly linearly with active transacting users and their average number of genuine payment instructions. The proposed processing design will separate event ingestion, attribution, cost reconciliation, and submission so that each stage can be scaled and monitored independently. Capacity planning will track committed transactions, processing backlog, reconciliation completeness, claim age, submission failures, and deadline expiry. Increased application or agent-query traffic will not automatically increase the recorded reward-bearing transaction volume. Material changes in activity or application scope will be communicated through the applicable Accountability process.",
+        "long_text_mm4kfkwn": "Cantumi's initial users are selected individuals admitted through its waitlist, including Canton community members evaluating the wallet and connected-agent experience. Product access is also available to the Canton Foundation team for independent evaluation. Cantumi launched on Canton MainNet on 13 October 2026, with further access introduced through the controlled onboarding process. Reviewer access and demonstrations can be arranged directly with the team.",
+        "long_text_mm4k6q73": "Cantumi's initial development has been funded by the team, while its planned ongoing operating model depends on Featured App rewards. Without designation and the associated eligible rewards, Cantumi would need to reassess continued operations and postpone planned expansion. Featured App status is therefore an important funding dependency for the business rather than an additional source of income alongside an independently funded operating model.",
+        "long_text_mm4kwxt1": "Cantumi's planned ongoing operating model depends on application rewards generated through Featured App status. These rewards are intended to support eligible network activity, infrastructure, product maintenance, and continued operation.",
+        "long_text_mm4kp5en": "https://cantumi.cc/brand-kit",
+        "long_text_mm7pyz6h": "Cantumi brings wallet access and AI-assisted financial workflows into a single Canton MainNet application. Initial integrations include CC, cETH, and cSOL, while the architecture is designed to accommodate additional compatible assets as integrations are added. Access currently follows a selected-user waitlist process, with reviewer access available to the Canton Foundation team. Cantumi's initial development has been funded by the team. Its planned ongoing operating model depends on application rewards generated through Featured App status to support eligible network activity, infrastructure, product maintenance, and continued operation. Without designation and the associated eligible rewards, Cantumi would need to reassess continued operations and postpone planned expansion. Cantumi maintains its source code in private repositories under https://github.com/cantumi. This submission provides an architectural overview without presenting the repositories as public source code. The team is available to discuss an appropriate confidential technical-review arrangement. Cantumi requests Basic Featured App review based on its MainNet product, available demonstration, controlled onboarding, and proposed transaction-attribution and reward-accounting approach. The marker integration, independent audit, dedicated rewards identity, and locking arrangement are described according to their respective preparation and validation status. Cantumi will communicate material scope or activity changes and report observed counterparty non-compliance through the applicable Accountability process, particularly where reward-sharing arrangements are involved."
       }
     }
   ]
