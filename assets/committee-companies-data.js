@@ -1,5 +1,5 @@
 window.COMMITTEE_COMPANIES_DATA = {
-  "generatedAt": "2026-11-09T16:50:00.967Z",
+  "generatedAt": "2026-11-10T15:12:36.578Z",
   "committees": {
     "faAccountability": {
       "label": "Featured Application Accountability Committee",
@@ -59,6 +59,7 @@ window.COMMITTEE_COMPANIES_DATA = {
         "Cumberland SV LLC",
         "Digital Asset (Switzerland) GmbH",
         "Goldman Sachs & Co. LLC",
+        "Lithium Digital Limited",
         "MPCH",
         "Proof Group",
         "Tradeweb Markets LLC"
