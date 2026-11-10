@@ -1,5 +1,5 @@
 window.FEATURED_APP_PARTYID_CHANGES_DATA = {
-  "generatedAt": "2026-11-09T16:42:33.248Z",
+  "generatedAt": "2026-11-10T15:05:38.987Z",
   "columns": [
     {
       "id": "long_text_mm4kq322",
@@ -13,6 +13,42 @@ window.FEATURED_APP_PARTYID_CHANGES_DATA = {
     }
   ],
   "changes": [
+    {
+      "id": "ac301131-9a92-409b-989e-75e9565fa684",
+      "changedAt": "2026-11-09T21:52:46.817Z",
+      "itemName": "USYC - Circle",
+      "itemId": "12942533482",
+      "field": "Party ID for the Featured Application:",
+      "previousValue": "2d781524-5d36-450d-8ba7-183868bdbee0::12202eacbd060e2e22ab198cb9f337ccfe049e16a90968576e15b8bab4317cf17259",
+      "newValue": "2d781524-5d36-450d-8ba7-183868bdbee0::12202eacbd060e2e22ab198cb9f337ccfe049e16a90968576e15b8bab4317cf17259, 1220f432ce8f5c50f5a6fbee34352b5c08f991015fdb83b53be1c4e22955c0e3fcb1::1220ecc21d236830e71fd395ce7b99958bdea286052b12250b711703475028a66197"
+    },
+    {
+      "id": "424ecaa9-542f-4677-9d13-0d6abc36c891",
+      "changedAt": "2026-11-09T21:52:22.386Z",
+      "itemName": "Interstice Cross-Chain Swap Engine",
+      "itemId": "12467847772",
+      "field": "Locking PartyIDs",
+      "previousValue": "23d169c2-0909-4c70-81d1-1922de6febaa::1220d0a4313995ba55874231e6d68f460e901b315f66048606e6f39096016021f78b",
+      "newValue": ""
+    },
+    {
+      "id": "d7bc1658-a19b-465b-811f-0c5b8364ba18",
+      "changedAt": "2026-11-09T19:18:51.568Z",
+      "itemName": "Wintip - Winsnip",
+      "itemId": "12964664349",
+      "field": "Locking PartyIDs",
+      "previousValue": "23d169c2-0909-4c70-81d1-1922de6febaa::1220d1c5d679db4268b3587ff465d4e75ae2cba0294af6eacd788dae34ab3bfaad38",
+      "newValue": ""
+    },
+    {
+      "id": "19cadf26-d448-43c1-9881-da75c837855f",
+      "changedAt": "2026-11-09T19:17:22.655Z",
+      "itemName": "Mexc",
+      "itemId": "12467810750",
+      "field": "Locking PartyIDs",
+      "previousValue": "12201::122010da7e412c4418196b20861dcc796d334f263c5ce16bd550e59a6bc5183047f8",
+      "newValue": ""
+    },
     {
       "id": "ed57f523-38a8-4e39-869e-fd7492df440e",
       "changedAt": "2026-11-09T14:17:40.054Z",
@@ -156,42 +192,6 @@ window.FEATURED_APP_PARTYID_CHANGES_DATA = {
       "field": "Locking PartyIDs",
       "previousValue": "The final locking PartyID has not yet been issued.",
       "newValue": "23d169c2-0909-4c70-81d1-1922de6febaa::1220f050d577aac2647daaf656a42e377382024c8ea909c08812ee034cdff86872c7"
-    },
-    {
-      "id": "42df5256-12e3-47f1-adfc-65397dd124b3",
-      "changedAt": "2026-10-09T13:41:19.056Z",
-      "itemName": "CHYPE - BitSafe Validator, LLC",
-      "itemId": "13235200691",
-      "field": "Locking PartyIDs",
-      "previousValue": "12204::122043fc346e6ae6e9ac9e9efd1c1b42245e2f4854e16dcd5ae962924a9839ce6e41 This may be subject to change - will reach out if it does",
-      "newValue": "23d169c2-0909-4c70-81d1-1922de6febaa::12200f8447ecc8401a605353fe10bcb1757c2e8491c8a7d7c62e8d557f486f11f6cc"
-    },
-    {
-      "id": "ebd24a13-7be9-4615-96ff-919bfc801ec9",
-      "changedAt": "2026-10-09T13:41:03.627Z",
-      "itemName": "BETH - BitSafe Validator, LLC",
-      "itemId": "13023350936",
-      "field": "Locking PartyIDs",
-      "previousValue": "12205::12205300e977fb85e29d2ec1a4d0ce87e148d6bec97540bbc6b5f39eb6d03de85ed3",
-      "newValue": "23d169c2-0909-4c70-81d1-1922de6febaa::1220e95d8ff2d8144234a902b2047111f28bd8b305a7964eb70dee00f714d4e3448b"
-    },
-    {
-      "id": "d02a8e3c-e3a1-4e4c-9f34-58cf664e4e1c",
-      "changedAt": "2026-10-09T13:40:29.023Z",
-      "itemName": "iBTC Bitcoin Bridge",
-      "itemId": "12467824061",
-      "field": "Locking PartyIDs",
-      "previousValue": "12208::12208faed7b6894786c3b6b7f19bbafbef9a16755563d14949f144bf21bc98a74f08",
-      "newValue": "23d169c2-0909-4c70-81d1-1922de6febaa::12209b88d79d86917e99edbf97b7a521b50057a789c07a16218ac345b80db1e20719"
-    },
-    {
-      "id": "b3c05dec-6fb9-4273-adc8-56e7db429860",
-      "changedAt": "2026-10-09T13:40:18.456Z",
-      "itemName": "DecMan",
-      "itemId": "12467832779",
-      "field": "Locking PartyIDs",
-      "previousValue": "12208::122083335a5c1c4026b7d496b39d7e1750732c1f70c1833c71bc181a0e85a3af1ac8",
-      "newValue": "23d169c2-0909-4c70-81d1-1922de6febaa::122023bafb84b249a03f3c670cb765308977c702365d11ff6c8ed5e79019be631fb1"
     }
   ]
 };
