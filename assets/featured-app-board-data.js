@@ -1,5 +1,5 @@
 window.FEATURED_APP_BOARD_DATA = {
-  "generatedAt": "2026-11-11T14:29:49.223Z",
+  "generatedAt": "2026-11-12T15:22:18.803Z",
   "statusColumnId": "color_mm4kmej3",
   "columns": [
     {
@@ -328,7 +328,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12954184948",
       "name": "Rapid Chain - Rapid Blockchain Technologies Ltd.",
-      "updatedAt": "2026-11-11T10:51:04Z",
+      "updatedAt": "2026-11-12T09:51:07Z",
       "values": {
         "text_mm4k2vch": "Rapid Blockchain Technologies Ltd.",
         "color_mm4kmej3": "0-Locked+Needs Review",
@@ -355,7 +355,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12959523630",
       "name": "MetCredX - NIPRO TECHNOLOGIES LIMITED",
-      "updatedAt": "2026-11-11T08:51:08Z",
+      "updatedAt": "2026-11-12T08:51:08Z",
       "values": {
         "text_mm4k2vch": "NIPRO TECHNOLOGIES LIMITED",
         "color_mm4kmej3": "1-Needs Review",
@@ -499,7 +499,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467838069",
       "name": "Agentic Ledger",
-      "updatedAt": "2026-09-22T18:13:37Z",
+      "updatedAt": "2026-11-12T14:49:17Z",
       "values": {
         "text_mm4k2vch": "Orphil LLC (Agentic Ledger)",
         "color_mm4kmej3": "6-Withdrawn",
@@ -869,7 +869,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12959522895",
       "name": "ccledger - Blueprint Infrastructure, LLC",
-      "updatedAt": "2026-11-11T05:00:33Z",
+      "updatedAt": "2026-11-11T15:51:43Z",
       "values": {
         "text_mm4k2vch": "Blueprint Infrastructure, LLC",
         "color_mm4kmej3": "1-Needs Review",
@@ -1892,7 +1892,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467857175",
       "name": "7Trust",
-      "updatedAt": "2026-11-10T14:57:43Z",
+      "updatedAt": "2026-11-11T14:30:32Z",
       "values": {
         "text_mm4k2vch": "C7",
         "color_mm4kmej3": "2-Approved",
@@ -2803,7 +2803,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467834329",
       "name": "Modo Data Platform",
-      "updatedAt": "2026-11-10T14:57:39Z",
+      "updatedAt": "2026-11-11T14:30:32Z",
       "values": {
         "text_mm4k2vch": "Staketab",
         "color_mm4kmej3": "2-Approved",
@@ -4769,7 +4769,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467837938",
       "name": "Temple Trading Vaults",
-      "updatedAt": "2026-11-10T14:57:42Z",
+      "updatedAt": "2026-11-11T14:30:32Z",
       "values": {
         "text_mm4k2vch": "Temple",
         "color_mm4kmej3": "2-Approved",
@@ -5339,7 +5339,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467810727",
       "name": "Temple Trading",
-      "updatedAt": "2026-11-10T14:57:38Z",
+      "updatedAt": "2026-11-11T14:30:32Z",
       "values": {
         "text_mm4k2vch": "Temple",
         "color_mm4kmej3": "2-Approved",
@@ -5422,7 +5422,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13298605392",
       "name": "Temple Trading Securities",
-      "updatedAt": "2026-11-11T11:10:05Z",
+      "updatedAt": "2026-11-11T14:30:05Z",
       "values": {
         "text_mm4k2vch": "Temple",
         "color_mm4kmej3": "2-Approved",
@@ -6763,13 +6763,13 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467843225",
       "name": "Denex Gas Station",
-      "updatedAt": "2026-11-11T14:27:51Z",
+      "updatedAt": "2026-11-12T12:39:53Z",
       "values": {
         "text_mm4k2vch": "Cumberland",
         "color_mm4kmej3": "2-Approved",
         "long_text_mm4kq322": "Cumberland-GasStation-1::1220987fe52357fc17dc0a3552a691d1e1e685152bbe467acff604503cf301780bcf",
         "color_mm4kpp3q": "Non-Issuer",
-        "long_text_mm4khjn6": "1220a::1220a0e910668c66ee177c2e0f057fc0a418e749a920363e2415eb96855680b1e09e",
+        "long_text_mm4khjn6": "12202::122025237d82b4e7657e45a8fed43d7bb00893750198f5e167b55afa8e9f2393eacb",
         "numeric_mm4k6919": "5.0",
         "text_mm4k5fnm": "1220e::1220e266b5c5daf496c2408bea996a14308e5707742c297748db874355c05e07f892"
       }
@@ -7637,7 +7637,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467783446",
       "name": "FlowRyd",
-      "updatedAt": "2026-11-11T05:01:19Z",
+      "updatedAt": "2026-11-11T14:31:02Z",
       "values": {
         "text_mm4k2vch": "Towler Enterprises",
         "color_mm4kmej3": "2-Approved",
@@ -8091,7 +8091,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467856986",
       "name": "HydraX",
-      "updatedAt": "2026-11-11T05:01:22Z",
+      "updatedAt": "2026-11-11T14:31:02Z",
       "values": {
         "text_mm4k2vch": "HydraX",
         "color_mm4kmej3": "2-Approved",
@@ -8134,7 +8134,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467856987",
       "name": "Sync Insights",
-      "updatedAt": "2026-11-10T14:57:42Z",
+      "updatedAt": "2026-11-11T14:30:32Z",
       "values": {
         "text_mm4k2vch": "Chata Technologies Inc",
         "color_mm4kmej3": "2-Approved",
@@ -8560,7 +8560,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467789102",
       "name": "7LOCK",
-      "updatedAt": "2026-11-10T14:57:38Z",
+      "updatedAt": "2026-11-11T14:30:32Z",
       "values": {
         "text_mm4k2vch": "C7 Labs UK Limited",
         "color_mm4kmej3": "2-Approved",
@@ -9174,7 +9174,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467854323",
       "name": "HandlPay",
-      "updatedAt": "2026-11-11T14:29:09Z",
+      "updatedAt": "2026-11-11T14:29:32Z",
       "values": {
         "text_mm4k2vch": "HandlPay by Verso Network AG",
         "color_mm4kmej3": "2-Approved",
@@ -9232,7 +9232,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467789861",
       "name": "UnitedApp",
-      "updatedAt": "2026-11-11T14:29:12Z",
+      "updatedAt": "2026-11-11T14:29:32Z",
       "values": {
         "text_mm4k2vch": "Noders LLC",
         "color_mm4kmej3": "2-Approved",
@@ -9261,7 +9261,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467789862",
       "name": "Console Wallet",
-      "updatedAt": "2026-11-10T14:57:38Z",
+      "updatedAt": "2026-11-11T14:29:32Z",
       "values": {
         "text_mm4k2vch": "pixelplex",
         "color_mm4kmej3": "2-Approved",
@@ -9343,7 +9343,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467824050",
       "name": "DStash",
-      "updatedAt": "2026-11-10T14:57:39Z",
+      "updatedAt": "2026-11-11T14:29:32Z",
       "values": {
         "text_mm4k2vch": "EquiTek LLC",
         "color_mm4kmej3": "2-Approved",
@@ -9421,7 +9421,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467838257",
       "name": "Temple Trading Covalidation",
-      "updatedAt": "2026-11-10T14:57:40Z",
+      "updatedAt": "2026-11-11T14:30:32Z",
       "values": {
         "text_mm4k2vch": "Temple",
         "color_mm4kmej3": "2-Approved",
@@ -9446,7 +9446,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467783401",
       "name": "Vala Wallet: Canton Non Custodial Web Wallet with Featured App Integrations",
-      "updatedAt": "2026-11-11T11:08:03Z",
+      "updatedAt": "2026-11-12T12:40:05Z",
       "values": {
         "text_mm4k2vch": "Finoa Consensus Services",
         "color_mm4kmej3": "2-Approved",
@@ -9643,14 +9643,15 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467825385",
       "name": "Ubyx Clearing",
-      "updatedAt": "2026-11-10T14:57:40Z",
+      "updatedAt": "2026-11-11T15:55:37Z",
       "values": {
         "text_mm4k2vch": "Ubyx",
         "color_mm4kmej3": "2-Approved",
         "long_text_mm4kq322": "Ubyx-validator-1::12204cfc7847273bd046b70b5c5549627294a024fb2ab86f58755ee6aebeed9cc1c4",
         "color_mm4kpp3q": "Non-Issuer",
-        "long_text_mm4khjn6": "12201::122018d3b91016d411f87614aa3190c8aebbe9470c2524011e1e5abc7aedd9c722ce",
+        "long_text_mm4khjn6": "12201::122018d3b91016d411f87614aa3190c8aebbe9470c2524011e1e5abc7aedd9c722ce, 1220c::1220c2b87939ea0be35b559c1cf7907169082d1e25227e859423ce122ae4e84e5afd",
         "numeric_mm4k6919": "5.0",
+        "text_mm4k5fnm": "12204::1220497a20ccb2468f4c906644e258408b20bf4e73e38cfbed0dbfc480e4b444f1ca",
         "long_text_mm4km2s7": "Ubyx is a Super Validator on the Canton Network. The company was founded early in 2025 by Tony McLaughlin, a 30-year veteran of traditional finance with deep expertise in corporate treasury and interbank innovation.",
         "link_mm4kd0hk": "- - https://-",
         "link_mm4kmq24": "https://ubyx.xyz",
@@ -10471,7 +10472,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12974668475",
       "name": "OS Ledger - Outersunset",
-      "updatedAt": "2026-11-11T00:51:38Z",
+      "updatedAt": "2026-11-12T01:51:29Z",
       "values": {
         "text_mm4k2vch": "Outersunset",
         "color_mm4kmej3": "0-Locked+Needs Review",
@@ -10498,7 +10499,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12982310839",
       "name": "Ovdefi - OneNov",
-      "updatedAt": "2026-11-11T05:01:34Z",
+      "updatedAt": "2026-11-12T00:51:35Z",
       "values": {
         "text_mm4k2vch": "OneNov",
         "color_mm4kmej3": "1-Needs Review",
@@ -10589,7 +10590,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13003184089",
       "name": "R1M Sentinel - R1M",
-      "updatedAt": "2026-11-11T10:51:28Z",
+      "updatedAt": "2026-11-12T00:51:41Z",
       "values": {
         "text_mm4k2vch": "R1M",
         "color_mm4kmej3": "1-Needs Review",
@@ -10680,7 +10681,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13023350809",
       "name": "Zabpay - DSRV",
-      "updatedAt": "2026-11-11T09:51:42Z",
+      "updatedAt": "2026-11-12T08:51:38Z",
       "values": {
         "text_mm4k2vch": "DSRV",
         "color_mm4kmej3": "1-Needs Review",
@@ -10740,7 +10741,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13036463016",
       "name": "P2P Company - P2P Company",
-      "updatedAt": "2026-11-10T16:51:14Z",
+      "updatedAt": "2026-11-11T18:51:13Z",
       "values": {
         "text_mm4k2vch": "P2P Company",
         "color_mm4kmej3": "1-Needs Review",
@@ -10770,7 +10771,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13046640623",
       "name": "Yellow Card - Yellow Card Financial Inc.",
-      "updatedAt": "2026-11-11T10:52:26Z",
+      "updatedAt": "2026-11-12T08:52:26Z",
       "values": {
         "text_mm4k2vch": "Yellow Card Financial Inc.",
         "color_mm4kmej3": "1-Needs Review",
@@ -10799,7 +10800,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13056498524",
       "name": "mperps - Lemongrass IT services LLC FZ",
-      "updatedAt": "2026-11-11T10:52:30Z",
+      "updatedAt": "2026-11-12T09:52:25Z",
       "values": {
         "text_mm4k2vch": "Lemongrass IT services LLC FZ",
         "color_mm4kmej3": "1-Needs Review",
@@ -11008,7 +11009,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13122710944",
       "name": "OneSwap Launchpad - SatsTerminal",
-      "updatedAt": "2026-11-11T10:52:33Z",
+      "updatedAt": "2026-11-12T09:52:28Z",
       "values": {
         "text_mm4k2vch": "SatsTerminal",
         "color_mm4kmej3": "1-Needs Review",
@@ -11098,7 +11099,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13167162421",
       "name": "Scopex Rate Lock - ScopeX Money",
-      "updatedAt": "2026-11-11T05:01:39Z",
+      "updatedAt": "2026-11-11T15:52:40Z",
       "values": {
         "text_mm4k2vch": "ScopeX Money",
         "color_mm4kmej3": "1-Needs Review",
@@ -11154,7 +11155,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13189277788",
       "name": "Canal - Ice Labs",
-      "updatedAt": "2026-11-11T09:52:42Z",
+      "updatedAt": "2026-11-12T06:56:09Z",
       "values": {
         "text_mm4k2vch": "Ice Labs",
         "color_mm4kmej3": "0-Locked+Needs Review",
@@ -11185,7 +11186,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13202966648",
       "name": "Meriq - Anoetic Labs LLC",
-      "updatedAt": "2026-11-11T07:53:58Z",
+      "updatedAt": "2026-11-12T07:56:19Z",
       "values": {
         "text_mm4k2vch": "Anoetic Labs LLC",
         "color_mm4kmej3": "1-Needs Review",
@@ -11214,7 +11215,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13209206588",
       "name": "aSOL Bridge - Hellomoon",
-      "updatedAt": "2026-11-10T14:57:40Z",
+      "updatedAt": "2026-11-11T14:31:02Z",
       "values": {
         "text_mm4k2vch": "Guffey, Inc. (Hello Moon)",
         "color_mm4kmej3": "2-Approved",
@@ -11245,7 +11246,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13224947645",
       "name": "ForecastDesk - Microsystems Express Telecom",
-      "updatedAt": "2026-11-11T07:54:10Z",
+      "updatedAt": "2026-11-12T07:56:37Z",
       "values": {
         "text_mm4k2vch": "Microsystems Express Telecom",
         "color_mm4kmej3": "1-Needs Review",
@@ -11303,7 +11304,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13253875306",
       "name": "cBNB - Nuxaris LLC",
-      "updatedAt": "2026-11-11T05:56:01Z",
+      "updatedAt": "2026-11-12T00:53:59Z",
       "values": {
         "text_mm4k2vch": "Nuxaris LLC",
         "color_mm4kmej3": "0-Locked+Needs Review",
@@ -11333,7 +11334,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13261982165",
       "name": "CC Space - ITRocket LLC",
-      "updatedAt": "2026-11-11T08:53:33Z",
+      "updatedAt": "2026-11-12T07:56:49Z",
       "values": {
         "text_mm4k2vch": "ITRocket LLC",
         "color_mm4kmej3": "0-Locked+Needs Review",
@@ -11426,7 +11427,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13374832376",
       "name": "cLTC (Litecoin on Canton) - Greywick Digital Limited",
-      "updatedAt": "2026-11-11T03:53:52Z",
+      "updatedAt": "2026-11-12T03:54:14Z",
       "values": {
         "text_mm4k2vch": "Greywick Digital Limited",
         "color_mm4kmej3": "0-Locked+Needs Review",
@@ -11453,7 +11454,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13374874349",
       "name": "Fluvia Wallet - Maouam Nodelab",
-      "updatedAt": "2026-11-11T08:53:35Z",
+      "updatedAt": "2026-11-12T00:54:08Z",
       "values": {
         "text_mm4k2vch": "Maouam Nodelab",
         "color_mm4kmej3": "0-Locked+Needs Review",
@@ -11485,7 +11486,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13392332045",
       "name": "Cohong - VN Capital",
-      "updatedAt": "2026-11-11T10:53:47Z",
+      "updatedAt": "2026-11-12T09:53:41Z",
       "values": {
         "text_mm4k2vch": "VN Capital",
         "color_mm4kmej3": "1-Needs Review",
@@ -11515,7 +11516,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13392344761",
       "name": "Tori Finance (trUSD and strUSD) - Tori (BVI) Ltd.",
-      "updatedAt": "2026-11-11T03:54:22Z",
+      "updatedAt": "2026-11-12T03:54:40Z",
       "values": {
         "text_mm4k2vch": "Tori (BVI) Ltd.",
         "color_mm4kmej3": "0-Locked+Needs Review",
@@ -11545,7 +11546,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13413543825",
       "name": "BTC0 - OnRails Ltd",
-      "updatedAt": "2026-11-11T07:54:46Z",
+      "updatedAt": "2026-11-12T07:57:28Z",
       "values": {
         "text_mm4k2vch": "OnRails Ltd",
         "color_mm4kmej3": "0-Locked+Needs Review",
@@ -11575,7 +11576,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13432621602",
       "name": "Efficient Frontier Volatility Capture Vaults - Efficient Frontier (Odyssey Technologies Limited)",
-      "updatedAt": "2026-11-11T10:53:53Z",
+      "updatedAt": "2026-11-12T00:54:32Z",
       "values": {
         "text_mm4k2vch": "Efficient Frontier (Odyssey Technologies Limited)",
         "color_mm4kmej3": "1-Needs Review",
@@ -11603,7 +11604,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13460684786",
       "name": "USD1 - World Liberty Financial",
-      "updatedAt": "2026-11-11T10:54:06Z",
+      "updatedAt": "2026-11-12T12:51:13Z",
       "values": {
         "text_mm4k2vch": "World Liberty Financial",
         "color_mm4kmej3": "1-Needs Review",
@@ -11634,7 +11635,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13495001147",
       "name": "Edel Stocks - Edel Finance",
-      "updatedAt": "2026-11-11T07:55:04Z",
+      "updatedAt": "2026-11-12T07:57:49Z",
       "values": {
         "text_mm4k2vch": "Edel Finance",
         "color_mm4kmej3": "1-Needs Review",
@@ -11663,7 +11664,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13495071449",
       "name": "Supanova Launchpad - SUPANOVA CORP",
-      "updatedAt": "2026-11-11T07:55:14Z",
+      "updatedAt": "2026-11-12T07:58:02Z",
       "values": {
         "text_mm4k2vch": "SUPANOVA CORP",
         "color_mm4kmej3": "1-Needs Review",
@@ -11690,7 +11691,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13500835544",
       "name": "Cantumi - Cantumi",
-      "updatedAt": "2026-11-11T05:57:48Z",
+      "updatedAt": "2026-11-12T07:02:19Z",
       "values": {
         "text_mm4k2vch": "Cantumi",
         "color_mm4kmej3": "1-Needs Review",
@@ -11720,7 +11721,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13521841119",
       "name": "Supanova - SUPANOVA CORP",
-      "updatedAt": "2026-11-11T05:52:32Z",
+      "updatedAt": "2026-11-12T05:55:37Z",
       "values": {
         "text_mm4k2vch": "SUPANOVA CORP",
         "color_mm4kmej3": "1-Needs Review",
