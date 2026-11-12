@@ -1,5 +1,5 @@
 window.FEATURED_APP_PARTYID_CHANGES_DATA = {
-  "generatedAt": "2026-11-11T14:37:07.678Z",
+  "generatedAt": "2026-11-12T15:28:47.193Z",
   "columns": [
     {
       "id": "long_text_mm4kq322",
@@ -13,6 +13,24 @@ window.FEATURED_APP_PARTYID_CHANGES_DATA = {
     }
   ],
   "changes": [
+    {
+      "id": "aea7623d-670e-44b0-845c-f5d3e4c71bf9",
+      "changedAt": "2026-11-12T12:39:53.720Z",
+      "itemName": "Denex Gas Station",
+      "itemId": "12467843225",
+      "field": "Locking PartyIDs",
+      "previousValue": "1220a::1220a0e910668c66ee177c2e0f057fc0a418e749a920363e2415eb96855680b1e09e",
+      "newValue": "12202::122025237d82b4e7657e45a8fed43d7bb00893750198f5e167b55afa8e9f2393eacb"
+    },
+    {
+      "id": "1f437151-056d-406c-9919-ef94f5adfabd",
+      "changedAt": "2026-11-11T15:55:25.707Z",
+      "itemName": "Ubyx Clearing",
+      "itemId": "12467825385",
+      "field": "Locking PartyIDs",
+      "previousValue": "12201::122018d3b91016d411f87614aa3190c8aebbe9470c2524011e1e5abc7aedd9c722ce",
+      "newValue": "12201::122018d3b91016d411f87614aa3190c8aebbe9470c2524011e1e5abc7aedd9c722ce, 1220c::1220c2b87939ea0be35b559c1cf7907169082d1e25227e859423ce122ae4e84e5afd"
+    },
     {
       "id": "ac301131-9a92-409b-989e-75e9565fa684",
       "changedAt": "2026-11-09T21:52:46.817Z",
@@ -174,24 +192,6 @@ window.FEATURED_APP_PARTYID_CHANGES_DATA = {
       "field": "Party ID for the Featured Application:",
       "previousValue": "rails-csol::12200350ba6e96e3b701c3048b5aa013a8c1c08833e8ebf54339cff581055c29003a",
       "newValue": "onrails-provider::12200350ba6e96e3b701c3048b5aa013a8c1c08833e8ebf54339cff581055c29003a"
-    },
-    {
-      "id": "c763b69a-c26a-4f5c-95c0-7f023ff5e12b",
-      "changedAt": "2026-10-15T12:15:24.871Z",
-      "itemName": "Temple Trading (copy)",
-      "itemId": "13298605392",
-      "field": "Party ID for the Featured Application:",
-      "previousValue": "temple-mainnet-1::1220f238bb79df3efbbac2ea964c3cd501003971a2cb59043e2dac50b06e85b8620f",
-      "newValue": "temple-mainnet-3::1220470e1589422d3e98bdbccec83fd9e2c4df9bb803de8c377863819c20356976ca"
-    },
-    {
-      "id": "e429fbae-78a8-4c4f-95f8-0bbf80b47d89",
-      "changedAt": "2026-10-14T15:02:58.146Z",
-      "itemName": "Pinnaccle - Pinnaccle",
-      "itemId": "12982310399",
-      "field": "Locking PartyIDs",
-      "previousValue": "The final locking PartyID has not yet been issued.",
-      "newValue": "23d169c2-0909-4c70-81d1-1922de6febaa::1220f050d577aac2647daaf656a42e377382024c8ea909c08812ee034cdff86872c7"
     }
   ]
 };
