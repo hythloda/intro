@@ -1,5 +1,5 @@
 window.COMMITTEE_COMPANIES_DATA = {
-  "generatedAt": "2026-11-11T14:41:31.798Z",
+  "generatedAt": "2026-11-12T15:34:35.067Z",
   "committees": {
     "faAccountability": {
       "label": "Featured Application Accountability Committee",
@@ -32,7 +32,6 @@ window.COMMITTEE_COMPANIES_DATA = {
         "Kaleido",
         "Kora Labs Corp",
         "KPMG LLP",
-        "KRO Brokers, SPC",
         "Launchnodes",
         "Lloyds Bank Plc",
         "Noves Inc",
@@ -106,7 +105,6 @@ window.COMMITTEE_COMPANIES_DATA = {
         "Kaleido",
         "Kora Labs Corp",
         "KPMG LLP",
-        "KRO Brokers, SPC",
         "Launchnodes",
         "Liberty City Ventures",
         "Lithium Digital Limited",
@@ -159,7 +157,6 @@ window.COMMITTEE_COMPANIES_DATA = {
         "Fairmint Inc",
         "Figment Inc",
         "Finoa Consensus Services GmbH",
-        "FP Complete Corporation",
         "Gevulot Oy",
         "Goldman Sachs & Co. LLC",
         "Guffey, Inc.",
