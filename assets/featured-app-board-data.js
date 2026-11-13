@@ -1,5 +1,5 @@
 window.FEATURED_APP_BOARD_DATA = {
-  "generatedAt": "2026-11-12T15:22:18.803Z",
+  "generatedAt": "2026-11-13T14:40:22.119Z",
   "statusColumnId": "color_mm4kmej3",
   "columns": [
     {
@@ -328,7 +328,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12954184948",
       "name": "Rapid Chain - Rapid Blockchain Technologies Ltd.",
-      "updatedAt": "2026-11-12T09:51:07Z",
+      "updatedAt": "2026-11-13T04:51:23Z",
       "values": {
         "text_mm4k2vch": "Rapid Blockchain Technologies Ltd.",
         "color_mm4kmej3": "0-Locked+Needs Review",
@@ -355,7 +355,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12959523630",
       "name": "MetCredX - NIPRO TECHNOLOGIES LIMITED",
-      "updatedAt": "2026-11-12T08:51:08Z",
+      "updatedAt": "2026-11-13T06:51:12Z",
       "values": {
         "text_mm4k2vch": "NIPRO TECHNOLOGIES LIMITED",
         "color_mm4kmej3": "1-Needs Review",
@@ -384,7 +384,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12959539619",
       "name": "The Hub - The Hub",
-      "updatedAt": "2026-11-10T14:57:39Z",
+      "updatedAt": "2026-11-12T17:00:40Z",
       "values": {
         "text_mm4k2vch": "The Hub",
         "color_mm4kmej3": "2-Approved",
@@ -499,7 +499,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467838069",
       "name": "Agentic Ledger",
-      "updatedAt": "2026-11-12T14:49:17Z",
+      "updatedAt": "2026-11-12T15:37:53Z",
       "values": {
         "text_mm4k2vch": "Orphil LLC (Agentic Ledger)",
         "color_mm4kmej3": "6-Withdrawn",
@@ -582,7 +582,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12959492765",
       "name": "Selay Wallet - Security Layer Innovations Limited",
-      "updatedAt": "2026-11-10T14:57:39Z",
+      "updatedAt": "2026-11-12T18:22:44Z",
       "values": {
         "text_mm4k2vch": "Security Layer Innovations Limited",
         "color_mm4kmej3": "2-Approved",
@@ -620,35 +620,6 @@ window.FEATURED_APP_BOARD_DATA = {
         "color_mm4kmej3": "3-CIP-0116-paused",
         "long_text_mm4kq322": "Mod-Vault ::1220bbd47c5a10d5540c420e1f8f0f1fd513464ec6110dbd5123970dbe3b538805d3",
         "color_mm4kpp3q": "Asset Issuer",
-        "long_text_mm4khjn6": "23d169c2-0909-4c70-81d1-1922de6febaa::1220f17bc6f42ec54e67717621a19e5a9954461dc6e44c5b766fc099dad86ef4aadf",
-        "numeric_mm4k6919": "25.0",
-        "long_text_mm4km2s7": "Modulo Labs was founded in August 2024 as a consumer-focused software development company focused on designing and building wallet and DeFi infrastructure to enable omnichain lending, borrowing, and swapping of digital assets.",
-        "link_mm4kmq24": "https://app.modulo.finance",
-        "long_text_mm4k2537": "Modulo enables users to lock various collateral assets in Modulo vaults as collateral to instantly lend, borrow, and swap. MOD is minted as a Canton-native, fungible collateral token. MOD is the Modulo unit of account and is also a CIP-56 compliant token that can be utilized across the ecosystem. MOD is a MVT (minimum variance token) that is intended to represent a minimum of $1.00 of collateral locked into Modulo smart vaults.",
-        "long_text_mm4k4y1h": "Modulo users are primarily retail DeFi participants hosted on various participant nodes across the ecosystem. MOD is currently supported on 5 separate participants in Canton with over 120k unique partyIDs having transacted with MOD and 99872 current holders of MOD (>= 1 observed UTXO).",
-        "long_text_mm4k15bg": "MOD transactions will be marked for any eligible activity.",
-        "long_text_mm4kh3fw": "MOD is a currently active CIP-56 token. All standard operations are supported by default. The token is also able to be composed into more complex workflows.",
-        "long_text_mm4kfg50": "FAAM are emitted for eligible MOD activities. This process has already been observed on mainnet with full compliance with all applicable ratios.",
-        "long_text_mm4kxcm2": "Historically, the median number of transactions observed per unique partyID is 2 to 3 per day.",
-        "long_text_mm4kvyjq": "Users are not limited by the number of transactions they submit to their host participants. Any limitations on user activity must be enforced by the host participants and the applications they run.",
-        "long_text_mm4k1cm0": "Linearly.",
-        "long_text_mm4kd4h2": "MOD and the Modulo Issuer party have been active on MainNet since the beginning of May 2026.",
-        "long_text_mm4kfkwn": "Modulo's initial customers were Modulo wallet users. Most of our current customers are parties active on Console Wallet, Cantex, Cansai, and HandlPay. Additionally, we are in advanced discussions with 3+ additional platforms.",
-        "long_text_mm4k6q73": "We have continued operating without our FA status. CIP-0104's impact on Featured Issuers is still unclear.",
-        "long_text_mm4kwxt1": "Modulo does not have the ability to curtail transactions involving the MOD token on external participant nodes. Modulo does have the ability to choose not to emit markers for activity deemed ineligible.",
-        "long_text_mm4khbeg": "N/A (Private Repo)",
-        "long_text_mm4kxsgy": "28. Modulo currently operates one of the most popular retail wallets in Canton with ~8k current subscribers. We have issued MOD which is one of the first Canton-native assets (not bridged from another chain) with significant user adoption >99k current holders of MOD and >120k unique partyIDs with at least one historical transaction). Collateral mobility, fungibility, and composability is a critical component of financial workflows and Modulo is committed to delivering the market leading solution on Canton."
-      }
-    },
-    {
-      "id": "13289895381",
-      "name": "Modulo Vault - Was CIP-0116 removed",
-      "updatedAt": "2026-11-10T14:57:41Z",
-      "values": {
-        "text_mm4k2vch": "Modulo Labs, Inc.",
-        "color_mm4kmej3": "1b-FAAC Approved-waiting on tokenomics",
-        "long_text_mm4kq322": "Mod-Vault ::1220bbd47c5a10d5540c420e1f8f0f1fd513464ec6110dbd5123970dbe3b538805d3",
-        "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "23d169c2-0909-4c70-81d1-1922de6febaa::1220f17bc6f42ec54e67717621a19e5a9954461dc6e44c5b766fc099dad86ef4aadf",
         "numeric_mm4k6919": "25.0",
         "long_text_mm4km2s7": "Modulo Labs was founded in August 2024 as a consumer-focused software development company focused on designing and building wallet and DeFi infrastructure to enable omnichain lending, borrowing, and swapping of digital assets.",
@@ -839,7 +810,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12954185167",
       "name": "SyncVotes - WEB34EVER",
-      "updatedAt": "2026-11-10T14:57:42Z",
+      "updatedAt": "2026-11-12T18:22:45Z",
       "values": {
         "text_mm4k2vch": "WEB34EVER",
         "color_mm4kmej3": "2-Approved",
@@ -869,7 +840,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12959522895",
       "name": "ccledger - Blueprint Infrastructure, LLC",
-      "updatedAt": "2026-11-11T15:51:43Z",
+      "updatedAt": "2026-11-13T05:00:31Z",
       "values": {
         "text_mm4k2vch": "Blueprint Infrastructure, LLC",
         "color_mm4kmej3": "1-Needs Review",
@@ -1032,7 +1003,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12954167020",
       "name": "Upflam - Upflam",
-      "updatedAt": "2026-11-10T14:57:42Z",
+      "updatedAt": "2026-11-12T22:31:14Z",
       "values": {
         "text_mm4k2vch": "Upflam",
         "color_mm4kmej3": "2-Approved",
@@ -1190,7 +1161,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12870058108",
       "name": "R1M Sentinel - R1M",
-      "updatedAt": "2026-11-11T05:00:35Z",
+      "updatedAt": "2026-11-13T05:00:32Z",
       "values": {
         "text_mm4k2vch": "R1M",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -1422,7 +1393,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12942557487",
       "name": "Bayzen - Bayzen",
-      "updatedAt": "2026-11-10T14:57:42Z",
+      "updatedAt": "2026-11-12T18:22:44Z",
       "values": {
         "text_mm4k2vch": "Bayzen",
         "color_mm4kmej3": "2-Approved",
@@ -1552,7 +1523,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467857212",
       "name": "VeriGift Fund",
-      "updatedAt": "2026-11-10T14:57:41Z",
+      "updatedAt": "2026-11-13T01:22:58Z",
       "values": {
         "text_mm4k2vch": "LILIZ",
         "color_mm4kmej3": "2-Approved",
@@ -1723,7 +1694,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467834331",
       "name": "Nuxaris",
-      "updatedAt": "2026-11-10T14:57:40Z",
+      "updatedAt": "2026-11-12T17:01:42Z",
       "values": {
         "text_mm4k2vch": "Nuxaris LLC",
         "color_mm4kmej3": "2-Approved",
@@ -1776,7 +1747,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12791057047",
       "name": "OS Ledger - Outersunset",
-      "updatedAt": "2026-11-11T05:00:36Z",
+      "updatedAt": "2026-11-13T05:00:35Z",
       "values": {
         "text_mm4k2vch": "Outersunset",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -2250,7 +2221,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12769413819",
       "name": "Canquest - PT JARINGAN SIMPUL TEKNOLOGI",
-      "updatedAt": "2026-11-11T05:00:38Z",
+      "updatedAt": "2026-11-13T05:00:37Z",
       "values": {
         "text_mm4k2vch": "PT JARINGAN SIMPUL TEKNOLOGI",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -2745,7 +2716,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467789103",
       "name": "Jubilee Treasury",
-      "updatedAt": "2026-11-11T05:00:41Z",
+      "updatedAt": "2026-11-13T05:00:38Z",
       "values": {
         "text_mm4k2vch": "Jubilee Treasury",
         "color_mm4kmej3": "6-Withdrawn",
@@ -2803,7 +2774,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467834329",
       "name": "Modo Data Platform",
-      "updatedAt": "2026-11-11T14:30:32Z",
+      "updatedAt": "2026-11-12T21:14:44Z",
       "values": {
         "text_mm4k2vch": "Staketab",
         "color_mm4kmej3": "2-Approved",
@@ -2884,7 +2855,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12731951755",
       "name": "Cove Wallet API - Qasara Labs Private Limited",
-      "updatedAt": "2026-11-11T05:00:42Z",
+      "updatedAt": "2026-11-13T05:00:41Z",
       "values": {
         "text_mm4k2vch": "Qasara Labs Private Limited",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -3122,7 +3093,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467777741",
       "name": "Tokino",
-      "updatedAt": "2026-11-11T14:26:29Z",
+      "updatedAt": "2026-11-12T15:35:16Z",
       "values": {
         "text_mm4k2vch": "Finoa Consensus Services",
         "color_mm4kmej3": "2-Approved",
@@ -3235,7 +3206,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12626943292",
       "name": "Yellow Card - Yellow Card Financial Inc.",
-      "updatedAt": "2026-11-11T05:00:44Z",
+      "updatedAt": "2026-11-13T05:00:43Z",
       "values": {
         "text_mm4k2vch": "Yellow Card Financial Inc.",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -3399,7 +3370,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12609616425",
       "name": "Arkhia x402 Facilitator-as-a-Service (FaaS) - Arkhia Pte Ltd",
-      "updatedAt": "2026-11-11T05:00:48Z",
+      "updatedAt": "2026-11-13T05:00:45Z",
       "values": {
         "text_mm4k2vch": "Arkhia Pte Ltd",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -3682,7 +3653,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467854321",
       "name": "Privket.com",
-      "updatedAt": "2026-11-11T05:00:50Z",
+      "updatedAt": "2026-11-13T05:00:48Z",
       "values": {
         "text_mm4k2vch": "Privket",
         "color_mm4kmej3": "6-Withdrawn",
@@ -3707,7 +3678,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12568365683",
       "name": "Synfin - Cayvox Labs",
-      "updatedAt": "2026-11-11T05:00:52Z",
+      "updatedAt": "2026-11-13T05:00:50Z",
       "values": {
         "text_mm4k2vch": "Cayvox Labs",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -3816,7 +3787,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12471377959",
       "name": "OpenBaskets - BlockxAI Limited",
-      "updatedAt": "2026-11-11T05:00:55Z",
+      "updatedAt": "2026-11-13T05:00:52Z",
       "values": {
         "text_mm4k2vch": "BlockxAI Limited",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -4272,7 +4243,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467790154",
       "name": "Ov Defi",
-      "updatedAt": "2026-11-11T05:00:57Z",
+      "updatedAt": "2026-11-13T05:00:54Z",
       "values": {
         "text_mm4k2vch": "OneNov",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -4303,7 +4274,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467810749",
       "name": "Transparent Scan",
-      "updatedAt": "2026-11-11T14:26:29Z",
+      "updatedAt": "2026-11-12T16:40:39Z",
       "values": {
         "text_mm4k2vch": "DTEAM",
         "color_mm4kmej3": "2-Approved",
@@ -4352,7 +4323,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467789257",
       "name": "Saxon Automate / Canton Keeper",
-      "updatedAt": "2026-11-11T05:00:59Z",
+      "updatedAt": "2026-11-13T05:00:56Z",
       "values": {
         "text_mm4k2vch": "Saxon",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -4473,7 +4444,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467790155",
       "name": "Mperps",
-      "updatedAt": "2026-11-11T05:01:00Z",
+      "updatedAt": "2026-11-13T05:00:58Z",
       "values": {
         "text_mm4k2vch": "Lemongrass IT Services LLC-Fz",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -4501,7 +4472,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467815973",
       "name": "Kaiko Data Services",
-      "updatedAt": "2026-11-11T14:26:30Z",
+      "updatedAt": "2026-11-12T18:22:45Z",
       "values": {
         "text_mm4k2vch": "Kaiko",
         "color_mm4kmej3": "2-Approved",
@@ -4651,7 +4622,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467790000",
       "name": "BENJI",
-      "updatedAt": "2026-11-11T05:01:03Z",
+      "updatedAt": "2026-11-13T05:01:00Z",
       "values": {
         "text_mm4k2vch": "Franklin Templeton",
         "color_mm4kmej3": "3-CIP-0116-paused",
@@ -4678,7 +4649,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467790006",
       "name": "CC Ledger",
-      "updatedAt": "2026-11-11T05:01:04Z",
+      "updatedAt": "2026-11-13T05:01:02Z",
       "values": {
         "text_mm4k2vch": "Blueprint Infrastructure, LLC",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -4712,7 +4683,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467837732",
       "name": "arCCade validator copy",
-      "updatedAt": "2026-11-11T14:26:31Z",
+      "updatedAt": "2026-11-12T18:20:39Z",
       "values": {
         "text_mm4k2vch": "Arccade",
         "color_mm4kmej3": "2-Approved",
@@ -5056,7 +5027,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467856999",
       "name": "CC Browser",
-      "updatedAt": "2026-11-10T14:57:43Z",
+      "updatedAt": "2026-11-12T17:01:06Z",
       "values": {
         "text_mm4k2vch": "Noves",
         "color_mm4kmej3": "2-Approved",
@@ -5447,7 +5418,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467804378",
       "name": "5N Loop",
-      "updatedAt": "2026-11-11T14:26:29Z",
+      "updatedAt": "2026-11-12T18:23:47Z",
       "values": {
         "text_mm4k2vch": "Five North",
         "color_mm4kmej3": "2-Approved",
@@ -5720,7 +5691,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467838020",
       "name": "5N ID",
-      "updatedAt": "2026-11-11T14:27:51Z",
+      "updatedAt": "2026-11-12T18:23:48Z",
       "values": {
         "text_mm4k2vch": "Five North",
         "color_mm4kmej3": "2-Approved",
@@ -5929,7 +5900,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467824058",
       "name": "Noves Data App",
-      "updatedAt": "2026-11-11T14:27:48Z",
+      "updatedAt": "2026-11-12T18:22:45Z",
       "values": {
         "text_mm4k2vch": "Noves, Inc",
         "color_mm4kmej3": "2-Approved",
@@ -6081,7 +6052,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467824061",
       "name": "iBTC Bitcoin Bridge",
-      "updatedAt": "2026-11-11T14:27:48Z",
+      "updatedAt": "2026-11-13T12:29:29Z",
       "values": {
         "text_mm4k2vch": "Bitsafe",
         "color_mm4kmej3": "2-Approved",
@@ -6276,7 +6247,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467847778",
       "name": "Ov Defi",
-      "updatedAt": "2026-11-11T05:01:06Z",
+      "updatedAt": "2026-11-13T05:01:04Z",
       "values": {
         "text_mm4k2vch": "OneNov",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -6831,7 +6802,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467834325",
       "name": "ChainSafe x402 Global Facilitator",
-      "updatedAt": "2026-11-11T05:01:08Z",
+      "updatedAt": "2026-11-13T05:01:08Z",
       "values": {
         "text_mm4k2vch": "ChainSafe",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -6860,7 +6831,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467825408",
       "name": "Silvana Book",
-      "updatedAt": "2026-11-10T14:57:42Z",
+      "updatedAt": "2026-11-12T20:31:59Z",
       "values": {
         "text_mm4k2vch": "Silvana",
         "color_mm4kmej3": "2-Approved",
@@ -6889,7 +6860,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467834326",
       "name": "Squads Non-Custodial Wallet",
-      "updatedAt": "2026-11-11T05:01:09Z",
+      "updatedAt": "2026-11-13T05:01:09Z",
       "values": {
         "text_mm4k2vch": "SQUADS",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -6916,7 +6887,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467783449",
       "name": "Mperps",
-      "updatedAt": "2026-11-11T05:01:11Z",
+      "updatedAt": "2026-11-13T05:01:11Z",
       "values": {
         "text_mm4k2vch": "Lemongrass IT Services LLC-Fz",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -6944,7 +6915,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467804376",
       "name": "Hecto Finance",
-      "updatedAt": "2026-11-10T14:57:38Z",
+      "updatedAt": "2026-11-13T12:02:34Z",
       "values": {
         "text_mm4k2vch": "Hecto Finance",
         "color_mm4kmej3": "2-Approved",
@@ -6975,7 +6946,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467783450",
       "name": "Canquest",
-      "updatedAt": "2026-11-11T05:01:13Z",
+      "updatedAt": "2026-11-13T05:01:12Z",
       "values": {
         "text_mm4k2vch": "Canquest",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -7054,7 +7025,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467838283",
       "name": "CanTrustAi",
-      "updatedAt": "2026-11-10T14:57:41Z",
+      "updatedAt": "2026-11-12T17:01:55Z",
       "values": {
         "text_mm4k2vch": "FTP",
         "color_mm4kmej3": "2-Approved",
@@ -7197,6 +7168,37 @@ window.FEATURED_APP_BOARD_DATA = {
         "long_text_mm4kwxt1": "OTA enforces ledger-anchored ownership state, protocol-enforced usage constraints, and rate-limited activity marker emission. Activity markers are emitted only for finalized ledger transactions that create, transfer, or condition enforceable economic rights.",
         "long_text_mm4khbeg": "N/A — proprietary application",
         "long_text_mm4kxsgy": "This application reflects a focused scope centered on Transfer Agent–level finalization of economic ownership state on Canton Network. OTA’s activity aligns with CIP-0047, CIP-0056, and CIP-0098 principles and is limited to ledger-final economic state transitions, excluding off-ledger service processes. The application is fully documented in CFA-0001 in the Canton Featured App repository: https://github.com/jorisparis/canton-featured-apps/blob/main/CFAs/CFA-0001/CFA-0001-Onchain-Transfer-Agent.md"
+      }
+    },
+    {
+      "id": "13189277788",
+      "name": "Canal - Ice Labs",
+      "updatedAt": "2026-11-13T13:38:02Z",
+      "values": {
+        "text_mm4k2vch": "Ice Labs",
+        "color_mm4kmej3": "1b-FAAC Approved-waiting on tokenomics",
+        "long_text_mm4kq322": "icelabs-validator-1::122038179a4a275875b69c71be3600a851ec49dcd35952eb36596ab3488d9c59bba3",
+        "color_mm4kpp3q": "Asset Issuer",
+        "long_text_mm4khjn6": "1220d::1220d62580526d31f3a7067c5c7415db18005fd179e8d8684fe9dd1df73953af13ee",
+        "numeric_mm4k6919": "25.0",
+        "long_text_mm4km2s7": "Canal is developed and operated by ICE Labs, an Asia-based team with backgrounds in venture capital, digital asset mining and software engineering. The team includes senior engineers with more than eight years of software development experience and Daml smart contract expertise, supporting asset issuance and lifecycle management on Canton. ICE Labs combines technical capabilities, digital asset experience and institutional relationships to bring external assets and their users into Canton, with a long-term focus on assets that pass through underlying economic yield. The founders collectively hold more than US$100 million in BTC, ETH, SOL and BNB. These are founder-level holdings; they are not funds already committed to Canal or dedicated reserves backing Canal-issued assets.",
+        "link_mm4kmq24": "https://canal.finance/",
+        "link_mm4krmse": "https://github.com/Canal-Bridge",
+        "link_mm4kqtfa": "https://drive.google.com/file/d/1ZNnm4so9NVIUFO3wYODmAPSxt8rdMD_e/view",
+        "long_text_mm4k2537": "Canal is an asset issuer on Canton that brings liquid external assets and yield-bearing assets into a privacy-enabled financial environment for institutions and individuals. Its initial asset program includes SOL-backed iSOL and BNB-backed cBNB. Canal plans to expand into staking-yield assets such as yiSOL and tokenized US dollar money market fund-related assets, enabling users to hold, transfer, trade and use these assets while receiving the underlying yield where applicable.",
+        "long_text_mm5hgry2": "No. Canal was built specifically for asset issuance and use on Canton. Neither Canal nor a substantially similar version has previously been deployed on another blockchain or in a separate production environment. The current iSOL product includes Solana-side components handling underlying SOL and Canton-side Daml components handling issuance, ownership, transfers and redemption-related burns. These components form a single product rather than a previous independent deployment.",
+        "long_text_mm4k4y1h": "Canal serves digital asset holders seeking access to SOL- and BNB-related assets on Canton; asset managers and corporate treasury teams seeking yield-bearing assets and private asset management; market makers and professional trading firms providing liquidity and managing inventory; and external asset partners bringing assets into Canton. Approved institutions can use Canal's minting and redemption services directly. Retail users are expected to access, hold and trade the issued assets primarily through integrated wallets and trading venues.",
+        "long_text_mm4k15bg": "Canal seeks issuer rewards for bona fide use of its issued assets in independent Canton applications: 1. Wallet transfers and asset movements initiated by users through integrated wallets and applications. 2. Trading and settlement in independent venues, including delivery-versus-payment settlement where supported. 3. Transfers and settlement of future yiSOL and fund-related yield-bearing assets after launch and approval of the relevant scope. Attribution will follow the underlying on-chain events and distinguish Canal's issuer role from the services provided by wallets and venues. Canal does not seek rewards for passive holdings, reserve balances, off-chain operations or artificial circular transactions. Underlying investment yield is accounted for separately.",
+        "long_text_mm4kh3fw": "1. Issuance: an institution submits a mint order and deposits SOL. After payment confirmation and order approval, Canal issues the corresponding iSOL to the designated Canton Party ID. 2. Transfers and use: integrated wallets and applications transfer the asset; ledger events record changes in ownership. Trading venues may incorporate it into trade and settlement workflows. 3. Redemption: after order review and user authorization, the relevant iSOL is burned on Canton and the underlying SOL is released through the Solana-side process. Redemption is complete only when SOL reaches the destination wallet. 4. Queries: Canal reads contract state and transaction confirmations to display balances, orders and mint/redemption progress. cBNB and future yield-bearing assets will use the same issuance and management pattern, adapted to their underlying assets and product terms.",
+        "long_text_mm4kfg50": "Activity Markers are the planned attribution mechanism for eligible transfers, trading and settlement of Canal-issued assets in third-party wallets and venues. The integration is intended to associate verifiable ledger events with Canal's issuer Party ID. On networks with CIP-0104 enabled, Canal plans to use actual network activity as the basis for eligible application rewards, denominated in Canton Coin. Implementation and test evidence must be completed before these plans are presented as verified functionality.",
+        "long_text_mm4kxcm2": "Active retail accounts: approximately 2–10 transfers and purchases/sales combined per actual trading day. Holders who do not trade may generate fewer or no transactions on a given day. Asset managers and treasury teams: activity is driven by allocations, redemptions, portfolio changes and treasury transfers; a fixed daily number has not yet been established. Market makers and professional traders: customer fills and inventory adjustments may generate multiple daily settlements. Actual executed and settled Canton activity will be measured separately from unexecuted quotes and off-chain actions.",
+        "long_text_mm4kvyjq": "A user may make several independent transfers or execute multiple trades in a short period. Institutions may process several client mint/redemption orders, treasury transfers, portfolio changes or inventory adjustments within the same round. Market makers may settle several genuine customer orders. Each transaction must correspond to a real business action. Counts will be based on executed ledger activity; repeated transfers created solely to increase rewards are outside the proposed reward scope. A numerical maximum per round has not yet been established.",
+        "long_text_mm4k1cm0": "Initially, we expect transaction volume to grow approximately linearly with the number of active users. Additional assets, venues and institutional participants may increase available counterparties and use cases, potentially producing periods of super-linear growth. This is a forecast, not a guaranteed outcome. Growth is expected to be supported by community onboarding, institutional demand, asset partnerships and the confirmed market-making cooperation with TradingX and Gatekeeper.",
+        "long_text_mm4kfkwn": "Initial users are expected to include TradingX and Gatekeeper for quoting and market making; participants from Canal's existing approximately 2,000-person community; and institutions participating in the asset program. DePINX has an approximately US$3 million staking-asset cooperation arrangement. Phistone Capital may pilot yield-bearing asset allocations after due diligence and investment authorization. FinChain is an asset partner for proposed tokenized US dollar money market fund-related products. Canal has contacted Console Wallet, C8, Rocky, OneSwap, Ekiden, Loop, Nuxaris and Temple about integrations. Rocky already supports iSOL wallet connection and related mint/redemption flows; the other contacts are not represented as completed integrations. Initial formal commercial use is targeted for mid-to-late October 2026, launched in stages after FA activation and channel readiness. Yield-bearing products will follow their own issuance and customer-onboarding schedules.",
+        "long_text_mm4k6q73": "Without FA status, formal distribution and ecosystem integrations would be delayed. Several wallets and venues contacted by Canal are willing to support test assets but treat FA status as an important prerequisite for formal onboarding. This would delay market making, user acquisition and liquidity deployment for iSOL and cBNB, and slow the introduction of yiSOL and fund-related assets. Canal would adjust launch timing and deployment scale while continuing product validation and partner integration work.",
+        "long_text_mm4kwxt1": "Yes. Canal applies controls to institutional onboarding and mint/redemption orders: 1. Organization review: company and registration information, compliance contact, source of funds and expected transaction volume are reviewed before account activation. 2. Wallet verification: Solana and Canton wallets are registered, ownership is verified by signatures, and required approvals are completed. 3. Purpose and order review: every mint/redemption order states its purpose and is reviewed before execution; additional information may be requested. 4. Traceability: order IDs, statuses and transaction references support reconciliation and manual review. Partner access codes do not replace required organization information or individual order review. Canal excludes artificial circular transactions from its proposed reward scope. These issuer-side controls are not a claim that Canal directly approves every downstream trade in independent wallets or venues.",
+        "long_text_mm4khbeg": "https://github.com/Canal-Bridge",
+        "long_text_mm7pyz6h": "Canal's objective is to bring external asset holders, institutional liquidity and yield-bearing assets into Canton. The controlled iSOL mainnet pilot and the planned broader commercial rollout are distinct milestones. iSOL and cBNB belong to the same initial asset program; yiSOL and fund-related products are future extensions. We seek issuer attribution for genuine asset use through independent applications. Passive holdings, off-chain operations and artificial circular activity are outside the proposed reward scope. Product yield and application rewards are accounted for separately. Our proposed reporting approach is to distinguish transfers from settlements and report daily transactions, maximum transactions per round, attribution mechanism, and customers at the start and end of each reporting period. We will align reporting and any expansion of reward scope with the Committee's requirements."
       }
     },
     {
@@ -7554,7 +7556,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467838018",
       "name": "Ekiden",
-      "updatedAt": "2026-11-11T05:01:16Z",
+      "updatedAt": "2026-11-13T05:01:14Z",
       "values": {
         "text_mm4k2vch": "Allspark Markets Ltd.",
         "color_mm4kmej3": "2-Approved",
@@ -7608,7 +7610,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467856988",
       "name": "MEME token and Coinflip",
-      "updatedAt": "2026-11-11T05:01:18Z",
+      "updatedAt": "2026-11-13T05:01:15Z",
       "values": {
         "text_mm4k2vch": "Archerswap",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -7637,7 +7639,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467783446",
       "name": "FlowRyd",
-      "updatedAt": "2026-11-11T14:31:02Z",
+      "updatedAt": "2026-11-13T05:01:17Z",
       "values": {
         "text_mm4k2vch": "Towler Enterprises",
         "color_mm4kmej3": "2-Approved",
@@ -7827,7 +7829,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467854326",
       "name": "canpay",
-      "updatedAt": "2026-11-11T14:29:02Z",
+      "updatedAt": "2026-11-12T15:39:44Z",
       "values": {
         "text_mm4k2vch": "Foundinals Lab",
         "color_mm4kmej3": "2-Approved",
@@ -8029,7 +8031,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467847770",
       "name": "VAULT",
-      "updatedAt": "2026-11-11T05:01:21Z",
+      "updatedAt": "2026-11-13T05:01:18Z",
       "values": {
         "text_mm4k2vch": "HighTower",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -8091,7 +8093,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467856986",
       "name": "HydraX",
-      "updatedAt": "2026-11-11T14:31:02Z",
+      "updatedAt": "2026-11-13T05:01:20Z",
       "values": {
         "text_mm4k2vch": "HydraX",
         "color_mm4kmej3": "2-Approved",
@@ -8134,7 +8136,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467856987",
       "name": "Sync Insights",
-      "updatedAt": "2026-11-11T14:30:32Z",
+      "updatedAt": "2026-11-12T15:41:25Z",
       "values": {
         "text_mm4k2vch": "Chata Technologies Inc",
         "color_mm4kmej3": "2-Approved",
@@ -8528,7 +8530,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467824052",
       "name": "Canquest",
-      "updatedAt": "2026-11-11T05:01:24Z",
+      "updatedAt": "2026-11-13T05:01:21Z",
       "values": {
         "text_mm4k2vch": "Naxweb",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -8588,7 +8590,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467824053",
       "name": "Deploi Credit Market",
-      "updatedAt": "2026-11-11T05:01:28Z",
+      "updatedAt": "2026-11-13T05:01:26Z",
       "values": {
         "text_mm4k2vch": "Deploi",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -8648,7 +8650,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467824055",
       "name": "AUROX on Canton for featured app",
-      "updatedAt": "2026-11-11T05:01:30Z",
+      "updatedAt": "2026-11-13T05:01:27Z",
       "values": {
         "text_mm4k2vch": "International Institute of Blockchain Advanced Technology",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -8917,6 +8919,33 @@ window.FEATURED_APP_BOARD_DATA = {
         "long_text_mm4kwxt1": "Yes. Activity Markers are applied only on terminal settlement actions where funds actually move — order entry, cancellations, and amendments are explicitly excluded. Exchange authentication is fully separated from ledger authorization. A whitelist gate restricts access to trading during the beta phase. The structural separation between order matching and settlement finalization makes it infeasible to generate artificial reward-bearing transactions without genuine economic activity settling on the ledger.",
         "long_text_mm4khbeg": "N/A — private repository",
         "long_text_mm4kp5en": "https://ibex.market/brand"
+      }
+    },
+    {
+      "id": "12974668475",
+      "name": "OS Ledger - Outersunset",
+      "updatedAt": "2026-11-13T13:38:04Z",
+      "values": {
+        "text_mm4k2vch": "Outersunset",
+        "color_mm4kmej3": "1b-FAAC Approved-waiting on tokenomics",
+        "long_text_mm4kq322": "OSLedger-mainnet-1::1220f1cd2f9ef6f966d492813215f34cf048a559d25d750b44c095c17fbf96afff64",
+        "color_mm4kpp3q": "Non-Issuer",
+        "long_text_mm4khjn6": "12202::122027e88aed136fa4a4959dea9caba3ac6dfb2e4ad6058d350f89ee77c66dcc890a",
+        "numeric_mm4k6919": "5.0",
+        "long_text_mm4km2s7": "Outer Sunset is the finance-close stack for Canton validators and applications: it turns raw ledger activity into audit-ready, double-entry books with maker-checker controls and tamper-evident, on-ledger rollup attestations.",
+        "link_mm4kmq24": "https://outersunset.io/",
+        "long_text_mm4k2537": "OS Ledger is a finance-close and accounting stack for Canton Network participants. It ingests a node's ledger transaction data: validator rewards, domain and sequencer fees, delegation and transfer flows that classifies each event through a versioned rule engine, and generates balanced double-entry journal entries. It runs a structured month-end close with maker-checker controls and no override paths, and produces standard financial reports such as trial balance, income statement, balance sheet and general ledger. As it processes the books, it posts records on-ledger at each completed accounting milestone.",
+        "long_text_mm5hgry2": "No",
+        "long_text_mm4k4y1h": "Canton Network validator operators, enterprise participants, and app providers that must account for on-chain activity rewards, domain fees, delegations and produce auditable financial statements",
+        "long_text_mm4k15bg": "OS Ledger earns application rewards through the traffic-based app reward mechanism introduced in CIP-0104, issued as RewardCouponV2. Rewards are minted from the on-ledger traffic the application generates as it processes a node's books, not from any user action. That traffic comes from two accounting milestones: transforming ingested on-chain facts into categorized journal entries, and approving those entries and exporting them to reports. Rewards accrue only from these completed accounting actions — never from raw ingest, draft entries, or any speculative or automated transaction.",
+        "long_text_mm4kh3fw": "We generate the on-chain activity based on the ingested on-chain facts that have been transformed into categorized journal entries, and when those entries are approved and exported to reports.",
+        "long_text_mm4kfg50": "OS Ledger would only earn via a FeaturedAppRight on the on-ledger traffic generated by its attestation transactions. There are no activity markers.",
+        "long_text_mm4kxcm2": "OS Ledger's activity is node-based, not user-based. Its on-ledger writes reflect a participant node's accounting workflow, not the actions of individual end users.",
+        "long_text_mm4kvyjq": "A node may produce more than one on-ledger write within a single round when a batch of newly ingested facts is processed together in that window. An example is within an update on Canton network, a node validator may spend CC to exercise “AmuletRules_BuyMemberTraffic”, but also can receive “Validator Reward”, or a simple transfer from another wallet.",
+        "long_text_mm4k1cm0": "Linear in number of customer nodes, sub-linear relative to network activity. Our model is that each node runs a separate application deployment, so every new customer adds one more self-contained instance that produces its own bounded stream of accounting actions. Total on-ledger activity therefore grows in direct proportion to the number of nodes we serve.",
+        "long_text_mm4kfkwn": "Loop. We went live in August 2026",
+        "long_text_mm4k6q73": "Without Featured App status, OS Ledger operates unchanged — the accounting, close, reporting, and export features work independently of any rewards program.",
+        "long_text_mm4kwxt1": "OS Ledger only writes to the ledger on completed accounting actions, based on the transaction that has money movement or accounting related purpose. The original on-chain transaction Id is included in our system to trace the original transaction."
       }
     },
     {
@@ -9232,7 +9261,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467789861",
       "name": "UnitedApp",
-      "updatedAt": "2026-11-11T14:29:32Z",
+      "updatedAt": "2026-11-12T17:02:22Z",
       "values": {
         "text_mm4k2vch": "Noders LLC",
         "color_mm4kmej3": "2-Approved",
@@ -9475,7 +9504,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467825386",
       "name": "Agora: Survey & Vote",
-      "updatedAt": "2026-11-11T05:01:31Z",
+      "updatedAt": "2026-11-13T05:01:29Z",
       "values": {
         "text_mm4k2vch": "Agora: Survey & Vote",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -9557,7 +9586,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467810715",
       "name": "Cansai",
-      "updatedAt": "2026-11-10T14:57:39Z",
+      "updatedAt": "2026-11-13T09:14:20Z",
       "values": {
         "text_mm4k2vch": "Tenkai GmbH",
         "color_mm4kmej3": "2-Approved",
@@ -9736,6 +9765,36 @@ window.FEATURED_APP_BOARD_DATA = {
       }
     },
     {
+      "id": "13392344761",
+      "name": "Tori Finance (trUSD and strUSD) - Tori (BVI) Ltd.",
+      "updatedAt": "2026-11-13T13:38:05Z",
+      "values": {
+        "text_mm4k2vch": "Tori (BVI) Ltd.",
+        "color_mm4kmej3": "1b-FAAC Approved-waiting on tokenomics",
+        "long_text_mm4kq322": "tori-issuer::12209ca44a2e3b2fbe3b5696775231c97e856865b24c54741800a6801e2569290fe4",
+        "color_mm4kpp3q": "Asset Issuer",
+        "long_text_mm4khjn6": "DA lock (25M CC): 1220b64e93db2a4d51b303309700e81776e67c115cf66b80b96fc43f7a8c09506af6::1220aa871b0fb2910f78c143b33909cb66dc41d34ef3df1c04b169517b4fd0a7a209 Tori (BVI) FA locking wallet (empty for now): 0c33a821::1220ff823b0ceebbad7eae6c0784fd674e1b8ca1f5c371fa2a2a175d3e4d2364fe32",
+        "numeric_mm4k6919": "25",
+        "long_text_mm4km2s7": "Tori Finance is a synthetic dollar protocol. Its issuer, Tori (BVI) Ltd., a British Virgin Islands company, issues trUSD, a synthetic dollar minted against USDC and USDT, and strUSD, the staked vault share of trUSD, whose value follows the vault's share price. Both have been live on Ethereum since June 2026, with Ethereum as the canonical chain and Chainlink CCIP connecting other networks. Reserves are attested by Accountable (tori.accountable.capital), the core contracts were audited by Sherlock and Nethermind, and protocol administration sits behind a 3-of-5 multisig.",
+        "link_mm4kd0hk": "https://docs.tori.finance/resources/brand",
+        "link_mm4kmq24": "https://tori.finance",
+        "long_text_mm4k2537": "Tori Finance brings trUSD, its synthetic dollar, and strUSD, its staked vault share, to Canton. Tori (BVI) Ltd. issues both as CIP-0056 tokens on the Digital Asset Utility Registry, bridged from Ethereum through Chainlink CCIP. Holders move them between Ethereum and Canton from their own wallets using Tori's non-custodial web app, then hold, pay and settle them in any Canton wallet and on Canton venues.",
+        "long_text_mm5hgry2": "Yes. trUSD (0xd0580192E98eA6CEB9c7b6191Ed2E27560911697) and strUSD (0x280839980a7eD0D7717F64125fE241012E5F5815) have been live on Ethereum mainnet since June 2026, verified on Etherscan, and are connected to other networks through Chainlink CCIP with Ethereum canonical. On Canton TestNet both have run under the issuer party since 14 October 2026: Registry issuance, CCIP bridging in both directions, wallet transfers and DvP settlement.",
+        "long_text_mm4k4y1h": "(1) Existing trUSD and strUSD holders who bridge from Ethereum to hold, pay and settle on Canton. (2) Users of Canton wallets that add the tokens. (3) Users of third-party Canton venues that list them, who swap or settle them against other assets.",
+        "long_text_mm4k15bg": "Transfers and DvP settlements of trUSD and strUSD between holders, in their wallets and on third-party venues. Tori pays for no volume and generates no activity to earn rewards.",
+        "long_text_mm4kh3fw": "Both tokens are issued on the Digital Asset Utility Registry with the issuer party as instrument admin. Supply enters and leaves Canton only through Chainlink CCIP: the Canton pool mints when tokens are locked on Ethereum and burns when holders bridge back. Holders sign every transaction from their own CIP-103 wallets using the standard token APIs, and no Tori party holds holder tokens. The issuer party writes only Registry administration and pool operations.",
+        "long_text_mm4kfg50": "Activity Markers, created through the Digital Asset Registry, while MainNet runs the marker regime; traffic-based app rewards once CIP-0104 is live.",
+        "long_text_mm4kxcm2": "0.25 to 1 reward-earning transfers per active holder per day, and 1 to 5 settlements per active venue user per day.",
+        "long_text_mm4kvyjq": "Only when making distinct payments or settlements, or the steps of one, such as a two-step transfer. Tori offers no incentive to repeat or split transfers.",
+        "long_text_mm4k1cm0": "Linearly with active holders and with wallet and venue integrations.",
+        "long_text_mm4kfkwn": "Existing trUSD and strUSD holders bridging from Ethereum, and users of Canton wallets and venues that add the tokens. Canton TestNet has been live since 14 October 2026; MainNet goes live once the Registry instruments are created.",
+        "long_text_mm4k6q73": "Tori would still launch on Canton. Featured status would mainly speed up on-chain integrations and growth.",
+        "long_text_mm4kwxt1": "Yes. Tori and its affiliates generate no activity to earn rewards and pay for no volume, holders sign every transaction from their own wallets, and Tori monitors trUSD and strUSD activity for round trips, split payments and self-transfers.",
+        "long_text_mm4kp5en": "https://docs.tori.finance/resources/brand",
+        "long_text_mm7pyz6h": "Tori (BVI) Ltd. requests a section 1.3 exception (guidance v2.0b) so that strUSD shares the trUSD featured asset party and lock. strUSD is the staked vault share of trUSD: it is minted only by depositing trUSD into the vault and redeems only into trUSD. Both are issued by the same issuer and bridged through Chainlink CCIP. Additional context from Sam (Tori): Tori (BVI) Ltd. submitted its Featured App application for trUSD and strUSD. Tori is working with DA on going live and is in active conversations with the Canton Strategic Holdings teams."
+      }
+    },
+    {
       "id": "12467810713",
       "name": "Trade.Fast Prediction Market",
       "updatedAt": "2026-11-10T14:57:39Z",
@@ -9799,7 +9858,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467832618",
       "name": "ScopeX Rate Lock",
-      "updatedAt": "2026-11-11T05:01:33Z",
+      "updatedAt": "2026-11-13T05:01:31Z",
       "values": {
         "text_mm4k2vch": "ScopeX Money",
         "color_mm4kmej3": "7-Closed-new-process",
@@ -10080,7 +10139,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467856973",
       "name": "OneSwap",
-      "updatedAt": "2026-11-10T14:57:41Z",
+      "updatedAt": "2026-11-13T10:22:38Z",
       "values": {
         "text_mm4k2vch": "Sats Terminal",
         "color_mm4kmej3": "2-Approved",
@@ -10109,7 +10168,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467804368",
       "name": "Nexode",
-      "updatedAt": "2026-11-10T14:57:39Z",
+      "updatedAt": "2026-11-12T17:01:06Z",
       "values": {
         "text_mm4k2vch": "Nexode",
         "color_mm4kmej3": "2-Approved",
@@ -10196,6 +10255,36 @@ window.FEATURED_APP_BOARD_DATA = {
       }
     },
     {
+      "id": "13413543825",
+      "name": "BTC0 - OnRails Ltd",
+      "updatedAt": "2026-11-13T13:38:07Z",
+      "values": {
+        "text_mm4k2vch": "OnRails Ltd",
+        "color_mm4kmej3": "1b-FAAC Approved-waiting on tokenomics",
+        "long_text_mm4kq322": "btc0-provider::12200350ba6e96e3b701c3048b5aa013a8c1c08833e8ebf54339cff581055c29003a",
+        "color_mm4kpp3q": "Asset Issuer",
+        "long_text_mm4khjn6": "23d169c2-0909-4c70-81d1- 1922de6febaa::1220ecdb3f8dd6b8baece5e12317da3d23b654f093ea8ab844518d8ecb8e98629160",
+        "numeric_mm4k6919": "0.0",
+        "long_text_mm4km2s7": "OnRails operates asset infrastructure for the Canton Network. Our team has production experience in cross-chain operations and integrations with wallets and trading venues through products including cETH and cSOL",
+        "link_mm4kmq24": "https://btc0.network",
+        "long_text_mm4k2537": "Based on discussions with Canton ecosystem stakeholders, we see market demand for a Bitcoin-backed asset with reserves held by a US Qualified Custodian. This model provides a defined custody counterparty and a risk profile institutions can assess within their existing frameworks, supporting broader adoption and scalable growth in supply. BTC0 is a 1:1 BTC-backed asset issued on Canton for trading, settlement and collateral use. Eligible participants deposit BTC to obtain BTC0, hold and transfer it through compatible wallets and applications, and burn BTC0 to redeem BTC. The underlying Bitcoin remains in qualified custody. Tokens are minted against confirmed deposits and burned before BTC is released, subject to applicable onboarding and redemption terms.",
+        "long_text_mm5hgry2": "BTC0 has not previously been deployed on another blockchain. OnRails has production experience with substantially similar asset infrastructure through cETH and cSOL on Canton.",
+        "long_text_mm4k4y1h": "Wallet users, trading venues, market makers and institutions seeking BTC exposure, settlement and collateral use on Canton, including institutions seeking BTC reserves held with a US Qualified Custodian.",
+        "long_text_mm4k15bg": "BTC0 activity across independent third-party wallets and venues generates asset-issuer rewards for mint, burn, transfer, allocation and settlement transactions. Attribution follows the current Featured App Guidance and is based on genuine and verifiable ledger updates and associated network traffic burn.",
+        "long_text_mm4kh3fw": "Mints, burns, transfers, allocations and settlements following the CIP-0056 token standard.",
+        "long_text_mm4kfg50": "Activity Markers, using the standard DA Utility automation and reward model used for OnRails’ existing token products, in line with the current Featured App Guidance.",
+        "long_text_mm4kxcm2": "We expect approximately 0.5 transactions per day per active party, based on available operating history and transaction statistics for other tokens operated by OnRails.",
+        "long_text_mm4kvyjq": "A user may execute several trades or transfers within the same round.",
+        "long_text_mm4k1cm0": "We expect generally linear growth as the active user base expands, with larger increases when new venue integrations bring additional users and market makers.",
+        "long_text_mm4kfkwn": "Initial users are expected to come through OnRails’ existing wallet and venue relationships. We are working with dozens of platforms on integrations – including DFNS, Bron, Loop, Kora, Tradecraft, Modulo, Console, C8, Cantex, and other applications.",
+        "long_text_mm4k6q73": "We will continue the rollout. Featured App status would help us attract liquidity, support wallet and venue integrations, and keep transaction fees lower for users. Without it, we would need to focus on fewer integrations initially, and higher fees would likely slow adoption.",
+        "long_text_mm4kwxt1": "Yes. We have developed a system to monitor token activity across venues for circular transfers, repetitive transaction patterns, unusually concentrated volume in individual wallets and other anomalies. If suspicious activity is detected, we suspend commercial relations with the venue while we review the activity.",
+        "long_text_mm4khbeg": "n/a",
+        "long_text_mm4kp5en": "n/a",
+        "long_text_mm7pyz6h": "BTC0 builds on OnRails’ experience operating cETH and cSOL on MainNet, with a dedicated Featured Asset Party ID separate from those used for our other tokens"
+      }
+    },
+    {
       "id": "12467810718",
       "name": "trade.fast bridge",
       "updatedAt": "2026-11-10T14:57:39Z",
@@ -10257,6 +10346,35 @@ window.FEATURED_APP_BOARD_DATA = {
       }
     },
     {
+      "id": "13111369113",
+      "name": "Helvex - Dream Capital",
+      "updatedAt": "2026-11-10T14:57:39Z",
+      "values": {
+        "text_mm4k2vch": "Dream Capital",
+        "color_mm4kmej3": "1b-FAAC Approved-waiting on tokenomics",
+        "long_text_mm4kq322": "helvex-provider-1::1220c5ac264c69e428e1064e9ca5a0b0d5be586e6befa41c133223f7e044f8b85d60",
+        "color_mm4kpp3q": "Non-Issuer",
+        "long_text_mm4khjn6": "23d169c2-0909-4c70-81d1-1922de6febaa::1220590cb7e035449c6c6adc13aa2117e6c3e0eecf852bca42777097dd459dffc9e0",
+        "numeric_mm4k6919": "5.0",
+        "long_text_mm4km2s7": "Helvex is a Canton-native, permissioned RFQ trading desk by the Dream Capital team — not an issuer, wallet, or Super Validator. A KYC-verified user posts a swap intent (e.g. USDCx → CC or CBTC → USDCx); an independent solver fills it; settlement is one atomic CIP-0056 DvP on our self-hosted validator. Live on MainNet with Didit KYC + on-ledger allowlist",
+        "link_mm4kmq24": "https://helvex.cc",
+        "link_mm4kqtfa": "https://drive.google.com/file/d/16cxuCvTLt_vNZlmY-KNvL9hpOKQMFCyo/view?usp=sharing",
+        "long_text_mm4k2537": "Helvex is an intent-based RFQ swap on Canton. A user expresses a swap intent (for example USDCx → CC, or cBTC → USDCx). Independent solvers compete off-ledger to provide best execution. The winning fill settles atomically on-ledger as a two-leg delivery-versus-payment between Canton Token Standard tokens — CIP-0056 allocation-based DvP today, migrating to the backwards-compatible CIP-0112 (Token Standard V2, now on Splice main) as we adopt committed allocations, with no change to the product model.",
+        "long_text_mm5hgry2": "No. Helvex itself has not been previously deployed on another blockchain or in another production environment - it is purpose-built for Canton, using Canton-native primitives (CIP-0056 allocation-based DvP settlement, sub-transaction privacy, and Canton token interfaces) that do not exist on other chains. The broader architecture — intent/RFQ-based swaps with off-ledger matching and atomic on-ledger settlement — is a proven design pattern on other networks (e.g. CoW Protocol, 1inch Fusion, UniswapX). Helvex adapts that well-understood approach to Canton (v1: firm-quote RFQ with atomic DvP) rather than inventing an experimental swap mechanism, which reduces execution-model risk while the Canton-specific settlement, privacy, and compliance layers are new.",
+        "long_text_mm4k4y1h": "KYC’d retail and institutional users on Canton who want to swap between curated CIP-0056 tokens (CC, CBTC, and USDCx); CC holders needing on-network liquidity; and professional market makers/liquidity providers who trade via API and can act as solvers filling intents. Access is permissioned (KYC + allowlist); programmatic access is via API keys.",
+        "long_text_mm4k15bg": "We earn rewards from one activity only: the settlement of a completed swap on Canton, when a solver fills a user's RFQ and both sides of the trade settle atomically on-ledger. Rewards require our app-provider party (helvex-provider-1) to hold a FeaturedAppRight. On MainNet today, rewards are earned automatically from the network traffic of that settlement under CIP-0104 — we do not use activity markers. Everything off-ledger — quote discovery, matching, and solver selection — earns nothing, and funding movements like deposits, withdrawals, and transfers are not claimed.",
+        "long_text_mm4kh3fw": "State: we read active contracts and ledger-end, and fetch allocation/transfer factories and their disclosed contracts from the Splice Registry / Token Standard HTTP API at submit time (no stale cache). Commands: lock, settle, and withdraw are submitted from the backend via POST /v2/commands/submit-and-wait-for-transaction (the flat endpoint — the -tree variant is removed in Canton 3.5.0), requesting LEDGER_EFFECTS where we need exercise-node detail. actAs is always the account we already know — maker, solver, or protocol — never a client-supplied field; we reuse command IDs so retries can't double-spend. User authority for a swap is an off-ledger Ed25519-signed intent the backend verifies before acting. Withdrawals are destination-locked to the account's linked Loop party via WithdrawToExternal / WithdrawalDelegation. Auth: JWT for Ledger API calls, plus a validator/scan-proxy JWT audience for registry calls. The validator hosts the provider party (helvex-provider-1) and each user's trading party and holds their signing keys today, so settlement traffic accrues there. Migration to user-held keys (external party, prepare → sign → execute) is the decided Phase-2 design, not current behaviour.",
+        "long_text_mm4kfg50": "Canton Coin, via CIP-0104 traffic-based rewards. Not activity markers. The settlement itself burns traffic on our participant. Once FeaturedAppRight sits on helvex-provider-1, that traffic on the views we confirm is what mints the coupon. We do not exercise FeaturedAppRight_CreateActivityMarker and we do not attach a marker to the DvP. Markers are leftover from CIP-0047; on MainNet they cost traffic and earn nothing. CC-leg swaps and CBTC/USDCx swaps use the same path. We do not mint or transfer CC as a reward step — the only CC we spend on purpose is traffic/gas to submit the swap.",
+        "long_text_mm4kxcm2": "One filled swap is three ledger submits on our validator (create the SwapRequest; allocate both legs with BindSolver; the atomic DvP); off-ledger quotes and matching add nothing. Per KYC'd user-day — most do nothing on a given day — casual holders do 0–1 swap (~0–3 txs), active traders 2–5 swaps (~6–15 txs), and market makers / API solvers 5–20 fills (~15–60 txs). The rate cap is 2 RFQs/minute at $10–$1,000 each; we do not forecast anyone near it.",
+        "long_text_mm4kvyjq": "A round is about ten minutes. A user exceeds one ledger tx when a swap completes (three submits), when they do more than one swap in the window (cap 2 RFQs/minute), or when they fund — deposit, withdraw, or transfer — alongside a trade. We do not split a swap across solvers or generate filler transactions: one fill, one DvP. Off-ledger quotes and matching never touch the ledger.",
+        "long_text_mm4k1cm0": "Linear with active users. Each swap is ~3 independent ledger submits, with no shared per-round contract and no batching, so ledger volume ≈ active users × swaps × 3; a new user adds a one-time Activate. It is not super-linear (one fill, one DvP) and not materially sub-linear (we settle every real obligation). Off-ledger matching adds no ledger load.",
+        "long_text_mm4kfkwn": "Go-live already happened - MainNet has been open since mid-August 2026, so we are not waiting on a launch. First customers: KYC'd Canton retail and existing CC / CBTC / USDCx holders (including our Dream Capital / Helvex community); crypto traders wanting CC ↔ CBTC ↔ USDCx without a public book; small institutions / desks; and market makers / API solvers via HMAC keys. We already have some institutions testing our infra for RFQ settlement",
+        "long_text_mm4k6q73": "The desk stays open - swaps, KYC, deposit, fill, and withdraw do not need FeaturedAppRight, and that is how MainNet already runs. What changes is the reward loop: CIP-0104 coupons on helvex-provider-1 are how we planned to rebate solvers and keep spreads tight without paying it all from our own CC. Without FA, spreads widen, we lean on our own solver longer, and outside market-maker onboarding slows",
+        "long_text_mm4kwxt1": "Yes - layered controls across identity, economics, custody, and monitoring: Identity / access: Didit KYC and an on-ledger allowlist are required; geo/OFAC screening; frozen accounts cannot move funds; maker and solver are bound to the authenticated trading ID; self-fill is rejected on-ledger and in the API. Economic bounds: per-trade notional $10–$1,000 (fails closed if the price feed is down); rate limit 2 RFQs/minute; balance is net of open locks; only approved instruments and pairs are swappable. Custody: withdrawals go only to the account's linked Loop party; large withdrawals (>$10,000) need operator approval. Integrity / monitoring: idempotent command IDs and atomic settlement claims prevent double-spends; immutable on-ledger receipts with continuous ledger-vs-DB reconciliation; wash-trade / related-party surveillance across accounts (matched size/timing, reciprocal or circular flows) with suspension on trigger; single-solver settlement (no sharding surface); and we monitor our reward-weight-to-net-fee ratio against the Coupon Guidance tolerance (~1.0×).",
+        "long_text_mm4kxsgy": "Applying as a Non-Issuer Featured App; lock = 5,000,000 CC (CIP-0116). Reward model is CIP-0104 traffic-based, not markers. FeaturedAppRight must go to the dedicated provider party helvex-provider-1 (Q8/Q34), not to user trading IDs. TestNet is the right environment for functional testing; MainNet uses real CC. Operator admin (KYC approve/freeze) is out of scope for reviewers. We will file the one-month and quarterly activity reports and join a Tokenomics call as required. Incident contact during review: shilpa@dreamcapital.tech (include network, email, intent id, UTC time, screenshot; do not send MainNet funds while an intent is stuck)."
+      }
+    },
+    {
       "id": "12467837922",
       "name": "Yiksi",
       "updatedAt": "2026-11-10T14:57:41Z",
@@ -10315,6 +10433,35 @@ window.FEATURED_APP_BOARD_DATA = {
       }
     },
     {
+      "id": "13289895381",
+      "name": "Modulo Vault - Was CIP-0116 removed",
+      "updatedAt": "2026-11-10T14:57:41Z",
+      "values": {
+        "text_mm4k2vch": "Modulo Labs, Inc.",
+        "color_mm4kmej3": "1b-FAAC Approved-waiting on tokenomics",
+        "long_text_mm4kq322": "Mod-Vault ::1220bbd47c5a10d5540c420e1f8f0f1fd513464ec6110dbd5123970dbe3b538805d3",
+        "color_mm4kpp3q": "Non-Issuer",
+        "long_text_mm4khjn6": "23d169c2-0909-4c70-81d1-1922de6febaa::1220f17bc6f42ec54e67717621a19e5a9954461dc6e44c5b766fc099dad86ef4aadf",
+        "numeric_mm4k6919": "25.0",
+        "long_text_mm4km2s7": "Modulo Labs was founded in August 2024 as a consumer-focused software development company focused on designing and building wallet and DeFi infrastructure to enable omnichain lending, borrowing, and swapping of digital assets.",
+        "link_mm4kmq24": "https://app.modulo.finance",
+        "long_text_mm4k2537": "Modulo enables users to lock various collateral assets in Modulo vaults as collateral to instantly lend, borrow, and swap. MOD is minted as a Canton-native, fungible collateral token. MOD is the Modulo unit of account and is also a CIP-56 compliant token that can be utilized across the ecosystem. MOD is a MVT (minimum variance token) that is intended to represent a minimum of $1.00 of collateral locked into Modulo smart vaults.",
+        "long_text_mm4k4y1h": "Modulo users are primarily retail DeFi participants hosted on various participant nodes across the ecosystem. MOD is currently supported on 5 separate participants in Canton with over 120k unique partyIDs having transacted with MOD and 99872 current holders of MOD (>= 1 observed UTXO).",
+        "long_text_mm4k15bg": "MOD transactions will be marked for any eligible activity.",
+        "long_text_mm4kh3fw": "MOD is a currently active CIP-56 token. All standard operations are supported by default. The token is also able to be composed into more complex workflows.",
+        "long_text_mm4kfg50": "FAAM are emitted for eligible MOD activities. This process has already been observed on mainnet with full compliance with all applicable ratios.",
+        "long_text_mm4kxcm2": "Historically, the median number of transactions observed per unique partyID is 2 to 3 per day.",
+        "long_text_mm4kvyjq": "Users are not limited by the number of transactions they submit to their host participants. Any limitations on user activity must be enforced by the host participants and the applications they run.",
+        "long_text_mm4k1cm0": "Linearly.",
+        "long_text_mm4kd4h2": "MOD and the Modulo Issuer party have been active on MainNet since the beginning of May 2026.",
+        "long_text_mm4kfkwn": "Modulo's initial customers were Modulo wallet users. Most of our current customers are parties active on Console Wallet, Cantex, Cansai, and HandlPay. Additionally, we are in advanced discussions with 3+ additional platforms.",
+        "long_text_mm4k6q73": "We have continued operating without our FA status. CIP-0104's impact on Featured Issuers is still unclear.",
+        "long_text_mm4kwxt1": "Modulo does not have the ability to curtail transactions involving the MOD token on external participant nodes. Modulo does have the ability to choose not to emit markers for activity deemed ineligible.",
+        "long_text_mm4khbeg": "N/A (Private Repo)",
+        "long_text_mm4kxsgy": "28. Modulo currently operates one of the most popular retail wallets in Canton with ~8k current subscribers. We have issued MOD which is one of the first Canton-native assets (not bridged from another chain) with significant user adoption >99k current holders of MOD and >120k unique partyIDs with at least one historical transaction). Collateral mobility, fungibility, and composability is a critical component of financial workflows and Modulo is committed to delivering the market leading solution on Canton."
+      }
+    },
+    {
       "id": "12467832619",
       "name": "Yapper Agent",
       "updatedAt": "2026-10-30T18:20:46Z",
@@ -10350,7 +10497,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467854319",
       "name": "Sanctum",
-      "updatedAt": "2026-11-10T14:57:41Z",
+      "updatedAt": "2026-11-13T07:20:50Z",
       "values": {
         "text_mm4k2vch": "Angelhack Private Limted",
         "color_mm4kmej3": "2-Approved",
@@ -10378,6 +10525,38 @@ window.FEATURED_APP_BOARD_DATA = {
         "long_text_mm4khbeg": "Private Repository",
         "long_text_mm4kp5en": "N/A",
         "long_text_mm4kxsgy": "Sanctum serves as the issuance infrastructure layer for Canton Network — enabling asset issuers to tokenize, manage, and distribute real-world assets without the complexity of operating chain infrastructure themselves. As a registered Provider under DA Utility, Sanctum onboards Registrars and streamlines their path to launching assets on Canton. Our core mission is twofold: simplify the technical onboarding experience for institutions entering Canton Network, and unlock access to the deep institutional liquidity the network offers — making tokenized assets readily available for broad distribution. In short, Sanctum removes the barriers between traditional asset issuers and the Canton ecosystem, so they can focus on their assets rather than the underlying infrastructure."
+      }
+    },
+    {
+      "id": "13003182078",
+      "name": "Maha Wallet - PT Maha Digital Solutions",
+      "updatedAt": "2026-11-10T15:53:18Z",
+      "values": {
+        "text_mm4k2vch": "PT Maha Digital Solutions",
+        "color_mm4kmej3": "1b-FAAC Approved-waiting on tokenomics",
+        "long_text_mm4kq322": "maha-validator-1::122025cef1bec8edc8aa50108068aa065b63dc1336f0695448dc8d669ae029e08ff8",
+        "color_mm4kpp3q": "Non-Issuer",
+        "long_text_mm4khjn6": "23d169c2-0909-4c70-81d1-1922de6febaa::1220b6564e113fc76dd67020ef7ee401c235033e1ff9692dfd3a4098235d1ece2ea9",
+        "numeric_mm4k6919": "5.0",
+        "long_text_mm4km2s7": "PT Maha Digital Solutions is the team behind Maha Wallet, a portable, non-custodial identity and utility layer for Canton Network. We build a browser extension wallet, a developer SDK, a Telegram-native tip bot, and a fiat-to-CC pricing API, all built around Canton external party model so a users Canton identity isn't locked to one validator's wallet UI.",
+        "link_mm4kd0hk": "https://drive.google.com/drive/folders/1X_F1KY4QEpGYH1P_W2vKpPmJq3CDSv1n?usp=sharing",
+        "link_mm4kmq24": "https://mahawallet.xyz",
+        "link_mm4kqtfa": "https://drive.google.com/drive/folders/1S9ioepEX1sgki9egwr6uzynedt4GQW5u?usp=sharing",
+        "long_text_mm4k2537": "Maha Wallet gives users a portable Canton party ID, a signing key that lives client-side, not inside one validator wallet, reusable across our extension, our Telegram tip/airdrop bot and any app that integrates our SDK. It brings CC straight into Telegram chats, so tipping and small transfers happen without leaving the conversation, plus a live fiat-to-CC pricing API for builders.",
+        "long_text_mm5hgry2": "No, built specifically for Canton's external party model.",
+        "long_text_mm4k4y1h": "1. Telegram-based Web3 community members tipping and receiving small CC transfers 2. Community/project admins running in-chat airdrops 3. Third-party developers integrating Canton wallet functionality via our SDK instead of building their own 4. Anyone who wants one Canton party ID that works across apps, not just one wallet UI",
+        "long_text_mm4k15bg": "CC transfers via the Telegram tip/airdrop bot, and CC transfers triggered by SDK-integrated partner apps.",
+        "long_text_mm4kh3fw": "Via the submitted Party ID on the Canton Ledger API. User-initiated actions only: wallet linking/unlinking, CC transfers, airdrop creation/claims, balance queries. Signing is client-side or via securely stored per-user keys. Maha Wallet never custodies user funds.",
+        "long_text_mm4kfg50": "Activity Markers, on the CC transfers described above. We'll also follow CC-based application traffic (CIP-0104) once that model is in place. Integrated following Canton's official Featured App Activity Marker guidance and documentation.",
+        "long_text_mm4kxcm2": "Hard to estimate precisely, activity is likely to spike early on around launch/campaign periods, then settle to roughly 2-3 transactions per user per day once usage normalizes.",
+        "long_text_mm4kvyjq": "Mainly during `/airdrop`, but to keep costs down, airdrop payouts settle via a single batch transfer rather than one transaction per recipient (e.g. an airdrop to 5 people is 1 tx, not 5). Outside batched airdrops, a user can still generate multiple transactions in one round if they send several tips in a session or a linked SDK partner app triggers several transfers for them back to back. Always separately triggered, never looped.",
+        "long_text_mm4k1cm0": "Sub-linearly to linearly, we expect an initial surge around launch, then transaction growth settling to track new-user growth more closely as usage normalizes.",
+        "long_text_mm4kfkwn": "Already live since 18 August 2026. First users are Telegram-based Web3 communities and retail users linking wallets via the bot and extension. We're targeting partnerships to bring our Telegram tip bot into 20 communities as an incentive layer and a way to introduce more people to Canton, with 8 already confirmed (see referrals above).",
+        "long_text_mm4k6q73": "We keep building either way, the wallet, SDK, bot, and pricing API don't depend on it. FA rewards would let us keep the identity/wallet layer free while growing faster, without them, growth just slows.",
+        "long_text_mm4kwxt1": "Yes. Alongside a 5 CC minimum tip and a flat transfer fee regardless of size, we enforce strict rate limits to prevent spam and artificial volume: • A maximum of one /tip command per minute • A maximum of one /airdrop command per 10 minutes • A 5-minute cooldown is enforced per wallet on transfers to actively disrupt and prevent artificially created circular transaction chains • Airdrop shares only settle to active claimers (no forced distribution) • Users are advised to link a separate, dedicated tipping wallet rather than their primary holdings",
+        "long_text_mm4khbeg": "Currently private, access can be granted upon request.",
+        "long_text_mm4kp5en": "https://drive.google.com/drive/folders/1X_F1KY4QEpGYH1P_W2vKpPmJq3CDSv1n?usp=sharing",
+        "long_text_mm4kxsgy": "Maha Wallet core idea: one Canton party ID that works across our extension, Telegram, and any SDK-integrated app, not tied to a single wallet UI. We keep the identity/wallet layer free and monetize only usage on top (transfer fees, SDK fees, pricing spread), so more linked wallets and active communities directly mean more genuine on-chain activity. Furthermore, if Maha Wallet (serving our existing user base) or projects like Payfun succeed with this Telegram utility tip model and it sees widespread adoption, we expect this success to drive massive, organic exposure and onboarding directly to the Canton network itself. For a deeper dive into our vision and product roadmap, please view our pitch deck here: https://drive.google.com/drive/folders/1uYgrc23AP-4lmLvNGVgV6BLZ6iAOpCZ0?usp=sharing"
       }
     },
     {
@@ -10411,6 +10590,34 @@ window.FEATURED_APP_BOARD_DATA = {
       }
     },
     {
+      "id": "13087665624",
+      "name": "Float - SwapSo Inc",
+      "updatedAt": "2026-11-10T16:00:42Z",
+      "values": {
+        "text_mm4k2vch": "SwapSo Inc",
+        "color_mm4kmej3": "1b-FAAC Approved-waiting on tokenomics",
+        "long_text_mm4kq322": "Float-validator-1Float-validator-1::1220fbc3e15c8028f00a1a9fbbe2b06cbc96b9f9666454fc418f6369b5b40b7e8946",
+        "color_mm4kpp3q": "Non-Issuer",
+        "long_text_mm4khjn6": "cantonwallet-cashen-send-lock::12202143cc113f85b8fde95b7870c0f31a2d46f7ed1bfbc174bee557808f80dc7a95",
+        "numeric_mm4k6919": "5.0",
+        "long_text_mm4km2s7": "SwapSo Inc has built crypto products for over three years, including the SwapSo Bitcoin wallet and app, the Bitcoin India Tour and Bredit. On Canton we build Slay Money, a live MainNet wallet and utility app that already holds Featured App status. Float is our second Canton product: a separate app with its own validator, database and domain, aimed at the biggest gap for newcomers to Canton, which is getting in and out.",
+        "link_mm4kmq24": "https://myfloat.cc",
+        "long_text_mm4k2537": "Float is the open gateway to Canton. Deposit BTC, ETH, USDC, SOL or 2,000+ other assets and receive Canton Coin at your Canton party ID, or send CC out to any asset at an address you control. Float quotes several exchange partners at once, routes each order to the best rate, and settles natively on Canton. There's no wrapped token and no bridge contract to trust.",
+        "long_text_mm5hgry2": "Swap aggregator do exist in other blockchain ecosystems.",
+        "long_text_mm4k4y1h": "Newcomers who hold crypto on other chains and need CC to use Canton apps, and existing CC holders who want to cash out to BTC, ETH or stablecoins. The second group is Canton wallets and apps (starting with Slay Money) that embed Float's widget or API, so their users can buy CC without leaving the app. Partners earn 0.2% of each swap, paid in CC.",
+        "long_text_mm4k15bg": "One outbound CC transfer per completed customer order: Float's payment to the exchange partner on a withdrawal, or Float's delivery to the customer on a deposit. Nothing else earns rewards. That excludes refunds, moves of Float's own treasury, preapproval renewals, partner payouts and anything administrative.",
+        "long_text_mm4kh3fw": "Float runs its own MainNet validator. The backend submits commands through the JSON Ledger API v2 as Float's operator party. Float's party keeps a live TransferPreapproval so users and partners can pay it in one step. A scheduled job renews it three weeks before it expires. Outbound payments use standard Splice transfers, and each one carries an ID derived from the order, so a retry can't pay twice. An internal ledger records what Float owes on every open order. Before each send, Float checks that its on-chain balance still covers everything it owes. If the balance can't be read, the send is refused.",
+        "long_text_mm4kfg50": "Rewards come from CC transfers submitted by Float's party, with the FeaturedAppRight attached. Float doesn't emit Activity Markers, and its reward activity is limited to one attributed transfer per completed swap.",
+        "long_text_mm4kxcm2": "1–2. Most users do one swap to get CC and occasionally one to cash out.",
+        "long_text_mm4kvyjq": "Only when they place separate orders, for example buying CC in two separate orders or withdrawing to two assets. Each order is a separate CC deposit or exchange-partner order and produces exactly one reward-earning transfer from Float. Float never splits one order into several transfers.",
+        "long_text_mm4k1cm0": "Linear with completed orders. Partner integrations could add a step up when a partner's users come online, but the ratio stays one attributed transfer per real swap.",
+        "long_text_mm4kfkwn": "Float is already live at myfloat.cc. Slay Money is the first partner platform and is listed on the site. Its users can buy and cash out CC through Float.",
+        "long_text_mm4k6q73": "Float would keep operating, but more slowly. Exchange-partner fees leave little margin, and on some partners Float currently earns nothing. App rewards would pay for the 0.2% partner incentive, lower fees for users and integrations with more Canton wallets. Without them, we'd reduce partner incentives and add integrations more slowly.",
+        "long_text_mm4kwxt1": "Yes: One reward-earning transfer per order, and only after the customer's deposit is confirmed on the ledger. An order that never gets funded, or that is refunded, earns nothing. Round-tripping doesn't pay. Each order goes through a third-party exchange with its own spread and network fees (about 1–2% per round trip), which is more than any reward on the same amount. Float sends only what actually arrived, never the quoted amount. No order is topped up from Float's own funds. The internal ledger and the on-chain balance are checked before every send. Sends are refused when the balance can't be verified, and every send has an order-derived ID so it can't be duplicated.",
+        "long_text_mm4kxsgy": "Float is built by the Slay Money team (RD SwapSo Private Limited), which already runs a Featured App on Canton."
+      }
+    },
+    {
       "id": "12964705710",
       "name": "RAX Finance - RAX Finance",
       "updatedAt": "2026-11-10T14:57:39Z",
@@ -10441,7 +10648,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12974672977",
       "name": "FTP x402 Infrastructure (Facilitator + Agentic Wallet) - FTP Tech",
-      "updatedAt": "2026-11-10T14:57:40Z",
+      "updatedAt": "2026-11-12T17:00:05Z",
       "values": {
         "text_mm4k2vch": "FTP Tech",
         "color_mm4kmej3": "2-Approved",
@@ -10470,36 +10677,9 @@ window.FEATURED_APP_BOARD_DATA = {
       }
     },
     {
-      "id": "12974668475",
-      "name": "OS Ledger - Outersunset",
-      "updatedAt": "2026-11-12T01:51:29Z",
-      "values": {
-        "text_mm4k2vch": "Outersunset",
-        "color_mm4kmej3": "0-Locked+Needs Review",
-        "long_text_mm4kq322": "OSLedger-mainnet-1::1220f1cd2f9ef6f966d492813215f34cf048a559d25d750b44c095c17fbf96afff64",
-        "color_mm4kpp3q": "Non-Issuer",
-        "long_text_mm4khjn6": "12202::122027e88aed136fa4a4959dea9caba3ac6dfb2e4ad6058d350f89ee77c66dcc890a",
-        "numeric_mm4k6919": "5.0",
-        "long_text_mm4km2s7": "Outer Sunset is the finance-close stack for Canton validators and applications: it turns raw ledger activity into audit-ready, double-entry books with maker-checker controls and tamper-evident, on-ledger rollup attestations.",
-        "link_mm4kmq24": "https://outersunset.io/",
-        "long_text_mm4k2537": "OS Ledger is a finance-close and accounting stack for Canton Network participants. It ingests a node's ledger transaction data: validator rewards, domain and sequencer fees, delegation and transfer flows that classifies each event through a versioned rule engine, and generates balanced double-entry journal entries. It runs a structured month-end close with maker-checker controls and no override paths, and produces standard financial reports such as trial balance, income statement, balance sheet and general ledger. As it processes the books, it posts records on-ledger at each completed accounting milestone.",
-        "long_text_mm5hgry2": "No",
-        "long_text_mm4k4y1h": "Canton Network validator operators, enterprise participants, and app providers that must account for on-chain activity rewards, domain fees, delegations and produce auditable financial statements",
-        "long_text_mm4k15bg": "OS Ledger earns application rewards through the traffic-based app reward mechanism introduced in CIP-0104, issued as RewardCouponV2. Rewards are minted from the on-ledger traffic the application generates as it processes a node's books, not from any user action. That traffic comes from two accounting milestones: transforming ingested on-chain facts into categorized journal entries, and approving those entries and exporting them to reports. Rewards accrue only from these completed accounting actions — never from raw ingest, draft entries, or any speculative or automated transaction.",
-        "long_text_mm4kh3fw": "We generate the on-chain activity based on the ingested on-chain facts that have been transformed into categorized journal entries, and when those entries are approved and exported to reports.",
-        "long_text_mm4kfg50": "OS Ledger would only earn via a FeaturedAppRight on the on-ledger traffic generated by its attestation transactions. There are no activity markers.",
-        "long_text_mm4kxcm2": "OS Ledger's activity is node-based, not user-based. Its on-ledger writes reflect a participant node's accounting workflow, not the actions of individual end users.",
-        "long_text_mm4kvyjq": "A node may produce more than one on-ledger write within a single round when a batch of newly ingested facts is processed together in that window. An example is within an update on Canton network, a node validator may spend CC to exercise “AmuletRules_BuyMemberTraffic”, but also can receive “Validator Reward”, or a simple transfer from another wallet.",
-        "long_text_mm4k1cm0": "Linear in number of customer nodes, sub-linear relative to network activity. Our model is that each node runs a separate application deployment, so every new customer adds one more self-contained instance that produces its own bounded stream of accounting actions. Total on-ledger activity therefore grows in direct proportion to the number of nodes we serve.",
-        "long_text_mm4kfkwn": "Loop. We went live in August 2026",
-        "long_text_mm4k6q73": "Without Featured App status, OS Ledger operates unchanged — the accounting, close, reporting, and export features work independently of any rewards program.",
-        "long_text_mm4kwxt1": "OS Ledger only writes to the ledger on completed accounting actions, based on the transaction that has money movement or accounting related purpose. The original on-chain transaction Id is included in our system to trace the original transaction."
-      }
-    },
-    {
       "id": "12982310839",
       "name": "Ovdefi - OneNov",
-      "updatedAt": "2026-11-12T00:51:35Z",
+      "updatedAt": "2026-11-13T05:01:32Z",
       "values": {
         "text_mm4k2vch": "OneNov",
         "color_mm4kmej3": "1-Needs Review",
@@ -10558,7 +10738,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12993064923",
       "name": "Rocky Wallet - Dune Labs",
-      "updatedAt": "2026-11-10T14:57:40Z",
+      "updatedAt": "2026-11-13T12:32:04Z",
       "values": {
         "text_mm4k2vch": "Dune Labs",
         "color_mm4kmej3": "2-Approved",
@@ -10590,7 +10770,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13003184089",
       "name": "R1M Sentinel - R1M",
-      "updatedAt": "2026-11-12T00:51:41Z",
+      "updatedAt": "2026-11-13T05:01:34Z",
       "values": {
         "text_mm4k2vch": "R1M",
         "color_mm4kmej3": "1-Needs Review",
@@ -10647,41 +10827,9 @@ window.FEATURED_APP_BOARD_DATA = {
       }
     },
     {
-      "id": "13003182078",
-      "name": "Maha Wallet - PT Maha Digital Solutions",
-      "updatedAt": "2026-11-10T15:53:18Z",
-      "values": {
-        "text_mm4k2vch": "PT Maha Digital Solutions",
-        "color_mm4kmej3": "1b-FAAC Approved-waiting on tokenomics",
-        "long_text_mm4kq322": "maha-validator-1::122025cef1bec8edc8aa50108068aa065b63dc1336f0695448dc8d669ae029e08ff8",
-        "color_mm4kpp3q": "Non-Issuer",
-        "long_text_mm4khjn6": "23d169c2-0909-4c70-81d1-1922de6febaa::1220b6564e113fc76dd67020ef7ee401c235033e1ff9692dfd3a4098235d1ece2ea9",
-        "numeric_mm4k6919": "5.0",
-        "long_text_mm4km2s7": "PT Maha Digital Solutions is the team behind Maha Wallet, a portable, non-custodial identity and utility layer for Canton Network. We build a browser extension wallet, a developer SDK, a Telegram-native tip bot, and a fiat-to-CC pricing API, all built around Canton external party model so a users Canton identity isn't locked to one validator's wallet UI.",
-        "link_mm4kd0hk": "https://drive.google.com/drive/folders/1X_F1KY4QEpGYH1P_W2vKpPmJq3CDSv1n?usp=sharing",
-        "link_mm4kmq24": "https://mahawallet.xyz",
-        "link_mm4kqtfa": "https://drive.google.com/drive/folders/1S9ioepEX1sgki9egwr6uzynedt4GQW5u?usp=sharing",
-        "long_text_mm4k2537": "Maha Wallet gives users a portable Canton party ID, a signing key that lives client-side, not inside one validator wallet, reusable across our extension, our Telegram tip/airdrop bot and any app that integrates our SDK. It brings CC straight into Telegram chats, so tipping and small transfers happen without leaving the conversation, plus a live fiat-to-CC pricing API for builders.",
-        "long_text_mm5hgry2": "No, built specifically for Canton's external party model.",
-        "long_text_mm4k4y1h": "1. Telegram-based Web3 community members tipping and receiving small CC transfers 2. Community/project admins running in-chat airdrops 3. Third-party developers integrating Canton wallet functionality via our SDK instead of building their own 4. Anyone who wants one Canton party ID that works across apps, not just one wallet UI",
-        "long_text_mm4k15bg": "CC transfers via the Telegram tip/airdrop bot, and CC transfers triggered by SDK-integrated partner apps.",
-        "long_text_mm4kh3fw": "Via the submitted Party ID on the Canton Ledger API. User-initiated actions only: wallet linking/unlinking, CC transfers, airdrop creation/claims, balance queries. Signing is client-side or via securely stored per-user keys. Maha Wallet never custodies user funds.",
-        "long_text_mm4kfg50": "Activity Markers, on the CC transfers described above. We'll also follow CC-based application traffic (CIP-0104) once that model is in place. Integrated following Canton's official Featured App Activity Marker guidance and documentation.",
-        "long_text_mm4kxcm2": "Hard to estimate precisely, activity is likely to spike early on around launch/campaign periods, then settle to roughly 2-3 transactions per user per day once usage normalizes.",
-        "long_text_mm4kvyjq": "Mainly during `/airdrop`, but to keep costs down, airdrop payouts settle via a single batch transfer rather than one transaction per recipient (e.g. an airdrop to 5 people is 1 tx, not 5). Outside batched airdrops, a user can still generate multiple transactions in one round if they send several tips in a session or a linked SDK partner app triggers several transfers for them back to back. Always separately triggered, never looped.",
-        "long_text_mm4k1cm0": "Sub-linearly to linearly, we expect an initial surge around launch, then transaction growth settling to track new-user growth more closely as usage normalizes.",
-        "long_text_mm4kfkwn": "Already live since 18 August 2026. First users are Telegram-based Web3 communities and retail users linking wallets via the bot and extension. We're targeting partnerships to bring our Telegram tip bot into 20 communities as an incentive layer and a way to introduce more people to Canton, with 8 already confirmed (see referrals above).",
-        "long_text_mm4k6q73": "We keep building either way, the wallet, SDK, bot, and pricing API don't depend on it. FA rewards would let us keep the identity/wallet layer free while growing faster, without them, growth just slows.",
-        "long_text_mm4kwxt1": "Yes. Alongside a 5 CC minimum tip and a flat transfer fee regardless of size, we enforce strict rate limits to prevent spam and artificial volume: • A maximum of one /tip command per minute • A maximum of one /airdrop command per 10 minutes • A 5-minute cooldown is enforced per wallet on transfers to actively disrupt and prevent artificially created circular transaction chains • Airdrop shares only settle to active claimers (no forced distribution) • Users are advised to link a separate, dedicated tipping wallet rather than their primary holdings",
-        "long_text_mm4khbeg": "Currently private, access can be granted upon request.",
-        "long_text_mm4kp5en": "https://drive.google.com/drive/folders/1X_F1KY4QEpGYH1P_W2vKpPmJq3CDSv1n?usp=sharing",
-        "long_text_mm4kxsgy": "Maha Wallet core idea: one Canton party ID that works across our extension, Telegram, and any SDK-integrated app, not tied to a single wallet UI. We keep the identity/wallet layer free and monetize only usage on top (transfer fees, SDK fees, pricing spread), so more linked wallets and active communities directly mean more genuine on-chain activity. Furthermore, if Maha Wallet (serving our existing user base) or projects like Payfun succeed with this Telegram utility tip model and it sees widespread adoption, we expect this success to drive massive, organic exposure and onboarding directly to the Canton network itself. For a deeper dive into our vision and product roadmap, please view our pitch deck here: https://drive.google.com/drive/folders/1uYgrc23AP-4lmLvNGVgV6BLZ6iAOpCZ0?usp=sharing"
-      }
-    },
-    {
       "id": "13023350809",
       "name": "Zabpay - DSRV",
-      "updatedAt": "2026-11-12T08:51:38Z",
+      "updatedAt": "2026-11-13T07:51:34Z",
       "values": {
         "text_mm4k2vch": "DSRV",
         "color_mm4kmej3": "1-Needs Review",
@@ -10709,7 +10857,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13023350936",
       "name": "BETH - BitSafe Validator, LLC",
-      "updatedAt": "2026-11-10T14:57:41Z",
+      "updatedAt": "2026-11-13T12:30:48Z",
       "values": {
         "text_mm4k2vch": "BitSafe Validator, LLC",
         "color_mm4kmej3": "2-Approved",
@@ -10741,7 +10889,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13036463016",
       "name": "P2P Company - P2P Company",
-      "updatedAt": "2026-11-11T18:51:13Z",
+      "updatedAt": "2026-11-12T20:51:12Z",
       "values": {
         "text_mm4k2vch": "P2P Company",
         "color_mm4kmej3": "1-Needs Review",
@@ -10771,7 +10919,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13046640623",
       "name": "Yellow Card - Yellow Card Financial Inc.",
-      "updatedAt": "2026-11-12T08:52:26Z",
+      "updatedAt": "2026-11-13T08:52:29Z",
       "values": {
         "text_mm4k2vch": "Yellow Card Financial Inc.",
         "color_mm4kmej3": "1-Needs Review",
@@ -10800,7 +10948,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13056498524",
       "name": "mperps - Lemongrass IT services LLC FZ",
-      "updatedAt": "2026-11-12T09:52:25Z",
+      "updatedAt": "2026-11-13T08:52:40Z",
       "values": {
         "text_mm4k2vch": "Lemongrass IT services LLC FZ",
         "color_mm4kmej3": "1-Needs Review",
@@ -10923,40 +11071,12 @@ window.FEATURED_APP_BOARD_DATA = {
       }
     },
     {
-      "id": "13087665624",
-      "name": "Float - SwapSo Inc",
-      "updatedAt": "2026-11-10T16:00:42Z",
-      "values": {
-        "text_mm4k2vch": "SwapSo Inc",
-        "color_mm4kmej3": "1b-FAAC Approved-waiting on tokenomics",
-        "long_text_mm4kq322": "Float-validator-1Float-validator-1::1220fbc3e15c8028f00a1a9fbbe2b06cbc96b9f9666454fc418f6369b5b40b7e8946",
-        "color_mm4kpp3q": "Non-Issuer",
-        "long_text_mm4khjn6": "cantonwallet-cashen-send-lock::12202143cc113f85b8fde95b7870c0f31a2d46f7ed1bfbc174bee557808f80dc7a95",
-        "numeric_mm4k6919": "5.0",
-        "long_text_mm4km2s7": "SwapSo Inc has built crypto products for over three years, including the SwapSo Bitcoin wallet and app, the Bitcoin India Tour and Bredit. On Canton we build Slay Money, a live MainNet wallet and utility app that already holds Featured App status. Float is our second Canton product: a separate app with its own validator, database and domain, aimed at the biggest gap for newcomers to Canton, which is getting in and out.",
-        "link_mm4kmq24": "https://myfloat.cc",
-        "long_text_mm4k2537": "Float is the open gateway to Canton. Deposit BTC, ETH, USDC, SOL or 2,000+ other assets and receive Canton Coin at your Canton party ID, or send CC out to any asset at an address you control. Float quotes several exchange partners at once, routes each order to the best rate, and settles natively on Canton. There's no wrapped token and no bridge contract to trust.",
-        "long_text_mm5hgry2": "Swap aggregator do exist in other blockchain ecosystems.",
-        "long_text_mm4k4y1h": "Newcomers who hold crypto on other chains and need CC to use Canton apps, and existing CC holders who want to cash out to BTC, ETH or stablecoins. The second group is Canton wallets and apps (starting with Slay Money) that embed Float's widget or API, so their users can buy CC without leaving the app. Partners earn 0.2% of each swap, paid in CC.",
-        "long_text_mm4k15bg": "One outbound CC transfer per completed customer order: Float's payment to the exchange partner on a withdrawal, or Float's delivery to the customer on a deposit. Nothing else earns rewards. That excludes refunds, moves of Float's own treasury, preapproval renewals, partner payouts and anything administrative.",
-        "long_text_mm4kh3fw": "Float runs its own MainNet validator. The backend submits commands through the JSON Ledger API v2 as Float's operator party. Float's party keeps a live TransferPreapproval so users and partners can pay it in one step. A scheduled job renews it three weeks before it expires. Outbound payments use standard Splice transfers, and each one carries an ID derived from the order, so a retry can't pay twice. An internal ledger records what Float owes on every open order. Before each send, Float checks that its on-chain balance still covers everything it owes. If the balance can't be read, the send is refused.",
-        "long_text_mm4kfg50": "Rewards come from CC transfers submitted by Float's party, with the FeaturedAppRight attached. Float doesn't emit Activity Markers, and its reward activity is limited to one attributed transfer per completed swap.",
-        "long_text_mm4kxcm2": "1–2. Most users do one swap to get CC and occasionally one to cash out.",
-        "long_text_mm4kvyjq": "Only when they place separate orders, for example buying CC in two separate orders or withdrawing to two assets. Each order is a separate CC deposit or exchange-partner order and produces exactly one reward-earning transfer from Float. Float never splits one order into several transfers.",
-        "long_text_mm4k1cm0": "Linear with completed orders. Partner integrations could add a step up when a partner's users come online, but the ratio stays one attributed transfer per real swap.",
-        "long_text_mm4kfkwn": "Float is already live at myfloat.cc. Slay Money is the first partner platform and is listed on the site. Its users can buy and cash out CC through Float.",
-        "long_text_mm4k6q73": "Float would keep operating, but more slowly. Exchange-partner fees leave little margin, and on some partners Float currently earns nothing. App rewards would pay for the 0.2% partner incentive, lower fees for users and integrations with more Canton wallets. Without them, we'd reduce partner incentives and add integrations more slowly.",
-        "long_text_mm4kwxt1": "Yes: One reward-earning transfer per order, and only after the customer's deposit is confirmed on the ledger. An order that never gets funded, or that is refunded, earns nothing. Round-tripping doesn't pay. Each order goes through a third-party exchange with its own spread and network fees (about 1–2% per round trip), which is more than any reward on the same amount. Float sends only what actually arrived, never the quoted amount. No order is topped up from Float's own funds. The internal ledger and the on-chain balance are checked before every send. Sends are refused when the balance can't be verified, and every send has an order-derived ID so it can't be duplicated.",
-        "long_text_mm4kxsgy": "Float is built by the Slay Money team (RD SwapSo Private Limited), which already runs a Featured App on Canton."
-      }
-    },
-    {
       "id": "13111331892",
       "name": "Cove Wallet API - Qasara Labs Pvt Ltd",
-      "updatedAt": "2026-11-10T14:57:39Z",
+      "updatedAt": "2026-11-13T13:45:29Z",
       "values": {
         "text_mm4k2vch": "Qasara Labs Pvt Ltd",
-        "color_mm4kmej3": "1b-FAAC Approved-waiting on tokenomics",
+        "color_mm4kmej3": "2-Approved",
         "long_text_mm4kq322": "cove-utshcbgswo::12206e1a215f9cbbc1826c3f1c2805d8116c712c0da60bc5a96084d29017b75a9204",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "23d169c2-0909-4c70-81d1-1922de6febaa::1220e88fd2c4184da237c4d2a89f31b2f6ae2ee88c073c3824c96b812cca51ab12a1",
@@ -10978,38 +11098,9 @@ window.FEATURED_APP_BOARD_DATA = {
       }
     },
     {
-      "id": "13111369113",
-      "name": "Helvex - Dream Capital",
-      "updatedAt": "2026-11-10T14:57:39Z",
-      "values": {
-        "text_mm4k2vch": "Dream Capital",
-        "color_mm4kmej3": "1b-FAAC Approved-waiting on tokenomics",
-        "long_text_mm4kq322": "helvex-provider-1::1220c5ac264c69e428e1064e9ca5a0b0d5be586e6befa41c133223f7e044f8b85d60",
-        "color_mm4kpp3q": "Non-Issuer",
-        "long_text_mm4khjn6": "23d169c2-0909-4c70-81d1-1922de6febaa::1220590cb7e035449c6c6adc13aa2117e6c3e0eecf852bca42777097dd459dffc9e0",
-        "numeric_mm4k6919": "5.0",
-        "long_text_mm4km2s7": "Helvex is a Canton-native, permissioned RFQ trading desk by the Dream Capital team — not an issuer, wallet, or Super Validator. A KYC-verified user posts a swap intent (e.g. USDCx → CC or CBTC → USDCx); an independent solver fills it; settlement is one atomic CIP-0056 DvP on our self-hosted validator. Live on MainNet with Didit KYC + on-ledger allowlist",
-        "link_mm4kmq24": "https://helvex.cc",
-        "link_mm4kqtfa": "https://drive.google.com/file/d/16cxuCvTLt_vNZlmY-KNvL9hpOKQMFCyo/view?usp=sharing",
-        "long_text_mm4k2537": "Helvex is an intent-based RFQ swap on Canton. A user expresses a swap intent (for example USDCx → CC, or cBTC → USDCx). Independent solvers compete off-ledger to provide best execution. The winning fill settles atomically on-ledger as a two-leg delivery-versus-payment between Canton Token Standard tokens — CIP-0056 allocation-based DvP today, migrating to the backwards-compatible CIP-0112 (Token Standard V2, now on Splice main) as we adopt committed allocations, with no change to the product model.",
-        "long_text_mm5hgry2": "No. Helvex itself has not been previously deployed on another blockchain or in another production environment - it is purpose-built for Canton, using Canton-native primitives (CIP-0056 allocation-based DvP settlement, sub-transaction privacy, and Canton token interfaces) that do not exist on other chains. The broader architecture — intent/RFQ-based swaps with off-ledger matching and atomic on-ledger settlement — is a proven design pattern on other networks (e.g. CoW Protocol, 1inch Fusion, UniswapX). Helvex adapts that well-understood approach to Canton (v1: firm-quote RFQ with atomic DvP) rather than inventing an experimental swap mechanism, which reduces execution-model risk while the Canton-specific settlement, privacy, and compliance layers are new.",
-        "long_text_mm4k4y1h": "KYC’d retail and institutional users on Canton who want to swap between curated CIP-0056 tokens (CC, CBTC, and USDCx); CC holders needing on-network liquidity; and professional market makers/liquidity providers who trade via API and can act as solvers filling intents. Access is permissioned (KYC + allowlist); programmatic access is via API keys.",
-        "long_text_mm4k15bg": "We earn rewards from one activity only: the settlement of a completed swap on Canton, when a solver fills a user's RFQ and both sides of the trade settle atomically on-ledger. Rewards require our app-provider party (helvex-provider-1) to hold a FeaturedAppRight. On MainNet today, rewards are earned automatically from the network traffic of that settlement under CIP-0104 — we do not use activity markers. Everything off-ledger — quote discovery, matching, and solver selection — earns nothing, and funding movements like deposits, withdrawals, and transfers are not claimed.",
-        "long_text_mm4kh3fw": "State: we read active contracts and ledger-end, and fetch allocation/transfer factories and their disclosed contracts from the Splice Registry / Token Standard HTTP API at submit time (no stale cache). Commands: lock, settle, and withdraw are submitted from the backend via POST /v2/commands/submit-and-wait-for-transaction (the flat endpoint — the -tree variant is removed in Canton 3.5.0), requesting LEDGER_EFFECTS where we need exercise-node detail. actAs is always the account we already know — maker, solver, or protocol — never a client-supplied field; we reuse command IDs so retries can't double-spend. User authority for a swap is an off-ledger Ed25519-signed intent the backend verifies before acting. Withdrawals are destination-locked to the account's linked Loop party via WithdrawToExternal / WithdrawalDelegation. Auth: JWT for Ledger API calls, plus a validator/scan-proxy JWT audience for registry calls. The validator hosts the provider party (helvex-provider-1) and each user's trading party and holds their signing keys today, so settlement traffic accrues there. Migration to user-held keys (external party, prepare → sign → execute) is the decided Phase-2 design, not current behaviour.",
-        "long_text_mm4kfg50": "Canton Coin, via CIP-0104 traffic-based rewards. Not activity markers. The settlement itself burns traffic on our participant. Once FeaturedAppRight sits on helvex-provider-1, that traffic on the views we confirm is what mints the coupon. We do not exercise FeaturedAppRight_CreateActivityMarker and we do not attach a marker to the DvP. Markers are leftover from CIP-0047; on MainNet they cost traffic and earn nothing. CC-leg swaps and CBTC/USDCx swaps use the same path. We do not mint or transfer CC as a reward step — the only CC we spend on purpose is traffic/gas to submit the swap.",
-        "long_text_mm4kxcm2": "One filled swap is three ledger submits on our validator (create the SwapRequest; allocate both legs with BindSolver; the atomic DvP); off-ledger quotes and matching add nothing. Per KYC'd user-day — most do nothing on a given day — casual holders do 0–1 swap (~0–3 txs), active traders 2–5 swaps (~6–15 txs), and market makers / API solvers 5–20 fills (~15–60 txs). The rate cap is 2 RFQs/minute at $10–$1,000 each; we do not forecast anyone near it.",
-        "long_text_mm4kvyjq": "A round is about ten minutes. A user exceeds one ledger tx when a swap completes (three submits), when they do more than one swap in the window (cap 2 RFQs/minute), or when they fund — deposit, withdraw, or transfer — alongside a trade. We do not split a swap across solvers or generate filler transactions: one fill, one DvP. Off-ledger quotes and matching never touch the ledger.",
-        "long_text_mm4k1cm0": "Linear with active users. Each swap is ~3 independent ledger submits, with no shared per-round contract and no batching, so ledger volume ≈ active users × swaps × 3; a new user adds a one-time Activate. It is not super-linear (one fill, one DvP) and not materially sub-linear (we settle every real obligation). Off-ledger matching adds no ledger load.",
-        "long_text_mm4kfkwn": "Go-live already happened - MainNet has been open since mid-August 2026, so we are not waiting on a launch. First customers: KYC'd Canton retail and existing CC / CBTC / USDCx holders (including our Dream Capital / Helvex community); crypto traders wanting CC ↔ CBTC ↔ USDCx without a public book; small institutions / desks; and market makers / API solvers via HMAC keys. We already have some institutions testing our infra for RFQ settlement",
-        "long_text_mm4k6q73": "The desk stays open - swaps, KYC, deposit, fill, and withdraw do not need FeaturedAppRight, and that is how MainNet already runs. What changes is the reward loop: CIP-0104 coupons on helvex-provider-1 are how we planned to rebate solvers and keep spreads tight without paying it all from our own CC. Without FA, spreads widen, we lean on our own solver longer, and outside market-maker onboarding slows",
-        "long_text_mm4kwxt1": "Yes - layered controls across identity, economics, custody, and monitoring: Identity / access: Didit KYC and an on-ledger allowlist are required; geo/OFAC screening; frozen accounts cannot move funds; maker and solver are bound to the authenticated trading ID; self-fill is rejected on-ledger and in the API. Economic bounds: per-trade notional $10–$1,000 (fails closed if the price feed is down); rate limit 2 RFQs/minute; balance is net of open locks; only approved instruments and pairs are swappable. Custody: withdrawals go only to the account's linked Loop party; large withdrawals (>$10,000) need operator approval. Integrity / monitoring: idempotent command IDs and atomic settlement claims prevent double-spends; immutable on-ledger receipts with continuous ledger-vs-DB reconciliation; wash-trade / related-party surveillance across accounts (matched size/timing, reciprocal or circular flows) with suspension on trigger; single-solver settlement (no sharding surface); and we monitor our reward-weight-to-net-fee ratio against the Coupon Guidance tolerance (~1.0×).",
-        "long_text_mm4kxsgy": "Applying as a Non-Issuer Featured App; lock = 5,000,000 CC (CIP-0116). Reward model is CIP-0104 traffic-based, not markers. FeaturedAppRight must go to the dedicated provider party helvex-provider-1 (Q8/Q34), not to user trading IDs. TestNet is the right environment for functional testing; MainNet uses real CC. Operator admin (KYC approve/freeze) is out of scope for reviewers. We will file the one-month and quarterly activity reports and join a Tokenomics call as required. Incident contact during review: shilpa@dreamcapital.tech (include network, email, intent id, UTC time, screenshot; do not send MainNet funds while an intent is stuck)."
-      }
-    },
-    {
       "id": "13122710944",
       "name": "OneSwap Launchpad - SatsTerminal",
-      "updatedAt": "2026-11-12T09:52:28Z",
+      "updatedAt": "2026-11-13T10:23:40Z",
       "values": {
         "text_mm4k2vch": "SatsTerminal",
         "color_mm4kmej3": "1-Needs Review",
@@ -11099,7 +11190,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13167162421",
       "name": "Scopex Rate Lock - ScopeX Money",
-      "updatedAt": "2026-11-11T15:52:40Z",
+      "updatedAt": "2026-11-13T05:01:37Z",
       "values": {
         "text_mm4k2vch": "ScopeX Money",
         "color_mm4kmej3": "1-Needs Review",
@@ -11153,40 +11244,9 @@ window.FEATURED_APP_BOARD_DATA = {
       }
     },
     {
-      "id": "13189277788",
-      "name": "Canal - Ice Labs",
-      "updatedAt": "2026-11-12T06:56:09Z",
-      "values": {
-        "text_mm4k2vch": "Ice Labs",
-        "color_mm4kmej3": "0-Locked+Needs Review",
-        "long_text_mm4kq322": "icelabs-validator-1::122038179a4a275875b69c71be3600a851ec49dcd35952eb36596ab3488d9c59bba3",
-        "color_mm4kpp3q": "Asset Issuer",
-        "long_text_mm4khjn6": "1220d::1220d62580526d31f3a7067c5c7415db18005fd179e8d8684fe9dd1df73953af13ee",
-        "numeric_mm4k6919": "25.0",
-        "long_text_mm4km2s7": "Canal is developed and operated by ICE Labs, an Asia-based team with backgrounds in venture capital, digital asset mining and software engineering. The team includes senior engineers with more than eight years of software development experience and Daml smart contract expertise, supporting asset issuance and lifecycle management on Canton. ICE Labs combines technical capabilities, digital asset experience and institutional relationships to bring external assets and their users into Canton, with a long-term focus on assets that pass through underlying economic yield. The founders collectively hold more than US$100 million in BTC, ETH, SOL and BNB. These are founder-level holdings; they are not funds already committed to Canal or dedicated reserves backing Canal-issued assets.",
-        "link_mm4kmq24": "https://canal.finance/",
-        "link_mm4krmse": "https://github.com/Canal-Bridge",
-        "link_mm4kqtfa": "https://drive.google.com/file/d/1ZNnm4so9NVIUFO3wYODmAPSxt8rdMD_e/view",
-        "long_text_mm4k2537": "Canal is an asset issuer on Canton that brings liquid external assets and yield-bearing assets into a privacy-enabled financial environment for institutions and individuals. Its initial asset program includes SOL-backed iSOL and BNB-backed cBNB. Canal plans to expand into staking-yield assets such as yiSOL and tokenized US dollar money market fund-related assets, enabling users to hold, transfer, trade and use these assets while receiving the underlying yield where applicable.",
-        "long_text_mm5hgry2": "No. Canal was built specifically for asset issuance and use on Canton. Neither Canal nor a substantially similar version has previously been deployed on another blockchain or in a separate production environment. The current iSOL product includes Solana-side components handling underlying SOL and Canton-side Daml components handling issuance, ownership, transfers and redemption-related burns. These components form a single product rather than a previous independent deployment.",
-        "long_text_mm4k4y1h": "Canal serves digital asset holders seeking access to SOL- and BNB-related assets on Canton; asset managers and corporate treasury teams seeking yield-bearing assets and private asset management; market makers and professional trading firms providing liquidity and managing inventory; and external asset partners bringing assets into Canton. Approved institutions can use Canal's minting and redemption services directly. Retail users are expected to access, hold and trade the issued assets primarily through integrated wallets and trading venues.",
-        "long_text_mm4k15bg": "Canal seeks issuer rewards for bona fide use of its issued assets in independent Canton applications: 1. Wallet transfers and asset movements initiated by users through integrated wallets and applications. 2. Trading and settlement in independent venues, including delivery-versus-payment settlement where supported. 3. Transfers and settlement of future yiSOL and fund-related yield-bearing assets after launch and approval of the relevant scope. Attribution will follow the underlying on-chain events and distinguish Canal's issuer role from the services provided by wallets and venues. Canal does not seek rewards for passive holdings, reserve balances, off-chain operations or artificial circular transactions. Underlying investment yield is accounted for separately.",
-        "long_text_mm4kh3fw": "1. Issuance: an institution submits a mint order and deposits SOL. After payment confirmation and order approval, Canal issues the corresponding iSOL to the designated Canton Party ID. 2. Transfers and use: integrated wallets and applications transfer the asset; ledger events record changes in ownership. Trading venues may incorporate it into trade and settlement workflows. 3. Redemption: after order review and user authorization, the relevant iSOL is burned on Canton and the underlying SOL is released through the Solana-side process. Redemption is complete only when SOL reaches the destination wallet. 4. Queries: Canal reads contract state and transaction confirmations to display balances, orders and mint/redemption progress. cBNB and future yield-bearing assets will use the same issuance and management pattern, adapted to their underlying assets and product terms.",
-        "long_text_mm4kfg50": "Activity Markers are the planned attribution mechanism for eligible transfers, trading and settlement of Canal-issued assets in third-party wallets and venues. The integration is intended to associate verifiable ledger events with Canal's issuer Party ID. On networks with CIP-0104 enabled, Canal plans to use actual network activity as the basis for eligible application rewards, denominated in Canton Coin. Implementation and test evidence must be completed before these plans are presented as verified functionality.",
-        "long_text_mm4kxcm2": "Active retail accounts: approximately 2–10 transfers and purchases/sales combined per actual trading day. Holders who do not trade may generate fewer or no transactions on a given day. Asset managers and treasury teams: activity is driven by allocations, redemptions, portfolio changes and treasury transfers; a fixed daily number has not yet been established. Market makers and professional traders: customer fills and inventory adjustments may generate multiple daily settlements. Actual executed and settled Canton activity will be measured separately from unexecuted quotes and off-chain actions.",
-        "long_text_mm4kvyjq": "A user may make several independent transfers or execute multiple trades in a short period. Institutions may process several client mint/redemption orders, treasury transfers, portfolio changes or inventory adjustments within the same round. Market makers may settle several genuine customer orders. Each transaction must correspond to a real business action. Counts will be based on executed ledger activity; repeated transfers created solely to increase rewards are outside the proposed reward scope. A numerical maximum per round has not yet been established.",
-        "long_text_mm4k1cm0": "Initially, we expect transaction volume to grow approximately linearly with the number of active users. Additional assets, venues and institutional participants may increase available counterparties and use cases, potentially producing periods of super-linear growth. This is a forecast, not a guaranteed outcome. Growth is expected to be supported by community onboarding, institutional demand, asset partnerships and the confirmed market-making cooperation with TradingX and Gatekeeper.",
-        "long_text_mm4kfkwn": "Initial users are expected to include TradingX and Gatekeeper for quoting and market making; participants from Canal's existing approximately 2,000-person community; and institutions participating in the asset program. DePINX has an approximately US$3 million staking-asset cooperation arrangement. Phistone Capital may pilot yield-bearing asset allocations after due diligence and investment authorization. FinChain is an asset partner for proposed tokenized US dollar money market fund-related products. Canal has contacted Console Wallet, C8, Rocky, OneSwap, Ekiden, Loop, Nuxaris and Temple about integrations. Rocky already supports iSOL wallet connection and related mint/redemption flows; the other contacts are not represented as completed integrations. Initial formal commercial use is targeted for mid-to-late October 2026, launched in stages after FA activation and channel readiness. Yield-bearing products will follow their own issuance and customer-onboarding schedules.",
-        "long_text_mm4k6q73": "Without FA status, formal distribution and ecosystem integrations would be delayed. Several wallets and venues contacted by Canal are willing to support test assets but treat FA status as an important prerequisite for formal onboarding. This would delay market making, user acquisition and liquidity deployment for iSOL and cBNB, and slow the introduction of yiSOL and fund-related assets. Canal would adjust launch timing and deployment scale while continuing product validation and partner integration work.",
-        "long_text_mm4kwxt1": "Yes. Canal applies controls to institutional onboarding and mint/redemption orders: 1. Organization review: company and registration information, compliance contact, source of funds and expected transaction volume are reviewed before account activation. 2. Wallet verification: Solana and Canton wallets are registered, ownership is verified by signatures, and required approvals are completed. 3. Purpose and order review: every mint/redemption order states its purpose and is reviewed before execution; additional information may be requested. 4. Traceability: order IDs, statuses and transaction references support reconciliation and manual review. Partner access codes do not replace required organization information or individual order review. Canal excludes artificial circular transactions from its proposed reward scope. These issuer-side controls are not a claim that Canal directly approves every downstream trade in independent wallets or venues.",
-        "long_text_mm4khbeg": "https://github.com/Canal-Bridge",
-        "long_text_mm7pyz6h": "Canal's objective is to bring external asset holders, institutional liquidity and yield-bearing assets into Canton. The controlled iSOL mainnet pilot and the planned broader commercial rollout are distinct milestones. iSOL and cBNB belong to the same initial asset program; yiSOL and fund-related products are future extensions. We seek issuer attribution for genuine asset use through independent applications. Passive holdings, off-chain operations and artificial circular activity are outside the proposed reward scope. Product yield and application rewards are accounted for separately. Our proposed reporting approach is to distinguish transfers from settlements and report daily transactions, maximum transactions per round, attribution mechanism, and customers at the start and end of each reporting period. We will align reporting and any expansion of reward scope with the Committee's requirements."
-      }
-    },
-    {
       "id": "13202966648",
       "name": "Meriq - Anoetic Labs LLC",
-      "updatedAt": "2026-11-12T07:56:19Z",
+      "updatedAt": "2026-11-13T08:54:19Z",
       "values": {
         "text_mm4k2vch": "Anoetic Labs LLC",
         "color_mm4kmej3": "1-Needs Review",
@@ -11246,7 +11306,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13224947645",
       "name": "ForecastDesk - Microsystems Express Telecom",
-      "updatedAt": "2026-11-12T07:56:37Z",
+      "updatedAt": "2026-11-13T08:54:35Z",
       "values": {
         "text_mm4k2vch": "Microsystems Express Telecom",
         "color_mm4kmej3": "1-Needs Review",
@@ -11273,7 +11333,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13235200691",
       "name": "CHYPE - BitSafe Validator, LLC",
-      "updatedAt": "2026-11-10T14:57:40Z",
+      "updatedAt": "2026-11-13T12:31:29Z",
       "values": {
         "text_mm4k2vch": "BitSafe Validator, LLC",
         "color_mm4kmej3": "2-Approved",
@@ -11304,10 +11364,10 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13253875306",
       "name": "cBNB - Nuxaris LLC",
-      "updatedAt": "2026-11-12T00:53:59Z",
+      "updatedAt": "2026-11-12T17:01:47Z",
       "values": {
         "text_mm4k2vch": "Nuxaris LLC",
-        "color_mm4kmej3": "0-Locked+Needs Review",
+        "color_mm4kmej3": "4-No",
         "long_text_mm4kq322": "cbnb-admin::122065645666a14e30513626b92fd348b76fe0430557d08f68ac3e2beb37b407b3c9",
         "color_mm4kpp3q": "Asset Issuer",
         "long_text_mm4khjn6": "23d169c2-0909-4c70-81d1-1922de6febaa::12205b86a74fa127c03c3e73baa3cb1e4ab9ab6b56c3556fe01218251f65f0dc2c86. The 25M CC is locked on this party, separate from app activity, rewards and operational holdings, in line with CIP-0116.",
@@ -11334,7 +11394,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13261982165",
       "name": "CC Space - ITRocket LLC",
-      "updatedAt": "2026-11-12T07:56:49Z",
+      "updatedAt": "2026-11-13T06:54:53Z",
       "values": {
         "text_mm4k2vch": "ITRocket LLC",
         "color_mm4kmej3": "0-Locked+Needs Review",
@@ -11427,10 +11487,10 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13374832376",
       "name": "cLTC (Litecoin on Canton) - Greywick Digital Limited",
-      "updatedAt": "2026-11-12T03:54:14Z",
+      "updatedAt": "2026-11-13T13:47:23Z",
       "values": {
         "text_mm4k2vch": "Greywick Digital Limited",
-        "color_mm4kmej3": "0-Locked+Needs Review",
+        "color_mm4kmej3": "1b-FAAC Approved-waiting on tokenomics",
         "long_text_mm4kq322": "greywick-cltc-issuer::12201a4d43ac9f609b10b45dce010d998141d24993fd0ea24fb0c2e593dcb47401d2",
         "color_mm4kpp3q": "Asset Issuer",
         "long_text_mm4khjn6": "12201::122011f3d9afe2c191758c5676b91f100423772b7de1c0568f08b252d18d72613310",
@@ -11454,7 +11514,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13374874349",
       "name": "Fluvia Wallet - Maouam Nodelab",
-      "updatedAt": "2026-11-12T00:54:08Z",
+      "updatedAt": "2026-11-13T00:54:17Z",
       "values": {
         "text_mm4k2vch": "Maouam Nodelab",
         "color_mm4kmej3": "0-Locked+Needs Review",
@@ -11486,7 +11546,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13392332045",
       "name": "Cohong - VN Capital",
-      "updatedAt": "2026-11-12T09:53:41Z",
+      "updatedAt": "2026-11-13T08:55:00Z",
       "values": {
         "text_mm4k2vch": "VN Capital",
         "color_mm4kmej3": "1-Needs Review",
@@ -11514,69 +11574,9 @@ window.FEATURED_APP_BOARD_DATA = {
       }
     },
     {
-      "id": "13392344761",
-      "name": "Tori Finance (trUSD and strUSD) - Tori (BVI) Ltd.",
-      "updatedAt": "2026-11-12T03:54:40Z",
-      "values": {
-        "text_mm4k2vch": "Tori (BVI) Ltd.",
-        "color_mm4kmej3": "0-Locked+Needs Review",
-        "long_text_mm4kq322": "tori-issuer::12209ca44a2e3b2fbe3b5696775231c97e856865b24c54741800a6801e2569290fe4",
-        "color_mm4kpp3q": "Asset Issuer",
-        "long_text_mm4khjn6": "DA lock (25M CC): 1220b64e93db2a4d51b303309700e81776e67c115cf66b80b96fc43f7a8c09506af6::1220aa871b0fb2910f78c143b33909cb66dc41d34ef3df1c04b169517b4fd0a7a209 Tori (BVI) FA locking wallet (empty for now): 0c33a821::1220ff823b0ceebbad7eae6c0784fd674e1b8ca1f5c371fa2a2a175d3e4d2364fe32",
-        "numeric_mm4k6919": "25",
-        "long_text_mm4km2s7": "Tori Finance is a synthetic dollar protocol. Its issuer, Tori (BVI) Ltd., a British Virgin Islands company, issues trUSD, a synthetic dollar minted against USDC and USDT, and strUSD, the staked vault share of trUSD, whose value follows the vault's share price. Both have been live on Ethereum since June 2026, with Ethereum as the canonical chain and Chainlink CCIP connecting other networks. Reserves are attested by Accountable (tori.accountable.capital), the core contracts were audited by Sherlock and Nethermind, and protocol administration sits behind a 3-of-5 multisig.",
-        "link_mm4kd0hk": "https://docs.tori.finance/resources/brand",
-        "link_mm4kmq24": "https://tori.finance",
-        "long_text_mm4k2537": "Tori Finance brings trUSD, its synthetic dollar, and strUSD, its staked vault share, to Canton. Tori (BVI) Ltd. issues both as CIP-0056 tokens on the Digital Asset Utility Registry, bridged from Ethereum through Chainlink CCIP. Holders move them between Ethereum and Canton from their own wallets using Tori's non-custodial web app, then hold, pay and settle them in any Canton wallet and on Canton venues.",
-        "long_text_mm5hgry2": "Yes. trUSD (0xd0580192E98eA6CEB9c7b6191Ed2E27560911697) and strUSD (0x280839980a7eD0D7717F64125fE241012E5F5815) have been live on Ethereum mainnet since June 2026, verified on Etherscan, and are connected to other networks through Chainlink CCIP with Ethereum canonical. On Canton TestNet both have run under the issuer party since 14 October 2026: Registry issuance, CCIP bridging in both directions, wallet transfers and DvP settlement.",
-        "long_text_mm4k4y1h": "(1) Existing trUSD and strUSD holders who bridge from Ethereum to hold, pay and settle on Canton. (2) Users of Canton wallets that add the tokens. (3) Users of third-party Canton venues that list them, who swap or settle them against other assets.",
-        "long_text_mm4k15bg": "Transfers and DvP settlements of trUSD and strUSD between holders, in their wallets and on third-party venues. Tori pays for no volume and generates no activity to earn rewards.",
-        "long_text_mm4kh3fw": "Both tokens are issued on the Digital Asset Utility Registry with the issuer party as instrument admin. Supply enters and leaves Canton only through Chainlink CCIP: the Canton pool mints when tokens are locked on Ethereum and burns when holders bridge back. Holders sign every transaction from their own CIP-103 wallets using the standard token APIs, and no Tori party holds holder tokens. The issuer party writes only Registry administration and pool operations.",
-        "long_text_mm4kfg50": "Activity Markers, created through the Digital Asset Registry, while MainNet runs the marker regime; traffic-based app rewards once CIP-0104 is live.",
-        "long_text_mm4kxcm2": "0.25 to 1 reward-earning transfers per active holder per day, and 1 to 5 settlements per active venue user per day.",
-        "long_text_mm4kvyjq": "Only when making distinct payments or settlements, or the steps of one, such as a two-step transfer. Tori offers no incentive to repeat or split transfers.",
-        "long_text_mm4k1cm0": "Linearly with active holders and with wallet and venue integrations.",
-        "long_text_mm4kfkwn": "Existing trUSD and strUSD holders bridging from Ethereum, and users of Canton wallets and venues that add the tokens. Canton TestNet has been live since 14 October 2026; MainNet goes live once the Registry instruments are created.",
-        "long_text_mm4k6q73": "Tori would still launch on Canton. Featured status would mainly speed up on-chain integrations and growth.",
-        "long_text_mm4kwxt1": "Yes. Tori and its affiliates generate no activity to earn rewards and pay for no volume, holders sign every transaction from their own wallets, and Tori monitors trUSD and strUSD activity for round trips, split payments and self-transfers.",
-        "long_text_mm4kp5en": "https://docs.tori.finance/resources/brand",
-        "long_text_mm7pyz6h": "Tori (BVI) Ltd. requests a section 1.3 exception (guidance v2.0b) so that strUSD shares the trUSD featured asset party and lock. strUSD is the staked vault share of trUSD: it is minted only by depositing trUSD into the vault and redeems only into trUSD. Both are issued by the same issuer and bridged through Chainlink CCIP. Additional context from Sam (Tori): Tori (BVI) Ltd. submitted its Featured App application for trUSD and strUSD. Tori is working with DA on going live and is in active conversations with the Canton Strategic Holdings teams."
-      }
-    },
-    {
-      "id": "13413543825",
-      "name": "BTC0 - OnRails Ltd",
-      "updatedAt": "2026-11-12T07:57:28Z",
-      "values": {
-        "text_mm4k2vch": "OnRails Ltd",
-        "color_mm4kmej3": "0-Locked+Needs Review",
-        "long_text_mm4kq322": "btc0-provider::12200350ba6e96e3b701c3048b5aa013a8c1c08833e8ebf54339cff581055c29003a",
-        "color_mm4kpp3q": "Asset Issuer",
-        "long_text_mm4khjn6": "23d169c2-0909-4c70-81d1- 1922de6febaa::1220ecdb3f8dd6b8baece5e12317da3d23b654f093ea8ab844518d8ecb8e98629160",
-        "numeric_mm4k6919": "0.0",
-        "long_text_mm4km2s7": "OnRails operates asset infrastructure for the Canton Network. Our team has production experience in cross-chain operations and integrations with wallets and trading venues through products including cETH and cSOL",
-        "link_mm4kmq24": "https://btc0.network",
-        "long_text_mm4k2537": "Based on discussions with Canton ecosystem stakeholders, we see market demand for a Bitcoin-backed asset with reserves held by a US Qualified Custodian. This model provides a defined custody counterparty and a risk profile institutions can assess within their existing frameworks, supporting broader adoption and scalable growth in supply. BTC0 is a 1:1 BTC-backed asset issued on Canton for trading, settlement and collateral use. Eligible participants deposit BTC to obtain BTC0, hold and transfer it through compatible wallets and applications, and burn BTC0 to redeem BTC. The underlying Bitcoin remains in qualified custody. Tokens are minted against confirmed deposits and burned before BTC is released, subject to applicable onboarding and redemption terms.",
-        "long_text_mm5hgry2": "BTC0 has not previously been deployed on another blockchain. OnRails has production experience with substantially similar asset infrastructure through cETH and cSOL on Canton.",
-        "long_text_mm4k4y1h": "Wallet users, trading venues, market makers and institutions seeking BTC exposure, settlement and collateral use on Canton, including institutions seeking BTC reserves held with a US Qualified Custodian.",
-        "long_text_mm4k15bg": "BTC0 activity across independent third-party wallets and venues generates asset-issuer rewards for mint, burn, transfer, allocation and settlement transactions. Attribution follows the current Featured App Guidance and is based on genuine and verifiable ledger updates and associated network traffic burn.",
-        "long_text_mm4kh3fw": "Mints, burns, transfers, allocations and settlements following the CIP-0056 token standard.",
-        "long_text_mm4kfg50": "Activity Markers, using the standard DA Utility automation and reward model used for OnRails’ existing token products, in line with the current Featured App Guidance.",
-        "long_text_mm4kxcm2": "We expect approximately 0.5 transactions per day per active party, based on available operating history and transaction statistics for other tokens operated by OnRails.",
-        "long_text_mm4kvyjq": "A user may execute several trades or transfers within the same round.",
-        "long_text_mm4k1cm0": "We expect generally linear growth as the active user base expands, with larger increases when new venue integrations bring additional users and market makers.",
-        "long_text_mm4kfkwn": "Initial users are expected to come through OnRails’ existing wallet and venue relationships. We are working with dozens of platforms on integrations – including DFNS, Bron, Loop, Kora, Tradecraft, Modulo, Console, C8, Cantex, and other applications.",
-        "long_text_mm4k6q73": "We will continue the rollout. Featured App status would help us attract liquidity, support wallet and venue integrations, and keep transaction fees lower for users. Without it, we would need to focus on fewer integrations initially, and higher fees would likely slow adoption.",
-        "long_text_mm4kwxt1": "Yes. We have developed a system to monitor token activity across venues for circular transfers, repetitive transaction patterns, unusually concentrated volume in individual wallets and other anomalies. If suspicious activity is detected, we suspend commercial relations with the venue while we review the activity.",
-        "long_text_mm4khbeg": "n/a",
-        "long_text_mm4kp5en": "n/a",
-        "long_text_mm7pyz6h": "BTC0 builds on OnRails’ experience operating cETH and cSOL on MainNet, with a dedicated Featured Asset Party ID separate from those used for our other tokens"
-      }
-    },
-    {
       "id": "13432621602",
       "name": "Efficient Frontier Volatility Capture Vaults - Efficient Frontier (Odyssey Technologies Limited)",
-      "updatedAt": "2026-11-12T00:54:32Z",
+      "updatedAt": "2026-11-13T05:01:41Z",
       "values": {
         "text_mm4k2vch": "Efficient Frontier (Odyssey Technologies Limited)",
         "color_mm4kmej3": "1-Needs Review",
@@ -11604,7 +11604,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13460684786",
       "name": "USD1 - World Liberty Financial",
-      "updatedAt": "2026-11-12T12:51:13Z",
+      "updatedAt": "2026-11-13T12:51:45Z",
       "values": {
         "text_mm4k2vch": "World Liberty Financial",
         "color_mm4kmej3": "1-Needs Review",
@@ -11635,7 +11635,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13495001147",
       "name": "Edel Stocks - Edel Finance",
-      "updatedAt": "2026-11-12T07:57:49Z",
+      "updatedAt": "2026-11-13T08:55:14Z",
       "values": {
         "text_mm4k2vch": "Edel Finance",
         "color_mm4kmej3": "1-Needs Review",
@@ -11664,7 +11664,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13495071449",
       "name": "Supanova Launchpad - SUPANOVA CORP",
-      "updatedAt": "2026-11-12T07:58:02Z",
+      "updatedAt": "2026-11-13T13:36:41Z",
       "values": {
         "text_mm4k2vch": "SUPANOVA CORP",
         "color_mm4kmej3": "1-Needs Review",
@@ -11691,7 +11691,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13500835544",
       "name": "Cantumi - Cantumi",
-      "updatedAt": "2026-11-12T07:02:19Z",
+      "updatedAt": "2026-11-13T07:55:19Z",
       "values": {
         "text_mm4k2vch": "Cantumi",
         "color_mm4kmej3": "1-Needs Review",
@@ -11721,7 +11721,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13521841119",
       "name": "Supanova - SUPANOVA CORP",
-      "updatedAt": "2026-11-12T05:55:37Z",
+      "updatedAt": "2026-11-13T06:57:35Z",
       "values": {
         "text_mm4k2vch": "SUPANOVA CORP",
         "color_mm4kmej3": "1-Needs Review",
