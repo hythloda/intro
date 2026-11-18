@@ -1,5 +1,5 @@
 window.FEATURED_APP_PARTYID_CHANGES_DATA = {
-  "generatedAt": "2026-11-17T16:19:12.809Z",
+  "generatedAt": "2026-11-18T15:52:39.070Z",
   "columns": [
     {
       "id": "long_text_mm4kq322",
@@ -13,6 +13,24 @@ window.FEATURED_APP_PARTYID_CHANGES_DATA = {
     }
   ],
   "changes": [
+    {
+      "id": "33fe793b-fcce-477e-956f-24ace8cdf719",
+      "changedAt": "2026-11-17T17:19:13.940Z",
+      "itemName": "Rapid Chain - Rapid Blockchain Technologies Ltd.",
+      "itemId": "12954184948",
+      "field": "Locking PartyIDs",
+      "previousValue": "23d169c2-0909-4c70-81d1-1922de6febaa::1220f7a9536dd3ac943688bff534eb25b28046b6660b1f579d2d0d0037dacc96dcac",
+      "newValue": ""
+    },
+    {
+      "id": "fddf8ce5-915a-4053-9d51-fb2e58275c55",
+      "changedAt": "2026-11-17T17:18:44.934Z",
+      "itemName": "eesee - eesee Ltd. (BVI-registered). Application operations supported by CoreOps Digital Corporation (operator of Canсore), an affiliated entity contributing the atomic-swap/bridging primitive.",
+      "itemId": "12743035486",
+      "field": "Locking PartyIDs",
+      "previousValue": "23d169c2-0909-4c70-81d1-1922de6febaa::12200255cb9526b82c134e1bfb2136f841c32af8a2df39e2e52a2c9f03da7a4afac1",
+      "newValue": ""
+    },
     {
       "id": "aea7623d-670e-44b0-845c-f5d3e4c71bf9",
       "changedAt": "2026-11-12T12:39:53.720Z",
@@ -174,24 +192,6 @@ window.FEATURED_APP_PARTYID_CHANGES_DATA = {
       "field": "Locking PartyIDs",
       "previousValue": "f01f786e5ec7676d491e17e151218946::12203f1f26f2994ce6e06c49a319e7804e22d830bfb51addc85943ba669035b57110",
       "newValue": "ldg::1220de78c632a63c553feb58fa08a3172f3a324e3a27e7736089e5145d455194cec5"
-    },
-    {
-      "id": "5901e749-1140-43ba-9347-3fde08910fe3",
-      "changedAt": "2026-10-19T12:11:24.968Z",
-      "itemName": "Nexode",
-      "itemId": "12467804368",
-      "field": "Locking PartyIDs",
-      "previousValue": "nexode-lock::12208428f54ef01a64f520dc586a3876f8316b03f1ec40b3764142de89dc5d34acb9",
-      "newValue": "23d169c2-0909-4c70-81d1-1922de6febaa::1220f57865147cd7795b83378e0baac918519107fa07724facd823ce97b1ad64ff6e"
-    },
-    {
-      "id": "19e3ae51-2ab5-4c94-9ebf-8e7685a49a3e",
-      "changedAt": "2026-10-15T12:19:20.957Z",
-      "itemName": "cSOL - OnRails Ltd",
-      "itemId": "13076683931",
-      "field": "Party ID for the Featured Application:",
-      "previousValue": "rails-csol::12200350ba6e96e3b701c3048b5aa013a8c1c08833e8ebf54339cff581055c29003a",
-      "newValue": "onrails-provider::12200350ba6e96e3b701c3048b5aa013a8c1c08833e8ebf54339cff581055c29003a"
     }
   ]
 };
