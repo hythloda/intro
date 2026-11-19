@@ -1,5 +1,5 @@
 window.FEATURED_APP_BOARD_DATA = {
-  "generatedAt": "2026-11-19T15:51:06.342Z",
+  "generatedAt": "2026-11-19T22:11:26.168Z",
   "statusColumnId": "color_mm4kmej3",
   "columns": [
     {
@@ -10,6 +10,11 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "color_mm4kmej3",
       "title": "FA Status",
+      "type": "status"
+    },
+    {
+      "id": "color_mm8z4ket",
+      "title": "FA Type",
       "type": "status"
     },
     {
@@ -327,12 +332,14 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12954184948",
       "name": "Rapid Chain - Rapid Blockchain Technologies Ltd.",
-      "updatedAt": "2026-11-18T18:51:32Z",
+      "updatedAt": "2026-11-19T20:51:25Z",
       "values": {
         "text_mm4k2vch": "Rapid Blockchain Technologies Ltd.",
-        "color_mm4kmej3": "1-Needs Review",
+        "color_mm4kmej3": "0-Locked+Needs Review",
+        "color_mm8z4ket": "Basic Featured App",
         "long_text_mm4kq322": "rapidchain-validator-1::12203494523f5bb02d6388ee3de4b15ee211581b6c1dadf23b71a0d2c1043d41eca5",
         "color_mm4kpp3q": "Non-Issuer",
+        "long_text_mm4khjn6": "23d169c2-0909-4c70-81d1-1922de6febaa::1220f7a9536dd3ac943688bff534eb25b28046b6660b1f579d2d0d0037dacc96dcac",
         "long_text_mm4km2s7": "Rapid Blockchain Technologies Ltd.",
         "long_text_mm4k2537": "Rapid Chain provides a high-performance execution environment for digital assets and Real World Asset (RWA) tokenization. The system performs order matching, batching, and transaction execution off-ledger, while anchoring final settlement and state commitments to the Canton Network via the Global Synchronizer. This approach enables: sub-second user experience, reduced ledger load, institutional privacy, and deterministic finality backed by Canton. Rapid Chain acts as an execution and liquidity layer while Canton serves as the root of trust and settlement authority.",
         "long_text_mm5hgry2": "No",
@@ -356,6 +363,7 @@ window.FEATURED_APP_BOARD_DATA = {
       "values": {
         "text_mm4k2vch": "NIPRO TECHNOLOGIES LIMITED",
         "color_mm4kmej3": "1-Needs Review",
+        "color_mm8z4ket": "Featured Asset-Moving App",
         "long_text_mm4kq322": "metcredx-validator-1::12202a382d32958b9309efcbfa53b136544c7b5061a292a2b5156b1a55d775582d0d",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "metcredx-validator-1::12202a382d32958b9309efcbfa53b136544c7b5061a292a2b5156b1a55d775582d0d The same party as the Featured Application. We are not proposing a separate locking party at this stage. If the Committee would prefer the lock to sit against a distinct PartyId, we will accommodate that.",
@@ -385,6 +393,7 @@ window.FEATURED_APP_BOARD_DATA = {
       "values": {
         "text_mm4k2vch": "The Hub",
         "color_mm4kmej3": "2-Approved",
+        "color_mm8z4ket": "Basic Featured App",
         "long_text_mm4kq322": "thehub-validator-2::12209cbda0246f31fda21844936d3ed71d39d1e253827ba5918543cdbb07b4c24353",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "23d169c2-0909-4c70-81d1-1922de6febaa::1220ca49b703a773cfe71859698d6302c4e289d8a5888868438c71de0b33bf951a72",
@@ -500,6 +509,7 @@ window.FEATURED_APP_BOARD_DATA = {
       "values": {
         "text_mm4k2vch": "Orphil LLC (Agentic Ledger)",
         "color_mm4kmej3": "6-Withdrawn",
+        "color_mm8z4ket": "Featured Asset-Moving App",
         "long_text_mm4kq322": "auth0_007c68d2894fe33775a90f6235ef::1220be1c48dd490ecf762b3a91ee25cd4588650444597db1115551a9d00a93138a48",
         "color_mm4kpp3q": "Non-Issuer",
         "link_mm4kd0hk": "NA - https://NA",
@@ -583,6 +593,7 @@ window.FEATURED_APP_BOARD_DATA = {
       "values": {
         "text_mm4k2vch": "Security Layer Innovations Limited",
         "color_mm4kmej3": "2-Approved",
+        "color_mm8z4ket": "Basic Featured App",
         "long_text_mm4kq322": "selay-validator-1::1220db68d747efac2626aa1804790343f4ba781408ad076cbb3af63f1aa03b88f3cb",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "4M-Lending-Lock-6::1220c03dee4b32e29d0e4c3a395afa3bc82629a60d86ab75289dad473ab46a5ce56f 5,000,000 CC locked via the 7LOCK marketplace",
@@ -750,6 +761,7 @@ window.FEATURED_APP_BOARD_DATA = {
       "values": {
         "text_mm4k2vch": "RD SwapSo Private Limited",
         "color_mm4kmej3": "2-Approved",
+        "color_mm8z4ket": "Featured Asset-Moving App",
         "long_text_mm4kq322": "slaymoneyprediction::1220fa07a73d7a0c7df66161449570e987738485ffb03a6d320d831a5d72b355efc5",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "23d169c2-0909-4c70-81d1-1922de6febaa::1220f14444477d71dcb153f542ff6b9a424cc55eef4af36e50464318d8c6c4935295",
@@ -811,6 +823,7 @@ window.FEATURED_APP_BOARD_DATA = {
       "values": {
         "text_mm4k2vch": "WEB34EVER",
         "color_mm4kmej3": "2-Approved",
+        "color_mm8z4ket": "Basic Featured App",
         "long_text_mm4kq322": "syncvotes-app-provider::122050f896a953422a6745ce77a4a1537e4b869f939f0eb8cb8cfdb189e2acaa7218",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "23d169c2-0909-4c70-81d1-1922de6febaa::12207afc6e98a8ecf74866bfabba5ef7c6f45bbbf45bb9a5976c1d9ca53055fb0284",
@@ -1004,6 +1017,7 @@ window.FEATURED_APP_BOARD_DATA = {
       "values": {
         "text_mm4k2vch": "Upflam",
         "color_mm4kmej3": "2-Approved",
+        "color_mm8z4ket": "Basic Featured App",
         "long_text_mm4kq322": "upflam-main-1::1220cc07965b22048868ace639de7f516c45ab59de511e10e2a7f12ae1e3895c4d51",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "upflam-treasury::1220fcf86322b2ae75c9e6f74b9159e3407d9c426d97ebd6676be64ccab966dee4f3",
@@ -1193,6 +1207,7 @@ window.FEATURED_APP_BOARD_DATA = {
       "values": {
         "text_mm4k2vch": "Jubilee Markets",
         "color_mm4kmej3": "2-Approved",
+        "color_mm8z4ket": "Basic Featured App",
         "long_text_mm4kq322": "jubilee-marketplace::1220f1e76697bbc124cc4138bed49ddd368fe7645239116e592babbd0586c972de9b",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "23d169c2-0909-4c70-81d1-1922de6febaa::1220f3aaa57c6151ce64aa9c94fa7d6a3bad72ebd264688a03e0ea19e7a327dabbb1",
@@ -1224,6 +1239,7 @@ window.FEATURED_APP_BOARD_DATA = {
       "values": {
         "text_mm4k2vch": "Validity.id Inc.",
         "color_mm4kmej3": "2-Approved",
+        "color_mm8z4ket": "Basic Featured App",
         "long_text_mm4kq322": "8a72dd81-b8a4-425a-9061-31ed663d4450::1220d572036d26e3f8ef2fe127184d812a00e0b1b36e129acf990a82a06651e735a1",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "23d169c2-0909-4c70-81d1-1922de6febaa::12200f2a80e6a6e57a8ef0107337697b1f88576b33ebda8d8dc9eb229483ac75021f",
@@ -1394,6 +1410,7 @@ window.FEATURED_APP_BOARD_DATA = {
       "values": {
         "text_mm4k2vch": "Bayzen",
         "color_mm4kmej3": "2-Approved",
+        "color_mm8z4ket": "Basic Featured App",
         "long_text_mm4kq322": "bayzen-validator-1::1220618de8af3a43c95f7f9c6430f9a308152eb564f57b4c60c4c655f67fb867af1c",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "auth0_007c6a3400cf326801605d25e3af::122064aab814d8d02f957120e33a970a5aca7c14097eab85ab40a36ddff26c70c44b",
@@ -1524,6 +1541,7 @@ window.FEATURED_APP_BOARD_DATA = {
       "values": {
         "text_mm4k2vch": "LILIZ",
         "color_mm4kmej3": "2-Approved",
+        "color_mm8z4ket": "Featured Asset-Moving App",
         "long_text_mm4kq322": "sunthycloud-mainnet-1::1220dc2c99151dbe0ca0ff322dbdcf0f511c181e9277799640287c37f26c7a993773",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "ldg::122098cd570f115b3adfd288dc2de67947af18d458dd6592aac04b3d25b0a5384f5f",
@@ -1695,6 +1713,7 @@ window.FEATURED_APP_BOARD_DATA = {
       "values": {
         "text_mm4k2vch": "Nuxaris LLC",
         "color_mm4kmej3": "2-Approved",
+        "color_mm8z4ket": "Basic Featured App",
         "long_text_mm4kq322": "nuxaris-validator-1::122065645666a14e30513626b92fd348b76fe0430557d08f68ac3e2beb37b407b3c9",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "23d169c2-0909-4c70-81d1-1922de6febaa::12203d93ee11bed80ed884f5d7929101a1e447ebc0fdd91539479554709c27107e3a",
@@ -2446,6 +2465,7 @@ window.FEATURED_APP_BOARD_DATA = {
       "values": {
         "text_mm4k2vch": "Proof Group",
         "color_mm4kmej3": "2-Approved",
+        "color_mm8z4ket": "Basic Featured App",
         "long_text_mm4kq322": "cantonnodes-validator-1::12202aabb1637789bf00254a7893853860d8458c7c0235b06433611d6bf41e812b10",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "1220c::1220cecfc2eb789d7c2b0148c26690dc6099d42936e1542033b255f1b4ecb0a5f98b",
@@ -2777,6 +2797,7 @@ window.FEATURED_APP_BOARD_DATA = {
       "values": {
         "text_mm4k2vch": "Staketab",
         "color_mm4kmej3": "2-Approved",
+        "color_mm8z4ket": "Basic Featured App",
         "long_text_mm4kq322": "modo::122014f09cb05cffc2f1c524601c4aa91d35908dc55cfe9e92849390137ccc7c0d41",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "auth0_007c6a3400a29e93f5bf0581e4de::122064aab814d8d02f957120e33a970a5aca7c14097eab85ab40a36ddff26c70c44b",
@@ -3096,6 +3117,7 @@ window.FEATURED_APP_BOARD_DATA = {
       "values": {
         "text_mm4k2vch": "Finoa Consensus Services",
         "color_mm4kmej3": "2-Approved",
+        "color_mm8z4ket": "Basic Featured App",
         "long_text_mm4kq322": "Tokino-validator-1::1220c4e630e0281e7e1487863dd56078106433c35e4bc013f7d3fc8e22464bc78e28",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "23d169c2-0909-4c70-81d1-1922de6febaa::1220fffd0397a3326ff5643476217e29881d123c14d0f1b08110da1f7b31927386d1",
@@ -3239,6 +3261,7 @@ window.FEATURED_APP_BOARD_DATA = {
       "values": {
         "text_mm4k2vch": "Obligate AG",
         "color_mm4kmej3": "2-Approved",
+        "color_mm8z4ket": "Basic Featured App",
         "long_text_mm4kq322": "Obligate-validator-1::1220663cfdc370c3fc447072f3731a838a2a7de757bc29ee0d34b326f317b70db4aa",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "23d169c2-0909-4c70-81d1-1922de6febaa::122038dd59006d0164e2e9914b81b1c8fbfc5de65d949630d8ff7fcd107809144979",
@@ -3432,6 +3455,7 @@ window.FEATURED_APP_BOARD_DATA = {
       "values": {
         "text_mm4k2vch": "M1 Global",
         "color_mm4kmej3": "2-Approved",
+        "color_mm8z4ket": "Featured Asset",
         "long_text_mm4kq322": "M1-validator-1::12207b40944692e083593819697e1cd87a94026afca2564253d16ff8696b233a6637",
         "color_mm4kpp3q": "Asset Issuer",
         "long_text_mm4khjn6": "23d169c2-0909-4c70-81d1-1922de6febaa::1220a3ba5aea2184fada7ee896bf4f2cbb1c97bfb8a5ce00168139e0de0d6e699094",
@@ -3882,6 +3906,7 @@ window.FEATURED_APP_BOARD_DATA = {
       "values": {
         "text_mm4k2vch": "Obsidian Software LLC",
         "color_mm4kmej3": "2-Approved",
+        "color_mm8z4ket": "Featured Asset",
         "long_text_mm4kq322": "CantonSwap::122096fe076cc065af0cb38f94caa60e8ddfecbe8f0cfe10655ae7aa06fab99c66b7",
         "color_mm4kpp3q": "Asset Issuer",
         "long_text_mm4khjn6": "23d169c2-0909-4c70-81d1-1922de6febaa::122032c668c7a88633e8c1dc45d704b8c87eb10a4140418b8ce9d9377985fb16a7bc",
@@ -4277,6 +4302,7 @@ window.FEATURED_APP_BOARD_DATA = {
       "values": {
         "text_mm4k2vch": "DTEAM",
         "color_mm4kmej3": "2-Approved",
+        "color_mm8z4ket": "Basic Featured App",
         "long_text_mm4kq322": "dteamtech-validator-1::12206a390f4088321a251280cd20c44f2ae02d54b4d29a8327d3523e7b03a7e98464",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "23d169c2-0909-4c70-81d1-1922de6febaa::122016cf1520961c3b45f58c33e9b4e84d573f4e56fe2c369bdbbffd63af944ca474",
@@ -4475,6 +4501,7 @@ window.FEATURED_APP_BOARD_DATA = {
       "values": {
         "text_mm4k2vch": "Kaiko",
         "color_mm4kmej3": "2-Approved",
+        "color_mm8z4ket": "Basic Featured App",
         "long_text_mm4kq322": "party-fda614d8-0b2e-4d64-9718-b4c497c56a8d::1220f67b4f1c8742d83ac7e12749d98195bf88ff120b2dab369291cf6a2ca27be9a9",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "23d169c2-0909-4c70-81d1-1922de6febaa::1220baaf881ff034e0ac1037a8b27fe2a6d85c4afb0bfcc61cc1581241fed01de865",
@@ -4551,6 +4578,7 @@ window.FEATURED_APP_BOARD_DATA = {
       "values": {
         "text_mm4k2vch": "Obsidian Software LLC",
         "color_mm4kmej3": "2-Approved",
+        "color_mm8z4ket": "Featured Asset-Moving App",
         "long_text_mm4kq322": "Tradecraft::122096fe076cc065af0cb38f94caa60e8ddfecbe8f0cfe10655ae7aa06fab99c66b7",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "23d169c2-0909-4c70-81d1-1922de6febaa::12209741b897b63b314fa6f2fe0639d92c779a7cdff6fd615aede507e61682f2d95a",
@@ -4686,6 +4714,7 @@ window.FEATURED_APP_BOARD_DATA = {
       "values": {
         "text_mm4k2vch": "Arccade",
         "color_mm4kmej3": "2-Approved",
+        "color_mm8z4ket": "Basic Featured App",
         "long_text_mm4kq322": "arccade-validator-lock::1220dc99e772221ed3b3b40ffb27135528ebabb9893c6ef28cb71fc171337b72ba6b",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "23d169c2-0909-4c70-81d1-1922de6febaa::1220999192018ecb304d44b7e2efd9bebdf8030fa923e3d55a5366a91955644c8275",
@@ -5030,6 +5059,7 @@ window.FEATURED_APP_BOARD_DATA = {
       "values": {
         "text_mm4k2vch": "Noves",
         "color_mm4kmej3": "2-Approved",
+        "color_mm8z4ket": "Basic Featured App",
         "long_text_mm4kq322": "ccbrowser::1220dd5cc6e969cd7d7c11e339fbd07fab5f6fa1f999dc09339228d17299d9d68941",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "bron::122044a0a8915f36fad5f726fba384876568e12a0bdfc7289b472d3631cf0b053b39",
@@ -5058,6 +5088,7 @@ window.FEATURED_APP_BOARD_DATA = {
       "values": {
         "text_mm4k2vch": "Lattice Foundation",
         "color_mm4kmej3": "2-Approved",
+        "color_mm8z4ket": "Basic Featured App",
         "long_text_mm4kq322": "lattice-app::12203159b906cc358eb649f0b70c0a2ba87420fe933d669034e6d8ba7a582efdf3cf",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "23d169c2-0909-4c70-81d1-1922de6febaa::1220969d0e68bb6f0625deabc96aa39e19948bc8d7c33355c931234ab1336cc65d27",
@@ -5313,6 +5344,7 @@ window.FEATURED_APP_BOARD_DATA = {
       "values": {
         "text_mm4k2vch": "Temple",
         "color_mm4kmej3": "2-Approved",
+        "color_mm8z4ket": "Featured Asset-Moving App",
         "long_text_mm4kq322": "temple-mainnet-1::1220f238bb79df3efbbac2ea964c3cd501003971a2cb59043e2dac50b06e85b8620f",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "1220d::1220d771bf17eec529647bed1bc790613ca95109fe5848c36b629d1117175f178eb5",
@@ -5396,6 +5428,7 @@ window.FEATURED_APP_BOARD_DATA = {
       "values": {
         "text_mm4k2vch": "Temple",
         "color_mm4kmej3": "2-Approved",
+        "color_mm8z4ket": "Basic Featured App",
         "long_text_mm4kq322": "temple-mainnet-3::1220470e1589422d3e98bdbccec83fd9e2c4df9bb803de8c377863819c20356976ca",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "1220d::1220d771bf17eec529647bed1bc790613ca95109fe5848c36b629d1117175f178eb5",
@@ -5421,6 +5454,7 @@ window.FEATURED_APP_BOARD_DATA = {
       "values": {
         "text_mm4k2vch": "Five North",
         "color_mm4kmej3": "2-Approved",
+        "color_mm8z4ket": "Featured Asset-Moving App",
         "long_text_mm4kq322": "cantonloop-mainnet-1::12205fb70ce14897d06baec18a4b889f296c765a8325fd3d99cc084b1f980426ac12",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "12202::12202d5a90256db7622726d29035c9f796a92358ef23a82dbb2175e0ae84768eb358",
@@ -5694,6 +5728,7 @@ window.FEATURED_APP_BOARD_DATA = {
       "values": {
         "text_mm4k2vch": "Five North",
         "color_mm4kmej3": "2-Approved",
+        "color_mm8z4ket": "Basic Featured App",
         "long_text_mm4kq322": "LoopID::1220940ccaf484be99fc67387ce461bd358aa6c76e43224e959a4bd20fe30a0b11c6",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "12202::12202127154a1822a979535f24e635e86f0778d6d1cb615163f7bbef4ed216bab7ca",
@@ -5903,6 +5938,7 @@ window.FEATURED_APP_BOARD_DATA = {
       "values": {
         "text_mm4k2vch": "Noves, Inc",
         "color_mm4kmej3": "2-Approved",
+        "color_mm8z4ket": "Basic Featured App",
         "long_text_mm4kq322": "noves-translate::1220dd5cc6e969cd7d7c11e339fbd07fab5f6fa1f999dc09339228d17299d9d68941",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "bron::122009116228f9a1d7120498d681e724031d9d4a35784c9de2dea84df4e47427b2f0",
@@ -6055,6 +6091,7 @@ window.FEATURED_APP_BOARD_DATA = {
       "values": {
         "text_mm4k2vch": "Bitsafe",
         "color_mm4kmej3": "2-Approved",
+        "color_mm8z4ket": "Featured Asset",
         "long_text_mm4kq322": "cbtc-network::12205af3b949a04776fc48cdcc05a060f6bda2e470632935f375d1049a8546a3b262",
         "color_mm4kpp3q": "Asset Issuer",
         "long_text_mm4khjn6": "23d169c2-0909-4c70-81d1-1922de6febaa::12209b88d79d86917e99edbf97b7a521b50057a789c07a16218ac345b80db1e20719",
@@ -6455,6 +6492,7 @@ window.FEATURED_APP_BOARD_DATA = {
       "values": {
         "text_mm4k2vch": "Black Manta Capital Partners",
         "color_mm4kmej3": "2-Approved",
+        "color_mm8z4ket": "Basic Featured App",
         "long_text_mm4kq322": "blackmantacapital-primary-1::1220c0d1b398955a314e9662027cb3ef337b0a9390ca3346314070631d72792cee36",
         "color_mm4kpp3q": "Asset Issuer",
         "long_text_mm4khjn6": "1220f7be5a5ed74bbd707dc4289d164ee8690da3a81574c0560019e6ee5915e5f41b::1220d8811ef50e8eceb19d1abed7f9610385f53eb177a55041266eb71fc2a3cdedcf",
@@ -6834,6 +6872,7 @@ window.FEATURED_APP_BOARD_DATA = {
       "values": {
         "text_mm4k2vch": "Silvana",
         "color_mm4kmej3": "2-Approved",
+        "color_mm8z4ket": "Basic Featured App",
         "long_text_mm4kq322": "silvana-orderbook::1220997446016f1e96be9215bab224eace372752853ef99175c332307489bccbb07b",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "auth0_007c6a3400737c6d7f5f33ee7a3b::122064aab814d8d02f957120e33a970a5aca7c14097eab85ab40a36ddff26c70c44b,auth0_007c6a3400737c6d7f5f33ee7a3b::122064aab814d8d02f957120e33a970a5aca7c14097eab85ab40a36ddff26c70c44b",
@@ -6918,6 +6957,7 @@ window.FEATURED_APP_BOARD_DATA = {
       "values": {
         "text_mm4k2vch": "Hecto Finance",
         "color_mm4kmej3": "2-Approved",
+        "color_mm8z4ket": "Featured Asset",
         "long_text_mm4kq322": "Hecto-Finance-1::12208ee00572aea3304ebb12e34320769ea4b421911c9b658a999e0e64ee8a070972",
         "color_mm4kpp3q": "Asset Issuer",
         "long_text_mm4khjn6": "23d169c2-0909-4c70-81d1-1922de6febaa::1220c1ee1a313f52f6af9cfbba8f9050f1bb50f691ba1cc1cd91aa734cdbb832ff25",
@@ -7028,6 +7068,7 @@ window.FEATURED_APP_BOARD_DATA = {
       "values": {
         "text_mm4k2vch": "FTP",
         "color_mm4kmej3": "2-Approved",
+        "color_mm8z4ket": "Basic Featured App",
         "long_text_mm4kq322": "FTP-validator-1::1220c065ad977ae4e480b6ea5bcd96d6d73025a91ad27fa60d1385010ca01cdd39f9",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "23d169c2-0909-4c70-81d1-1922de6febaa::122095b082f7c71a92625c5eadea681dba414d35d0e71583229eeb024361d0f4ebc8",
@@ -7176,6 +7217,7 @@ window.FEATURED_APP_BOARD_DATA = {
       "values": {
         "text_mm4k2vch": "Ice Labs",
         "color_mm4kmej3": "2-Approved",
+        "color_mm8z4ket": "Featured Asset",
         "long_text_mm4kq322": "icelabs-validator-1::122038179a4a275875b69c71be3600a851ec49dcd35952eb36596ab3488d9c59bba3",
         "color_mm4kpp3q": "Asset Issuer",
         "long_text_mm4khjn6": "1220d::1220d62580526d31f3a7067c5c7415db18005fd179e8d8684fe9dd1df73953af13ee",
@@ -7237,6 +7279,7 @@ window.FEATURED_APP_BOARD_DATA = {
       "values": {
         "text_mm4k2vch": "HandlPay",
         "color_mm4kmej3": "2-Approved",
+        "color_mm8z4ket": "Featured Asset",
         "long_text_mm4kq322": "handl-issuer::12207ac147ad3e95894e7a507da3f04a819e8996f0bdf31c084ab3b77e51746b03cf",
         "color_mm4kpp3q": "Asset Issuer",
         "long_text_mm4khjn6": "23d169c2-0909-4c70-81d1-1922de6febaa::12208d6f8b117f4272405151ecc806ce7c891ce5efab37e184f3aa8b30f8be774e2f",
@@ -7559,6 +7602,7 @@ window.FEATURED_APP_BOARD_DATA = {
       "values": {
         "text_mm4k2vch": "Allspark Markets Ltd.",
         "color_mm4kmej3": "2-Approved",
+        "color_mm8z4ket": "Featured Asset-Moving App",
         "long_text_mm4kq322": "Ekiden-app-1::12209dbe4e2f483b6be8913b2f72690cd3486c7667b24d71c52e34816de78ac9482f",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "773eee641af8e7d135548944037d05e4::122064d38a609da02755ff8f9ad59a08a5cce4f4b8dc130e33920f3d13e7dd97ea0c",
@@ -7587,6 +7631,7 @@ window.FEATURED_APP_BOARD_DATA = {
       "values": {
         "text_mm4k2vch": "Alpha DNA Private Ltd",
         "color_mm4kmej3": "2-Approved",
+        "color_mm8z4ket": "Basic Featured App",
         "long_text_mm4kq322": "feat-unhedged-app::12208567a714a12d1ba486a9fa702a0a438b5b3b895510eca791e3ef965a24be8832",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "feat-unhedged-app-staked::12208567a714a12d1ba486a9fa702a0a438b5b3b895510eca791e3ef965a24be8832",
@@ -7832,6 +7877,7 @@ window.FEATURED_APP_BOARD_DATA = {
       "values": {
         "text_mm4k2vch": "Foundinals Lab",
         "color_mm4kmej3": "2-Approved",
+        "color_mm8z4ket": "Featured Asset-Moving App",
         "long_text_mm4kq322": "foundinalsunthy-mainnet-1::12201004202ad4f2ba69d160e148899596aa294db698917f3aaef063afcb0a412c83",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "ldg::1220de78c632a63c553feb58fa08a3172f3a324e3a27e7736089e5145d455194cec5",
@@ -7920,6 +7966,7 @@ window.FEATURED_APP_BOARD_DATA = {
       "values": {
         "text_mm4k2vch": "ANGELHACK PTE. LTD.",
         "color_mm4kmej3": "2-Approved",
+        "color_mm8z4ket": "Featured Asset-Moving App",
         "long_text_mm4kq322": "kairo-mainnet::1220423e47c7ac3735f6b3b27193fb6e412e83ada003edd61d595defd499a364366a",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "12205::1220507fd785bccd74952cc15084516b881013966da87cbe3c854d92ed247e28831c",
@@ -8139,6 +8186,7 @@ window.FEATURED_APP_BOARD_DATA = {
       "values": {
         "text_mm4k2vch": "Chata Technologies Inc",
         "color_mm4kmej3": "2-Approved",
+        "color_mm8z4ket": "Basic Featured App",
         "long_text_mm4kq322": "auth0_007c68129abae6733ca8b889162e::122064aab814d8d02f957120e33a970a5aca7c14097eab85ab40a36ddff26c70c44b",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "auth0_007c6a315a7291375a786002fcbf::122064aab814d8d02f957120e33a970a5aca7c14097eab85ab40a36ddff26c70c44b",
@@ -8359,6 +8407,7 @@ window.FEATURED_APP_BOARD_DATA = {
       "values": {
         "text_mm4k2vch": "Obligate AG",
         "color_mm4kmej3": "2-Approved",
+        "color_mm8z4ket": "Featured Asset",
         "long_text_mm4kq322": "obligate-issuance::1220663cfdc370c3fc447072f3731a838a2a7de757bc29ee0d34b326f317b70db4aa",
         "color_mm4kpp3q": "Asset Issuer",
         "long_text_mm4khjn6": "23d169c2-0909-4c70-81d1-1922de6febaa::1220a4ceae84ff86d3f9a01f18b78327c42e5f6e49ac23271bd42c218e3e6b32b3ec",
@@ -8439,6 +8488,7 @@ window.FEATURED_APP_BOARD_DATA = {
       "values": {
         "text_mm4k2vch": "Proof Group",
         "color_mm4kmej3": "2-Approved",
+        "color_mm8z4ket": "Basic Featured App",
         "long_text_mm4kq322": "proofgroup-validator-1::122021b7624f77a1a095714acc74337bebb0f49cf0f8ea565d4f0b12e09bb5deb1e1",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "12208::1220869791c95054cce5a2b2bfed626e9e6ce0fc2dc9bc1bd47ceb962d0c403bd04a",
@@ -8624,6 +8674,7 @@ window.FEATURED_APP_BOARD_DATA = {
       "values": {
         "text_mm4k2vch": "Bit Dynamics AB",
         "color_mm4kmej3": "2-Approved",
+        "color_mm8z4ket": "Basic Featured App",
         "long_text_mm4kq322": "bitdynamicsab-mainnet-1::1220ea322b53b7f031e5e2e99796d02cb84e3fef257c63e89204622dc174f552c1d6",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "23d169c2-0909-4c70-81d1-1922de6febaa::1220d33818b51de8255e961b24fa11a3f0db309de5e80a69d73151158acbe5897d83",
@@ -8776,6 +8827,7 @@ window.FEATURED_APP_BOARD_DATA = {
       "values": {
         "text_mm4k2vch": "Lithium Digital Limited",
         "color_mm4kmej3": "2-Approved",
+        "color_mm8z4ket": "Featured Asset-Moving App",
         "long_text_mm4kq322": "cauri-wallet-provider1::1220e852a0cb4372f91dd2b7b93c71d4580600b0f2c045e6cbebd9f510e88c0ba29b",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "23d169c2-0909-4c70-81d1-1922de6febaa::1220db426da97b9a633aea3cbb3649ed98cf6b3c7fa490cd3332a969a48b894e6cd7",
@@ -8808,6 +8860,7 @@ window.FEATURED_APP_BOARD_DATA = {
       "values": {
         "text_mm4k2vch": "PT Askardex Digital Indonesia",
         "color_mm4kmej3": "2-Approved",
+        "color_mm8z4ket": "Basic Featured App",
         "long_text_mm4kq322": "askardex-validator-1::1220f9c81d6050a74509010597b3c38fde6d01473f6c323c60ca8bb8b5d489bb9696",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "23d169c2-0909-4c70-81d1-1922de6febaa::12203d805a275252b4f693b722715979cb829ba51bb48477da015fbbd5738de4e9e5",
@@ -8927,6 +8980,7 @@ window.FEATURED_APP_BOARD_DATA = {
       "values": {
         "text_mm4k2vch": "Outersunset",
         "color_mm4kmej3": "2-Approved",
+        "color_mm8z4ket": "Basic Featured App",
         "long_text_mm4kq322": "OSLedger-mainnet-1::1220f1cd2f9ef6f966d492813215f34cf048a559d25d750b44c095c17fbf96afff64",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "12202::122027e88aed136fa4a4959dea9caba3ac6dfb2e4ad6058d350f89ee77c66dcc890a",
@@ -8954,6 +9008,7 @@ window.FEATURED_APP_BOARD_DATA = {
       "values": {
         "text_mm4k2vch": "Metatarz",
         "color_mm4kmej3": "2-Approved",
+        "color_mm8z4ket": "Featured Asset-Moving App",
         "long_text_mm4kq322": "metatarz-validator-1::12204da695418db5f840d403841f4e188de5f1e4dd05ad469c0c779222b69de7c84b",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "23d169c2-0909-4c70-81d1-1922de6febaa::1220e1da5351439368da8f8086e6a52050ba824eb626c4607907ff099db8c2669dee",
@@ -9013,6 +9068,7 @@ window.FEATURED_APP_BOARD_DATA = {
       "values": {
         "text_mm4k2vch": "RD SwapSo Private Limited",
         "color_mm4kmej3": "2-Approved",
+        "color_mm8z4ket": "Featured Asset-Moving App",
         "long_text_mm4kq322": "slay-money-validator::1220fa07a73d7a0c7df66161449570e987738485ffb03a6d320d831a5d72b355efc5",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "23d169c2-0909-4c70-81d1-1922de6febaa::122028b68bcef20a4eac29346705ed23b7b2f912346ffb1254524b67da187853fa46",
@@ -9125,6 +9181,7 @@ window.FEATURED_APP_BOARD_DATA = {
       "values": {
         "text_mm4k2vch": "Tritemius Fund FCRE I",
         "color_mm4kmej3": "2-Approved",
+        "color_mm8z4ket": "Basic Featured App",
         "long_text_mm4kq322": "tritemiusapp::1220cda52890c386641bf69705740e0a9abc2c6aef3878a86dfcfc7958946f59692b",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "4M-Lending-Lock-5::1220c03dee4b32e29d0e4c3a395afa3bc82629a60d86ab75289dad473ab46a5ce56f",
@@ -9206,6 +9263,7 @@ window.FEATURED_APP_BOARD_DATA = {
       "values": {
         "text_mm4k2vch": "HandlPay by Verso Network AG",
         "color_mm4kmej3": "2-Approved",
+        "color_mm8z4ket": "Basic Featured App",
         "long_text_mm4kq322": "handlpay-main-1::12207ac147ad3e95894e7a507da3f04a819e8996f0bdf31c084ab3b77e51746b03cf",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "23d169c2-0909-4c70-81d1-1922de6febaa::1220dc4052d1133fac5f8af4daffeeb339caf60619d0403050e2a8109afc670f08c8",
@@ -9264,6 +9322,7 @@ window.FEATURED_APP_BOARD_DATA = {
       "values": {
         "text_mm4k2vch": "Noders LLC",
         "color_mm4kmej3": "2-Approved",
+        "color_mm8z4ket": "Basic Featured App",
         "long_text_mm4kq322": "unitedapp-cc::12203179cc5cae0452dbc233403a6a66f6d87988615d0e64defdd77abb133bdc40a9",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "23d169c2-0909-4c70-81d1-1922de6febaa::12207e28402a2c726defbf32790b56d4ee26aa7e8f23fbdbeb9a326f34d02ae89fd6",
@@ -9375,6 +9434,7 @@ window.FEATURED_APP_BOARD_DATA = {
       "values": {
         "text_mm4k2vch": "EquiTek LLC",
         "color_mm4kmej3": "2-Approved",
+        "color_mm8z4ket": "Basic Featured App",
         "long_text_mm4kq322": "DStash::122016b8c36f538ee05279581ab01465feab275ebe208288c517c020b679f4ee5e9f",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "23d169c2-0909-4c70-81d1-1922de6febaa::1220c14ec0c12e5e480fce4510969552ef3e6a29a3b5a392d5fe09eba382277be3a4",
@@ -9478,6 +9538,7 @@ window.FEATURED_APP_BOARD_DATA = {
       "values": {
         "text_mm4k2vch": "Finoa Consensus Services",
         "color_mm4kmej3": "2-Approved",
+        "color_mm8z4ket": "Featured Asset-Moving App",
         "long_text_mm4kq322": "ValaWallet-FA::122093ce879ca5d08db274937f9a2ec1eb7821d41ccfdce521d68a61ef3bf1b63463",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "C7-labs-lender-lock1::12202e2325b04b0f0ee30685088289293b3e7a28d8b26470b39435502912e2876cba",
@@ -9589,6 +9650,7 @@ window.FEATURED_APP_BOARD_DATA = {
       "values": {
         "text_mm4k2vch": "Tenkai GmbH",
         "color_mm4kmej3": "2-Approved",
+        "color_mm8z4ket": "Featured Asset-Moving App",
         "long_text_mm4kq322": "tenkai-main-1::122092e9dd81d0a52f38b110f6b2e6426713418cc4db363c5c9b2c8cb6e46922c671",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "23d169c2-0909-4c70-81d1-1922de6febaa::122096fc0c287e26f6561ed201d562b158a156344b32916d3993998e0bd623d2ff98",
@@ -9886,6 +9948,7 @@ window.FEATURED_APP_BOARD_DATA = {
       "values": {
         "text_mm4k2vch": "K2F Labs",
         "color_mm4kmej3": "2-Approved",
+        "color_mm8z4ket": "Basic Featured App",
         "long_text_mm4kq322": "walley::1220a0a64bd45fee105f5c80474842a4337bb09323ca748d7ea6dacc07fc6237572c",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "23d169c2-0909-4c70-81d1-1922de6febaa::1220ac077a3e9c42b3636f06790d722ea772449a94438c19b1c787f9be1e8c0eca83",
@@ -9914,6 +9977,7 @@ window.FEATURED_APP_BOARD_DATA = {
       "values": {
         "text_mm4k2vch": "OnRails Ltd",
         "color_mm4kmej3": "2-Approved",
+        "color_mm8z4ket": "Featured Asset",
         "long_text_mm4kq322": "rails-cethMain-1::12200350ba6e96e3b701c3048b5aa013a8c1c08833e8ebf54339cff581055c29003a",
         "color_mm4kpp3q": "Asset Issuer",
         "long_text_mm4khjn6": "23d169c2-0909-4c70-81d1-1922de6febaa::12202006e0236288e8ddf29a1d65b75f445f30644efdff85c7e00ae15de262539dde",
@@ -10138,10 +10202,11 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "12467856973",
       "name": "OneSwap",
-      "updatedAt": "2026-11-13T10:22:38Z",
+      "updatedAt": "2026-11-19T19:17:37Z",
       "values": {
         "text_mm4k2vch": "Sats Terminal",
         "color_mm4kmej3": "2-Approved",
+        "color_mm8z4ket": "Basic Featured App",
         "long_text_mm4kq322": "SatsTerminal-main-1::122043df1a3b6ae04288cbcd1899434a945a75b849859f20b124e8ba07ebb812a047",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "23d169c2-0909-4c70-81d1-1922de6febaa::1220b85022e7971f2e905b0e81ae6f730ae4f44cccd8fe0043302460bece29e7ffe6",
@@ -10171,6 +10236,7 @@ window.FEATURED_APP_BOARD_DATA = {
       "values": {
         "text_mm4k2vch": "Nexode",
         "color_mm4kmej3": "2-Approved",
+        "color_mm8z4ket": "Basic Featured App",
         "long_text_mm4kq322": "nexode::12208428f54ef01a64f520dc586a3876f8316b03f1ec40b3764142de89dc5d34acb9",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "nexode-lock::12208428f54ef01a64f520dc586a3876f8316b03f1ec40b3764142de89dc5d34acb9",
@@ -10260,6 +10326,7 @@ window.FEATURED_APP_BOARD_DATA = {
       "values": {
         "text_mm4k2vch": "OnRails Ltd",
         "color_mm4kmej3": "2-Approved",
+        "color_mm8z4ket": "Featured Asset",
         "long_text_mm4kq322": "btc0-provider::12200350ba6e96e3b701c3048b5aa013a8c1c08833e8ebf54339cff581055c29003a",
         "color_mm4kpp3q": "Asset Issuer",
         "long_text_mm4khjn6": "23d169c2-0909-4c70-81d1- 1922de6febaa::1220ecdb3f8dd6b8baece5e12317da3d23b654f093ea8ab844518d8ecb8e98629160",
@@ -10318,6 +10385,7 @@ window.FEATURED_APP_BOARD_DATA = {
       "values": {
         "text_mm4k2vch": "NGC Ventures",
         "color_mm4kmej3": "2-Approved",
+        "color_mm8z4ket": "Featured Asset-Moving App",
         "long_text_mm4kq322": "NGC-Ventures-1::1220b89a95fa875dc18dde64309134812da64787d1625297723c0af109088dbd7f0f",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "23d169c2-0909-4c70-81d1-1922de6febaa::1220b755ea4e3b0ee717f4b28988cde9ebfc594fbd11de9bac87e242ef820b537275",
@@ -10351,6 +10419,7 @@ window.FEATURED_APP_BOARD_DATA = {
       "values": {
         "text_mm4k2vch": "Dream Capital",
         "color_mm4kmej3": "2-Approved",
+        "color_mm8z4ket": "Basic Featured App",
         "long_text_mm4kq322": "helvex-provider-1::1220c5ac264c69e428e1064e9ca5a0b0d5be586e6befa41c133223f7e044f8b85d60",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "23d169c2-0909-4c70-81d1-1922de6febaa::1220590cb7e035449c6c6adc13aa2117e6c3e0eecf852bca42777097dd459dffc9e0",
@@ -10500,6 +10569,7 @@ window.FEATURED_APP_BOARD_DATA = {
       "values": {
         "text_mm4k2vch": "Angelhack Private Limted",
         "color_mm4kmej3": "2-Approved",
+        "color_mm8z4ket": "Basic Featured App",
         "long_text_mm4kq322": "sanctum-mainnet::12205162445638c3f71c9942b74360134b4ebc953b5bea2c25adc99bff130bffd060",
         "color_mm4kpp3q": "Asset Issuer",
         "long_text_mm4khjn6": "12201::1220174aa61a07cfab22a638c3a0383805f15c4b2399541767ff311bfca041228ce8",
@@ -10533,6 +10603,7 @@ window.FEATURED_APP_BOARD_DATA = {
       "values": {
         "text_mm4k2vch": "PT Maha Digital Solutions",
         "color_mm4kmej3": "2-Approved",
+        "color_mm8z4ket": "Basic Featured App",
         "long_text_mm4kq322": "maha-validator-1::122025cef1bec8edc8aa50108068aa065b63dc1336f0695448dc8d669ae029e08ff8",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "23d169c2-0909-4c70-81d1-1922de6febaa::1220b6564e113fc76dd67020ef7ee401c235033e1ff9692dfd3a4098235d1ece2ea9",
@@ -10595,6 +10666,7 @@ window.FEATURED_APP_BOARD_DATA = {
       "values": {
         "text_mm4k2vch": "SwapSo Inc",
         "color_mm4kmej3": "2-Approved",
+        "color_mm8z4ket": "Basic Featured App",
         "long_text_mm4kq322": "Float-validator-1Float-validator-1::1220fbc3e15c8028f00a1a9fbbe2b06cbc96b9f9666454fc418f6369b5b40b7e8946",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "cantonwallet-cashen-send-lock::12202143cc113f85b8fde95b7870c0f31a2d46f7ed1bfbc174bee557808f80dc7a95",
@@ -10651,6 +10723,7 @@ window.FEATURED_APP_BOARD_DATA = {
       "values": {
         "text_mm4k2vch": "FTP Tech",
         "color_mm4kmej3": "2-Approved",
+        "color_mm8z4ket": "Basic Featured App",
         "long_text_mm4kq322": "ftp-x402-infrastructure::1220da867ceb28e1531ebfbea9ca9b25f75be06755999f48f0ec4b96f4174e3cd133",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "23d169c2-0909-4c70-81d1-1922de6febaa::12205aea9df5c5d3e9c49a2267ade608c7d8af9de0c2ab3d3e7543d6c8f24b742cd7",
@@ -10712,6 +10785,7 @@ window.FEATURED_APP_BOARD_DATA = {
       "values": {
         "text_mm4k2vch": "Pinnaccle",
         "color_mm4kmej3": "2-Approved",
+        "color_mm8z4ket": "Featured Asset-Moving App",
         "long_text_mm4kq322": "pinnaccle-validator-1::1220b895aeeb89c5f84d492858a1adbcf2f2fb1b0508e226d163457083bda0af3d9a",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "23d169c2-0909-4c70-81d1-1922de6febaa::1220f050d577aac2647daaf656a42e377382024c8ea909c08812ee034cdff86872c7",
@@ -10741,6 +10815,7 @@ window.FEATURED_APP_BOARD_DATA = {
       "values": {
         "text_mm4k2vch": "Dune Labs",
         "color_mm4kmej3": "2-Approved",
+        "color_mm8z4ket": "Featured Asset-Moving App",
         "long_text_mm4kq322": "dunelabs-validator-1::12203251ed85a1811755a4c7d1c0af8e50bf95bd72ae7fadd047e266d085a573e476",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "23d169c2-0909-4c70-81d1-1922de6febaa::12200a265be75cf1f7c03fbcc0d28e221e94946e627115c489b751ae3ef700c4859d",
@@ -10773,6 +10848,7 @@ window.FEATURED_APP_BOARD_DATA = {
       "values": {
         "text_mm4k2vch": "R1M",
         "color_mm4kmej3": "1-Needs Review",
+        "color_mm8z4ket": "Basic Featured App",
         "long_text_mm4kq322": "r1m-validator-1::122009ae6158cb03207cd5eb0a6796a74daf3e2855ee9f17cd5bcbcccee383842962",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "r1m-validator-1::122009ae6158cb03207cd5eb0a6796a74daf3e2855ee9f17cd5bcbcccee383842962",
@@ -10805,6 +10881,7 @@ window.FEATURED_APP_BOARD_DATA = {
       "values": {
         "text_mm4k2vch": "WolfEdge Labs",
         "color_mm4kmej3": "2-Approved",
+        "color_mm8z4ket": "Featured Asset-Moving App",
         "long_text_mm4kq322": "cardiv::1220b43e4bb9e423ba07cbcc0f5ef0d4e9ebe5d2623cb277d30e6478b179ee0ca9c3",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "4M-Lending-Lock-3::1220c03dee4b32e29d0e4c3a395afa3bc82629a60d86ab75289dad473ab46a5ce56f",
@@ -10832,6 +10909,7 @@ window.FEATURED_APP_BOARD_DATA = {
       "values": {
         "text_mm4k2vch": "DSRV",
         "color_mm4kmej3": "1-Needs Review",
+        "color_mm8z4ket": "Basic Featured App",
         "long_text_mm4kq322": "zabpay-admin::122083ffd30e00ae87dec41c0969aeb021afe0b118c285026f3aeafd9810a257fced",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "None. The ZabPayHolding template carries the CIP-56 `lock : Optional Lock` field, but holdings are always created with lock = None and locked holdings are rejected on the burn path. No locking party is used.",
@@ -10860,6 +10938,7 @@ window.FEATURED_APP_BOARD_DATA = {
       "values": {
         "text_mm4k2vch": "BitSafe Validator, LLC",
         "color_mm4kmej3": "2-Approved",
+        "color_mm8z4ket": "Featured Asset",
         "long_text_mm4kq322": "beth-network::1220704c3cebc23916785557ebe79a5c7f68d034890a5b15690ea7ce050c7d463075",
         "color_mm4kpp3q": "Asset Issuer",
         "long_text_mm4khjn6": "23d169c2-0909-4c70-81d1-1922de6febaa::1220e95d8ff2d8144234a902b2047111f28bd8b305a7964eb70dee00f714d4e3448b",
@@ -10922,6 +11001,7 @@ window.FEATURED_APP_BOARD_DATA = {
       "values": {
         "text_mm4k2vch": "Yellow Card Financial Inc.",
         "color_mm4kmej3": "1-Needs Review",
+        "color_mm8z4ket": "Basic Featured App",
         "long_text_mm4kq322": "YellowCard-Validator-1::1220393b39a08729c8cd220fdf39fdd7af8d55fbfe54b06351b7f8d69e55dcbbbbfa",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "DA to provide locking party ID's",
@@ -10981,6 +11061,7 @@ window.FEATURED_APP_BOARD_DATA = {
       "values": {
         "text_mm4k2vch": "Catalyst Labs LLC FZ",
         "color_mm4kmej3": "2-Approved",
+        "color_mm8z4ket": "Featured Asset-Moving App",
         "long_text_mm4kq322": "meridiant-app-1::1220bf5cc4001319411167463c68611feef2cb8fcbe8896bc38025717868b0074f87",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "23d169c2-0909-4c70-81d1-1922de6febaa::1220738ce7d150434a418f461c4b04f47cf583f2accd0e224a69f97ee08d85bbb222",
@@ -11013,6 +11094,7 @@ window.FEATURED_APP_BOARD_DATA = {
       "values": {
         "text_mm4k2vch": "The Nocturnal Foundation",
         "color_mm4kmej3": "2-Approved",
+        "color_mm8z4ket": "Basic Featured App",
         "long_text_mm4kq322": "MPCH-NEXUvalidator-1::12203a0ef2ed2bfbc9c14239714cb839a740d30ae40a6c74b1fc939392ecaaf981c1",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "1220b82ae0cef74d51b1a09944656345a10aa6fc7f4c5de6aa9d42e373e435d575f9::1220c14b674401fb2fe05644a5cca6320edfbac5c12ea1b3e0e4e5380c330db09608",
@@ -11046,6 +11128,7 @@ window.FEATURED_APP_BOARD_DATA = {
       "values": {
         "text_mm4k2vch": "OnRails Ltd",
         "color_mm4kmej3": "2-Approved",
+        "color_mm8z4ket": "Featured Asset",
         "long_text_mm4kq322": "onrails-provider::12200350ba6e96e3b701c3048b5aa013a8c1c08833e8ebf54339cff581055c29003a",
         "color_mm4kpp3q": "Asset Issuer",
         "long_text_mm4khjn6": "23d169c2-0909-4c70-81d1-1922de6febaa::122029327ec3596fb0a43e372cdeb90ea1cd7cc59536c57570e05459c98870361074",
@@ -11076,6 +11159,7 @@ window.FEATURED_APP_BOARD_DATA = {
       "values": {
         "text_mm4k2vch": "Qasara Labs Pvt Ltd",
         "color_mm4kmej3": "2-Approved",
+        "color_mm8z4ket": "Basic Featured App",
         "long_text_mm4kq322": "cove-utshcbgswo::12206e1a215f9cbbc1826c3f1c2805d8116c712c0da60bc5a96084d29017b75a9204",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "23d169c2-0909-4c70-81d1-1922de6febaa::1220e88fd2c4184da237c4d2a89f31b2f6ae2ee88c073c3824c96b812cca51ab12a1",
@@ -11103,6 +11187,7 @@ window.FEATURED_APP_BOARD_DATA = {
       "values": {
         "text_mm4k2vch": "SatsTerminal",
         "color_mm4kmej3": "1-Needs Review",
+        "color_mm8z4ket": "Basic Featured App",
         "long_text_mm4kq322": "oneswap-launchpad-mainnet-provider::12203d6ddc90e6a42d4e9333c29308520e71b1492575d6bb1ae5342972c8233e6d03",
         "color_mm4kpp3q": "Asset Issuer",
         "long_text_mm4khjn6": "We will be loaning the CC for CIP-116 Lock",
@@ -11219,6 +11304,7 @@ window.FEATURED_APP_BOARD_DATA = {
       "values": {
         "text_mm4k2vch": "CanTra GmbH registered with the Local Court (Amtsgericht) München under HRB 314213 (Registration Authority RA000304); LEI 254900AE880M41FX2T86",
         "color_mm4kmej3": "2-Approved",
+        "color_mm8z4ket": "Featured Asset-Moving App",
         "long_text_mm4kq322": "artex-cantra::1220401b836bac8b7bb8dff5e69577827a11321a99709e1d29e2113b803416352ce5",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "auth0_007c6a2b78c6cf43a5a01177c7ac::122064aab814d8d02f957120e33a970a5aca7c14097eab85ab40a36ddff26c70c44b",
@@ -11309,6 +11395,7 @@ window.FEATURED_APP_BOARD_DATA = {
       "values": {
         "text_mm4k2vch": "Microsystems Express Telecom",
         "color_mm4kmej3": "1-Needs Review",
+        "color_mm8z4ket": "Basic Featured App",
         "long_text_mm4kq322": "mse-main-1::1220ccb8c1ba08b54fd3cae8d11885302b6112620ae6229cf1abdee89afcc66d7c36",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "D3279789-8873-4b81-9ae5-5c5c0d2c6a9c::1220ccb8c1ba08b54fd3cae8d11885302b6112620ae6229cf1abdee89afcc66d7c36",
@@ -11336,6 +11423,7 @@ window.FEATURED_APP_BOARD_DATA = {
       "values": {
         "text_mm4k2vch": "BitSafe Validator, LLC",
         "color_mm4kmej3": "2-Approved",
+        "color_mm8z4ket": "Featured Asset",
         "long_text_mm4kq322": "chype-network::1220cc3b5ad1ada1b7748a17414bf1473e2de0cf9dc7bc820be1cc441b78c0b15956",
         "color_mm4kpp3q": "Asset Issuer",
         "long_text_mm4khjn6": "23d169c2-0909-4c70-81d1-1922de6febaa::12200f8447ecc8401a605353fe10bcb1757c2e8491c8a7d7c62e8d557f486f11f6cc",
@@ -11367,6 +11455,7 @@ window.FEATURED_APP_BOARD_DATA = {
       "values": {
         "text_mm4k2vch": "Nuxaris LLC",
         "color_mm4kmej3": "4-No",
+        "color_mm8z4ket": "Featured Asset",
         "long_text_mm4kq322": "cbnb-admin::122065645666a14e30513626b92fd348b76fe0430557d08f68ac3e2beb37b407b3c9",
         "color_mm4kpp3q": "Asset Issuer",
         "long_text_mm4khjn6": "23d169c2-0909-4c70-81d1-1922de6febaa::12205b86a74fa127c03c3e73baa3cb1e4ab9ab6b56c3556fe01218251f65f0dc2c86. The 25M CC is locked on this party, separate from app activity, rewards and operational holdings, in line with CIP-0116.",
@@ -11397,6 +11486,7 @@ window.FEATURED_APP_BOARD_DATA = {
       "values": {
         "text_mm4k2vch": "ITRocket LLC",
         "color_mm4kmej3": "0-Locked+Needs Review",
+        "color_mm8z4ket": "Basic Featured App",
         "long_text_mm4kq322": "ITRocket-validator-1::12200ac965a56eff577aa6754516dbc0dd07265a0bf9361466c573e71ab7491ec369",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "23d169c2-0909-4c70-81d1-1922de6febaa::1220408191e246d8d4b125e8d6b67828c71e0c058fe430edf2c773d99c7c1091af07",
@@ -11429,6 +11519,7 @@ window.FEATURED_APP_BOARD_DATA = {
       "values": {
         "text_mm4k2vch": "Stable Coin Inc. (The Stable Coin Company)",
         "color_mm4kmej3": "2-Approved",
+        "color_mm8z4ket": "Featured Asset",
         "long_text_mm4kq322": "party-28dc4516-b5ca-44ff-86c7-2107e90a6807::1220b8301e18aa8a401d6e34e6c20f8b0243183c514373bca8f1b6b9270246341a9e",
         "color_mm4kpp3q": "Asset Issuer",
         "long_text_mm4khjn6": "brale-sbc-fa-lock::1220b8301e18aa8a401d6e34e6c20f8b0243183c514373bca8f1b6b9270246341a9e",
@@ -11490,6 +11581,7 @@ window.FEATURED_APP_BOARD_DATA = {
       "values": {
         "text_mm4k2vch": "Greywick Digital Limited",
         "color_mm4kmej3": "4-No",
+        "color_mm8z4ket": "Featured Asset",
         "long_text_mm4kq322": "greywick-cltc-issuer::12201a4d43ac9f609b10b45dce010d998141d24993fd0ea24fb0c2e593dcb47401d2",
         "color_mm4kpp3q": "Asset Issuer",
         "long_text_mm4khjn6": "12201::122011f3d9afe2c191758c5676b91f100423772b7de1c0568f08b252d18d72613310",
@@ -11517,6 +11609,7 @@ window.FEATURED_APP_BOARD_DATA = {
       "values": {
         "text_mm4k2vch": "Maouam Nodelab",
         "color_mm4kmej3": "0-Locked+Needs Review",
+        "color_mm8z4ket": "Basic Featured App",
         "long_text_mm4kq322": "fluvia-wallet::12206cd9dd2bb762d09590b47d1a810d3db3775028627f75212977f7d691ad5950be",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "23d169c2-0909-4c70-81d1-1922de6febaa::122008e7ee5c459f76433f560738cd4eb71e980f1e928ba46beba3553d464f7d7610",
@@ -11549,6 +11642,7 @@ window.FEATURED_APP_BOARD_DATA = {
       "values": {
         "text_mm4k2vch": "VN Capital",
         "color_mm4kmej3": "1-Needs Review",
+        "color_mm8z4ket": "Basic Featured App",
         "long_text_mm4kq322": "VNCapital-validator-1::122082ce1b4e75dd486b1e8749b9fb7f09a9d40af5c4686424b41da8a41d1a426c0c",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "We will lock through 7lock; everything is in place and the lock will be finalized as soon as the request to lock CC is made.",
@@ -11579,6 +11673,7 @@ window.FEATURED_APP_BOARD_DATA = {
       "values": {
         "text_mm4k2vch": "Efficient Frontier (Odyssey Technologies Limited)",
         "color_mm4kmej3": "1-Needs Review",
+        "color_mm8z4ket": "Basic Featured App",
         "long_text_mm4kq322": "efficientfrontiers-validator-1::12201bfe3629e3446e95c3c4daaa40cb49e61100c6f2a5af8fc56592c1dd43590a4a",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "efficientfrontiers-validator-1::12201bfe3629e3446e95c3c4daaa40cb49e61100c6f2a5af8fc56592c1dd43590a4a",
@@ -11603,7 +11698,7 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13460684786",
       "name": "USD1 - World Liberty Financial",
-      "updatedAt": "2026-11-18T16:51:43Z",
+      "updatedAt": "2026-11-19T17:51:34Z",
       "values": {
         "text_mm4k2vch": "World Liberty Financial",
         "color_mm4kmej3": "1-Needs Review",
@@ -11663,10 +11758,11 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13495071449",
       "name": "Supanova Launchpad - SUPANOVA CORP",
-      "updatedAt": "2026-11-19T14:52:22Z",
+      "updatedAt": "2026-11-19T20:44:58Z",
       "values": {
         "text_mm4k2vch": "SUPANOVA CORP",
-        "color_mm4kmej3": "1-Needs Review",
+        "color_mm4kmej3": "2-Approved",
+        "color_mm8z4ket": "Basic Featured App",
         "long_text_mm4kq322": "PAR::Supanova-validator-1::12205c9e7df3ce671bc5e285120cb6e4dfae5ee3029c04fa82f1cd828c5e7197d882",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "23d169c2-0909-4c70-81d1-1922de6febaa::1220fe4861a651e04c713d5c8507857f214013ecea916437c5b04e129716a8b83aa1",
@@ -11695,6 +11791,7 @@ window.FEATURED_APP_BOARD_DATA = {
       "values": {
         "text_mm4k2vch": "Cantumi",
         "color_mm4kmej3": "1-Needs Review",
+        "color_mm8z4ket": "Basic Featured App",
         "long_text_mm4kq322": "cantumi-validator-1::1220569a49ddd835810f0b692c9c2703e69c8fbe2b009646b1743fde66837612997b",
         "color_mm4kpp3q": "Non-Issuer",
         "long_text_mm4khjn6": "Cantumi is arranging the 5,000,000 CC locking requirement applicable to its proposed Basic Featured App designation. The dedicated locking Party ID and supporting lock evidence will be supplied as the arrangement is finalized and before the on-chain featuring process. The locking identity will be separate from the Featured App rewards identity, the operational validator, and other holdings. The required lock will need to be maintained in accordance with the applicable rules after designation. This application does not represent the lock as already completed.",
@@ -11721,10 +11818,10 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13521841119",
       "name": "Supanova - SUPANOVA CORP",
-      "updatedAt": "2026-11-19T00:01:55Z",
+      "updatedAt": "2026-11-19T20:44:36Z",
       "values": {
         "text_mm4k2vch": "SUPANOVA CORP",
-        "color_mm4kmej3": "0-Locked+Needs Review",
+        "color_mm4kmej3": "2-Approved",
         "long_text_mm4kq322": "supa-registrar::12205c9e7df3ce671bc5e285120cb6e4dfae5ee3029c04fa82f1cd828c5e7197d882",
         "color_mm4kpp3q": "Asset Issuer",
         "long_text_mm4khjn6": "23d169c2-0909-4c70-81d1-1922de6febaa::1220fe4861a651e04c713d5c8507857f214013ecea916437c5b04e129716a8b83aa1",
@@ -11749,10 +11846,11 @@ window.FEATURED_APP_BOARD_DATA = {
     {
       "id": "13559775267",
       "name": "Canton Foundation - CF Test App",
-      "updatedAt": "2026-11-19T14:51:20Z",
+      "updatedAt": "2026-11-19T21:51:16Z",
       "values": {
         "text_mm4k2vch": "testing app",
         "color_mm4kmej3": "0-Locked+Needs Review",
+        "color_mm8z4ket": "Featured Asset-Moving App",
         "long_text_mm4kq322": "validator-mainnet-1-2ef3455555gf35555555",
         "color_mm4kpp3q": "Asset Issuer",
         "long_text_mm4khjn6": "It will do a test on the new portal",
