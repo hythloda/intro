@@ -6,7 +6,10 @@ The daily `Sync Featured App Board` workflow imports approved public columns
 from Monday board `18420896395`. FA grouping uses the stable status column ID
 `color_mm4kmej3` (currently titled `FA Status`), not its display name. The export
 includes `statusColumnId` so the page can identify it after future renames.
-Other status columns, such as `DVP Status`, are not automatically made public.
+The public export also includes `FA Type` by its stable column ID
+`color_mm8z4ket`, so it appears in the table, column controls, search, and CSV
+export. Other status columns, such as `DVP Status`, are not automatically made
+public.
 
 If that column is replaced, verify the new column ID and set
 `FEATURED_APP_STATUS_COLUMN_ID` in the workflow environment. The sync fails

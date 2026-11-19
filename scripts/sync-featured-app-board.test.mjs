@@ -103,6 +103,27 @@ test("sync includes all pages and new labels without hard-coded status values", 
   ]);
 });
 
+for (const title of ["FA Type", "Renamed application type"]) {
+  test(`sync publishes the approved FA Type column titled ${title}`, async (t) => {
+    const typeId = "color_mm8z4ket";
+    const labels = ["Featured Asset-Moving App", "Basic Featured App", "Featured Asset", ""];
+    const items = labels.map((label, index) => {
+      const row = item(String(index + 1), "2-Approved");
+      row.column_values.push({ id: typeId, text: label, type: "status" });
+      return row;
+    });
+    const result = await runSync(t, responses([
+      statusColumn(), { id: typeId, title, type: "status" },
+    ], items.slice(0, 2), items.slice(2)));
+    assert.equal(result.status, 0, result.stderr);
+    assert.deepEqual(result.data.columns.map((column) => column.id), [statusId, typeId, "institution"]);
+    assert.equal(result.data.columns.find((column) => column.id === typeId).title, title);
+    assert.deepEqual(result.data.rows.map((row) => row.values[typeId] || ""), labels);
+    assert.equal(result.data.statusColumnId, statusId);
+    assert.doesNotMatch(result.source, /PRIVATE_TEST_VALUE|synthetic-test-token|DVP Status|Status Internal Notes/);
+  });
+}
+
 test("replacement column ID can be configured explicitly", async (t) => {
   const result = await runSync(t, responses([statusColumn("FA Status", "replacement")], [
     item("1", "2-Approved", "replacement"),

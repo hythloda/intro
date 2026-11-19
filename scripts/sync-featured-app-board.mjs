@@ -5,6 +5,8 @@ const MONDAY_API_URL = "https://api.monday.com/v2";
 const BOARD_ID = process.env.FEATURED_APP_BOARD_ID || "18420896395";
 // Column IDs survive title changes ("Status" was renamed to "FA Status").
 const STATUS_COLUMN_ID = process.env.FEATURED_APP_STATUS_COLUMN_ID || "color_mm4kmej3";
+// Explicitly approved for the public board; unrelated status columns stay private.
+const FA_TYPE_COLUMN_ID = "color_mm8z4ket";
 const TOKEN = process.env.MONDAY;
 const OUTPUT_PATH = path.join(process.cwd(), "assets", "featured-app-board-data.js");
 const PAGE_LIMIT = 500;
@@ -128,7 +130,9 @@ while (cursor) {
 }
 
 const publicColumns = board.columns
-  .filter((column) => column.id === statusColumn.id || isApprovedColumn(column.title))
+  .filter((column) => column.id === statusColumn.id
+    || column.id === FA_TYPE_COLUMN_ID
+    || isApprovedColumn(column.title))
   .map((column) => ({
     id: column.id,
     title: cleanText(column.title),
