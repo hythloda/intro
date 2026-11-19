@@ -1,5 +1,5 @@
 window.FEATURED_APP_PARTYID_CHANGES_DATA = {
-  "generatedAt": "2026-11-18T15:52:39.070Z",
+  "generatedAt": "2026-11-19T15:56:29.820Z",
   "columns": [
     {
       "id": "long_text_mm4kq322",
@@ -13,6 +13,42 @@ window.FEATURED_APP_PARTYID_CHANGES_DATA = {
     }
   ],
   "changes": [
+    {
+      "id": "89fcc2e7-88a5-445d-a22c-bdc835935b12",
+      "changedAt": "2026-11-19T13:00:57.251Z",
+      "itemName": "Supanova Launchpad - SUPANOVA CORP",
+      "itemId": "13495071449",
+      "field": "Locking PartyIDs",
+      "previousValue": "Lock will remain the same for Supanova. Already locked.",
+      "newValue": "23d169c2-0909-4c70-81d1-1922de6febaa::1220fe4861a651e04c713d5c8507857f214013ecea916437c5b04e129716a8b83aa1"
+    },
+    {
+      "id": "1d4f7a1e-8282-4cbb-b20a-c6f8e925e685",
+      "changedAt": "2026-11-19T00:06:20.430Z",
+      "itemName": "USYC - Circle",
+      "itemId": "12942533482",
+      "field": "Locking PartyIDs",
+      "previousValue": "circle-validator-1::12203e481739809d9e69b31edbc5fb436741bfee5254766bd24acacda6ceae364582",
+      "newValue": "circle-validator-1::12203e481739809d9e69b31edbc5fb436741bfee5254766bd24acacda6ceae364582, 1220f432ce8f5c50f5a6fbee34352b5c08f991015fdb83b53be1c4e22955c0e3fcb1::1220ecc21d236830e71fd395ce7b99958bdea286052b12250b711703475028a66197"
+    },
+    {
+      "id": "56de0fc4-ec51-4427-bf2b-29b4ecbf3f3b",
+      "changedAt": "2026-11-18T23:54:23.796Z",
+      "itemName": "Hashnote",
+      "itemId": "12467777690",
+      "field": "Locking PartyIDs",
+      "previousValue": "",
+      "newValue": "circle-validator-1::12203e481739809d9e69b31edbc5fb436741bfee5254766bd24acacda6ceae364582, 1220f432ce8f5c50f5a6fbee34352b5c08f991015fdb83b53be1c4e22955c0e3fcb1::1220ecc21d236830e71fd395ce7b99958bdea286052b12250b711703475028a66197"
+    },
+    {
+      "id": "d215ca2b-a7c6-4519-bc38-af0527874e4f",
+      "changedAt": "2026-11-18T21:57:32.614Z",
+      "itemName": "Supanova - SUPANOVA CORP",
+      "itemId": "13521841119",
+      "field": "Locking PartyIDs",
+      "previousValue": "We can get the lock from Cashen / Canton Strategic holdings quite quickly.",
+      "newValue": "23d169c2-0909-4c70-81d1-1922de6febaa::1220fe4861a651e04c713d5c8507857f214013ecea916437c5b04e129716a8b83aa1"
+    },
     {
       "id": "33fe793b-fcce-477e-956f-24ace8cdf719",
       "changedAt": "2026-11-17T17:19:13.940Z",
@@ -156,42 +192,6 @@ window.FEATURED_APP_PARTYID_CHANGES_DATA = {
       "field": "Locking PartyIDs",
       "previousValue": "Cumberland SV LLC (Cumberland SV LLC), final PartyID is to be confirmed after Locking is finalized (Cashen deal is finalized)",
       "newValue": "12201::122011f3d9afe2c191758c5676b91f100423772b7de1c0568f08b252d18d72613310"
-    },
-    {
-      "id": "05b433c3-7386-40a7-9dbb-4de8e72cf846",
-      "changedAt": "2026-10-27T17:08:25.930Z",
-      "itemName": "Grofty Dex - Grofty Labs",
-      "itemId": "13332634664",
-      "field": "Locking PartyIDs",
-      "previousValue": "TBA",
-      "newValue": "23d169c2-0909-4c70-81d1-1922de6febaa::122004146d19fc36c86633aeaa7bf9b32672c0d3e127aec565f82024793efc484179"
-    },
-    {
-      "id": "3341c293-e29b-4607-a302-47db9eee58ce",
-      "changedAt": "2026-10-27T13:46:52.683Z",
-      "itemName": "Fluvia Wallet - Maouam Nodelab",
-      "itemId": "13374874349",
-      "field": "Locking PartyIDs",
-      "previousValue": "TBA",
-      "newValue": "23d169c2-0909-4c70-81d1-1922de6febaa::122008e7ee5c459f76433f560738cd4eb71e980f1e928ba46beba3553d464f7d7610"
-    },
-    {
-      "id": "b23d3856-e710-4ca1-b1b2-e3b6886e87a8",
-      "changedAt": "2026-10-22T13:15:48.205Z",
-      "itemName": "VeriGift Fund",
-      "itemId": "12467857212",
-      "field": "Locking PartyIDs",
-      "previousValue": "fffe77ac879146b7be4a9d663ca1b987::1220659e04f048f751d2b537f6a7de6f7e6097386053ef2208c9f6e706ffb84643d2",
-      "newValue": "ldg::122098cd570f115b3adfd288dc2de67947af18d458dd6592aac04b3d25b0a5384f5f"
-    },
-    {
-      "id": "f3abe3a2-b10e-4f62-ba7a-4570ee1148ff",
-      "changedAt": "2026-10-19T18:23:38.859Z",
-      "itemName": "canpay",
-      "itemId": "12467854326",
-      "field": "Locking PartyIDs",
-      "previousValue": "f01f786e5ec7676d491e17e151218946::12203f1f26f2994ce6e06c49a319e7804e22d830bfb51addc85943ba669035b57110",
-      "newValue": "ldg::1220de78c632a63c553feb58fa08a3172f3a324e3a27e7736089e5145d455194cec5"
     }
   ]
 };
