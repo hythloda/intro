@@ -1,5 +1,5 @@
 window.FEATURED_APP_PARTYID_CHANGES_DATA = {
-  "generatedAt": "2026-11-19T15:56:29.820Z",
+  "generatedAt": "2026-11-20T15:39:39.086Z",
   "columns": [
     {
       "id": "long_text_mm4kq322",
@@ -13,6 +13,15 @@ window.FEATURED_APP_PARTYID_CHANGES_DATA = {
     }
   ],
   "changes": [
+    {
+      "id": "dbe6e3e8-2629-47b1-9136-f0fbcbb27686",
+      "changedAt": "2026-11-19T20:43:36.824Z",
+      "itemName": "Rapid Chain - Rapid Blockchain Technologies Ltd.",
+      "itemId": "12954184948",
+      "field": "Locking PartyIDs",
+      "previousValue": "",
+      "newValue": "23d169c2-0909-4c70-81d1-1922de6febaa::1220f7a9536dd3ac943688bff534eb25b28046b6660b1f579d2d0d0037dacc96dcac"
+    },
     {
       "id": "89fcc2e7-88a5-445d-a22c-bdc835935b12",
       "changedAt": "2026-11-19T13:00:57.251Z",
@@ -183,15 +192,6 @@ window.FEATURED_APP_PARTYID_CHANGES_DATA = {
       "field": "Locking PartyIDs",
       "previousValue": "",
       "newValue": "23d169c2-0909-4c70-81d1-1922de6febaa::1220f7a9536dd3ac943688bff534eb25b28046b6660b1f579d2d0d0037dacc96dcac"
-    },
-    {
-      "id": "ee858254-9f68-4477-9e2a-7bdc9c720557",
-      "changedAt": "2026-10-27T17:28:05.236Z",
-      "itemName": "cLTC (Litecoin on Canton) - Greywick Digital Limited",
-      "itemId": "13374832376",
-      "field": "Locking PartyIDs",
-      "previousValue": "Cumberland SV LLC (Cumberland SV LLC), final PartyID is to be confirmed after Locking is finalized (Cashen deal is finalized)",
-      "newValue": "12201::122011f3d9afe2c191758c5676b91f100423772b7de1c0568f08b252d18d72613310"
     }
   ]
 };
