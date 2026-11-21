@@ -1,5 +1,5 @@
 window.FEATURED_APP_PARTYID_CHANGES_DATA = {
-  "generatedAt": "2026-11-20T15:39:39.086Z",
+  "generatedAt": "2026-11-21T14:49:56.159Z",
   "columns": [
     {
       "id": "long_text_mm4kq322",
@@ -13,6 +13,69 @@ window.FEATURED_APP_PARTYID_CHANGES_DATA = {
     }
   ],
   "changes": [
+    {
+      "id": "f7f56cda-ce77-4b27-b380-65e8558729ce",
+      "changedAt": "2026-11-20T21:26:37.423Z",
+      "itemName": "Stable Coin (SBC) - Stable Coin Inc. (The Stable Coin Company)",
+      "itemId": "13284289393",
+      "field": "Locking PartyIDs",
+      "previousValue": "brale-sbc-fa-lock::1220b8301e18aa8a401d6e34e6c20f8b0243183c514373bca8f1b6b9270246341a9e",
+      "newValue": "unlock started Nov 20, 2026"
+    },
+    {
+      "id": "9b8d9965-fb95-4bbd-826b-3078a82aed24",
+      "changedAt": "2026-11-20T21:26:13.267Z",
+      "itemName": "Brale - USDA",
+      "itemId": "12611357082",
+      "field": "Party ID for the Featured Application:",
+      "previousValue": "",
+      "newValue": "party-66a55c52-4871-423d-aa7c-a06c51c1b785::1220b8301e18aa8a401d6e34e6c20f8b0243183c514373bca8f1b6b9270246341a9e"
+    },
+    {
+      "id": "46a8d008-82e4-47a5-83d0-58784460a5f7",
+      "changedAt": "2026-11-20T20:19:41.758Z",
+      "itemName": "Canal - Ice Labs",
+      "itemId": "13189277788",
+      "field": "Locking PartyIDs",
+      "previousValue": "1220d::1220d62580526d31f3a7067c5c7415db18005fd179e8d8684fe9dd1df73953af13ee",
+      "newValue": "1220d::1220d6988f4616ec37e2ae425a537b0efee7aa2772c4f9ec4f281fed9e424d9afa70"
+    },
+    {
+      "id": "4aa95756-68d8-46e8-a049-925c53524463",
+      "changedAt": "2026-11-20T20:19:29.687Z",
+      "itemName": "Sanctum",
+      "itemId": "12467854319",
+      "field": "Locking PartyIDs",
+      "previousValue": "12201::1220174aa61a07cfab22a638c3a0383805f15c4b2399541767ff311bfca041228ce8",
+      "newValue": "12204::1220459705843afb5b0a1fed5241471e3cd5c117bf4e6bf8d61311e3d6d3fae9130a"
+    },
+    {
+      "id": "90df23fd-0bf0-4dfb-b395-3dfcbc0ee9ef",
+      "changedAt": "2026-11-20T20:19:16.466Z",
+      "itemName": "Kairo",
+      "itemId": "12467834277",
+      "field": "Locking PartyIDs",
+      "previousValue": "12205::1220507fd785bccd74952cc15084516b881013966da87cbe3c854d92ed247e28831c",
+      "newValue": "12206::122061e2db42a5f14424aa6b5e19271b394678b18fde58e7bf7cd09537bc0a208861"
+    },
+    {
+      "id": "5e11d97e-fed1-4ae4-a967-27a95e4deecd",
+      "changedAt": "2026-11-20T18:37:06.198Z",
+      "itemName": "Obligate issuer",
+      "itemId": "12467825392",
+      "field": "Locking PartyIDs",
+      "previousValue": "23d169c2-0909-4c70-81d1-1922de6febaa::1220a4ceae84ff86d3f9a01f18b78327c42e5f6e49ac23271bd42c218e3e6b32b3ec",
+      "newValue": ""
+    },
+    {
+      "id": "25e9a515-9d8a-4a8e-83b4-0c7e6f3bb5c3",
+      "changedAt": "2026-11-20T18:37:03.986Z",
+      "itemName": "Obligate",
+      "itemId": "12467777742",
+      "field": "Locking PartyIDs",
+      "previousValue": "23d169c2-0909-4c70-81d1-1922de6febaa::122038dd59006d0164e2e9914b81b1c8fbfc5de65d949630d8ff7fcd107809144979",
+      "newValue": ""
+    },
     {
       "id": "dbe6e3e8-2629-47b1-9136-f0fbcbb27686",
       "changedAt": "2026-11-19T20:43:36.824Z",
@@ -129,69 +192,6 @@ window.FEATURED_APP_PARTYID_CHANGES_DATA = {
       "field": "Locking PartyIDs",
       "previousValue": "12201::122010da7e412c4418196b20861dcc796d334f263c5ce16bd550e59a6bc5183047f8",
       "newValue": ""
-    },
-    {
-      "id": "ed57f523-38a8-4e39-869e-fd7492df440e",
-      "changedAt": "2026-11-09T14:17:40.054Z",
-      "itemName": "Nexode",
-      "itemId": "12467804368",
-      "field": "Locking PartyIDs",
-      "previousValue": "23d169c2-0909-4c70-81d1-1922de6febaa::1220f57865147cd7795b83378e0baac918519107fa07724facd823ce97b1ad64ff6e",
-      "newValue": "nexode-lock::12208428f54ef01a64f520dc586a3876f8316b03f1ec40b3764142de89dc5d34acb9"
-    },
-    {
-      "id": "406c0842-7e8b-46fa-bad3-74437eaf473e",
-      "changedAt": "2026-11-05T14:10:44.545Z",
-      "itemName": "Stable Coin (SBC) - Stable Coin Inc. (The Stable Coin Company)",
-      "itemId": "13284289393",
-      "field": "Party ID for the Featured Application:",
-      "previousValue": "f29bdd7a-1469-498a-ba2a-796bf5387b31 (token ID)",
-      "newValue": "party-28dc4516-b5ca-44ff-86c7-2107e90a6807::1220b8301e18aa8a401d6e34e6c20f8b0243183c514373bca8f1b6b9270246341a9e"
-    },
-    {
-      "id": "a54a9f1a-c790-4c8d-be7b-82bec2a15759",
-      "changedAt": "2026-11-04T13:54:20.352Z",
-      "itemName": "Tori Finance (trUSD and strUSD) - Tori (BVI) Ltd.",
-      "itemId": "13392344761",
-      "field": "Locking PartyIDs",
-      "previousValue": "1220b64e93db2a4d51b303309700e81776e67c115cf66b80b96fc43f7a8c09506af6::1220aa871b0fb2910f78c143b33909cb66dc41d34ef3df1c04b169517b4fd0a7a209",
-      "newValue": "DA lock (25M CC): 1220b64e93db2a4d51b303309700e81776e67c115cf66b80b96fc43f7a8c09506af6::1220aa871b0fb2910f78c143b33909cb66dc41d34ef3df1c04b169517b4fd0a7a209 Tori (BVI) FA locking wallet (empty for now): 0c33a821::1220ff823b0ceebbad7eae6c0784fd674e1b8ca1f5c371fa2a2a175d3e4d2364fe32"
-    },
-    {
-      "id": "9346b1f0-95d5-4bab-8412-ff2dbb278f6f",
-      "changedAt": "2026-11-03T19:59:36.160Z",
-      "itemName": "Asset Relayer",
-      "itemId": "12467789131",
-      "field": "Party ID for the Featured Application:",
-      "previousValue": "asset-relayer::1220f1b0d7a83c7eaaf6d712d95d5952ea2c801238af9c342e8d83c87dfc45c999dc",
-      "newValue": "asset-relayer::12205c6f31e4d6205df9d51dc6bec6a6c842d0f0adf20b47d9655e617a2f46ce9bb1"
-    },
-    {
-      "id": "8cac45c4-7709-447c-8813-b683942435fe",
-      "changedAt": "2026-11-03T19:43:44.225Z",
-      "itemName": "Send Wallet",
-      "itemId": "12467804380",
-      "field": "Party ID for the Featured Application:",
-      "previousValue": "send-cantonwallet-1::1220f1b0d7a83c7eaaf6d712d95d5952ea2c801238af9c342e8d83c87dfc45c999dc",
-      "newValue": "send-mainnet-1::12203aebedaea4b82fe78c5f1f641bf9a61037825b7188256de307a30ac31bcaa0f8"
-    },
-    {
-      "id": "f8b658ca-508f-414c-89ce-bb9de99818d7",
-      "changedAt": "2026-11-02T17:48:08.036Z",
-      "itemName": "OS Ledger - Outersunset",
-      "itemId": "12974668475",
-      "field": "Locking PartyIDs",
-      "previousValue": "OSLedger-falocked::1220f1cd2f9ef6f966d492813215f34cf048a559d25d750b44c095c17fbf96afff64",
-      "newValue": "12202::122027e88aed136fa4a4959dea9caba3ac6dfb2e4ad6058d350f89ee77c66dcc890a"
-    },
-    {
-      "id": "5e599597-f414-49c7-858d-f84f9e425e7d",
-      "changedAt": "2026-10-29T15:41:10.080Z",
-      "itemName": "Rapid Chain - Rapid Blockchain Technologies Ltd.",
-      "itemId": "12954184948",
-      "field": "Locking PartyIDs",
-      "previousValue": "",
-      "newValue": "23d169c2-0909-4c70-81d1-1922de6febaa::1220f7a9536dd3ac943688bff534eb25b28046b6660b1f579d2d0d0037dacc96dcac"
     }
   ]
 };
