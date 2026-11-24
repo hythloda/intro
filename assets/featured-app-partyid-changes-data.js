@@ -1,5 +1,5 @@
 window.FEATURED_APP_PARTYID_CHANGES_DATA = {
-  "generatedAt": "2026-11-23T18:33:35.235Z",
+  "generatedAt": "2026-11-24T18:01:27.124Z",
   "columns": [
     {
       "id": "long_text_mm4kq322",
@@ -13,6 +13,33 @@ window.FEATURED_APP_PARTYID_CHANGES_DATA = {
     }
   ],
   "changes": [
+    {
+      "id": "d9ceb633-a2af-4dd9-b404-a74ac637af70",
+      "changedAt": "2026-11-24T17:14:36.223Z",
+      "itemName": "Brale",
+      "itemId": "12467825394",
+      "field": "Party ID for the Featured Application:",
+      "previousValue": "party-28dc4516-b5ca-44ff-86c7-2107e90a6807::1220b8301e18aa8a401d6e34e6c20f8b0243183c514373bca8f1b6b9270246341a9e",
+      "newValue": "party-66a55c52-4871-423d-aa7c-a06c51c1b785::1220b8301e18aa8a401d6e34e6c20f8b0243183c514373bca8f1b6b9270246341a9e"
+    },
+    {
+      "id": "7f9ed8f2-c23e-4166-9bc7-4da04fde8228",
+      "changedAt": "2026-11-24T12:56:28.024Z",
+      "itemName": "Cantumi - Cantumi",
+      "itemId": "13500835544",
+      "field": "Locking PartyIDs",
+      "previousValue": "Cantumi is arranging the 5,000,000 CC locking requirement applicable to its proposed Basic Featured App designation. The dedicated locking Party ID and supporting lock evidence will be supplied as the arrangement is finalized and before the on-chain featuring process. The locking identity will be separate from the Featured App rewards identity, the operational validator, and other holdings. The required lock will need to be maintained in accordance with the applicable rules after designation. This application does not represent the lock as already completed.",
+      "newValue": "23d169c2-0909-4c70-81d1-1922de6febaa::1220a21a6af73d1abae1c248d217711553fc1d3ced499f3724fa7103dd67d02c3bf9"
+    },
+    {
+      "id": "cd2b7e43-f065-4267-8d25-1d35d70f581f",
+      "changedAt": "2026-11-23T22:23:45.247Z",
+      "itemName": "USD1 - World Liberty Financial",
+      "itemId": "13460684786",
+      "field": "Locking PartyIDs",
+      "previousValue": "World Liberty Financial will confirm",
+      "newValue": "Aki says Bitgo locked for them"
+    },
     {
       "id": "f7f56cda-ce77-4b27-b380-65e8558729ce",
       "changedAt": "2026-11-20T21:26:37.423Z",
@@ -165,33 +192,6 @@ window.FEATURED_APP_PARTYID_CHANGES_DATA = {
       "field": "Party ID for the Featured Application:",
       "previousValue": "2d781524-5d36-450d-8ba7-183868bdbee0::12202eacbd060e2e22ab198cb9f337ccfe049e16a90968576e15b8bab4317cf17259",
       "newValue": "2d781524-5d36-450d-8ba7-183868bdbee0::12202eacbd060e2e22ab198cb9f337ccfe049e16a90968576e15b8bab4317cf17259, 1220f432ce8f5c50f5a6fbee34352b5c08f991015fdb83b53be1c4e22955c0e3fcb1::1220ecc21d236830e71fd395ce7b99958bdea286052b12250b711703475028a66197"
-    },
-    {
-      "id": "424ecaa9-542f-4677-9d13-0d6abc36c891",
-      "changedAt": "2026-11-09T21:52:22.386Z",
-      "itemName": "Interstice Cross-Chain Swap Engine",
-      "itemId": "12467847772",
-      "field": "Locking PartyIDs",
-      "previousValue": "23d169c2-0909-4c70-81d1-1922de6febaa::1220d0a4313995ba55874231e6d68f460e901b315f66048606e6f39096016021f78b",
-      "newValue": ""
-    },
-    {
-      "id": "d7bc1658-a19b-465b-811f-0c5b8364ba18",
-      "changedAt": "2026-11-09T19:18:51.568Z",
-      "itemName": "Wintip - Winsnip",
-      "itemId": "12964664349",
-      "field": "Locking PartyIDs",
-      "previousValue": "23d169c2-0909-4c70-81d1-1922de6febaa::1220d1c5d679db4268b3587ff465d4e75ae2cba0294af6eacd788dae34ab3bfaad38",
-      "newValue": ""
-    },
-    {
-      "id": "19cadf26-d448-43c1-9881-da75c837855f",
-      "changedAt": "2026-11-09T19:17:22.655Z",
-      "itemName": "Mexc",
-      "itemId": "12467810750",
-      "field": "Locking PartyIDs",
-      "previousValue": "12201::122010da7e412c4418196b20861dcc796d334f263c5ce16bd550e59a6bc5183047f8",
-      "newValue": ""
     }
   ]
 };
